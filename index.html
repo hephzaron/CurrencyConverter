@@ -1,1 +1,51 @@
-Hello books
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewpoint" content="width=device-width,initial-scale=1">
+  <!--Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags-->
+  <title>Currency Converter</title>
+
+</head>
+
+<body>
+  <div>
+    <h3 class="text-center">Currency Converter</h3>
+  </div>
+  <br/>
+  <div class="row">
+    <form>
+      <div class="col-xs-6">
+        <h4 class="text-center">1 currency_from = currency_to</h4>
+        <select class="form-control input-lg">
+            <option>1st select</option>
+            <option>2nd select</option>
+          </select>
+        <input type="text" class="form-control input-lg" placeholder="currency_symbol_from">
+      </div>
+      <div class="col-xs-6">
+        <h4 class="text-center">1 currency_to = currency_from</h4>
+        <select class="form-control input-lg">
+            <option>1st select</option>
+            <option>2nd select</option>
+          </select>
+        <input type="text" class="form-control input-lg" placeholder="currency_symbol_to">
+      </div>
+    </form>
+  </div>
+  <br/>
+  <div id="currency-plot" class="row">
+    GRAPH
+  </div>
+  <script src="js/utils/bootstrap.min.js" type="text/javascript"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="js/utils/jquery-1.8.0.min.js" type="text/javascript"></script>
+  <script src="js/utils/ie10-viewport-bug-workaround.js" type="text/javascript"></script>
+</body>
+
+</html>
