@@ -5,6 +5,7 @@ var watchify = require('watchify');
 var source = require('vinyl-source-stream');
 var runSequence = require('run-sequence');
 var buffer = require('vinyl-buffer');
+var minifyjs = require('gulp-js-minify');
 var mergeStream = require('merge-stream');
 var del = require('del');
 var plugins = require('gulp-load-plugins')({ lazy: false });
@@ -54,14 +55,15 @@ function bundle(b, outputPath) {
     .on('error', plugins.util.log.bind(plugins.util, 'Browserify Error'))
     .pipe(source(outputFile))
     .pipe(buffer())
+    .pipe(minifyjs())
     .pipe(plugins.sourcemaps.init({ loadMaps: true }))
     .pipe(plugins.sourcemaps.write('./'))
-    .pipe(gulp.dest('build/public' + outputDir));
+    .pipe(gulp.dest('build' + outputDir));
 }
 
 var jsBundles = {
-  'js/main/index.js': createBundle('./public/js/main/index.js'),
-  'js/sw.js': createBundle('./public/js/sw.js')
+  'main.js': createBundle('main.js'),
+  'sw.js': createBundle('sw.js')
 }
 
 
@@ -74,7 +76,7 @@ gulp.task('js:browser', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch(['public/**/*.js'], ['js:browser']);
+  gulp.watch(['*.js'], ['js:browser']);
   gulp.watch(['public/imgs/**/*', 'public/css/**/*', 'public/js/utils/*'], ['copy']);
 
   Object.keys(jsBundles).forEach(function(key) {
