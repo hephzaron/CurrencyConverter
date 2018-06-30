@@ -1,5 +1,5 @@
 const cacheBasename = 'convert-currency';
-const cacheVersion = 'v1';
+const cacheVersion = 'v2';
 const appCahe = `${cacheBasename}-${cacheVersion}`
 
 const repo = '/CurrencyConverter';
@@ -17,7 +17,7 @@ const pageSkeleton = [
 
 self.addEventListener('install', function(event) {
   event.waitUntil(
-    caches.open('convert-currency-v1').then(function(cache) {
+    caches.open(appCahe).then(function(cache) {
       return cache.addAll(pageSkeleton)
     })
   )
