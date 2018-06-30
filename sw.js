@@ -1,5 +1,4 @@
 const staticCacheName = 'convert-currency-v1';
-const webContentCache = 'web-content-v1';
 const repo = '/CurrencyConverter';
 
 const pageSkeleton = [
@@ -21,20 +20,25 @@ self.addEventListener('install', function(event) {
   )
 });
 
-/**self.addEventListener('activate', function(event) {
+self.addEventListener('activate', function(event) {
   event.waitUntil(
     caches.keys().then(function(cacheNames) {
+      const whiteList = cacheNames.filter(
+        function(cacheName) {
+          return cacheName.indexOf('convert-currency')
+        }
+      )
+      whiteList.push(staticCacheName);
       return Promise.all(
-        cacheNames.filter(function(cacheName) {
-          return cacheName === staticCacheName
-        })
-        .map(function(cacheName) {
-          return caches.delete(cacheName)
+        cacheNames.map(function(key, i) {
+          if (whiteList.indexOf(key) === -1) {
+            return caches.delete(cacheNames[i])
+          }
         })
       )
     })
   )
-})**/
+})
 
 self.addEventListener('fetch', function(event) {
   event.respondWith(
