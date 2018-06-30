@@ -5,6 +5,7 @@ const appCahe = `${cacheBasename}-${cacheVersion}`
 const repo = '/CurrencyConverter';
 
 const pageSkeleton = [
+  `${repo}/`
   `${repo}/build/public/css/bootstrap.min.css`,
   `${repo}/build/public/css/style.css`,
   `${repo}/build/public/js/utils/jquery-3.2.1.min.js`,
