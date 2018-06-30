@@ -1,6 +1,8 @@
 if (navigator.serviceWorker) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js')
+    navigator.serviceWorker.register('/CurrencyConverter/sw.js', {
+        scope: '/CurrencyConverter/'
+      })
       .then((registration) => {
         console.log('ServiceWorker registration successful with scope: ', registration.scope)
       }, (error) => {
