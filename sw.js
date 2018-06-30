@@ -19,7 +19,7 @@ self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(appCahe).then(function(cache) {
       return cache.addAll(pageSkeleton)
-    }).then(() => self.skipWaiting());
+    }).then(function() { return self.skipWaiting() })
   )
 });
 
