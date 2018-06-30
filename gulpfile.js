@@ -62,7 +62,7 @@ function bundle(b, outputPath) {
 }
 
 var jsBundles = {
-  'main.js': createBundle('main.js'),
+  '/public/js/main.js': createBundle('./public/js/main.js'),
   'sw.js': createBundle('sw.js')
 }
 

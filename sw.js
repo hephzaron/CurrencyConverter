@@ -1,5 +1,5 @@
 const cacheBasename = 'convert-currency';
-const cacheVersion = 'v2';
+const cacheVersion = 'v1';
 const appCahe = `${cacheBasename}-${cacheVersion}`
 
 const repo = '/CurrencyConverter';
@@ -50,8 +50,6 @@ self.addEventListener('fetch', function(event) {
     event.request.mode !== 'same-origin') {
     return;
   };
-
-  console.log(event.request.url);
   event.respondWith(
     caches.match(event.request)
     .then(function(response) {
