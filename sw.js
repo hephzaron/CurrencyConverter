@@ -44,6 +44,12 @@ self.addEventListener('activate', function(event) {
 })
 
 self.addEventListener('fetch', function(event) {
+  //fix only-if-cached bug
+  if (event.request.cache === 'only-if-cached' &&
+    event.request.mode !== 'same-origin') {
+    return;
+  };
+
   event.respondWith(
     caches.match(event.request)
     .then(function(response) {
