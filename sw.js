@@ -1,14 +1,16 @@
 const staticCacheName = 'convert-currency-v1';
 const webContentCache = 'web-content-v1';
+const repo = '/CurrencyConverter';
+
 const pageSkeleton = [
-  '/build/public/css/bootstrap.min.css',
-  '/build/public/css/style.css',
-  '/build/public/js/utils/jquery-3.2.1.min.js',
-  '/build/public/js/utils/bootstrap.min.js',
-  '/build/public/js/utils/ie-emulation-modes-warning.js',
-  '/build/public/js/utils/ie10-viewport-bug-workaround.js',
-  '/build/main.js',
-  '/index.html'
+  `${repo}/build/public/css/bootstrap.min.css`,
+  `${repo}/build/public/css/style.css`,
+  `${repo}/build/public/js/utils/jquery-3.2.1.min.js`,
+  `${repo}/build/public/js/utils/bootstrap.min.js`,
+  `${repo}/build/public/js/utils/ie-emulation-modes-warning.js`,
+  `${repo}/build/public/js/utils/ie10-viewport-bug-workaround.js`,
+  `${repo}/build/main.js`,
+  `${repo}/index.html`
 ]
 
 self.addEventListener('install', function(event) {
