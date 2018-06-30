@@ -1,0 +1,10 @@
+body {
+  padding: 20px
+}
+
+#currency-plot {
+  margin: auto;
+  width: 400px;
+  height: 200px;
+  background-color: rgb(71, 71, 150)
+}
