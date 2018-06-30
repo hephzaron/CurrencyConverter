@@ -1,4 +1,7 @@
-const staticCacheName = 'convert-currency-v1';
+const cacheBasename = 'convert-currency';
+const cacheVersion = 'v1';
+const appCahe = `${cacheBasename}-${cacheVersion}`
+
 const repo = '/CurrencyConverter';
 
 const pageSkeleton = [
@@ -25,10 +28,10 @@ self.addEventListener('activate', function(event) {
     caches.keys().then(function(cacheNames) {
       const whiteList = cacheNames.filter(
         function(cacheName) {
-          return cacheName.indexOf('convert-currency')
+          return cacheName.indexOf(cacheBasename)
         }
       )
-      whiteList.push(staticCacheName);
+      whiteList.push(appCahe);
       return Promise.all(
         cacheNames.map(function(key, i) {
           if (whiteList.indexOf(key) === -1) {
