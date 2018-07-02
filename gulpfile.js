@@ -58,12 +58,14 @@ function bundle(b, outputPath) {
     .pipe(minifyjs())
     .pipe(plugins.sourcemaps.init({ loadMaps: true }))
     .pipe(plugins.sourcemaps.write('./'))
-    .pipe(gulp.dest('build' + outputDir));
+    .pipe(gulp.dest(outputDir));
 }
 
 var jsBundles = {
-  '/public/js/main.js': createBundle('./public/js/main.js'),
-  'sw.js': createBundle('sw.js')
+  'build/public/js/main.js': createBundle('./public/js/main.js'),
+  'build/public/js/vendor.js': createBundle('./public/js/vendor.js'),
+  'build/public/js/store.js': createBundle('./public/js/store.js'),
+  'serviceWorker.js': createBundle('sw.js')
 }
 
 
