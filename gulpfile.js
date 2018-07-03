@@ -65,7 +65,7 @@ var jsBundles = {
   'build/public/js/main.js': createBundle('./public/js/main.js'),
   'build/public/js/vendor.js': createBundle('./public/js/vendor.js'),
   'build/public/js/store.js': createBundle('./public/js/store.js'),
-  'serviceWorker.js': createBundle('sw.js')
+  'sw.js': createBundle('serviceWorker.js')
 }
 
 
@@ -89,6 +89,6 @@ gulp.task('watch', function() {
   });
 });
 
-gulp.task('serve', function(callback) {
+gulp.task('build', function(callback) {
   runSequence('clean', ['js:browser', 'copy'], 'watch', callback);
 });

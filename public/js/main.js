@@ -1,6 +1,6 @@
 if (navigator.serviceWorker) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/serviceWorker.js', {
+    navigator.serviceWorker.register('/sw.js', {
         scope: '/'
       })
       .then((registration) => {

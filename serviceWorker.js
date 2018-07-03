@@ -1,3 +1,121 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('(5(){5 r(e,n,t){5 o(i,f){9(!n[i]){9(!e[i]){6 c="5"==2C J&&J;9(!f&&c)7 c(i,!0);9(u)7 u(i,!0);6 a=j 3Z("3f 52 V \'"+i+"\'");3g a.51="50",a}6 p=n[i]={h:{}};e[i][0].2w(p.h,5(r){6 n=e[i][1][r];7 o(n||r)},p,p.h,r,e,n,t)}7 n[i].h}3J(6 u="5"==2C J&&J,i=0;i<t.1W;i++)o(t[i]);7 o}7 r})()({1:[5(J,V,h){\'1Z 1X\';(5(){5 3e(3B){7 4Z.m.37.2w(3B)}5 2R(b){7 j 1f(5(K,1a){b.2a=5(){K(b.2m)};b.29=5(){1a(b.19)}})}5 1O(L,1y,N){6 b;6 p=j 1f(5(K,1a){b=L[1y].W(L,N);2R(b).g(K,1a)});p.b=b;7 p}5 3H(L,1y,N){6 p=1O(L,1y,N);7 p.g(5(z){9(!z)7;7 j 1i(z,p.b)})}5 1c(15,O,17){17.F(5(y){1T.1S(15.m,y,{2N:5(){7 8[O][y]},4X:5(3K){8[O][y]=3K}})})}5 23(15,O,x,17){17.F(5(y){9(!(y 1m x.m))7;15.m[y]=5(){7 1O(8[O],y,P)}})}5 1L(15,O,x,17){17.F(5(y){9(!(y 1m x.m))7;15.m[y]=5(){7 8[O][y].W(8[O],P)}})}5 2M(15,O,x,17){17.F(5(y){9(!(y 1m x.m))7;15.m[y]=5(){7 3H(8[O],y,P)}})}5 Y(1I){8.1v=1I}1c(Y,\'1v\',[\'16\',\'3w\',\'4Q\',\'4P\']);23(Y,\'1v\',3E,[\'2N\',\'3t\',\'1n\',\'3s\',\'1A\']);2M(Y,\'1v\',3E,[\'2D\',\'2g\']);5 1i(H,b){8.1r=H;8.2P=b}1c(1i,\'1r\',[\'4N\',\'13\',\'4M\',\'z\']);23(1i,\'1r\',3D,[\'4L\',\'26\']);[\'4K\',\'2Z\',\'4J\'].F(5(1P){9(!(1P 1m 3D.m))7;1i.m[1P]=5(){6 H=8;6 N=P;7 1f.K().g(5(){H.1r[1P].W(H.1r,N);7 2R(H.2P).g(5(z){9(!z)7;7 j 1i(z,H.2P)})})}});5 I(25){8.A=25}I.m.3x=5(){7 j Y(8.A.3x.W(8.A,P))};I.m.1I=5(){7 j Y(8.A.1I.W(8.A,P))};1c(I,\'A\',[\'16\',\'3w\',\'4A\',\'4z\']);23(I,\'A\',2L,[\'1p\',\'4x\',\'26\',\'2n\',\'2N\',\'1n\',\'3t\',\'3s\',\'1A\']);2M(I,\'A\',2L,[\'2D\',\'2g\']);1L(I,\'A\',2L,[\'4r\']);5 1e(1b){8.1C=1b;8.1u=j 1f(5(K,1a){1b.4q=5(){K()};1b.29=5(){1a(1b.19)};1b.4p=5(){1a(1b.19)}})}1e.m.Q=5(){7 j I(8.1C.Q.W(8.1C,P))};1c(1e,\'1C\',[\'1F\',\'3C\']);1L(1e,\'1C\',4l,[\'4k\']);5 1M(d,2c,B){8.M=d;8.2c=2c;8.B=j 1e(B)}1M.m.21=5(){7 j I(8.M.21.W(8.M,P))};1c(1M,\'M\',[\'16\',\'20\',\'1F\']);1L(1M,\'M\',3i,[\'4j\',\'3h\']);5 1N(d){8.M=d}1N.m.B=5(){7 j 1e(8.M.B.W(8.M,P))};1c(1N,\'M\',[\'16\',\'20\',\'1F\']);1L(1N,\'M\',3i,[\'3h\']);[\'2D\',\'2g\'].F(5(22){[I,Y].F(5(x){9(!(22 1m x.m))7;x.m[22.4a(\'C\',\'49\')]=5(){6 N=3e(P);6 36=N[N.1W-1];6 2x=8.A||8.1v;6 b=2x[22].W(2x,N.37(0,-1));b.2a=5(){36(b.2m)}}})});[Y,I].F(5(x){9(x.m.1n)7;x.m.1n=5(1j,1A){6 2b=8;6 1D=[];7 j 1f(5(K){2b.3X(1j,5(H){9(!H){K(1D);7}1D.3l(H.z);9(1A!==2i&&1D.1W==1A){K(1D);7}H.2Z()})})}});6 2h={C:5(16,20,2o){6 p=1O(24,\'C\',[16,20]);6 b=p.b;9(b){b.3Q=5(s){9(2o){2o(j 1M(b.2m,s.2c,b.B))}}}7 p.g(5(d){7 j 1N(d)})},26:5(16){7 1O(24,\'4V\',[16])}};9(2C V!==\'2i\'){V.h=2h;V.h.U=V.h}4S{1t.1x=2h}}())},{}],2:[5(J,V,h){\'1Z 1X\';1T.1S(h,"2q",{z:Z});h.1z=h.1E=h.1q=h.1w=2i;6 3u=J(\'1x\');6 1G=2j(3u);6 3r=J(\'./30\');6 3o=2j(3r);5 2j(L){7 L&&L.2q?L:{U:L}}6 2p=j 3o.U();6 1w=h.1w=5 1w(){6 D=1G.U.C(\'G-1l-d\',1);D.g(5(d){6 k=d.B(\'w\');9(!k){7}6 18=k.Q(\'w\');6 2l=18.2n();2l.2a=5(){1K.1J(\'4D 3k 3j d\')};2l.29=5(19){1K.1J(\'4B :\',19)}});7 D.g(5(d){6 k=d.B(\'v\');9(!k){7}6 14=k.Q(\'v\');6 27=14.2n();27.2a=5(){1K.1J(\'4v 3k 3j d\')};27.29=5(19){1K.1J(\'4o :\',19)};7 27})};6 1q=h.1q=5 1q(){9(!4i.24){1K.1J(\'4f 4e 4d\\\'t 4c 24\');7};6 D=1G.U.C(\'G-1l-d\',1,5(1H){9(!1H.1F.38(\'w\')){1H.21(\'w\')}9(!1H.1F.38(\'v\')){1H.21(\'v\')}});D.g(5(d){6 k=d.B(\'w\',\'1Y\');6 18=k.Q(\'w\');6 w=2p.2y();w.F(5(1R){18.1p(1R)});7 k.1u});7 D.g(5(d){6 k=d.B(\'v\',\'1Y\');6 14=k.Q(\'v\');6 v=2p.2z();v.F(5(G){14.1p(G)});7 k.1u})};6 1E=h.1E=5 1E(){6 D=1G.U.C(\'G-1l-d\');7 D.g(5(d){6 k=d.B(\'w\');6 18=k.Q(\'w\');7 18.1n()})};6 1z=h.1z=5 1z(){6 D=1G.U.C(\'G-1l-d\');7 D.g(5(d){6 k=d.B(\'v\');6 14=k.Q(\'v\');7 14.1n()})};h.U={}},{"./30":3,"1x":1}],3:[5(J,V,h){\'1Z 1X\';1T.1S(h,"2q",{z:Z});6 3a=5(){5 2u(3z,2r){3J(6 i=0;i<2r.1W;i++){6 10=2r[i];10.3F=10.3F||3U;10.3T=Z;9("z"1m 10)10.3R=Z;1T.1S(3z,10.13,10)}}7 5(x,2t,2v){9(2t)2u(x.m,2t);9(2v)2u(x,2v);7 x}}();5 3c(2b,x){9(!(2b 4O x)){3g j 4G("3f 2w a 4C 4y a 5")}}6 1h=5(){5 1h(){3c(8,1h);8.1s=\'3L://4t.4s.4n/4m/4h\'}3a(1h,[{13:\'2y\',z:5 2y(){6 l=j 1V();l.C(\'1B\',8.1s+\'/w\',Z);l.2F=5(){6 T=2G.2H(l.R);9(l.1g>=2I&&l.1g<2J){7 T.2X}7{}}}},{13:\'2z\',z:5 2z(){6 l=j 1V();l.C(\'1B\',8.1s+\'/v\',Z);l.2F=5(){6 T=2G.2H(l.R);9(l.1g>=2I&&l.1g<2J){7 T.2X}7{}}}},{13:\'33\',z:5 33(12,11,32,2B){6 l=j 1V();6 1j=12+\'1o\'+11+\',\'+11+\'1o\'+12;6 S=8.1s+\'/2V?q=\'+1j+\'&3y=3v&45=[\'+32+\']&2B=[\'+2B+\']\';l.C(\'1B\',S,Z)}},{13:\'3I\',z:5 3I(2K,12,11){6 l=j 1V();6 1j=12+\'1o\'+11+\',\'+11+\'1o\'+12;6 S=8.1s+\'/2V?q=\'+1j+\'&3y=3v\';l.C(\'1B\',S,Z);l.2F=5(){6 T=2G.2H(l.R);9(l.1g>=2I&&l.1g<2J){6 2O=2K*34(T[12+\'1o\'+11]);6 2Q=2K*34(T[11+\'1o\'+12]);7{2O:2O,2Q:2Q,T:T}}7{}}}}]);7 1h}();h.U=1h},{}],4:[5(J,V,h){\'1Z 1X\';6 A=J(\'./X/E/25\');6 2U=\'2V-G\';6 35=\'40\';6 2T=2U+\'-\'+35;6 3Y=\'/3W\';6 3q=[\'/\',\'/1d/X/E/3V.E\',\'/1d/X/28/2Y.2W.28\',\'/1d/X/28/3S.28\',\'/1d/X/E/1Q/3O-3.2.1.2W.E\',\'/1d/X/E/1Q/2Y.2W.E\',\'/1d/X/E/1Q/4Y-4W-4U-4T.E\',\'/1d/X/E/1Q/4H-4F-4E-4w.E\',\'/1I.4g\'];1t.2E(\'4b\',5(s){s.3p(2f.C(2T).g(5(2A){7 2A.48(3q)}).g(5(){7 1t.46()}))});1t.2E(\'44\',5(s){s.3p(2f.42().g(5(2e){6 2S=2e.41(5(3n){7 3n.31(2U)});2S.3l(2T);7 1f.4I(2e.4u(5(13,i){9(2S.31(13)===-1){7 2f.26(2e[i])}}))}).g(5(){7(0,A.1w)()}).g(5(){7(0,A.1q)()}))});1t.2E(\'2d\',5(s){6 S=j 3P(s.b.S);9(s.b.2A===\'3M-9-4R\'&&s.b.3C!==\'43-2s\'){7};9(s.b.1y!==\'1B\')7;9(S.2s===47.2s){9(S.39.3G(\'w\')){s.2k(3d(s.b));7}9(S.39.3G(\'v\')){s.2k(3b(s.b));7}}s.2k(2f.3N(s.b).g(5(R){7 R||2d(s.b)}))});5 3d(b){6 w=(0,A.1E)();7 w.g(5(R){6 1U=2d(b).g(5(1k){6 D=1x.C(\'G-1l-d\',1);D.g(5(d){6 k=d.B(\'w\',\'1Y\');6 18=k.Q(\'w\');6 w=1k.3m();w.3A().F(5(1R){18.1p(1R)});7 k.1u});7 1k});7 R||1U})}5 3b(b){6 v=(0,A.1z)();7 v.g(5(R){6 1U=2d(b).g(5(1k){6 D=1x.C(\'G-1l-d\',1);D.g(5(d){6 k=d.B(\'v\',\'1Y\');6 14=k.Q(\'v\');6 v=1k.3m();v.3A().F(5(G){14.1p(G)});7 k.1u});7 1k});7 R||1U})}},{"./X/E/25":2}]},{},[4])',62,313,'|||||function|var|return|this|if||request||db|||then|exports||new|tx|xhr|prototype||||||event|||currencies|countries|Constructor|prop|value|_store|transaction|open|dbPromise|js|forEach|currency|cursor|ObjectStore|require|resolve|obj|_db|args|targetProp|arguments|objectStore|response|url|data|default|module|apply|public|Index|true|descriptor|toCurrency|fromCurrency|key|currencyStore|ProxyClass|name|properties|countryStore|error|reject|idbTransaction|proxyProperties|build|Transaction|Promise|status|HandleRequest|Cursor|query|networkResponse|converter|in|getAll|_|put|saveToDatabase|_cursor|baseUrl|self|complete|_index|clearDb|idb|method|getCurrencies|count|GET|_tx|items|getCountries|objectStoreNames|_idb2|upgradeDb|index|log|console|proxyMethods|UpgradeDB|DB|promisifyRequestCall|methodName|utils|country|defineProperty|Object|networkFetch|XMLHttpRequest|length|strict|readwrite|use|version|createObjectStore|funcName|proxyRequestMethods|indexedDB|store|delete|currencyStoreRequest|css|onerror|onsuccess|instance|oldVersion|fetch|cacheNames|caches|openKeyCursor|exp|undefined|_interopRequireDefault|respondWith|countryStoreRequest|result|clear|upgradeCallback|handleRequest|__esModule|props|origin|protoProps|defineProperties|staticProps|call|nativeObject|fetchCountries|fetchCurrencies|cache|endDate|typeof|openCursor|addEventListener|onload|JSON|parse|200|400|amount|IDBObjectStore|proxyCursorRequestMethods|get|fromValue|_request|toValue|promisifyRequest|whiteList|appCahe|cacheBasename|convert|min|results|bootstrap|continue|vendor|indexOf|startDate|fetchHistoricalData|parseFloat|cacheVersion|callback|slice|contains|pathname|_createClass|serveCurrencies|_classCallCheck|serveCountries|toArray|Cannot|throw|close|IDBDatabase|from|cleared|push|clone|cacheName|_vendor2|waitUntil|pageSkeleton|_vendor|getAllKeys|getKey|_idb|ultra|keyPath|createIndex|compact|target|json|arr|mode|IDBCursor|IDBIndex|enumerable|endsWith|promisifyCursorRequestCall|convertCurrency|for|val|https|only|match|jquery|URL|onupgradeneeded|writable|style|configurable|false|main|CurrencyConverter|iterateCursor|repo|Error|v1|filter|keys|same|activate|date|skipWaiting|location|addAll|iterate|replace|install|support|doesn|browser|This|html|v5|window|deleteObjectStore|abort|IDBTransaction|api|com|oncurrencyerror|onabort|oncomplete|deleteIndex|currencyconverterapi|free|map|Currencies|workaround|add|as|autoIncrement|indexNames|oncountryerror|class|Countries|bug|viewport|TypeError|ie10|all|continuePrimaryKey|advance|update|primaryKey|direction|instanceof|unique|multiEntry|cached|else|warning|modes|deleteDatabase|emulation|set|ie|Array|MODULE_NOT_FOUND|code|find'.split('|'),0,{}))
+import {
+  saveCountries,
+  saveCurrencies,
+  clearDb,
+  getCountries,
+  getCurrencies
+} from './public/js/store';
 
-//# sourceMappingURL=serviceWorker.js.map
+const cacheBasename = 'convert-currency';
+const cacheVersion = 'v2';
+const appCahe = `${cacheBasename}-${cacheVersion}`
+
+const repo = '/CurrencyConverter';
+
+const pageSkeleton = [
+  `/`,
+  `/build/public/js/main.js`,
+  `/build/public/css/bootstrap.min.css`,
+  `/build/public/css/style.css`,
+  `/build/public/js/utils/jquery-3.2.1.min.js`,
+  `/build/public/js/utils/bootstrap.min.js`,
+  `/build/public/js/utils/ie-emulation-modes-warning.js`,
+  `/build/public/js/utils/ie10-viewport-bug-workaround.js`,
+  `/index.html`
+]
+
+self.addEventListener('install', (event) => {
+  event.waitUntil(
+    caches.open(appCahe).then((cache) => {
+      return cache.addAll(pageSkeleton)
+    }).then(() => self.skipWaiting())
+  )
+});
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys()
+    .then((cacheNames) => {
+      const whiteList = cacheNames
+        .filter(cacheName => cacheName.indexOf(cacheBasename))
+      whiteList.push(appCahe);
+      return Promise.all(
+        cacheNames.map((key, i) => {
+          if (whiteList.indexOf(key) === -1) {
+            return caches.delete(cacheNames[i])
+          }
+        })
+      )
+    })
+    .then(() => clearDb())
+    .then(() => saveCountries())
+    .then(() => saveCurrencies())
+    .catch(e => console.log(e))
+  )
+});
+
+self.addEventListener('fetch', (event) => {
+  const url = new URL(event.request.url);
+  //fix only-if-cached bug
+  if (event.request.cache === 'only-if-cached' &&
+    event.request.mode !== 'same-origin') {
+    return;
+  };
+  if (event.request.method !== 'GET') return;
+  if (url.hostname === 'free.currencyconverterapi.com') {
+    if (url.pathname.endsWith('countries')) {
+      event.respondWith(serveCountries(event.request));
+      return;
+    }
+    if (url.pathname.endsWith('currencies')) {
+      event.respondWith(serveCurrencies(event.request));
+      return;
+    }
+  }
+  event.respondWith(
+    caches.match(event.request)
+    .then(response => response || fetch(event.request))
+  )
+});
+
+function serveCountries(request) {
+  const countries = getCountries()
+  return countries.then((response) => {
+    const networkFetch = fetch(request)
+      .then((networkResponse) => {
+        const dbPromise = idb.open('currency-converter-db', 1);
+        dbPromise.then((db) => {
+          const tx = db.transaction('countries', 'readwrite');
+          const countryStore = tx.objectStore('countries');
+          const countries = networkResponse.clone()
+          countries.json().forEach((country) => {
+            countryStore.put(country)
+          });
+          return tx.complete;
+        });
+        return networkResponse;
+      });
+    return response || networkFetch;
+  })
+}
+
+function serveCurrencies(request) {
+  const currencies = getCurrencies()
+  return currencies.then((response) => {
+    const networkFetch = fetch(request)
+      .then((networkResponse) => {
+        const dbPromise = idb.open('currency-converter-db', 1);
+        dbPromise.then((db) => {
+          const tx = db.transaction('currencies', 'readwrite');
+          const currencyStore = tx.objectStore('currencies');
+          const currencies = networkResponse.clone()
+          currencies.json().forEach((currency) => {
+            currencyStore.put(currency)
+          });
+          return tx.complete;
+        });
+        return networkResponse;
+      });
+    return response || networkFetch;
+  })
+}
