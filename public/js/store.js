@@ -13,13 +13,17 @@ export const saveCountries = function() {
   return dbPromise.then((db) => {
     const fetchedResponse = handleRequest.fetchCountries();
     return fetchedResponse.then((countries) => {
+      if (!countries.results) {
+        return Promise.reject('Countries could not be fetched from network')
+      }
       console.log('countries:', countries.results);
-      return Object.keys(countries.results).map((key) => {
+      const addCountry = Object.keys(countries.results).map((key) => {
         const tx = db.transaction('countries', 'readwrite');
         const countryStore = tx.objectStore('countries');
         countryStore.put(countries.results[key], key);
         return tx.complete;
       });
+      return Promise.resolve(addCountry);
     });
   });
 }
@@ -34,13 +38,17 @@ export const saveCurrencies = function() {
   return dbPromise.then((db) => {
     const fetchedResponse = handleRequest.fetchCurrencies();
     return fetchedResponse.then((currencies) => {
+      if (!currencies.results) {
+        return Promise.reject('Currencies cannot be fteched from network')
+      }
       console.log('currencies:', currencies.results);
-      return Object.keys(currencies.results).map((key) => {
+      const addCurrency = Object.keys(currencies.results).map((key) => {
         const tx = db.transaction('currencies', 'readwrite');
         const currencyStore = tx.objectStore('currencies');
         currencyStore.put(currencies.results[key], key);
         return tx.complete;
       });
+      return Promise.resolve(addCurrency);
     });
   });
 }

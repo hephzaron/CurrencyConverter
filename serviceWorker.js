@@ -46,8 +46,10 @@ self.addEventListener('activate', (event) => {
         })
       )
     })
-    .then(() => saveCountries())
-    .then(() => saveCurrencies())
+    .then(async() => {
+      await saveCountries();
+      await saveCurrencies();
+    })
     .catch(e => console.log(e))
   )
 });
@@ -102,7 +104,7 @@ function serveCurrencies(request) {
   return currencies.then((response) => {
     const networkFetch = fetch(request)
       .then((networkResponse) => {
-        const dbPromise = idb.open('currency-converter-db', 1);
+        const dbPromise = idb.open('currency-converter-db', 2);
         dbPromise.then((db) => {
           const tx = db.transaction('currencies', 'readwrite');
           const currencyStore = tx.objectStore('currencies');
