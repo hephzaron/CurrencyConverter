@@ -1,12 +1,14 @@
 import {
   saveCountries,
   saveCurrencies,
+  saveCurrencyRates,
   getCountries,
-  getCurrencies
+  getCurrencies,
+  getCurrencyRate
 } from './public/js/store';
 
 const cacheBasename = 'convert-currency';
-const cacheVersion = 'v2';
+const cacheVersion = 'v1';
 const appCahe = `${cacheBasename}-${cacheVersion}`
 
 const repo = '/CurrencyConverter';
@@ -71,6 +73,13 @@ self.addEventListener('fetch', (event) => {
       event.respondWith(serveCurrencies(event.request));
       return;
     }
+    if (url.pathname.endsWith('convert')) {
+      const params = url.searchParams.get('q');
+      if (params[0].split('_') === params[1].split('_').reverse()) {
+        event.respondWith(convertCurrency(event.request));
+        return;
+      }
+    }
   }
   event.respondWith(
     caches.match(event.request)
@@ -85,19 +94,19 @@ function serveCountries(request) {
       .then((networkResponse) => {
         const dbPromise = idb.open('currency-converter-db', 1);
         dbPromise.then((db) => {
-          const tx = db.transaction('countries', 'readwrite');
-          const countryStore = tx.objectStore('countries');
           const countries = networkResponse.clone()
-          countries.json().results.forEach((country) => {
-            countryStore.put(country)
+          Object.keys(countries.json().results).map((key) => {
+            const tx = db.transaction('countries', 'readwrite');
+            const countryStore = tx.objectStore('countries');
+            countryStore.put(countries.json().results[key], key);
+            return tx.complete;
           });
-          return tx.complete;
         });
         return networkResponse;
       });
     return response || networkFetch;
-  })
-}
+  });
+};
 
 function serveCurrencies(request) {
   const currencies = getCurrencies()
@@ -106,16 +115,33 @@ function serveCurrencies(request) {
       .then((networkResponse) => {
         const dbPromise = idb.open('currency-converter-db', 2);
         dbPromise.then((db) => {
-          const tx = db.transaction('currencies', 'readwrite');
-          const currencyStore = tx.objectStore('currencies');
           const currencies = networkResponse.clone()
-          currencies.json().results.forEach((currency) => {
-            currencyStore.put(currency)
+          Object.keys(currencies.json().results).map((key) => {
+            const tx = db.transaction('currencies', 'readwrite');
+            const currencyStore = tx.objectStore('currencies');
+            currencyStore.put(currencies.json().results[key], key);
+            return tx.complete;
           });
-          return tx.complete;
         });
         return networkResponse;
       });
     return response || networkFetch;
-  })
+  });
+};
+
+function convertCurrency(request) {
+  const url = new URL(request.url);
+  const params = url.searchParams.get('q');
+  const convParams = params[0].split('_');
+  const fromCurrency = convParams[0];
+  const toCurrency = convParams[1];
+  const convKeys = [`${fromCurrency}_${toCurrency}`, `${toCurrency}_${fromCurrency}`]
+  const dbFetch = getCurrencyRate(fromCurrency, toCurrency);
+  const networkFetch = fetch(request)
+    .then((networkResponse) => {
+      saveCurrencyRates(networkResponse.clone().json())
+      return networkResponse().json()
+    });
+  return (Object.keys(dbFetch) !== convKeys) ? networkFetch : dbFetch
+
 }

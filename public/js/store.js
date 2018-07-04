@@ -3,8 +3,8 @@ import HandleRequest from './vendor';
 
 const handleRequest = new HandleRequest();
 
-export const saveCountries = function() {
-  const dbPromise = idb.open('currency-converter-db', 1, function(upgradeDb) {
+export const saveCountries = () => {
+  const dbPromise = idb.open('currency-converter-db', 1, (upgradeDb) => {
     if (!upgradeDb.objectStoreNames.contains('countries')) {
       return upgradeDb.createObjectStore('countries');
     }
@@ -28,8 +28,8 @@ export const saveCountries = function() {
   });
 }
 
-export const saveCurrencies = function() {
-  const dbPromise = idb.open('currency-converter-db', 2, function(upgradeDb) {
+export const saveCurrencies = () => {
+  const dbPromise = idb.open('currency-converter-db', 2, (upgradeDb) => {
     if (!upgradeDb.objectStoreNames.contains('currencies')) {
       return upgradeDb.createObjectStore('currencies');
     }
@@ -39,7 +39,7 @@ export const saveCurrencies = function() {
     const fetchedResponse = handleRequest.fetchCurrencies();
     return fetchedResponse.then((currencies) => {
       if (!currencies.results) {
-        return Promise.reject('Currencies cannot be fteched from network')
+        return Promise.reject('Currencies cannot be fetched from network')
       }
       console.log('currencies:', currencies.results);
       const addCurrency = Object.keys(currencies.results).map((key) => {
@@ -53,6 +53,24 @@ export const saveCurrencies = function() {
   });
 }
 
+export const saveCurrencyRates = (options) => {
+  const dbPromise = idb.open('currency-converter-db', 3, (upgradeDb) => {
+    if (!upgradeDb.objectStoreNames.contains('currency-rates')) {
+      return upgradeDb.createObjectStore('currency-rates');
+    }
+  });
+  if (typeof options !== 'object' || !options) return;
+  return dbPromise.then((db) => {
+    const addCurrencyRates = Object.keys(options).map((key) => {
+      const tx = db.transaction('currency-rates', 'readwrite');
+      const currencyStore = tx.objectStore('currency-rates');
+      currencyStore.put(options[key], key);
+      return tx.complete
+    });
+    return Promise.resolve(addCurrencyRates);
+  })
+}
+
 export const getCountries = () => {
   const dbPromise = idb.open('currency-converter-db', 1);
   return dbPromise.then((db) => {
@@ -60,7 +78,7 @@ export const getCountries = () => {
     const countryStore = tx.objectStore('countries');
     return countryStore.getAll();
   })
-};
+}
 
 export const getCurrencies = () => {
   const dbPromise = idb.open('currency-converter-db', 2);
@@ -69,6 +87,24 @@ export const getCurrencies = () => {
     const currencyStore = tx.objectStore('currencies');
     return currencyStore.getAll();
   })
-};
+}
+
+export const getCurrencyRate = (fromCurrency, toCurrency) => {
+  const dbPromise = idb.open('currency-converter-db', 3);
+  return dbPromise.then((db) => {
+    let results = {};
+    const tx = db.transaction('currency-rates');
+    const currencyRateStore = tx.objectStore('currency-rates');
+    currencyRateStore.get(`${fromCurrency}_${toCurrency}`)
+      .onsuccess = (e) => {
+        results[`${fromCurrency}_${toCurrency}`] = e.target.result
+      };
+    currencyRateStore.get(`${toCurrency}_${fromCurrency}`)
+      .onsuccess = (e) => {
+        results[`${toCurrency}_${fromCurrency}`] = e.target.result
+      };
+    return results;
+  })
+}
 
 export default {};
