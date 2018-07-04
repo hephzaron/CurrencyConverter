@@ -1,7 +1,6 @@
 import {
   saveCountries,
   saveCurrencies,
-  clearDb,
   getCountries,
   getCurrencies
 } from './public/js/store';
@@ -47,7 +46,6 @@ self.addEventListener('activate', (event) => {
         })
       )
     })
-    .then(() => clearDb())
     .then(() => saveCountries())
     .then(() => saveCurrencies())
     .catch(e => console.log(e))
@@ -88,7 +86,7 @@ function serveCountries(request) {
           const tx = db.transaction('countries', 'readwrite');
           const countryStore = tx.objectStore('countries');
           const countries = networkResponse.clone()
-          countries.json().forEach((country) => {
+          countries.json().results.forEach((country) => {
             countryStore.put(country)
           });
           return tx.complete;
@@ -109,7 +107,7 @@ function serveCurrencies(request) {
           const tx = db.transaction('currencies', 'readwrite');
           const currencyStore = tx.objectStore('currencies');
           const currencies = networkResponse.clone()
-          currencies.json().forEach((currency) => {
+          currencies.json().results.forEach((currency) => {
             currencyStore.put(currency)
           });
           return tx.complete;

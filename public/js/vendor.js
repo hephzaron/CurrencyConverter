@@ -5,13 +5,19 @@ class HandleRequest {
 
   fetchCountries() {
     return fetch(`${this.baseUrl}/countries`)
-      .then(response => response.json().results)
+      .then((response) => {
+        if (!response) return;
+        return response.json()
+      })
       .catch(error => console.log(error))
   }
 
   fetchCurrencies() {
     return fetch(`${this.baseUrl}/currencies`)
-      .then(response => response.json().results)
+      .then((response) => {
+        if (!response) return;
+        return response.json();
+      })
       .catch(error => console.log(error))
   }
 
@@ -19,7 +25,10 @@ class HandleRequest {
     const query = `${fromCurrency}_${toCurrency},${toCurrency}_${fromCurrency}`;
     const url = `${this.baseUrl}/convert?q=${query}&compact=ultra&date=[${startDate}]&endDate=[${endDate}]`
     return fetch(url)
-      .then(response => response.json().results)
+      .then((response) => {
+        if (!response) return;
+        response.json().results
+      })
       .catch(error => console.log(error))
   }
 
@@ -28,6 +37,7 @@ class HandleRequest {
     const url = `${this.baseUrl}/convert?q=${query}&compact=ultra`;
     return fetch(url)
       .then((response) => {
+        if (!response) return;
         const data = response.json().results;
         const fromValue = amount * parseFloat(data[`${fromCurrency}_${toCurrency}`]);
         const toValue = amount * parseFloat(data[`${toCurrency}_${fromCurrency}`]);

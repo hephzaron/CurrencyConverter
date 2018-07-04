@@ -65,6 +65,7 @@ var jsBundles = {
   'build/public/js/main.js': createBundle('./public/js/main.js'),
   'build/public/js/vendor.js': createBundle('./public/js/vendor.js'),
   'build/public/js/store.js': createBundle('./public/js/store.js'),
+  'build/public/js/plot.js': createBundle('./public/js/plot.js'),
   'sw.js': createBundle('serviceWorker.js')
 }
 

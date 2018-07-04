@@ -3,55 +3,50 @@ import HandleRequest from './vendor';
 
 const handleRequest = new HandleRequest();
 
-export const clearDb = () => {
-  const DBDeleteRequest = idb.delete('currency-converter-db');
-  DBDeleteRequest.then(() => console.log('Database deleted successfuly'));
-  DBDeleteRequest.catch(e => console.log('error deleting databse:', e.mesage))
-  return DBDeleteRequest;
-};
-
 export const saveCountries = function() {
   const dbPromise = idb.open('currency-converter-db', 1, function(upgradeDb) {
     if (!upgradeDb.objectStoreNames.contains('countries')) {
-      return upgradeDb.createObjectStore('countries')
+      return upgradeDb.createObjectStore('countries');
     }
   });
 
   return dbPromise.then((db) => {
-    const tx = db.transaction('countries', 'readwrite');
-    const countryStore = tx.objectStore('countries');
-    const countries = handleRequest.fetchCountries();
-    countries.forEach((country) => {
-      countryStore.put(country)
-    })
-    return tx.complete;
+    const fetchedResponse = handleRequest.fetchCountries();
+    return fetchedResponse.then((countries) => {
+      console.log('countries:', countries.results);
+      return Object.keys(countries.results).map((key) => {
+        const tx = db.transaction('countries', 'readwrite');
+        const countryStore = tx.objectStore('countries');
+        countryStore.put(countries.results[key], key);
+        return tx.complete;
+      });
+    });
   });
-
 }
 
 export const saveCurrencies = function() {
   const dbPromise = idb.open('currency-converter-db', 2, function(upgradeDb) {
-    console.log('opened')
     if (!upgradeDb.objectStoreNames.contains('currencies')) {
-      console.log('created')
       return upgradeDb.createObjectStore('currencies');
     }
   });
 
   return dbPromise.then((db) => {
-    const tx = db.transaction('currencies', 'readwrite');
-    const currencyStore = tx.objectStore('currencies');
-    const currencies = handleRequest.fetchCurrencies();
-    currencies.forEach((currency) => {
-      currencyStore.put(currency)
-    })
-    return tx.complete;
+    const fetchedResponse = handleRequest.fetchCurrencies();
+    return fetchedResponse.then((currencies) => {
+      console.log('currencies:', currencies.results);
+      return Object.keys(currencies.results).map((key) => {
+        const tx = db.transaction('currencies', 'readwrite');
+        const currencyStore = tx.objectStore('currencies');
+        currencyStore.put(currencies.results[key], key);
+        return tx.complete;
+      });
+    });
   });
-
 }
 
 export const getCountries = () => {
-  const dbPromise = idb.open('currency-converter-db');
+  const dbPromise = idb.open('currency-converter-db', 1);
   return dbPromise.then((db) => {
     const tx = db.transaction('countries');
     const countryStore = tx.objectStore('countries');
@@ -60,7 +55,7 @@ export const getCountries = () => {
 };
 
 export const getCurrencies = () => {
-  const dbPromise = idb.open('currency-converter-db');
+  const dbPromise = idb.open('currency-converter-db', 2);
   return dbPromise.then((db) => {
     const tx = db.transaction('currencies');
     const currencyStore = tx.objectStore('currencies');
