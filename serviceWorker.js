@@ -8,7 +8,7 @@ import {
 } from './public/js/store';
 
 const cacheBasename = 'convert-currency';
-const cacheVersion = 'v1';
+const cacheVersion = 'v2';
 const appCahe = `${cacheBasename}-${cacheVersion}`
 
 const repo = '/CurrencyConverter';
@@ -89,7 +89,8 @@ self.addEventListener('fetch', (event) => {
 
 function serveCountries(request) {
   const countries = getCountries()
-  return countries.then((response) => {
+  return countries.then((dbResponse) => {
+    const response = new Response(dbResponse);
     const networkFetch = fetch(request)
       .then((networkResponse) => {
         const dbPromise = idb.open('currency-converter-db', 1);
@@ -102,7 +103,7 @@ function serveCountries(request) {
             return tx.complete;
           });
         });
-        return networkResponse;
+        return networkResponse.json().results
       });
     return response || networkFetch;
   });
@@ -123,7 +124,7 @@ function serveCurrencies(request) {
             return tx.complete;
           });
         });
-        return networkResponse;
+        return networkResponse.json().results;
       });
     return response || networkFetch;
   });

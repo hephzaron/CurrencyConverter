@@ -16,7 +16,6 @@ export const saveCountries = () => {
       if (!countries.results) {
         return Promise.reject('Countries could not be fetched from network')
       }
-      console.log('countries:', countries.results);
       const addCountry = Object.keys(countries.results).map((key) => {
         const tx = db.transaction('countries', 'readwrite');
         const countryStore = tx.objectStore('countries');
@@ -41,7 +40,6 @@ export const saveCurrencies = () => {
       if (!currencies.results) {
         return Promise.reject('Currencies cannot be fetched from network')
       }
-      console.log('currencies:', currencies.results);
       const addCurrency = Object.keys(currencies.results).map((key) => {
         const tx = db.transaction('currencies', 'readwrite');
         const currencyStore = tx.objectStore('currencies');
@@ -76,7 +74,21 @@ export const getCountries = () => {
   return dbPromise.then((db) => {
     const tx = db.transaction('countries');
     const countryStore = tx.objectStore('countries');
-    return countryStore.getAll();
+    const keyStore = countryStore.getAllKeys();
+    let countries = {};
+    return keyStore.then((keys) => {
+      return keys.map((key, index) => {
+        return countryStore.get(key).then((value) => {
+          let data = Object.assign(countries, {
+            [key]: value
+          })
+          if (index === keys.length - 1) {
+            return data
+          }
+          return;
+        });
+      });
+    });
   })
 }
 
@@ -85,7 +97,21 @@ export const getCurrencies = () => {
   return dbPromise.then((db) => {
     const tx = db.transaction('currencies');
     const currencyStore = tx.objectStore('currencies');
-    return currencyStore.getAll();
+    const keyStore = currencyStore.getAllKeys();
+    let currencies = {};
+    return keyStore.then((keys) => {
+      return keys.map((key, index) => {
+        return currencyStore.get(key).then((value) => {
+          let data = Object.assign(currencies, {
+            [key]: value
+          })
+          if (index === keys.length - 1) {
+            return data
+          }
+          return;
+        });
+      });
+    });
   })
 }
 
