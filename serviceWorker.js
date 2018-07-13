@@ -8,8 +8,8 @@ import {
 } from './public/js/store';
 
 const cacheBasename = 'convert-currency';
-const cacheVersion = 'v2';
-const appCahe = `${cacheBasename}-${cacheVersion}`
+const cacheVersion = 'v1';
+const appCahe = `${cacheBasename}-${cacheVersion}`;
 
 const repo = '/CurrencyConverter';
 
@@ -90,12 +90,16 @@ self.addEventListener('fetch', (event) => {
 function serveCountries(request) {
   const countries = getCountries()
   return countries.then((dbResponse) => {
-    const response = new Response(dbResponse);
+    console.log('type', typeof dbResponse);
+    console.log('dbResponse1:', dbResponse.AD);
+    const response = new Response(JSON.stringify(dbResponse), {
+      headers: { 'Content-Type': 'application/json' }
+    });
     const networkFetch = fetch(request)
       .then((networkResponse) => {
         const dbPromise = idb.open('currency-converter-db', 1);
         dbPromise.then((db) => {
-          const countries = networkResponse.clone()
+          const countries = networkResponse.clone();
           Object.keys(countries.json().results).map((key) => {
             const tx = db.transaction('countries', 'readwrite');
             const countryStore = tx.objectStore('countries');
@@ -105,6 +109,7 @@ function serveCountries(request) {
         });
         return networkResponse.json().results
       });
+    console.log('responseBson:', response);
     return response || networkFetch;
   });
 };
@@ -116,7 +121,7 @@ function serveCurrencies(request) {
       .then((networkResponse) => {
         const dbPromise = idb.open('currency-converter-db', 2);
         dbPromise.then((db) => {
-          const currencies = networkResponse.clone()
+          const currencies = networkResponse.clone();
           Object.keys(currencies.json().results).map((key) => {
             const tx = db.transaction('currencies', 'readwrite');
             const currencyStore = tx.objectStore('currencies');
@@ -141,8 +146,7 @@ function convertCurrency(request) {
   const networkFetch = fetch(request)
     .then((networkResponse) => {
       saveCurrencyRates(networkResponse.clone().json())
-      return networkResponse().json()
+      return networkResponse.json()
     });
   return (Object.keys(dbFetch) !== convKeys) ? networkFetch : dbFetch
-
 }

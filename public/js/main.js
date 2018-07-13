@@ -22,14 +22,15 @@ if (navigator.serviceWorker) {
   const toInput = document.getElementById('toInput');
   const rateFrom = document.getElementById('rateFrom');
   const rateTo = document.getElementById('rateTo');
-  const countries = {};
+  let countries = {};
   let fromCountry;
   let toCountry;
 
   handleRequest.fetchCountries()
     .then((response) => {
       if (!response) return;
-      Object.assign(countries, response.json())
+      console.log('grrr:', response);
+      Object.assign(countries, response.json());
     });
 
   Object.keys(countries).map((key) => {

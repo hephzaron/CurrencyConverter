@@ -71,48 +71,43 @@ export const saveCurrencyRates = (options) => {
 
 export const getCountries = () => {
   const dbPromise = idb.open('currency-converter-db', 1);
-  return dbPromise.then((db) => {
+  return dbPromise.then(async(db) => {
     const tx = db.transaction('countries');
     const countryStore = tx.objectStore('countries');
     const keyStore = countryStore.getAllKeys();
     let countries = {};
-    return keyStore.then((keys) => {
-      return keys.map((key, index) => {
-        return countryStore.get(key).then((value) => {
-          let data = Object.assign(countries, {
-            [key]: value
-          })
-          if (index === keys.length - 1) {
-            return data
-          }
-          return;
+    await keyStore.then((keys) => {
+      keys.map((key, index) => {
+        countryStore.get(key).then((value) => {
+          countries[`${key}`] = value
         });
       });
     });
-  })
+    console.log('test-2', Object.getOwnPropertyNames(countries));
+    return {
+      countries
+    }
+  });
 }
 
 export const getCurrencies = () => {
   const dbPromise = idb.open('currency-converter-db', 2);
-  return dbPromise.then((db) => {
+  return dbPromise.then(async(db) => {
     const tx = db.transaction('currencies');
     const currencyStore = tx.objectStore('currencies');
     const keyStore = currencyStore.getAllKeys();
     let currencies = {};
-    return keyStore.then((keys) => {
-      return keys.map((key, index) => {
-        return currencyStore.get(key).then((value) => {
-          let data = Object.assign(currencies, {
-            [key]: value
-          })
-          if (index === keys.length - 1) {
-            return data
-          }
-          return;
+    await keyStore.then((keys) => {
+      keys.map((key, index) => {
+        currencyStore.get(key).then((value) => {
+          currencies[`${key}`] = value;
         });
       });
     });
-  })
+    return {
+      currencies
+    }
+  });
 }
 
 export const getCurrencyRate = (fromCurrency, toCurrency) => {
