@@ -1,3 +1,5 @@
+import idb from 'idb'
+
 import {
   saveCountries,
   saveCurrencies,
@@ -66,17 +68,18 @@ self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
   if (url.hostname === 'free.currencyconverterapi.com') {
     if (url.pathname.endsWith('countries')) {
-      event.respondWith(serveCountries(event.request));
+      event.respondWith(serveCountries(event.request))
       return;
     }
     if (url.pathname.endsWith('currencies')) {
-      event.respondWith(serveCurrencies(event.request));
+      console.log('url', url)
+      event.respondWith(serveCurrencies(event.request))
       return;
     }
     if (url.pathname.endsWith('convert')) {
       const params = url.searchParams.get('q');
       if (params[0].split('_') === params[1].split('_').reverse()) {
-        event.respondWith(convertCurrency(event.request));
+        event.respondWith(convertCurrency(event.request))
         return;
       }
     }
@@ -90,46 +93,50 @@ self.addEventListener('fetch', (event) => {
 function serveCountries(request) {
   const countries = getCountries()
   return countries.then((dbResponse) => {
-    console.log('type', typeof dbResponse);
-    console.log('dbResponse1:', dbResponse.AD);
     const response = new Response(JSON.stringify(dbResponse), {
       headers: { 'Content-Type': 'application/json' }
     });
     const networkFetch = fetch(request)
-      .then((networkResponse) => {
-        const dbPromise = idb.open('currency-converter-db', 1);
-        dbPromise.then((db) => {
-          const countries = networkResponse.clone();
-          Object.keys(countries.json().results).map((key) => {
-            const tx = db.transaction('countries', 'readwrite');
-            const countryStore = tx.objectStore('countries');
-            countryStore.put(countries.json().results[key], key);
-            return tx.complete;
+      .then(async(networkResponse) => {
+        const dbPromise = idb.open('currency-converter-db', 2);
+        await dbPromise.then(async(db) => {
+          const networkRes = networkResponse.clone();
+          await networkRes.json().then((res) => {
+            Object.keys(res.results).map((key) => {
+              const tx = db.transaction('countries', 'readwrite');
+              const countryStore = tx.objectStore('countries');
+              countryStore.put(res.results[key], key);
+              return tx.complete;
+            });
           });
         });
-        return networkResponse.json().results
+        return networkResponse.json().then(res => res.results);
       });
-    console.log('responseBson:', response);
     return response || networkFetch;
   });
 };
 
 function serveCurrencies(request) {
   const currencies = getCurrencies()
-  return currencies.then((response) => {
+  return currencies.then((dbResponse) => {
+    const response = new Response(JSON.stringify(dbResponse), {
+      headers: { 'Content-Type': 'application/json' }
+    });
     const networkFetch = fetch(request)
-      .then((networkResponse) => {
+      .then(async(networkResponse) => {
         const dbPromise = idb.open('currency-converter-db', 2);
-        dbPromise.then((db) => {
-          const currencies = networkResponse.clone();
-          Object.keys(currencies.json().results).map((key) => {
-            const tx = db.transaction('currencies', 'readwrite');
-            const currencyStore = tx.objectStore('currencies');
-            currencyStore.put(currencies.json().results[key], key);
-            return tx.complete;
+        await dbPromise.then(async(db) => {
+          const networkRes = networkResponse.clone();
+          await networkRes.json().then((res) => {
+            Object.keys(res.results).map((key) => {
+              const tx = db.transaction('currencies', 'readwrite');
+              const currencyStore = tx.objectStore('currencies');
+              currencyStore.put(res.results[key], key);
+              return tx.complete;
+            });
           });
         });
-        return networkResponse.json().results;
+        return networkResponse.json().then(res => res.results)
       });
     return response || networkFetch;
   });

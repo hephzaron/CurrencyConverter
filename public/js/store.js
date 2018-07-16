@@ -4,7 +4,7 @@ import HandleRequest from './vendor';
 const handleRequest = new HandleRequest();
 
 export const saveCountries = () => {
-  const dbPromise = idb.open('currency-converter-db', 1, (upgradeDb) => {
+  const dbPromise = idb.open('currency-converter-db', 2, (upgradeDb) => {
     if (!upgradeDb.objectStoreNames.contains('countries')) {
       return upgradeDb.createObjectStore('countries');
     }
@@ -70,23 +70,11 @@ export const saveCurrencyRates = (options) => {
 }
 
 export const getCountries = () => {
-  const dbPromise = idb.open('currency-converter-db', 1);
+  const dbPromise = idb.open('currency-converter-db', 2);
   return dbPromise.then(async(db) => {
     const tx = db.transaction('countries');
     const countryStore = tx.objectStore('countries');
-    const keyStore = countryStore.getAllKeys();
-    let countries = {};
-    await keyStore.then((keys) => {
-      keys.map((key, index) => {
-        countryStore.get(key).then((value) => {
-          countries[`${key}`] = value
-        });
-      });
-    });
-    console.log('test-2', Object.getOwnPropertyNames(countries));
-    return {
-      countries
-    }
+    return countryStore.getAll();
   });
 }
 
@@ -95,23 +83,12 @@ export const getCurrencies = () => {
   return dbPromise.then(async(db) => {
     const tx = db.transaction('currencies');
     const currencyStore = tx.objectStore('currencies');
-    const keyStore = currencyStore.getAllKeys();
-    let currencies = {};
-    await keyStore.then((keys) => {
-      keys.map((key, index) => {
-        currencyStore.get(key).then((value) => {
-          currencies[`${key}`] = value;
-        });
-      });
-    });
-    return {
-      currencies
-    }
+    return currencyStore.getAll();
   });
 }
 
 export const getCurrencyRate = (fromCurrency, toCurrency) => {
-  const dbPromise = idb.open('currency-converter-db', 3);
+  const dbPromise = idb.open('currency-converter-db');
   return dbPromise.then((db) => {
     let results = {};
     const tx = db.transaction('currency-rates');
