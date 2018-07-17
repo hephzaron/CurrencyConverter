@@ -18,6 +18,7 @@ const repo = '/CurrencyConverter';
 const pageSkeleton = [
   `/`,
   `/build/public/js/main.js`,
+  `/build/public/js/plot.js`,
   `/build/public/css/bootstrap.min.css`,
   `/build/public/css/style.css`,
   `/build/public/js/utils/jquery-3.2.1.min.js`,

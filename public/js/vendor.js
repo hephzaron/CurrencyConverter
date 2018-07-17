@@ -27,7 +27,7 @@ class HandleRequest {
     return fetch(url)
       .then((response) => {
         if (!response) return;
-        response.json().results
+        return response.json()
       })
       .catch(error => console.log(error))
   }
@@ -38,7 +38,7 @@ class HandleRequest {
     return fetch(url)
       .then((response) => {
         if (!response) return;
-        const data = response.json().results;
+        const data = response.json();
         const fromValue = amount * parseFloat(data[`${fromCurrency}_${toCurrency}`]);
         const toValue = amount * parseFloat(data[`${toCurrency}_${fromCurrency}`]);
         return {

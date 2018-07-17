@@ -17,8 +17,8 @@ if (navigator.serviceWorker) {
   const handleRequest = new HandleRequest();
   const fromTo = document.getElementById('fromTo');
   const toFrom = document.getElementById('toFrom');
-  const fromInput = document.getElementById('fromInput');
-  const toInput = document.getElementById('toInput');
+  const fromBtn = document.getElementById('fromBtn');
+  const toBtn = document.getElementById('toBtn');
   const rateFrom = document.getElementById('rateFrom');
   const rateTo = document.getElementById('rateTo');
   let currencies = [];
@@ -47,6 +47,8 @@ if (navigator.serviceWorker) {
       fromToHtml.push(`<option value=${arr[i]['id']} >${arr[i]['currencyName']}</option>`);
       toFromHtml.push(`<option value=${arr[i]['id']}>${arr[i]['currencyName']}</option>`);
     }
+    fromBtn.innerText = arr[0].currencySymbol;
+    toBtn.innerText = arr[0].currencySymbol;
     fromTo.innerHTML = fromToHtml.join('');
     toFrom.innerHTML = toFromHtml.join('');
   }
@@ -60,7 +62,7 @@ if (navigator.serviceWorker) {
     fromCurrency = currencies.filter(el => el.id === id);
     const fromCurrencySymbol = fromCurrency[0].currencySymbol ? fromCurrency[0].currencySymbol : fromCurrency[0].id
     const fromCurrencyId = fromCurrency[0].id;
-    fromInput.setAttribute('placeholder', fromCurrencySymbol);
+    fromBtn.innerText = fromCurrencySymbol;
     rateFrom.innerText = `1 ${fromCurrencyId} = ${toCurrency[0].id}`;
     rateTo.innerText = `1 ${toCurrency[0].id}  = ${fromCurrencyId}`;
   }
@@ -74,7 +76,7 @@ if (navigator.serviceWorker) {
     toCurrency = currencies.filter(el => el.id === id);
     const toCurrencySymbol = toCurrency[0].currencySymbol ? toCurrency[0].currencySymbol : toCurrency[0].id
     const toCurrencyId = toCurrency[0].id;
-    toInput.setAttribute('placeholder', toCurrencySymbol);
+    toBtn.innerText = toCurrencySymbol;
     rateFrom.innerText = `1 ${fromCurrency[0].id} = ${toCurrencyId}`;
     rateTo.innerText = `1 ${toCurrencyId}  = ${fromCurrency[0].id}`;
   }

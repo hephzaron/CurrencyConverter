@@ -8,3 +8,7 @@ body {
   height: 200px;
   background-color: rgb(71, 71, 150)
 }
+
+.input-group {
+  margin-top: 20px
+}
