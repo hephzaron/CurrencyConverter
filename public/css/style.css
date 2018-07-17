@@ -3,10 +3,10 @@ body {
 }
 
 #chartContainer {
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 500px;
+  max-height: 500px;
   position: relative;
-  left: 20%
+  left: 30%
 }
 
 .input-group {

@@ -18984,6 +18984,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.showTrends = undefined;
 
+var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
 var _chart = require('chart.js');
 
 var _chart2 = _interopRequireDefault(_chart);
@@ -18996,43 +18998,59 @@ var showTrends = exports.showTrends = function showTrends() {
   var toFrom = document.getElementById('toFrom');
   var fromLabel = fromTo.options[fromTo.selectedIndex].text;
   var toLabel = toFrom.options[toFrom.selectedIndex].text;
+  var historyData = {
+    USD_PHP: {
+      '2018-07-12': 53.409698,
+      '2018-07-13': 53.509998,
+      '2018-07-14': 53.509998,
+      '2018-07-15': 53.479993,
+      '2018-07-16': 52.409698,
+      '2018-07-17': 55.509998
+    }
+  };
+
+  var _Object$keys = Object.keys(historyData),
+      _Object$keys2 = _slicedToArray(_Object$keys, 1),
+      key = _Object$keys2[0];
+
+  var xLabel = Object.keys(historyData['' + key]);
+  var yData = Object.values(historyData['' + key]);
+
+  var _getLimits = getLimits(yData),
+      yMax = _getLimits.yMax,
+      yMin = _getLimits.yMin;
 
   var data = {
-    labels: ['Mon', 'Tue', 'Wed', 'Thurs'],
+    labels: xLabel,
     datasets: [{
-      label: fromLabel,
+      label: fromLabel + ' against ' + toLabel,
       fill: false,
       pointBackgroundColor: 'rgba(225,99,192,0.8)',
       borderColor: 'rgba(2,2,198,0.7)',
-      yAxesID: 'from',
-      data: [7, 18, 11, 10]
-    }, {
-      label: toLabel,
-      fill: false,
-      pointBackgroundColor: 'rgba(99,45,225,0.8)',
-      borderColor: 'rgba(198,2,2,0.7)',
-      yAxesID: 'to',
-      data: [9, 4, 13, 6],
-      type: 'line'
+      yAxesID: 'A',
+      data: yData
     }]
   };
   var options = {
     scales: {
+      xAxes: [{
+        type: 'time',
+        distribution: 'series',
+        time: {
+          unit: 'day'
+        }
+      }],
       yAxes: [{
-        id: 'from',
+        id: 'A',
         type: 'linear',
         position: 'left',
         ticks: {
-          max: 18,
-          min: 0
-        }
-      }, {
-        id: 'to',
-        type: 'linear',
-        position: 'right',
-        ticks: {
-          max: 18,
-          min: 0
+          max: yMax,
+          min: yMin
+        },
+        scaleLabel: {
+          display: true,
+          labelString: fromLabel + ' conversion rates'
         }
       }]
     },
@@ -19047,6 +19065,22 @@ var showTrends = exports.showTrends = function showTrends() {
     data: data,
     options: options
   });
+};
+
+var getLimits = function getLimits(arr) {
+  var maxVal = arr.reduce(function (prev, next) {
+    return Math.max(prev, next);
+  });
+  var minVal = arr.reduce(function (prev, next) {
+    return Math.min(prev, next);
+  });
+  var offset = (maxVal - minVal) / arr.length;
+  var yMax = maxVal + offset;
+  var yMin = minVal - offset;
+  return {
+    yMax: yMax,
+    yMin: yMin
+  };
 };
 
 exports.default = {};
