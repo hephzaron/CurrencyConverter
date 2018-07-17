@@ -2,11 +2,11 @@ body {
   padding: 20px
 }
 
-#currency-plot {
-  margin: auto;
-  width: 400px;
-  height: 200px;
-  background-color: rgb(71, 71, 150)
+#chartContainer {
+  max-width: 400px;
+  max-height: 400px;
+  position: relative;
+  left: 20%
 }
 
 .input-group {

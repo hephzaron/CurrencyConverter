@@ -1,3 +1,79 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('(2(){2 r(e,n,t){2 o(i,f){5(!n[i]){5(!e[i]){4 c="2"==1b s&&s;5(!f&&c)3 c(i,!0);5(u)3 u(i,!0);4 a=T 1j("S 1A 19 \'"+i+"\'");U a.1z="1y",a}4 p=n[i]={d:{}};e[i][0].R(p.d,2(r){4 n=e[i][1][r];3 o(n||r)},p,p.d,r,e,n,t)}3 n[i].d}18(4 u="2"==1b s&&s,i=0;i<t.17;i++)o(t[i]);3 o}3 r})()({1:[2(s,19,d){\'1u 1t\';13.12(d,"1s",{l:M});4 P=2(){2 J(11,N){18(4 i=0;i<N.17;i++){4 8=N[i];8.15=8.15||1n;8.1m=M;5("l"1l 8)8.1k=M;13.12(11,8.w,8)}}3 2(k,K,I){5(K)J(k.1e,K);5(I)J(k,I);3 k}}();2 Z(W,k){5(!(W 1v k)){U T 1o("S R a 1h 1g a 2")}}4 j=2(){2 j(){Z(h,j);h.m=\'1d://1c.1x.1w/1B/1q\'}P(j,[{w:\'O\',l:2 O(){3 D(h.m+\'/1i\').E(2(6){5(!6)3;3 6.A()}).x(2(9){3 C.B(9)})}},{w:\'1a\',l:2 1a(){3 D(h.m+\'/1p\').E(2(6){5(!6)3;3 6.A()}).x(2(9){3 C.B(9)})}},{w:\'16\',l:2 16(7,b,14,F){4 z=7+\'g\'+b+\',\'+b+\'g\'+7;4 y=h.m+\'/10?q=\'+z+\'&Y=V&1f=[\'+14+\']&F=[\'+F+\']\';3 D(y).E(2(6){5(!6)3;3 6.A()}).x(2(9){3 C.B(9)})}},{w:\'X\',l:2 X(L,7,b){4 z=7+\'g\'+b+\',\'+b+\'g\'+7;4 y=h.m+\'/10?q=\'+z+\'&Y=V\';3 D(y).E(2(6){5(!6)3;4 v=6.A();4 H=L*Q(v[7+\'g\'+b]);4 G=L*Q(v[b+\'g\'+7]);3{H:H,G:G,v:v}}).x(2(9){3 C.B(9)})}}]);3 j}();d.1r=j},{}]},{},[1])',62,100,'||function|return|var|if|response|fromCurrency|descriptor|error||toCurrency||exports|||_|this||HandleRequest|Constructor|value|baseUrl||||||require|||data|key|catch|url|query|json|log|console|fetch|then|endDate|toValue|fromValue|staticProps|defineProperties|protoProps|amount|true|props|fetchCountries|_createClass|parseFloat|call|Cannot|new|throw|ultra|instance|convertCurrency|compact|_classCallCheck|convert|target|defineProperty|Object|startDate|enumerable|fetchHistoricalData|length|for|module|fetchCurrencies|typeof|free|https|prototype|date|as|class|countries|Error|writable|in|configurable|false|TypeError|currencies|v5|default|__esModule|strict|use|instanceof|com|currencyconverterapi|MODULE_NOT_FOUND|code|find|api'.split('|'),0,{}))
+(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var HandleRequest = function () {
+  function HandleRequest() {
+    _classCallCheck(this, HandleRequest);
+
+    this.baseUrl = 'https://free.currencyconverterapi.com/api/v5';
+  }
+
+  _createClass(HandleRequest, [{
+    key: 'fetchCountries',
+    value: function fetchCountries() {
+      return fetch(this.baseUrl + '/countries').then(function (response) {
+        if (!response) return;
+        return response.json();
+      }).catch(function (error) {
+        return console.log(error);
+      });
+    }
+  }, {
+    key: 'fetchCurrencies',
+    value: function fetchCurrencies() {
+      return fetch(this.baseUrl + '/currencies').then(function (response) {
+        if (!response) return;
+        return response.json();
+      }).catch(function (error) {
+        return console.log(error);
+      });
+    }
+  }, {
+    key: 'fetchHistoricalData',
+    value: function fetchHistoricalData(fromCurrency, toCurrency, startDate, endDate) {
+      var query = fromCurrency + '_' + toCurrency + ',' + toCurrency + '_' + fromCurrency;
+      var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra&date=[' + startDate + ']&endDate=[' + endDate + ']';
+      return fetch(url).then(function (response) {
+        if (!response) return;
+        return response.json();
+      }).catch(function (error) {
+        return console.log(error);
+      });
+    }
+  }, {
+    key: 'convertCurrency',
+    value: function convertCurrency(amount, fromCurrency, toCurrency) {
+      var query = fromCurrency + '_' + toCurrency + ',' + toCurrency + '_' + fromCurrency;
+      var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra';
+      return fetch(url).then(function (response) {
+        if (!response) return;
+        var data = response.json();
+        var fromValue = amount * parseFloat(data[fromCurrency + '_' + toCurrency]);
+        var toValue = amount * parseFloat(data[toCurrency + '_' + fromCurrency]);
+        return {
+          fromValue: fromValue,
+          toValue: toValue,
+          data: data
+        };
+      }).catch(function (error) {
+        return console.log(error);
+      });
+    }
+  }]);
+
+  return HandleRequest;
+}();
+
+exports.default = HandleRequest;
+
+},{}]},{},[1])
 
 //# sourceMappingURL=vendor.js.map

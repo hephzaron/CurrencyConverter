@@ -1,4 +1,5 @@
 import HandleRequest from './vendor';
+import { showTrends } from './plot';
 
 if (navigator.serviceWorker) {
   window.addEventListener('load', () => {
@@ -37,6 +38,7 @@ if (navigator.serviceWorker) {
   window.addEventListener('load', (event) => {
     event.preventDefault();
     loadCurrency();
+    showTrends();
   })
 
   function loadCurrency() {

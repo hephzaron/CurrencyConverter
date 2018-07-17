@@ -1,3 +1,666 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('(5(){5 r(e,n,t){5 o(i,f){8(!n[i]){8(!e[i]){7 c="5"==19 O&&O;8(!f&&c)6 c(i,!0);8(u)6 u(i,!0);7 a=l 5p("3E 5o 14 \'"+i+"\'");3B a.5n="5m",a}7 p=n[i]={h:{}};e[i][0].34(p.h,5(r){7 n=e[i][1][r];6 o(n||r)},p,p.h,r,e,n,t)}6 n[i].h}3f(7 u="5"==19 O&&O,i=0;i<t.2r;i++)o(t[i]);6 o}6 r})()({1:[5(O,14,h){\'2e 2d\';(5(){5 3I(49){6 5l.m.3F.34(49)}5 2S(9){6 l U(5(N,18){9.2l=5(){N(9.1T)};9.3O=5(){18(9.T)}})}5 1S(k,1Y,10){7 9;7 p=l U(5(N,18){9=k[1Y].17(k,10);2S(9).d(N,18)});p.9=9;6 p}5 45(k,1Y,10){7 p=1S(k,1Y,10);6 p.d(5(I){8(!I)6;6 l 1r(I,p.9)})}5 1k(1g,X,1c){1c.1h(5(G){Y.2u(1g.m,G,{1l:5(){6 b[X][G]},5j:5(48){b[X][G]=48}})})}5 2f(1g,X,x,1c){1c.1h(5(G){8(!(G 1D x.m))6;1g.m[G]=5(){6 1S(b[X],G,11)}})}5 1Z(1g,X,x,1c){1c.1h(5(G){8(!(G 1D x.m))6;1g.m[G]=5(){6 b[X][G].17(b[X],11)}})}5 2H(1g,X,x,1c){1c.1h(5(G){8(!(G 1D x.m))6;1g.m[G]=5(){6 45(b[X],G,11)}})}5 1i(1Q){b.1V=1Q}1k(1i,\'1V\',[\'1e\',\'3U\',\'5c\',\'5b\']);2f(1i,\'1V\',42,[\'1l\',\'3S\',\'1A\',\'3R\',\'1K\']);2H(1i,\'1V\',42,[\'2F\',\'2O\']);5 1r(R,9){b.26=R;b.38=9}1k(1r,\'26\',[\'59\',\'j\',\'58\',\'I\']);2f(1r,\'26\',41,[\'57\',\'2z\']);[\'56\',\'3A\',\'55\'].1h(5(2i){8(!(2i 1D 41.m))6;1r.m[2i]=5(){7 R=b;7 10=11;6 U.N().d(5(){R.26[2i].17(R.26,10);6 2S(R.38).d(5(I){8(!I)6;6 l 1r(I,R.38)})})}});5 S(29){b.z=29}S.m.3V=5(){6 l 1i(b.z.3V.17(b.z,11))};S.m.1Q=5(){6 l 1i(b.z.1Q.17(b.z,11))};1k(S,\'z\',[\'1e\',\'3U\',\'4W\',\'4V\']);2f(S,\'z\',32,[\'1u\',\'4T\',\'2z\',\'4S\',\'1l\',\'1A\',\'3S\',\'3R\',\'1K\']);2H(S,\'z\',32,[\'2F\',\'2O\']);1Z(S,\'z\',32,[\'4N\']);5 1q(1o){b.25=1o;b.1w=l U(5(N,18){1o.4M=5(){N()};1o.3O=5(){18(1o.T)};1o.4K=5(){18(1o.T)}})}1q.m.W=5(){6 l S(b.25.W.17(b.25,11))};1k(1q,\'25\',[\'1s\',\'3H\']);1Z(1q,\'25\',4H,[\'4G\']);5 1O(g,2w,L){b.Z=g;b.2w=2w;b.L=l 1q(L)}1O.m.22=5(){6 l S(b.Z.22.17(b.Z,11))};1k(1O,\'Z\',[\'1e\',\'2x\',\'1s\']);1Z(1O,\'Z\',3K,[\'4F\',\'3J\']);5 1R(g){b.Z=g}1R.m.L=5(){6 l 1q(b.Z.L.17(b.Z,11))};1k(1R,\'Z\',[\'1e\',\'2x\',\'1s\']);1Z(1R,\'Z\',3K,[\'3J\']);[\'2F\',\'2O\'].1h(5(2q){[S,1i].1h(5(x){8(!(2q 1D x.m))6;x.m[2q.4w(\'P\',\'4v\')]=5(){7 10=3I(11);7 39=10[10.2r-1];7 2D=b.z||b.1V;7 9=2D[2q].17(2D,10.3F(0,-1));9.2l=5(){39(9.1T)}}})});[1i,S].1h(5(x){8(x.m.1A)6;x.m.1A=5(1t,1K){7 2y=b;7 1L=[];6 l U(5(N){2y.4i(1t,5(R){8(!R){N(1L);6}1L.3D(R.I);8(1K!==24&&1L.2r==1K){N(1L);6}R.3A()})})}});7 2C={P:5(1e,2x,30){7 p=1S(3y,\'P\',[1e,2x]);7 9=p.9;8(9){9.4c=5(v){8(30){30(l 1O(9.1T,v.2w,9.L))}}}6 p.d(5(g){6 l 1R(g)})},2z:5(1e){6 1S(3y,\'5f\',[1e])}};8(19 14!==\'24\'){14.h=2C;14.h.M=14.h}5d{1H.1X=2C}}())},{}],2:[5(O,14,h){\'2e 2d\';Y.2u(h,"2a",{I:2t});h.1N=h.27=h.1G=h.1U=h.1J=h.1I=24;7 3n=19 1W==="5"&&19 1W.54==="3x"?5(k){6 19 k}:5(k){6 k&&19 1W==="5"&&k.53===1W&&k!==1W.m?"3x":19 k};7 2c=O(\'1X\');7 V=28(2c);7 3w=O(\'./3g\');7 3v=28(3w);5 28(k){6 k&&k.2a?k:{M:k}}7 2G=l 3v.M();7 1I=h.1I=5 1I(){7 F=V.M.P(\'J-1f-g\',2,5(1a){8(!1a.1s.2P(\'E\')){6 1a.22(\'E\')}});6 F.d(5(g){7 2o=2G.2W();6 2o.d(5(E){8(!E.B){6 U.18(\'4Y 4X 4U 3t 3s 3r 3q\')}7 3u=Y.1n(E.B).1y(5(j){7 s=g.L(\'E\',\'21\');7 1v=s.W(\'E\');1v.1u(E.B[j],j);6 s.1w});6 U.N(3u)})})};7 1J=h.1J=5 1J(){7 F=V.M.P(\'J-1f-g\',2,5(1a){8(!1a.1s.2P(\'C\')){6 1a.22(\'C\')}});6 F.d(5(g){7 2o=2G.2V();6 2o.d(5(C){8(!C.B){6 U.18(\'4L 4E 3t 3s 3r 3q\')}7 3p=Y.1n(C.B).1y(5(j){7 s=g.L(\'C\',\'21\');7 1b=s.W(\'C\');1b.1u(C.B[j],j);6 s.1w});6 U.N(3p)})})};7 1U=h.1U=5 1U(1C){7 F=V.M.P(\'J-1f-g\',3,5(1a){8(!1a.1s.2P(\'J-1z\')){6 1a.22(\'J-1z\')}});8((19 1C===\'24\'?\'24\':3n(1C))!==\'4e\'||!1C)6;6 F.d(5(g){7 3l=Y.1n(1C).1y(5(j){7 s=g.L(\'J-1z\',\'21\');7 1b=s.W(\'J-1z\');1b.1u(1C[j],j);6 s.1w});6 U.N(3l)})};7 1G=h.1G=5 1G(){7 F=V.M.P(\'J-1f-g\',2);6 F.d(1m 5(g){7 s=g.L(\'E\');7 1v=s.W(\'E\');6 1v.1A()})};7 27=h.27=5 27(){7 F=V.M.P(\'J-1f-g\',2);6 F.d(1m 5(g){7 s=g.L(\'C\');7 1b=s.W(\'C\');6 1b.1A()})};7 1N=h.1N=5 1N(y,A){7 F=V.M.P(\'J-1f-g\');6 F.d(5(g){7 B={};7 s=g.L(\'J-1z\');7 2M=s.W(\'J-1z\');2M.1l(y+\'H\'+A).2l=5(e){B[y+\'H\'+A]=e.2v.1T};2M.1l(A+\'H\'+y).2l=5(e){B[A+\'H\'+y]=e.2v.1T};6 B})};h.M={}},{"./3g":3,"1X":1}],3:[5(O,14,h){\'2e 2d\';Y.2u(h,"2a",{I:2t});7 3c=5(){5 35(2v,2U){3f(7 i=0;i<2U.2r;i++){7 1j=2U[i];1j.3d=1j.3d||5g;1j.51=2t;8("I"1D 1j)1j.4R=2t;Y.2u(2v,1j.j,1j)}}6 5(x,33,36){8(33)35(x.m,33);8(36)35(x,36);6 x}}();5 3b(2y,x){8(!(2y 4Z x)){3B l 4z("3E 34 a 4h 4s a 5")}}7 1E=5(){5 1E(){3b(b,1E);b.20=\'4A://3L.3M.3N/4C/4D\'}3c(1E,[{j:\'2W\',I:5 2W(){6 15(b.20+\'/E\').d(5(w){8(!w)6;6 w.Q()}).1M(5(T){6 1p.1F(T)})}},{j:\'2V\',I:5 2V(){6 15(b.20+\'/C\').d(5(w){8(!w)6;6 w.Q()}).1M(5(T){6 1p.1F(T)})}},{j:\'3e\',I:5 3e(y,A,3h,2R){7 1t=y+\'H\'+A+\',\'+A+\'H\'+y;7 D=b.20+\'/2j?q=\'+1t+\'&3i=3j&4u=[\'+3h+\']&2R=[\'+2R+\']\';6 15(D).d(5(w){8(!w)6;6 w.Q()}).1M(5(T){6 1p.1F(T)})}},{j:\'2s\',I:5 2s(2L,y,A){7 1t=y+\'H\'+A+\',\'+A+\'H\'+y;7 D=b.20+\'/2j?q=\'+1t+\'&3i=3j\';6 15(D).d(5(w){8(!w)6;7 23=w.Q();7 2J=2L*3k(23[y+\'H\'+A]);7 2I=2L*3k(23[A+\'H\'+y]);6{2J:2J,2I:2I,23:23}}).1M(5(T){6 1p.1F(T)})}}]);6 1E}();h.M=1E},{}],4:[5(O,14,h){\'2e 2d\';7 2c=O(\'1X\');7 V=28(2c);7 z=O(\'./12/K/29\');5 28(k){6 k&&k.2a?k:{M:k}}7 2Q=\'2j-J\';7 3m=\'50\';7 2K=2Q+\'-\'+3m;7 4d=\'/4k\';7 3z=[\'/\',\'/1d/12/K/4l.K\',\'/1d/12/K/4m.K\',\'/1d/12/2n/3o.2N.2n\',\'/1d/12/2n/4n.2n\',\'/1d/12/K/2p/4p-3.2.1.2N.K\',\'/1d/12/K/2p/3o.2N.K\',\'/1d/12/K/2p/4O-4P-4Q-52.K\',\'/1d/12/K/2p/5a-5e-5h-5i.K\',\'/1Q.5k\'];1H.2Z(\'4a\',5(v){v.3a(2b.P(2K).d(5(2Y){6 2Y.4b(3z)}).d(5(){6 1H.4f()}))});1H.2Z(\'4g\',5(v){v.3a(2b.1n().d(5(2m){7 2E=2m.4j(5(3C){6 3C.3G(2Q)});2E.3D(2K);6 U.4o(2m.1y(5(j,i){8(2E.3G(j)===-1){6 2b.2z(2m[i])}}))}).d(1m 5(){1B(0,z.1I)();1B(0,z.1J)()}).1M(5(e){6 1p.1F(e)}))});1H.2Z(\'15\',5(v){7 D=l 44(v.9.D);8(v.9.2Y===\'4q-8-4r\'&&v.9.3H!==\'4t-4x\'){6};8(v.9.1Y!==\'4y\')6;8(D.4B===\'3L.3M.3N\'){8(D.2X.2T(\'E\')){v.2h(3P(v.9));6}8(D.2X.2T(\'C\')){1p.1F(\'D\',D);v.2h(3Q(v.9));6}8(D.2X.2T(\'2j\')){7 1P=D.46.1l(\'q\');8(1P[0].37(\'H\')===1P[1].37(\'H\').4I()){v.2h(2s(v.9));6}}}v.2h(2b.4J(v.9).d(5(w){6 w||15(v.9)}))});5 3P(9){7 E=(0,z.1G)();6 E.d(5(2g){7 w=l 3T(3W.3X(2g),{3Y:{\'3Z-40\':\'43/Q\'}});7 1x=15(9).d(1m 5(16){7 F=V.M.P(\'J-1f-g\',2);1B F.d(1m 5(g){7 2k=16.2A();1B 2k.Q().d(5(13){Y.1n(13.B).1y(5(j){7 s=g.L(\'E\',\'21\');7 1v=s.W(\'E\');1v.1u(13.B[j],j);6 s.1w})})});6 16.Q().d(5(13){6 13.B})});6 w||1x})};5 3Q(9){7 C=(0,z.27)();6 C.d(5(2g){7 w=l 3T(3W.3X(2g),{3Y:{\'3Z-40\':\'43/Q\'}});7 1x=15(9).d(1m 5(16){7 F=V.M.P(\'J-1f-g\',2);1B F.d(1m 5(g){7 2k=16.2A();1B 2k.Q().d(5(13){Y.1n(13.B).1y(5(j){7 s=g.L(\'C\',\'21\');7 1b=s.W(\'C\');1b.1u(13.B[j],j);6 s.1w})})});6 16.Q().d(5(13){6 13.B})});6 w||1x})};5 2s(9){7 D=l 44(9.D);7 1P=D.46.1l(\'q\');7 31=1P[0].37(\'H\');7 y=31[0];7 A=31[1];7 47=[y+\'H\'+A,A+\'H\'+y];7 2B=(0,z.1N)(y,A);7 1x=15(9).d(5(16){(0,z.1U)(16.2A().Q());6 16.Q()});6 Y.1n(2B)!==47?1x:2B}},{"./12/K/29":2,"1X":1}]},{},[4])',62,336,'|||||function|return|var|if|request||this||then|||db|exports||key|obj|new|prototype||||||tx|||event|response|Constructor|fromCurrency|_store|toCurrency|results|currencies|url|countries|dbPromise|prop|_|value|currency|js|transaction|default|resolve|require|open|json|cursor|ObjectStore|error|Promise|_idb2|objectStore|targetProp|Object|_db|args|arguments|public|res|module|fetch|networkResponse|apply|reject|typeof|upgradeDb|currencyStore|properties|build|name|converter|ProxyClass|forEach|Index|descriptor|proxyProperties|get|async|keys|idbTransaction|console|Transaction|Cursor|objectStoreNames|query|put|countryStore|complete|networkFetch|map|rates|getAll|await|options|in|HandleRequest|log|getCountries|self|saveCountries|saveCurrencies|count|items|catch|getCurrencyRate|UpgradeDB|params|index|DB|promisifyRequestCall|result|saveCurrencyRates|_index|Symbol|idb|method|proxyMethods|baseUrl|readwrite|createObjectStore|data|undefined|_tx|_cursor|getCurrencies|_interopRequireDefault|store|__esModule|caches|_idb|strict|use|proxyRequestMethods|dbResponse|respondWith|methodName|convert|networkRes|onsuccess|cacheNames|css|fetchedResponse|utils|funcName|length|convertCurrency|true|defineProperty|target|oldVersion|version|instance|delete|clone|dbFetch|exp|nativeObject|whiteList|openCursor|handleRequest|proxyCursorRequestMethods|toValue|fromValue|appCahe|amount|currencyRateStore|min|openKeyCursor|contains|cacheBasename|endDate|promisifyRequest|endsWith|props|fetchCurrencies|fetchCountries|pathname|cache|addEventListener|upgradeCallback|convParams|IDBObjectStore|protoProps|call|defineProperties|staticProps|split|_request|callback|waitUntil|_classCallCheck|_createClass|enumerable|fetchHistoricalData|for|vendor|startDate|compact|ultra|parseFloat|addCurrencyRates|cacheVersion|_typeof|bootstrap|addCurrency|network|from|fetched|be|addCountry|_vendor2|_vendor|symbol|indexedDB|pageSkeleton|continue|throw|cacheName|push|Cannot|slice|indexOf|mode|toArray|close|IDBDatabase|free|currencyconverterapi|com|onerror|serveCountries|serveCurrencies|getAllKeys|getKey|Response|keyPath|createIndex|JSON|stringify|headers|Content|Type|IDBCursor|IDBIndex|application|URL|promisifyCursorRequestCall|searchParams|convKeys|val|arr|install|addAll|onupgradeneeded|repo|object|skipWaiting|activate|class|iterateCursor|filter|CurrencyConverter|main|plot|style|all|jquery|only|cached|as|same|date|iterate|replace|origin|GET|TypeError|https|hostname|api|v5|cannot|deleteObjectStore|abort|IDBTransaction|reverse|match|onabort|Currencies|oncomplete|deleteIndex|ie|emulation|modes|writable|clear|add|not|autoIncrement|indexNames|could|Countries|instanceof|v1|configurable|warning|constructor|iterator|continuePrimaryKey|advance|update|primaryKey|direction|ie10|unique|multiEntry|else|viewport|deleteDatabase|false|bug|workaround|set|html|Array|MODULE_NOT_FOUND|code|find|Error'.split('|'),0,{}))
+(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+'use strict';
+
+(function() {
+  function toArray(arr) {
+    return Array.prototype.slice.call(arr);
+  }
+
+  function promisifyRequest(request) {
+    return new Promise(function(resolve, reject) {
+      request.onsuccess = function() {
+        resolve(request.result);
+      };
+
+      request.onerror = function() {
+        reject(request.error);
+      };
+    });
+  }
+
+  function promisifyRequestCall(obj, method, args) {
+    var request;
+    var p = new Promise(function(resolve, reject) {
+      request = obj[method].apply(obj, args);
+      promisifyRequest(request).then(resolve, reject);
+    });
+
+    p.request = request;
+    return p;
+  }
+
+  function promisifyCursorRequestCall(obj, method, args) {
+    var p = promisifyRequestCall(obj, method, args);
+    return p.then(function(value) {
+      if (!value) return;
+      return new Cursor(value, p.request);
+    });
+  }
+
+  function proxyProperties(ProxyClass, targetProp, properties) {
+    properties.forEach(function(prop) {
+      Object.defineProperty(ProxyClass.prototype, prop, {
+        get: function() {
+          return this[targetProp][prop];
+        },
+        set: function(val) {
+          this[targetProp][prop] = val;
+        }
+      });
+    });
+  }
+
+  function proxyRequestMethods(ProxyClass, targetProp, Constructor, properties) {
+    properties.forEach(function(prop) {
+      if (!(prop in Constructor.prototype)) return;
+      ProxyClass.prototype[prop] = function() {
+        return promisifyRequestCall(this[targetProp], prop, arguments);
+      };
+    });
+  }
+
+  function proxyMethods(ProxyClass, targetProp, Constructor, properties) {
+    properties.forEach(function(prop) {
+      if (!(prop in Constructor.prototype)) return;
+      ProxyClass.prototype[prop] = function() {
+        return this[targetProp][prop].apply(this[targetProp], arguments);
+      };
+    });
+  }
+
+  function proxyCursorRequestMethods(ProxyClass, targetProp, Constructor, properties) {
+    properties.forEach(function(prop) {
+      if (!(prop in Constructor.prototype)) return;
+      ProxyClass.prototype[prop] = function() {
+        return promisifyCursorRequestCall(this[targetProp], prop, arguments);
+      };
+    });
+  }
+
+  function Index(index) {
+    this._index = index;
+  }
+
+  proxyProperties(Index, '_index', [
+    'name',
+    'keyPath',
+    'multiEntry',
+    'unique'
+  ]);
+
+  proxyRequestMethods(Index, '_index', IDBIndex, [
+    'get',
+    'getKey',
+    'getAll',
+    'getAllKeys',
+    'count'
+  ]);
+
+  proxyCursorRequestMethods(Index, '_index', IDBIndex, [
+    'openCursor',
+    'openKeyCursor'
+  ]);
+
+  function Cursor(cursor, request) {
+    this._cursor = cursor;
+    this._request = request;
+  }
+
+  proxyProperties(Cursor, '_cursor', [
+    'direction',
+    'key',
+    'primaryKey',
+    'value'
+  ]);
+
+  proxyRequestMethods(Cursor, '_cursor', IDBCursor, [
+    'update',
+    'delete'
+  ]);
+
+  // proxy 'next' methods
+  ['advance', 'continue', 'continuePrimaryKey'].forEach(function(methodName) {
+    if (!(methodName in IDBCursor.prototype)) return;
+    Cursor.prototype[methodName] = function() {
+      var cursor = this;
+      var args = arguments;
+      return Promise.resolve().then(function() {
+        cursor._cursor[methodName].apply(cursor._cursor, args);
+        return promisifyRequest(cursor._request).then(function(value) {
+          if (!value) return;
+          return new Cursor(value, cursor._request);
+        });
+      });
+    };
+  });
+
+  function ObjectStore(store) {
+    this._store = store;
+  }
+
+  ObjectStore.prototype.createIndex = function() {
+    return new Index(this._store.createIndex.apply(this._store, arguments));
+  };
+
+  ObjectStore.prototype.index = function() {
+    return new Index(this._store.index.apply(this._store, arguments));
+  };
+
+  proxyProperties(ObjectStore, '_store', [
+    'name',
+    'keyPath',
+    'indexNames',
+    'autoIncrement'
+  ]);
+
+  proxyRequestMethods(ObjectStore, '_store', IDBObjectStore, [
+    'put',
+    'add',
+    'delete',
+    'clear',
+    'get',
+    'getAll',
+    'getKey',
+    'getAllKeys',
+    'count'
+  ]);
+
+  proxyCursorRequestMethods(ObjectStore, '_store', IDBObjectStore, [
+    'openCursor',
+    'openKeyCursor'
+  ]);
+
+  proxyMethods(ObjectStore, '_store', IDBObjectStore, [
+    'deleteIndex'
+  ]);
+
+  function Transaction(idbTransaction) {
+    this._tx = idbTransaction;
+    this.complete = new Promise(function(resolve, reject) {
+      idbTransaction.oncomplete = function() {
+        resolve();
+      };
+      idbTransaction.onerror = function() {
+        reject(idbTransaction.error);
+      };
+      idbTransaction.onabort = function() {
+        reject(idbTransaction.error);
+      };
+    });
+  }
+
+  Transaction.prototype.objectStore = function() {
+    return new ObjectStore(this._tx.objectStore.apply(this._tx, arguments));
+  };
+
+  proxyProperties(Transaction, '_tx', [
+    'objectStoreNames',
+    'mode'
+  ]);
+
+  proxyMethods(Transaction, '_tx', IDBTransaction, [
+    'abort'
+  ]);
+
+  function UpgradeDB(db, oldVersion, transaction) {
+    this._db = db;
+    this.oldVersion = oldVersion;
+    this.transaction = new Transaction(transaction);
+  }
+
+  UpgradeDB.prototype.createObjectStore = function() {
+    return new ObjectStore(this._db.createObjectStore.apply(this._db, arguments));
+  };
+
+  proxyProperties(UpgradeDB, '_db', [
+    'name',
+    'version',
+    'objectStoreNames'
+  ]);
+
+  proxyMethods(UpgradeDB, '_db', IDBDatabase, [
+    'deleteObjectStore',
+    'close'
+  ]);
+
+  function DB(db) {
+    this._db = db;
+  }
+
+  DB.prototype.transaction = function() {
+    return new Transaction(this._db.transaction.apply(this._db, arguments));
+  };
+
+  proxyProperties(DB, '_db', [
+    'name',
+    'version',
+    'objectStoreNames'
+  ]);
+
+  proxyMethods(DB, '_db', IDBDatabase, [
+    'close'
+  ]);
+
+  // Add cursor iterators
+  // TODO: remove this once browsers do the right thing with promises
+  ['openCursor', 'openKeyCursor'].forEach(function(funcName) {
+    [ObjectStore, Index].forEach(function(Constructor) {
+      // Don't create iterateKeyCursor if openKeyCursor doesn't exist.
+      if (!(funcName in Constructor.prototype)) return;
+
+      Constructor.prototype[funcName.replace('open', 'iterate')] = function() {
+        var args = toArray(arguments);
+        var callback = args[args.length - 1];
+        var nativeObject = this._store || this._index;
+        var request = nativeObject[funcName].apply(nativeObject, args.slice(0, -1));
+        request.onsuccess = function() {
+          callback(request.result);
+        };
+      };
+    });
+  });
+
+  // polyfill getAll
+  [Index, ObjectStore].forEach(function(Constructor) {
+    if (Constructor.prototype.getAll) return;
+    Constructor.prototype.getAll = function(query, count) {
+      var instance = this;
+      var items = [];
+
+      return new Promise(function(resolve) {
+        instance.iterateCursor(query, function(cursor) {
+          if (!cursor) {
+            resolve(items);
+            return;
+          }
+          items.push(cursor.value);
+
+          if (count !== undefined && items.length == count) {
+            resolve(items);
+            return;
+          }
+          cursor.continue();
+        });
+      });
+    };
+  });
+
+  var exp = {
+    open: function(name, version, upgradeCallback) {
+      var p = promisifyRequestCall(indexedDB, 'open', [name, version]);
+      var request = p.request;
+
+      if (request) {
+        request.onupgradeneeded = function(event) {
+          if (upgradeCallback) {
+            upgradeCallback(new UpgradeDB(request.result, event.oldVersion, request.transaction));
+          }
+        };
+      }
+
+      return p.then(function(db) {
+        return new DB(db);
+      });
+    },
+    delete: function(name) {
+      return promisifyRequestCall(indexedDB, 'deleteDatabase', [name]);
+    }
+  };
+
+  if (typeof module !== 'undefined') {
+    module.exports = exp;
+    module.exports.default = module.exports;
+  }
+  else {
+    self.idb = exp;
+  }
+}());
+
+},{}],2:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.getCurrencyRate = exports.getCurrencies = exports.getCountries = exports.saveCurrencyRates = exports.saveCurrencies = exports.saveCountries = undefined;
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+var _idb = require('idb');
+
+var _idb2 = _interopRequireDefault(_idb);
+
+var _vendor = require('./vendor');
+
+var _vendor2 = _interopRequireDefault(_vendor);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var handleRequest = new _vendor2.default();
+
+var saveCountries = exports.saveCountries = function saveCountries() {
+  var dbPromise = _idb2.default.open('currency-converter-db', 2, function (upgradeDb) {
+    if (!upgradeDb.objectStoreNames.contains('countries')) {
+      return upgradeDb.createObjectStore('countries');
+    }
+  });
+
+  return dbPromise.then(function (db) {
+    var fetchedResponse = handleRequest.fetchCountries();
+    return fetchedResponse.then(function (countries) {
+      if (!countries.results) {
+        return Promise.reject('Countries could not be fetched from network');
+      }
+      var addCountry = Object.keys(countries.results).map(function (key) {
+        var tx = db.transaction('countries', 'readwrite');
+        var countryStore = tx.objectStore('countries');
+        countryStore.put(countries.results[key], key);
+        return tx.complete;
+      });
+      return Promise.resolve(addCountry);
+    });
+  });
+};
+
+var saveCurrencies = exports.saveCurrencies = function saveCurrencies() {
+  var dbPromise = _idb2.default.open('currency-converter-db', 2, function (upgradeDb) {
+    if (!upgradeDb.objectStoreNames.contains('currencies')) {
+      return upgradeDb.createObjectStore('currencies');
+    }
+  });
+
+  return dbPromise.then(function (db) {
+    var fetchedResponse = handleRequest.fetchCurrencies();
+    return fetchedResponse.then(function (currencies) {
+      if (!currencies.results) {
+        return Promise.reject('Currencies cannot be fetched from network');
+      }
+      var addCurrency = Object.keys(currencies.results).map(function (key) {
+        var tx = db.transaction('currencies', 'readwrite');
+        var currencyStore = tx.objectStore('currencies');
+        currencyStore.put(currencies.results[key], key);
+        return tx.complete;
+      });
+      return Promise.resolve(addCurrency);
+    });
+  });
+};
+
+var saveCurrencyRates = exports.saveCurrencyRates = function saveCurrencyRates(options) {
+  var dbPromise = _idb2.default.open('currency-converter-db', 3, function (upgradeDb) {
+    if (!upgradeDb.objectStoreNames.contains('currency-rates')) {
+      return upgradeDb.createObjectStore('currency-rates');
+    }
+  });
+  if ((typeof options === 'undefined' ? 'undefined' : _typeof(options)) !== 'object' || !options) return;
+  return dbPromise.then(function (db) {
+    var addCurrencyRates = Object.keys(options).map(function (key) {
+      var tx = db.transaction('currency-rates', 'readwrite');
+      var currencyStore = tx.objectStore('currency-rates');
+      currencyStore.put(options[key], key);
+      return tx.complete;
+    });
+    return Promise.resolve(addCurrencyRates);
+  });
+};
+
+var getCountries = exports.getCountries = function getCountries() {
+  var dbPromise = _idb2.default.open('currency-converter-db', 2);
+  return dbPromise.then(async function (db) {
+    var tx = db.transaction('countries');
+    var countryStore = tx.objectStore('countries');
+    return countryStore.getAll();
+  });
+};
+
+var getCurrencies = exports.getCurrencies = function getCurrencies() {
+  var dbPromise = _idb2.default.open('currency-converter-db', 2);
+  return dbPromise.then(async function (db) {
+    var tx = db.transaction('currencies');
+    var currencyStore = tx.objectStore('currencies');
+    return currencyStore.getAll();
+  });
+};
+
+var getCurrencyRate = exports.getCurrencyRate = function getCurrencyRate(fromCurrency, toCurrency) {
+  var dbPromise = _idb2.default.open('currency-converter-db');
+  return dbPromise.then(function (db) {
+    var results = {};
+    var tx = db.transaction('currency-rates');
+    var currencyRateStore = tx.objectStore('currency-rates');
+    currencyRateStore.get(fromCurrency + '_' + toCurrency).onsuccess = function (e) {
+      results[fromCurrency + '_' + toCurrency] = e.target.result;
+    };
+    currencyRateStore.get(toCurrency + '_' + fromCurrency).onsuccess = function (e) {
+      results[toCurrency + '_' + fromCurrency] = e.target.result;
+    };
+    return results;
+  });
+};
+
+exports.default = {};
+
+},{"./vendor":3,"idb":1}],3:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var HandleRequest = function () {
+  function HandleRequest() {
+    _classCallCheck(this, HandleRequest);
+
+    this.baseUrl = 'https://free.currencyconverterapi.com/api/v5';
+  }
+
+  _createClass(HandleRequest, [{
+    key: 'fetchCountries',
+    value: function fetchCountries() {
+      return fetch(this.baseUrl + '/countries').then(function (response) {
+        if (!response) return;
+        return response.json();
+      }).catch(function (error) {
+        return console.log(error);
+      });
+    }
+  }, {
+    key: 'fetchCurrencies',
+    value: function fetchCurrencies() {
+      return fetch(this.baseUrl + '/currencies').then(function (response) {
+        if (!response) return;
+        return response.json();
+      }).catch(function (error) {
+        return console.log(error);
+      });
+    }
+  }, {
+    key: 'fetchHistoricalData',
+    value: function fetchHistoricalData(fromCurrency, toCurrency, startDate, endDate) {
+      var query = fromCurrency + '_' + toCurrency + ',' + toCurrency + '_' + fromCurrency;
+      var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra&date=[' + startDate + ']&endDate=[' + endDate + ']';
+      return fetch(url).then(function (response) {
+        if (!response) return;
+        return response.json();
+      }).catch(function (error) {
+        return console.log(error);
+      });
+    }
+  }, {
+    key: 'convertCurrency',
+    value: function convertCurrency(amount, fromCurrency, toCurrency) {
+      var query = fromCurrency + '_' + toCurrency + ',' + toCurrency + '_' + fromCurrency;
+      var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra';
+      return fetch(url).then(function (response) {
+        if (!response) return;
+        var data = response.json();
+        var fromValue = amount * parseFloat(data[fromCurrency + '_' + toCurrency]);
+        var toValue = amount * parseFloat(data[toCurrency + '_' + fromCurrency]);
+        return {
+          fromValue: fromValue,
+          toValue: toValue,
+          data: data
+        };
+      }).catch(function (error) {
+        return console.log(error);
+      });
+    }
+  }]);
+
+  return HandleRequest;
+}();
+
+exports.default = HandleRequest;
+
+},{}],4:[function(require,module,exports){
+'use strict';
+
+var _idb = require('idb');
+
+var _idb2 = _interopRequireDefault(_idb);
+
+var _store = require('./public/js/store');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var cacheBasename = 'convert-currency';
+var cacheVersion = 'v2';
+var appCahe = cacheBasename + '-' + cacheVersion;
+
+var repo = '/CurrencyConverter';
+
+var pageSkeleton = ['/', '/build/public/js/main.js', '/build/public/js/plot.js', '/build/public/css/bootstrap.min.css', '/build/public/css/style.css', '/build/public/js/utils/jquery-3.2.1.min.js', '/build/public/js/utils/bootstrap.min.js', '/build/public/js/utils/ie-emulation-modes-warning.js', '/build/public/js/utils/ie10-viewport-bug-workaround.js', '/index.html'];
+
+self.addEventListener('install', function (event) {
+  event.waitUntil(caches.open(appCahe).then(function (cache) {
+    return cache.addAll(pageSkeleton);
+  }).then(function () {
+    return self.skipWaiting();
+  }));
+});
+
+self.addEventListener('activate', function (event) {
+  event.waitUntil(caches.keys().then(function (cacheNames) {
+    var whiteList = cacheNames.filter(function (cacheName) {
+      return cacheName.indexOf(cacheBasename);
+    });
+    whiteList.push(appCahe);
+    return Promise.all(cacheNames.map(function (key, i) {
+      if (whiteList.indexOf(key) === -1) {
+        return caches.delete(cacheNames[i]);
+      }
+    }));
+  }).then(async function () {
+    await (0, _store.saveCountries)();
+    await (0, _store.saveCurrencies)();
+  }).catch(function (e) {
+    return console.log(e);
+  }));
+});
+
+self.addEventListener('fetch', function (event) {
+  var url = new URL(event.request.url);
+  //fix only-if-cached bug
+  if (event.request.cache === 'only-if-cached' && event.request.mode !== 'same-origin') {
+    return;
+  };
+  if (event.request.method !== 'GET') return;
+  if (url.hostname === 'free.currencyconverterapi.com') {
+    if (url.pathname.endsWith('countries')) {
+      event.respondWith(serveCountries(event.request));
+      return;
+    }
+    if (url.pathname.endsWith('currencies')) {
+      console.log('url', url);
+      event.respondWith(serveCurrencies(event.request));
+      return;
+    }
+    if (url.pathname.endsWith('convert')) {
+      var params = url.searchParams.get('q');
+      if (params[0].split('_') === params[1].split('_').reverse()) {
+        event.respondWith(convertCurrency(event.request));
+        return;
+      }
+    }
+  }
+  event.respondWith(caches.match(event.request).then(function (response) {
+    return response || fetch(event.request);
+  }));
+});
+
+function serveCountries(request) {
+  var countries = (0, _store.getCountries)();
+  return countries.then(function (dbResponse) {
+    var response = new Response(JSON.stringify(dbResponse), {
+      headers: { 'Content-Type': 'application/json' }
+    });
+    var networkFetch = fetch(request).then(async function (networkResponse) {
+      var dbPromise = _idb2.default.open('currency-converter-db', 2);
+      await dbPromise.then(async function (db) {
+        var networkRes = networkResponse.clone();
+        await networkRes.json().then(function (res) {
+          Object.keys(res.results).map(function (key) {
+            var tx = db.transaction('countries', 'readwrite');
+            var countryStore = tx.objectStore('countries');
+            countryStore.put(res.results[key], key);
+            return tx.complete;
+          });
+        });
+      });
+      return networkResponse.json().then(function (res) {
+        return res.results;
+      });
+    });
+    return response || networkFetch;
+  });
+};
+
+function serveCurrencies(request) {
+  var currencies = (0, _store.getCurrencies)();
+  return currencies.then(function (dbResponse) {
+    var response = new Response(JSON.stringify(dbResponse), {
+      headers: { 'Content-Type': 'application/json' }
+    });
+    var networkFetch = fetch(request).then(async function (networkResponse) {
+      var dbPromise = _idb2.default.open('currency-converter-db', 2);
+      await dbPromise.then(async function (db) {
+        var networkRes = networkResponse.clone();
+        await networkRes.json().then(function (res) {
+          Object.keys(res.results).map(function (key) {
+            var tx = db.transaction('currencies', 'readwrite');
+            var currencyStore = tx.objectStore('currencies');
+            currencyStore.put(res.results[key], key);
+            return tx.complete;
+          });
+        });
+      });
+      return networkResponse.json().then(function (res) {
+        return res.results;
+      });
+    });
+    return response || networkFetch;
+  });
+};
+
+function convertCurrency(request) {
+  var url = new URL(request.url);
+  var params = url.searchParams.get('q');
+  var convParams = params[0].split('_');
+  var fromCurrency = convParams[0];
+  var toCurrency = convParams[1];
+  var convKeys = [fromCurrency + '_' + toCurrency, toCurrency + '_' + fromCurrency];
+  var dbFetch = (0, _store.getCurrencyRate)(fromCurrency, toCurrency);
+  var networkFetch = fetch(request).then(function (networkResponse) {
+    (0, _store.saveCurrencyRates)(networkResponse.clone().json());
+    return networkResponse.json();
+  });
+  return Object.keys(dbFetch) !== convKeys ? networkFetch : dbFetch;
+}
+
+},{"./public/js/store":2,"idb":1}]},{},[4])
 
 //# sourceMappingURL=sw.js.map

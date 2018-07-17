@@ -55,7 +55,7 @@ function bundle(b, outputPath) {
     .on('error', plugins.util.log.bind(plugins.util, 'Browserify Error'))
     .pipe(source(outputFile))
     .pipe(buffer())
-    .pipe(minifyjs())
+    //.pipe(minifyjs())
     .pipe(plugins.sourcemaps.init({ loadMaps: true }))
     .pipe(plugins.sourcemaps.write('./'))
     .pipe(gulp.dest(outputDir));
