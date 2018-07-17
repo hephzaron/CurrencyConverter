@@ -58,6 +58,7 @@ if (navigator.serviceWorker) {
   fromTo.addEventListener('change', (event) => {
     event.preventDefault();
     changeFromCurrency(event.target.value);
+    showTrends();
   });
 
   function changeFromCurrency(id) {
@@ -72,6 +73,7 @@ if (navigator.serviceWorker) {
   toFrom.addEventListener('change', (event) => {
     event.preventDefault();
     changeToCurrency(event.target.value);
+    showTrends();
   });
 
   function changeToCurrency(id) {

@@ -18944,6 +18944,7 @@ if (navigator.serviceWorker) {
   fromTo.addEventListener('change', function (event) {
     event.preventDefault();
     changeFromCurrency(event.target.value);
+    (0, _plot.showTrends)();
   });
 
   function changeFromCurrency(id) {
@@ -18960,6 +18961,7 @@ if (navigator.serviceWorker) {
   toFrom.addEventListener('change', function (event) {
     event.preventDefault();
     changeToCurrency(event.target.value);
+    (0, _plot.showTrends)();
   });
 
   function changeToCurrency(id) {
@@ -18990,17 +18992,22 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var showTrends = exports.showTrends = function showTrends() {
   var ctx = document.getElementById('trendChart');
+  var fromTo = document.getElementById('fromTo');
+  var toFrom = document.getElementById('toFrom');
+  var fromLabel = fromTo.options[fromTo.selectedIndex].text;
+  var toLabel = toFrom.options[toFrom.selectedIndex].text;
+
   var data = {
     labels: ['Mon', 'Tue', 'Wed', 'Thurs'],
     datasets: [{
-      label: 'from',
+      label: fromLabel,
       fill: false,
       pointBackgroundColor: 'rgba(225,99,192,0.8)',
       borderColor: 'rgba(2,2,198,0.7)',
       yAxesID: 'from',
       data: [7, 18, 11, 10]
     }, {
-      label: 'to',
+      label: toLabel,
       fill: false,
       pointBackgroundColor: 'rgba(99,45,225,0.8)',
       borderColor: 'rgba(198,2,2,0.7)',

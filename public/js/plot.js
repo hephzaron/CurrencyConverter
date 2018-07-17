@@ -2,17 +2,22 @@ import Chart from 'chart.js';
 
 export const showTrends = () => {
   const ctx = document.getElementById('trendChart');
+  const fromTo = document.getElementById('fromTo');
+  const toFrom = document.getElementById('toFrom');
+  let fromLabel = fromTo.options[fromTo.selectedIndex].text;
+  let toLabel = toFrom.options[toFrom.selectedIndex].text;
+
   const data = {
     labels: ['Mon', 'Tue', 'Wed', 'Thurs'],
     datasets: [{
-      label: 'from',
+      label: fromLabel,
       fill: false,
       pointBackgroundColor: 'rgba(225,99,192,0.8)',
       borderColor: 'rgba(2,2,198,0.7)',
       yAxesID: 'from',
       data: [7, 18, 11, 10]
     }, {
-      label: 'to',
+      label: toLabel,
       fill: false,
       pointBackgroundColor: 'rgba(99,45,225,0.8)',
       borderColor: 'rgba(198,2,2,0.7)',
