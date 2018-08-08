@@ -18933,6 +18933,8 @@ if (navigator.serviceWorker) {
     response.map(function (res) {
       return currencies.push(res);
     });
+  }).catch(function (e) {
+    return console.log(e);
   });
 
   window.addEventListener('load', function (event) {
@@ -18942,6 +18944,7 @@ if (navigator.serviceWorker) {
   });
 
   function loadCurrency() {
+    console.log('currencies', currencies);
     var arr = currencies.sort(function (prev, next) {
       return prev['currencyName'].localeCompare(next['currencyName']);
     });
@@ -19127,23 +19130,12 @@ var HandleRequest = function () {
   }
 
   _createClass(HandleRequest, [{
-    key: 'fetchCountries',
-    value: function fetchCountries() {
-      return fetch(this.baseUrl + '/countries').then(function (response) {
-        if (!response) return;
-        return response.json();
-      }).catch(function (error) {
-        return console.log(error);
-      });
-    }
-  }, {
     key: 'fetchCurrencies',
     value: function fetchCurrencies() {
       return fetch(this.baseUrl + '/currencies').then(function (response) {
-        if (!response) return;
         return response.json();
       }).catch(function (error) {
-        return console.log(error);
+        return console.log('err', error);
       });
     }
   }, {

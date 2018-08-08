@@ -17,23 +17,12 @@ var HandleRequest = function () {
   }
 
   _createClass(HandleRequest, [{
-    key: 'fetchCountries',
-    value: function fetchCountries() {
-      return fetch(this.baseUrl + '/countries').then(function (response) {
-        if (!response) return;
-        return response.json();
-      }).catch(function (error) {
-        return console.log(error);
-      });
-    }
-  }, {
     key: 'fetchCurrencies',
     value: function fetchCurrencies() {
       return fetch(this.baseUrl + '/currencies').then(function (response) {
-        if (!response) return;
         return response.json();
       }).catch(function (error) {
-        return console.log(error);
+        return console.log('err', error);
       });
     }
   }, {

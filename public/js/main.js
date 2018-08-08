@@ -46,7 +46,8 @@ if (navigator.serviceWorker) {
     .then((response) => {
       if (!response) return;
       response.map(res => currencies.push(res));
-    });
+    })
+    .catch(e => console.log(e))
 
   window.addEventListener('load', (event) => {
     event.preventDefault();
@@ -55,6 +56,7 @@ if (navigator.serviceWorker) {
   })
 
   function loadCurrency() {
+    console.log('currencies', currencies);
     const arr = currencies.sort((prev, next) => {
       return prev['currencyName'].localeCompare(next['currencyName']);
     })

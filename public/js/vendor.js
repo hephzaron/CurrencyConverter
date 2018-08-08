@@ -3,22 +3,12 @@ class HandleRequest {
     this.baseUrl = 'https://free.currencyconverterapi.com/api/v5';
   }
 
-  fetchCountries() {
-    return fetch(`${this.baseUrl}/countries`)
-      .then((response) => {
-        if (!response) return;
-        return response.json()
-      })
-      .catch(error => console.log(error))
-  }
-
   fetchCurrencies() {
     return fetch(`${this.baseUrl}/currencies`)
       .then((response) => {
-        if (!response) return;
         return response.json();
       })
-      .catch(error => console.log(error))
+      .catch(error => console.log('err', error))
   }
 
   fetchHistoricalData(fromCurrency, toCurrency, startDate, endDate) {
