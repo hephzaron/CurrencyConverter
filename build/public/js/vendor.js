@@ -40,7 +40,7 @@ var HandleRequest = function () {
     key: 'fetchHistoricalData',
     value: function fetchHistoricalData(fromCurrency, toCurrency, startDate, endDate) {
       var query = fromCurrency + '_' + toCurrency + ',' + toCurrency + '_' + fromCurrency;
-      var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra&date=[' + startDate + ']&endDate=[' + endDate + ']';
+      var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra&date=' + startDate + '&endDate=' + endDate;
       return fetch(url).then(function (response) {
         if (!response) return;
         return response.json();
@@ -49,20 +49,13 @@ var HandleRequest = function () {
       });
     }
   }, {
-    key: 'convertCurrency',
-    value: function convertCurrency(amount, fromCurrency, toCurrency) {
+    key: 'fetchConversionRates',
+    value: function fetchConversionRates(fromCurrency, toCurrency) {
       var query = fromCurrency + '_' + toCurrency + ',' + toCurrency + '_' + fromCurrency;
       var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra';
       return fetch(url).then(function (response) {
         if (!response) return;
-        var data = response.json();
-        var fromValue = amount * parseFloat(data[fromCurrency + '_' + toCurrency]);
-        var toValue = amount * parseFloat(data[toCurrency + '_' + fromCurrency]);
-        return {
-          fromValue: fromValue,
-          toValue: toValue,
-          data: data
-        };
+        return response.json();
       }).catch(function (error) {
         return console.log(error);
       });

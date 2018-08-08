@@ -18893,9 +18893,19 @@ if (navigator.serviceWorker) {
     navigator.serviceWorker.register('/sw.js', {
       scope: '/'
     }).then(function (registration) {
+      if (!navigator.serviceWorker.controller) {
+        return;
+      }
       console.log('ServiceWorker registration successful with scope: ', registration.scope);
     }, function (error) {
       console.log('ServiceWorker registration fail', error);
+    });
+
+    var refreshing = void 0;
+    navigator.serviceWorker.addEventListener('controllerchange', function () {
+      if (refreshing) return;
+      window.location.reload();
+      refreshing = true;
     });
   });
 }
@@ -18904,6 +18914,8 @@ if (navigator.serviceWorker) {
   var handleRequest = new _vendor2.default();
   var fromTo = document.getElementById('fromTo');
   var toFrom = document.getElementById('toFrom');
+  var fromInput = document.getElementById('fromInput');
+  var toInput = document.getElementById('toInput');
   var fromBtn = document.getElementById('fromBtn');
   var toBtn = document.getElementById('toBtn');
   var rateFrom = document.getElementById('rateFrom');
@@ -18913,6 +18925,8 @@ if (navigator.serviceWorker) {
   var toFromHtml = [];
   var fromCurrency = void 0;
   var toCurrency = void 0;
+  var fromCurrencyValue = void 0;
+  var toCurrencyValue = void 0;
 
   handleRequest.fetchCurrencies().then(function (response) {
     if (!response) return;
@@ -18974,6 +18988,15 @@ if (navigator.serviceWorker) {
     rateFrom.innerText = '1 ' + fromCurrency[0].id + ' = ' + toCurrencyId;
     rateTo.innerText = '1 ' + toCurrencyId + '  = ' + fromCurrency[0].id;
   }
+
+  fromInput.addEventListener('change', function (event) {
+    event.preventDefault();
+    var response = handleRequest.fetchConversionRates(fromCurrency[0].id, toCurrency[0].id);
+    var key = fromCurrency[0].id + '_' + toCurrency[0].id;
+    response.then(function (data) {
+      toInput.value = event.target.value * parseFloat(data[key]);
+    });
+  });
 })();
 
 },{"./plot":60,"./vendor":61}],60:[function(require,module,exports){
@@ -19127,7 +19150,7 @@ var HandleRequest = function () {
     key: 'fetchHistoricalData',
     value: function fetchHistoricalData(fromCurrency, toCurrency, startDate, endDate) {
       var query = fromCurrency + '_' + toCurrency + ',' + toCurrency + '_' + fromCurrency;
-      var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra&date=[' + startDate + ']&endDate=[' + endDate + ']';
+      var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra&date=' + startDate + '&endDate=' + endDate;
       return fetch(url).then(function (response) {
         if (!response) return;
         return response.json();
@@ -19136,20 +19159,13 @@ var HandleRequest = function () {
       });
     }
   }, {
-    key: 'convertCurrency',
-    value: function convertCurrency(amount, fromCurrency, toCurrency) {
+    key: 'fetchConversionRates',
+    value: function fetchConversionRates(fromCurrency, toCurrency) {
       var query = fromCurrency + '_' + toCurrency + ',' + toCurrency + '_' + fromCurrency;
       var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra';
       return fetch(url).then(function (response) {
         if (!response) return;
-        var data = response.json();
-        var fromValue = amount * parseFloat(data[fromCurrency + '_' + toCurrency]);
-        var toValue = amount * parseFloat(data[toCurrency + '_' + fromCurrency]);
-        return {
-          fromValue: fromValue,
-          toValue: toValue,
-          data: data
-        };
+        return response.json();
       }).catch(function (error) {
         return console.log(error);
       });

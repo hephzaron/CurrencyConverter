@@ -23,7 +23,7 @@ class HandleRequest {
 
   fetchHistoricalData(fromCurrency, toCurrency, startDate, endDate) {
     const query = `${fromCurrency}_${toCurrency},${toCurrency}_${fromCurrency}`;
-    const url = `${this.baseUrl}/convert?q=${query}&compact=ultra&date=[${startDate}]&endDate=[${endDate}]`
+    const url = `${this.baseUrl}/convert?q=${query}&compact=ultra&date=${startDate}&endDate=${endDate}`
     return fetch(url)
       .then((response) => {
         if (!response) return;
@@ -32,20 +32,13 @@ class HandleRequest {
       .catch(error => console.log(error))
   }
 
-  convertCurrency(amount, fromCurrency, toCurrency) {
+  fetchConversionRates(fromCurrency, toCurrency) {
     const query = `${fromCurrency}_${toCurrency},${toCurrency}_${fromCurrency}`;
     const url = `${this.baseUrl}/convert?q=${query}&compact=ultra`;
     return fetch(url)
       .then((response) => {
         if (!response) return;
-        const data = response.json();
-        const fromValue = amount * parseFloat(data[`${fromCurrency}_${toCurrency}`]);
-        const toValue = amount * parseFloat(data[`${toCurrency}_${fromCurrency}`]);
-        return {
-          fromValue,
-          toValue,
-          data
-        }
+        return response.json()
       })
       .catch(error => console.log(error));
   }

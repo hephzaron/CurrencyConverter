@@ -7,10 +7,20 @@ if (navigator.serviceWorker) {
         scope: '/'
       })
       .then((registration) => {
+        if (!navigator.serviceWorker.controller) {
+          return;
+        }
         console.log('ServiceWorker registration successful with scope: ', registration.scope)
       }, (error) => {
         console.log('ServiceWorker registration fail', error)
-      })
+      });
+
+    let refreshing;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (refreshing) return;
+      window.location.reload();
+      refreshing = true;
+    });
   })
 }
 
@@ -18,6 +28,8 @@ if (navigator.serviceWorker) {
   const handleRequest = new HandleRequest();
   const fromTo = document.getElementById('fromTo');
   const toFrom = document.getElementById('toFrom');
+  const fromInput = document.getElementById('fromInput');
+  const toInput = document.getElementById('toInput');
   const fromBtn = document.getElementById('fromBtn');
   const toBtn = document.getElementById('toBtn');
   const rateFrom = document.getElementById('rateFrom');
@@ -27,13 +39,14 @@ if (navigator.serviceWorker) {
   let toFromHtml = [];
   let fromCurrency;
   let toCurrency;
+  let fromCurrencyValue;
+  let toCurrencyValue;
 
   handleRequest.fetchCurrencies()
     .then((response) => {
       if (!response) return;
       response.map(res => currencies.push(res));
     });
-
 
   window.addEventListener('load', (event) => {
     event.preventDefault();
@@ -84,5 +97,14 @@ if (navigator.serviceWorker) {
     rateFrom.innerText = `1 ${fromCurrency[0].id} = ${toCurrencyId}`;
     rateTo.innerText = `1 ${toCurrencyId}  = ${fromCurrency[0].id}`;
   }
+
+  fromInput.addEventListener('change', (event) => {
+    event.preventDefault();
+    const response = handleRequest.fetchConversionRates(fromCurrency[0].id, toCurrency[0].id);
+    const key = `${fromCurrency[0].id}_${toCurrency[0].id}`;
+    response.then((data) => {
+      toInput.value = (event.target.value) * parseFloat(data[key]);
+    });
+  });
 
 })()

@@ -10,7 +10,8 @@ import {
 } from './public/js/store';
 
 const cacheBasename = 'convert-currency';
-const cacheVersion = 'v3';
+const cacheVersion = 'v2';
+const dbVersion = 3;
 const appCahe = `${cacheBasename}-${cacheVersion}`;
 
 const repo = '/CurrencyConverter';
@@ -51,10 +52,15 @@ self.addEventListener('activate', (event) => {
         })
       )
     })
-    .then(async() => {
-      await saveCountries();
-      await saveCurrencies();
-    })
+    .then(() => saveCountries()
+      .then(() => saveCurrencies()
+        .then(() => saveCurrencyRates({
+          amount: 1,
+          fromCurrency: 'AFN',
+          toCurrency: 'AFN'
+        }))
+      )
+    )
     .catch(e => console.log(e))
   )
 });
@@ -99,7 +105,7 @@ function serveCountries(request) {
     });
     const networkFetch = fetch(request)
       .then(async(networkResponse) => {
-        const dbPromise = idb.open('currency-converter-db', 2);
+        const dbPromise = idb.open('currency-converter-db', dbVersion);
         await dbPromise.then(async(db) => {
           const networkRes = networkResponse.clone();
           await networkRes.json().then((res) => {
@@ -125,7 +131,7 @@ function serveCurrencies(request) {
     });
     const networkFetch = fetch(request)
       .then(async(networkResponse) => {
-        const dbPromise = idb.open('currency-converter-db', 2);
+        const dbPromise = idb.open('currency-converter-db', dbVersion);
         await dbPromise.then(async(db) => {
           const networkRes = networkResponse.clone();
           await networkRes.json().then((res) => {
@@ -151,10 +157,28 @@ function convertCurrency(request) {
   const toCurrency = convParams[1];
   const convKeys = [`${fromCurrency}_${toCurrency}`, `${toCurrency}_${fromCurrency}`]
   const dbFetch = getCurrencyRate(fromCurrency, toCurrency);
-  const networkFetch = fetch(request)
-    .then((networkResponse) => {
-      saveCurrencyRates(networkResponse.clone().json())
-      return networkResponse.json()
+  return dbFetch.then((dbResponse) => {
+    const response = new Response(JSON.stringify(dbResponse), {
+      headers: { 'Content-Type': 'application/json' }
     });
-  return (Object.keys(dbFetch) !== convKeys) ? networkFetch : dbFetch
+    const networkFetch = fetch(request)
+      .then(async(networkResponse) => {
+        const dbPromise = idb.open('currency-converter-db', dbVersion);
+        await dbPromise.then(async(db) => {
+          const networkRes = networkResponse.clone();
+          await networkRes.json().then((res) => {
+            Object.keys(res).map((key) => {
+              const tx = db.transaction('currency-rates', 'readwrite');
+              const currencyStore = tx.objectStore('currency-rates');
+              currencyStore.put(res[key], key);
+              return tx.complete;
+            });
+          });
+        });
+        return networkResponse.json()
+      });
+    return (Object.keys(dbResponse) !== convKeys) ? networkFetch : response
+  });
 }
+
+//////////

@@ -337,9 +337,11 @@ var _vendor2 = _interopRequireDefault(_vendor);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var handleRequest = new _vendor2.default();
+var dbVersion = 3;
 
 var saveCountries = exports.saveCountries = function saveCountries() {
-  var dbPromise = _idb2.default.open('currency-converter-db', 2, function (upgradeDb) {
+  var dbPromise = _idb2.default.open('currency-converter-db', 1, function (upgradeDb) {
+    console.log(1);
     if (!upgradeDb.objectStoreNames.contains('countries')) {
       return upgradeDb.createObjectStore('countries');
     }
@@ -363,6 +365,7 @@ var saveCountries = exports.saveCountries = function saveCountries() {
 };
 
 var saveCurrencies = exports.saveCurrencies = function saveCurrencies() {
+  console.log(2);
   var dbPromise = _idb2.default.open('currency-converter-db', 2, function (upgradeDb) {
     if (!upgradeDb.objectStoreNames.contains('currencies')) {
       return upgradeDb.createObjectStore('currencies');
@@ -387,26 +390,34 @@ var saveCurrencies = exports.saveCurrencies = function saveCurrencies() {
 };
 
 var saveCurrencyRates = exports.saveCurrencyRates = function saveCurrencyRates(options) {
-  var dbPromise = _idb2.default.open('currency-converter-db', 3, function (upgradeDb) {
+  console.log(3);
+  var amount = options.amount,
+      fromCurrency = options.fromCurrency,
+      toCurrency = options.toCurrency;
+
+  var dbPromise = _idb2.default.open('currency-converter-db', dbVersion, function (upgradeDb) {
     if (!upgradeDb.objectStoreNames.contains('currency-rates')) {
       return upgradeDb.createObjectStore('currency-rates');
     }
   });
   if ((typeof options === 'undefined' ? 'undefined' : _typeof(options)) !== 'object' || !options) return;
   return dbPromise.then(function (db) {
-    var addCurrencyRates = Object.keys(options).map(function (key) {
-      var tx = db.transaction('currency-rates', 'readwrite');
-      var currencyStore = tx.objectStore('currency-rates');
-      currencyStore.put(options[key], key);
-      return tx.complete;
+    var fetchedResponse = handleRequest.fetchConversionRates(fromCurrency, toCurrency);
+    return fetchedResponse.then(function (data) {
+      var addCurrencyRates = Object.keys(data).map(function (key) {
+        var tx = db.transaction('currency-rates', 'readwrite');
+        var currencyStore = tx.objectStore('currency-rates');
+        currencyStore.put(data[key], key);
+        return tx.complete;
+      });
+      return Promise.resolve(addCurrencyRates);
     });
-    return Promise.resolve(addCurrencyRates);
   });
 };
 
 var getCountries = exports.getCountries = function getCountries() {
-  var dbPromise = _idb2.default.open('currency-converter-db', 2);
-  return dbPromise.then(async function (db) {
+  var dbPromise = _idb2.default.open('currency-converter-db', dbVersion);
+  return dbPromise.then(function (db) {
     var tx = db.transaction('countries');
     var countryStore = tx.objectStore('countries');
     return countryStore.getAll();
@@ -414,8 +425,8 @@ var getCountries = exports.getCountries = function getCountries() {
 };
 
 var getCurrencies = exports.getCurrencies = function getCurrencies() {
-  var dbPromise = _idb2.default.open('currency-converter-db', 2);
-  return dbPromise.then(async function (db) {
+  var dbPromise = _idb2.default.open('currency-converter-db', dbVersion);
+  return dbPromise.then(function (db) {
     var tx = db.transaction('currencies');
     var currencyStore = tx.objectStore('currencies');
     return currencyStore.getAll();
@@ -423,7 +434,7 @@ var getCurrencies = exports.getCurrencies = function getCurrencies() {
 };
 
 var getCurrencyRate = exports.getCurrencyRate = function getCurrencyRate(fromCurrency, toCurrency) {
-  var dbPromise = _idb2.default.open('currency-converter-db');
+  var dbPromise = _idb2.default.open('currency-converter-db', dbVersion);
   return dbPromise.then(function (db) {
     var results = {};
     var tx = db.transaction('currency-rates');
@@ -434,6 +445,7 @@ var getCurrencyRate = exports.getCurrencyRate = function getCurrencyRate(fromCur
     currencyRateStore.get(toCurrency + '_' + fromCurrency).onsuccess = function (e) {
       results[toCurrency + '_' + fromCurrency] = e.target.result;
     };
+    console.log('dbResult', results);
     return results;
   });
 };
@@ -482,7 +494,7 @@ var HandleRequest = function () {
     key: 'fetchHistoricalData',
     value: function fetchHistoricalData(fromCurrency, toCurrency, startDate, endDate) {
       var query = fromCurrency + '_' + toCurrency + ',' + toCurrency + '_' + fromCurrency;
-      var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra&date=[' + startDate + ']&endDate=[' + endDate + ']';
+      var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra&date=' + startDate + '&endDate=' + endDate;
       return fetch(url).then(function (response) {
         if (!response) return;
         return response.json();
@@ -491,20 +503,13 @@ var HandleRequest = function () {
       });
     }
   }, {
-    key: 'convertCurrency',
-    value: function convertCurrency(amount, fromCurrency, toCurrency) {
+    key: 'fetchConversionRates',
+    value: function fetchConversionRates(fromCurrency, toCurrency) {
       var query = fromCurrency + '_' + toCurrency + ',' + toCurrency + '_' + fromCurrency;
       var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra';
       return fetch(url).then(function (response) {
         if (!response) return;
-        var data = response.json();
-        var fromValue = amount * parseFloat(data[fromCurrency + '_' + toCurrency]);
-        var toValue = amount * parseFloat(data[toCurrency + '_' + fromCurrency]);
-        return {
-          fromValue: fromValue,
-          toValue: toValue,
-          data: data
-        };
+        return response.json();
       }).catch(function (error) {
         return console.log(error);
       });
