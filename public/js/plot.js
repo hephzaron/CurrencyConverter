@@ -1,21 +1,11 @@
 import Chart from 'chart.js';
 
-export const showTrends = () => {
+export const showTrends = (historyData) => {
   const ctx = document.getElementById('trendChart');
   const fromTo = document.getElementById('fromTo');
   const toFrom = document.getElementById('toFrom');
   const fromLabel = fromTo.options[fromTo.selectedIndex].text;
   const toLabel = toFrom.options[toFrom.selectedIndex].text;
-  const historyData = {
-    USD_PHP: {
-      '2018-07-12': 53.409698,
-      '2018-07-13': 53.509998,
-      '2018-07-14': 53.509998,
-      '2018-07-15': 53.479993,
-      '2018-07-16': 52.409698,
-      '2018-07-17': 55.509998,
-    }
-  };
   const [key] = Object.keys(historyData);
   const xLabel = Object.keys(historyData[`${key}`]);
   const yData = Object.values(historyData[`${key}`]);

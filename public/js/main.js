@@ -1,3 +1,4 @@
+import moment from 'moment';
 import HandleRequest from './vendor';
 import { showTrends } from './plot';
 
@@ -49,14 +50,24 @@ if (navigator.serviceWorker) {
     })
     .catch(e => console.log(e))
 
+  const calcDay = (step) => {
+    return moment().subtract(step, 'days').format('YYYY', 'MM', 'DD')
+  }
+
   window.addEventListener('load', (event) => {
     event.preventDefault();
     loadCurrency();
-    showTrends();
+    showTrends({
+      ['AFN_AFN']: {
+        [`${calcDay(0)}`]: 1,
+        [`${calcDay(1)}`]: 1,
+        [`${calcDay(2)}`]: 1,
+        [`${calcDay(3)}`]: 1,
+      }
+    });
   })
 
   function loadCurrency() {
-    console.log('currencies', currencies);
     const arr = currencies.sort((prev, next) => {
       return prev['currencyName'].localeCompare(next['currencyName']);
     })
@@ -73,7 +84,14 @@ if (navigator.serviceWorker) {
   fromTo.addEventListener('change', (event) => {
     event.preventDefault();
     changeFromCurrency(event.target.value);
-    showTrends();
+    const previous = moment().subtract(6, 'days').format('YYYY', 'MM', 'DD');
+    const today = moment().format('YYYY', 'MM', 'DD');
+    handleRequest
+      .fetchHistoricalData(fromCurrency[0].id, toCurrency[0].id, previous, today)
+      .then((response) => {
+        if (!response) return;
+        showTrends(response)
+      })
   });
 
   function changeFromCurrency(id) {
@@ -88,7 +106,14 @@ if (navigator.serviceWorker) {
   toFrom.addEventListener('change', (event) => {
     event.preventDefault();
     changeToCurrency(event.target.value);
-    showTrends();
+    const previous = moment().subtract(6, 'days').format('YYYY-MM-DD');
+    const today = moment().format('YYYY-MM-DD');
+    handleRequest
+      .fetchHistoricalData(fromCurrency[0].id, toCurrency[0].id, previous, today)
+      .then((response) => {
+        if (!response) return;
+        showTrends(response)
+      })
   });
 
   function changeToCurrency(id) {

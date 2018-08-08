@@ -18880,6 +18880,10 @@ module.exports = {
 },{}],59:[function(require,module,exports){
 'use strict';
 
+var _moment = require('moment');
+
+var _moment2 = _interopRequireDefault(_moment);
+
 var _vendor = require('./vendor');
 
 var _vendor2 = _interopRequireDefault(_vendor);
@@ -18887,6 +18891,8 @@ var _vendor2 = _interopRequireDefault(_vendor);
 var _plot = require('./plot');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 if (navigator.serviceWorker) {
   window.addEventListener('load', function () {
@@ -18937,14 +18943,19 @@ if (navigator.serviceWorker) {
     return console.log(e);
   });
 
+  var calcDay = function calcDay(step) {
+    return (0, _moment2.default)().subtract(step, 'days').format('YYYY', 'MM', 'DD');
+  };
+
   window.addEventListener('load', function (event) {
+    var _AFN_AFN;
+
     event.preventDefault();
     loadCurrency();
-    (0, _plot.showTrends)();
+    (0, _plot.showTrends)(_defineProperty({}, 'AFN_AFN', (_AFN_AFN = {}, _defineProperty(_AFN_AFN, '' + calcDay(0), 1), _defineProperty(_AFN_AFN, '' + calcDay(1), 1), _defineProperty(_AFN_AFN, '' + calcDay(2), 1), _defineProperty(_AFN_AFN, '' + calcDay(3), 1), _AFN_AFN)));
   });
 
   function loadCurrency() {
-    console.log('currencies', currencies);
     var arr = currencies.sort(function (prev, next) {
       return prev['currencyName'].localeCompare(next['currencyName']);
     });
@@ -18961,7 +18972,12 @@ if (navigator.serviceWorker) {
   fromTo.addEventListener('change', function (event) {
     event.preventDefault();
     changeFromCurrency(event.target.value);
-    (0, _plot.showTrends)();
+    var previous = (0, _moment2.default)().subtract(6, 'days').format('YYYY', 'MM', 'DD');
+    var today = (0, _moment2.default)().format('YYYY', 'MM', 'DD');
+    handleRequest.fetchHistoricalData(fromCurrency[0].id, toCurrency[0].id, previous, today).then(function (response) {
+      if (!response) return;
+      (0, _plot.showTrends)(response);
+    });
   });
 
   function changeFromCurrency(id) {
@@ -18978,7 +18994,12 @@ if (navigator.serviceWorker) {
   toFrom.addEventListener('change', function (event) {
     event.preventDefault();
     changeToCurrency(event.target.value);
-    (0, _plot.showTrends)();
+    var previous = (0, _moment2.default)().subtract(6, 'days').format('YYYY-MM-DD');
+    var today = (0, _moment2.default)().format('YYYY-MM-DD');
+    handleRequest.fetchHistoricalData(fromCurrency[0].id, toCurrency[0].id, previous, today).then(function (response) {
+      if (!response) return;
+      (0, _plot.showTrends)(response);
+    });
   });
 
   function changeToCurrency(id) {
@@ -19002,7 +19023,7 @@ if (navigator.serviceWorker) {
   });
 })();
 
-},{"./plot":60,"./vendor":61}],60:[function(require,module,exports){
+},{"./plot":60,"./vendor":61,"moment":58}],60:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -19018,22 +19039,12 @@ var _chart2 = _interopRequireDefault(_chart);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var showTrends = exports.showTrends = function showTrends() {
+var showTrends = exports.showTrends = function showTrends(historyData) {
   var ctx = document.getElementById('trendChart');
   var fromTo = document.getElementById('fromTo');
   var toFrom = document.getElementById('toFrom');
   var fromLabel = fromTo.options[fromTo.selectedIndex].text;
   var toLabel = toFrom.options[toFrom.selectedIndex].text;
-  var historyData = {
-    USD_PHP: {
-      '2018-07-12': 53.409698,
-      '2018-07-13': 53.509998,
-      '2018-07-14': 53.509998,
-      '2018-07-15': 53.479993,
-      '2018-07-16': 52.409698,
-      '2018-07-17': 55.509998
-    }
-  };
 
   var _Object$keys = Object.keys(historyData),
       _Object$keys2 = _slicedToArray(_Object$keys, 1),

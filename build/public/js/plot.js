@@ -18893,22 +18893,12 @@ var _chart2 = _interopRequireDefault(_chart);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var showTrends = exports.showTrends = function showTrends() {
+var showTrends = exports.showTrends = function showTrends(historyData) {
   var ctx = document.getElementById('trendChart');
   var fromTo = document.getElementById('fromTo');
   var toFrom = document.getElementById('toFrom');
   var fromLabel = fromTo.options[fromTo.selectedIndex].text;
   var toLabel = toFrom.options[toFrom.selectedIndex].text;
-  var historyData = {
-    USD_PHP: {
-      '2018-07-12': 53.409698,
-      '2018-07-13': 53.509998,
-      '2018-07-14': 53.509998,
-      '2018-07-15': 53.479993,
-      '2018-07-16': 52.409698,
-      '2018-07-17': 55.509998
-    }
-  };
 
   var _Object$keys = Object.keys(historyData),
       _Object$keys2 = _slicedToArray(_Object$keys, 1),
