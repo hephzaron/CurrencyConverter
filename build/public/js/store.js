@@ -322,7 +322,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.getCurrencyRate = exports.getCurrencies = exports.saveCurrencyRates = exports.saveCurrencies = undefined;
+exports.getCurrencyHistory = exports.getCurrencyRate = exports.getCurrencies = exports.saveCurrencyRates = exports.saveCurrencyHistory = exports.saveCurrencies = undefined;
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
@@ -339,7 +339,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var handleRequest = new _vendor2.default();
 
 var saveCurrencies = exports.saveCurrencies = function saveCurrencies() {
-  console.log(1);
   var dbPromise = _idb2.default.open('currencies-db', 1, function (upgradeDb) {
     if (!upgradeDb.objectStoreNames.contains('currencies')) {
       return upgradeDb.createObjectStore('currencies');
@@ -363,8 +362,33 @@ var saveCurrencies = exports.saveCurrencies = function saveCurrencies() {
   });
 };
 
+var saveCurrencyHistory = exports.saveCurrencyHistory = function saveCurrencyHistory(data) {
+  var fromCurrency = data.fromCurrency,
+      toCurrency = data.toCurrency,
+      startDate = data.startDate,
+      endDate = data.endDate;
+
+  var dbPromise = _idb2.default.open('currency-history-db', 1, function (upgradeDb) {
+    if (!upgradeDb.objectStoreNames.contains('history')) {
+      return upgradeDb.createObjectStore('history');
+    }
+  });
+  if ((typeof data === 'undefined' ? 'undefined' : _typeof(data)) !== 'object' || !data) return;
+  return dbPromise.then(function (db) {
+    var fetchedResponse = handleRequest.fetchHistoricalData(fromCurrency, toCurrency, startDate, endDate);
+    return fetchedResponse.then(function (data) {
+      var historicalData = Object.keys(data).map(function (key) {
+        var tx = db.transaction('history', 'readwrite');
+        var currencyHistoryStore = tx.objectStore('history');
+        currencyHistoryStore.put(data[key], key);
+        return tx.complete;
+      });
+      return Promise.resolve(historicalData);
+    });
+  });
+};
+
 var saveCurrencyRates = exports.saveCurrencyRates = function saveCurrencyRates(options) {
-  console.log(2);
   var amount = options.amount,
       fromCurrency = options.fromCurrency,
       toCurrency = options.toCurrency;
@@ -410,8 +434,20 @@ var getCurrencyRate = exports.getCurrencyRate = function getCurrencyRate(fromCur
     currencyRateStore.get(toCurrency + '_' + fromCurrency).onsuccess = function (e) {
       results[toCurrency + '_' + fromCurrency] = e.target.result;
     };
-    console.log('dbResult', results);
     return results;
+  });
+};
+
+var getCurrencyHistory = exports.getCurrencyHistory = function getCurrencyHistory(fromCurrency, toCurrency) {
+  var dbPromise = _idb2.default.open('currency-history-db', 1);
+  return dbPromise.then(function (db) {
+    var tx = db.transaction('history');
+    var currencyHistoryStore = tx.objectStore('history');
+    var result = currencyHistoryStore.get(fromCurrency + '_' + toCurrency);
+    return result.then(function (res) {
+      if (!res) return;
+      return res;
+    });
   });
 };
 
@@ -451,7 +487,7 @@ var HandleRequest = function () {
       var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra&date=' + startDate + '&endDate=' + endDate;
       return fetch(url).then(function (response) {
         if (!response) return;
-        return response.json();
+        return response;
       }).catch(function (error) {
         return console.log(error);
       });

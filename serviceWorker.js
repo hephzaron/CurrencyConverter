@@ -1,16 +1,19 @@
-import idb from 'idb'
+import idb from 'idb';
+import moment from 'moment';
 
 import {
   saveCountries,
   saveCurrencies,
   saveCurrencyRates,
+  saveCurrencyHistory,
+  getCurrencyHistory,
   getCountries,
   getCurrencies,
   getCurrencyRate
 } from './public/js/store';
 
 const cacheBasename = 'convert-currency';
-const cacheVersion = 'v2';
+const cacheVersion = 'v4';
 const appCahe = `${cacheBasename}-${cacheVersion}`;
 
 const repo = '/CurrencyConverter';
@@ -53,10 +56,17 @@ self.addEventListener('activate', (event) => {
     })
     .then(() => saveCurrencies()
       .then(() => saveCurrencyRates({
-        amount: 1,
-        fromCurrency: 'AFN',
-        toCurrency: 'AFN'
-      }))
+          amount: 1,
+          fromCurrency: 'AFN',
+          toCurrency: 'AFN'
+        })
+        .then(() => saveCurrencyHistory({
+          fromCurrency: 'AFN',
+          toCurrency: 'AFN',
+          startDate: moment().subtract(6, 'days').format('YYYY-MM-DD'),
+          endDate: moment().format('YYYY-MM-DD')
+        }))
+      )
     )
     .catch(e => console.log(e))
   )
@@ -72,7 +82,6 @@ self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
   if (url.hostname === 'free.currencyconverterapi.com') {
     if (url.pathname.endsWith('currencies')) {
-      console.log('url', url)
       event.respondWith(serveCurrencies(event.request))
       return;
     }
@@ -83,12 +92,17 @@ self.addEventListener('fetch', (event) => {
         return;
       }
     }
+    if (url.searchParams.get('date') && url.searchParams.get('endDate')) {
+      event.respondWith(plotCurrencyHistory(event.request))
+      return;
+    }
   }
   event.respondWith(
     caches.match(event.request)
     .then(response => response || fetch(event.request))
   )
 });
+
 
 function serveCurrencies(request) {
   const currencies = getCurrencies()
@@ -115,6 +129,40 @@ function serveCurrencies(request) {
     return response || networkFetch;
   });
 };
+
+function plotCurrencyHistory(request) {
+  const url = new URL(request.url);
+  const params = url.searchParams.get('q');
+  const convParams = params.split(',')[0].split('_')
+  const startDate = url.searchParams.get('date');
+  const endDate = url.searchParams.get('endDate');
+  const fromCurrency = convParams[0];
+  const toCurrency = convParams[1];
+  const currKeys = [`${fromCurrency}_${toCurrency}`];
+  const dbFetch = getCurrencyHistory(fromCurrency, toCurrency);
+  return dbFetch.then((dbResponse) => {
+    const response = new Response(JSON.stringify(dbResponse), {
+      headers: { 'Content-Type': 'application/json' }
+    });
+    const networkFetch = fetch(request)
+      .then(async(networkResponse) => {
+        const dbPromise = idb.open('currency-history-db', 1);
+        await dbPromise.then(async(db) => {
+          const networkRes = networkResponse.clone();
+          await networkRes.json().then((res) => {
+            Object.keys(res).map((key) => {
+              const tx = db.transaction('history', 'readwrite');
+              const currencyHistoryStore = tx.objectStore('history');
+              currencyHistoryStore.put(res[key], key);
+              return tx.complete;
+            });
+          });
+        });
+        return networkResponse.json().then(res => res)
+      });
+    return response || networkFetch
+  })
+}
 
 function convertCurrency(request) {
   const url = new URL(request.url);

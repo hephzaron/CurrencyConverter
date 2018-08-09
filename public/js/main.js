@@ -51,7 +51,7 @@ if (navigator.serviceWorker) {
     .catch(e => console.log(e))
 
   const calcDay = (step) => {
-    return moment().subtract(step, 'days').format('YYYY', 'MM', 'DD')
+    return moment().subtract(step, 'days').format('YYYY-MM-DD')
   }
 
   window.addEventListener('load', (event) => {
@@ -84,13 +84,18 @@ if (navigator.serviceWorker) {
   fromTo.addEventListener('change', (event) => {
     event.preventDefault();
     changeFromCurrency(event.target.value);
-    const previous = moment().subtract(6, 'days').format('YYYY', 'MM', 'DD');
-    const today = moment().format('YYYY', 'MM', 'DD');
+    const previous = moment().subtract(6, 'days').format('YYYY-MM-DD');
+    const today = moment().format('YYYY-MM-DD');
     handleRequest
       .fetchHistoricalData(fromCurrency[0].id, toCurrency[0].id, previous, today)
       .then((response) => {
+        const key = `${fromCurrency[0].id}_${toCurrency[0].id}`
         if (!response) return;
-        showTrends(response)
+        response.json().then((data) => {
+          showTrends({
+            [`${key}`]: Object.assign({}, data)
+          })
+        })
       })
   });
 
@@ -111,8 +116,13 @@ if (navigator.serviceWorker) {
     handleRequest
       .fetchHistoricalData(fromCurrency[0].id, toCurrency[0].id, previous, today)
       .then((response) => {
+        const key = `${fromCurrency[0].id}_${toCurrency[0].id}`
         if (!response) return;
-        showTrends(response)
+        response.json().then((data) => {
+          showTrends({
+            [`${key}`]: Object.assign({}, data)
+          })
+        })
       })
   });
 

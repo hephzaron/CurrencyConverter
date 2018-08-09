@@ -8,7 +8,7 @@ class HandleRequest {
       .then((response) => {
         return response.json();
       })
-      .catch(error => console.log('err', error))
+      .catch(error => console.log(error))
   }
 
   fetchHistoricalData(fromCurrency, toCurrency, startDate, endDate) {
@@ -17,7 +17,7 @@ class HandleRequest {
     return fetch(url)
       .then((response) => {
         if (!response) return;
-        return response.json()
+        return response
       })
       .catch(error => console.log(error))
   }

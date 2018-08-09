@@ -18944,7 +18944,7 @@ if (navigator.serviceWorker) {
   });
 
   var calcDay = function calcDay(step) {
-    return (0, _moment2.default)().subtract(step, 'days').format('YYYY', 'MM', 'DD');
+    return (0, _moment2.default)().subtract(step, 'days').format('YYYY-MM-DD');
   };
 
   window.addEventListener('load', function (event) {
@@ -18972,11 +18972,14 @@ if (navigator.serviceWorker) {
   fromTo.addEventListener('change', function (event) {
     event.preventDefault();
     changeFromCurrency(event.target.value);
-    var previous = (0, _moment2.default)().subtract(6, 'days').format('YYYY', 'MM', 'DD');
-    var today = (0, _moment2.default)().format('YYYY', 'MM', 'DD');
+    var previous = (0, _moment2.default)().subtract(6, 'days').format('YYYY-MM-DD');
+    var today = (0, _moment2.default)().format('YYYY-MM-DD');
     handleRequest.fetchHistoricalData(fromCurrency[0].id, toCurrency[0].id, previous, today).then(function (response) {
+      var key = fromCurrency[0].id + '_' + toCurrency[0].id;
       if (!response) return;
-      (0, _plot.showTrends)(response);
+      response.json().then(function (data) {
+        (0, _plot.showTrends)(_defineProperty({}, '' + key, Object.assign({}, data)));
+      });
     });
   });
 
@@ -18997,8 +19000,11 @@ if (navigator.serviceWorker) {
     var previous = (0, _moment2.default)().subtract(6, 'days').format('YYYY-MM-DD');
     var today = (0, _moment2.default)().format('YYYY-MM-DD');
     handleRequest.fetchHistoricalData(fromCurrency[0].id, toCurrency[0].id, previous, today).then(function (response) {
+      var key = fromCurrency[0].id + '_' + toCurrency[0].id;
       if (!response) return;
-      (0, _plot.showTrends)(response);
+      response.json().then(function (data) {
+        (0, _plot.showTrends)(_defineProperty({}, '' + key, Object.assign({}, data)));
+      });
     });
   });
 
@@ -19146,7 +19152,7 @@ var HandleRequest = function () {
       return fetch(this.baseUrl + '/currencies').then(function (response) {
         return response.json();
       }).catch(function (error) {
-        return console.log('err', error);
+        return console.log(error);
       });
     }
   }, {
@@ -19156,7 +19162,7 @@ var HandleRequest = function () {
       var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra&date=' + startDate + '&endDate=' + endDate;
       return fetch(url).then(function (response) {
         if (!response) return;
-        return response.json();
+        return response;
       }).catch(function (error) {
         return console.log(error);
       });
