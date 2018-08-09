@@ -477,7 +477,7 @@ var HandleRequest = function () {
       return fetch(this.baseUrl + '/currencies').then(function (response) {
         return response.json();
       }).catch(function (error) {
-        return console.log('err', error);
+        return console.log(error);
       });
     }
   }, {
