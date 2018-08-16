@@ -18943,8 +18943,10 @@ if (navigator.serviceWorker) {
 
     event.preventDefault();
     fetch(apiUrl + '/currencies').then(function (response) {
+      console.log('response-1', response);
       response.json().then(function (currencies) {
-        return loadCurrency(currencies);
+        console.log('response-2', currencies);
+        loadCurrency(currencies);
       });
     });
     (0, _plot.showTrends)(_defineProperty({}, 'AFN_AFN', (_AFN_AFN = {}, _defineProperty(_AFN_AFN, '' + calcDay(0), 1), _defineProperty(_AFN_AFN, '' + calcDay(1), 1), _defineProperty(_AFN_AFN, '' + calcDay(2), 1), _defineProperty(_AFN_AFN, '' + calcDay(3), 1), _AFN_AFN)));

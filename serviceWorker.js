@@ -105,13 +105,12 @@ self.addEventListener('fetch', (event) => {
 
 
 function serveCurrencies(request) {
-  let fetchedCurrencies;
   const currencies = getCurrencies()
   return currencies.then((dbResponse) => {
     const response = new Response(JSON.stringify(dbResponse), {
       headers: { 'Content-Type': 'application/json' }
     });
-    const networkRequest = fetch(request)
+    const networkFetch = fetch(request)
       .then(async(networkResponse) => {
         const dbPromise = idb.open('currencies-db', 1);
         await dbPromise.then(async(db) => {
@@ -125,14 +124,8 @@ function serveCurrencies(request) {
             });
           });
         });
-        networkResponse.json().then((res) => {
-          fetchedCurrencies = Object.values(res.results).sort();
-          console.log('res', fetchedCurrencies);
-        })
+        return networkResponse;
       });
-    const networkFetch = new Response(JSON.stringify(fetchedCurrencies), {
-      headers: { 'Content-Type': 'application/json' }
-    });
     return networkFetch || response;
   });
 };
@@ -170,7 +163,7 @@ function plotCurrencyHistory(request) {
     return networkFetch || response
   })
 }
-
+/*****
 function convertCurrency(request) {
   const url = new URL(request.url);
   const params = url.searchParams.get('q');
@@ -202,3 +195,4 @@ function convertCurrency(request) {
     return (Object.keys(dbResponse) !== convKeys) ? networkFetch : response
   });
 }
+***/

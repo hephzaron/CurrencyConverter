@@ -5111,13 +5111,12 @@ self.addEventListener('fetch', function (event) {
 });
 
 function serveCurrencies(request) {
-  var fetchedCurrencies = void 0;
   var currencies = (0, _store.getCurrencies)();
   return currencies.then(function (dbResponse) {
     var response = new Response(JSON.stringify(dbResponse), {
       headers: { 'Content-Type': 'application/json' }
     });
-    var networkRequest = fetch(request).then(async function (networkResponse) {
+    var networkFetch = fetch(request).then(async function (networkResponse) {
       var dbPromise = _idb2.default.open('currencies-db', 1);
       await dbPromise.then(async function (db) {
         var networkRes = networkResponse.clone();
@@ -5130,13 +5129,7 @@ function serveCurrencies(request) {
           });
         });
       });
-      networkResponse.json().then(function (res) {
-        fetchedCurrencies = Object.values(res.results).sort();
-        console.log('res', fetchedCurrencies);
-      });
-    });
-    var networkFetch = new Response(JSON.stringify(fetchedCurrencies), {
-      headers: { 'Content-Type': 'application/json' }
+      return networkResponse;
     });
     return networkFetch || response;
   });
@@ -5174,37 +5167,39 @@ function plotCurrencyHistory(request) {
     return networkFetch || response;
   });
 }
-
+/*****
 function convertCurrency(request) {
-  var url = new URL(request.url);
-  var params = url.searchParams.get('q');
-  var convParams = params[0].split('_');
-  var fromCurrency = convParams[0];
-  var toCurrency = convParams[1];
-  var convKeys = [fromCurrency + '_' + toCurrency, toCurrency + '_' + fromCurrency];
-  var dbFetch = (0, _store.getCurrencyRate)(fromCurrency, toCurrency);
-  return dbFetch.then(function (dbResponse) {
-    var response = new Response(JSON.stringify(dbResponse), {
+  const url = new URL(request.url);
+  const params = url.searchParams.get('q');
+  const convParams = params[0].split('_');
+  const fromCurrency = convParams[0];
+  const toCurrency = convParams[1];
+  const convKeys = [`${fromCurrency}_${toCurrency}`, `${toCurrency}_${fromCurrency}`]
+  const dbFetch = getCurrencyRate(fromCurrency, toCurrency);
+  return dbFetch.then((dbResponse) => {
+    const response = new Response(JSON.stringify(dbResponse), {
       headers: { 'Content-Type': 'application/json' }
     });
-    var networkFetch = fetch(request).then(async function (networkResponse) {
-      var dbPromise = _idb2.default.open('currencies-rates-db', 1);
-      await dbPromise.then(async function (db) {
-        var networkRes = networkResponse.clone();
-        await networkRes.json().then(function (res) {
-          Object.keys(res).map(function (key) {
-            var tx = db.transaction('currency-rates', 'readwrite');
-            var currencyStore = tx.objectStore('currency-rates');
-            currencyStore.put(res[key], key);
-            return tx.complete;
+    const networkFetch = fetch(request)
+      .then(async(networkResponse) => {
+        const dbPromise = idb.open('currencies-rates-db', 1);
+        await dbPromise.then(async(db) => {
+          const networkRes = networkResponse.clone();
+          await networkRes.json().then((res) => {
+            Object.keys(res).map((key) => {
+              const tx = db.transaction('currency-rates', 'readwrite');
+              const currencyStore = tx.objectStore('currency-rates');
+              currencyStore.put(res[key], key);
+              return tx.complete;
+            });
           });
         });
+        return networkResponse.json()
       });
-      return networkResponse.json();
-    });
-    return Object.keys(dbResponse) !== convKeys ? networkFetch : response;
+    return (Object.keys(dbResponse) !== convKeys) ? networkFetch : response
   });
 }
+***/
 
 },{"./public/js/store":3,"idb":1,"moment":2}]},{},[5])
 
