@@ -4855,7 +4855,7 @@ var saveCurrencies = exports.saveCurrencies = function saveCurrencies() {
 
   return dbPromise.then(function (db) {
     var fetchedResponse = handleRequest.fetchCurrencies();
-    return fetchedResponse.then(function (currencies) {
+    return fetchedResponse.json().then(function (currencies) {
       if (!currencies.results) {
         return Promise.reject('Currencies cannot be fetched from network');
       }
@@ -4983,7 +4983,7 @@ var HandleRequest = function () {
     key: 'fetchCurrencies',
     value: function fetchCurrencies() {
       return fetch(this.baseUrl + '/currencies').then(function (response) {
-        return response.json();
+        return response;
       }).catch(function (error) {
         return console.log(error);
       });
@@ -5035,7 +5035,7 @@ var _store = require('./public/js/store');
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var cacheBasename = 'convert-currency';
-var cacheVersion = 'v4';
+var cacheVersion = 'v1';
 var appCahe = cacheBasename + '-' + cacheVersion;
 
 var repo = '/CurrencyConverter';
@@ -5111,12 +5111,13 @@ self.addEventListener('fetch', function (event) {
 });
 
 function serveCurrencies(request) {
+  var fetchedCurrencies = void 0;
   var currencies = (0, _store.getCurrencies)();
   return currencies.then(function (dbResponse) {
     var response = new Response(JSON.stringify(dbResponse), {
       headers: { 'Content-Type': 'application/json' }
     });
-    var networkFetch = fetch(request).then(async function (networkResponse) {
+    var networkRequest = fetch(request).then(async function (networkResponse) {
       var dbPromise = _idb2.default.open('currencies-db', 1);
       await dbPromise.then(async function (db) {
         var networkRes = networkResponse.clone();
@@ -5129,11 +5130,15 @@ function serveCurrencies(request) {
           });
         });
       });
-      return networkResponse.json().then(function (res) {
-        return res.results;
+      networkResponse.json().then(function (res) {
+        fetchedCurrencies = Object.values(res.results).sort();
+        console.log('res', fetchedCurrencies);
       });
     });
-    return response || networkFetch;
+    var networkFetch = new Response(JSON.stringify(fetchedCurrencies), {
+      headers: { 'Content-Type': 'application/json' }
+    });
+    return networkFetch || response;
   });
 };
 
@@ -5164,11 +5169,9 @@ function plotCurrencyHistory(request) {
           });
         });
       });
-      return networkResponse.json().then(function (res) {
-        return res;
-      });
+      return networkResponse;
     });
-    return response || networkFetch;
+    return networkFetch || response;
   });
 }
 

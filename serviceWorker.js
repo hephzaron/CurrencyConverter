@@ -13,7 +13,7 @@ import {
 } from './public/js/store';
 
 const cacheBasename = 'convert-currency';
-const cacheVersion = 'v4';
+const cacheVersion = 'v1';
 const appCahe = `${cacheBasename}-${cacheVersion}`;
 
 const repo = '/CurrencyConverter';
@@ -105,12 +105,13 @@ self.addEventListener('fetch', (event) => {
 
 
 function serveCurrencies(request) {
+  let fetchedCurrencies;
   const currencies = getCurrencies()
   return currencies.then((dbResponse) => {
     const response = new Response(JSON.stringify(dbResponse), {
       headers: { 'Content-Type': 'application/json' }
     });
-    const networkFetch = fetch(request)
+    const networkRequest = fetch(request)
       .then(async(networkResponse) => {
         const dbPromise = idb.open('currencies-db', 1);
         await dbPromise.then(async(db) => {
@@ -124,9 +125,15 @@ function serveCurrencies(request) {
             });
           });
         });
-        return networkResponse.json().then(res => res.results)
+        networkResponse.json().then((res) => {
+          fetchedCurrencies = Object.values(res.results).sort();
+          console.log('res', fetchedCurrencies);
+        })
       });
-    return response || networkFetch;
+    const networkFetch = new Response(JSON.stringify(fetchedCurrencies), {
+      headers: { 'Content-Type': 'application/json' }
+    });
+    return networkFetch || response;
   });
 };
 
@@ -158,9 +165,9 @@ function plotCurrencyHistory(request) {
             });
           });
         });
-        return networkResponse.json().then(res => res)
+        return networkResponse
       });
-    return response || networkFetch
+    return networkFetch || response
   })
 }
 

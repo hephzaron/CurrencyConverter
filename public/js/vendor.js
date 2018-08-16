@@ -5,9 +5,7 @@ class HandleRequest {
 
   fetchCurrencies() {
     return fetch(`${this.baseUrl}/currencies`)
-      .then((response) => {
-        return response.json();
-      })
+      .then(response => response)
       .catch(error => console.log(error))
   }
 

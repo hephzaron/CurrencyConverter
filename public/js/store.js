@@ -12,7 +12,7 @@ export const saveCurrencies = () => {
 
   return dbPromise.then((db) => {
     const fetchedResponse = handleRequest.fetchCurrencies();
-    return fetchedResponse.then((currencies) => {
+    return fetchedResponse.json().then((currencies) => {
       if (!currencies.results) {
         return Promise.reject('Currencies cannot be fetched from network')
       }

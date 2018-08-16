@@ -347,7 +347,7 @@ var saveCurrencies = exports.saveCurrencies = function saveCurrencies() {
 
   return dbPromise.then(function (db) {
     var fetchedResponse = handleRequest.fetchCurrencies();
-    return fetchedResponse.then(function (currencies) {
+    return fetchedResponse.json().then(function (currencies) {
       if (!currencies.results) {
         return Promise.reject('Currencies cannot be fetched from network');
       }
@@ -475,7 +475,7 @@ var HandleRequest = function () {
     key: 'fetchCurrencies',
     value: function fetchCurrencies() {
       return fetch(this.baseUrl + '/currencies').then(function (response) {
-        return response.json();
+        return response;
       }).catch(function (error) {
         return console.log(error);
       });

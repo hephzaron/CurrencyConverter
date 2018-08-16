@@ -14,7 +14,7 @@ export const showTrends = (historyData) => {
   const data = {
     labels: xLabel,
     datasets: [{
-      label: `${fromLabel} against ${toLabel}`,
+      label: `${toLabel} against ${fromLabel}`,
       fill: false,
       pointBackgroundColor: 'rgba(225,99,192,0.8)',
       borderColor: 'rgba(2,2,198,0.7)',
@@ -41,7 +41,7 @@ export const showTrends = (historyData) => {
         },
         scaleLabel: {
           display: true,
-          labelString: `${fromLabel} conversion rates`
+          labelString: `${toLabel} conversion rates`
         }
       }]
     },

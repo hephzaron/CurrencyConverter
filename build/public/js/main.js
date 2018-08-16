@@ -18933,16 +18933,7 @@ if (navigator.serviceWorker) {
   var toCurrency = void 0;
   var fromCurrencyValue = void 0;
   var toCurrencyValue = void 0;
-
-  handleRequest.fetchCurrencies().then(function (response) {
-    if (!response) return;
-    response.map(function (res) {
-      return currencies.push(res);
-    });
-  }).catch(function (e) {
-    return console.log(e);
-  });
-
+  var apiUrl = 'https://free.currencyconverterapi.com/api/v5';
   var calcDay = function calcDay(step) {
     return (0, _moment2.default)().subtract(step, 'days').format('YYYY-MM-DD');
   };
@@ -18951,11 +18942,16 @@ if (navigator.serviceWorker) {
     var _AFN_AFN;
 
     event.preventDefault();
-    loadCurrency();
+    fetch(apiUrl + '/currencies').then(function (response) {
+      response.json().then(function (currencies) {
+        return loadCurrency(currencies);
+      });
+    });
     (0, _plot.showTrends)(_defineProperty({}, 'AFN_AFN', (_AFN_AFN = {}, _defineProperty(_AFN_AFN, '' + calcDay(0), 1), _defineProperty(_AFN_AFN, '' + calcDay(1), 1), _defineProperty(_AFN_AFN, '' + calcDay(2), 1), _defineProperty(_AFN_AFN, '' + calcDay(3), 1), _AFN_AFN)));
   });
 
-  function loadCurrency() {
+  function loadCurrency(currencies) {
+    console.log('curre', currencies);
     var arr = currencies.sort(function (prev, next) {
       return prev['currencyName'].localeCompare(next['currencyName']);
     });
@@ -18978,7 +18974,7 @@ if (navigator.serviceWorker) {
       var key = fromCurrency[0].id + '_' + toCurrency[0].id;
       if (!response) return;
       response.json().then(function (data) {
-        (0, _plot.showTrends)(_defineProperty({}, '' + key, Object.assign({}, data)));
+        (0, _plot.showTrends)(_defineProperty({}, '' + key, data));
       });
     });
   });
@@ -19003,7 +18999,7 @@ if (navigator.serviceWorker) {
       var key = fromCurrency[0].id + '_' + toCurrency[0].id;
       if (!response) return;
       response.json().then(function (data) {
-        (0, _plot.showTrends)(_defineProperty({}, '' + key, Object.assign({}, data)));
+        (0, _plot.showTrends)(_defineProperty({}, '' + key, data));
       });
     });
   });
@@ -19066,7 +19062,7 @@ var showTrends = exports.showTrends = function showTrends(historyData) {
   var data = {
     labels: xLabel,
     datasets: [{
-      label: fromLabel + ' against ' + toLabel,
+      label: toLabel + ' against ' + fromLabel,
       fill: false,
       pointBackgroundColor: 'rgba(225,99,192,0.8)',
       borderColor: 'rgba(2,2,198,0.7)',
@@ -19093,7 +19089,7 @@ var showTrends = exports.showTrends = function showTrends(historyData) {
         },
         scaleLabel: {
           display: true,
-          labelString: fromLabel + ' conversion rates'
+          labelString: toLabel + ' conversion rates'
         }
       }]
     },
@@ -19150,7 +19146,7 @@ var HandleRequest = function () {
     key: 'fetchCurrencies',
     value: function fetchCurrencies() {
       return fetch(this.baseUrl + '/currencies').then(function (response) {
-        return response.json();
+        return response;
       }).catch(function (error) {
         return console.log(error);
       });

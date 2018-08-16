@@ -20,7 +20,7 @@ var HandleRequest = function () {
     key: 'fetchCurrencies',
     value: function fetchCurrencies() {
       return fetch(this.baseUrl + '/currencies').then(function (response) {
-        return response.json();
+        return response;
       }).catch(function (error) {
         return console.log(error);
       });

@@ -42,21 +42,17 @@ if (navigator.serviceWorker) {
   let toCurrency;
   let fromCurrencyValue;
   let toCurrencyValue;
-
-  handleRequest.fetchCurrencies()
-    .then((response) => {
-      if (!response) return;
-      response.map(res => currencies.push(res));
-    })
-    .catch(e => console.log(e))
-
+  let apiUrl = 'https://free.currencyconverterapi.com/api/v5'
   const calcDay = (step) => {
     return moment().subtract(step, 'days').format('YYYY-MM-DD')
   }
 
   window.addEventListener('load', (event) => {
     event.preventDefault();
-    loadCurrency();
+    fetch(`${apiUrl}/currencies`).then((response) => {
+      response.json()
+        .then(currencies => loadCurrency(currencies))
+    });
     showTrends({
       ['AFN_AFN']: {
         [`${calcDay(0)}`]: 1,
@@ -67,7 +63,8 @@ if (navigator.serviceWorker) {
     });
   })
 
-  function loadCurrency() {
+  function loadCurrency(currencies) {
+    console.log('curre', currencies);
     const arr = currencies.sort((prev, next) => {
       return prev['currencyName'].localeCompare(next['currencyName']);
     })
@@ -93,7 +90,7 @@ if (navigator.serviceWorker) {
         if (!response) return;
         response.json().then((data) => {
           showTrends({
-            [`${key}`]: Object.assign({}, data)
+            [`${key}`]: data
           })
         })
       })
@@ -120,7 +117,7 @@ if (navigator.serviceWorker) {
         if (!response) return;
         response.json().then((data) => {
           showTrends({
-            [`${key}`]: Object.assign({}, data)
+            [`${key}`]: data
           })
         })
       })
