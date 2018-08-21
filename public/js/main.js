@@ -35,7 +35,7 @@ if (navigator.serviceWorker) {
   const toBtn = document.getElementById('toBtn');
   const rateFrom = document.getElementById('rateFrom');
   const rateTo = document.getElementById('rateTo');
-  let currencies = [];
+  let currencies;
   let fromToHtml = [];
   let toFromHtml = [];
   let fromCurrency;
@@ -51,7 +51,10 @@ if (navigator.serviceWorker) {
     event.preventDefault();
     fetch(`${apiUrl}/currencies`).then((response) => {
       response.json()
-        .then(currencies => loadCurrency(currencies))
+        .then((data) => {
+          currencies = data.results || data;
+          loadCurrency(currencies);
+        })
     });
     showTrends({
       ['AFN_AFN']: {
@@ -64,7 +67,6 @@ if (navigator.serviceWorker) {
   })
 
   function loadCurrency(currencies) {
-    console.log('curre', currencies);
     const arr = currencies.sort((prev, next) => {
       return prev['currencyName'].localeCompare(next['currencyName']);
     })

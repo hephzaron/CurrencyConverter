@@ -18926,7 +18926,7 @@ if (navigator.serviceWorker) {
   var toBtn = document.getElementById('toBtn');
   var rateFrom = document.getElementById('rateFrom');
   var rateTo = document.getElementById('rateTo');
-  var currencies = [];
+  var currencies = void 0;
   var fromToHtml = [];
   var toFromHtml = [];
   var fromCurrency = void 0;
@@ -18943,9 +18943,8 @@ if (navigator.serviceWorker) {
 
     event.preventDefault();
     fetch(apiUrl + '/currencies').then(function (response) {
-      console.log('response-1', response);
-      response.json().then(function (currencies) {
-        console.log('response-2', currencies);
+      response.json().then(function (data) {
+        currencies = data.results || data;
         loadCurrency(currencies);
       });
     });
@@ -18953,7 +18952,6 @@ if (navigator.serviceWorker) {
   });
 
   function loadCurrency(currencies) {
-    console.log('curre', currencies);
     var arr = currencies.sort(function (prev, next) {
       return prev['currencyName'].localeCompare(next['currencyName']);
     });

@@ -5035,7 +5035,7 @@ var _store = require('./public/js/store');
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var cacheBasename = 'convert-currency';
-var cacheVersion = 'v1';
+var cacheVersion = 'v2';
 var appCahe = cacheBasename + '-' + cacheVersion;
 
 var repo = '/CurrencyConverter';
@@ -5111,28 +5111,30 @@ self.addEventListener('fetch', function (event) {
 });
 
 function serveCurrencies(request) {
-  var currencies = (0, _store.getCurrencies)();
-  return currencies.then(function (dbResponse) {
-    var response = new Response(JSON.stringify(dbResponse), {
-      headers: { 'Content-Type': 'application/json' }
-    });
-    var networkFetch = fetch(request).then(async function (networkResponse) {
-      var dbPromise = _idb2.default.open('currencies-db', 1);
-      await dbPromise.then(async function (db) {
-        var networkRes = networkResponse.clone();
-        await networkRes.json().then(function (res) {
-          Object.keys(res.results).map(function (key) {
-            var tx = db.transaction('currencies', 'readwrite');
-            var currencyStore = tx.objectStore('currencies');
-            currencyStore.put(res.results[key], key);
-            return tx.complete;
-          });
+  var networkFetch = fetch(request).then(async function (networkResponse) {
+    var dbPromise = _idb2.default.open('currencies-db', 1);
+    await dbPromise.then(async function (db) {
+      var networkRes = networkResponse.clone();
+      await networkRes.json().then(function (res) {
+        Object.keys(res.results).map(function (key) {
+          var tx = db.transaction('currencies', 'readwrite');
+          var currencyStore = tx.objectStore('currencies');
+          currencyStore.put(res.results[key], key);
+          return tx.complete;
         });
       });
-      return networkResponse;
     });
-    return networkFetch || response;
+    return networkResponse;
+  }).catch(function () {
+    var currencies = (0, _store.getCurrencies)();
+    return currencies.then(function (dbResponse) {
+      var response = new Response(JSON.stringify(dbResponse), {
+        headers: { 'Content-Type': 'application/json' }
+      });
+      return response;
+    });
   });
+  return networkFetch;
 };
 
 function plotCurrencyHistory(request) {
@@ -5144,28 +5146,30 @@ function plotCurrencyHistory(request) {
   var fromCurrency = convParams[0];
   var toCurrency = convParams[1];
   var currKeys = [fromCurrency + '_' + toCurrency];
-  var dbFetch = (0, _store.getCurrencyHistory)(fromCurrency, toCurrency);
-  return dbFetch.then(function (dbResponse) {
-    var response = new Response(JSON.stringify(dbResponse), {
-      headers: { 'Content-Type': 'application/json' }
-    });
-    var networkFetch = fetch(request).then(async function (networkResponse) {
-      var dbPromise = _idb2.default.open('currency-history-db', 1);
-      await dbPromise.then(async function (db) {
-        var networkRes = networkResponse.clone();
-        await networkRes.json().then(function (res) {
-          Object.keys(res).map(function (key) {
-            var tx = db.transaction('history', 'readwrite');
-            var currencyHistoryStore = tx.objectStore('history');
-            currencyHistoryStore.put(res[key], key);
-            return tx.complete;
-          });
+  var networkFetch = fetch(request).then(async function (networkResponse) {
+    var dbPromise = _idb2.default.open('currency-history-db', 1);
+    await dbPromise.then(async function (db) {
+      var networkRes = networkResponse.clone();
+      await networkRes.json().then(function (res) {
+        Object.keys(res).map(function (key) {
+          var tx = db.transaction('history', 'readwrite');
+          var currencyHistoryStore = tx.objectStore('history');
+          currencyHistoryStore.put(res[key], key);
+          return tx.complete;
         });
       });
-      return networkResponse;
     });
-    return networkFetch || response;
+    return networkResponse;
+  }).catch(function () {
+    var dbFetch = (0, _store.getCurrencyHistory)(fromCurrency, toCurrency);
+    return dbFetch.then(function (dbResponse) {
+      var response = new Response(JSON.stringify(dbResponse), {
+        headers: { 'Content-Type': 'application/json' }
+      });
+      return response;
+    });
   });
+  return networkFetch;
 }
 /*****
 function convertCurrency(request) {

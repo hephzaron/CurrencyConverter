@@ -13,7 +13,7 @@ import {
 } from './public/js/store';
 
 const cacheBasename = 'convert-currency';
-const cacheVersion = 'v1';
+const cacheVersion = 'v2';
 const appCahe = `${cacheBasename}-${cacheVersion}`;
 
 const repo = '/CurrencyConverter';
@@ -105,29 +105,33 @@ self.addEventListener('fetch', (event) => {
 
 
 function serveCurrencies(request) {
-  const currencies = getCurrencies()
-  return currencies.then((dbResponse) => {
-    const response = new Response(JSON.stringify(dbResponse), {
-      headers: { 'Content-Type': 'application/json' }
-    });
-    const networkFetch = fetch(request)
-      .then(async(networkResponse) => {
-        const dbPromise = idb.open('currencies-db', 1);
-        await dbPromise.then(async(db) => {
-          const networkRes = networkResponse.clone();
-          await networkRes.json().then((res) => {
-            Object.keys(res.results).map((key) => {
-              const tx = db.transaction('currencies', 'readwrite');
-              const currencyStore = tx.objectStore('currencies');
-              currencyStore.put(res.results[key], key);
-              return tx.complete;
-            });
+  const networkFetch = fetch(request)
+    .then(async(networkResponse) => {
+      const dbPromise = idb.open('currencies-db', 1);
+      await dbPromise.then(async(db) => {
+        const networkRes = networkResponse.clone();
+        await networkRes.json().then((res) => {
+          Object.keys(res.results).map((key) => {
+            const tx = db.transaction('currencies', 'readwrite');
+            const currencyStore = tx.objectStore('currencies');
+            currencyStore.put(res.results[key], key);
+            return tx.complete;
           });
         });
-        return networkResponse;
       });
-    return networkFetch || response;
-  });
+      return networkResponse;
+    })
+    .catch(() => {
+      const currencies = getCurrencies()
+      return currencies
+        .then((dbResponse) => {
+          const response = new Response(JSON.stringify(dbResponse), {
+            headers: { 'Content-Type': 'application/json' }
+          });
+          return response;
+        });
+    });
+  return networkFetch;
 };
 
 function plotCurrencyHistory(request) {
@@ -139,29 +143,33 @@ function plotCurrencyHistory(request) {
   const fromCurrency = convParams[0];
   const toCurrency = convParams[1];
   const currKeys = [`${fromCurrency}_${toCurrency}`];
-  const dbFetch = getCurrencyHistory(fromCurrency, toCurrency);
-  return dbFetch.then((dbResponse) => {
-    const response = new Response(JSON.stringify(dbResponse), {
-      headers: { 'Content-Type': 'application/json' }
-    });
-    const networkFetch = fetch(request)
-      .then(async(networkResponse) => {
-        const dbPromise = idb.open('currency-history-db', 1);
-        await dbPromise.then(async(db) => {
-          const networkRes = networkResponse.clone();
-          await networkRes.json().then((res) => {
-            Object.keys(res).map((key) => {
-              const tx = db.transaction('history', 'readwrite');
-              const currencyHistoryStore = tx.objectStore('history');
-              currencyHistoryStore.put(res[key], key);
-              return tx.complete;
-            });
+  const networkFetch = fetch(request)
+    .then(async(networkResponse) => {
+      const dbPromise = idb.open('currency-history-db', 1);
+      await dbPromise.then(async(db) => {
+        const networkRes = networkResponse.clone();
+        await networkRes.json().then((res) => {
+          Object.keys(res).map((key) => {
+            const tx = db.transaction('history', 'readwrite');
+            const currencyHistoryStore = tx.objectStore('history');
+            currencyHistoryStore.put(res[key], key);
+            return tx.complete;
           });
         });
-        return networkResponse
       });
-    return networkFetch || response
-  })
+      return networkResponse
+    })
+    .catch(() => {
+      const dbFetch = getCurrencyHistory(fromCurrency, toCurrency);
+      return dbFetch
+        .then((dbResponse) => {
+          const response = new Response(JSON.stringify(dbResponse), {
+            headers: { 'Content-Type': 'application/json' }
+          });
+          return response;
+        });
+    });
+  return networkFetch;
 }
 /*****
 function convertCurrency(request) {
