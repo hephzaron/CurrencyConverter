@@ -18929,8 +18929,8 @@ if (navigator.serviceWorker) {
   var currencies = void 0;
   var fromToHtml = [];
   var toFromHtml = [];
-  var fromCurrency = void 0;
-  var toCurrency = void 0;
+  var fromCurrency = [{ id: 'AFN' }];
+  var toCurrency = [{ id: 'AFN' }];
   var fromCurrencyValue = void 0;
   var toCurrencyValue = void 0;
   var apiUrl = 'https://free.currencyconverterapi.com/api/v5';
@@ -18939,16 +18939,16 @@ if (navigator.serviceWorker) {
   };
 
   window.addEventListener('load', function (event) {
-    var _AFN_AFN;
-
     event.preventDefault();
     fetch(apiUrl + '/currencies').then(function (response) {
       response.json().then(function (data) {
-        currencies = data.results || data;
+        var _AFN_AFN;
+
+        currencies = Object.values(data.results) || data;
         loadCurrency(currencies);
+        (0, _plot.showTrends)(_defineProperty({}, 'AFN_AFN', (_AFN_AFN = {}, _defineProperty(_AFN_AFN, '' + calcDay(0), 1), _defineProperty(_AFN_AFN, '' + calcDay(1), 1), _defineProperty(_AFN_AFN, '' + calcDay(2), 1), _defineProperty(_AFN_AFN, '' + calcDay(3), 1), _AFN_AFN)));
       });
     });
-    (0, _plot.showTrends)(_defineProperty({}, 'AFN_AFN', (_AFN_AFN = {}, _defineProperty(_AFN_AFN, '' + calcDay(0), 1), _defineProperty(_AFN_AFN, '' + calcDay(1), 1), _defineProperty(_AFN_AFN, '' + calcDay(2), 1), _defineProperty(_AFN_AFN, '' + calcDay(3), 1), _AFN_AFN)));
   });
 
   function loadCurrency(currencies) {
@@ -18974,7 +18974,7 @@ if (navigator.serviceWorker) {
       var key = fromCurrency[0].id + '_' + toCurrency[0].id;
       if (!response) return;
       response.json().then(function (data) {
-        (0, _plot.showTrends)(_defineProperty({}, '' + key, data));
+        (0, _plot.showTrends)(_defineProperty({}, '' + key, data['' + key]));
       });
     });
   });
@@ -18999,7 +18999,7 @@ if (navigator.serviceWorker) {
       var key = fromCurrency[0].id + '_' + toCurrency[0].id;
       if (!response) return;
       response.json().then(function (data) {
-        (0, _plot.showTrends)(_defineProperty({}, '' + key, data));
+        (0, _plot.showTrends)(_defineProperty({}, '' + key, data['' + key]));
       });
     });
   });
@@ -19063,7 +19063,7 @@ var showTrends = exports.showTrends = function showTrends(historyData) {
     labels: xLabel,
     datasets: [{
       label: toLabel + ' against ' + fromLabel,
-      fill: false,
+      fill: true,
       pointBackgroundColor: 'rgba(225,99,192,0.8)',
       borderColor: 'rgba(2,2,198,0.7)',
       yAxesID: 'A',

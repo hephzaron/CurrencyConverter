@@ -18915,7 +18915,7 @@ var showTrends = exports.showTrends = function showTrends(historyData) {
     labels: xLabel,
     datasets: [{
       label: toLabel + ' against ' + fromLabel,
-      fill: false,
+      fill: true,
       pointBackgroundColor: 'rgba(225,99,192,0.8)',
       borderColor: 'rgba(2,2,198,0.7)',
       yAxesID: 'A',

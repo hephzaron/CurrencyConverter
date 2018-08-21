@@ -38,8 +38,8 @@ if (navigator.serviceWorker) {
   let currencies;
   let fromToHtml = [];
   let toFromHtml = [];
-  let fromCurrency;
-  let toCurrency;
+  let fromCurrency = [{ id: 'AFN' }];
+  let toCurrency = [{ id: 'AFN' }];
   let fromCurrencyValue;
   let toCurrencyValue;
   let apiUrl = 'https://free.currencyconverterapi.com/api/v5'
@@ -52,17 +52,17 @@ if (navigator.serviceWorker) {
     fetch(`${apiUrl}/currencies`).then((response) => {
       response.json()
         .then((data) => {
-          currencies = data.results || data;
+          currencies = Object.values(data.results) || data
           loadCurrency(currencies);
-        })
-    });
-    showTrends({
-      ['AFN_AFN']: {
-        [`${calcDay(0)}`]: 1,
-        [`${calcDay(1)}`]: 1,
-        [`${calcDay(2)}`]: 1,
-        [`${calcDay(3)}`]: 1,
-      }
+          showTrends({
+            ['AFN_AFN']: {
+              [`${calcDay(0)}`]: 1,
+              [`${calcDay(1)}`]: 1,
+              [`${calcDay(2)}`]: 1,
+              [`${calcDay(3)}`]: 1,
+            }
+          });
+        });
     });
   })
 
@@ -92,7 +92,7 @@ if (navigator.serviceWorker) {
         if (!response) return;
         response.json().then((data) => {
           showTrends({
-            [`${key}`]: data
+            [`${key}`]: data[`${key}`]
           })
         })
       })
@@ -119,7 +119,7 @@ if (navigator.serviceWorker) {
         if (!response) return;
         response.json().then((data) => {
           showTrends({
-            [`${key}`]: data
+            [`${key}`]: data[`${key}`]
           })
         })
       })
