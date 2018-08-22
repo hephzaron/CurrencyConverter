@@ -423,18 +423,17 @@ var getCurrencies = exports.getCurrencies = function getCurrencies() {
 };
 
 var getCurrencyRate = exports.getCurrencyRate = function getCurrencyRate(fromCurrency, toCurrency) {
+  console.log('fromCurrency', fromCurrency);
+  console.log('toCurrency', toCurrency);
   var dbPromise = _idb2.default.open('currencies-rates-db', 1);
   return dbPromise.then(function (db) {
-    var results = {};
     var tx = db.transaction('currency-rates');
     var currencyRateStore = tx.objectStore('currency-rates');
-    currencyRateStore.get(fromCurrency + '_' + toCurrency).onsuccess = function (e) {
-      results[fromCurrency + '_' + toCurrency] = e.target.result;
-    };
-    currencyRateStore.get(toCurrency + '_' + fromCurrency).onsuccess = function (e) {
-      results[toCurrency + '_' + fromCurrency] = e.target.result;
-    };
-    return results;
+    var rate = currencyRateStore.get(fromCurrency + '_' + toCurrency);
+    return rate.then(function (res) {
+      if (!res) return;
+      return res;
+    });
   });
 };
 
@@ -488,18 +487,6 @@ var HandleRequest = function () {
       return fetch(url).then(function (response) {
         if (!response) return;
         return response;
-      }).catch(function (error) {
-        return console.log(error);
-      });
-    }
-  }, {
-    key: 'fetchConversionRates',
-    value: function fetchConversionRates(fromCurrency, toCurrency) {
-      var query = fromCurrency + '_' + toCurrency + ',' + toCurrency + '_' + fromCurrency;
-      var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra';
-      return fetch(url).then(function (response) {
-        if (!response) return;
-        return response.json();
       }).catch(function (error) {
         return console.log(error);
       });

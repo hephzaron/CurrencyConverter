@@ -18950,7 +18950,7 @@ if (navigator.serviceWorker) {
       response.json().then(function (data) {
         var _AFN_AFN;
 
-        currencies = Object.values(data.results) || data;
+        currencies = data.results ? Object.values(data.results) : data;
         loadCurrency(currencies);
         (0, _plot.showTrends)(_defineProperty({}, 'AFN_AFN', (_AFN_AFN = {}, _defineProperty(_AFN_AFN, '' + calcDay(0), 1), _defineProperty(_AFN_AFN, '' + calcDay(1), 1), _defineProperty(_AFN_AFN, '' + calcDay(2), 1), _defineProperty(_AFN_AFN, '' + calcDay(3), 1), _AFN_AFN)));
       });
@@ -18980,7 +18980,8 @@ if (navigator.serviceWorker) {
       var key = fromCurrency[0].id + '_' + toCurrency[0].id;
       if (!response) return;
       response.json().then(function (data) {
-        (0, _plot.showTrends)(_defineProperty({}, '' + key, data['' + key]));
+        var result = Object.keys(data)[0] === key ? data['' + key] : data;
+        (0, _plot.showTrends)(_defineProperty({}, '' + key, result));
       });
     });
   });
@@ -19005,7 +19006,8 @@ if (navigator.serviceWorker) {
       var key = fromCurrency[0].id + '_' + toCurrency[0].id;
       if (!response) return;
       response.json().then(function (data) {
-        (0, _plot.showTrends)(_defineProperty({}, '' + key, data['' + key]));
+        var result = Object.keys(data)[0] === key ? data['' + key] : data;
+        (0, _plot.showTrends)(_defineProperty({}, '' + key, result));
       });
     });
   });
@@ -19032,10 +19034,17 @@ if (navigator.serviceWorker) {
       fromInput.value = fromInput.value.slice(0, -1);
       return;
     }
-    var response = handleRequest.fetchConversionRates(fromCurrency[0].id, toCurrency[0].id);
+    var query = fromCurrency[0].id + '_' + toCurrency[0].id + ',' + toCurrency[0].id + '_' + fromCurrency[0].id;
+    var url = apiUrl + '/convert?q=' + query + '&compact=ultra';
     var key = fromCurrency[0].id + '_' + toCurrency[0].id;
-    response.then(function (data) {
-      toInput.value = (event.target.value * parseFloat(data[key])).toFixed(2);
+    var fetchRate = fetch(url);
+    fetchRate.then(function (response) {
+      console.log('response', response);
+      response.json().then(function (data) {
+        console.log('data', data);
+        var rate = Object.keys(data)[0] === key ? data[key] : Object.values(data)[0];
+        toInput.value = (event.target.value * parseFloat(rate)).toFixed(2);
+      });
     });
   });
 
@@ -19050,10 +19059,15 @@ if (navigator.serviceWorker) {
       toInput.value = toInput.value.slice(0, -1);
       return;
     }
-    var response = handleRequest.fetchConversionRates(fromCurrency[0].id, toCurrency[0].id);
+    var query = fromCurrency[0].id + '_' + toCurrency[0].id + ',' + toCurrency[0].id + '_' + fromCurrency[0].id;
+    var url = apiUrl + '/convert?q=' + query + '&compact=ultra';
     var key = toCurrency[0].id + '_' + fromCurrency[0].id;
-    response.then(function (data) {
-      fromInput.value = (event.target.value * parseFloat(data[key])).toFixed(2);
+    var fetchRate = fetch(url);
+    fetchRate.then(function (response) {
+      response.json().then(function (data) {
+        var rate = Object.keys(data)[0] === key ? data[key] : Object.values(data)[0];
+        fromInput.value = (event.target.value * parseFloat(rate)).toFixed(2);
+      });
     });
   });
 })();
@@ -19192,18 +19206,6 @@ var HandleRequest = function () {
       return fetch(url).then(function (response) {
         if (!response) return;
         return response;
-      }).catch(function (error) {
-        return console.log(error);
-      });
-    }
-  }, {
-    key: 'fetchConversionRates',
-    value: function fetchConversionRates(fromCurrency, toCurrency) {
-      var query = fromCurrency + '_' + toCurrency + ',' + toCurrency + '_' + fromCurrency;
-      var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra';
-      return fetch(url).then(function (response) {
-        if (!response) return;
-        return response.json();
       }).catch(function (error) {
         return console.log(error);
       });

@@ -19,17 +19,6 @@ class HandleRequest {
       })
       .catch(error => console.log(error))
   }
-
-  fetchConversionRates(fromCurrency, toCurrency) {
-    const query = `${fromCurrency}_${toCurrency},${toCurrency}_${fromCurrency}`;
-    const url = `${this.baseUrl}/convert?q=${query}&compact=ultra`;
-    return fetch(url)
-      .then((response) => {
-        if (!response) return;
-        return response.json()
-      })
-      .catch(error => console.log(error));
-  }
 }
 
 export default HandleRequest;

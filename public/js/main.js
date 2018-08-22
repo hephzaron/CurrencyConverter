@@ -58,7 +58,7 @@ if (navigator.serviceWorker) {
     fetch(`${apiUrl}/currencies`).then((response) => {
       response.json()
         .then((data) => {
-          currencies = Object.values(data.results) || data
+          currencies = data.results ? Object.values(data.results) : data;
           loadCurrency(currencies);
           showTrends({
             ['AFN_AFN']: {
@@ -97,8 +97,9 @@ if (navigator.serviceWorker) {
         const key = `${fromCurrency[0].id}_${toCurrency[0].id}`
         if (!response) return;
         response.json().then((data) => {
+          const result = (Object.keys(data)[0] === key) ? data[`${key}`] : data;
           showTrends({
-            [`${key}`]: data[`${key}`]
+            [`${key}`]: result
           })
         })
       })
@@ -124,8 +125,9 @@ if (navigator.serviceWorker) {
         const key = `${fromCurrency[0].id}_${toCurrency[0].id}`
         if (!response) return;
         response.json().then((data) => {
+          const result = (Object.keys(data)[0] === key) ? data[`${key}`] : data;
           showTrends({
-            [`${key}`]: data[`${key}`]
+            [`${key}`]: result
           })
         })
       })
@@ -148,10 +150,17 @@ if (navigator.serviceWorker) {
       fromInput.value = fromInput.value.slice(0, -1)
       return;
     }
-    const response = handleRequest.fetchConversionRates(fromCurrency[0].id, toCurrency[0].id);
+    const query = `${fromCurrency[0].id}_${toCurrency[0].id},${toCurrency[0].id}_${fromCurrency[0].id}`;
+    const url = `${apiUrl}/convert?q=${query}&compact=ultra`;
     const key = `${fromCurrency[0].id}_${toCurrency[0].id}`;
-    response.then((data) => {
-      toInput.value = ((event.target.value) * parseFloat(data[key])).toFixed(2)
+    const fetchRate = fetch(url);
+    fetchRate.then((response) => {
+      console.log('response', response);
+      response.json().then((data) => {
+        console.log('data', data);
+        const rate = Object.keys(data)[0] === key ? data[key] : Object.values(data)[0]
+        toInput.value = ((event.target.value) * parseFloat(rate)).toFixed(2);
+      });
     });
   });
 
@@ -163,10 +172,15 @@ if (navigator.serviceWorker) {
       toInput.value = toInput.value.slice(0, -1);
       return;
     }
-    const response = handleRequest.fetchConversionRates(fromCurrency[0].id, toCurrency[0].id);
+    const query = `${fromCurrency[0].id}_${toCurrency[0].id},${toCurrency[0].id}_${fromCurrency[0].id}`;
+    const url = `${apiUrl}/convert?q=${query}&compact=ultra`;
     const key = `${toCurrency[0].id}_${fromCurrency[0].id}`;
-    response.then((data) => {
-      fromInput.value = ((event.target.value) * parseFloat(data[key])).toFixed(2);
+    const fetchRate = fetch(url);
+    fetchRate.then((response) => {
+      response.json().then((data) => {
+        const rate = Object.keys(data)[0] === key ? data[key] : Object.values(data)[0];
+        fromInput.value = ((event.target.value) * parseFloat(rate)).toFixed(2);
+      });
     });
   });
 

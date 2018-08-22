@@ -37,18 +37,6 @@ var HandleRequest = function () {
         return console.log(error);
       });
     }
-  }, {
-    key: 'fetchConversionRates',
-    value: function fetchConversionRates(fromCurrency, toCurrency) {
-      var query = fromCurrency + '_' + toCurrency + ',' + toCurrency + '_' + fromCurrency;
-      var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra';
-      return fetch(url).then(function (response) {
-        if (!response) return;
-        return response.json();
-      }).catch(function (error) {
-        return console.log(error);
-      });
-    }
   }]);
 
   return HandleRequest;

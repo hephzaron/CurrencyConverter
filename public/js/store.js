@@ -82,21 +82,18 @@ export const getCurrencies = () => {
 }
 
 export const getCurrencyRate = (fromCurrency, toCurrency) => {
+  console.log('fromCurrency', fromCurrency);
+  console.log('toCurrency', toCurrency);
   const dbPromise = idb.open('currencies-rates-db', 1);
   return dbPromise.then((db) => {
-    let results = {};
     const tx = db.transaction('currency-rates');
     const currencyRateStore = tx.objectStore('currency-rates');
-    currencyRateStore.get(`${fromCurrency}_${toCurrency}`)
-      .onsuccess = (e) => {
-        results[`${fromCurrency}_${toCurrency}`] = e.target.result
-      };
-    currencyRateStore.get(`${toCurrency}_${fromCurrency}`)
-      .onsuccess = (e) => {
-        results[`${toCurrency}_${fromCurrency}`] = e.target.result
-      };
-    return results;
-  })
+    const rate = currencyRateStore.get(`${fromCurrency}_${toCurrency}`);
+    return rate.then((res) => {
+      if (!res) return;
+      return res;
+    });
+  });
 }
 
 export const getCurrencyHistory = (fromCurrency, toCurrency) => {
