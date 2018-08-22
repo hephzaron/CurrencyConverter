@@ -103,8 +103,8 @@ if (navigator.serviceWorker) {
     const fromCurrencySymbol = fromCurrency[0].currencySymbol ? fromCurrency[0].currencySymbol : fromCurrency[0].id
     const fromCurrencyId = fromCurrency[0].id;
     fromBtn.innerText = fromCurrencySymbol;
-    rateFrom.innerText = `1 ${fromCurrencyId} = ${toCurrency[0].id}`;
-    rateTo.innerText = `1 ${toCurrency[0].id}  = ${fromCurrencyId}`;
+    //rateFrom.innerText = `1 ${fromCurrencyId} = ${toCurrency[0].id}`;
+    //rateTo.innerText = `1 ${toCurrency[0].id}  = ${fromCurrencyId}`;
   }
 
   toFrom.addEventListener('change', (event) => {
@@ -130,8 +130,8 @@ if (navigator.serviceWorker) {
     const toCurrencySymbol = toCurrency[0].currencySymbol ? toCurrency[0].currencySymbol : toCurrency[0].id
     const toCurrencyId = toCurrency[0].id;
     toBtn.innerText = toCurrencySymbol;
-    rateFrom.innerText = `1 ${fromCurrency[0].id} = ${toCurrencyId}`;
-    rateTo.innerText = `1 ${toCurrencyId}  = ${fromCurrency[0].id}`;
+    //rateFrom.innerText = `1 ${fromCurrency[0].id} = ${toCurrencyId}`;
+    //rateTo.innerText = `1 ${toCurrencyId}  = ${fromCurrency[0].id}`;
   }
 
   fromInput.addEventListener('change', (event) => {

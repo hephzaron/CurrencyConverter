@@ -18986,8 +18986,8 @@ if (navigator.serviceWorker) {
     var fromCurrencySymbol = fromCurrency[0].currencySymbol ? fromCurrency[0].currencySymbol : fromCurrency[0].id;
     var fromCurrencyId = fromCurrency[0].id;
     fromBtn.innerText = fromCurrencySymbol;
-    rateFrom.innerText = '1 ' + fromCurrencyId + ' = ' + toCurrency[0].id;
-    rateTo.innerText = '1 ' + toCurrency[0].id + '  = ' + fromCurrencyId;
+    //rateFrom.innerText = `1 ${fromCurrencyId} = ${toCurrency[0].id}`;
+    //rateTo.innerText = `1 ${toCurrency[0].id}  = ${fromCurrencyId}`;
   }
 
   toFrom.addEventListener('change', function (event) {
@@ -19011,8 +19011,8 @@ if (navigator.serviceWorker) {
     var toCurrencySymbol = toCurrency[0].currencySymbol ? toCurrency[0].currencySymbol : toCurrency[0].id;
     var toCurrencyId = toCurrency[0].id;
     toBtn.innerText = toCurrencySymbol;
-    rateFrom.innerText = '1 ' + fromCurrency[0].id + ' = ' + toCurrencyId;
-    rateTo.innerText = '1 ' + toCurrencyId + '  = ' + fromCurrency[0].id;
+    //rateFrom.innerText = `1 ${fromCurrency[0].id} = ${toCurrencyId}`;
+    //rateTo.innerText = `1 ${toCurrencyId}  = ${fromCurrency[0].id}`;
   }
 
   fromInput.addEventListener('change', function (event) {
