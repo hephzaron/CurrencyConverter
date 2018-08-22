@@ -19015,12 +19015,21 @@ if (navigator.serviceWorker) {
     //rateTo.innerText = `1 ${toCurrencyId}  = ${fromCurrency[0].id}`;
   }
 
-  fromInput.addEventListener('change', function (event) {
+  fromInput.addEventListener('input', function (event) {
     event.preventDefault();
     var response = handleRequest.fetchConversionRates(fromCurrency[0].id, toCurrency[0].id);
     var key = fromCurrency[0].id + '_' + toCurrency[0].id;
     response.then(function (data) {
       toInput.value = event.target.value * parseFloat(data[key]);
+    });
+  });
+
+  toInput.addEventListener('input', function (event) {
+    event.preventDefault();
+    var response = handleRequest.fetchConversionRates(fromCurrency[0].id, toCurrency[0].id);
+    var key = toCurrency[0].id + '_' + fromCurrency[0].id;
+    response.then(function (data) {
+      fromInput.value = event.target.value * parseFloat(data[key]);
     });
   });
 })();

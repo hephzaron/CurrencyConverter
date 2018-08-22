@@ -134,12 +134,21 @@ if (navigator.serviceWorker) {
     //rateTo.innerText = `1 ${toCurrencyId}  = ${fromCurrency[0].id}`;
   }
 
-  fromInput.addEventListener('change', (event) => {
+  fromInput.addEventListener('input', (event) => {
     event.preventDefault();
     const response = handleRequest.fetchConversionRates(fromCurrency[0].id, toCurrency[0].id);
     const key = `${fromCurrency[0].id}_${toCurrency[0].id}`;
     response.then((data) => {
       toInput.value = (event.target.value) * parseFloat(data[key]);
+    });
+  });
+
+  toInput.addEventListener('input', (event) => {
+    event.preventDefault();
+    const response = handleRequest.fetchConversionRates(fromCurrency[0].id, toCurrency[0].id);
+    const key = `${toCurrency[0].id}_${fromCurrency[0].id}`;
+    response.then((data) => {
+      fromInput.value = (event.target.value) * parseFloat(data[key]);
     });
   });
 
