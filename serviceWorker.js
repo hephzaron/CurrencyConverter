@@ -13,7 +13,7 @@ import {
 } from './public/js/store';
 
 const cacheBasename = 'convert-currency';
-const cacheVersion = 'v1';
+const cacheVersion = 'v3';
 const appCahe = `${cacheBasename}-${cacheVersion}`;
 
 const repo = '/CurrencyConverter';
@@ -24,6 +24,7 @@ const pageSkeleton = [
   `/build/public/js/plot.js`,
   `/build/public/css/bootstrap.min.css`,
   `/build/public/css/style.css`,
+  `/build/public/imgs/forex-online.jpg`,
   `/build/public/js/utils/jquery-3.2.1.min.js`,
   `/build/public/js/utils/bootstrap.min.js`,
   `/build/public/js/utils/ie-emulation-modes-warning.js`,

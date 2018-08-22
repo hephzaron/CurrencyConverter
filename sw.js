@@ -5035,12 +5035,12 @@ var _store = require('./public/js/store');
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var cacheBasename = 'convert-currency';
-var cacheVersion = 'v1';
+var cacheVersion = 'v3';
 var appCahe = cacheBasename + '-' + cacheVersion;
 
 var repo = '/CurrencyConverter';
 
-var pageSkeleton = ['/', '/build/public/js/main.js', '/build/public/js/plot.js', '/build/public/css/bootstrap.min.css', '/build/public/css/style.css', '/build/public/js/utils/jquery-3.2.1.min.js', '/build/public/js/utils/bootstrap.min.js', '/build/public/js/utils/ie-emulation-modes-warning.js', '/build/public/js/utils/ie10-viewport-bug-workaround.js', '/index.html'];
+var pageSkeleton = ['/', '/build/public/js/main.js', '/build/public/js/plot.js', '/build/public/css/bootstrap.min.css', '/build/public/css/style.css', '/build/public/imgs/forex-online.jpg', '/build/public/js/utils/jquery-3.2.1.min.js', '/build/public/js/utils/bootstrap.min.js', '/build/public/js/utils/ie-emulation-modes-warning.js', '/build/public/js/utils/ie10-viewport-bug-workaround.js', '/index.html'];
 
 self.addEventListener('install', function (event) {
   event.waitUntil(caches.open(appCahe).then(function (cache) {
