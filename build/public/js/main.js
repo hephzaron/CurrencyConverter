@@ -18939,7 +18939,7 @@ if (navigator.serviceWorker) {
   };
 
   var validate = function validate(input) {
-    var re = /^\d*$/g;
+    var re = /^\d*(\.)?\d*$/g;
     var isValid = re.test(input);
     return { isValid: isValid };
   };

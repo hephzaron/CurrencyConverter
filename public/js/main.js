@@ -48,7 +48,7 @@ if (navigator.serviceWorker) {
   }
 
   const validate = (input) => {
-    const re = /^\d*$/g
+    const re = /^\d*(\.)?\d*$/g
     const isValid = re.test(input)
     return { isValid }
   }
