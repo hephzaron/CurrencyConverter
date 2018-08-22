@@ -18938,6 +18938,12 @@ if (navigator.serviceWorker) {
     return (0, _moment2.default)().subtract(step, 'days').format('YYYY-MM-DD');
   };
 
+  var validate = function validate(input) {
+    var re = /^\d*$/g;
+    var isValid = re.test(input);
+    return { isValid: isValid };
+  };
+
   window.addEventListener('load', function (event) {
     event.preventDefault();
     fetch(apiUrl + '/currencies').then(function (response) {
@@ -19017,6 +19023,15 @@ if (navigator.serviceWorker) {
 
   fromInput.addEventListener('input', function (event) {
     event.preventDefault();
+
+    var _validate = validate(event.target.value),
+        isValid = _validate.isValid;
+
+    if (!isValid) {
+      alert('Please enter a valid number');
+      fromInput.value = fromInput.value.slice(0, -1);
+      return;
+    }
     var response = handleRequest.fetchConversionRates(fromCurrency[0].id, toCurrency[0].id);
     var key = fromCurrency[0].id + '_' + toCurrency[0].id;
     response.then(function (data) {
@@ -19026,6 +19041,15 @@ if (navigator.serviceWorker) {
 
   toInput.addEventListener('input', function (event) {
     event.preventDefault();
+
+    var _validate2 = validate(event.target.value),
+        isValid = _validate2.isValid;
+
+    if (!isValid) {
+      alert('Please enter a valid number');
+      toInput.value = toInput.value.slice(0, -1);
+      return;
+    }
     var response = handleRequest.fetchConversionRates(fromCurrency[0].id, toCurrency[0].id);
     var key = toCurrency[0].id + '_' + fromCurrency[0].id;
     response.then(function (data) {

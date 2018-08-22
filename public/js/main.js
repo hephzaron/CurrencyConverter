@@ -47,6 +47,12 @@ if (navigator.serviceWorker) {
     return moment().subtract(step, 'days').format('YYYY-MM-DD')
   }
 
+  const validate = (input) => {
+    const re = /^\d*$/g
+    const isValid = re.test(input)
+    return { isValid }
+  }
+
   window.addEventListener('load', (event) => {
     event.preventDefault();
     fetch(`${apiUrl}/currencies`).then((response) => {
@@ -136,6 +142,12 @@ if (navigator.serviceWorker) {
 
   fromInput.addEventListener('input', (event) => {
     event.preventDefault();
+    const { isValid } = validate(event.target.value)
+    if (!isValid) {
+      alert('Please enter a valid number')
+      fromInput.value = fromInput.value.slice(0, -1)
+      return;
+    }
     const response = handleRequest.fetchConversionRates(fromCurrency[0].id, toCurrency[0].id);
     const key = `${fromCurrency[0].id}_${toCurrency[0].id}`;
     response.then((data) => {
@@ -145,6 +157,12 @@ if (navigator.serviceWorker) {
 
   toInput.addEventListener('input', (event) => {
     event.preventDefault();
+    const { isValid } = validate(event.target.value)
+    if (!isValid) {
+      alert('Please enter a valid number');
+      toInput.value = toInput.value.slice(0, -1);
+      return;
+    }
     const response = handleRequest.fetchConversionRates(fromCurrency[0].id, toCurrency[0].id);
     const key = `${toCurrency[0].id}_${fromCurrency[0].id}`;
     response.then((data) => {
