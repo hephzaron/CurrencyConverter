@@ -1,6 +1,6 @@
 # Currency Converter
 
-![Currency Converter Image]('/build/public/imgs/web-page.JPG')
+![Currency Converter Image](build/public/imgs/web-page.JPG)
 
 Currency converter is a mini app that can convert from  one currency to the other and can also display the trend of selected currency over a period of 6days.
 It also made use of service worker api, indexedDb and cache api for offline capabilities
