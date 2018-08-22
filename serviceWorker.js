@@ -19,17 +19,17 @@ const appCahe = `${cacheBasename}-${cacheVersion}`;
 const repo = '/CurrencyConverter';
 
 const pageSkeleton = [
-  `/`,
-  `/build/public/js/main.js`,
-  `/build/public/js/plot.js`,
-  `/build/public/css/bootstrap.min.css`,
-  `/build/public/css/style.css`,
-  `/build/public/imgs/forex-online.jpg`,
-  `/build/public/js/utils/jquery-3.2.1.min.js`,
-  `/build/public/js/utils/bootstrap.min.js`,
-  `/build/public/js/utils/ie-emulation-modes-warning.js`,
-  `/build/public/js/utils/ie10-viewport-bug-workaround.js`,
-  `/index.html`
+  `${repo}/`,
+  `${repo}/build/public/js/main.js`,
+  `${repo}/build/public/js/plot.js`,
+  `${repo}/build/public/css/bootstrap.min.css`,
+  `${repo}/build/public/css/style.css`,
+  `${repo}/build/public/imgs/forex-online.jpg`,
+  `${repo}/build/public/js/utils/jquery-3.2.1.min.js`,
+  `${repo}/build/public/js/utils/bootstrap.min.js`,
+  `${repo}/build/public/js/utils/ie-emulation-modes-warning.js`,
+  `${repo}/build/public/js/utils/ie10-viewport-bug-workaround.js`,
+  `${repo}/index.html`
 ]
 
 self.addEventListener('install', (event) => {

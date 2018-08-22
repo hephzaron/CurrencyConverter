@@ -1,11 +1,12 @@
 import moment from 'moment';
 import HandleRequest from './vendor';
 import { showTrends } from './plot';
+const repo = '/CurrencyConverter'
 
 if (navigator.serviceWorker) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js', {
-        scope: '/'
+    navigator.serviceWorker.register(`${repo}/sw.js`, {
+        scope: `${repo}/`
       })
       .then((registration) => {
         if (!navigator.serviceWorker.controller) {
