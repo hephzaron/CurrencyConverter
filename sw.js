@@ -5007,12 +5007,26 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
+/**
+ * @class HandleRequest
+ * @description Handle third party based api
+ * @returns { null }
+ */
 var HandleRequest = function () {
   function HandleRequest() {
     _classCallCheck(this, HandleRequest);
 
     this.baseUrl = 'https://free.currencyconverterapi.com/api/v5';
   }
+
+  /**
+   * @method fetchCurrencies
+   * @description fetch currency from newtork
+   * @memberof HandleRequest
+   * @param { null }
+   * @returns { promise } response - network response
+   */
+
 
   _createClass(HandleRequest, [{
     key: 'fetchCurrencies',
@@ -5023,6 +5037,18 @@ var HandleRequest = function () {
         return console.log(error);
       });
     }
+
+    /**
+     * @method fetchHistoricalData
+     * @description fetch currency history from newtork
+     * @memberof HandleRequest
+     * @param { string } fromCurrency - initiator
+     * @param { string } toCurrency - receiver
+     * @param { string } startDate
+     * @param { string } endDate
+     * @returns { promise } response - network response
+     */
+
   }, {
     key: 'fetchHistoricalData',
     value: function fetchHistoricalData(fromCurrency, toCurrency, startDate, endDate) {
