@@ -1,5 +1,10 @@
 import Chart from 'chart.js';
 
+/**
+ * Plots currency flunctuations 
+ * @function showTrends
+ * @param { object } historyData 
+ */
 export const showTrends = (historyData) => {
   const ctx = document.getElementById('trendChart');
   const fromTo = document.getElementById('fromTo');
@@ -58,6 +63,11 @@ export const showTrends = (historyData) => {
   });
 }
 
+/**
+ * Calculates upper and lower limit for plot
+ * @function getLimits
+ * @param { array } arr - Array of y-axis values
+ */
 const getLimits = (arr) => {
   const maxVal = arr.reduce((prev, next) => Math.max(prev, next));
   const minVal = arr.reduce((prev, next) => Math.min(prev, next));

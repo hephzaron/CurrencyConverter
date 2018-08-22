@@ -3,6 +3,12 @@ import HandleRequest from './vendor';
 
 const handleRequest = new HandleRequest();
 
+/**
+ * Save currencies to db
+ * @function saveCurrencies
+ * @param { null } 
+ * @returns { promise } idb object
+ */
 export const saveCurrencies = () => {
   const dbPromise = idb.open('currencies-db', 1, (upgradeDb) => {
     if (!upgradeDb.objectStoreNames.contains('currencies')) {
@@ -27,6 +33,12 @@ export const saveCurrencies = () => {
   });
 }
 
+/**
+ * Save currency history to db
+ * @function saveCurrencyHistory
+ * @param { object } data - currency data to be saved
+ * @returns { promise } idb object
+ */
 export const saveCurrencyHistory = (data) => {
   const { fromCurrency, toCurrency, startDate, endDate } = data;
   const dbPromise = idb.open('currency-history-db', 1, (upgradeDb) => {
@@ -50,6 +62,12 @@ export const saveCurrencyHistory = (data) => {
   })
 }
 
+/**
+ * Save currency rates to db
+ * @function saveCurrencyRates
+ * @param { object } options - currency conversion rates to be saved 
+ * @returns { promise } idb object
+ */
 export const saveCurrencyRates = (options) => {
   const { amount, fromCurrency, toCurrency } = options;
   const dbPromise = idb.open('currencies-rates-db', 1, (upgradeDb) => {
@@ -72,6 +90,12 @@ export const saveCurrencyRates = (options) => {
   })
 }
 
+/**
+ * Get currencies from idb object store
+ * @function getCurrencies
+ * @param { null } 
+ * @returns { promise } currencies
+ */
 export const getCurrencies = () => {
   const dbPromise = idb.open('currencies-db', 1);
   return dbPromise.then((db) => {
@@ -81,6 +105,13 @@ export const getCurrencies = () => {
   });
 }
 
+/**
+ * Get currency rate from idb object store
+ * @function getCurrencyRate
+ * @param { string } fromCurrency - initiator
+ * @param { string } toCurrency - receiver
+ * @returns { promise } currencies
+ */
 export const getCurrencyRate = (fromCurrency, toCurrency) => {
   const dbPromise = idb.open('currencies-rates-db', 1);
   return dbPromise.then((db) => {
@@ -94,6 +125,13 @@ export const getCurrencyRate = (fromCurrency, toCurrency) => {
   });
 }
 
+/**
+ * Get currency history from idb object store
+ * @function getCurrencyHistory
+ * @param { string } fromCurrency - initiator
+ * @param { string } toCurrency - receiver
+ * @returns { promise } result
+ */
 export const getCurrencyHistory = (fromCurrency, toCurrency) => {
   const dbPromise = idb.open('currency-history-db', 1);
   return dbPromise.then((db) => {

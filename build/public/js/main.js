@@ -18934,16 +18934,31 @@ if (navigator.serviceWorker) {
   var fromCurrencyValue = void 0;
   var toCurrencyValue = void 0;
   var apiUrl = 'https://free.currencyconverterapi.com/api/v5';
+
+  /**
+   * Calculates number of days backward
+   * @function calcDay
+   * @param { number } step -duration
+   */
   var calcDay = function calcDay(step) {
     return (0, _moment2.default)().subtract(step, 'days').format('YYYY-MM-DD');
   };
 
+  /**
+   * Validates user entries
+   * @function validate
+   * @param { string } input -user input to be converted
+   */
   var validate = function validate(input) {
     var re = /^\d*(\.)?\d*$/g;
     var isValid = re.test(input);
     return { isValid: isValid };
   };
 
+  /**
+   * @method Window load event
+   * @param { object } event - window event
+   */
   window.addEventListener('load', function (event) {
     event.preventDefault();
     fetch(apiUrl + '/currencies').then(function (response) {
@@ -18957,7 +18972,12 @@ if (navigator.serviceWorker) {
     });
   });
 
-  function loadCurrency(currencies) {
+  /**
+   * Loads Currency from network or idb
+   * @function loadCurrency
+   * @param { array } currencies 
+   */
+  var loadCurrency = function loadCurrency(currencies) {
     var arr = currencies.sort(function (prev, next) {
       return prev['currencyName'].localeCompare(next['currencyName']);
     });
@@ -18969,8 +18989,12 @@ if (navigator.serviceWorker) {
     toBtn.innerText = arr[0].currencySymbol;
     fromTo.innerHTML = fromToHtml.join('');
     toFrom.innerHTML = toFromHtml.join('');
-  }
+  };
 
+  /**
+   * @method Window change event
+   * @param { object } event - window event
+   */
   fromTo.addEventListener('change', function (event) {
     event.preventDefault();
     changeFromCurrency(event.target.value);
@@ -18986,7 +19010,12 @@ if (navigator.serviceWorker) {
     });
   });
 
-  function changeFromCurrency(id) {
+  /**
+   * Append relevant currency detail to initiating html element
+   * @function changeFromCurrency
+   * @param { object } event - window event
+   */
+  var changeFromCurrency = function changeFromCurrency(id) {
     fromCurrency = currencies.filter(function (el) {
       return el.id === id;
     });
@@ -18995,7 +19024,7 @@ if (navigator.serviceWorker) {
     fromBtn.innerText = fromCurrencySymbol;
     //rateFrom.innerText = `1 ${fromCurrencyId} = ${toCurrency[0].id}`;
     //rateTo.innerText = `1 ${toCurrency[0].id}  = ${fromCurrencyId}`;
-  }
+  };
 
   toFrom.addEventListener('change', function (event) {
     event.preventDefault();
@@ -19012,7 +19041,12 @@ if (navigator.serviceWorker) {
     });
   });
 
-  function changeToCurrency(id) {
+  /**
+   * Append relevant currency detail to recieving html element
+   * @function changeFromCurrency
+   * @param { object } event - window event
+   */
+  var changeToCurrency = function changeToCurrency(id) {
     toCurrency = currencies.filter(function (el) {
       return el.id === id;
     });
@@ -19021,8 +19055,13 @@ if (navigator.serviceWorker) {
     toBtn.innerText = toCurrencySymbol;
     //rateFrom.innerText = `1 ${fromCurrency[0].id} = ${toCurrencyId}`;
     //rateTo.innerText = `1 ${toCurrencyId}  = ${fromCurrency[0].id}`;
-  }
+  };
 
+  /**
+   * Listens to input from user
+   * @method Window change event
+   * @param { object } event - window event
+   */
   fromInput.addEventListener('input', function (event) {
     event.preventDefault();
 
@@ -19046,6 +19085,11 @@ if (navigator.serviceWorker) {
     });
   });
 
+  /**
+   * Listens to input from user
+   * @method Window change event
+   * @param { object } event - window event
+   */
   toInput.addEventListener('input', function (event) {
     event.preventDefault();
 
@@ -19086,6 +19130,11 @@ var _chart2 = _interopRequireDefault(_chart);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+/**
+ * Plots currency flunctuations 
+ * @function showTrends
+ * @param { object } historyData 
+ */
 var showTrends = exports.showTrends = function showTrends(historyData) {
   var ctx = document.getElementById('trendChart');
   var fromTo = document.getElementById('fromTo');
@@ -19151,6 +19200,11 @@ var showTrends = exports.showTrends = function showTrends(historyData) {
   });
 };
 
+/**
+ * Calculates upper and lower limit for plot
+ * @function getLimits
+ * @param { array } arr - Array of y-axis values
+ */
 var getLimits = function getLimits(arr) {
   var maxVal = arr.reduce(function (prev, next) {
     return Math.max(prev, next);

@@ -43,16 +43,31 @@ if (navigator.serviceWorker) {
   let fromCurrencyValue;
   let toCurrencyValue;
   let apiUrl = 'https://free.currencyconverterapi.com/api/v5'
+
+  /**
+   * Calculates number of days backward
+   * @function calcDay
+   * @param { number } step -duration
+   */
   const calcDay = (step) => {
     return moment().subtract(step, 'days').format('YYYY-MM-DD')
   }
 
+  /**
+   * Validates user entries
+   * @function validate
+   * @param { string } input -user input to be converted
+   */
   const validate = (input) => {
     const re = /^\d*(\.)?\d*$/g
     const isValid = re.test(input)
     return { isValid }
   }
 
+  /**
+   * @method Window load event
+   * @param { object } event - window event
+   */
   window.addEventListener('load', (event) => {
     event.preventDefault();
     fetch(`${apiUrl}/currencies`).then((response) => {
@@ -70,9 +85,14 @@ if (navigator.serviceWorker) {
           });
         });
     });
-  })
+  });
 
-  function loadCurrency(currencies) {
+  /**
+   * Loads Currency from network or idb
+   * @function loadCurrency
+   * @param { array } currencies 
+   */
+  const loadCurrency = (currencies) => {
     const arr = currencies.sort((prev, next) => {
       return prev['currencyName'].localeCompare(next['currencyName']);
     })
@@ -86,6 +106,10 @@ if (navigator.serviceWorker) {
     toFrom.innerHTML = toFromHtml.join('');
   }
 
+  /**
+   * @method Window change event
+   * @param { object } event - window event
+   */
   fromTo.addEventListener('change', (event) => {
     event.preventDefault();
     changeFromCurrency(event.target.value);
@@ -105,7 +129,12 @@ if (navigator.serviceWorker) {
       })
   });
 
-  function changeFromCurrency(id) {
+  /**
+   * Append relevant currency detail to initiating html element
+   * @function changeFromCurrency
+   * @param { object } event - window event
+   */
+  const changeFromCurrency = (id) => {
     fromCurrency = currencies.filter(el => el.id === id);
     const fromCurrencySymbol = fromCurrency[0].currencySymbol ? fromCurrency[0].currencySymbol : fromCurrency[0].id
     const fromCurrencyId = fromCurrency[0].id;
@@ -133,7 +162,12 @@ if (navigator.serviceWorker) {
       })
   });
 
-  function changeToCurrency(id) {
+  /**
+   * Append relevant currency detail to recieving html element
+   * @function changeFromCurrency
+   * @param { object } event - window event
+   */
+  const changeToCurrency = (id) => {
     toCurrency = currencies.filter(el => el.id === id);
     const toCurrencySymbol = toCurrency[0].currencySymbol ? toCurrency[0].currencySymbol : toCurrency[0].id
     const toCurrencyId = toCurrency[0].id;
@@ -142,6 +176,11 @@ if (navigator.serviceWorker) {
     //rateTo.innerText = `1 ${toCurrencyId}  = ${fromCurrency[0].id}`;
   }
 
+  /**
+   * Listens to input from user
+   * @method Window change event
+   * @param { object } event - window event
+   */
   fromInput.addEventListener('input', (event) => {
     event.preventDefault();
     const { isValid } = validate(event.target.value)
@@ -162,6 +201,11 @@ if (navigator.serviceWorker) {
     });
   });
 
+  /**
+   * Listens to input from user
+   * @method Window change event
+   * @param { object } event - window event
+   */
   toInput.addEventListener('input', (event) => {
     event.preventDefault();
     const { isValid } = validate(event.target.value)

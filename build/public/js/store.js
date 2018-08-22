@@ -338,6 +338,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var handleRequest = new _vendor2.default();
 
+/**
+ * Save currencies to db
+ * @function saveCurrencies
+ * @param { null } 
+ * @returns { promise } idb object
+ */
 var saveCurrencies = exports.saveCurrencies = function saveCurrencies() {
   var dbPromise = _idb2.default.open('currencies-db', 1, function (upgradeDb) {
     if (!upgradeDb.objectStoreNames.contains('currencies')) {
@@ -362,6 +368,12 @@ var saveCurrencies = exports.saveCurrencies = function saveCurrencies() {
   });
 };
 
+/**
+ * Save currency history to db
+ * @function saveCurrencyHistory
+ * @param { object } data - currency data to be saved
+ * @returns { promise } idb object
+ */
 var saveCurrencyHistory = exports.saveCurrencyHistory = function saveCurrencyHistory(data) {
   var fromCurrency = data.fromCurrency,
       toCurrency = data.toCurrency,
@@ -388,6 +400,12 @@ var saveCurrencyHistory = exports.saveCurrencyHistory = function saveCurrencyHis
   });
 };
 
+/**
+ * Save currency rates to db
+ * @function saveCurrencyRates
+ * @param { object } options - currency conversion rates to be saved 
+ * @returns { promise } idb object
+ */
 var saveCurrencyRates = exports.saveCurrencyRates = function saveCurrencyRates(options) {
   var amount = options.amount,
       fromCurrency = options.fromCurrency,
@@ -413,6 +431,12 @@ var saveCurrencyRates = exports.saveCurrencyRates = function saveCurrencyRates(o
   });
 };
 
+/**
+ * Get currencies from idb object store
+ * @function getCurrencies
+ * @param { null } 
+ * @returns { promise } currencies
+ */
 var getCurrencies = exports.getCurrencies = function getCurrencies() {
   var dbPromise = _idb2.default.open('currencies-db', 1);
   return dbPromise.then(function (db) {
@@ -422,6 +446,13 @@ var getCurrencies = exports.getCurrencies = function getCurrencies() {
   });
 };
 
+/**
+ * Get currency rate from idb object store
+ * @function getCurrencyRate
+ * @param { string } fromCurrency - initiator
+ * @param { string } toCurrency - receiver
+ * @returns { promise } currencies
+ */
 var getCurrencyRate = exports.getCurrencyRate = function getCurrencyRate(fromCurrency, toCurrency) {
   var dbPromise = _idb2.default.open('currencies-rates-db', 1);
   return dbPromise.then(function (db) {
@@ -435,6 +466,13 @@ var getCurrencyRate = exports.getCurrencyRate = function getCurrencyRate(fromCur
   });
 };
 
+/**
+ * Get currency history from idb object store
+ * @function getCurrencyHistory
+ * @param { string } fromCurrency - initiator
+ * @param { string } toCurrency - receiver
+ * @returns { promise } result
+ */
 var getCurrencyHistory = exports.getCurrencyHistory = function getCurrencyHistory(fromCurrency, toCurrency) {
   var dbPromise = _idb2.default.open('currency-history-db', 1);
   return dbPromise.then(function (db) {

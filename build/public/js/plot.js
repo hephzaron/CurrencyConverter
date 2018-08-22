@@ -18893,6 +18893,11 @@ var _chart2 = _interopRequireDefault(_chart);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+/**
+ * Plots currency flunctuations 
+ * @function showTrends
+ * @param { object } historyData 
+ */
 var showTrends = exports.showTrends = function showTrends(historyData) {
   var ctx = document.getElementById('trendChart');
   var fromTo = document.getElementById('fromTo');
@@ -18958,6 +18963,11 @@ var showTrends = exports.showTrends = function showTrends(historyData) {
   });
 };
 
+/**
+ * Calculates upper and lower limit for plot
+ * @function getLimits
+ * @param { array } arr - Array of y-axis values
+ */
 var getLimits = function getLimits(arr) {
   var maxVal = arr.reduce(function (prev, next) {
     return Math.max(prev, next);

@@ -102,7 +102,7 @@ self.addEventListener('fetch', (event) => {
 });
 
 
-function serveCurrencies(request) {
+const serveCurrencies = (request) => {
   const networkFetch = fetch(request)
     .then(async(networkResponse) => {
       const dbPromise = idb.open('currencies-db', 1);
@@ -132,7 +132,7 @@ function serveCurrencies(request) {
   return networkFetch;
 };
 
-function plotCurrencyHistory(request) {
+const plotCurrencyHistory = (request) => {
   const url = new URL(request.url);
   const params = url.searchParams.get('q').split(',');
   const convParams = params[0].split('_');
@@ -170,7 +170,7 @@ function plotCurrencyHistory(request) {
   return networkFetch;
 }
 
-function convertCurrency(request) {
+const convertCurrency = (request) => {
   const url = new URL(request.url);
   const params = url.searchParams.get('q').split(',');
   const convParams = params[0].split('_');
