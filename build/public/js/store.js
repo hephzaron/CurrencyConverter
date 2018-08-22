@@ -423,8 +423,6 @@ var getCurrencies = exports.getCurrencies = function getCurrencies() {
 };
 
 var getCurrencyRate = exports.getCurrencyRate = function getCurrencyRate(fromCurrency, toCurrency) {
-  console.log('fromCurrency', fromCurrency);
-  console.log('toCurrency', toCurrency);
   var dbPromise = _idb2.default.open('currencies-rates-db', 1);
   return dbPromise.then(function (db) {
     var tx = db.transaction('currency-rates');

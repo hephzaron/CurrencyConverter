@@ -4931,8 +4931,6 @@ var getCurrencies = exports.getCurrencies = function getCurrencies() {
 };
 
 var getCurrencyRate = exports.getCurrencyRate = function getCurrencyRate(fromCurrency, toCurrency) {
-  console.log('fromCurrency', fromCurrency);
-  console.log('toCurrency', toCurrency);
   var dbPromise = _idb2.default.open('currencies-rates-db', 1);
   return dbPromise.then(function (db) {
     var tx = db.transaction('currency-rates');
@@ -5022,7 +5020,7 @@ var _store = require('./public/js/store');
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var cacheBasename = 'convert-currency';
-var cacheVersion = 'v1';
+var cacheVersion = 'v2';
 var appCahe = cacheBasename + '-' + cacheVersion;
 
 var repo = '/CurrencyConverter';
@@ -5080,7 +5078,7 @@ self.addEventListener('fetch', function (event) {
       event.respondWith(serveCurrencies(event.request));
       return;
     }
-    if (url.pathname.endsWith('convert')) {
+    if (url.pathname.endsWith('convert') && !url.searchParams.get('date')) {
       event.respondWith(convertCurrency(event.request));
       return;
     }
@@ -5123,8 +5121,8 @@ function serveCurrencies(request) {
 
 function plotCurrencyHistory(request) {
   var url = new URL(request.url);
-  var params = url.searchParams.get('q');
-  var convParams = params.split(',')[0].split('_');
+  var params = url.searchParams.get('q').split(',');
+  var convParams = params[0].split('_');
   var startDate = url.searchParams.get('date');
   var endDate = url.searchParams.get('endDate');
   var fromCurrency = convParams[0];
@@ -5180,7 +5178,6 @@ function convertCurrency(request) {
   }).catch(function () {
     var dbFetch = (0, _store.getCurrencyRate)(fromCurrency, toCurrency);
     return dbFetch.then(function (dbResponse) {
-      console.log('dbResponse', dbResponse);
       var response = new Response(JSON.stringify({ dbResponse: dbResponse }), {
         headers: { 'Content-Type': 'application/json' }
       });

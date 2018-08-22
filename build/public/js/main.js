@@ -19039,9 +19039,7 @@ if (navigator.serviceWorker) {
     var key = fromCurrency[0].id + '_' + toCurrency[0].id;
     var fetchRate = fetch(url);
     fetchRate.then(function (response) {
-      console.log('response', response);
       response.json().then(function (data) {
-        console.log('data', data);
         var rate = Object.keys(data)[0] === key ? data[key] : Object.values(data)[0];
         toInput.value = (event.target.value * parseFloat(rate)).toFixed(2);
       });

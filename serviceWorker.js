@@ -13,7 +13,7 @@ import {
 } from './public/js/store';
 
 const cacheBasename = 'convert-currency';
-const cacheVersion = 'v1';
+const cacheVersion = 'v2';
 const appCahe = `${cacheBasename}-${cacheVersion}`;
 
 const repo = '/CurrencyConverter';
@@ -86,7 +86,7 @@ self.addEventListener('fetch', (event) => {
       event.respondWith(serveCurrencies(event.request))
       return;
     }
-    if (url.pathname.endsWith('convert')) {
+    if (url.pathname.endsWith('convert') && !url.searchParams.get('date')) {
       event.respondWith(convertCurrency(event.request))
       return;
     }
@@ -134,8 +134,8 @@ function serveCurrencies(request) {
 
 function plotCurrencyHistory(request) {
   const url = new URL(request.url);
-  const params = url.searchParams.get('q');
-  const convParams = params.split(',')[0].split('_');
+  const params = url.searchParams.get('q').split(',');
+  const convParams = params[0].split('_');
   const startDate = url.searchParams.get('date');
   const endDate = url.searchParams.get('endDate');
   const fromCurrency = convParams[0];
@@ -197,7 +197,6 @@ function convertCurrency(request) {
       const dbFetch = getCurrencyRate(fromCurrency, toCurrency);
       return dbFetch
         .then((dbResponse) => {
-          console.log('dbResponse', dbResponse);
           const response = new Response(JSON.stringify({ dbResponse }), {
             headers: { 'Content-Type': 'application/json' }
           });

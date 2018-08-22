@@ -82,8 +82,6 @@ export const getCurrencies = () => {
 }
 
 export const getCurrencyRate = (fromCurrency, toCurrency) => {
-  console.log('fromCurrency', fromCurrency);
-  console.log('toCurrency', toCurrency);
   const dbPromise = idb.open('currencies-rates-db', 1);
   return dbPromise.then((db) => {
     const tx = db.transaction('currency-rates');
