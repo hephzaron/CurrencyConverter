@@ -19103,7 +19103,7 @@ if (navigator.serviceWorker) {
       toInput.value = toInput.value.slice(0, -1);
       return;
     }
-    var query = fromCurrency[0].id + '_' + toCurrency[0].id + ',' + toCurrency[0].id + '_' + fromCurrency[0].id;
+    var query = toCurrency[0].id + '_' + fromCurrency[0].id + ',' + fromCurrency[0].id + '_' + toCurrency[0].id;
     var url = apiUrl + '/convert?q=' + query + '&compact=ultra';
     var key = toCurrency[0].id + '_' + fromCurrency[0].id;
     var fetchRate = fetch(url);
