@@ -197,7 +197,7 @@ if (navigator.serviceWorker) {
     fetchRate.then((response) => {
       response.json().then((data) => {
         const rate = Object.keys(data)[0] === key ? data[key] : Object.values(data)[0]
-        toInput.value = ((event.target.value) * parseFloat(rate)).toFixed(2);
+        toInput.value = ((event.target.value) * parseFloat(rate)).toFixed(3);
       });
     });
   });
@@ -222,7 +222,7 @@ if (navigator.serviceWorker) {
     fetchRate.then((response) => {
       response.json().then((data) => {
         const rate = Object.keys(data)[0] === key ? data[key] : Object.values(data)[0];
-        fromInput.value = ((event.target.value) * parseFloat(rate)).toFixed(2);
+        fromInput.value = ((event.target.value) * parseFloat(rate)).toFixed(3);
       });
     });
   });
