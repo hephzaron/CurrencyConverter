@@ -10,7 +10,7 @@ import {
   getCountries,
   getCurrencies,
   getCurrencyRate
-} from './public/js/store';
+} from './build/public/js/store';
 
 const cacheBasename = 'convert-currency';
 const cacheVersion = 'v2';

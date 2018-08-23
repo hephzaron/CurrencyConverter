@@ -18894,10 +18894,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
+var repo = '/CurrencyConverter';
+
 if (navigator.serviceWorker) {
   window.addEventListener('load', function () {
-    navigator.serviceWorker.register('/sw.js', {
-      scope: '/'
+    navigator.serviceWorker.register(repo + '/sw.js', {
+      scope: repo + '/'
     }).then(function (registration) {
       if (!navigator.serviceWorker.controller) {
         return;
