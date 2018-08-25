@@ -48,12 +48,19 @@ git checkout gh-pages(if branch is not currently on master)
 ```
 
 > To restore folder to initial state without adapting it to gh-pages use:
+
 ```
 npm run reverse
 ```
+
 > To adapt folder structure and transpiled js-files with gh-pages from original folder structure:
+
 ```
 npm run deploy-ghpage
+```
+> To edit original files and watch for changes while transpiling , ensure you working with the original folder structure then run:
+```
+npm run build
 ```
 ## Service Worker
 
