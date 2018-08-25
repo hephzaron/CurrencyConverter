@@ -21,7 +21,8 @@ gulp.task('copy', function() {
   return mergeStream(
     gulp.src('public/css/**/*').pipe(gulp.dest('build/public/css/')),
     gulp.src('public/imgs/**/*').pipe(gulp.dest('build/public/imgs/')),
-    gulp.src('public/js/utils/*').pipe(gulp.dest('build/public/js/utils/'))
+    gulp.src('public/js/utils/*').pipe(gulp.dest('build/public/js/utils/')),
+    gulp.src('index.html').pipe(gulp.dest('build/'))
   );
 });
 
@@ -55,7 +56,7 @@ function bundle(b, outputPath) {
     .on('error', plugins.util.log.bind(plugins.util, 'Browserify Error'))
     .pipe(source(outputFile))
     .pipe(buffer())
-    //.pipe(minifyjs())
+    .pipe(minifyjs())
     .pipe(plugins.sourcemaps.init({ loadMaps: true }))
     .pipe(plugins.sourcemaps.write('./'))
     .pipe(gulp.dest(outputDir));
@@ -66,7 +67,7 @@ var jsBundles = {
   'build/public/js/vendor.js': createBundle('./public/js/vendor.js'),
   'build/public/js/store.js': createBundle('./public/js/store.js'),
   'build/public/js/plot.js': createBundle('./public/js/plot.js'),
-  'sw.js': createBundle('serviceWorker.js')
+  'build/sw.js': createBundle('serviceWorker.js')
 }
 
 
@@ -80,7 +81,7 @@ gulp.task('js:browser', function() {
 
 gulp.task('watch', function() {
   gulp.watch(['*.js'], ['js:browser']);
-  gulp.watch(['public/imgs/**/*', 'public/css/**/*', 'public/js/utils/*'], ['copy']);
+  gulp.watch(['public/imgs/**/*', 'public/css/**/*', 'public/js/utils/*', 'index.html'], ['copy']);
 
   Object.keys(jsBundles).forEach(function(key) {
     var b = jsBundles[key];

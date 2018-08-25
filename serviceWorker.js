@@ -10,7 +10,7 @@ import {
   getCountries,
   getCurrencies,
   getCurrencyRate
-} from './build/public/js/store';
+} from './public/js/store';
 
 const cacheBasename = 'convert-currency';
 const cacheVersion = 'v2';
@@ -101,7 +101,12 @@ self.addEventListener('fetch', (event) => {
   )
 });
 
-
+/**
+ * Intercepts and responds to currencies fetch request
+ * @function serveCurrencies
+ * @param { object } request
+ * @returns { object } response 
+ */
 const serveCurrencies = (request) => {
   const networkFetch = fetch(request)
     .then(async(networkResponse) => {
@@ -132,6 +137,12 @@ const serveCurrencies = (request) => {
   return networkFetch;
 };
 
+/**
+ * Intercepts and responds to currency history fetch request
+ * @function plotCurrencyHistory
+ * @param { object } request
+ * @returns { object } response 
+ */
 const plotCurrencyHistory = (request) => {
   const url = new URL(request.url);
   const params = url.searchParams.get('q').split(',');
@@ -170,6 +181,12 @@ const plotCurrencyHistory = (request) => {
   return networkFetch;
 }
 
+/**
+ * Intercepts and responds to currency conversion fetch request
+ * @function convertCurrency
+ * @param { object } request
+ * @returns { object } response 
+ */
 const convertCurrency = (request) => {
   const url = new URL(request.url);
   const params = url.searchParams.get('q').split(',');
