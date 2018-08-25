@@ -1,3 +1,75 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('(2(){2 r(e,n,t){2 o(i,f){5(!n[i]){5(!e[i]){4 c="2"==10 d&&d;5(!f&&c)3 c(i,!0);5(u)3 u(i,!0);4 a=I 1g("H 1r Y \'"+i+"\'");J a.1q="1p",a}4 p=n[i]={7:{}};e[i][0].C(p.7,2(r){4 n=e[i][1][r];3 o(n||r)},p,p.7,r,e,n,t)}3 n[i].7}X(4 u="2"==10 d&&d,i=0;i<t.W;i++)o(t[i]);3 o}3 r})()({1:[2(d,Y,7){\'1l 1k\';S.R(7,"1j",{j:y});4 E=2(){2 v(Q,z){X(4 i=0;i<z.W;i++){4 6=z[i];6.U=6.U||1e;6.1d=y;5("j"1c 6)6.1b=y;S.R(Q,6.x,6)}}3 2(9,w,s){5(w)v(9.15,w);5(s)v(9,s);3 9}}();2 F(L,9){5(!(L 1o 9)){J I 1h("H C a 1a 19 a 2")}}4 8=2(){2 8(){F(g,8);g.m=\'1s://16.14.13/12/11\'}E(8,[{x:\'D\',j:2 D(){3 B(g.m+\'/1i\').P(2(b){3 b}).M(2(h){3 O.N(h)})}},{x:\'Z\',j:2 Z(l,A,G,k){4 K=l+\'T\'+A+\',\'+A+\'T\'+l;4 V=g.m+\'/1m?q=\'+K+\'&1f=18&1n=\'+G+\'&k=\'+k;3 B(V).P(2(b){5(!b)3;3 b}).M(2(h){3 O.N(h)})}}]);3 8}();7.17=8},{}]},{},[1])',62,91,'||function|return|var|if|descriptor|exports|HandleRequest|Constructor||response||require|||this|error||value|endDate|fromCurrency|baseUrl||||||staticProps|||defineProperties|protoProps|key|true|props|toCurrency|fetch|call|fetchCurrencies|_createClass|_classCallCheck|startDate|Cannot|new|throw|query|instance|catch|log|console|then|target|defineProperty|Object|_|enumerable|url|length|for|module|fetchHistoricalData|typeof|v5|api|com|currencyconverterapi|prototype|free|default|ultra|as|class|writable|in|configurable|false|compact|Error|TypeError|currencies|__esModule|strict|use|convert|date|instanceof|MODULE_NOT_FOUND|code|find|https'.split('|'),0,{}))
+(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+/**
+ * @class HandleRequest
+ * @description Handle third party based api
+ * @returns { null }
+ */
+var HandleRequest = function () {
+  function HandleRequest() {
+    _classCallCheck(this, HandleRequest);
+
+    this.baseUrl = 'https://free.currencyconverterapi.com/api/v5';
+  }
+
+  /**
+   * @method fetchCurrencies
+   * @description fetch currency from newtork
+   * @memberof HandleRequest
+   * @param { null }
+   * @returns { promise } response - network response
+   */
+
+
+  _createClass(HandleRequest, [{
+    key: 'fetchCurrencies',
+    value: function fetchCurrencies() {
+      return fetch(this.baseUrl + '/currencies').then(function (response) {
+        return response;
+      }).catch(function (error) {
+        return console.log(error);
+      });
+    }
+
+    /**
+     * @method fetchHistoricalData
+     * @description fetch currency history from newtork
+     * @memberof HandleRequest
+     * @param { string } fromCurrency - initiator
+     * @param { string } toCurrency - receiver
+     * @param { string } startDate
+     * @param { string } endDate
+     * @returns { promise } response - network response
+     */
+
+  }, {
+    key: 'fetchHistoricalData',
+    value: function fetchHistoricalData(fromCurrency, toCurrency, startDate, endDate) {
+      var query = fromCurrency + '_' + toCurrency + ',' + toCurrency + '_' + fromCurrency;
+      var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra&date=' + startDate + '&endDate=' + endDate;
+      return fetch(url).then(function (response) {
+        if (!response) return;
+        return response;
+      }).catch(function (error) {
+        return console.log(error);
+      });
+    }
+  }]);
+
+  return HandleRequest;
+}();
+
+exports.default = HandleRequest;
+
+},{}]},{},[1])
 
 //# sourceMappingURL=vendor.js.map

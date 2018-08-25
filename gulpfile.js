@@ -57,7 +57,7 @@ function bundle(b, outputPath) {
     .on('error', plugins.util.log.bind(plugins.util, 'Browserify Error'))
     .pipe(source(outputFile))
     .pipe(buffer())
-    .pipe(minifyjs())
+    //.pipe(minifyjs())
     .pipe(plugins.sourcemaps.init({ loadMaps: true }))
     .pipe(plugins.sourcemaps.write('./'))
     .pipe(gulp.dest(outputDir));
@@ -98,7 +98,7 @@ gulp.task('build', function(callback) {
 
 /**Copy built file to root directory */
 gulp.task('post-clean', function() {
-  del(['public', './sw.js'])
+  del(['public', './sw.js', './sw.js.map'])
 });
 
 gulp.task('rename', function(done) {

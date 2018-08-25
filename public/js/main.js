@@ -1,3 +1,19302 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('(C(){C r(e,n,t){C o(i,f){if(!n[i]){if(!e[i]){B c="C"==2y 1j&&1j;if(!f&&c)F c(i,!0);if(u)F u(i,!0);B a=2A kW("KV Lw 1E \'"+i+"\'");fs a.RH="M4",a}B p=n[i]={1A:{}};e[i][0].2n(p.1A,C(r){B n=e[i][1][r];F o(n||r)},p,p.1A,r,e,n,t)}F n[i].1A}1s(B u="C"==2y 1j&&1j,i=0;i<t.1f;i++)o(t[i]);F o}F r})()({1:[C(1j,1E,1A){B 1n=1j(\'./1m/1m\')();1n.J=1j(\'./J/K\');1j(\'./1m/1m.J\')(1n);1n.1B=1j(\'./1m/1m.1B\');1n.5z=1j(\'./1m/1m.2f\');1n.1V=1j(\'./1V/K\');1n.fi=1j(\'./1m/1m.mN\');1n.4V=1j(\'./1m/1m.4V\');1n.6l=1j(\'./on/6l\');1n.2W=1j(\'./1m/1m.2W\');1n.cc=1j(\'./1m/1m.1w\');1j(\'./1m/1m.3P\')(1n);1j(\'./1m/1m.4r\')(1n);1j(\'./1m/1m.KN\')(1n);1j(\'./1m/1m.9L\')(1n);1j(\'./1m/1m.1r\')(1n);1j(\'./1m/1m.4S\')(1n);1j(\'./3F/1r.KI\')(1n);1j(\'./3F/1r.d2\')(1n);1j(\'./3F/1r.6D\')(1n);1j(\'./3F/1r.kw\')(1n);1j(\'./3F/1r.g7\')(1n);1j(\'./3F/1r.2I\')(1n);1j(\'./4Z/4r.8C\')(1n);1j(\'./4Z/4r.fo\')(1n);1j(\'./4Z/4r.gm\')(1n);1j(\'./4Z/4r.3u\')(1n);1j(\'./4Z/4r.l9\')(1n);1j(\'./4Z/4r.jK\')(1n);1j(\'./4Z/4r.ls\')(1n);1j(\'./8s/1n.yz\')(1n);1j(\'./8s/1n.yx\')(1n);1j(\'./8s/1n.ym\')(1n);1j(\'./8s/1n.ei\')(1n);1j(\'./8s/1n.yl\')(1n);1j(\'./8s/1n.yj\')(1n);1j(\'./8s/1n.yi\')(1n);B 2W=1j(\'./2W\');1s(B k in 2W){if(2W.9x(k)){1n.2W.xx(2W[k])}}1n.6l.6I();1E.1A=1n;if(2y 6m!==\'1C\'){6m.1n=1n}1n.ob=2W.4G.oZ;1n.p5=2W.3L.oZ;1n.Lt=1n.2W;1n.NX=1n.5z.3f({});1n.Ry=1n.J.1W;1n.Lk=1n.4V},{"./8s/1n.yz":2,"./8s/1n.yx":3,"./8s/1n.ym":4,"./8s/1n.ei":5,"./8s/1n.yl":6,"./8s/1n.yj":7,"./8s/1n.yi":8,"./4Z/4r.8C":9,"./4Z/4r.fo":10,"./4Z/4r.gm":11,"./4Z/4r.3u":12,"./4Z/4r.l9":13,"./4Z/4r.jK":14,"./4Z/4r.ls":15,"./1m/1m":23,"./1m/1m.3P":16,"./1m/1m.4r":17,"./1m/1m.KN":18,"./1m/1m.1B":19,"./1m/1m.2f":20,"./1m/1m.J":21,"./1m/1m.mN":22,"./1m/1m.4V":24,"./1m/1m.2W":25,"./1m/1m.1r":26,"./1m/1m.9L":27,"./1m/1m.1w":28,"./1m/1m.4S":29,"./1V/K":34,"./J/K":39,"./on/6l":42,"./2W":43,"./3F/1r.d2":47,"./3F/1r.6D":48,"./3F/1r.KI":49,"./3F/1r.kw":50,"./3F/1r.g7":51,"./3F/1r.2I":52}],2:[C(1j,1E,1A){\'2H 2q\';1E.1A=C(1n){1n.yz=C(2u,V){V.1G=\'8C\';F 2A 1n(2u,V)}}},{}],3:[C(1j,1E,1A){\'2H 2q\';1E.1A=C(1n){1n.yx=C(2u,V){V.1G=\'fo\';F 2A 1n(2u,V)}}},{}],4:[C(1j,1E,1A){\'2H 2q\';1E.1A=C(1n){1n.ym=C(2u,V){V.1G=\'gm\';F 2A 1n(2u,V)}}},{}],5:[C(1j,1E,1A){\'2H 2q\';1E.1A=C(1n){1n.ei=C(2u,V){V.1G=\'3u\';F 2A 1n(2u,V)}}},{}],6:[C(1j,1E,1A){\'2H 2q\';1E.1A=C(1n){1n.yl=C(2u,V){V.1G=\'l9\';F 2A 1n(2u,V)}}},{}],7:[C(1j,1E,1A){\'2H 2q\';1E.1A=C(1n){1n.yj=C(2u,V){V.1G=\'jK\';F 2A 1n(2u,V)}}},{}],8:[C(1j,1E,1A){\'2H 2q\';1E.1A=C(1n){1n.yi=C(2u,V){V.1G=\'ls\';F 2A 1n(2u,V)}}},{}],9:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'../1m/1m.1B\');B 1V=1j(\'../1V/K\');B J=1j(\'../J/K\');1B.5K(\'8C\',{bd:{7o:\'2x\'},3F:{aN:[{1G:\'d2\',ov:0.8,pe:0.9,2S:1z,4B:{d3:1z}}],bg:[{1G:\'6D\'}]}});1B.5K(\'HT\',{bd:{7o:\'K\',5A:\'y\'},3F:{aN:[{1G:\'6D\',1Z:\'1R\'}],bg:[{1Z:\'1D\',1G:\'d2\',ov:0.8,pe:0.9,2S:1z,4B:{d3:1z}}]},1V:{4U:{7B:\'1D\'}},dg:{5r:{3L:C(2m,1b){B 3L=\'\';if(2m.1f>0){if(2m[0].eN){3L=2m[0].eN}1a if(1b.1T.1f>0&&2m[0].K<1b.1T.1f){3L=1b.1T[2m[0].K]}}F 3L},2x:C(2m,1b){B jU=1b.1X[2m.1U].2x||\'\';F jU+\': \'+2m.du}},7o:\'K\',5A:\'y\'}});C IH(1r,7D){B 1h=1r.2w()?1r.1q:1r.1u;B 1w=1r.ka();B 5x,5X,i,1H;1s(i=1,1H=7D.1f;i<1H;++i){1h=N.1h(1h,7D[i]-7D[i-1])}1s(i=0,1H=1w.1f;i<1H;++i){5X=1r.8O(i);1h=i>0?N.1h(1h,5X-5x):1h;5x=5X}F 1h}C I0(K,8g,U){B yh=U.xo;B 4h=8g.kV;B 5X=8g.7D[K];B 1S,3X;if(J.bp(yh)){1S=8g.1h*U.ov;3X=U.pe}1a{1S=yh*4h;3X=1}F{fL:1S/4h,3X:3X,2r:5X-(1S/2)}}C I1(K,8g,U){B 7D=8g.7D;B 5X=7D[K];B 5x=K>0?7D[K-1]:1l;B 3K=K<7D.1f-1?7D[K+1]:1l;B yc=U.ov;B 2r,1S;if(5x===1l){5x=5X-(3K===1l?8g.3E-5X:3K-5X)}if(3K===1l){3K=5X+5X-5x}2r=5X-((5X-5x)/2)*yc;1S=((3K-5x)/2)*yc;F{fL:1S/8g.kV,3X:U.pe,2r:2r}}1E.1A=C(1n){1n.4Z.8C=1n.a5.3f({e7:1V.CJ,6I:C(){B me=I;B 1o;1n.a5.2L.6I.4m(me,3d);1o=me.3W();1o.6y=me.5U().6y;1o.8C=1z},4J:C(3J){B me=I;B g9=me.3W().1b;B i,1H;me.Jm=me.xD();1s(i=0,1H=g9.1f;i<1H;++i){me.94(g9[i],i,3J)}},94:C(4U,K,3J){B me=I;B O=me.O;B 1o=me.3W();B 1k=me.5U();B 1p=4U.1p||{};B kM=O.U.1V.4U;4U.nF=me.aJ(1o.9O);4U.nH=me.aJ(1o.86);4U.5H=me.K;4U.7d=K;4U.2N={jU:1k.2x,2x:O.1b.1T[K],7B:1p.7B?1p.7B:kM.7B,1Y:1p.1Y?1p.1Y:J.2O(1k.1Y,K,kM.1Y),2e:1p.2e?1p.2e:J.2O(1k.2e,K,kM.2e),1K:1p.1K?1p.1K:J.2O(1k.1K,K,kM.1K)};me.JY(4U,K,3J);4U.b8()},JY:C(4U,K,3J){B me=I;B 1i=4U.2N;B xO=me.pI();B 3Q=xO.fC();B 8Q=xO.2w();B 8g=me.Jm||me.xD();B qF=me.Ii(me.K,K);B k2=me.Ig(me.K,K,8g);1i.8Q=8Q;1i.3Q=3J?3Q:qF.3Q;1i.x=8Q?3J?3Q:qF.bD:k2.4P;1i.y=8Q?k2.4P:3J?3Q:qF.bD;1i.1u=8Q?k2.1S:1C;1i.1q=8Q?1C:k2.1S},mk:C(){F I.3W().86},x0:C(){F I.3W().9O},pI:C(){F I.aJ(I.mk())},xz:C(){F I.aJ(I.x0())},xE:C(az){B me=I;B O=me.O;B 1r=me.xz();B 7P=1r.U.7P;B 1H=az===1C?O.1b.1X.1f:az+1;B dq=[];B i,1o;1s(i=0;i<1H;++i){1o=O.4z(i);if(1o.8C&&O.6c(i)&&(7P===1x||(7P===1z&&dq.3b(1o.6y)===-1)||(7P===1C&&(1o.6y===1C||dq.3b(1o.6y)===-1)))){dq.1P(1o.6y)}}F dq},IM:C(){F I.xE().1f},HZ:C(1U,3k){B dq=I.xE(1U);B K=(3k!==1C)?dq.3b(3k):-1;F(K===-1)?dq.1f-1:K},xD:C(){B me=I;B 1r=me.xz();B kV=me.IM();B 1U=me.K;B 2w=1r.2w();B 2r=2w?1r.1D:1r.1I;B 3E=2r+(2w?1r.1q:1r.1u);B 7D=[];B i,1H,1h;1s(i=0,1H=me.3W().1b.1f;i<1H;++i){7D.1P(1r.78(1l,i,1U))}1h=J.bp(1r.U.xo)?IH(1r,7D):-1;F{1h:1h,7D:7D,2r:2r,3E:3E,kV:kV,1r:1r}},Ii:C(1U,K){B me=I;B O=me.O;B 1o=me.3W();B 1r=me.pI();B 1X=O.1b.1X;B 1c=1r.5j(1X[1U].1b[K]);B 7P=1r.U.7P;B 6y=1o.6y;B 2r=0;B i,lg,lD,3Q,bD,1S;if(7P||(7P===1C&&6y!==1C)){1s(i=0;i<1U;++i){lg=O.4z(i);if(lg.8C&&lg.6y===6y&&lg.4r.mk()===1r.id&&O.6c(i)){lD=1r.5j(1X[i].1b[K]);if((1c<0&&lD<0)||(1c>=0&&lD>0)){2r+=lD}}}}3Q=1r.78(2r);bD=1r.78(2r+1c);1S=(bD-3Q)/2;F{1S:1S,3Q:3Q,bD:bD,4P:bD+1S/2}},Ig:C(1U,K,8g){B me=I;B U=8g.1r.U;B 5O=U.xo===\'N5\'?I1(K,8g,U):I0(K,8g,U);B HY=me.HZ(1U,me.3W().6y);B 4P=5O.2r+(5O.fL*HY)+(5O.fL/2);B 1S=N.1h(J.1N(U.Lm,Lo),5O.fL*5O.3X);F{3Q:4P-1S/2,bD:4P+1S/2,4P:4P,1S:1S}},5C:C(){B me=I;B O=me.O;B 1r=me.pI();B g9=me.3W().1b;B 1k=me.5U();B 1H=g9.1f;B i=0;J.1W.qI(O.R,O.2E);1s(;i<1H;++i){if(!3p(1r.5j(1k.1b[i]))){g9[i].5C()}}J.1W.qN(O.R)},ij:C(4U){B 1k=I.O.1b.1X[4U.5H];B K=4U.7d;B 1p=4U.1p||{};B 1i=4U.2N;1i.1Y=1p.aD?1p.aD:J.2O(1k.aD,K,J.8I(1i.1Y));1i.2e=1p.aI?1p.aI:J.2O(1k.aI,K,J.8I(1i.2e));1i.1K=1p.8Y?1p.8Y:J.2O(1k.8Y,K,1i.1K)},9N:C(4U){B 1k=I.O.1b.1X[4U.5H];B K=4U.7d;B 1p=4U.1p||{};B 1i=4U.2N;B pT=I.O.U.1V.4U;1i.1Y=1p.1Y?1p.1Y:J.2O(1k.1Y,K,pT.1Y);1i.2e=1p.2e?1p.2e:J.2O(1k.2e,K,pT.2e);1i.1K=1p.1K?1p.1K:J.2O(1k.1K,K,pT.1K)}});1n.4Z.HT=1n.4Z.8C.3f({mk:C(){F I.3W().9O},x0:C(){F I.3W().86}})}},{"../1m/1m.1B":19,"../1V/K":34,"../J/K":39}],10:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'../1m/1m.1B\');B 1V=1j(\'../1V/K\');B J=1j(\'../J/K\');1B.5K(\'fo\',{bd:{7o:\'iX\'},3F:{aN:[{1G:\'6D\',1Z:\'1R\',id:\'x-5A-0\'}],bg:[{1G:\'6D\',1Z:\'1D\',id:\'y-5A-0\'}]},dg:{5r:{3L:C(){F\'\'},2x:C(2m,1b){B jU=1b.1X[2m.1U].2x||\'\';B HA=1b.1X[2m.1U].1b[2m.K];F jU+\': (\'+2m.du+\', \'+2m.eN+\', \'+HA.r+\')\'}}}});1E.1A=C(1n){1n.4Z.fo=1n.a5.3f({e7:1V.r2,4J:C(3J){B me=I;B 1o=me.3W();B 3w=1o.1b;J.2c(3w,C(1Q,K){me.94(1Q,K,3J)})},94:C(1Q,K,3J){B me=I;B 1o=me.3W();B 1p=1Q.1p||{};B bE=me.aJ(1o.9O);B 6W=me.aJ(1o.86);B U=me.Hx(1Q,K);B 1b=me.5U().1b[K];B mH=me.K;B x=3J?bE.Hl(0.5):bE.78(2y 1b===\'5m\'?1b:6e,K,mH);B y=3J?6W.fC():6W.78(1b,K,mH);1Q.nF=bE;1Q.nH=6W;1Q.7F=U;1Q.5H=mH;1Q.7d=K;1Q.2N={1Y:U.1Y,2e:U.2e,1K:U.1K,6N:U.6N,6C:U.6C,2b:3J?0:U.2b,5p:1p.5p||3p(x)||3p(y),x:x,y:y,};1Q.b8()},ij:C(1Q){B 1i=1Q.2N;B U=1Q.7F;1i.1Y=J.1N(U.aD,J.8I(U.1Y));1i.2e=J.1N(U.aI,J.8I(U.2e));1i.1K=J.1N(U.8Y,U.1K);1i.2b=U.2b+U.bX},9N:C(1Q){B 1i=1Q.2N;B U=1Q.7F;1i.1Y=U.1Y;1i.2e=U.2e;1i.1K=U.1K;1i.2b=U.2b},Hx:C(1Q,K){B me=I;B O=me.O;B 1X=O.1b.1X;B 1k=1X[me.K];B 1p=1Q.1p||{};B U=O.U.1V.1Q;B kf=J.U.kf;B 1b=1k.1b[K];B 1M={};B i,1H,1v;B 2u={O:O,RD:K,1k:1k,1U:me.K};B 3R=[\'1Y\',\'2e\',\'1K\',\'aD\',\'aI\',\'8Y\',\'bX\',\'6N\',\'6C\'];1s(i=0,1H=3R.1f;i<1H;++i){1v=3R[i];1M[1v]=kf([1p[1v],1k[1v],U[1v]],2u,K)}1M.2b=kf([1p.2b,1b?1b.r:1C,1k.2b,U.2b],2u,K);F 1M}})}},{"../1m/1m.1B":19,"../1V/K":34,"../J/K":39}],11:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'../1m/1m.1B\');B 1V=1j(\'../1V/K\');B J=1j(\'../J/K\');1B.5K(\'gm\',{3P:{hT:1z,jz:1x},bd:{7o:\'iX\'},qO:C(O){B 3s=[];3s.1P(\'<ul i5="\'+O.id+\'-4G">\');B 1b=O.1b;B 1X=1b.1X;B 1T=1b.1T;if(1X.1f){1s(B i=0;i<1X[0].1b.1f;++i){3s.1P(\'<li><aF 3e="tQ-3D:\'+1X[0].1Y[i]+\'"></aF>\');if(1T[i]){3s.1P(1T[i])}3s.1P(\'</li>\')}}3s.1P(\'</ul>\');F 3s.7A(\'\')},4G:{1T:{qR:C(O){B 1b=O.1b;if(1b.1T.1f&&1b.1X.1f){F 1b.1T.9Q(C(2x,i){B 1o=O.4z(0);B ds=1b.1X[0];B 3V=1o.1b[i];B 1p=3V&&3V.1p||{};B 2O=J.2O;B 8G=O.U.1V.3V;B 2K=1p.1Y?1p.1Y:2O(ds.1Y,i,8G.1Y);B 7T=1p.2e?1p.2e:2O(ds.2e,i,8G.2e);B bw=1p.1K?1p.1K:2O(ds.1K,i,8G.1K);F{3s:2x,5g:2K,73:7T,4y:bw,4A:3p(ds.1b[i])||1o.1b[i].4A,K:i}})}F[]}},dw:C(e,4Y){B K=4Y.K;B O=I.O;B i,1H,1o;1s(i=0,1H=(O.1b.1X||[]).1f;i<1H;++i){1o=O.4z(i);if(1o.1b[K]){1o.1b[K].4A=!1o.1b[K].4A}}O.4J()}},bW:50,8X:N.PI*-0.5,93:N.PI*2.0,dg:{5r:{3L:C(){F\'\'},2x:C(7p,1b){B f0=1b.1T[7p.K];B 1c=\': \'+1b.1X[7p.1U].1b[7p.K];if(J.3M(f0)){f0=f0.4s();f0[0]+=1c}1a{f0+=1c}F f0}}}});1B.5K(\'wS\',J.4o(1B.gm));1B.5K(\'wS\',{bW:0});1E.1A=C(1n){1n.4Z.gm=1n.4Z.wS=1n.a5.3f({e7:1V.yN,ho:J.3o,EA:C(1U){B wR=0;1s(B j=0;j<1U;++j){if(I.O.6c(j)){++wR}}F wR},4J:C(3J){B me=I;B O=me.O;B 2E=O.2E;B 1J=O.U;B 8G=1J.1V.3V;B wG=2E.2a-2E.1D-8G.1K;B wE=2E.1R-2E.1I-8G.1K;B 2T=N.1h(wG,wE);B 2S={x:0,y:0};B 1o=me.3W();B bW=1J.bW;B 93=1J.93;if(93<N.PI*2.0){B 3v=1J.8X%(N.PI*2.0);3v+=N.PI*2.0*(3v>=N.PI?-1:3v<-N.PI?1:0);B 4M=3v+93;B 2r={x:N.7L(3v),y:N.6S(3v)};B 3E={x:N.7L(4M),y:N.6S(4M)};B GT=(3v<=0&&4M>=0)||(3v<=N.PI*2.0&&N.PI*2.0<=4M);B GS=(3v<=N.PI*0.5&&N.PI*0.5<=4M)||(3v<=N.PI*2.5&&N.PI*2.5<=4M);B Hi=(3v<=-N.PI&&-N.PI<=4M)||(3v<=N.PI&&N.PI<=4M);B GX=(3v<=-N.PI*0.5&&-N.PI*0.5<=4M)||(3v<=N.PI*1.5&&N.PI*1.5<=4M);B cM=bW/2o.0;B 1h={x:Hi?-1:N.1h(2r.x*(2r.x<0?1:cM),3E.x*(3E.x<0?1:cM)),y:GX?-1:N.1h(2r.y*(2r.y<0?1:cM),3E.y*(3E.y<0?1:cM))};B 1g={x:GT?1:N.1g(2r.x*(2r.x>0?1:cM),3E.x*(3E.x>0?1:cM)),y:GS?1:N.1g(2r.y*(2r.y>0?1:cM),3E.y*(3E.y>0?1:cM))};B 1S={1q:(1g.x-1h.x)*0.5,1u:(1g.y-1h.y)*0.5};2T=N.1h(wG/1S.1q,wE/1S.1u);2S={x:(1g.x+1h.x)*-0.5,y:(1g.y+1h.y)*-0.5}}O.1K=me.Em(1o.1b);O.5D=N.1g((2T-O.1K)/2,0);O.7t=N.1g(bW?(O.5D/2o)*(bW):0,0);O.ia=(O.5D-O.7t)/O.uA();O.Ez=2S.x*O.5D;O.Ew=2S.y*O.5D;1o.8r=me.Eo();me.5D=O.5D-(O.ia*me.EA(me.K));me.7t=N.1g(me.5D-O.ia,0);J.2c(1o.1b,C(3V,K){me.94(3V,K,3J)})},94:C(3V,K,3J){B me=I;B O=me.O;B 2E=O.2E;B 1J=O.U;B c9=1J.3P;B hw=(2E.1D+2E.2a)/2;B hv=(2E.1I+2E.1R)/2;B 3v=1J.8X;B 4M=1J.8X;B 1k=me.5U();B 93=3J&&c9.hT?0:3V.4A?0:me.m9(1k.1b[K])*(1J.93/(2.0*N.PI));B 7t=3J&&c9.jz?0:me.7t;B 5D=3J&&c9.jz?0:me.5D;B 2O=J.2O;J.3f(3V,{5H:me.K,7d:K,2N:{x:hw+O.Ez,y:hv+O.Ew,3v:3v,4M:4M,93:93,5D:5D,7t:7t,2x:2O(1k.2x,K,O.1b.1T[K])}});B 1i=3V.2N;I.9N(3V);if(!3J||!c9.hT){if(K===0){1i.3v=1J.8X}1a{1i.3v=me.3W().1b[K-1].2N.4M}1i.4M=1i.3v+1i.93}3V.b8()},9N:C(3V){1n.a5.2L.9N.2n(I,3V,I.O.U.1V.3V)},Eo:C(){B 1k=I.5U();B 1o=I.3W();B 8r=0;B 1c;J.2c(1o.1b,C(2f,K){1c=1k.1b[K];if(!3p(1c)&&!2f.4A){8r+=N.4W(1c)}});F 8r},m9:C(1c){B 8r=I.3W().8r;if(8r>0&&!3p(1c)){F(N.PI*2.0)*(N.4W(1c)/8r)}F 0},Em:C(hJ){B 1g=0;B K=I.K;B 1f=hJ.1f;B 1K;B mz;1s(B i=0;i<1f;i++){1K=hJ[i].2N?hJ[i].2N.1K:0;mz=hJ[i].6q?hJ[i].6q.V.1b.1X[K].8Y:0;1g=1K>1g?1K:1g;1g=mz>1g?mz:1g}F 1g}})}},{"../1m/1m.1B":19,"../1V/K":34,"../J/K":39}],12:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'../1m/1m.1B\');B 1V=1j(\'../1V/K\');B J=1j(\'../J/K\');1B.5K(\'3u\',{qs:1z,bi:1x,bd:{7o:\'2x\'},3F:{aN:[{1G:\'d2\',id:\'x-5A-0\'}],bg:[{1G:\'6D\',id:\'y-5A-0\'}]}});1E.1A=C(1n){C uy(1k,U){F J.1N(1k.mV,U.qs)}1n.4Z.3u=1n.a5.3f({p9:1V.ei,e7:1V.r2,4J:C(3J){B me=I;B 1o=me.3W();B 3u=1o.1k;B 3w=1o.1b||[];B U=me.O.U;B 5W=U.1V.3u;B 1r=me.aJ(1o.86);B i,1H,1p;B 1k=me.5U();B mV=uy(1k,U);if(mV){1p=3u.1p||{};if((1k.5o!==1C)&&(1k.eU===1C)){1k.eU=1k.5o}3u.i9=1r;3u.5H=me.K;3u.jq=3w;3u.2N={bi:1k.bi?1k.bi:U.bi,5o:1p.5o?1p.5o:J.1N(1k.eU,5W.5o),1Y:1p.1Y?1p.1Y:(1k.1Y||5W.1Y),1K:1p.1K?1p.1K:(1k.1K||5W.1K),2e:1p.2e?1p.2e:(1k.2e||5W.2e),7W:1p.7W?1p.7W:(1k.7W||5W.7W),5R:1p.5R?1p.5R:(1k.5R||5W.5R),5S:1p.5S?1p.5S:(1k.5S||5W.5S),7Y:1p.7Y?1p.7Y:(1k.7Y||5W.7Y),2K:1p.2K?1p.2K:(1k.2K!==1C?1k.2K:5W.2K),cr:1p.cr?1p.cr:J.1N(1k.cr,5W.Q5),il:1p.il?1p.il:J.1N(1k.il,5W.il),};3u.b8()}1s(i=0,1H=3w.1f;i<1H;++i){me.94(3w[i],i,3J)}if(mV&&3u.2N.5o!==0){me.na()}1s(i=0,1H=3w.1f;i<1H;++i){3w[i].b8()}},uq:C(1Q,K){B 1Y=I.O.U.1V.1Q.1Y;B 1k=I.5U();B 1p=1Q.1p||{};if(1p.1Y){1Y=1p.1Y}1a if(1k.jn){1Y=J.2O(1k.jn,K,1Y)}1a if(1k.1Y){1Y=1k.1Y}F 1Y},ud:C(1Q,K){B 2e=I.O.U.1V.1Q.2e;B 1k=I.5U();B 1p=1Q.1p||{};if(1p.2e){2e=1p.2e}1a if(1k.nV){2e=J.2O(1k.nV,K,2e)}1a if(1k.2e){2e=1k.2e}F 2e},uc:C(1Q,K){B 1K=I.O.U.1V.1Q.1K;B 1k=I.5U();B 1p=1Q.1p||{};if(!3p(1p.1K)){1K=1p.1K}1a if(!3p(1k.ln)||J.3M(1k.ln)){1K=J.2O(1k.ln,K,1K)}1a if(!3p(1k.1K)){1K=1k.1K}F 1K},94:C(1Q,K,3J){B me=I;B 1o=me.3W();B 1p=1Q.1p||{};B 1k=me.5U();B 1U=me.K;B 1c=1k.1b[K];B 6W=me.aJ(1o.86);B bE=me.aJ(1o.9O);B mW=me.O.U.1V.1Q;B x,y;if((1k.2b!==1C)&&(1k.bs===1C)){1k.bs=1k.2b}if((1k.6N!==1C)&&(1k.hu===1C)){1k.hu=1k.6N}x=bE.78(2y 1c===\'5m\'?1c:6e,K,1U);y=3J?6W.fC():me.E3(1c,K,1U);1Q.nF=bE;1Q.nH=6W;1Q.5H=1U;1Q.7d=K;1Q.2N={x:x,y:y,5p:1p.5p||3p(x)||3p(y),2b:1p.2b||J.2O(1k.bs,K,mW.2b),6C:1p.6C||J.2O(1k.6C,K,mW.6C),1Y:me.uq(1Q,K),2e:me.ud(1Q,K),1K:me.uc(1Q,K),5o:1o.1k.2N?1o.1k.2N.5o:0,cr:1o.1k.2N?1o.1k.2N.cr:1x,6N:1p.6N||J.2O(1k.hu,K,mW.6N)}},E3:C(1c,K,1U){B me=I;B O=me.O;B 1o=me.3W();B 6W=me.aJ(1o.86);B v8=0;B vB=0;B i,ds,nA;if(6W.U.7P){1s(i=0;i<1U;i++){ds=O.1b.1X[i];nA=O.4z(i);if(nA.1G===\'3u\'&&nA.86===6W.id&&O.6c(i)){B o0=7f(6W.5j(ds.1b[K]));if(o0<0){vB+=o0||0}1a{v8+=o0||0}}}B fK=7f(6W.5j(1c));if(fK<0){F 6W.78(vB+fK)}F 6W.78(v8+fK)}F 6W.78(1c)},na:C(){B me=I;B 1o=me.3W();B 6H=me.O.2E;B 3w=(1o.1b||[]);B i,1H,1Q,1i,aK;if(1o.1k.2N.bi){3w=3w.ah(C(pt){F!pt.2N.5p})}C km(pt,1h,1g){F N.1g(N.1h(pt,1g),1h)}if(1o.1k.2N.il===\'Mn\'){J.Kj(3w)}1a{1s(i=0,1H=3w.1f;i<1H;++i){1Q=3w[i];1i=1Q.2N;aK=J.yq(J.pL(3w,i).2N,1i,J.yb(3w,i).2N,1o.1k.2N.5o);1i.et=aK.4O.x;1i.eh=aK.4O.y;1i.fu=aK.3K.x;1i.eq=aK.3K.y}}if(me.O.U.1V.3u.Dt){1s(i=0,1H=3w.1f;i<1H;++i){1i=3w[i].2N;1i.et=km(1i.et,6H.1D,6H.2a);1i.eh=km(1i.eh,6H.1I,6H.1R);1i.fu=km(1i.fu,6H.1D,6H.2a);1i.eq=km(1i.eq,6H.1I,6H.1R)}}},5C:C(){B me=I;B O=me.O;B 1o=me.3W();B 3w=1o.1b||[];B 6H=O.2E;B 1H=3w.1f;B i=0;J.1W.qI(O.R,6H);if(uy(me.5U(),O.U)){1o.1k.5C()}J.1W.qN(O.R);1s(;i<1H;++i){3w[i].5C(6H)}},ij:C(1Q){B 1k=I.O.1b.1X[1Q.5H];B K=1Q.7d;B 1p=1Q.1p||{};B 1i=1Q.2N;1i.2b=1p.bX||J.2O(1k.yQ,K,I.O.U.1V.1Q.bX);1i.1Y=1p.aD||J.2O(1k.yO,K,J.8I(1i.1Y));1i.2e=1p.aI||J.2O(1k.Lh,K,J.8I(1i.2e));1i.1K=1p.8Y||J.2O(1k.Le,K,1i.1K)},9N:C(1Q){B me=I;B 1k=me.O.1b.1X[1Q.5H];B K=1Q.7d;B 1p=1Q.1p||{};B 1i=1Q.2N;if((1k.2b!==1C)&&(1k.bs===1C)){1k.bs=1k.2b}1i.2b=1p.2b||J.2O(1k.bs,K,me.O.U.1V.1Q.2b);1i.1Y=me.uq(1Q,K);1i.2e=me.ud(1Q,K);1i.1K=me.uc(1Q,K)}})}},{"../1m/1m.1B":19,"../1V/K":34,"../J/K":39}],13:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'../1m/1m.1B\');B 1V=1j(\'../1V/K\');B J=1j(\'../J/K\');1B.5K(\'l9\',{1r:{1G:\'g7\',j3:{3a:1x},4B:{sI:1z},ad:{3a:1x},1w:{fZ:1z}},3P:{hT:1z,jz:1z},3v:-0.5*N.PI,qO:C(O){B 3s=[];3s.1P(\'<ul i5="\'+O.id+\'-4G">\');B 1b=O.1b;B 1X=1b.1X;B 1T=1b.1T;if(1X.1f){1s(B i=0;i<1X[0].1b.1f;++i){3s.1P(\'<li><aF 3e="tQ-3D:\'+1X[0].1Y[i]+\'"></aF>\');if(1T[i]){3s.1P(1T[i])}3s.1P(\'</li>\')}}3s.1P(\'</ul>\');F 3s.7A(\'\')},4G:{1T:{qR:C(O){B 1b=O.1b;if(1b.1T.1f&&1b.1X.1f){F 1b.1T.9Q(C(2x,i){B 1o=O.4z(0);B ds=1b.1X[0];B 3V=1o.1b[i];B 1p=3V.1p||{};B 2O=J.2O;B 8G=O.U.1V.3V;B 2K=1p.1Y?1p.1Y:2O(ds.1Y,i,8G.1Y);B 7T=1p.2e?1p.2e:2O(ds.2e,i,8G.2e);B bw=1p.1K?1p.1K:2O(ds.1K,i,8G.1K);F{3s:2x,5g:2K,73:7T,4y:bw,4A:3p(ds.1b[i])||1o.1b[i].4A,K:i}})}F[]}},dw:C(e,4Y){B K=4Y.K;B O=I.O;B i,1H,1o;1s(i=0,1H=(O.1b.1X||[]).1f;i<1H;++i){1o=O.4z(i);1o.1b[K].4A=!1o.1b[K].4A}O.4J()}},dg:{5r:{3L:C(){F\'\'},2x:C(2m,1b){F 1b.1T[2m.K]+\': \'+2m.eN}}}});1E.1A=C(1n){1n.4Z.l9=1n.a5.3f({e7:1V.yN,ho:J.3o,4J:C(3J){B me=I;B O=me.O;B 2E=O.2E;B 1o=me.3W();B 1J=O.U;B 8G=1J.1V.3V;B 2T=N.1h(2E.2a-2E.1D,2E.1R-2E.1I);O.5D=N.1g((2T-8G.1K/2)/2,0);O.7t=N.1g(1J.bW?(O.5D/2o)*(1J.bW):1,0);O.ia=(O.5D-O.7t)/O.uA();me.5D=O.5D-(O.ia*me.K);me.7t=me.5D-O.ia;1o.4h=me.zs();J.2c(1o.1b,C(3V,K){me.94(3V,K,3J)})},94:C(3V,K,3J){B me=I;B O=me.O;B 1k=me.5U();B 1J=O.U;B c9=1J.3P;B 1r=O.1r;B 1T=O.1b.1T;B 93=me.m9(1k.1b[K]);B hw=1r.ee;B hv=1r.ef;B tV=0;B 1o=me.3W();1s(B i=0;i<K;++i){if(!3p(1k.1b[i])&&!1o.1b[i].4A){++tV}}B r6=1J.3v;B aR=3V.4A?0:1r.fV(1k.1b[K]);B 3v=r6+(93*tV);B 4M=3v+(3V.4A?0:93);B zv=c9.jz?0:1r.fV(1k.1b[K]);J.3f(3V,{5H:me.K,7d:K,i9:1r,2N:{x:hw,y:hv,7t:0,5D:3J?zv:aR,3v:3J&&c9.hT?r6:3v,4M:3J&&c9.hT?r6:4M,2x:J.2O(1T,K,1T[K])}});me.9N(3V);3V.b8()},9N:C(3V){1n.a5.2L.9N.2n(I,3V,I.O.U.1V.3V)},zs:C(){B 1k=I.5U();B 1o=I.3W();B 4h=0;J.2c(1o.1b,C(2f,K){if(!3p(1k.1b[K])&&!2f.4A){4h++}});F 4h},m9:C(1c){B 4h=I.3W().4h;if(4h>0&&!3p(1c)){F(2*N.PI)/4h}F 0}})}},{"../1m/1m.1B":19,"../1V/K":34,"../J/K":39}],14:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'../1m/1m.1B\');B 1V=1j(\'../1V/K\');B J=1j(\'../J/K\');1B.5K(\'jK\',{1r:{1G:\'g7\'},1V:{3u:{5o:0}}});1E.1A=C(1n){1n.4Z.jK=1n.a5.3f({p9:1V.ei,e7:1V.r2,ho:J.3o,4J:C(3J){B me=I;B 1o=me.3W();B 3u=1o.1k;B 3w=1o.1b;B 1p=3u.1p||{};B 1k=me.5U();B 5W=me.O.U.1V.3u;B 1r=me.O.1r;if((1k.5o!==1C)&&(1k.eU===1C)){1k.eU=1k.5o}J.3f(1o.1k,{5H:me.K,i9:1r,jq:3w,tR:1z,2N:{5o:1p.5o?1p.5o:J.1N(1k.eU,5W.5o),1Y:1p.1Y?1p.1Y:(1k.1Y||5W.1Y),1K:1p.1K?1p.1K:(1k.1K||5W.1K),2e:1p.2e?1p.2e:(1k.2e||5W.2e),2K:1p.2K?1p.2K:(1k.2K!==1C?1k.2K:5W.2K),7W:1p.7W?1p.7W:(1k.7W||5W.7W),5R:1p.5R?1p.5R:(1k.5R||5W.5R),5S:1p.5S?1p.5S:(1k.5S||5W.5S),7Y:1p.7Y?1p.7Y:(1k.7Y||5W.7Y),}});1o.1k.b8();J.2c(3w,C(1Q,K){me.94(1Q,K,3J)},me);me.na()},94:C(1Q,K,3J){B me=I;B 1p=1Q.1p||{};B 1k=me.5U();B 1r=me.O.1r;B 9G=me.O.U.1V.1Q;B 8K=1r.su(K,1k.1b[K]);if((1k.2b!==1C)&&(1k.bs===1C)){1k.bs=1k.2b}if((1k.6N!==1C)&&(1k.hu===1C)){1k.hu=1k.6N}J.3f(1Q,{5H:me.K,7d:K,i9:1r,2N:{x:3J?1r.ee:8K.x,y:3J?1r.ef:8K.y,5o:1p.5o?1p.5o:J.1N(1k.eU,me.O.U.1V.3u.5o),2b:1p.2b?1p.2b:J.2O(1k.bs,K,9G.2b),1Y:1p.1Y?1p.1Y:J.2O(1k.jn,K,9G.1Y),2e:1p.2e?1p.2e:J.2O(1k.nV,K,9G.2e),1K:1p.1K?1p.1K:J.2O(1k.ln,K,9G.1K),6C:1p.6C?1p.6C:J.2O(1k.6C,K,9G.6C),6N:1p.6N?1p.6N:J.2O(1k.hu,K,9G.6N)}});1Q.2N.5p=1p.5p?1p.5p:(3p(1Q.2N.x)||3p(1Q.2N.y))},na:C(){B 2E=I.O.2E;B 1o=I.3W();J.2c(1o.1b,C(1Q,K){B 1i=1Q.2N;B aK=J.yq(J.pL(1o.1b,K,1z).2N,1i,J.yb(1o.1b,K,1z).2N,1i.5o);1i.et=N.1g(N.1h(aK.4O.x,2E.2a),2E.1D);1i.eh=N.1g(N.1h(aK.4O.y,2E.1R),2E.1I);1i.fu=N.1g(N.1h(aK.3K.x,2E.2a),2E.1D);1i.eq=N.1g(N.1h(aK.3K.y,2E.1R),2E.1I);1Q.b8()})},ij:C(1Q){B 1k=I.O.1b.1X[1Q.5H];B 1p=1Q.1p||{};B K=1Q.7d;B 1i=1Q.2N;1i.2b=1p.bX?1p.bX:J.2O(1k.yQ,K,I.O.U.1V.1Q.bX);1i.1Y=1p.aD?1p.aD:J.2O(1k.yO,K,J.8I(1i.1Y));1i.2e=1p.aI?1p.aI:J.2O(1k.Lh,K,J.8I(1i.2e));1i.1K=1p.8Y?1p.8Y:J.2O(1k.Le,K,1i.1K)},9N:C(1Q){B 1k=I.O.1b.1X[1Q.5H];B 1p=1Q.1p||{};B K=1Q.7d;B 1i=1Q.2N;B 9G=I.O.U.1V.1Q;1i.2b=1p.2b?1p.2b:J.2O(1k.bs,K,9G.2b);1i.1Y=1p.1Y?1p.1Y:J.2O(1k.jn,K,9G.1Y);1i.2e=1p.2e?1p.2e:J.2O(1k.nV,K,9G.2e);1i.1K=1p.1K?1p.1K:J.2O(1k.ln,K,9G.1K)}})}},{"../1m/1m.1B":19,"../1V/K":34,"../J/K":39}],15:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'../1m/1m.1B\');1B.5K(\'ls\',{bd:{7o:\'iX\'},3F:{aN:[{id:\'x-5A-1\',1G:\'6D\',1Z:\'1R\'}],bg:[{id:\'y-5A-1\',1G:\'6D\',1Z:\'1D\'}]},qs:1x,dg:{5r:{3L:C(){F\'\'},2x:C(2m){F\'(\'+2m.du+\', \'+2m.eN+\')\'}}}});1E.1A=C(1n){1n.4Z.ls=1n.4Z.3u}},{"../1m/1m.1B":19}],16:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'./1m.1B\');B 5z=1j(\'./1m.2f\');B J=1j(\'../J/K\');1B.5K(\'3T\',{3P:{2Y:6f,a4:\'C4\',BV:J.3o,jB:J.3o}});1E.1A=C(1n){1n.jf=5z.3f({O:1l,bT:0,ge:60,a4:\'\',cf:1l,ru:1l,rH:1l,});1n.rQ={Ko:17,7y:[],ha:0,o9:1l,zo:C(O,3P,2Y,ct){B 7y=I.7y;B i,1H;3P.O=O;if(!ct){O.pn=1z}1s(i=0,1H=7y.1f;i<1H;++i){if(7y[i].O===O){7y[i]=3P;F}}7y.1P(3P);if(7y.1f===1){I.q9()}},Hq:C(O){B K=J.ao(I.7y,C(3P){F 3P.O===O});if(K!==-1){I.7y.b9(K,1);O.pn=1x}},q9:C(){B me=I;if(me.o9===1l){me.o9=J.ut.2n(6m,C(){me.o9=1l;me.KZ()})}},KZ:C(){B me=I;B Kt=4L.7r();B tr=0;if(me.ha>1){tr=N.4p(me.ha);me.ha=me.ha%1}me.JR(1+tr);B Ky=4L.7r();me.ha+=(Ky-Kt)/me.Ko;if(me.7y.1f>0){me.q9()}},JR:C(4h){B 7y=I.7y;B 3P,O;B i=0;aW(i<7y.1f){3P=7y[i];O=3P.O;3P.bT=(3P.bT||0)+4h;3P.bT=N.1h(3P.bT,3P.ge);J.3g(3P.cf,[O,3P],O);J.3g(3P.ru,[3P],O);if(3P.bT>=3P.ge){J.3g(3P.rH,[3P],O);O.pn=1x;7y.b9(i,1)}1a{++i}}}};3t.b2(1n.jf.2L,\'lJ\',{6s:C(){F I}});3t.b2(1n.jf.2L,\'R3\',{6s:C(){F I.O},8v:C(1c){I.O=1c}})}},{"../J/K":39,"./1m.1B":19,"./1m.2f":20}],17:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'./1m.1B\');B J=1j(\'../J/K\');B fi=1j(\'./1m.mN\');B 4V=1j(\'./1m.4V\');B 6l=1j(\'../on/6l\');B 2W=1j(\'./1m.2W\');1E.1A=C(1n){1n.s8={};1n.uR={};1n.4Z={};C Ia(V){V=V||{};B 1b=V.1b=V.1b||{};1b.1X=1b.1X||[];1b.1T=1b.1T||[];V.U=J.yB(1B.3T,1B[V.1G],V.U||{});F V}C Jo(O){B jG=O.U;J.2c(O.3F,C(1r){4V.pj(O,1r)});jG=J.yB(1n.1B.3T,1n.1B[O.V.1G],jG);O.U=O.V.U=jG;O.sG();O.sD();O.4S.7F=jG.dg;O.4S.6I()}C sp(1Z){F 1Z===\'1I\'||1Z===\'1R\'}J.3f(1n.2L,{IO:C(2m,V){B me=I;V=Ia(V);B 2u=6l.pu(2m,V);B 1W=2u&&2u.1W;B 1u=1W&&1W.1u;B 1q=1W&&1W.1q;me.id=J.Cn();me.R=2u;me.1W=1W;me.V=V;me.1q=1q;me.1u=1u;me.ip=1u?1q/1u:1l;me.U=V.U;me.nu=1x;me.O=me;me.4r=me;1n.uR[me.id]=me;3t.b2(me,\'1b\',{6s:C(){F me.V.1b},8v:C(1c){me.V.1b=1c}});if(!2u||!1W){8F.cN("RM to Ln O: Ls\'t Lv 2u 3A mJ Ly 2m");F}me.6I();me.4J()},6I:C(){B me=I;2W.5h(me,\'tg\');J.xR(me,me.U.xP);me.CH();if(me.U.xw){me.cC(1z)}me.sG();me.sD();me.CF();2W.5h(me,\'LH\');F me},dm:C(){J.1W.dm(I);F I},oL:C(){1n.rQ.Hq(I);F I},cC:C(Hd){B me=I;B U=me.U;B 1W=me.1W;B ip=(U.IT&&me.ip)||1l;B gu=N.1g(0,N.4p(J.JH(1W)));B kA=N.1g(0,N.4p(ip?gu/ip:J.JD(1W)));if(me.1q===gu&&me.1u===kA){F}1W.1q=me.1q=gu;1W.1u=me.1u=kA;1W.3e.1q=gu+\'px\';1W.3e.1u=kA+\'px\';J.xR(me,U.xP);if(!Hd){B sH={1q:gu,1u:kA};2W.5h(me,\'cC\',[sH]);if(me.U.EK){me.U.EK(me,sH)}me.oL();me.4J(me.U.IU)}},sG:C(){B U=I.U;B sE=U.3F||{};B aB=U.1r;J.2c(sE.aN,C(iD,K){iD.id=iD.id||(\'x-5A-\'+K)});J.2c(sE.bg,C(iW,K){iW.id=iW.id||(\'y-5A-\'+K)});if(aB){aB.id=aB.id||\'1r\'}},sD:C(){B me=I;B U=me.U;B 3F=me.3F||{};B 4H=[];B se=3t.3R(3F).hC(C(3n,id){3n[id]=1x;F 3n},{});if(U.3F){4H=4H.7g((U.3F.aN||[]).9Q(C(iD){F{U:iD,nG:\'d2\',jb:\'1R\'}}),(U.3F.bg||[]).9Q(C(iW){F{U:iW,nG:\'6D\',jb:\'1D\'}}))}if(U.1r){4H.1P({U:U.1r,nG:\'g7\',KG:1z,jb:\'2E\'})}J.2c(4H,C(2m){B aB=2m.U;B id=aB.id;B o6=J.1N(aB.1G,2m.nG);if(sp(aB.1Z)!==sp(2m.jb)){aB.1Z=2m.jb}se[id]=1z;B 1r=1l;if(id in 3F&&3F[id].1G===o6){1r=3F[id];1r.U=aB;1r.R=me.R;1r.O=me}1a{B sn=1n.9L.Gc(o6);if(!sn){F}1r=2A sn({id:id,1G:o6,U:aB,R:me.R,O:me});3F[1r.id]=1r}1r.sj();if(2m.KG){me.1r=1r}});J.2c(se,C(Jb,id){if(!Jb){6v 3F[id]}});me.3F=3F;1n.9L.G8(I)},Jk:C(){B me=I;B s8=[];B l1=[];J.2c(me.1b.1X,C(1k,1U){B 1o=me.4z(1U);B 1G=1k.1G||me.V.1G;if(1o.1G&&1o.1G!==1G){me.uQ(1U);1o=me.4z(1U)}1o.1G=1G;s8.1P(1o.1G);if(1o.4r){1o.4r.K6(1U);1o.4r.ho()}1a{B s6=1n.4Z[1o.1G];if(s6===1C){fs 2A kW(\'"\'+1o.1G+\'" is iq a O 1G.\')}1o.4r=2A s6(me,1U);l1.1P(1o.4r)}},me);F l1},DC:C(){B me=I;J.2c(me.1b.1X,C(1k,1U){me.4z(1U).4r.3J()},me)},3J:C(){I.DC();I.4S.6I()},4J:C(V){B me=I;if(!V||2y V!==\'5m\'){V={2Y:V,ct:3d[1]}}Jo(me);2W.HQ(me);if(2W.5h(me,\'bH\')===1x){F}me.4S.9g=me.1b;B l1=me.Jk();J.2c(me.1b.1X,C(1k,1U){me.4z(1U).4r.La()},me);me.Hs();if(me.U.3P&&me.U.3P.2Y){J.2c(l1,C(4r){4r.3J()})}me.HR();me.4S.6I();me.eK=[];2W.5h(me,\'dh\');if(me.nu){me.mS={2Y:V.2Y,a4:V.a4,ct:V.ct}}1a{me.cf(V)}},Hs:C(){B me=I;if(2W.5h(me,\'OW\')===1x){F}4V.4J(I,I.1q,I.1u);2W.5h(me,\'OX\');2W.5h(me,\'P1\')},HR:C(){B me=I;if(2W.5h(me,\'Pe\')===1x){F}1s(B i=0,1H=me.1b.1X.1f;i<1H;++i){me.CZ(i)}2W.5h(me,\'A1\')},CZ:C(K){B me=I;B 1o=me.4z(K);B 2j={1o:1o,K:K};if(2W.5h(me,\'PA\',[2j])===1x){F}1o.4r.4J();2W.5h(me,\'PC\',[2j])},cf:C(V){B me=I;if(!V||2y V!==\'5m\'){V={2Y:V,ct:3d[1]}}B 2Y=V.2Y;B ct=V.ct;if(2W.5h(me,\'PD\')===1x){F}B dS=me.U.3P;B jB=C(3P){2W.5h(me,\'PE\');J.3g(dS&&dS.jB,[3P],me)};if(dS&&((2y 2Y!==\'1C\'&&2Y!==0)||(2y 2Y===\'1C\'&&dS.2Y!==0))){B 3P=2A 1n.jf({ge:(2Y||dS.2Y)/16.66, a4:V.a4||dS.a4,cf:C(O,lJ){B yU=J.a4.e8[lJ.a4];B bT=lJ.bT;B v3=bT/lJ.ge;O.5C(yU(v3),v3,bT)},ru:dS.BV,rH:jB});1n.rQ.zo(me,3P,2Y,ct)}1a{me.5C();jB(2A 1n.jf({ge:0,O:me}))}F me},5C:C(5n){B me=I;me.dm();if(J.bp(5n)){5n=1}me.dM(5n);if(2W.5h(me,\'Pc\',[5n])===1x){F}J.2c(me.9m,C(2B){2B.5C(me.2E)},me);if(me.1r){me.1r.5C()}me.IW(5n);me.zE(5n);2W.5h(me,\'Pu\',[5n])},dM:C(5n){B me=I;1s(B i=0,1H=(me.1b.1X||[]).1f;i<1H;++i){if(me.6c(i)){me.4z(i).4r.dM(5n)}}me.4S.dM(5n)},IW:C(5n){B me=I;if(2W.5h(me,\'Pj\',[5n])===1x){F}1s(B i=(me.1b.1X||[]).1f-1;i>=0;--i){if(me.6c(i)){me.zA(i,5n)}}2W.5h(me,\'Qh\',[5n])},zA:C(K,5n){B me=I;B 1o=me.4z(K);B 2j={1o:1o,K:K,5n:5n};if(2W.5h(me,\'zP\',[2j])===1x){F}1o.4r.5C(5n);2W.5h(me,\'Qw\',[2j])},zE:C(5n){B me=I;B 4S=me.4S;B 2j={4S:4S,5n:5n};if(2W.5h(me,\'R0\',[2j])===1x){F}4S.5C();2W.5h(me,\'R1\',[2j])},R2:C(e){F fi.gp.iX(I,e)},Rl:C(e){F fi.gp.2x(I,e,{9a:1z})},RQ:C(e){F fi.gp[\'x-5A\'](I,e,{9a:1z})},vJ:C(e,7o,U){B 9I=fi.gp[7o];if(2y 9I===\'C\'){F 9I(I,e,U)}F[]},Mc:C(e){F fi.gp.1k(I,e,{9a:1z})},4z:C(1U){B me=I;B 1k=me.1b.1X[1U];if(!1k.er){1k.er={}}B 1o=1k.er[me.id];if(!1o){1o=1k.er[me.id]={1G:1l,1b:[],1k:1l,4r:1l,4A:1l,9O:1l,86:1l}}F 1o},uA:C(){B 4h=0;1s(B i=0,1H=I.1b.1X.1f;i<1H;++i){if(I.6c(i)){4h++}}F 4h},6c:C(1U){B 1o=I.4z(1U);F 2y 1o.4A===\'GD\'?!1o.4A:!I.1b.1X[1U].4A},N0:C(){F I.U.qO(I)},uQ:C(1U){B id=I.id;B 1k=I.1b.1X[1U];B 1o=1k.er&&1k.er[id];if(1o){1o.4r.rg();6v 1k.er[id]}},rg:C(){B me=I;B 1W=me.1W;B i,1H;me.oL();1s(i=0,1H=me.1b.1X.1f;i<1H;++i){me.uQ(i)}if(1W){me.CM();J.1W.dm(me);6l.u6(me.R);me.1W=1l;me.R=1l}2W.5h(me,\'rg\');6v 1n.uR[me.id]},O3:C(){F I.1W.O4.4m(I.1W,3d)},CF:C(){B me=I;me.4S=2A 1n.op({6q:me,OG:me,9g:me.1b,7F:me.U.dg},me)},CH:C(){B me=I;B 8n=me.vq={};B 4R=C(){me.Dd.4m(me,3d)};J.2c(me.U.us,C(1G){6l.6E(me,1G,4R);8n[1G]=4R});if(me.U.xw){4R=C(){me.cC()};6l.6E(me,\'cC\',4R);8n.cC=4R}},CM:C(){B me=I;B 8n=me.vq;if(!8n){F}6v me.vq;J.2c(8n,C(4R,1G){6l.e1(me,1G,4R)})},wa:C(1V,7o,d4){B 9I=d4?\'ij\':\'9N\';B 2f,i,1H;1s(i=0,1H=1V.1f;i<1H;++i){2f=1V[i];if(2f){I.4z(2f.5H).4r[9I](2f)}}},Dd:C(e){B me=I;B 4S=me.4S;if(2W.5h(me,\'Pl\',[e])===1x){F}me.nu=1z;me.mS=1l;B 7e=me.eu(e);if(4S){7e=4S.iH?4S.eu(e):7e|4S.eu(e)}2W.5h(me,\'KP\',[e]);B vv=me.mS;if(vv){me.cf(vv)}1a if(7e&&!me.pn){me.oL();me.cf(me.U.bd.IR,1z)}me.nu=1x;me.mS=1l;F me},eu:C(e){B me=I;B U=me.U||{};B hg=U.bd;B 7e=1x;me.eK=me.eK||[];if(e.1G===\'ko\'){me.91=[]}1a{me.91=me.vJ(e,hg.7o,hg)}J.3g(U.hl||U.bd.hl,[e.hj,me.91],me);if(e.1G===\'nO\'||e.1G===\'ld\'){if(U.dw){U.dw.2n(me,e.hj,me.91)}}if(me.eK.1f){me.wa(me.eK,hg.7o,1x)}if(me.91.1f&&hg.7o){me.wa(me.91,hg.7o,1z)}7e=!J.nl(me.91,me.eK);me.eK=me.91;F 7e}});1n.Lx=1n}},{"../J/K":39,"../on/6l":42,"./1m.1B":19,"./1m.mN":22,"./1m.4V":24,"./1m.2W":25}],18:[C(1j,1E,1A){\'2H 2q\';B J=1j(\'../J/K\');1E.1A=C(1n){B xT=[\'1P\',\'KW\',\'jS\',\'b9\',\'N1\'];C L8(2p,4R){if(2p.gU){2p.gU.8n.1P(4R);F}3t.b2(2p,\'gU\',{qa:1z,jF:1x,1c:{8n:[4R]}});xT.aQ(C(1v){B 9I=\'P9\'+1v.jE(0).tj()+1v.4s(1);B 3Q=2p[1v];3t.b2(2p,1v,{qa:1z,jF:1x,1c:C(){B 2j=5y.2L.4s.2n(3d);B 2Z=3Q.4m(I,2j);J.2c(2p.gU.8n,C(5m){if(2y 5m[9I]===\'C\'){5m[9I].4m(5m,2j)}});F 2Z}})})}C yJ(2p,4R){B xC=2p.gU;if(!xC){F}B 8n=xC.8n;B K=8n.3b(4R);if(K!==-1){8n.b9(K,1)}if(8n.1f>0){F}xT.aQ(C(1v){6v 2p[1v]});6v 2p.gU}1n.a5=C(O,1U){I.6I(O,1U)};J.3f(1n.a5.2L,{p9:1l,e7:1l,6I:C(O,1U){B me=I;me.O=O;me.K=1U;me.ho();me.Lf()},K6:C(1U){I.K=1U},ho:C(){B me=I;B 1o=me.3W();B 1k=me.5U();if(1o.9O===1l||!(1o.9O in me.O.3F)){1o.9O=1k.9O||me.O.U.3F.aN[0].id}if(1o.86===1l||!(1o.86 in me.O.3F)){1o.86=1k.86||me.O.U.3F.bg[0].id}},5U:C(){F I.O.1b.1X[I.K]},3W:C(){F I.O.4z(I.K)},aJ:C(KQ){F I.O.3F[KQ]},3J:C(){I.4J(1z)},rg:C(){if(I.9g){yJ(I.9g,I)}},Ld:C(){B me=I;B 1G=me.p9;F 1G&&2A 1G({6q:me.O,5H:me.K})},yL:C(K){B me=I;B 1G=me.e7;F 1G&&2A 1G({6q:me.O,5H:me.K,7d:K})},Lf:C(){B me=I;B 1o=me.3W();B 1b=me.5U().1b||[];B yM=1o.1b;B i,1H;1s(i=0,1H=1b.1f;i<1H;++i){yM[i]=yM[i]||me.yL(i)}1o.1k=1o.1k||me.Ld()},KY:C(K){B 2f=I.yL(K);I.3W().1b.b9(K,0,2f);I.94(2f,K,1z)},La:C(){B me=I;B 1k=me.5U();B 1b=1k.1b||(1k.1b=[]);if(me.9g!==1b){if(me.9g){yJ(me.9g,me)}L8(1b,me);me.9g=1b}me.L1()},4J:J.3o,dM:C(5n){B 1o=I.3W();B 1V=1o.1b||[];B 1H=1V.1f;B i=0;1s(;i<1H;++i){1V[i].dM(5n)}if(1o.1k){1o.1k.dM(5n)}},5C:C(){B 1o=I.3W();B 1V=1o.1b||[];B 1H=1V.1f;B i=0;if(1o.1k){1o.1k.5C()}1s(;i<1H;++i){1V[i].5C()}},9N:C(2f,pR){B 1k=I.O.1b.1X[2f.5H];B K=2f.7d;B 1p=2f.1p||{};B 1N=J.2O;B 1i=2f.2N;1i.1Y=1p.1Y?1p.1Y:1N(1k.1Y,K,pR.1Y);1i.2e=1p.2e?1p.2e:1N(1k.2e,K,pR.2e);1i.1K=1p.1K?1p.1K:1N(1k.1K,K,pR.1K)},ij:C(2f){B 1k=I.O.1b.1X[2f.5H];B K=2f.7d;B 1p=2f.1p||{};B 1N=J.2O;B 8I=J.8I;B 1i=2f.2N;1i.1Y=1p.aD?1p.aD:1N(1k.aD,K,8I(1i.1Y));1i.2e=1p.aI?1p.aI:1N(1k.aI,K,8I(1i.2e));1i.1K=1p.8Y?1p.8Y:1N(1k.8Y,K,1i.1K)},L1:C(){B me=I;B 1o=me.3W();B 1b=me.5U().1b;B i6=1o.1b.1f;B i8=1b.1f;if(i8<i6){1o.1b.b9(i8,i6-i8)}1a if(i8>i6){me.k9(i6,i8-i6)}},k9:C(2r,4h){1s(B i=0;i<4h;++i){I.KY(2r+i)}},Rx:C(){I.k9(I.5U().1b.1f-1,3d.1f)},Rv:C(){I.3W().1b.KW()},Rt:C(){I.3W().1b.jS()},Rs:C(2r,4h){I.3W().1b.b9(2r,4h);I.k9(2r,3d.1f-2)},Rq:C(){I.k9(0,3d.1f)}});1n.a5.3f=J.nE}},{"../J/K":39}],19:[C(1j,1E,1A){\'2H 2q\';B J=1j(\'../J/K\');1E.1A={5K:C(97,1M){F J.9d(I[97]||(I[97]={}),1M)}}},{"../J/K":39}],20:[C(1j,1E,1A){\'2H 2q\';B 3D=1j(\'e6-3D\');B J=1j(\'../J/K\');C bY(2r,5G,1i,hM){B 3R=3t.3R(1i);B i,1H,1v,qk,bk,1L,1G,c0,c1;1s(i=0,1H=3R.1f;i<1H;++i){1v=3R[i];1L=1i[1v];if(!5G.9x(1v)){5G[1v]=1L}qk=5G[1v];if(qk===1L||1v[0]===\'6u\'){9e}if(!2r.9x(1v)){2r[1v]=qk}bk=2r[1v];1G=2y 1L;if(1G===2y bk){if(1G===\'2k\'){c0=3D(bk);if(c0.fp){c1=3D(1L);if(c1.fp){5G[1v]=c1.Cs(c0,hM).cs();9e}}}1a if(1G===\'3N\'&&8A(bk)&&8A(1L)){5G[1v]=bk+(1L-bk)*hM;9e}}5G[1v]=1L}}B 5z=C(vF){J.3f(I,vF);I.6I.4m(I,3d)};J.3f(5z.2L,{6I:C(){I.4A=1x},b8:C(){B me=I;if(!me.3O){me.3O=J.4o(me.2N)}me.iH={};F me},dM:C(hM){B me=I;B 1i=me.2N;B 2r=me.iH;B 5G=me.3O;if(!1i||hM===1){me.3O=1i;me.iH=1l;F me}if(!5G){5G=me.3O={}}if(!2r){2r=me.iH={}}bY(2r,5G,1i,hM);F me},9M:C(){F{x:I.2N.x,y:I.2N.y}},vE:C(){F J.ac(I.2N.x)&&J.ac(I.2N.y)}});5z.3f=J.nE;1E.1A=5z},{"../J/K":39,"e6-3D":54}],21:[C(1j,1E,1A){\'2H 2q\';B 3D=1j(\'e6-3D\');B 1B=1j(\'./1m.1B\');B J=1j(\'../J/K\');1E.1A=C(1n){J.yB=C(){F J.9d(J.4o(3d[0]),[].4s.2n(3d,1),{nC:C(1v,1L,2G,U){B cm=1L[1v]||{};B 7V=2G[1v];if(1v===\'3F\'){1L[1v]=J.KL(cm,7V)}1a if(1v===\'1r\'){1L[1v]=J.9d(cm,[1n.9L.wx(7V.1G),7V])}1a{J.ny(1v,1L,2G,U)}}})};J.KL=C(){F J.9d(J.4o(3d[0]),[].4s.2n(3d,1),{nC:C(1v,1L,2G,U){if(1v===\'aN\'||1v===\'bg\'){B KK=2G[1v].1f;B i,1G,1r;if(!1L[1v]){1L[1v]=[]}1s(i=0;i<KK;++i){1r=2G[1v][i];1G=J.1N(1r.1G,1v===\'aN\'?\'d2\':\'6D\');if(i>=1L[1v].1f){1L[1v].1P({})}if(!1L[1v][i].1G||(1r.1G&&1r.1G!==1L[1v][i].1G)){J.9d(1L[1v][i],[1n.9L.wx(1G),1r])}1a{J.9d(1L[1v][i],1r)}}}1a{J.ny(1v,1L,2G,U)}}})};J.IN=C(6L,fN){if(J.3M(6L)&&5y.2L.ah){F 6L.ah(fN)}B yA=[];J.2c(6L,C(2m){if(fN(2m)){yA.1P(2m)}});F yA};J.ao=5y.2L.ao?C(2p,3g,97){F 2p.ao(3g,97)}:C(2p,3g,97){97=97===1C?2p:97;1s(B i=0,1H=2p.1f;i<1H;++i){if(3g.2n(97,2p[i],i,2p)){F i}}F-1};J.xr=C(hK,fN,dJ){if(J.bp(dJ)){dJ=-1}1s(B i=dJ+1;i<hK.1f;i++){B hz=hK[i];if(fN(hz)){F hz}}};J.Rd=C(hK,fN,dJ){if(J.bp(dJ)){dJ=hK.1f}1s(B i=dJ-1;i>=0;i--){B hz=hK[i];if(fN(hz)){F hz}}};J.ac=C(n){F!3p(6j(n))&&8A(n)};J.sZ=C(x,y,ly){F N.4W(x-y)<ly};J.Il=C(x,ly){B yv=N.2M(x);F(((yv-ly)<x)&&((yv+ly)>x))};J.1g=C(2p){F 2p.hC(C(1g,1c){if(!3p(1c)){F N.1g(1g,1c)}F 1g},7f.sF)};J.1h=C(2p){F 2p.hC(C(1h,1c){if(!3p(1c)){F N.1h(1h,1c)}F 1h},7f.g2)};J.3B=N.3B?C(x){F N.3B(x)}:C(x){x=+x;if(x===0||3p(x)){F x}F x>0?1:-1};J.4T=N.4T?C(x){F N.4T(x)}:C(x){B h5=N.ke(x)*N.R6;B yu=N.2M(h5);B KC=x===N.2F(10,yu);F KC?yu:h5};J.hs=C(rc){F rc*(N.PI/b1)};J.sL=C(KA){F KA*(b1/N.PI)};J.DK=C(ys,yt){B oM=yt.x-ys.x;B m6=yt.y-ys.y;B Kv=N.8T(oM*oM+m6*m6);B 4g=N.If(m6,oM);if(4g<(-0.5*N.PI)){4g+=2.0*N.PI}F{4g:4g,aR:Kv}};J.DQ=C(gx,gv){F N.8T(N.2F(gv.x-gx.x,2)+N.2F(gv.y-gx.y,2))};J.cA=C(Ku){F(Ku%2===0)?0:0.5};J.yq=C(yp,oS,yn,t){B 4O=yp.5p?oS:yp;B 8W=oS;B 3K=yn.5p?oS:yn;B mb=N.8T(N.2F(8W.x-4O.x,2)+N.2F(8W.y-4O.y,2));B n6=N.8T(N.2F(3K.x-8W.x,2)+N.2F(3K.y-8W.y,2));B kq=mb/(mb+n6);B kt=n6/(mb+n6);kq=3p(kq)?0:kq;kt=3p(kt)?0:kt;B fa=t*kq;B fb=t*kt;F{4O:{x:8W.x-fa*(3K.x-4O.x),y:8W.y-fa*(3K.y-4O.y)},3K:{x:8W.x+fb*(3K.x-4O.x),y:8W.y+fb*(3K.y-4O.y)}}};J.ye=7f.ye||1e-14;J.Kj=C(3w){B bz=(3w||[]).9Q(C(1Q){F{1i:1Q.2N,8R:0,mK:0}});B fU=bz.1f;B i,aw,4a,7b;1s(i=0;i<fU;++i){4a=bz[i];if(4a.1i.5p){9e}aw=i>0?bz[i-1]:1l;7b=i<fU-1?bz[i+1]:1l;if(7b&&!7b.1i.5p){B yg=(7b.1i.x-4a.1i.x);4a.8R=yg!==0?(7b.1i.y-4a.1i.y)/yg:0}if(!aw||aw.1i.5p){4a.mK=4a.8R}1a if(!7b||7b.1i.5p){4a.mK=aw.8R}1a if(I.3B(aw.8R)!==I.3B(4a.8R)){4a.mK=0}1a{4a.mK=(aw.8R+4a.8R)/2}}B qx,mr,mZ,pb;1s(i=0;i<fU-1;++i){4a=bz[i];7b=bz[i+1];if(4a.1i.5p||7b.1i.5p){9e}if(J.sZ(4a.8R,0,I.ye)){4a.mK=7b.mK=0;9e}qx=4a.mK/4a.8R;mr=7b.mK/4a.8R;pb=N.2F(qx,2)+N.2F(mr,2);if(pb<=9){9e}mZ=3/N.8T(pb);4a.mK=qx*mZ*4a.8R;7b.mK=mr*mZ*4a.8R}B cg;1s(i=0;i<fU;++i){4a=bz[i];if(4a.1i.5p){9e}aw=i>0?bz[i-1]:1l;7b=i<fU-1?bz[i+1]:1l;if(aw&&!aw.1i.5p){cg=(4a.1i.x-aw.1i.x)/3;4a.1i.et=4a.1i.x-cg;4a.1i.eh=4a.1i.y-cg*4a.mK}if(7b&&!7b.1i.5p){cg=(7b.1i.x-4a.1i.x)/3;4a.1i.fu=4a.1i.x+cg;4a.1i.eq=4a.1i.y+cg*4a.mK}}};J.yb=C(6L,K,hZ){if(hZ){F K>=6L.1f-1?6L[0]:6L[K+1]}F K>=6L.1f-1?6L[6L.1f-1]:6L[K+1]};J.pL=C(6L,K,hZ){if(hZ){F K<=0?6L[6L.1f-1]:6L[K-1]}F K<=0?6L[0]:6L[K-1]};J.t0=C(5O,2M){B h5=N.4p(J.4T(5O));B eW=5O/N.2F(10,h5);B bL;if(2M){if(eW<1.5){bL=1}1a if(eW<3){bL=2}1a if(eW<7){bL=5}1a{bL=10}}1a if(eW<=1.0){bL=1}1a if(eW<=2){bL=2}1a if(eW<=5){bL=5}1a{bL=10}F bL*N.2F(10,h5)};J.ut=(C(){if(2y 6m===\'1C\'){F C(3g){3g()}}F 6m.q9||6m.Qs||6m.Qr||6m.Qq||6m.Qp||C(3g){F 6m.Qn(3g,6f/60)}}());J.ar=C(lt,O){B 6d,6A;B e=lt.Qm||lt;B 1W=lt.Ql||lt.Qj;B fq=1W.Qi();B h4=e.h4;if(h4&&h4.1f>0){6d=h4[0].JX;6A=h4[0].JW}1a{6d=e.JX;6A=e.JW}B 6J=6j(J.bO(1W,\'3I-1D\'));B 8J=6j(J.bO(1W,\'3I-1I\'));B 7I=6j(J.bO(1W,\'3I-2a\'));B a7=6j(J.bO(1W,\'3I-1R\'));B 1q=fq.2a-fq.1D-6J-7I;B 1u=fq.1R-fq.1I-8J-a7;6d=N.2M((6d-fq.1D-6J)/(1q)*1W.1q/O.xQ);6A=N.2M((6A-fq.1I-8J)/(1u)*1W.1u/O.xQ);F{x:6d,y:6A}};C y0(k3,5w,JU){B gV;if(2y k3===\'2k\'){gV=6k(k3,10);if(k3.3b(\'%\')!==-1){gV=gV/2o*5w.av[JU]}}1a{gV=k3}F gV}C y7(1c){F 1c!==1C&&1c!==1l&&1c!==\'ur\'}C xW(7z,y8,xY){B 5G=6z.Jx;B av=7z.av;B y5=5G.xS(7z)[y8];B xZ=5G.xS(av)[y8];B y6=y7(y5);B y4=y7(xZ);B xX=7f.g2;if(y6||y4){F N.1h(y6?y0(y5,7z,xY):xX,y4?y0(xZ,av,xY):xX)}F\'ur\'}J.JF=C(7z){F xW(7z,\'1g-1q\',\'xV\')};J.JB=C(7z){F xW(7z,\'1g-1u\',\'xU\')};J.JH=C(7z){B 8a=7z.av;if(!8a){F 7z.xV}B 6J=6k(J.bO(8a,\'3I-1D\'),10);B 7I=6k(J.bO(8a,\'3I-2a\'),10);B w=8a.xV-6J-7I;B cw=J.JF(7z);F 3p(cw)?w:N.1h(w,cw)};J.JD=C(7z){B 8a=7z.av;if(!8a){F 7z.xU}B 8J=6k(J.bO(8a,\'3I-1I\'),10);B a7=6k(J.bO(8a,\'3I-1R\'),10);B h=8a.xU-8J-a7;B ch=J.JB(7z);F 3p(ch)?h:N.1h(h,ch)};J.bO=C(el,kr){F el.Jy?el.Jy[kr]:6z.Jx.xS(el,1l).PO(kr)};J.xR=C(O,Jt){B gP=O.xQ=Jt||6m.xP||1;if(gP===1){F}B 1W=O.1W;B 1u=O.1u;B 1q=O.1q;1W.1u=1u*gP;1W.1q=1q*gP;O.R.1r(gP,gP);if(!1W.3e.1u&&!1W.3e.1q){1W.3e.1u=1u+\'px\';1W.3e.1q=1q+\'px\'}};J.8L=C(Jq,6Z,7s){F 6Z+\' \'+Jq+\'px \'+7s};J.kH=C(R,3z,kd,7E){7E=7E||{};B 1b=7E.1b=7E.1b||{};B gc=7E.xN=7E.xN||[];if(7E.3z!==3z){1b=7E.1b={};gc=7E.xN=[];7E.3z=3z}R.3z=3z;B bP=0;J.2c(kd,C(aq){if(aq!==1C&&aq!==1l&&J.3M(aq)!==1z){bP=J.9r(R,1b,gc,bP,aq)}1a if(J.3M(aq)){J.2c(aq,C(iK){if(iK!==1C&&iK!==1l&&!J.3M(iK)){bP=J.9r(R,1b,gc,bP,iK)}})}});B qv=gc.1f/2;if(qv>kd.1f){1s(B i=0;i<qv;i++){6v 1b[gc[i]]}gc.b9(0,qv)}F bP};J.9r=C(R,1b,gc,bP,2k){B bo=1b[2k];if(!bo){bo=1b[2k]=R.9r(2k).1q;gc.1P(2k)}if(bo>bP){bP=bo}F bP};J.Hw=C(kd){B nq=1;J.2c(kd,C(aq){if(J.3M(aq)){if(aq.1f>nq){nq=aq.1f}}});F nq};J.3D=!3D?C(1c){8F.cN(\'7w.js iq tU!\');F 1c}:C(1c){if(1c 8u Px){1c=1B.3T.7n}F 3D(1c)};J.8I=C(o7){F(o7 8u Pv)?o7:J.3D(o7).E8(0.5).z2(0.1).cs()}}},{"../J/K":39,"./1m.1B":19,"e6-3D":54}],22:[C(1j,1E,1A){\'2H 2q\';B J=1j(\'../J/K\');C ar(e,O){if(e.hj){F{x:e.x,y:e.y}}F J.ar(e,O)}C gk(O,im){B 1X=O.1b.1X;B 1o,i,j,1H,gI;1s(i=0,1H=1X.1f;i<1H;++i){if(!O.6c(i)){9e}1o=O.4z(i);1s(j=0,gI=1o.1b.1f;j<gI;++j){B 2f=1o.1b[j];if(!2f.3O.5p){im(2f)}}}}C pF(O,1Z){B 1V=[];gk(O,C(2f){if(2f.7Z(1Z.x,1Z.y)){1V.1P(2f)}});F 1V}C pX(O,1Z,9a,dt){B eC=7f.g2;B dy=[];gk(O,C(2f){if(9a&&!2f.7Z(1Z.x,1Z.y)){F}B 4P=2f.iP();B aR=dt(1Z,4P);if(aR<eC){dy=[2f];eC=aR}1a if(aR===eC){dy.1P(2f)}});F dy}C pJ(5A){B Jf=5A.3b(\'x\')!==-1;B Je=5A.3b(\'y\')!==-1;F C(gx,gv){B cg=Jf?N.4W(gx.x-gv.x):0;B Ja=Je?N.4W(gx.y-gv.y):0;F N.8T(N.2F(cg,2)+N.2F(Ja,2))}}C pA(O,e,U){B 1Z=ar(e,O);U.5A=U.5A||\'x\';B dt=pJ(U.5A);B 4H=U.9a?pF(O,1Z):pX(O,1Z,1x,dt);B 1V=[];if(!4H.1f){F[]}O.1b.1X.aQ(C(1k,1U){if(O.6c(1U)){B 1o=O.4z(1U);B 2f=1o.1b[4H[0].7d];if(2f&&!2f.3O.5p){1V.1P(2f)}}});F 1V}1E.1A={gp:{iX:C(O,e){B 1Z=ar(e,O);B 1V=[];gk(O,C(2f){if(2f.7Z(1Z.x,1Z.y)){1V.1P(2f);F 1V}});F 1V.4s(0,1)},2x:pA,K:pA,1k:C(O,e,U){B 1Z=ar(e,O);U.5A=U.5A||\'xy\';B dt=pJ(U.5A);B 4H=U.9a?pF(O,1Z):pX(O,1Z,1x,dt);if(4H.1f>0){4H=O.4z(4H[0].5H).1b}F 4H},\'x-5A\':C(O,e){F pA(O,e,{9a:1x})},1Q:C(O,e){B 1Z=ar(e,O);F pF(O,1Z)},oz:C(O,e,U){B 1Z=ar(e,O);U.5A=U.5A||\'xy\';B dt=pJ(U.5A);B dy=pX(O,1Z,U.9a,dt);if(dy.1f>1){dy.8j(C(a,b){B J0=a.iQ();B IZ=b.iQ();B e4=J0-IZ;if(e4===0){e4=a.5H-b.5H}F e4})}F dy.4s(0,1)},x:C(O,e,U){B 1Z=ar(e,O);B 4H=[];B gf=1x;gk(O,C(2f){if(2f.vb(1Z.x)){4H.1P(2f)}if(2f.7Z(1Z.x,1Z.y)){gf=1z}});if(U.9a&&!gf){4H=[]}F 4H},y:C(O,e,U){B 1Z=ar(e,O);B 4H=[];B gf=1x;gk(O,C(2f){if(2f.v9(1Z.y)){4H.1P(2f)}if(2f.7Z(1Z.x,1Z.y)){gf=1z}});if(U.9a&&!gf){4H=[]}F 4H}}}},{"../J/K":39}],23:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'./1m.1B\');1B.5K(\'3T\',{xw:1z,IU:0,IT:1z,us:[\'lj\',\'ko\',\'ld\',\'BN\',\'BM\'],bd:{hl:1l,7o:\'oz\',9a:1z,IR:L6},dw:1l,7n:\'3r(0,0,0,0.1)\',eb:\'#P3\',bA:"\'IQ P2\', \'IQ\', \'P0\', OZ-OY",6M:12,bq:\'uE\',qs:1z,1V:{},IK:{3I:{1I:0,2a:0,1R:0,1D:0}}});1E.1A=C(){B 1n=C(2m,V){I.IO(2m,V);F I};1n.1n=1n;F 1n}},{"./1m.1B":19}],24:[C(1j,1E,1A){\'2H 2q\';B J=1j(\'../J/K\');C g8(2p,1Z){F J.IN(2p,C(v){F v.1Z===1Z})}C lx(2p,4C){2p.aQ(C(v,i){v.qG=i;F v});2p.8j(C(a,b){B v0=4C?b:a;B v1=4C?a:b;F v0.8k===v1.8k?v0.qG-v1.qG:v0.8k-v1.8k});2p.aQ(C(v){6v v.qG})}1E.1A={1B:{},oW:C(O,2m){if(!O.9m){O.9m=[]}2m.8o=2m.8o||1x;2m.1Z=2m.1Z||\'1I\';2m.8k=2m.8k||0;O.9m.1P(2m)},pj:C(O,IL){B K=O.9m?O.9m.3b(IL):-1;if(K!==-1){O.9m.b9(K,1)}},j4:C(O,2m,U){B hQ=[\'8o\',\'1Z\',\'8k\'];B 1H=hQ.1f;B i=0;B 3h;1s(;i<1H;++i){3h=hQ[i];if(U.9x(3h)){2m[3h]=U[3h]}}},4J:C(O,1q,1u){if(!O){F}B IJ=O.U.IK||{};B 3I=J.U.nY(IJ.3I);B g0=3I.1D;B jl=3I.2a;B iE=3I.1I;B o4=3I.1R;B aS=g8(O.9m,\'1D\');B aZ=g8(O.9m,\'2a\');B bf=g8(O.9m,\'1I\');B b3=g8(O.9m,\'1R\');B I3=g8(O.9m,\'2E\');lx(aS,1z);lx(aZ,1x);lx(bf,1z);lx(b3,1x);B lN=1q-g0-jl;B n5=1u-iE-o4;B IF=lN/2; B IE=n5/2; B IC=(1q-IF)/(aS.1f+aZ.1f);B ID=(1u-IE)/(bf.1f+b3.1f);B bt=lN;B aX=n5;B nm=[];C IB(2B){B 2T;B 2w=2B.2w();if(2w){2T=2B.4J(2B.8o?lN:bt,ID);aX-=2T.1u}1a{2T=2B.4J(IC,aX);bt-=2T.1q}nm.1P({8Q:2w,2T:2T,2B:2B,})}J.2c(aS.7g(aZ,bf,b3),IB);B jv=0;B jA=0;B ph=0;B pG=0;J.2c(bf.7g(b3),C(xu){if(xu.jR){B g1=xu.jR();jv=N.1g(jv,g1.1D);jA=N.1g(jA,g1.2a)}});J.2c(aS.7g(aZ),C(xt){if(xt.jR){B g1=xt.jR();ph=N.1g(ph,g1.1I);pG=N.1g(pG,g1.1R)}});B 9i=g0;B e0=jl;B 9k=iE;B e2=o4;C xs(2B){B fY=J.xr(nm,C(Ix){F Ix.2B===2B});if(fY){if(2B.2w()){B nN={1D:N.1g(9i,jv),2a:N.1g(e0,jA),1I:0,1R:0};2B.4J(2B.8o?lN:bt,n5/2,nN)}1a{2B.4J(fY.2T.1q,aX)}}}J.2c(aS.7g(aZ),xs);J.2c(aS,C(2B){9i+=2B.1q});J.2c(aZ,C(2B){e0+=2B.1q});J.2c(bf.7g(b3),xs);J.2c(bf,C(2B){9k+=2B.1u});J.2c(b3,C(2B){e2+=2B.1u});C Ip(2B){B fY=J.xr(nm,C(2T){F 2T.2B===2B});B nN={1D:0,2a:0,1I:9k,1R:e2};if(fY){2B.4J(fY.2T.1q,aX,nN)}}J.2c(aS.7g(aZ),Ip);9i=g0;e0=jl;9k=iE;e2=o4;J.2c(aS,C(2B){9i+=2B.1q});J.2c(aZ,C(2B){e0+=2B.1q});J.2c(bf,C(2B){9k+=2B.1u});J.2c(b3,C(2B){e2+=2B.1u});B xp=N.1g(jv-9i,0);9i+=xp;e0+=N.1g(jA-e0,0);B xn=N.1g(ph-9k,0);9k+=xn;e2+=N.1g(pG-e2,0);B l0=1u-9k-e2;B lY=1q-9i-e0;if(lY!==bt||l0!==aX){J.2c(aS,C(2B){2B.1u=l0});J.2c(aZ,C(2B){2B.1u=l0});J.2c(bf,C(2B){if(!2B.8o){2B.1q=lY}});J.2c(b3,C(2B){if(!2B.8o){2B.1q=lY}});aX=l0;bt=lY}B 1D=g0+xp;B 1I=iE+xn;C oJ(2B){if(2B.2w()){2B.1D=2B.8o?g0:9i;2B.2a=2B.8o?1q-jl:9i+bt;2B.1I=1I;2B.1R=1I+2B.1u;1I=2B.1R}1a{2B.1D=1D;2B.2a=1D+2B.1q;2B.1I=9k;2B.1R=9k+aX;1D=2B.2a}}J.2c(aS.7g(bf),oJ);1D+=bt;1I+=aX;J.2c(aZ,oJ);J.2c(b3,oJ);O.2E={1D:9i,1I:9k,2a:9i+bt,1R:9k+aX};J.2c(I3,C(2B){2B.1D=O.2E.1D;2B.1I=O.2E.1I;2B.2a=O.2E.2a;2B.1R=O.2E.1R;2B.4J(bt,aX)})}}},{"../J/K":39}],25:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'./1m.1B\');B J=1j(\'../J/K\');1B.5K(\'3T\',{2W:{}});1E.1A={f9:[],gb:0,xx:C(2W){B p=I.f9;([]).7g(2W).aQ(C(5M){if(p.3b(5M)===-1){p.1P(5M)}});I.gb++},O7:C(2W){B p=I.f9;([]).7g(2W).aQ(C(5M){B d7=p.3b(5M);if(d7!==-1){p.b9(d7,1)}});I.gb++},dm:C(){I.f9=[];I.gb++},4h:C(){F I.f9.1f},O5:C(){F I.f9},5h:C(O,HX,2j){B aH=I.aH(O);B 1H=aH.1f;B i,9V,5M,pQ,9I;1s(i=0;i<1H;++i){9V=aH[i];5M=9V.5M;9I=5M[HX];if(2y 9I===\'C\'){pQ=[O].7g(2j||[]);pQ.1P(9V.U);if(9I.4m(5M,pQ)===1x){F 1x}}}F 1z},aH:C(O){B 7E=O.$2W||(O.$2W={});if(7E.id===I.gb){F 7E.aH}B 2W=[];B aH=[];B V=(O&&O.V)||{};B U=(V.U&&V.U.2W)||{};I.f9.7g(V.2W||[]).aQ(C(5M){B d7=2W.3b(5M);if(d7!==-1){F}B id=5M.id;B 1J=U[id];if(1J===1x){F}if(1J===1z){1J=J.4o(1B.3T.2W[id])}2W.1P(5M);aH.1P({5M:5M,U:1J||{}})});7E.aH=aH;7E.id=I.gb;F aH},HQ:C(O){6v O.$2W}}},{"../J/K":39,"./1m.1B":19}],26:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'./1m.1B\');B 5z=1j(\'./1m.2f\');B J=1j(\'../J/K\');B cc=1j(\'./1m.1w\');1B.5K(\'1r\',{3a:1z,1Z:\'1D\',2S:1x,4B:{3a:1z,3D:\'3r(0, 0, 0, 0.1)\',4y:1,Gi:1z,Gy:1z,k0:1z,gy:10,H3:1,H2:\'3r(0,0,0,0.25)\',H1:[],H0:0.0,d3:1x,5R:[],5S:0.0},aT:{3a:1x,yo:\'\',8H:1.2,3I:{1I:4,1R:4}},1w:{fZ:1x,HE:0,s2:50,wI:1x,3I:0,4C:1x,3a:1z,sk:1z,wO:0,wF:0,3g:cc.kC.1M,6F:{},5c:{}}});C wY(1w){B 1T=[];B i,1H;1s(i=0,1H=1w.1f;i<1H;++i){1T.1P(1w[i].2x)}F 1T}C wH(1r,K,d3){B gj=1r.8O(K);if(d3){if(K===0){gj-=(1r.8O(1)-gj)/2}1a{gj-=(gj-1r.8O(K-1))/2}}F gj}1E.1A=C(1n){C wV(2u,6b,3z){F J.3M(6b)?J.kH(2u,3z,6b):2u.9r(6b).1q}C gB(U){B 1N=J.1N;B 3C=1B.3T;B 1S=1N(U.3c,3C.6M);B 3e=1N(U.6Z,3C.bq);B kG=1N(U.7s,3C.bA);F{1S:1S,3e:3e,kG:kG,3z:J.8L(1S,3e,kG)}}C wB(U){F J.U.oN(J.1N(U.8H,1.2),J.1N(U.3c,1B.3T.6M))}1n.al=5z.3f({jR:C(){B me=I;F{1D:me.6J||0,1I:me.8J||0,2a:me.7I||0,1R:me.a7||0}},ka:C(){F I.fv},sj:C(){B 1w=I.U.1w;if(1w.6F===1x){1w.6F={3a:1x}}if(1w.5c===1x){1w.5c={3a:1x}}1s(B 1v in 1w){if(1v!==\'5c\'&&1v!==\'6F\'){if(2y 1w.6F[1v]===\'1C\'){1w.6F[1v]=1w[1v]}if(2y 1w.5c[1v]===\'1C\'){1w.5c[1v]=1w[1v]}}}},bH:C(){J.3g(I.U.bH,[I])},4J:C(5I,6T,7a){B me=I;B i,1H,1T,2x,1w,6b;me.bH();me.5I=5I;me.6T=6T;me.7a=J.3f({1D:0,2a:0,1I:0,1R:0},7a);me.mR=me.mR||{};me.eF();me.fg();me.eM();me.xa();me.ep();me.x9();me.x8();1w=me.gJ()||[];me.x7();me.x6();1T=me.cG(1w)||me.1w;me.x5();me.1w=1T;1s(i=0,1H=1T.1f;i<1H;++i){2x=1T[i];6b=1w[i];if(!6b){1w.1P(6b={2x:2x,5c:1x})}1a{6b.2x=2x}}me.fv=1w;me.x4();me.HF();me.wZ();me.eQ();me.cn();me.eT();me.dh();F me.2T},dh:C(){J.3g(I.U.dh,[I])},eF:C(){J.3g(I.U.eF,[I])},fg:C(){B me=I;if(me.2w()){me.1q=me.5I;me.1D=0;me.2a=me.1q}1a{me.1u=me.6T;me.1I=0;me.1R=me.1u}me.6J=0;me.8J=0;me.7I=0;me.a7=0},eM:C(){J.3g(I.U.eM,[I])},xa:C(){J.3g(I.U.xa,[I])},ep:J.3o,x9:C(){J.3g(I.U.x9,[I])},x8:C(){J.3g(I.U.x8,[I])},gJ:J.3o,x7:C(){J.3g(I.U.x7,[I])},x6:C(){J.3g(I.U.x6,[I])},cG:C(){B me=I;B 2z=me.U.1w;me.1w=me.1w.9Q(2z.I4||2z.3g,I)},x5:C(){J.3g(I.U.x5,[I])},x4:C(){J.3g(I.U.x4,[I])},HF:C(){B me=I;B 2u=me.R;B 2z=me.U.1w;B 1T=wY(me.fv);B 8d=gB(2z);2u.3z=8d.3z;B 9E=2z.HE||0;if(1T.1f&&me.U.3a&&me.2w()){B mx=J.kH(2u,8d.3z,1T,me.mR);B hb=mx;B a2,ev;B kR=me.8O(1)-me.8O(0)-6;aW(hb>kR&&9E<2z.s2){B 8x=J.hs(9E);a2=N.7L(8x);ev=N.6S(8x);if(ev*mx>me.6T){9E--;4e}9E++;hb=a2*mx}}me.9E=9E},wZ:C(){J.3g(I.U.wZ,[I])},eQ:C(){J.3g(I.U.eQ,[I])},cn:C(){B me=I;B 2T=me.2T={1q:0,1u:0};B 1T=wY(me.fv);B 1J=me.U;B 2z=1J.1w;B mG=1J.aT;B cK=1J.4B;B 3a=1J.3a;B 2w=me.2w();B 8d=gB(2z);B gy=1J.4B.gy;if(2w){2T.1q=me.oh()?me.5I-me.7a.1D-me.7a.2a:me.5I}1a{2T.1q=3a&&cK.k0?gy:0}if(2w){2T.1u=3a&&cK.k0?gy:0}1a{2T.1u=me.6T}if(mG.3a&&3a){B Hz=wB(mG);B fh=J.U.nY(mG.3I);B wX=Hz+fh.1u;if(2w){2T.1u+=wX}1a{2T.1q+=wX}}if(2z.3a&&3a){B gs=J.kH(me.R,8d.3z,1T,me.mR);B wW=J.Hw(1T);B gq=8d.1S*0.5;B eo=me.U.1w.3I;if(2w){me.He=gs;B 8x=J.hs(me.9E);B a2=N.7L(8x);B ev=N.6S(8x);B Hu=(ev*gs)+(8d.1S*wW)+(gq*(wW-1))+gq;2T.1u=N.1h(me.6T,2T.1u+Hu+eo);me.R.3z=8d.3z;B wU=wV(me.R,1T[0],8d.3z);B wT=wV(me.R,1T[1T.1f-1],8d.3z);if(me.9E!==0){me.6J=1J.1Z===\'1R\'?(a2*wU)+3:(a2*gq)+3;me.7I=1J.1Z===\'1R\'?(a2*gq)+3:(a2*wT)+3}1a{me.6J=wU/2+3; me.7I=wT/2+3}}1a{if(2z.wI){gs=0}1a{gs+=eo+gq}2T.1q=N.1h(me.5I,2T.1q+gs);me.8J=8d.1S/2;me.a7=8d.1S/2}}me.Ho();me.1q=2T.1q;me.1u=2T.1u},Ho:C(){B me=I;if(me.7a){me.6J=N.1g(me.6J-me.7a.1D,0);me.8J=N.1g(me.8J-me.7a.1I,0);me.7I=N.1g(me.7I-me.7a.2a,0);me.a7=N.1g(me.a7-me.7a.1R,0)}},eT:C(){J.3g(I.U.eT,[I])},2w:C(){F I.U.1Z===\'1I\'||I.U.1Z===\'1R\'},oh:C(){F(I.U.8o)},5j:C(5b){if(J.bp(5b)){F 6e}if(2y 5b===\'3N\'&&!8A(5b)){F 6e}if(5b){if(I.2w()){if(5b.x!==1C){F I.5j(5b.x)}}1a if(5b.y!==1C){F I.5j(5b.y)}}F 5b},dC:J.3o,78:J.3o,kb:J.3o,8O:C(K){B me=I;B 2S=me.U.2S;if(me.2w()){B hS=me.1q-(me.6J+me.7I);B kR=hS/N.1g((me.fv.1f-(2S?0:1)),1);B 5a=(kR*K)+me.6J;if(2S){5a+=kR/2}B gt=me.1D+N.2M(5a);gt+=me.oh()?me.7a.1D:0;F gt}B Hm=me.1u-(me.8J+me.a7);F me.1I+(K*(Hm/(me.fv.1f-1)))},Hl:C(wQ){B me=I;if(me.2w()){B hS=me.1q-(me.6J+me.7I);B Hk=(hS*wQ)+me.6J;B gt=me.1D+N.2M(Hk);gt+=me.oh()?me.7a.1D:0;F gt}F me.1I+(wQ*me.1u)},fC:C(){F I.78(I.Hf())},Hf:C(){B me=I;B 1h=me.1h;B 1g=me.1g;F me.fZ?0:1h<0&&1g<0?1g:1h>0&&1g>0?1h:0},H8:C(1w){B ce;B me=I;B 2w=me.2w();B 89=me.U.1w.6F;B di=1w.1f;B qj=J.hs(me.9E);B a2=N.7L(qj);B wP=me.He*a2;B 8M=[];B i,6b,wN;B 88;if(89.dR){88=89.dR}if(2w){ce=1x;if((wP+89.wO)*di>(me.1q-(me.6J+me.7I))){ce=1+N.4p(((wP+89.wO)*di)/(me.1q-(me.6J+me.7I)))}if(88&&di>88){ce=N.1g(ce,N.4p(di/88))}}1s(i=0;i<di;i++){6b=1w[i];wN=(ce>1&&i%ce>0)||(i%ce===0&&i+ce>=di);if(wN&&i!==di-1){6v 6b.2x}8M.1P(6b)}F 8M},5C:C(2E){B me=I;B U=me.U;if(!U.3a){F}B 2u=me.R;B 3C=1B.3T;B 89=U.1w.6F;B wL=U.1w.5c||89;B 4B=U.4B;B aT=U.aT;B jk=me.9E!==0;B 2w=me.2w();B 1w=89.sk?me.H8(me.ka()):me.ka();B nJ=J.1N(89.bQ,3C.eb);B 8d=gB(89);B Gt=J.1N(wL.bQ,3C.eb);B Gu=gB(wL);B tl=4B.k0?4B.gy:0;B Gk=J.1N(aT.bQ,3C.eb);B Gj=gB(aT);B fh=J.U.nY(aT.3I);B qj=J.hs(me.9E);B wC=[];B bK=me.U.4B.4y;B GO=U.1Z===\'2a\'?me.2a:me.2a-bK-tl;B GN=U.1Z===\'2a\'?me.2a+tl:me.2a;B GW=U.1Z===\'1R\'?me.1I+bK:me.1R-tl-bK;B GV=U.1Z===\'1R\'?me.1I+bK+tl:me.1R+bK;J.2c(1w,C(6b,K){if(J.bp(6b.2x)){F}B 2x=6b.2x;B 4y,gK,5R,5S;if(K===me.HO&&U.2S===4B.d3){4y=4B.H3;gK=4B.H2;5R=4B.H1;5S=4B.H0}1a{4y=J.2O(4B.4y,K);gK=J.2O(4B.3D,K);5R=J.1N(4B.5R,3C.5R);5S=J.1N(4B.5S,3C.5S)}B gS,gW,gX,gY,x1,y1,x2,y2,h2,fl;B 6X=\'dZ\';B 7O=\'dZ\';B eo=89.3I;if(2w){B wJ=tl+eo;if(U.1Z===\'1R\'){7O=!jk?\'1I\':\'dZ\';6X=!jk?\'4P\':\'2a\';fl=me.1I+wJ}1a{7O=!jk?\'1R\':\'dZ\';6X=!jk?\'4P\':\'1D\';fl=me.1R-wJ}B pN=wH(me,K,4B.d3&&1w.1f>1);if(pN<me.1D){gK=\'3r(0,0,0,0)\'}pN+=J.cA(4y);h2=me.8O(K)+89.wF;gS=gX=x1=x2=pN;gW=GW;gY=GV;y1=2E.1I;y2=2E.1R+bK}1a{B ff=U.1Z===\'1D\';B jm;if(89.wI){6X=ff?\'1D\':\'2a\';jm=eo}1a{6X=ff?\'2a\':\'1D\';jm=tl+eo}h2=ff?me.2a-jm:me.1D+jm;B q7=wH(me,K,4B.d3&&1w.1f>1);if(q7<me.1I){gK=\'3r(0,0,0,0)\'}q7+=J.cA(4y);fl=me.8O(K)+89.wF;gS=GO;gX=GN;x1=2E.1D;x2=2E.2a+bK;gW=gY=y1=y2=q7}wC.1P({gS:gS,gW:gW,gX:gX,gY:gY,x1:x1,y1:y1,x2:x2,y2:y2,h2:h2,fl:fl,GI:4y,GH:gK,GF:5R,GE:5S,8X:-1*qj,2x:2x,5c:6b.5c,7O:7O,6X:6X})});J.2c(wC,C(67){if(4B.3a){2u.ed();2u.4y=67.GI;2u.73=67.GH;if(2u.hF){2u.hF(67.GF);2u.jJ=67.GE}2u.5L();if(4B.k0){2u.5u(67.gS,67.gW);2u.3x(67.gX,67.gY)}if(4B.Gy){2u.5u(67.x1,67.y1);2u.3x(67.x2,67.y2)}2u.7T();2u.dQ()}if(89.3a){2u.ed();2u.nv(67.h2,67.fl);2u.iR(67.8X);2u.3z=67.5c?Gu.3z:8d.3z;2u.5g=67.5c?Gt:nJ;2u.7O=67.7O;2u.6X=67.6X;B 2x=67.2x;if(J.3M(2x)){B iM=2x.1f;B 8H=8d.1S*1.5;B y=me.2w()?0:-8H*(iM-1)/2;1s(B i=0;i<iM;++i){2u.7K(\'\'+2x[i],0,y);y+=8H}}1a{2u.7K(2x,0,0)}2u.dQ()}});if(aT.3a){B mv;B mw;B 8X=0;B kU=wB(aT)/2;if(2w){mv=me.1D+((me.2a-me.1D)/2); mw=U.1Z===\'1R\'?me.1R-kU-fh.1R:me.1I+kU+fh.1I}1a{B ff=U.1Z===\'1D\';mv=ff?me.1D+kU+fh.1I:me.2a-kU-fh.1I;mw=me.1I+((me.1R-me.1I)/2);8X=ff?-0.5*N.PI:0.5*N.PI}2u.ed();2u.nv(mv,mw);2u.iR(8X);2u.6X=\'4P\';2u.7O=\'dZ\';2u.5g=Gk;2u.3z=Gj.3z;2u.7K(aT.yo,0,0);2u.dQ()}if(4B.Gi){2u.4y=J.2O(4B.4y,0);2u.73=J.2O(4B.3D,0);B x1=me.1D;B x2=me.2a+bK;B y1=me.1I;B y2=me.1R+bK;B cA=J.cA(2u.4y);if(2w){y1=y2=U.1Z===\'1I\'?me.1R:me.1I;y1+=cA;y2+=cA}1a{x1=x2=U.1Z===\'1D\'?me.2a:me.1D;x1+=cA;x2+=cA}2u.5L();2u.5u(x1,y1);2u.3x(x2,y2);2u.7T()}}})}},{"../J/K":39,"./1m.1B":19,"./1m.2f":20,"./1m.1w":28}],27:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'./1m.1B\');B J=1j(\'../J/K\');B 4V=1j(\'./1m.4V\');1E.1A=C(1n){1n.9L={n0:{},1B:{},i2:C(1G,Ge,Gd){I.n0[1G]=Ge;I.1B[1G]=J.4o(Gd)},Gc:C(1G){F I.n0.9x(1G)?I.n0[1G]:1C},wx:C(1G){F I.1B.9x(1G)?J.9d({},[1B.1r,I.1B[1G]]):{}},Mf:C(1G,G9){B me=I;if(me.1B.9x(1G)){me.1B[1G]=J.3f(me.1B[1G],G9)}},G8:C(O){J.2c(O.3F,C(1r){1r.8o=1r.U.8o;1r.1Z=1r.U.1Z;1r.8k=1r.U.8k;4V.oW(O,1r)})}}}},{"../J/K":39,"./1m.1B":19,"./1m.4V":24}],28:[C(1j,1E,1A){\'2H 2q\';B J=1j(\'../J/K\');1E.1A={kC:{1M:C(1c){F J.3M(1c)?1c:\'\'+1c},6D:C(9S,K,1w){B 8b=1w.1f>3?1w[2]-1w[1]:1w[1]-1w[0];if(N.4W(8b)>1){if(9S!==N.4p(9S)){8b=9S-N.4p(9S)}}B G7=J.4T(N.4W(8b));B n4=\'\';if(9S!==0){B n2=-1*N.4p(G7);n2=N.1g(N.1h(n2,20),0);n4=9S.qm(n2)}1a{n4=\'0\'}F n4},kw:C(9S,K,1w){B ng=9S/(N.2F(10,N.4p(J.4T(9S))));if(9S===0){F\'0\'}1a if(ng===1||ng===2||ng===5||K===0||K===1w.1f-1){F 9S.M7()}F\'\'}}}},{"../J/K":39}],29:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'./1m.1B\');B 5z=1j(\'./1m.2f\');B J=1j(\'../J/K\');1B.5K(\'3T\',{dg:{d4:1z,1p:1l,7o:\'oz\',1Z:\'DT\',9a:1z,1Y:\'3r(0,0,0,0.8)\',FO:\'ts\',dx:2,kj:6,q5:\'#k8\',FN:\'1D\',dF:2,kv:\'#k8\',FP:\'1D\',FM:\'ts\',iG:2,lX:6,mi:\'#k8\',FL:\'1D\',jr:6,jo:6,c6:2,5e:5,b0:6,FK:\'#k8\',kz:1z,2e:\'3r(0,0,0,0)\',1K:0,5r:{oO:J.3o,3L:C(6R,1b){B 3L=\'\';B 1T=1b.1T;B wr=1T?1T.1f:0;if(6R.1f>0){B 2m=6R[0];if(2m.du){3L=2m.du}1a if(wr>0&&2m.K<wr){3L=1T[2m.K]}}F 3L},oT:J.3o,fH:J.3o,Fs:J.3o,2x:C(7p,1b){B 2x=1b.1X[7p.1U].2x||\'\';if(2x){2x+=\': \'}2x+=7p.eN;F 2x},Fh:C(7p,O){B 1o=O.4z(7p.1U);B FZ=1o.1b[7p.K];B 5G=FZ.3O;F{2e:5G.2e,1Y:5G.1Y}},Ff:C(){F I.7F.kv},Fr:J.3o,fB:J.3o,oX:J.3o,9D:J.3o,p8:J.3o}}});1E.1A=C(1n){C b6(FY,4Q){B 3D=J.3D(FY);F 3D.2t(4Q*3D.2t()).fx()}C bB(3Q,iF){if(iF){if(J.3M(iF)){5y.2L.1P.4m(3Q,iF)}1a{3Q.1P(iF)}}F 3Q}C Fk(2f){B bE=2f.nF;B 6W=2f.nH||2f.i9;B K=2f.7d;B 1U=2f.5H;F{du:bE?bE.dC(K,1U):\'\',eN:6W?6W.dC(K,1U):\'\',K:K,1U:1U,x:2f.2N.x,y:2f.2N.y}}C wi(4w){B 3C=1B.3T;B 1N=J.1N;F{jo:4w.jo,jr:4w.jr,4x:4w.4x,4F:4w.4F,kv:4w.kv,w3:1N(4w.LS,3C.bA),w4:1N(4w.LR,3C.bq),EJ:4w.FP,6P:1N(4w.6P,3C.6M),dF:4w.dF,q5:4w.q5,w8:1N(4w.LP,3C.bA),w9:1N(4w.FO,3C.bq),br:1N(4w.br,3C.6M),EQ:4w.FN,dx:4w.dx,kj:4w.kj,mi:4w.mi,vS:1N(4w.LM,3C.bA),vT:1N(4w.FM,3C.bq),dI:1N(4w.dI,3C.6M),Es:4w.FL,iG:4w.iG,lX:4w.lX,5e:4w.5e,b0:4w.b0,1Y:4w.1Y,4Q:0,EB:4w.FK,kz:4w.kz,2e:4w.2e,1K:4w.1K}}C F6(4S,1i){B R=4S.6q.R;B 1u=1i.jr*2;B 1q=0;B cj=1i.cj;B j6=cj.hC(C(4h,7i){F 4h+7i.gz.1f+7i.4E.1f+7i.fO.1f},0);j6+=1i.fH.1f+1i.fB.1f;B j5=1i.3L.1f;B j9=1i.9D.1f;B br=1i.br;B 6P=1i.6P;B dI=1i.dI;1u+=j5*br;1u+=j5?(j5-1)*1i.dx:0;1u+=j5?1i.kj:0;1u+=j6*6P;1u+=j6?(j6-1)*1i.dF:0;1u+=j9?1i.lX:0;1u+=j9*(dI);1u+=j9?(j9-1)*1i.iG:0;B og=0;B eL=C(3u){1q=N.1g(1q,R.9r(3u).1q+og)};R.3z=J.8L(br,1i.w9,1i.w8);J.2c(1i.3L,eL);R.3z=J.8L(6P,1i.w4,1i.w3);J.2c(1i.fH.7g(1i.fB),eL);og=1i.kz?(6P+2):0;J.2c(cj,C(7i){J.2c(7i.gz,eL);J.2c(7i.4E,eL);J.2c(7i.fO,eL)});og=0;R.3z=J.8L(dI,1i.vT,1i.vS);J.2c(1i.9D,eL);1q+=2*1i.jo;F{1q:1q,1u:1u}}C F5(4S,1S){B 1i=4S.2N;B O=4S.6q;B 2E=4S.6q.2E;B 4x=\'4P\';B 4F=\'4P\';if(1i.y<1S.1u){4F=\'1I\'}1a if(1i.y>(O.1u-1S.1u)){4F=\'1R\'}B lf,rf;B wm,wl;B yf;B wn=(2E.1D+2E.2a)/2;B FC=(2E.1I+2E.1R)/2;if(4F===\'4P\'){lf=C(x){F x<=wn};rf=C(x){F x>wn}}1a{lf=C(x){F x<=(1S.1q/2)};rf=C(x){F x>=(O.1q-(1S.1q/2))}}wm=C(x){F x+1S.1q+1i.5e+1i.c6>O.1q};wl=C(x){F x-1S.1q-1i.5e-1i.c6<0};yf=C(y){F y<=FC?\'1I\':\'1R\'};if(lf(1i.x)){4x=\'1D\';if(wm(1i.x)){4x=\'4P\';4F=yf(1i.y)}}1a if(rf(1i.x)){4x=\'2a\';if(wl(1i.x)){4x=\'4P\';4F=yf(1i.y)}}B 1J=4S.7F;F{4x:1J.4x?1J.4x:4x,4F:1J.4F?1J.4F:4F}}C F4(vm,1S,dn,O){B x=vm.x;B y=vm.y;B 5e=vm.5e;B c6=vm.c6;B b0=vm.b0;B 4x=dn.4x;B 4F=dn.4F;B jj=5e+c6;B wk=b0+c6;if(4x===\'2a\'){x-=1S.1q}1a if(4x===\'4P\'){x-=(1S.1q/2);if(x+1S.1q>O.1q){x=O.1q-1S.1q}if(x<0){x=0}}if(4F===\'1I\'){y+=jj}1a if(4F===\'1R\'){y-=1S.1u+jj}1a{y-=(1S.1u/2)}if(4F===\'4P\'){if(4x===\'1D\'){x+=jj}1a if(4x===\'2a\'){x-=jj}}1a if(4x===\'1D\'){x-=wk}1a if(4x===\'2a\'){x+=wk}F{x:x,y:y}}1n.op=5z.3f({6I:C(){I.2N=wi(I.7F);I.jH=[]},Fd:C(){B me=I;B 1J=me.7F;B 5r=1J.5r;B oO=5r.oO.4m(me,3d);B 3L=5r.3L.4m(me,3d);B oT=5r.oT.4m(me,3d);B 4E=[];4E=bB(4E,oO);4E=bB(4E,3L);4E=bB(4E,oT);F 4E},Fc:C(){B 4E=I.7F.5r.fH.4m(I,3d);F J.3M(4E)?4E:4E!==1C?[4E]:[]},Fb:C(6R,1b){B me=I;B 5r=me.7F.5r;B wj=[];J.2c(6R,C(7p){B 7i={gz:[],4E:[],fO:[]};bB(7i.gz,5r.Fs.2n(me,7p,1b));bB(7i.4E,5r.2x.2n(me,7p,1b));bB(7i.fO,5r.Fr.2n(me,7p,1b));wj.1P(7i)});F wj},Fa:C(){B 4E=I.7F.5r.fB.4m(I,3d);F J.3M(4E)?4E:4E!==1C?[4E]:[]},F9:C(){B me=I;B 5r=me.7F.5r;B oX=5r.oX.4m(me,3d);B 9D=5r.9D.4m(me,3d);B p8=5r.p8.4m(me,3d);B 4E=[];4E=bB(4E,oX);4E=bB(4E,9D);4E=bB(4E,p8);F 4E},4J:C(7e){B me=I;B 1J=me.7F;B cl=me.2N;B 1i=me.2N=wi(1J);B 91=me.jI;B 1b=me.9g;B dn={4x:cl.4x,4F:cl.4F};B pM={x:cl.x,y:cl.y};B 7U={1q:cl.1q,1u:cl.1u};B 9M={x:cl.wc,y:cl.F1};B i,5T;if(91.1f){1i.4Q=1;B hy=[];B kJ=[];9M=1n.op.DU[1J.1Z].2n(me,91,me.DX);B 6R=[];1s(i=0,5T=91.1f;i<5T;++i){6R.1P(Fk(91[i]))}if(1J.ah){6R=6R.ah(C(a){F 1J.ah(a,1b)})}if(1J.Fi){6R=6R.8j(C(a,b){F 1J.Fi(a,b,1b)})}J.2c(6R,C(7p){hy.1P(1J.5r.Fh.2n(me,7p,me.6q));kJ.1P(1J.5r.Ff.2n(me,7p,me.6q))});1i.3L=me.Fd(6R,1b);1i.fH=me.Fc(6R,1b);1i.cj=me.Fb(6R,1b);1i.fB=me.Fa(6R,1b);1i.9D=me.F9(6R,1b);1i.x=N.2M(9M.x);1i.y=N.2M(9M.y);1i.c6=1J.c6;1i.hy=hy;1i.kJ=kJ;1i.RE=6R;7U=F6(I,1i);dn=F5(I,7U);pM=F4(1i,7U,dn,me.6q)}1a{1i.4Q=0}1i.4x=dn.4x;1i.4F=dn.4F;1i.x=pM.x;1i.y=pM.y;1i.1q=7U.1q;1i.1u=7U.1u;1i.wc=9M.x;1i.F1=9M.y;me.2N=1i;if(7e&&1J.1p){1J.1p.2n(me,1i)}F me},ja:C(k6,1S){B R=I.6q.R;B vm=I.3O;B ej=I.EY(k6,1S,vm);R.3x(ej.x1,ej.y1);R.3x(ej.x2,ej.y2);R.3x(ej.x3,ej.y3)},EY:C(k6,1S,vm){B x1,x2,x3,y1,y2,y3;B 5e=vm.5e;B b0=vm.b0;B 4x=vm.4x;B 4F=vm.4F;B k7=k6.x;B q0=k6.y;B 1q=1S.1q;B 1u=1S.1u;if(4F===\'4P\'){y2=q0+(1u/2);if(4x===\'1D\'){x1=k7;x2=x1-5e;x3=x1;y1=y2+5e;y3=y2-5e}1a{x1=k7+1q;x2=x1+5e;x3=x1;y1=y2-5e;y3=y2+5e}}1a{if(4x===\'1D\'){x2=k7+b0+(5e);x1=x2-5e;x3=x2+5e}1a if(4x===\'2a\'){x2=k7+1q-b0-5e;x1=x2-5e;x3=x2+5e}1a{x2=vm.wc;x1=x2-5e;x3=x2+5e}if(4F===\'1I\'){y1=q0;y2=y1-5e;y3=y1}1a{y1=q0+1u;y2=y1+5e;y3=y1;B lv=x3;x3=x1;x1=lv}}F{x1:x1,x2:x2,x3:x3,y1:y1,y2:y2,y3:y3}},E7:C(pt,vm,R,4Q){B 3L=vm.3L;if(3L.1f){R.6X=vm.EQ;R.7O=\'1I\';B br=vm.br;B dx=vm.dx;R.5g=b6(vm.q5,4Q);R.3z=J.8L(br,vm.w9,vm.w8);B i,5T;1s(i=0,5T=3L.1f;i<5T;++i){R.7K(3L[i],pt.x,pt.y);pt.y+=br+dx;if(i+1===3L.1f){pt.y+=vm.kj-dx}}}},E6:C(pt,vm,R,4Q){B 6P=vm.6P;B dF=vm.dF;B cj=vm.cj;R.6X=vm.EJ;R.7O=\'1I\';R.3z=J.8L(6P,vm.w4,vm.w3);B lZ=0;B hD=C(3u){R.7K(3u,pt.x+lZ,pt.y);pt.y+=6P+dF};R.5g=b6(vm.kv,4Q);J.2c(vm.fH,hD);B vX=vm.kz;lZ=vX?(6P+2):0;J.2c(cj,C(7i,i){B vW=b6(vm.kJ[i],4Q);R.5g=vW;J.2c(7i.gz,hD);J.2c(7i.4E,C(3u){if(vX){R.5g=b6(vm.EB,4Q);R.iS(pt.x,pt.y,6P,6P);R.4y=1;R.73=b6(vm.hy[i].2e,4Q);R.tC(pt.x,pt.y,6P,6P);R.5g=b6(vm.hy[i].1Y,4Q);R.iS(pt.x+1,pt.y+1,6P-2,6P-2);R.5g=vW}hD(3u)});J.2c(7i.fO,hD)});lZ=0;J.2c(vm.fB,hD);pt.y-=dF},E5:C(pt,vm,R,4Q){B 9D=vm.9D;if(9D.1f){pt.y+=vm.lX;R.6X=vm.Es;R.7O=\'1I\';R.5g=b6(vm.mi,4Q);R.3z=J.8L(vm.dI,vm.vT,vm.vS);J.2c(9D,C(3u){R.7K(3u,pt.x,pt.y);pt.y+=vm.dI+vm.iG})}},Eb:C(pt,vm,R,7U,4Q){R.5g=b6(vm.1Y,4Q);R.73=b6(vm.2e,4Q);R.4y=vm.1K;B 4x=vm.4x;B 4F=vm.4F;B x=pt.x;B y=pt.y;B 1q=7U.1q;B 1u=7U.1u;B 2b=vm.b0;R.5L();R.5u(x+2b,y);if(4F===\'1I\'){I.ja(pt,7U)}R.3x(x+1q-2b,y);R.e5(x+1q,y,x+1q,y+2b);if(4F===\'4P\'&&4x===\'2a\'){I.ja(pt,7U)}R.3x(x+1q,y+1u-2b);R.e5(x+1q,y+1u,x+1q-2b,y+1u);if(4F===\'1R\'){I.ja(pt,7U)}R.3x(x+2b,y+1u);R.e5(x,y+1u,x,y+1u-2b);if(4F===\'4P\'&&4x===\'1D\'){I.ja(pt,7U)}R.3x(x,y+2b);R.e5(x,y,x+2b,y);R.7u();R.2K();if(vm.1K>0){R.7T()}},5C:C(){B R=I.6q.R;B vm=I.3O;if(vm.4Q===0){F}B 7U={1q:vm.1q,1u:vm.1u};B pt={x:vm.x,y:vm.y};B 4Q=N.4W(vm.4Q<1e-3)?0:vm.4Q;B Ec=vm.3L.1f||vm.fH.1f||vm.cj.1f||vm.fB.1f||vm.9D.1f;if(I.7F.d4&&Ec){I.Eb(pt,vm,R,7U,4Q);pt.x+=vm.jo;pt.y+=vm.jr;I.E7(pt,vm,R,4Q);I.E6(pt,vm,R,4Q);I.E5(pt,vm,R,4Q)}},eu:C(e){B me=I;B U=me.7F;B 7e=1x;me.jH=me.jH||[];if(e.1G===\'ko\'){me.jI=[]}1a{me.jI=me.6q.vJ(e,U.7o,U)}7e=!J.nl(me.jI,me.jH);if(7e){me.jH=me.jI;if(U.d4||U.1p){me.DX={x:e.x,y:e.y};me.4J(1z);me.b8()}}F 7e}});1n.op.DU={DT:C(1V){if(!1V.1f){F 1x}B i,5T;B x=0;B y=0;B 4h=0;1s(i=0,5T=1V.1f;i<5T;++i){B el=1V[i];if(el&&el.vE()){B 4l=el.9M();x+=4l.x;y+=4l.y;++4h}}F{x:N.2M(x/4h),y:N.2M(y/4h)}},oz:C(1V,oA){B x=oA.x;B y=oA.y;B eC=7f.g2;B i,5T,oK;1s(i=0,5T=1V.1f;i<5T;++i){B el=1V[i];if(el&&el.vE()){B 4P=el.iP();B d=J.DQ(oA,4P);if(d<eC){eC=d;oK=el}}}if(oK){B tp=oK.9M();x=tp.x;y=tp.y}F{x:x,y:y}}}}},{"../J/K":39,"./1m.1B":19,"./1m.2f":20}],30:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'../1m/1m.1B\');B 5z=1j(\'../1m/1m.2f\');B J=1j(\'../J/K\');1B.5K(\'3T\',{1V:{3V:{1Y:1B.3T.7n,2e:\'#k8\',1K:2}}});1E.1A=5z.3f({vc:C(6d){B vm=I.3O;if(vm){F(N.2F(6d-vm.x,2)<N.2F(vm.2b+vm.bX,2))}F 1x},7Z:C(DJ,DI){B vm=I.3O;if(vm){B vC=J.DK(vm,{x:DJ,y:DI});B 4g=vC.4g;B aR=vC.aR;B 3v=vm.3v;B 4M=vm.4M;aW(4M<3v){4M+=2.0*N.PI}aW(4g>4M){4g-=2.0*N.PI}aW(4g<3v){4g+=2.0*N.PI}B DF=(4g>=3v&&4g<=4M);B DE=(aR>=vm.7t&&aR<=vm.5D);F(DF&&DE)}F 1x},iP:C(){B vm=I.3O;B vA=(vm.3v+vm.4M)/2;B vz=(vm.7t+vm.5D)/2;F{x:vm.x+N.7L(vA)*vz,y:vm.y+N.6S(vA)*vz}},iQ:C(){B vm=I.3O;F N.PI*((vm.4M-vm.3v)/(2*N.PI))*(N.2F(vm.5D,2)-N.2F(vm.7t,2))},9M:C(){B vm=I.3O;B vy=vm.3v+((vm.4M-vm.3v)/2);B vx=(vm.5D-vm.7t)/2+vm.7t;F{x:vm.x+(N.7L(vy)*vx),y:vm.y+(N.6S(vy)*vx)}},5C:C(){B R=I.6q.R;B vm=I.3O;B sA=vm.3v;B eA=vm.4M;R.5L();R.3V(vm.x,vm.y,vm.5D,sA,eA);R.3V(vm.x,vm.y,vm.7t,eA,sA,1z);R.7u();R.73=vm.2e;R.4y=vm.1K;R.5g=vm.1Y;R.2K();R.jN=\'PH\';if(vm.1K){R.7T()}}})},{"../1m/1m.1B":19,"../1m/1m.2f":20,"../J/K":39}],31:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'../1m/1m.1B\');B 5z=1j(\'../1m/1m.2f\');B J=1j(\'../J/K\');B 3C=1B.3T;1B.5K(\'3T\',{1V:{3u:{5o:0.4,1Y:3C.7n,1K:3,2e:3C.7n,7W:\'PG\',5R:[],5S:0.0,7Y:\'PF\',Dt:1z,2K:1z,}}});1E.1A=5z.3f({5C:C(){B me=I;B vm=me.3O;B R=me.6q.R;B bi=vm.bi;B 3w=me.jq.4s();B i7=3C.1V.3u;B dX=-1;B K,8W,4O,dU;if(me.tR&&3w.1f){3w.1P(3w[0])}R.ed();R.m5=vm.7W||i7.7W;if(R.hF){R.hF(vm.5R||i7.5R)}R.jJ=vm.5S||i7.5S;R.jN=vm.7Y||i7.7Y;R.4y=vm.1K||i7.1K;R.73=vm.2e||3C.7n;R.5L();dX=-1;1s(K=0;K<3w.1f;++K){8W=3w[K];4O=J.pL(3w,K);dU=8W.3O;if(K===0){if(!dU.5p){R.5u(dU.x,dU.y);dX=K}}1a{4O=dX===-1?4O:3w[dX];if(!dU.5p){if((dX!==(K-1)&&!bi)||dX===-1){R.5u(dU.x,dU.y)}1a{J.1W.3x(R,4O.3O,8W.3O)}dX=K}}}R.7T();R.dQ()}})},{"../1m/1m.1B":19,"../1m/1m.2f":20,"../J/K":39}],32:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'../1m/1m.1B\');B 5z=1j(\'../1m/1m.2f\');B J=1j(\'../J/K\');B 7n=1B.3T.7n;1B.5K(\'3T\',{1V:{1Q:{2b:3,6C:\'Py\',1Y:7n,2e:7n,1K:1,6N:1,bX:4,8Y:1}}});C vu(6d){B vm=I.3O;F vm?(N.4W(6d-vm.x)<vm.2b+vm.6N):1x}C Di(6A){B vm=I.3O;F vm?(N.4W(6A-vm.y)<vm.2b+vm.6N):1x}1E.1A=5z.3f({7Z:C(6d,6A){B vm=I.3O;F vm?((N.2F(6d-vm.x,2)+N.2F(6A-vm.y,2))<N.2F(vm.6N+vm.2b,2)):1x},vc:vu,vb:vu,v9:Di,iP:C(){B vm=I.3O;F{x:vm.x,y:vm.y}},iQ:C(){F N.PI*N.2F(I.3O.2b,2)},9M:C(){B vm=I.3O;F{x:vm.x,y:vm.y,3I:vm.2b+vm.1K}},5C:C(2E){B vm=I.3O;B 1i=I.2N;B R=I.6q.R;B 6C=vm.6C;B 2b=vm.2b;B x=vm.x;B y=vm.y;B 3D=J.3D;B la=1.Pq;B 3X=0;if(vm.5p){F}R.73=vm.2e||7n;R.4y=J.1N(vm.1K,1B.3T.1V.1Q.1K);R.5g=vm.1Y||7n;if((2E!==1C)&&((1i.x<2E.1D)||(2E.2a*la<1i.x)||(1i.y<2E.1I)||(2E.1R*la<1i.y))){if(1i.x<2E.1D){3X=(x-1i.x)/(2E.1D-1i.x)}1a if(2E.2a*la<1i.x){3X=(1i.x-x)/(1i.x-2E.2a)}1a if(1i.y<2E.1I){3X=(y-1i.y)/(2E.1I-1i.y)}1a if(2E.1R*la<1i.y){3X=(1i.y-y)/(1i.y-2E.1R)}3X=N.2M(3X*2o)/2o;R.73=3D(R.73).2t(3X).cs();R.5g=3D(R.5g).2t(3X).cs()}J.1W.tD(R,6C,2b,x,y)}})},{"../1m/1m.1B":19,"../1m/1m.2f":20,"../J/K":39}],33:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'../1m/1m.1B\');B 5z=1j(\'../1m/1m.2f\');1B.5K(\'3T\',{1V:{4U:{1Y:1B.3T.7n,2e:1B.3T.7n,7B:\'1R\',1K:0}}});C qQ(8C){F 8C.3O.1q!==1C}C iJ(8C){B vm=8C.3O;B x1,x2,y1,y2;if(qQ(8C)){B vs=vm.1q/2;x1=vm.x-vs;x2=vm.x+vs;y1=N.1h(vm.y,vm.3Q);y2=N.1g(vm.y,vm.3Q)}1a{B vr=vm.1u/2;x1=N.1h(vm.x,vm.3Q);x2=N.1g(vm.x,vm.3Q);y1=vm.y-vr;y2=vm.y+vr}F{1D:x1,1I:y1,2a:x2,1R:y2}}1E.1A=5z.3f({5C:C(){B R=I.6q.R;B vm=I.3O;B 1D,2a,1I,1R,lk,lp,7B;B 1K=vm.1K;if(!vm.8Q){1D=vm.x-vm.1q/2;2a=vm.x+vm.1q/2;1I=vm.y;1R=vm.3Q;lk=1;lp=1R>1I?1:-1;7B=vm.7B||\'1R\'}1a{1D=vm.3Q;2a=vm.x;1I=vm.y-vm.1u/2;1R=vm.y+vm.1u/2;lk=2a>1D?1:-1;lp=1;7B=vm.7B||\'1D\'}if(1K){B vp=N.1h(N.4W(1D-2a),N.4W(1I-1R));1K=1K>vp?vp:1K;B lm=1K/2;B vi=1D+(7B!==\'1D\'?lm*lk:0);B vh=2a+(7B!==\'2a\'?-lm*lk:0);B vk=1I+(7B!==\'1I\'?lm*lp:0);B vj=1R+(7B!==\'1R\'?-lm*lp:0);if(vi!==vh){1I=vk;1R=vj}if(vk!==vj){1D=vi;2a=vh}}R.5L();R.5g=vm.1Y;R.73=vm.2e;R.4y=1K;B D1=[[1D,1R],[1D,1I],[2a,1I],[2a,1R]];B D3=[\'1R\',\'1D\',\'1I\',\'2a\'];B qi=D3.3b(7B,0);if(qi===-1){qi=0}C ve(K){F D1[(qi+K)%4]}B ic=ve(0);R.5u(ic[0],ic[1]);1s(B i=1;i<4;i++){ic=ve(i);R.3x(ic[0],ic[1])}R.2K();if(1K){R.7T()}},1u:C(){B vm=I.3O;F vm.3Q-vm.y},7Z:C(6d,6A){B 7Z=1x;if(I.3O){B 74=iJ(I);7Z=6d>=74.1D&&6d<=74.2a&&6A>=74.1I&&6A<=74.1R}F 7Z},vc:C(6d,6A){B me=I;if(!me.3O){F 1x}B 7Z=1x;B 74=iJ(me);if(qQ(me)){7Z=6d>=74.1D&&6d<=74.2a}1a{7Z=6A>=74.1I&&6A<=74.1R}F 7Z},vb:C(6d){B 74=iJ(I);F 6d>=74.1D&&6d<=74.2a},v9:C(6A){B 74=iJ(I);F 6A>=74.1I&&6A<=74.1R},iP:C(){B vm=I.3O;B x,y;if(qQ(I)){x=vm.x;y=(vm.y+vm.3Q)/2}1a{x=(vm.x+vm.3Q)/2;y=vm.y}F{x:x,y:y}},iQ:C(){B vm=I.3O;F vm.1q*N.4W(vm.y-vm.3Q)},9M:C(){B vm=I.3O;F{x:vm.x,y:vm.y}}})},{"../1m/1m.1B":19,"../1m/1m.2f":20}],34:[C(1j,1E,1A){\'2H 2q\';1E.1A={};1E.1A.yN=1j(\'./2f.3V\');1E.1A.ei=1j(\'./2f.3u\');1E.1A.r2=1j(\'./2f.1Q\');1E.1A.CJ=1j(\'./2f.4U\')},{"./2f.3V":30,"./2f.3u":31,"./2f.1Q":32,"./2f.4U":33}],35:[C(1j,1E,1A){\'2H 2q\';B J=1j(\'./J.1m\');B 1A=1E.1A={dm:C(O){O.R.OH(0,0,O.1q,O.1u)},uU:C(R,x,y,1q,1u,2b){if(2b){B rx=N.1h(2b,1q/2);B ry=N.1h(2b,1u/2);R.5u(x+rx,y);R.3x(x+1q-rx,y);R.e5(x+1q,y,x+1q,y+ry);R.3x(x+1q,y+1u-ry);R.e5(x+1q,y+1u,x+1q-rx,y+1u);R.3x(x+rx,y+1u);R.e5(x,y+1u,x,y+1u-ry);R.3x(x,y+ry);R.e5(x,y,x+rx,y)}1a{R.uZ(x,y,1q,1u)}},tD:C(R,3e,2b,x,y){B 1G,jd,ae,aj,1u,1S;if(3e&&2y 3e===\'5m\'){1G=3e.6B();if(1G===\'[5m OD]\'||1G===\'[5m OC]\'){R.OB(3e,x-3e.1q/2,y-3e.1u/2,3e.1q,3e.1u);F}}if(3p(2b)||2b<=0){F}ck(3e){6Y:R.5L();R.3V(x,y,2b,0,N.PI*2);R.7u();R.2K();4e;2U\'OA\':R.5L();jd=3*2b/N.8T(3);1u=jd*N.8T(3)/2;R.5u(x-jd/2,y+1u/3);R.3x(x+jd/2,y+1u/3);R.3x(x,y-2*1u/3);R.7u();R.2K();4e;2U\'uZ\':1S=1/N.ez*2b;R.5L();R.iS(x-1S,y-1S,2*1S,2*1S);R.tC(x-1S,y-1S,2*1S,2*1S);4e;2U\'Oy\':B 2S=2b/N.ez;B CD=x-2S;B CC=y-2S;B v2=N.ez*2b;R.5L();I.uU(R,CD,CC,v2,v2,2b/2);R.7u();R.2K();4e;2U\'Ou\':1S=1/N.ez*2b;R.5L();R.5u(x-1S,y);R.3x(x,y+1S);R.3x(x+1S,y);R.3x(x,y-1S);R.7u();R.2K();4e;2U\'Ot\':R.5L();R.5u(x,y+2b);R.3x(x,y-2b);R.5u(x-2b,y);R.3x(x+2b,y);R.7u();4e;2U\'Os\':R.5L();ae=N.7L(N.PI/4)*2b;aj=N.6S(N.PI/4)*2b;R.5u(x-ae,y-aj);R.3x(x+ae,y+aj);R.5u(x-ae,y+aj);R.3x(x+ae,y-aj);R.7u();4e;2U\'Or\':R.5L();R.5u(x,y+2b);R.3x(x,y-2b);R.5u(x-2b,y);R.3x(x+2b,y);ae=N.7L(N.PI/4)*2b;aj=N.6S(N.PI/4)*2b;R.5u(x-ae,y-aj);R.3x(x+ae,y+aj);R.5u(x-ae,y+aj);R.3x(x+ae,y-aj);R.7u();4e;2U\'3u\':R.5L();R.5u(x-2b,y);R.3x(x+2b,y);R.7u();4e;2U\'Oo\':R.5L();R.5u(x,y);R.3x(x+2b,y);R.7u();4e}R.7T()},qI:C(R,6H){R.ed();R.5L();R.uZ(6H.1D,6H.1I,6H.2a-6H.1D,6H.1R-6H.1I);R.Ol()},qN:C(R){R.dQ()},3x:C(R,4O,1L,ek){if(1L.cr){if((1L.cr===\'fO\'&&!ek)||(1L.cr!==\'fO\'&&ek)){R.3x(4O.x,1L.y)}1a{R.3x(1L.x,4O.y)}R.3x(1L.x,1L.y);F}if(!1L.5o){R.3x(1L.x,1L.y);F}R.Oi(ek?4O.et:4O.fu,ek?4O.eh:4O.eq,ek?1L.fu:1L.et,ek?1L.eq:1L.eh,1L.x,1L.y)}};J.dm=1A.dm;J.Ob=C(R){R.5L();1A.uU.4m(1A,3d);R.7u()}},{"./J.1m":36}],36:[C(1j,1E,1A){\'2H 2q\';B J={3o:C(){},Cn:(C(){B id=0;F C(){F id++}}()),bp:C(1c){F 1c===1l||2y 1c===\'1C\'},3M:5y.3M?5y.3M:C(1c){F 3t.2L.6B.2n(1c)===\'[5m 5y]\'},77:C(1c){F 1c!==1l&&3t.2L.6B.2n(1c)===\'[5m 3t]\'},1N:C(1c,n8){F 2y 1c===\'1C\'?n8:1c},2O:C(1c,K,n8){F J.1N(J.3M(1c)?1c[K]:1c,n8)},3g:C(fn,2j,bF){if(fn&&2y fn.2n===\'C\'){F fn.4m(bF,2j)}},2c:C(ec,fn,bF,4C){B i,5T,3R;if(J.3M(ec)){5T=ec.1f;if(4C){1s(i=5T-1;i>=0;i--){fn.2n(bF,ec[i],i)}}1a{1s(i=0;i<5T;i++){fn.2n(bF,ec[i],i)}}}1a if(J.77(ec)){3R=3t.3R(ec);5T=3R.1f;1s(i=0;i<5T;i++){fn.2n(bF,ec[3R[i]],3R[i])}}},nl:C(a0,a1){B i,1H,v0,v1;if(!a0||!a1||a0.1f!==a1.1f){F 1x}1s(i=0,1H=a0.1f;i<1H;++i){v0=a0[i];v1=a1[i];if(v0 8u 5y&&v1 8u 5y){if(!J.nl(v0,v1)){F 1x}}1a if(v0!==v1){F 1x}}F 1z},4o:C(2G){if(J.3M(2G)){F 2G.9Q(J.4o)}if(J.77(2G)){B 1L={};B 3R=3t.3R(2G);B k1=3R.1f;B k=0;1s(;k<k1;++k){1L[3R[k]]=J.4o(2G[3R[k]])}F 1L}F 2G},ny:C(1v,1L,2G,U){B cm=1L[1v];B 7V=2G[1v];if(J.77(cm)&&J.77(7V)){J.9d(cm,7V,U)}1a{1L[1v]=J.4o(7V)}},Cc:C(1v,1L,2G){B cm=1L[1v];B 7V=2G[1v];if(J.77(cm)&&J.77(7V)){J.pa(cm,7V)}1a if(!1L.9x(1v)){1L[1v]=J.4o(7V)}},9d:C(1L,2G,U){B ba=J.3M(2G)?2G:[2G];B 1H=ba.1f;B 9d,i,3R,k1,k;if(!J.77(1L)){F 1L}U=U||{};9d=U.nC||J.ny;1s(i=0;i<1H;++i){2G=ba[i];if(!J.77(2G)){9e}3R=3t.3R(2G);1s(k=0,k1=3R.1f;k<k1;++k){9d(3R[k],1L,2G,U)}}F 1L},pa:C(1L,2G){F J.9d(1L,2G,{nC:J.Cc})},3f:C(1L){B Cb=C(1c,1v){1L[1v]=1c};1s(B i=1,1H=3d.1f;i<1H;++i){J.2c(3d[i],Cb)}F 1L},nE:C(iz){B me=I;B fF=(iz&&iz.9x(\'uM\'))?iz.uM:C(){F me.4m(I,3d)};B uL=C(){I.uM=fF};uL.2L=me.2L;fF.2L=2A uL();fF.3f=J.nE;if(iz){J.3f(fF.2L,iz)}fF.NO=me.2L;F fF}};1E.1A=J;J.NM=J.3g;J.3b=C(2p,2m,C5){F 5y.2L.3b.2n(2p,2m,C5)};J.sS=J.1N;J.NK=J.2O},{}],37:[C(1j,1E,1A){\'2H 2q\';B J=1j(\'./J.1m\');B e8={6D:C(t){F t},NJ:C(t){F t*t},NI:C(t){F-t*(t-2)},NH:C(t){if((t/=0.5)<1){F 0.5*t*t}F-0.5*((--t)*(t-2)-1)},NG:C(t){F t*t*t},NF:C(t){F(t=t-1)*t*t+1},NE:C(t){if((t/=0.5)<1){F 0.5*t*t*t}F 0.5*((t-=2)*t*t+2)},ND:C(t){F t*t*t*t},C4:C(t){F-((t=t-1)*t*t*t-1)},NB:C(t){if((t/=0.5)<1){F 0.5*t*t*t*t}F-0.5*((t-=2)*t*t*t-2)},NA:C(t){F t*t*t*t*t},Nz:C(t){F(t=t-1)*t*t*t*t+1},Ny:C(t){if((t/=0.5)<1){F 0.5*t*t*t*t*t}F 0.5*((t-=2)*t*t*t*t+2)},Nx:C(t){F-N.7L(t*(N.PI/2))+1},Nw:C(t){F N.6S(t*(N.PI/2))},Nv:C(t){F-0.5*(N.7L(N.PI*t)-1)},Nu:C(t){F(t===0)?0:N.2F(2,10*(t-1))},Nt:C(t){F(t===1)?1:-N.2F(2,-10*t)+1},Ns:C(t){if(t===0){F 0}if(t===1){F 1}if((t/=0.5)<1){F 0.5*N.2F(2,10*(t-1))}F 0.5*(-N.2F(2,-10*--t)+2)},Nr:C(t){if(t>=1){F t}F-(N.8T(1-t*t)-1)},Nq:C(t){F N.8T(1-(t=t-1)*t)},Np:C(t){if((t/=0.5)<1){F-0.5*(N.8T(1-t*t)-1)}F 0.5*(N.8T(1-(t-=2)*t)+1)},No:C(t){B s=1.iy;B p=0;B a=1;if(t===0){F 0}if(t===1){F 1}if(!p){p=0.3}if(a<1){a=1;s=p/4}1a{s=p/(2*N.PI)*N.uI(1/a)}F-(a*N.2F(2,10*(t-=1))*N.6S((t-s)*(2*N.PI)/p))},Nn:C(t){B s=1.iy;B p=0;B a=1;if(t===0){F 0}if(t===1){F 1}if(!p){p=0.3}if(a<1){a=1;s=p/4}1a{s=p/(2*N.PI)*N.uI(1/a)}F a*N.2F(2,-10*t)*N.6S((t-s)*(2*N.PI)/p)+1},Nm:C(t){B s=1.iy;B p=0;B a=1;if(t===0){F 0}if((t/=0.5)===2){F 1}if(!p){p=0.45}if(a<1){a=1;s=p/4}1a{s=p/(2*N.PI)*N.uI(1/a)}if(t<1){F-0.5*(a*N.2F(2,10*(t-=1))*N.6S((t-s)*(2*N.PI)/p))}F a*N.2F(2,-10*(t-=1))*N.6S((t-s)*(2*N.PI)/p)*0.5+1},Nk:C(t){B s=1.iy;F t*t*((s+1)*t-s)},Nj:C(t){B s=1.iy;F(t=t-1)*t*((s+1)*t+s)+1},Ni:C(t){B s=1.iy;if((t/=0.5)<1){F 0.5*(t*t*(((s*=(1.C1))+1)*t-s))}F 0.5*((t-=2)*t*(((s*=(1.C1))+1)*t+s)+2)},BZ:C(t){F 1-e8.uH(1-t)},uH:C(t){if(t<(1/2.75)){F 7.nS*t*t}if(t<(2/2.75)){F 7.nS*(t-=(1.5/2.75))*t+0.75}if(t<(2.5/2.75)){F 7.nS*(t-=(2.25/2.75))*t+0.Nf}F 7.nS*(t-=(2.Nd/2.75))*t+0.Nc},Nb:C(t){if(t<0.5){F e8.BZ(t*2)*0.5}F e8.uH(t*2-1)*0.5+0.5}};1E.1A={e8:e8};J.N8=e8},{"./J.1m":36}],38:[C(1j,1E,1A){\'2H 2q\';B J=1j(\'./J.1m\');1E.1A={oN:C(1c,1S){B 9T=(\'\'+1c).2g(/^(uE|(\\d+(?:\\.\\d+)?)(px|em|%)?)$/);if(!9T||9T[1]===\'uE\'){F 1S*1.2}1c=+9T[2];ck(9T[3]){2U\'px\':F 1c;2U\'%\':1c/=2o;4e;6Y:4e}F 1S*1c},nY:C(1c){B t,r,b,l;if(J.77(1c)){t=+1c.1I||0;r=+1c.2a||0;b=+1c.1R||0;l=+1c.1D||0}1a{t=r=b=l=+1c||0}F{1I:t,2a:r,1R:b,1D:l,1u:t+b,1q:l+r}},kf:C(uC,2u,K){B i,1H,1c;1s(i=0,1H=uC.1f;i<1H;++i){1c=uC[i];if(1c===1C){9e}if(2u!==1C&&2y 1c===\'C\'){1c=1c(2u)}if(K!==1C&&J.3M(1c)){1c=1c[K]}if(1c!==1C){F 1c}}}}},{"./J.1m":36}],39:[C(1j,1E,1A){\'2H 2q\';1E.1A=1j(\'./J.1m\');1E.1A.a4=1j(\'./J.a4\');1E.1A.1W=1j(\'./J.1W\');1E.1A.U=1j(\'./J.U\')},{"./J.1W":35,"./J.1m":36,"./J.a4":37,"./J.U":38}],40:[C(1j,1E,1A){1E.1A={pu:C(2m){if(2m&&2m.1W){2m=2m.1W}F 2m&&2m.ua(\'2d\')||1l}}},{}],41:[C(1j,1E,1A){\'2H 2q\';B J=1j(\'../J/K\');B 8m=\'$e6\';B ot=\'e6-\';B oV=ot+\'cf-Bp\';B ik=ot+\'cf-3P\';B um=[\'MV\',\'MU\'];B Bv={BN:\'BL\',BM:\'lj\',MR:\'nO\',MQ:\'MP\',MO:\'BL\',ML:\'lj\',MK:\'nO\',MJ:\'ko\',MI:\'ko\'};C ux(2f,kr){B 1c=J.bO(2f,kr);B 9T=1c&&1c.2g(/^(\\d+)(\\.\\d+)?px$/);F 9T?7f(9T[1]):1C}C AH(1W,V){B 3e=1W.3e;B om=1W.BH(\'1u\');B oj=1W.BH(\'1q\');1W[8m]={le:{1u:om,1q:oj,3e:{3a:3e.3a,1u:3e.1u,1q:3e.1q}}};3e.3a=3e.3a||\'MD\';if(oj===1l||oj===\'\'){B oo=ux(1W,\'1q\');if(oo!==1C){1W.1q=oo}}if(om===1l||om===\'\'){if(1W.3e.1u===\'\'){1W.1u=1W.1q/(V.U.ip||2)}1a{B BB=ux(1W,\'1u\');if(oo!==1C){1W.1u=BB}}}F 1W}B Bz=(C(){B uw=1x;oa{B U=3t.b2({},\'By\',{6s:C(){uw=1z}});6m.6E(\'e\',1l,U)}kX(e){}F uw}());B uv=Bz?{By:1z}:1x;C 6E(5w,1G,4R){5w.6E(1G,4R,uv)}C e1(5w,1G,4R){5w.e1(1G,4R,uv)}C uj(1G,O,x,y,Bw){F{1G:1G,O:O,hj:Bw||1l,x:x!==1C?x:1l,y:y!==1C?y:1l,}}C AC(5F,O){B 1G=Bv[5F.1G]||5F.1G;B 4l=J.ar(5F,O);F uj(1G,O,4l.x,4l.y,5F)}C B5(fn,bF){B oq=1x;B 2j=[];F C(){2j=5y.2L.4s.2n(3d);bF=bF||I;if(!oq){oq=1z;J.ut.2n(6m,C(){oq=1x;fn.4m(bF,2j)})}}}C B6(im){B 5J=6z.AW(\'cP\');B ou=ot+\'1S-Bp\';B ex=En;B 3e=\'1Z:up;\'+\'1D:0;\'+\'1I:0;\'+\'2a:0;\'+\'1R:0;\'+\'7J:4A;\'+\'Mj-us:ur;\'+\'Mg:4A;\'+\'z-K:-1;\';5J.3e.Me=3e;5J.Md=ou;5J.xI=\'<cP i5="\'+ou+\'-eH" 3e="\'+3e+\'">\'+\'<cP 3e="\'+\'1Z:up;\'+\'1q:\'+ex+\'px;\'+\'1u:\'+ex+\'px;\'+\'1D:0;\'+\'1I:0">\'+\'</cP>\'+\'</cP>\'+\'<cP i5="\'+ou+\'-eV" 3e="\'+3e+\'">\'+\'<cP 3e="\'+\'1Z:up;\'+\'1q:hO%;\'+\'1u:hO%;\'+\'1D:0; \'+\'1I:0">\'+\'</cP>\'+\'</cP>\';B eH=5J.Bj[0];B eV=5J.Bj[1];5J.ui=C(){eH.Bi=ex;eH.Bh=ex;eV.Bi=ex;eV.Bh=ex};B un=C(){5J.ui();im()};6E(eH,\'Be\',un.Bc(eH,\'eH\'));6E(eV,\'Be\',un.Bc(eV,\'eV\'));F 5J}C B3(5w,im){B 6V=5w[8m]||(5w[8m]={});B bn=6V.uk=C(e){if(e.LY===ik){im()}};J.2c(um,C(1G){6E(5w,1G,bn)});6V.LW=!!5w.LV;5w.B7.5s(oV)}C B0(5w){B 6V=5w[8m]||{};B bn=6V.uk;if(bn){J.2c(um,C(1G){e1(5w,1G,bn)});6v 6V.uk}5w.B7.LN(oV)}C AD(5w,4R,O){B 6V=5w[8m]||(5w[8m]={});B 5J=6V.5J=B6(B5(C(){if(6V.5J){F 4R(uj(\'cC\',O))}}));B3(5w,C(){if(6V.5J){B 8a=5w.av;if(8a&&8a!==5J.av){8a.LG(5J,8a.LE)}5J.ui()}})}C Az(5w){B 6V=5w[8m]||{};B 5J=6V.5J;6v 6V.5J;B0(5w);if(5J&&5J.av){5J.av.Lz(5J)}}C AQ(6l,kY){B 3e=6l.uf||6z.AW(\'3e\');if(!6l.uf){6l.uf=3e;kY=\'/* 1n.js */\\n\'+kY;3e.AF(\'1G\',\'3s/kY\');6z.Lu(\'bD\')[0].AT(3e)}3e.AT(6z.Lr(kY))}1E.1A={At:2y 6m!==\'1C\'&&2y 6z!==\'1C\',6I:C(){B l4=\'3A{4Q:0.99}to{4Q:1}\';AQ(I,\'@-AN-l4 \'+ik+\'{\'+l4+\'}\'+\'@l4 \'+ik+\'{\'+l4+\'}\'+\'.\'+oV+\'{\'+\'-AN-3P:\'+ik+\' 0.AJ;\'+\'3P:\'+ik+\' 0.AJ;\'+\'}\')},pu:C(2m,V){if(2y 2m===\'2k\'){2m=6z.9W(2m)}1a if(2m.1f){2m=2m[0]}if(2m&&2m.1W){2m=2m.1W}B 2u=2m&&2m.ua&&2m.ua(\'2d\');if(2u&&2u.1W===2m){AH(2m,V);F 2u}F 1l},u6:C(2u){B 1W=2u.1W;if(!1W[8m]){F}B le=1W[8m].le;[\'1u\',\'1q\'].aQ(C(3h){B 1c=le[3h];if(J.bp(1c)){1W.RN(3h)}1a{1W.AF(3h,1c)}});J.2c(le.3e||{},C(1c,1v){1W.3e[1v]=1c});1W.1q=1W.1q;6v 1W[8m]},6E:C(O,1G,4R){B 1W=O.1W;if(1G===\'cC\'){AD(1W,4R,O);F}B 6V=4R[8m]||(4R[8m]={});B f3=6V.f3||(6V.f3={});B bn=f3[O.id+\'6u\'+1G]=C(5F){4R(AC(5F,O))};6E(1W,1G,bn)},e1:C(O,1G,4R){B 1W=O.1W;if(1G===\'cC\'){Az(1W,4R);F}B 6V=4R[8m]||{};B f3=6V.f3||{};B bn=f3[O.id+\'6u\'+1G];if(!bn){F}e1(1W,1G,bn)}};J.RA=6E;J.Rz=e1},{"../J/K":39}],42:[C(1j,1E,1A){\'2H 2q\';B J=1j(\'../J/K\');B py=1j(\'./6l.py\');B lQ=1j(\'./6l.lQ\');B Ap=lQ.At?lQ:py;1E.1A=J.3f({6I:C(){},pu:C(){},u6:C(){},6E:C(){},e1:C(){}},Ap)},{"../J/K":39,"./6l.py":40,"./6l.lQ":41}],43:[C(1j,1E,1A){\'2H 2q\';1E.1A={};1E.1A.eP=1j(\'./5M.eP\');1E.1A.4G=1j(\'./5M.4G\');1E.1A.3L=1j(\'./5M.3L\')},{"./5M.eP":44,"./5M.4G":45,"./5M.3L":46}],44:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'../1m/1m.1B\');B 1V=1j(\'../1V/K\');B J=1j(\'../J/K\');1B.5K(\'3T\',{2W:{eP:{hV:1z}}});B Ac={1k:C(2G){B K=2G.2K;B O=2G.O;B 1o=O.4z(K);B qp=1o&&O.6c(K);B 3w=(qp&&1o.1k.jq)||[];B 1f=3w.1f||0;F!1f?1l:C(1Q,i){F(i<1f&&3w[i].3O)||1l}},bZ:C(2G){B bZ=2G.bZ;B x=bZ?bZ.x:1l;B y=bZ?bZ.y:1l;F C(1Q){F{x:x===1l?1Q.x:x,y:y===1l?1Q.y:y,}}}};C zX(el,K,4h){B 1i=el.2N||{};B 2K=1i.2K;B 1L;if(2K===1C){2K=!!1i.1Y}if(2K===1x||2K===1l){F 1x}if(2K===1z){F\'bk\'}1L=6j(2K,10);if(8A(1L)&&N.4p(1L)===1L){if(2K[0]===\'-\'||2K[0]===\'+\'){1L=K+1L}if(1L===K||1L<0||1L>=4h){F 1x}F 1L}ck(2K){2U\'1R\':F\'2r\';2U\'1I\':F\'3E\';2U\'Ri\':F\'bk\';2U\'bk\':2U\'2r\':2U\'3E\':F 2K;6Y:F 1x}}C zR(2G){B 1i=2G.el.2N||{};B 1r=2G.el.i9||{};B 2K=2G.2K;B 1L=1l;B 8Q;if(8A(2K)){F 1l}if(2K===\'2r\'){1L=1i.Ah===1C?1r.1R:1i.Ah}1a if(2K===\'3E\'){1L=1i.Ag===1C?1r.1I:1i.Ag}1a if(1i.Af!==1C){1L=1i.Af}1a if(1r.sx){1L=1r.sx()}1a if(1r.fC){1L=1r.fC()}if(1L!==1C&&1L!==1l){if(1L.x!==1C&&1L.y!==1C){F 1L}if(2y 1L===\'3N\'&&8A(1L)){8Q=1r.2w();F{x:8Q?1L:1l,y:8Q?1l:1L}}}F 1l}C zV(ba,K,hV){B 2G=ba[K];B 2K=2G.2K;B u1=[K];B 1L;if(!hV){F 2K}aW(2K!==1x&&u1.3b(2K)===-1){if(!8A(2K)){F 2K}1L=ba[2K];if(!1L){F 1x}if(1L.qp){F 2K}u1.1P(2K);2K=1L.2K}F 1x}C zQ(2G){B 2K=2G.2K;B 1G=\'1k\';if(2K===1x){F 1l}if(!8A(2K)){1G=\'bZ\'}F Ac[1G](2G)}C u0(1Q){F 1Q&&!1Q.5p}C tZ(R,aL,aM,cI,aP){B i;if(!cI||!aP){F}R.5u(aL[0].x,aL[0].y);1s(i=1;i<cI;++i){J.1W.3x(R,aL[i-1],aL[i])}R.3x(aM[aP-1].x,aM[aP-1].y);1s(i=aP-1;i>0;--i){J.1W.3x(R,aM[i],aM[i-1],1z)}}C zK(R,3w,fd,5G,3D,hZ){B 4h=3w.1f;B aF=5G.bi;B aL=[];B aM=[];B cI=0;B aP=0;B i,1H,K,p0,p1,d0,d1;R.5L();1s(i=0,1H=(4h+!!hZ);i<1H;++i){K=i%4h;p0=3w[K].3O;p1=fd(p0,K,5G);d0=u0(p0);d1=u0(p1);if(d0&&d1){cI=aL.1P(p0);aP=aM.1P(p1)}1a if(cI&&aP){if(!aF){tZ(R,aL,aM,cI,aP);cI=aP=0;aL=[];aM=[]}1a{if(d0){aL.1P(p0)}if(d1){aM.1P(p1)}}}}tZ(R,aL,aM,cI,aP);R.7u();R.5g=3D;R.2K()}1E.1A={id:\'eP\',A1:C(O,U){B 4h=(O.1b.1X||[]).1f;B hV=U.hV;B ba=[];B 1o,i,el,2G;1s(i=0;i<4h;++i){1o=O.4z(i);el=1o.1k;2G=1l;if(el&&el.2N&&el 8u 1V.ei){2G={qp:O.6c(i),2K:zX(el,i,4h),O:O,el:el}}1o.$eP=2G;ba.1P(2G)}1s(i=0;i<4h;++i){2G=ba[i];if(!2G){9e}2G.2K=zV(ba,i,hV);2G.bZ=zR(2G);2G.fd=zQ(2G)}},zP:C(O,2j){B 1o=2j.1o.$eP;if(!1o){F}B R=O.R;B el=1o.el;B 5G=el.3O;B 3w=el.jq||[];B fd=1o.fd;B 3D=5G.1Y||1B.3T.7n;if(fd&&3D&&3w.1f){J.1W.qI(R,O.2E);zK(R,3w,fd,5G,3D,el.tR);J.1W.qN(R)}}}},{"../1m/1m.1B":19,"../1V/K":34,"../J/K":39}],45:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'../1m/1m.1B\');B 5z=1j(\'../1m/1m.2f\');B J=1j(\'../J/K\');B 4V=1j(\'../1m/1m.4V\');B 3o=J.3o;1B.5K(\'3T\',{4G:{3a:1z,1Z:\'1I\',8o:1z,4C:1x,8k:6f,dw:C(e,4Y){B K=4Y.1U;B ci=I.O;B 1o=ci.4z(K);1o.4A=1o.4A===1l?!ci.1b.1X[K].4A:1l;ci.4J()},hl:1l,1T:{8U:40,3I:10,qR:C(O){B 1b=O.1b;F J.3M(1b.1X)?1b.1X.9Q(C(1k,i){F{3s:1k.2x,5g:(!J.3M(1k.1Y)?1k.1Y:1k.1Y[0]),4A:!O.6c(i),m5:1k.7W,zf:1k.5R,jJ:1k.5S,jN:1k.7Y,4y:1k.1K,73:1k.2e,6C:1k.6C,1U:i}},I):[]}}},qO:C(O){B 3s=[];3s.1P(\'<ul i5="\'+O.id+\'-4G">\');1s(B i=0;i<O.1b.1X.1f;i++){3s.1P(\'<li><aF 3e="tQ-3D:\'+O.1b.1X[i].1Y+\'"></aF>\');if(O.1b.1X[i].2x){3s.1P(O.1b.1X[i].2x)}3s.1P(\'</li>\')}3s.1P(\'</ul>\');F 3s.7A(\'\')}});C m4(4u,3c){F 4u.zc?3c*N.ez:4u.8U}B ob=5z.3f({6I:C(V){J.3f(I,V);I.lO=[];I.Qg=1x},bH:3o,4J:C(5I,6T,7a){B me=I;me.bH();me.5I=5I;me.6T=6T;me.7a=7a;me.eF();me.fg();me.eM();me.oB();me.oC();me.oF();me.eQ();me.cn();me.eT();me.dh();F me.2T},dh:3o,eF:3o,fg:C(){B me=I;if(me.2w()){me.1q=me.5I;me.1D=0;me.2a=me.1q}1a{me.1u=me.6T;me.1I=0;me.1R=me.1u}me.6J=0;me.8J=0;me.7I=0;me.a7=0;me.2T={1q:0,1u:0}},eM:3o,oB:3o,oC:C(){B me=I;B 4u=me.U.1T||{};B 9K=J.3g(4u.qR,[me.O],me)||[];if(4u.ah){9K=9K.ah(C(2m){F 4u.ah(2m,me.O.1b)})}if(me.U.4C){9K.4C()}me.9K=9K},oF:3o,eQ:3o,cn:C(){B me=I;B 1J=me.U;B 4u=1J.1T;B 3a=1J.3a;B R=me.R;B 9v=1B.3T;B 1N=J.1N;B 3c=1N(4u.3c,9v.6M);B 6Z=1N(4u.6Z,9v.bq);B 7s=1N(4u.7s,9v.bA);B m2=J.8L(3c,6Z,7s);B hp=me.lO=[];B 2T=me.2T;B 2w=me.2w();if(2w){2T.1q=me.5I;2T.1u=3a?10:0}1a{2T.1q=3a?10:0;2T.1u=me.6T}if(3a){R.3z=m2;if(2w){B 9P=me.9P=[0];B tP=me.9K.1f?3c+(4u.3I):0;R.6X=\'1D\';R.7O=\'1I\';J.2c(me.9K,C(4Y,i){B 8U=m4(4u,3c);B 1q=8U+(3c/2)+R.9r(4Y.3s).1q;if(9P[9P.1f-1]+1q+4u.3I>=me.1q){tP+=3c+(4u.3I);9P[9P.1f]=me.1D}hp[i]={1D:0,1I:0,1q:1q,1u:3c};9P[9P.1f-1]+=1q+4u.3I});2T.1u+=tP}1a{B zw=4u.3I;B kS=me.kS=[];B r7=4u.3I;B dL=0;B qT=0;B fP=3c+zw;J.2c(me.9K,C(4Y,i){B 8U=m4(4u,3c);B tO=8U+(3c/2)+R.9r(4Y.3s).1q;if(qT+fP>2T.1u){r7+=dL+4u.3I;kS.1P(dL);dL=0;qT=0}dL=N.1g(dL,tO);qT+=fP;hp[i]={1D:0,1I:0,1q:tO,1u:3c}});r7+=dL;kS.1P(dL);2T.1q+=r7}}me.1q=2T.1q;me.1u=2T.1u},eT:3o,2w:C(){F I.U.1Z===\'1I\'||I.U.1Z===\'1R\'},5C:C(){B me=I;B 1J=me.U;B 4u=1J.1T;B 9v=1B.3T;B ew=9v.1V.3u;B np=me.1q;B 9P=me.9P;if(1J.3a){B R=me.R;B 1N=J.1N;B bQ=1N(4u.bQ,9v.eb);B 3c=1N(4u.3c,9v.6M);B 6Z=1N(4u.6Z,9v.bq);B 7s=1N(4u.7s,9v.bA);B m2=J.8L(3c,6Z,7s);B 8e;R.6X=\'1D\';R.7O=\'dZ\';R.4y=0.5;R.73=bQ;R.5g=bQ;R.3z=m2;B 8U=m4(4u,3c);B hp=me.lO;B yV=C(x,y,4Y){if(3p(8U)||8U<=0){F}R.ed();R.5g=1N(4Y.5g,9v.7n);R.m5=1N(4Y.m5,ew.7W);R.jJ=1N(4Y.jJ,ew.5S);R.jN=1N(4Y.jN,ew.7Y);R.4y=1N(4Y.4y,ew.1K);R.73=1N(4Y.73,9v.7n);B z4=(1N(4Y.4y,ew.1K)===0);if(R.hF){R.hF(1N(4Y.zf,ew.5R))}if(1J.1T&&1J.1T.zc){B 2b=3c*N.ez/2;B tE=2b/N.ez;B hw=x+tE;B hv=y+tE;J.1W.tD(R,4Y.6C,2b,hw,hv)}1a{if(!z4){R.tC(x,y,8U,3c)}R.iS(x,y,8U,3c)}R.dQ()};B 7K=C(x,y,4Y,bo){B tB=3c/2;B nf=8U+tB+x;B nn=y+tB;R.7K(4Y.3s,nf,nn);if(4Y.4A){R.5L();R.4y=2;R.5u(nf,nn);R.3x(nf+bo,nn);R.7T()}};B 2w=me.2w();if(2w){8e={x:me.1D+((np-9P[0])/2),y:me.1I+4u.3I,3u:0}}1a{8e={x:me.1D+4u.3I,y:me.1I+4u.3I,3u:0}}B fP=3c+4u.3I;J.2c(me.9K,C(4Y,i){B bo=R.9r(4Y.3s).1q;B 1q=8U+(3c/2)+bo;B x=8e.x;B y=8e.y;if(2w){if(x+1q>=np){y=8e.y+=fP;8e.3u++;x=8e.x=me.1D+((np-9P[8e.3u])/2)}}1a if(y+fP>me.1R){x=8e.x=x+me.kS[8e.3u]+4u.3I;y=8e.y=me.1I+4u.3I;8e.3u++}yV(x,y,4Y);hp[i].1D=x;hp[i].1I=y;7K(x,y,4Y,bo);if(2w){8e.x+=1q+(4u.3I)}1a{8e.y+=fP}})}},eu:C(e){B me=I;B 1J=me.U;B 1G=e.1G===\'nO\'?\'ld\':e.1G;B 7e=1x;if(1G===\'lj\'){if(!1J.hl){F}}1a if(1G===\'ld\'){if(!1J.dw){F}}1a{F}B x=e.x;B y=e.y;if(x>=me.1D&&x<=me.2a&&y>=me.1I&&y<=me.1R){B lh=me.lO;1s(B i=0;i<lh.1f;++i){B fR=lh[i];if(x>=fR.1D&&x<=fR.1D+fR.1q&&y>=fR.1I&&y<=fR.1I+fR.1u){if(1G===\'ld\'){1J.dw.2n(me,e.hj,me.9K[i]);7e=1z;4e}1a if(1G===\'lj\'){1J.hl.2n(me,e.hj,me.9K[i]);7e=1z;4e}}}}F 7e}});C tu(O,9C){B 4G=2A ob({R:O.R,U:9C,O:O});4V.j4(O,4G,9C);4V.oW(O,4G);O.4G=4G}1E.1A={id:\'4G\',oZ:ob,tg:C(O){B 9C=O.U.4G;if(9C){tu(O,9C)}},bH:C(O){B 9C=O.U.4G;B 4G=O.4G;if(9C){J.pa(9C,1B.3T.4G);if(4G){4V.j4(O,4G,9C);4G.U=9C}1a{tu(O,9C)}}1a if(4G){4V.pj(O,4G);6v O.4G}},KP:C(O,e){B 4G=O.4G;if(4G){4G.eu(e)}}}},{"../1m/1m.1B":19,"../1m/1m.2f":20,"../1m/1m.4V":24,"../J/K":39}],46:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'../1m/1m.1B\');B 5z=1j(\'../1m/1m.2f\');B J=1j(\'../J/K\');B 4V=1j(\'../1m/1m.4V\');B 3o=J.3o;1B.5K(\'3T\',{3L:{3a:1x,6Z:\'ts\',8o:1z,8H:1.2,3I:10,1Z:\'1I\',3s:\'\',8k:cq}});B p5=5z.3f({6I:C(V){B me=I;J.3f(me,V);me.lO=[]},bH:3o,4J:C(5I,6T,7a){B me=I;me.bH();me.5I=5I;me.6T=6T;me.7a=7a;me.eF();me.fg();me.eM();me.oB();me.oC();me.oF();me.eQ();me.cn();me.eT();me.dh();F me.2T},dh:3o,eF:3o,fg:C(){B me=I;if(me.2w()){me.1q=me.5I;me.1D=0;me.2a=me.1q}1a{me.1u=me.6T;me.1I=0;me.1R=me.1u}me.6J=0;me.8J=0;me.7I=0;me.a7=0;me.2T={1q:0,1u:0}},eM:3o,oB:3o,oC:3o,oF:3o,eQ:3o,cn:C(){B me=I;B 1N=J.1N;B 1J=me.U;B 3a=1J.3a;B 3c=1N(1J.3c,1B.3T.6M);B 2T=me.2T;B iM=J.3M(1J.3s)?1J.3s.1f:1;B 8H=J.U.oN(1J.8H,3c);B aA=3a?(iM*8H)+(1J.3I*2):0;if(me.2w()){2T.1q=me.5I;2T.1u=aA}1a{2T.1q=aA;2T.1u=me.6T}me.1q=2T.1q;me.1u=2T.1u},eT:3o,2w:C(){B 4l=I.U.1Z;F 4l===\'1I\'||4l===\'1R\'},5C:C(){B me=I;B R=me.R;B 1N=J.1N;B 1J=me.U;B 3C=1B.3T;if(1J.3a){B 3c=1N(1J.3c,3C.6M);B 6Z=1N(1J.6Z,3C.bq);B 7s=1N(1J.7s,3C.bA);B Kb=J.8L(3c,6Z,7s);B 8H=J.U.oN(1J.8H,3c);B 2S=8H/2+1J.3I;B 8X=0;B 1I=me.1I;B 1D=me.1D;B 1R=me.1R;B 2a=me.2a;B 5I,oQ,oR;R.5g=1N(1J.bQ,3C.eb);R.3z=Kb;if(me.2w()){oQ=1D+((2a-1D)/2); oR=1I+2S;5I=2a-1D}1a{oQ=1J.1Z===\'1D\'?1D+2S:2a-2S;oR=1I+((1R-1I)/2);5I=1R-1I;8X=N.PI*(1J.1Z===\'1D\'?-0.5:0.5)}R.ed();R.nv(oQ,oR);R.iR(8X);R.6X=\'4P\';R.7O=\'dZ\';B 3s=1J.3s;if(J.3M(3s)){B y=0;1s(B i=0;i<3s.1f;++i){R.7K(3s[i],0,y,5I);y+=8H}}1a{R.7K(3s,0,0,5I)}R.dQ()}}});C tc(O,9F){B 3L=2A p5({R:O.R,U:9F,O:O});4V.j4(O,3L,9F);4V.oW(O,3L);O.cB=3L}1E.1A={id:\'3L\',oZ:p5,tg:C(O){B 9F=O.U.3L;if(9F){tc(O,9F)}},bH:C(O){B 9F=O.U.3L;B cB=O.cB;if(9F){J.pa(9F,1B.3T.3L);if(cB){4V.j4(O,cB,9F);cB.U=9F}1a{tc(O,9F)}}1a if(cB){4V.pj(O,cB);6v O.cB}}}},{"../1m/1m.1B":19,"../1m/1m.2f":20,"../1m/1m.4V":24,"../J/K":39}],47:[C(1j,1E,1A){\'2H 2q\';1E.1A=C(1n){B bj={1Z:\'1R\'};B IX=1n.al.3f({pB:C(){B 1b=I.O.1b;F I.U.1T||(I.2w()?1b.O1:1b.Js)||1b.1T},ep:C(){B me=I;B 1T=me.pB();me.a6=0;me.fk=1T.1f-1;B ao;if(me.U.1w.1h!==1C){ao=1T.3b(me.U.1w.1h);me.a6=ao!==-1?ao:me.a6}if(me.U.1w.1g!==1C){ao=1T.3b(me.U.1w.1g);me.fk=ao!==-1?ao:me.fk}me.1h=1T[me.a6];me.1g=1T[me.fk]},gJ:C(){B me=I;B 1T=me.pB();me.1w=(me.a6===0&&me.fk===1T.1f-1)?1T:1T.4s(me.a6,me.fk+1)},dC:C(K,1U){B me=I;B 1b=me.O.1b;B 2w=me.2w();if(1b.Js&&!2w){F me.5j(1b.1X[1U].1b[K])}F me.1w[K-me.a6]},78:C(1c,K){B me=I;B 2S=me.U.2S;B ju=N.1g((me.fk+1-me.a6-(2S?0:1)),1);B pC;if(1c!==1C&&1c!==1l){pC=me.2w()?1c.x:1c.y}if(pC!==1C||(1c!==1C&&3p(K))){B 1T=me.pB();1c=pC||1c;B d7=1T.3b(1c);K=d7!==-1?d7:K}if(me.2w()){B t9=me.1q/ju;B t8=(t9*(K-me.a6));if(2S){t8+=(t9/2)}F me.1D+N.2M(t8)}B t7=me.1u/ju;B t6=(t7*(K-me.a6));if(2S){t6+=(t7/2)}F me.1I+N.2M(t6)},8O:C(K){F I.78(I.1w[K],K+I.a6,1l)},kb:C(5a){B me=I;B 2S=me.U.2S;B 1c;B ju=N.1g((me.fv.1f-(2S?0:1)),1);B t5=me.2w();B t4=(t5?me.1q:me.1u)/ju;5a-=t5?me.1D:me.1I;if(2S){5a-=(t4/2)}if(5a<=0){1c=0}1a{1c=N.2M(5a/t4)}F 1c+me.a6},fC:C(){F I.1R}});1n.9L.i2(\'d2\',IX,bj)}},{}],48:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'../1m/1m.1B\');B J=1j(\'../J/K\');B cc=1j(\'../1m/1m.1w\');1E.1A=C(1n){B bj={1Z:\'1D\',1w:{3g:cc.kC.6D}};B Iz=1n.mQ.3f({ep:C(){B me=I;B 1J=me.U;B O=me.O;B 1b=O.1b;B 1X=1b.1X;B 2w=me.2w();B ki=0;B kh=1;C df(1o){F 2w?1o.9O===me.id:1o.86===me.id}me.1h=1l;me.1g=1l;B bI=1J.7P;if(bI===1C){J.2c(1X,C(1k,1U){if(bI){F}B 1o=O.4z(1U);if(O.6c(1U)&&df(1o)&&1o.6y!==1C){bI=1z}})}if(1J.7P||bI){B au={};J.2c(1X,C(1k,1U){B 1o=O.4z(1U);B 1v=[1o.1G,((1J.7P===1C&&1o.6y===1C)?1U:\'\'),1o.6y].7A(\'.\');if(au[1v]===1C){au[1v]={cW:[],fG:[]}}B cW=au[1v].cW;B fG=au[1v].fG;if(O.6c(1U)&&df(1o)){J.2c(1k.1b,C(5b,K){B 1c=+me.5j(5b);if(3p(1c)||1o.1b[K].4A){F}cW[K]=cW[K]||0;fG[K]=fG[K]||0;if(1J.Na){cW[K]=2o}1a if(1c<0){fG[K]+=1c}1a{cW[K]+=1c}})}});J.2c(au,C(eB){B 1M=eB.cW.7g(eB.fG);B cy=J.1h(1M);B cz=J.1g(1M);me.1h=me.1h===1l?cy:N.1h(me.1h,cy);me.1g=me.1g===1l?cz:N.1g(me.1g,cz)})}1a{J.2c(1X,C(1k,1U){B 1o=O.4z(1U);if(O.6c(1U)&&df(1o)){J.2c(1k.1b,C(5b,K){B 1c=+me.5j(5b);if(3p(1c)||1o.1b[K].4A){F}if(me.1h===1l){me.1h=1c}1a if(1c<me.1h){me.1h=1c}if(me.1g===1l){me.1g=1c}1a if(1c>me.1g){me.1g=1c}})}})}me.1h=8A(me.1h)&&!3p(me.1h)?me.1h:ki;me.1g=8A(me.1g)&&!3p(me.1g)?me.1g:kh;I.lu()},mO:C(){B 88;B me=I;B 2z=me.U.1w;if(me.2w()){88=N.1h(2z.dR?2z.dR:11,N.9H(me.1q/50))}1a{B 9l=J.1N(2z.3c,1B.3T.6M);88=N.1h(2z.dR?2z.dR:11,N.9H(me.1u/(2*9l)))}F 88},sV:C(){if(!I.2w()){I.1w.4C()}},dC:C(K,1U){F+I.5j(I.O.1b.1X[1U].1b[K])},78:C(1c){B me=I;B 2r=me.2r;B fK=+me.5j(1c);B 5a;B 5O=me.3E-2r;if(me.2w()){5a=me.1D+(me.1q/5O*(fK-2r))}1a{5a=me.1R-(me.1u/5O*(fK-2r))}F 5a},kb:C(5a){B me=I;B 2w=me.2w();B 9q=2w?me.1q:me.1u;B 2S=(2w?5a-me.1D:me.1R-5a)/9q;F me.2r+((me.3E-me.2r)*2S)},8O:C(K){F I.78(I.sr[K])}});1n.9L.i2(\'6D\',Iz,bj)}},{"../1m/1m.1B":19,"../1m/1m.1w":28,"../J/K":39}],49:[C(1j,1E,1A){\'2H 2q\';B J=1j(\'../J/K\');C qJ(5Q,ai){B 1w=[];B 81;if(5Q.8i&&5Q.8i>0){81=5Q.8i}1a{B It=J.t0(ai.1g-ai.1h,1x);81=J.t0(It/(5Q.88-1),1z)}B fQ=N.4p(ai.1h/81)*81;B gL=N.9H(ai.1g/81)*81;if(5Q.1h&&5Q.1g&&5Q.8i){if(J.Il((5Q.1g-5Q.1h)/5Q.8i,81/6f)){fQ=5Q.1h;gL=5Q.1g}}B cV=(gL-fQ)/81;if(J.sZ(cV,N.2M(cV),81/6f)){cV=N.2M(cV)}1a{cV=N.9H(cV)}B 8S=1;if(81<1){8S=N.2F(10,81.6B().1f-2);fQ=N.2M(fQ*8S)/8S;gL=N.2M(gL*8S)/8S}1w.1P(5Q.1h!==1C?5Q.1h:fQ);1s(B j=1;j<cV;++j){1w.1P(N.2M((fQ+j*81)*8S)/8S)}1w.1P(5Q.1g!==1C?5Q.1g:gL);F 1w}1E.1A=C(1n){B 3o=J.3o;1n.mQ=1n.al.3f({5j:C(1c){if(2y 1c===\'2k\'){F+1c}F 1n.al.2L.5j.2n(I,1c)},lu:C(){B me=I;B 1J=me.U;B 2z=1J.1w;if(2z.fZ){B sY=J.3B(me.1h);B sX=J.3B(me.1g);if(sY<0&&sX<0){me.1g=0}1a if(sY>0&&sX>0){me.1h=0}}B sW=2z.1h!==1C||2z.qc!==1C;B I5=2z.1g!==1C||2z.qf!==1C;if(2z.1h!==1C){me.1h=2z.1h}1a if(2z.qc!==1C){if(me.1h===1l){me.1h=2z.qc}1a{me.1h=N.1h(me.1h,2z.qc)}}if(2z.1g!==1C){me.1g=2z.1g}1a if(2z.qf!==1C){if(me.1g===1l){me.1g=2z.qf}1a{me.1g=N.1g(me.1g,2z.qf)}}if(sW!==I5){if(me.1h>=me.1g){if(sW){me.1g=me.1h+1}1a{me.1h=me.1g-1}}}if(me.1h===me.1g){me.1g++;if(!2z.fZ){me.1h--}}},mO:3o,sV:3o,gJ:C(){B me=I;B 1J=me.U;B 2z=1J.1w;B 88=me.mO();88=N.1g(2,88);B HS={88:88,1h:2z.1h,1g:2z.1g,8i:J.1N(2z.MB,2z.8i)};B 1w=me.1w=qJ(HS,me);me.sV();me.1g=J.1g(1w);me.1h=J.1h(1w);if(2z.4C){1w.4C();me.2r=me.1g;me.3E=me.1h}1a{me.2r=me.1h;me.3E=me.1g}},cG:C(){B me=I;me.sr=me.1w.4s();me.HO=me.1w.3b(0);1n.al.2L.cG.2n(me)}})}},{"../J/K":39}],50:[C(1j,1E,1A){\'2H 2q\';B J=1j(\'../J/K\');B cc=1j(\'../1m/1m.1w\');C qJ(5Q,ai){B 1w=[];B 1N=J.1N;B cH=1N(5Q.1h,N.2F(10,N.4p(J.4T(ai.1h))));B qo=N.4p(J.4T(ai.1g));B HK=N.9H(ai.1g/N.2F(10,qo));B 7Q,ax;if(cH===0){7Q=N.4p(J.4T(ai.9u));ax=N.4p(ai.9u/N.2F(10,7Q));1w.1P(cH);cH=ax*N.2F(10,7Q)}1a{7Q=N.4p(J.4T(cH));ax=N.4p(cH/N.2F(10,7Q))}B 8S=7Q<0?N.2F(10,N.4W(7Q)):1;do{1w.1P(cH);++ax;if(ax===10){ax=1;++7Q;8S=7Q>=0?1:8S}cH=N.2M(ax*N.2F(10,7Q)*8S)/8S}aW(7Q<qo||(7Q===qo&&ax<HK));B HI=1N(5Q.1g,cH);1w.1P(HI);F 1w}1E.1A=C(1n){B bj={1Z:\'1D\',1w:{3g:cc.kC.kw}};B GQ=1n.al.3f({ep:C(){B me=I;B 1J=me.U;B O=me.O;B 1b=O.1b;B 1X=1b.1X;B 2w=me.2w();C df(1o){F 2w?1o.9O===me.id:1o.86===me.id}me.1h=1l;me.1g=1l;me.9u=1l;B bI=1J.7P;if(bI===1C){J.2c(1X,C(1k,1U){if(bI){F}B 1o=O.4z(1U);if(O.6c(1U)&&df(1o)&&1o.6y!==1C){bI=1z}})}if(1J.7P||bI){B au={};J.2c(1X,C(1k,1U){B 1o=O.4z(1U);B 1v=[1o.1G,((1J.7P===1C&&1o.6y===1C)?1U:\'\'),1o.6y].7A(\'.\');if(O.6c(1U)&&df(1o)){if(au[1v]===1C){au[1v]=[]}J.2c(1k.1b,C(5b,K){B 1M=au[1v];B 1c=+me.5j(5b);if(3p(1c)||1o.1b[K].4A||1c<0){F}1M[K]=1M[K]||0;1M[K]+=1c})}});J.2c(au,C(eB){if(eB.1f>0){B cy=J.1h(eB);B cz=J.1g(eB);me.1h=me.1h===1l?cy:N.1h(me.1h,cy);me.1g=me.1g===1l?cz:N.1g(me.1g,cz)}})}1a{J.2c(1X,C(1k,1U){B 1o=O.4z(1U);if(O.6c(1U)&&df(1o)){J.2c(1k.1b,C(5b,K){B 1c=+me.5j(5b);if(3p(1c)||1o.1b[K].4A||1c<0){F}if(me.1h===1l){me.1h=1c}1a if(1c<me.1h){me.1h=1c}if(me.1g===1l){me.1g=1c}1a if(1c>me.1g){me.1g=1c}if(1c!==0&&(me.9u===1l||1c<me.9u)){me.9u=1c}})}})}I.lu()},lu:C(){B me=I;B 1J=me.U;B 2z=1J.1w;B 1N=J.1N;B ki=1;B kh=10;me.1h=1N(2z.1h,me.1h);me.1g=1N(2z.1g,me.1g);if(me.1h===me.1g){if(me.1h!==0&&me.1h!==1l){me.1h=N.2F(10,N.4p(J.4T(me.1h))-1);me.1g=N.2F(10,N.4p(J.4T(me.1g))+1)}1a{me.1h=ki;me.1g=kh}}if(me.1h===1l){me.1h=N.2F(10,N.4p(J.4T(me.1g))-1)}if(me.1g===1l){me.1g=me.1h!==0?N.2F(10,N.4p(J.4T(me.1h))+1):kh}if(me.9u===1l){if(me.1h>0){me.9u=me.1h}1a if(me.1g<1){me.9u=N.2F(10,N.4p(J.4T(me.1g)))}1a{me.9u=ki}}},gJ:C(){B me=I;B 1J=me.U;B 2z=1J.1w;B 4C=!me.2w();B 5Q={1h:2z.1h,1g:2z.1g};B 1w=me.1w=qJ(5Q,me);me.1g=J.1g(1w);me.1h=J.1h(1w);if(2z.4C){4C=!4C;me.2r=me.1g;me.3E=me.1h}1a{me.2r=me.1h;me.3E=me.1g}if(4C){1w.4C()}},cG:C(){I.Hg=I.1w.4s();1n.al.2L.cG.2n(I)},dC:C(K,1U){F+I.5j(I.O.1b.1X[1U].1b[K])},8O:C(K){F I.78(I.Hg[K])},sT:C(1c){B 7Q=N.4p(J.4T(1c));B ax=N.4p(1c/N.2F(10,7Q));F ax*N.2F(10,7Q)},78:C(1c){B me=I;B 4C=me.U.1w.4C;B 4T=J.4T;B qW=me.sT(me.9u);B 2S=0;B 9q,5a,2r,3E,3B;1c=+me.5j(1c);if(4C){2r=me.3E;3E=me.2r;3B=-1}1a{2r=me.2r;3E=me.3E;3B=1}if(me.2w()){9q=me.1q;5a=4C?me.2a:me.1D}1a{9q=me.1u;3B*=-1;5a=4C?me.1I:me.1R}if(1c!==2r){if(2r===0){2S=J.sS(me.U.1w.3c,1n.1B.3T.6M);9q-=2S;2r=qW}if(1c!==0){2S+=9q/(4T(3E)-4T(2r))*(4T(1c)-4T(2r))}5a+=3B*2S}F 5a},kb:C(5a){B me=I;B 4C=me.U.1w.4C;B 4T=J.4T;B qW=me.sT(me.9u);B 9q,2r,3E,1c;if(4C){2r=me.3E;3E=me.2r}1a{2r=me.2r;3E=me.3E}if(me.2w()){9q=me.1q;1c=4C?me.2a-5a:5a-me.1D}1a{9q=me.1u;1c=4C?5a-me.1I:me.1R-5a}if(1c!==2r){if(2r===0){B 2S=J.sS(me.U.1w.3c,1n.1B.3T.6M);1c-=2S;9q-=2S;2r=qW}1c*=4T(3E)-4T(2r);1c/=9q;1c=N.2F(10,4T(2r)+1c)}F 1c}});1n.9L.i2(\'kw\',GQ,bj)}},{"../1m/1m.1w":28,"../J/K":39}],51:[C(1j,1E,1A){\'2H 2q\';B 1B=1j(\'../1m/1m.1B\');B J=1j(\'../J/K\');B cc=1j(\'../1m/1m.1w\');1E.1A=C(1n){B 3C=1B.3T;B bj={3a:1z,LU:1z,1Z:\'2E\',j3:{3a:1z,3D:\'3r(0, 0, 0, 0.1)\',4y:1},4B:{sI:1x},1w:{C3:1z,BY:\'3r(1t,1t,1t,0.75)\',nB:2,sq:2,3g:cc.kC.6D},ad:{3a:1z,3c:10,3g:C(2x){F 2x}}};C lL(1r){B 1J=1r.U;F 1J.j3.3a||1J.ad.3a?1r.O.1b.1T.1f:0}C sP(1r){B m1=1r.U.ad;B 3c=J.1N(m1.3c,3C.6M);B 6Z=J.1N(m1.6Z,3C.bq);B 7s=J.1N(m1.7s,3C.bA);B 3z=J.8L(3c,6Z,7s);F{1S:3c,3e:6Z,kG:7s,3z:3z}}C Gb(R,3c,2x){if(J.3M(2x)){F{w:J.kH(R,R.3z,2x),h:(2x.1f*3c)+((2x.1f-1)*1.5*3c)}}F{w:R.9r(2x).1q,h:3c}}C sR(4g,4l,1S,1h,1g){if(4g===1h||4g===1g){F{2r:4l-(1S/2),3E:4l+(1S/2)}}1a if(4g<1h||4g>1g){F{2r:4l-1S-5,3E:4l}}F{2r:4l,3E:4l+1S+5}}C E0(1r){B gl=sP(1r);B dV=N.1h(1r.1u/2,1r.1q/2);B 84={r:1r.1q,l:0,t:1r.1u,b:0};B aG={};B i,aA,8K;1r.R.3z=gl.3z;1r.sK=[];B l8=lL(1r);1s(i=0;i<l8;i++){8K=1r.fz(i,dV);aA=Gb(1r.R,gl.1S,1r.ad[i]||\'\');1r.sK[i]=aA;B 8x=1r.lV(i);B 4g=J.sL(8x)%6t;B kI=sR(4g,8K.x,aA.w,0,b1);B kK=sR(4g,8K.y,aA.h,90,sQ);if(kI.2r<84.l){84.l=kI.2r;aG.l=8x}if(kI.3E>84.r){84.r=kI.3E;aG.r=8x}if(kK.2r<84.t){84.t=kK.2r;aG.t=8x}if(kK.3E>84.b){84.b=kK.3E;aG.b=8x}}1r.DV(dV,84,aG)}C cn(1r){B dV=N.1h(1r.1u/2,1r.1q/2);1r.c2=N.2M(dV);1r.sC(0,0,0,0)}C EZ(4g){if(4g===0||4g===b1){F\'4P\'}1a if(4g<b1){F\'1D\'}F\'2a\'}C 7K(R,3s,1Z,3c){if(J.3M(3s)){B y=1Z.y;B 81=1.5*3c;1s(B i=0;i<3s.1f;++i){R.7K(3s[i],1Z.x,y);y+=81}}1a{R.7K(3s,1Z.x,1Z.y)}}C EX(4g,aA,1Z){if(4g===90||4g===sQ){1Z.y-=(aA.h/2)}1a if(4g>sQ||4g<90){1Z.y-=aA.h}}C Bm(1r){B R=1r.R;B 1J=1r.U;B mf=1J.j3;B sM=1J.ad;R.4y=mf.4y;R.73=mf.3D;B sN=1r.fV(1J.1w.4C?1r.1h:1r.1g);B gl=sP(1r);R.7O=\'1I\';1s(B i=lL(1r)-1;i>=0;i--){if(mf.3a){B sO=1r.fz(i,sN);R.5L();R.5u(1r.ee,1r.ef);R.3x(sO.x,sO.y);R.7T();R.7u()}if(sM.3a){B sJ=1r.fz(i,sN+5);B Fq=J.2O(sM.bQ,i,3C.eb);R.3z=gl.3z;R.5g=Fq;B 8x=1r.lV(i);B 4g=J.sL(8x);R.6X=EZ(4g);EX(4g,1r.sK[i],sJ);7K(R,1r.ad[i]||\'\',sJ,gl.1S)}}}C Co(1r,cK,2b,K){B R=1r.R;R.73=J.2O(cK.3D,K-1);R.4y=J.2O(cK.4y,K-1);if(1r.U.4B.sI){R.5L();R.3V(1r.ee,1r.ef,2b,0,N.PI*2);R.7u();R.7T()}1a{B l8=lL(1r);if(l8===0){F}R.5L();B 8K=1r.fz(0,2b);R.5u(8K.x,8K.y);1s(B i=1;i<l8;i++){8K=1r.fz(i,2b);R.3x(8K.x,8K.y)}R.7u();R.7T()}}C lz(qe){F J.ac(qe)?qe:0}B Bf=1n.mQ.3f({fg:C(){B me=I;B 1J=me.U;B 2z=1J.1w;me.1q=me.5I;me.1u=me.6T;me.ee=N.2M(me.1q/2);me.ef=N.2M(me.1u/2);B 2T=J.1h([me.1u,me.1q]);B 9l=J.1N(2z.3c,3C.6M);me.c2=1J.3a?(2T/2)-(9l/ 2 + 2z.nB) : (2T /2)},ep:C(){B me=I;B O=me.O;B 1h=7f.g2;B 1g=7f.sF;J.2c(O.1b.1X,C(1k,1U){if(O.6c(1U)){B 1o=O.4z(1U);J.2c(1k.1b,C(5b,K){B 1c=+me.5j(5b);if(3p(1c)||1o.1b[K].4A){F}1h=N.1h(1c,1h);1g=N.1g(1c,1g)})}});me.1h=(1h===7f.g2?0:1h);me.1g=(1g===7f.sF?0:1g);me.lu()},mO:C(){B 2z=I.U.1w;B 9l=J.1N(2z.3c,3C.6M);F N.1h(2z.dR?2z.dR:11,N.9H(I.c2/(1.5*9l)))},cG:C(){B me=I;1n.mQ.2L.cG.2n(me);me.ad=me.O.1b.1T.9Q(me.U.ad.3g,me)},dC:C(K,1U){F+I.5j(I.O.1b.1X[1U].1b[K])},cn:C(){if(I.U.ad.3a){E0(I)}1a{cn(I)}},DV:C(dV,84,aG){B me=I;B lE=84.l/N.6S(aG.l);B lH=N.1g(84.r-me.1q,0)/N.6S(aG.r);B lI=-84.t/N.7L(aG.t);B lK=-N.1g(84.b-me.1u,0)/N.7L(aG.b);lE=lz(lE);lH=lz(lH);lI=lz(lI);lK=lz(lK);me.c2=N.1h(N.2M(dV-(lE+lH)/2),N.2M(dV-(lI+lK)/2));me.sC(lE,lH,lI,lK)},sC:C(Dj,Du,Dh,Df){B me=I;B Dc=me.1q-Du-me.c2;B De=Dj+me.c2;B Db=Dh+me.c2;B Da=me.1u-Df-me.c2;me.ee=N.2M(((De+Dc)/2)+me.1D);me.ef=N.2M(((Db+Da)/2)+me.1I)},lV:C(K){B D8=(N.PI*2)/lL(I);B 3v=I.O.U&&I.O.U.3v?I.O.U.3v:0;B D7=3v*N.PI*2/6t;F K*D8+D7},fV:C(1c){B me=I;if(1c===1l){F 0}B sB=me.c2/(me.1g-me.1h);if(me.U.1w.4C){F(me.1g-1c)*sB}F(1c-me.1h)*sB},fz:C(K,sy){B me=I;B sz=me.lV(K)-(N.PI/2);F{x:N.2M(N.7L(sz)*sy)+me.ee,y:N.2M(N.6S(sz)*sy)+me.ef}},su:C(K,1c){F I.fz(K,I.fV(1c))},sx:C(){B me=I;B 1h=me.1h;B 1g=me.1g;F me.su(0,me.fZ?0:1h<0&&1g<0?1g:1h>0&&1g>0?1h:0)},5C:C(){B me=I;B 1J=me.U;B cK=1J.4B;B 2z=1J.1w;B 1N=J.1N;if(1J.3a){B R=me.R;B 3v=I.lV(0);B 9l=1N(2z.3c,3C.6M);B CB=1N(2z.6Z,3C.bq);B Cy=1N(2z.7s,3C.bA);B Ce=J.8L(9l,CB,Cy);J.2c(me.1w,C(2x,K){if(K>0||2z.4C){B nL=me.fV(me.sr[K]);if(cK.3a&&K!==0){Co(me,cK,nL,K)}if(2z.3a){B nJ=1N(2z.bQ,3C.eb);R.3z=Ce;R.ed();R.nv(me.ee,me.ef);R.iR(3v);if(2z.C3){B hb=R.9r(2x).1q;R.5g=2z.BY;R.iS(-hb/2-2z.sq,-nL-9l/2-2z.nB,hb+2z.sq*2,9l+2z.nB*2)}R.6X=\'4P\';R.7O=\'dZ\';R.5g=nJ;R.7K(2x,0,-nL);R.dQ()}}});if(1J.j3.3a||1J.ad.3a){Bm(me)}}}});1n.9L.i2(\'g7\',Bf,bj)}},{"../1m/1m.1B":19,"../1m/1m.1w":28,"../J/K":39}],52:[C(1j,1E,1A){\'2H 2q\';B 3i=1j(\'3i\');3i=2y 3i===\'C\'?3i:6m.3i;B 1B=1j(\'../1m/1m.1B\');B J=1j(\'../J/K\');B sg=7f.Pt||-Bd;B oE=7f.Ps||Bd;B eS={4N:{9J:1z,1S:1,7C:[1,2,5,10,20,50,2o,4X,l6]},8q:{9J:1z,1S:6f,7C:[1,2,5,10,30]},83:{9J:1z,1S:DW,7C:[1,2,5,10,30]},5E:{9J:1z,1S:Pp,7C:[1,2,3,6,12]},4c:{9J:1z,1S:Po,7C:[1,2,5]},2Q:{9J:1x,1S:Pn,7C:[1,2,3,4]},3j:{9J:1z,1S:2.Pm,7C:[1,2,3]},ay:{9J:1x,1S:7.Pk,7C:[1,2,3,4]},2s:{9J:1z,1S:3.Pi}};B 7X=3t.3R(eS);C sh(a,b){F a-b}C si(4H){B so={};B cL=[];B i,1H,2m;1s(i=0,1H=4H.1f;i<1H;++i){2m=4H[i];if(!so[2m]){so[2m]=1z;cL.1P(2m)}}F cL}C Kk(5l,1h,1g,jQ){if(jQ===\'6D\'||!5l.1f){F[{2I:1h,4l:0},{2I:1g,4l:1}]}B 6h=[];B 4H=[1h];B i,1H,5x,5X,3K;1s(i=0,1H=5l.1f;i<1H;++i){5X=5l[i];if(5X>1h&&5X<1g){4H.1P(5X)}}4H.1P(1g);1s(i=0,1H=4H.1f;i<1H;++i){3K=4H[i+1];5x=4H[i-1];5X=4H[i];if(5x===1C||3K===1C||N.2M((3K+5x)/2)!==5X){6h.1P({2I:5X,4l:i/(1H-1)})}}F 6h}C AV(6h,1v,1c){B lo=0;B hi=6h.1f-1;B gd,i0,i1;aW(lo>=0&&lo<=hi){gd=(lo+hi)>>1;i0=6h[gd-1]||1l;i1=6h[gd];if(!i0){F{lo:1l,hi:i1}}1a if(i1[1v]<1c){lo=gd+1}1a if(i0[1v]>1c){hi=gd-1}1a{F{lo:i0,hi:i1}}}F{lo:i1,hi:1l}}C bY(6h,jh,7V,o5){B 5O=AV(6h,jh,7V);B 5x=!5O.lo?6h[0]:!5O.hi?6h[6h.1f-2]:5O.lo;B 3K=!5O.lo?6h[1]:!5O.hi?6h[6h.1f-1]:5O.hi;B aF=3K[jh]-5x[jh];B 3X=aF?(7V-5x[jh])/aF:0;B 2S=(3K[o5]-5x[o5])*3X;F 5x[o5]+2S}C jV(1c,U){B ey=U.ey;B 1F=U.ey||U.1F;if(2y ey===\'C\'){F ey(1c)}if(2y 1c===\'2k\'&&2y 1F===\'2k\'){F 3i(1c,1F)}if(!(1c 8u 3i)){1c=3i(1c)}if(1c.2C()){F 1c}if(2y 1F===\'C\'){F 1F(1c)}F 1c}C d8(1d,1r){if(J.bp(1d)){F 1l}B U=1r.U.2I;B 1c=jV(1r.5j(1d),U);if(!1c.2C()){F 1l}if(U.2M){1c.7v(U.2M)}F 1c.4d()}C Ad(1h,1g,4n,aV){B 5O=1g-1h;B 9y=eS[4n];B 3G=9y.1S;B 7C=9y.7C;B i,1H,eY;if(!7C){F N.9H(5O/(aV*3G))}1s(i=0,1H=7C.1f;i<1H;++i){eY=7C[i];if(N.9H(5O/(3G*eY))<=aV){4e}}F eY}C Ai(cT,1h,1g,aV){B 1H=7X.1f;B i,9y,eY;1s(i=7X.3b(cT);i<1H-1;++i){9y=eS[7X[i]];eY=9y.7C?9y.7C[9y.7C.1f-1]:oE;if(9y.9J&&N.9H((1g-1h)/(eY*9y.1S))<=aV){F 7X[i]}}F 7X[1H-1]}C Kz(1w,cT,1h,1g){B 2Y=3i.2Y(3i(1g).7h(3i(1h)));B 1H=7X.1f;B i,4n;1s(i=1H-1;i>=7X.3b(cT);i--){4n=7X[i];if(eS[4n].9J&&2Y.as(4n)>=1w.1f){F 4n}}F 7X[cT?7X.3b(cT):0]}C sf(4n){1s(B i=7X.3b(4n)+1,1H=7X.1f;i<1H;++i){if(eS[7X[i]].9J){F 7X[i]}}}C yP(1h,1g,aV,U){B 5v=U.2I;B 6F=5v.4n||Ai(5v.cT,1h,1g,aV);B 5c=sf(6F);B 8i=J.1N(5v.8i,5v.OR);B 3Z=6F===\'2Q\'?5v.bC:1x;B A7=U.1w.5c.d4;B 9y=eS[6F];B eR=3i(1h);B az=3i(1g);B 1w=[];B 2I;if(!8i){8i=Ad(1h,1g,6F,aV)}if(3Z){eR=eR.bC(3Z);az=az.bC(3Z)}eR=eR.7v(3Z?\'4c\':6F);az=az.7v(3Z?\'4c\':6F);if(az<1g){az.5s(1,6F)}2I=3i(eR);if(A7&&5c&&!3Z&&!5v.2M){2I.7v(5c);2I.5s(~~((eR-2I)/(9y.1S*8i))*8i,6F)}1s(;2I<az;2I.5s(8i,6F)){1w.1P(+2I)}1w.1P(+2I);F 1w}C K5(6h,1w,1h,1g,U){B 1D=0;B 2a=0;B jw,jy;if(U.2S&&1w.1f){if(!U.2I.1h){jw=1w.1f>1?1w[1]:1g;jy=1w[0];1D=(bY(6h,\'2I\',jw,\'4l\')-bY(6h,\'2I\',jy,\'4l\'))/2}if(!U.2I.1g){jw=1w[1w.1f-1];jy=1w.1f>1?1w[1w.1f-2]:1h;2a=(bY(6h,\'2I\',jw,\'4l\')-bY(6h,\'2I\',jy,\'4l\'))/2}}F{1D:1D,2a:2a}}C JO(1M,ft){B 1w=[];B i,1H,1c,5c;1s(i=0,1H=1M.1f;i<1H;++i){1c=1M[i];5c=ft?1c===+3i(1c).7v(ft):1x;1w.1P({1c:1c,5c:5c})}F 1w}C K4(1b,5v){B i,gw,sm;B 1H=1b.1f;1s(i=0;i<1H;i++){gw=jV(1b[i],5v);if(gw.4N()!==0){F\'a9 D, 4t h:mm:ss.cp a\'}if(gw.8q()!==0||gw.83()!==0||gw.5E()!==0){sm=1z}}if(sm){F\'a9 D, 4t h:mm:ss a\'}F\'a9 D, 4t\'}1E.1A=C(1n){B bj={1Z:\'1R\',jQ:\'6D\',74:\'1b\',2I:{ey:1x,1F:1x,4n:1x,2M:1x,Ow:1x,bC:1x,cT:\'4N\',rT:{4N:\'h:mm:ss.cp a\',8q:\'h:mm:ss a\',83:\'h:mm a\',5E:\'hA\',4c:\'a9 D\',2Q:\'ll\',3j:\'a9 4t\',ay:\'[Q]Q - 4t\',2s:\'4t\'},},1w:{sk:1x,2G:\'yR\',5c:{d4:1x}}};B D4=1n.al.3f({6I:C(){if(!3i){fs 2A kW(\'1n.js - fr.js On iq be tU! Om Ok Oj it gz 1n.js to 2H mJ 2I 1r. Og at yG://db.bm\')}I.sj();1n.al.2L.6I.2n(I)},4J:C(){B me=I;B U=me.U;if(U.2I&&U.2I.1F){8F.dN(\'U.2I.1F is 9h uz Od by U.2I.ey.\')}F 1n.al.2L.4J.4m(me,3d)},5j:C(5b){if(5b&&5b.t!==1C){5b=5b.t}F 1n.al.2L.5j.2n(I,5b)},ep:C(){B me=I;B O=me.O;B 5v=me.U.2I;B 4n=5v.4n||\'4c\';B 1h=oE;B 1g=sg;B 5l=[];B 1X=[];B 1T=[];B i,j,1H,gI,1b,cQ;1s(i=0,1H=O.1b.1T.1f;i<1H;++i){1T.1P(d8(O.1b.1T[i],me))}1s(i=0,1H=(O.1b.1X||[]).1f;i<1H;++i){if(O.6c(i)){1b=O.1b.1X[i].1b;if(J.77(1b[0])){1X[i]=[];1s(j=0,gI=1b.1f;j<gI;++j){cQ=d8(1b[j],me);5l.1P(cQ);1X[i][j]=cQ}}1a{5l.1P.4m(5l,1T);1X[i]=1T.4s(0)}}1a{1X[i]=[]}}if(1T.1f){1T=si(1T).8j(sh);1h=N.1h(1h,1T[0]);1g=N.1g(1g,1T[1T.1f-1])}if(5l.1f){5l=si(5l).8j(sh);1h=N.1h(1h,5l[0]);1g=N.1g(1g,5l[5l.1f-1])}1h=d8(5v.1h,me)||1h;1g=d8(5v.1g,me)||1g;1h=1h===oE?+3i().7v(4n):1h;1g=1g===sg?+3i().hq(4n)+1:1g;me.1h=N.1h(1h,1g);me.1g=N.1g(1h+1,1g);me.kc=me.2w();me.kx=[];me.h0={1b:5l,1X:1X,1T:1T}},gJ:C(){B me=I;B 1h=me.1h;B 1g=me.1g;B U=me.U;B 5v=U.2I;B 5l=[];B 1w=[];B i,1H,cQ;ck(U.1w.2G){2U\'1b\':5l=me.h0.1b;4e;2U\'1T\':5l=me.h0.1T;4e;2U\'yR\':6Y:5l=yP(1h,1g,me.zt(1h),U)}if(U.74===\'1w\'&&5l.1f){1h=5l[0];1g=5l[5l.1f-1]}1h=d8(5v.1h,me)||1h;1g=d8(5v.1g,me)||1g;1s(i=0,1H=5l.1f;i<1H;++i){cQ=5l[i];if(cQ>=1h&&cQ<=1g){1w.1P(cQ)}}me.1h=1h;me.1g=1g;me.sd=5v.4n||Kz(1w,5v.cT,me.1h,me.1g);me.sc=sf(me.sd);me.kx=Kk(me.h0.1b,1h,1g,U.jQ);me.eg=K5(me.kx,1w,1h,1g,U);me.Jz=K4(me.h0.1b,5v);F JO(1w,me.sc)},dC:C(K,1U){B me=I;B 1b=me.O.1b;B 5v=me.U.2I;B 2x=1b.1T&&K<1b.1T.1f?1b.1T[K]:\'\';B 1c=1b.1X[1U].1b[K];if(J.77(1c)){2x=me.5j(1c)}if(5v.JK){F jV(2x,5v).1F(5v.JK)}if(2y 2x===\'2k\'){F 2x}F jV(2x,5v).1F(me.Jz)},rS:C(6b,K,1w,kQ){B me=I;B U=me.U;B 2I=6b.4d();B c8=U.2I.rT;B Iu=c8[me.sd];B ft=me.sc;B sb=c8[ft];B Jh=6b.4o().7v(ft).4d();B sa=U.1w.5c;B 5c=sa.d4&&ft&&sb&&2I===Jh;B 2x=6b.1F(kQ?kQ:5c?sb:Iu);B 2z=5c?sa:U.1w.6F;B s9=J.1N(2z.3g,2z.I4);F s9?s9(2x,K,1w):2x},cG:C(1w){B 1T=[];B i,1H;1s(i=0,1H=1w.1f;i<1H;++i){1T.1P(I.rS(3i(1w[i].1c),i,1w))}F 1T},s7:C(2I){B me=I;B 1S=me.kc?me.1q:me.1u;B 2r=me.kc?me.1D:me.1I;B 4l=bY(me.kx,\'2I\',2I,\'4l\');F 2r+1S*(me.eg.1D+4l)/(me.eg.1D+1+me.eg.2a)},78:C(1c,K,1U){B me=I;B 2I=1l;if(K!==1C&&1U!==1C){2I=me.h0.1X[1U][K]}if(2I===1l){2I=d8(1c,me)}if(2I!==1l){F me.s7(2I)}},8O:C(K){B 1w=I.ka();F K>=0&&K<1w.1f?I.s7(1w[K].1c):1l},kb:C(5a){B me=I;B 1S=me.kc?me.1q:me.1u;B 2r=me.kc?me.1D:me.1I;B 4l=(1S?(5a-2r)/1S:0)*(me.eg.1D+1+me.eg.1D)-me.eg.2a;B 2I=bY(me.kx,\'4l\',4l,\'2I\');F 3i(2I)},Kn:C(2x){B me=I;B rZ=me.U.1w;B qg=me.R.9r(2x).1q;B 4g=J.hs(rZ.s2);B a2=N.7L(4g);B ev=N.6S(4g);B 9l=J.1N(rZ.3c,1B.3T.6M);F(qg*a2)+(9l*ev)},zt:C(yZ){B me=I;B kQ=me.U.2I.rT.4N;B JI=me.rS(3i(yZ),0,[],kQ);B qg=me.Kn(JI);B hS=me.2w()?me.1q:me.1u;B aV=N.4p(hS/qg);F aV>0?aV:1}});1n.9L.i2(\'2I\',D4,bj)}},{"../1m/1m.1B":19,"../J/K":39,"3i":58}],53:[C(1j,1E,1A){B qC=1j(\'3D-3k\');1E.1A={ig:ig,ih:ih,rF:rF,rE:rE,lA:lA,rD:rD,lC:lC,cs:cs,fx:fx,lF:lF,qt:qt,lG:lG,iw:iw,lS:lS,bx:bx}C ig(2k){if(!2k){F}B tW=/^#([a-fA-F0-9]{3})$/i,B9=/^#([a-fA-F0-9]{6})$/i,3r=/^3r?\\(\\s*([+-]?\\d+)\\s*,\\s*([+-]?\\d+)\\s*,\\s*([+-]?\\d+)\\s*(?:,\\s*([+-]?[\\d\\.]+)\\s*)?\\)$/i,AU=/^3r?\\(\\s*([+-]?[\\d\\.]+)\\%\\s*,\\s*([+-]?[\\d\\.]+)\\%\\s*,\\s*([+-]?[\\d\\.]+)\\%\\s*(?:,\\s*([+-]?[\\d\\.]+)\\s*)?\\)$/i,bx=/(\\w+)/;B 1O=[0,0,0],a=1,2g=2k.2g(tW);if(2g){2g=2g[1];1s(B i=0;i<1O.1f;i++){1O[i]=6k(2g[i]+2g[i],16)}}1a if(2g=2k.2g(B9)){2g=2g[1];1s(B i=0;i<1O.1f;i++){1O[i]=6k(2g.4s(i*2,i*2+2),16)}}1a if(2g=2k.2g(3r)){1s(B i=0;i<1O.1f;i++){1O[i]=6k(2g[i+1])}a=6j(2g[4])}1a if(2g=2k.2g(AU)){1s(B i=0;i<1O.1f;i++){1O[i]=N.2M(6j(2g[i+1])*2.55)}a=6j(2g[4])}1a if(2g=2k.2g(bx)){if(2g[1]=="RR"){F[0,0,0,0]}1O=qC[2g[1]];if(!1O){F}}1s(B i=0;i<1O.1f;i++){1O[i]=1r(1O[i],0,1t)}if(!a&&a!=0){a=1}1a{a=1r(a,0,1)}1O[3]=a;F 1O}C ih(2k){if(!2k){F}B 2X=/^6K?\\(\\s*([+-]?\\d+)(?:zG)?\\s*,\\s*([+-]?[\\d\\.]+)%\\s*,\\s*([+-]?[\\d\\.]+)%\\s*(?:,\\s*([+-]?[\\d\\.]+)\\s*)?\\)/;B 2g=2k.2g(2X);if(2g){B 2t=6j(2g[4]);B h=1r(6k(2g[1]),0,6t),s=1r(6j(2g[2]),0,2o),l=1r(6j(2g[3]),0,2o),a=1r(3p(2t)?1:2t,0,1);F[h,s,l,a]}}C lA(2k){if(!2k){F}B 3Y=/^3Y\\(\\s*([+-]?\\d+)(?:zG)?\\s*,\\s*([+-]?[\\d\\.]+)%\\s*,\\s*([+-]?[\\d\\.]+)%\\s*(?:,\\s*([+-]?[\\d\\.]+)\\s*)?\\)/;B 2g=2k.2g(3Y);if(2g){B 2t=6j(2g[4]);B h=1r(6k(2g[1]),0,6t),w=1r(6j(2g[2]),0,2o),b=1r(6j(2g[3]),0,2o),a=1r(3p(2t)?1:2t,0,1);F[h,w,b,a]}}C rF(2k){B 3r=ig(2k);F 3r&&3r.4s(0,3)}C rE(2k){B 6K=ih(2k);F 6K&&6K.4s(0,3)}C rD(2k){B 2V=ig(2k);if(2V){F 2V[3]}1a if(2V=ih(2k)){F 2V[3]}1a if(2V=lA(2k)){F 2V[3]}}C lC(1O){F"#"+qz(1O[0])+qz(1O[1])+qz(1O[2])}C cs(3r,2t){if(2t<1||(3r[3]&&3r[3]<1)){F fx(3r,2t)}F"1O("+3r[0]+", "+3r[1]+", "+3r[2]+")"}C fx(3r,2t){if(2t===1C){2t=(3r[3]!==1C?3r[3]:1)}F"3r("+3r[0]+", "+3r[1]+", "+3r[2]+", "+2t+")"}C lF(3r,2t){if(2t<1||(3r[3]&&3r[3]<1)){F qt(3r,2t)}B r=N.2M(3r[0]/1t*2o),g=N.2M(3r[1]/1t*2o),b=N.2M(3r[2]/1t*2o);F"1O("+r+"%, "+g+"%, "+b+"%)"}C qt(3r,2t){B r=N.2M(3r[0]/1t*2o),g=N.2M(3r[1]/1t*2o),b=N.2M(3r[2]/1t*2o);F"3r("+r+"%, "+g+"%, "+b+"%, "+(2t||3r[3]||1)+")"}C lG(6K,2t){if(2t<1||(6K[3]&&6K[3]<1)){F iw(6K,2t)}F"2X("+6K[0]+", "+6K[1]+"%, "+6K[2]+"%)"}C iw(6K,2t){if(2t===1C){2t=(6K[3]!==1C?6K[3]:1)}F"6K("+6K[0]+", "+6K[1]+"%, "+6K[2]+"%, "+2t+")"}C lS(3Y,2t){if(2t===1C){2t=(3Y[3]!==1C?3Y[3]:1)}F"3Y("+3Y[0]+", "+3Y[1]+"%, "+3Y[2]+"%"+(2t!==1C&&2t!==1?", "+2t:"")+")"}C bx(1O){F rv[1O.4s(0,3)]}C 1r(qA,1h,1g){F N.1h(N.1g(1h,qA),1g)}C qz(qA){B qB=qA.6B(16).tj();F(qB.1f<2)?"0"+qB:qB}B rv={};1s(B 3k in qC){rv[qC[3k]]=3k}},{"3D-3k":57}],54:[C(1j,1E,1A){B 8c=1j(\'3D-8c\');B 2k=1j(\'e6-3D-2k\');B 7w=C(3n){if(3n 8u 7w){F 3n}if(!(I 8u 7w)){F 2A 7w(3n)}I.fp=1x;I.1M={1O:[0,0,0],2X:[0,0,0],6U:[0,0,0],3Y:[0,0,0],7j:[0,0,0,0],2t:1};B 2V;if(2y 3n===\'2k\'){2V=2k.ig(3n);if(2V){I.5q(\'1O\',2V)}1a if(2V=2k.ih(3n)){I.5q(\'2X\',2V)}1a if(2V=2k.lA(3n)){I.5q(\'3Y\',2V)}}1a if(2y 3n===\'5m\'){2V=3n;if(2V.r!==1C||2V.eJ!==1C){I.5q(\'1O\',2V)}1a if(2V.l!==1C||2V.rj!==1C){I.5q(\'2X\',2V)}1a if(2V.v!==1C||2V.1c!==1C){I.5q(\'6U\',2V)}1a if(2V.w!==1C||2V.rm!==1C){I.5q(\'3Y\',2V)}1a if(2V.c!==1C||2V.jM!==1C){I.5q(\'7j\',2V)}}};7w.2L={2C:C(){F I.fp},1O:C(){F I.iu(\'1O\',3d)},2X:C(){F I.iu(\'2X\',3d)},6U:C(){F I.iu(\'6U\',3d)},3Y:C(){F I.iu(\'3Y\',3d)},7j:C(){F I.iu(\'7j\',3d)},Rr:C(){F I.1M.1O},Rp:C(){F I.1M.2X},Ro:C(){F I.1M.6U},Rn:C(){B 1M=I.1M;if(1M.2t!==1){F 1M.3Y.7g([1M.2t])}F 1M.3Y},Rm:C(){F I.1M.7j},Rk:C(){B 1M=I.1M;F 1M.1O.7g([1M.2t])},Rj:C(){B 1M=I.1M;F 1M.2X.7g([1M.2t])},2t:C(2v){if(2v===1C){F I.1M.2t}I.5q(\'2t\',2v);F I},eJ:C(2v){F I.8f(\'1O\',0,2v)},g3:C(2v){F I.8f(\'1O\',1,2v)},gZ:C(2v){F I.8f(\'1O\',2,2v)},ea:C(2v){if(2v){2v%=6t;2v=2v<0?6t+2v:2v}F I.8f(\'2X\',0,2v)},rk:C(2v){F I.8f(\'2X\',1,2v)},rj:C(2v){F I.8f(\'2X\',2,2v)},Rg:C(2v){F I.8f(\'6U\',1,2v)},rm:C(2v){F I.8f(\'3Y\',1,2v)},CY:C(2v){F I.8f(\'3Y\',2,2v)},1c:C(2v){F I.8f(\'6U\',2,2v)},jM:C(2v){F I.8f(\'7j\',0,2v)},n3:C(2v){F I.8f(\'7j\',1,2v)},pK:C(2v){F I.8f(\'7j\',2,2v)},oY:C(2v){F I.8f(\'7j\',3,2v)},lC:C(){F 2k.lC(I.1M.1O)},cs:C(){F 2k.cs(I.1M.1O,I.1M.2t)},fx:C(){F 2k.fx(I.1M.1O,I.1M.2t)},lF:C(){F 2k.lF(I.1M.1O,I.1M.2t)},lG:C(){F 2k.lG(I.1M.2X,I.1M.2t)},iw:C(){F 2k.iw(I.1M.2X,I.1M.2t)},lS:C(){F 2k.lS(I.1M.3Y,I.1M.2t)},bx:C(){F 2k.bx(I.1M.1O,I.1M.2t)},R7:C(){B 1O=I.1M.1O;F(1O[0]<<16)|(1O[1]<<8)|1O[2]},rl:C(){B 1O=I.1M.1O;B lT=[];1s(B i=0;i<1O.1f;i++){B r1=1O[i]/1t;lT[i]=(r1<=0.R5)?r1/12.92:N.2F(((r1+0.8t)/1.8t),2.4)}F 0.El*lT[0]+0.Fv*lT[1]+0.J9*lT[2]},Ea:C(bS){B r5=I.rl();B r4=bS.rl();if(r5>r4){F(r5+0.r8)/(r4+0.r8)}F(r4+0.r8)/(r5+0.r8)},QV:C(bS){B ri=I.Ea(bS);if(ri>=7.1){F\'QT\'}F(ri>=4.5)?\'AA\':\'\'},zq:C(){B 1O=I.1M.1O;B Bx=(1O[0]*QQ+1O[1]*QP+1O[2]*sU)/6f;F Bx<3y},QN:C(){F!I.zq()},QL:C(){B 1O=[];1s(B i=0;i<3;i++){1O[i]=1t-I.1M.1O[i]}I.5q(\'1O\',1O);F I},QK:C(3X){B 2X=I.1M.2X;2X[2]+=2X[2]*3X;I.5q(\'2X\',2X);F I},z2:C(3X){B 2X=I.1M.2X;2X[2]-=2X[2]*3X;I.5q(\'2X\',2X);F I},E8:C(3X){B 2X=I.1M.2X;2X[1]+=2X[1]*3X;I.5q(\'2X\',2X);F I},QH:C(3X){B 2X=I.1M.2X;2X[1]-=2X[1]*3X;I.5q(\'2X\',2X);F I},QG:C(3X){B 3Y=I.1M.3Y;3Y[1]+=3Y[1]*3X;I.5q(\'3Y\',3Y);F I},QF:C(3X){B 3Y=I.1M.3Y;3Y[2]+=3Y[2]*3X;I.5q(\'3Y\',3Y);F I},QE:C(){B 1O=I.1M.1O;B 2v=1O[0]*0.3+1O[1]*0.59+1O[2]*0.11;I.5q(\'1O\',[2v,2v,2v]);F I},QD:C(3X){B 2t=I.1M.2t;I.5q(\'2t\',2t-(2t*3X));F I},QC:C(3X){B 2t=I.1M.2t;I.5q(\'2t\',2t+(2t*3X));F I},iR:C(rc){B 2X=I.1M.2X;B ea=(2X[0]+rc)%6t;2X[0]=ea<0?6t+ea:ea;I.5q(\'2X\',2X);F I},Cs:C(C9,8k){B iA=I;B bS=C9;B p=8k===1C?0.5:8k;B w=2*p-1;B a=iA.2t()-bS.2t();B w1=(((w*a===-1)?w:(w+a)/(1+w*a))+1)/2.0;B w2=1-w1;F I.1O(w1*iA.eJ()+w2*bS.eJ(),w1*iA.g3()+w2*bS.g3(),w1*iA.gZ()+w2*bS.gZ()).2t(iA.2t()*p+bS.2t()*(1-p))},jp:C(){F I.1O()},4o:C(){B 8M=2A 7w();B 2G=I.1M;B 1L=8M.1M;B 1c,1G;1s(B 3h in 2G){if(2G.9x(3h)){1c=2G[3h];1G=({}).6B.2n(1c);if(1G===\'[5m 5y]\'){1L[3h]=1c.4s(0)}1a if(1G===\'[5m 7f]\'){1L[3h]=1c}1a{8F.cN(\'Qf 3D 1c:\',1c)}}}F 8M}};7w.2L.iv={1O:[\'eJ\',\'g3\',\'gZ\'],2X:[\'ea\',\'rk\',\'rj\'],6U:[\'ea\',\'rk\',\'1c\'],3Y:[\'ea\',\'rm\',\'CY\'],7j:[\'jM\',\'n3\',\'pK\',\'oY\']};7w.2L.qY={1O:[1t,1t,1t],2X:[6t,2o,2o],6U:[6t,2o,2o],3Y:[6t,2o,2o],7j:[2o,2o,2o,2o]};7w.2L.pr=C(3m){B 1M=I.1M;B 2V={};1s(B i=0;i<3m.1f;i++){2V[3m.jE(i)]=1M[3m][i]}if(1M.2t!==1){2V.a=1M.2t}F 2V};7w.2L.5q=C(3m,2V){B 1M=I.1M;B iv=I.iv;B qY=I.qY;B 2t=1;B i;I.fp=1z;if(3m===\'2t\'){2t=2V}1a if(2V.1f){1M[3m]=2V.4s(0,3m.1f);2t=2V[3m.1f]}1a if(2V[3m.jE(0)]!==1C){1s(i=0;i<3m.1f;i++){1M[3m][i]=2V[3m.jE(i)]}2t=2V.a}1a if(2V[iv[3m][0]]!==1C){B D2=iv[3m];1s(i=0;i<3m.1f;i++){1M[3m][i]=2V[D2[i]]}2t=2V.2t}1M.2t=N.1g(0,N.1h(1,(2t===1C?1M.2t:2t)));if(3m===\'2t\'){F 1x}B rn;1s(i=0;i<3m.1f;i++){rn=N.1g(0,N.1h(qY[3m][i],1M[3m][i]));1M[3m][i]=N.2M(rn)}1s(B qV in iv){if(qV!==3m){1M[qV]=8c[3m][qV](1M[3m])}}F 1z};7w.2L.iu=C(3m,2j){B 2V=2j[0];if(2V===1C){F I.pr(3m)}if(2y 2V===\'3N\'){2V=5y.2L.4s.2n(2j)}I.5q(3m,2V);F I};7w.2L.8f=C(3m,K,2v){B lM=I.1M[3m];if(2v===1C){F lM[K]}1a if(2v===lM[K]){F I}lM[K]=2v;I.5q(3m,lM);F I};if(2y 6m!==\'1C\'){6m.7w=7w}1E.1A=7w},{"e6-3D-2k":53,"3D-8c":56}],55:[C(1j,1E,1A){1E.1A={eE:eE,hB:hB,f2:f2,f7:f7,fy:fy,kB:kB,kD:kD,rp:rp,ie:ie,rq:rq,rr:rr,rs:rs,rt:rt,ib:ib,rw:rw,rz:rz,rA:rA,rB:rB,eI:eI,rC:rC,rG:rG,rI:rI,rJ:rJ,fT:fT,rK:rK,rL:rL,rM:rM,rN:rN,cS:cS,rV:rV,rW:rW,rX:rX,rY:rY,s0:s0,s1:s1,pZ:pZ,qd:qd,rP:rP,kP:kP,pP:pP,kZ:kZ,kN:kN,rR:rR,rU:rU}C eE(1O){B r=1O[0]/1t,g=1O[1]/1t,b=1O[2]/1t,1h=N.1h(r,g,b),1g=N.1g(r,g,b),8b=1g-1h,h,s,l;if(1g==1h)h=0;1a if(r==1g)h=(g-b)/8b;1a if(g==1g)h=2+(b-r)/8b;1a if(b==1g)h=4+(r-g)/8b;h=N.1h(h*60,6t);if(h<0)h+=6t;l=(1h+1g)/2;if(1g==1h)s=0;1a if(l<=0.5)s=8b/(1g+1h);1a s=8b/(2-1g-1h);F[h,s*2o,l*2o]}C hB(1O){B r=1O[0],g=1O[1],b=1O[2],1h=N.1h(r,g,b),1g=N.1g(r,g,b),8b=1g-1h,h,s,v;if(1g==0)s=0;1a s=(8b/1g*6f)/10;if(1g==1h)h=0;1a if(r==1g)h=(g-b)/8b;1a if(g==1g)h=2+(b-r)/8b;1a if(b==1g)h=4+(r-g)/8b;h=N.1h(h*60,6t);if(h<0)h+=6t;v=((1g/1t)*6f)/10;F[h,s,v]}C f2(1O){B r=1O[0],g=1O[1],b=1O[2],h=eE(1O)[0],w=1/1t*N.1h(r,N.1h(g,b)),b=1-1/1t*N.1g(r,N.1g(g,b));F[h,w*2o,b*2o]}C f7(1O){B r=1O[0]/1t,g=1O[1]/1t,b=1O[2]/1t,c,m,y,k;k=N.1h(1-r,1-g,1-b);c=(1-r-k)/(1-k)||0;m=(1-g-k)/(1-k)||0;y=(1-b-k)/(1-k)||0;F[c*2o,m*2o,y*2o,k*2o]}C fy(1O){F s3[D5.Dw(1O)]}C kB(1O){B r=1O[0]/1t,g=1O[1]/1t,b=1O[2]/1t;r=r>0.ro?N.2F(((r+0.8t)/1.8t),2.4):(r/12.92);g=g>0.ro?N.2F(((g+0.8t)/1.8t),2.4):(g/12.92);b=b>0.ro?N.2F(((b+0.8t)/1.8t),2.4):(b/12.92);B x=(r*0.PU)+(g*0.PT)+(b*0.PS);B y=(r*0.El)+(g*0.Fv)+(b*0.J9);B z=(r*0.PN)+(g*0.PL)+(b*0.PK);F[x*2o,y*2o,z*2o]}C kD(1O){B 9A=kB(1O),x=9A[0],y=9A[1],z=9A[2],l,a,b;x/=95.l7;y/=2o;z/=l3.l2;x=x>0.fw?N.2F(x,1/3):(7.cd*x)+(16/a3);y=y>0.fw?N.2F(y,1/3):(7.cd*y)+(16/a3);z=z>0.fw?N.2F(z,1/3):(7.cd*z)+(16/a3);l=(a3*y)-16;a=l6*(x-y);b=hO*(y-z);F[l,a,b]}C rp(2j){F kZ(kD(2j))}C ie(2X){B h=2X[0]/6t,s=2X[1]/2o,l=2X[2]/2o,t1,t2,t3,1O,2v;if(s==0){2v=l*1t;F[2v,2v,2v]}if(l<0.5)t2=l*(1+s);1a t2=l+s-l*s;t1=2*l-t2;1O=[0,0,0];1s(B i=0;i<3;i++){t3=h+1/3*-(i-1);t3<0&&t3++;t3>1&&t3--;if(6*t3<1)2v=t1+(t2-t1)*6*t3;1a if(2*t3<1)2v=t2;1a if(3*t3<2)2v=t1+(t2-t1)*(2/3-t3)*6;1a 2v=t1;1O[i]=2v*1t}F 1O}C rq(2X){B h=2X[0],s=2X[1]/2o,l=2X[2]/2o,sv,v;if(l===0){F[0,0,0]}l*=2;s*=(l<=1)?l:2-l;v=(l+s)/2;sv=(2*s)/(l+s);F[h,sv*2o,v*2o]}C rr(2j){F f2(ie(2j))}C rs(2j){F f7(ie(2j))}C rt(2j){F fy(ie(2j))}C ib(6U){B h=6U[0]/60,s=6U[1]/2o,v=6U[2]/2o,hi=N.4p(h)%6;B f=h-N.4p(h),p=1t*v*(1-s),q=1t*v*(1-(s*f)),t=1t*v*(1-(s*(1-f))),v=1t*v;ck(hi){2U 0:F[v,t,p];2U 1:F[q,v,p];2U 2:F[p,v,t];2U 3:F[p,q,v];2U 4:F[t,p,v];2U 5:F[v,p,q]}}C rw(6U){B h=6U[0],s=6U[1]/2o,v=6U[2]/2o,sl,l;l=(2-s)*v;sl=s*v;sl/=(l<=1)?l:2-l;sl=sl||0;l/=2;F[h,sl*2o,l*2o]}C rz(2j){F f2(ib(2j))}C rA(2j){F f7(ib(2j))}C rB(2j){F fy(ib(2j))}C eI(3Y){B h=3Y[0]/6t,wh=3Y[1]/2o,bl=3Y[2]/2o,3X=wh+bl,i,v,f,n;if(3X>1){wh/=3X;bl/=3X}i=N.4p(6*h);v=1-bl;f=6*h-i;if((i&P4)!=0){f=1-f}n=wh+f*(v-wh);ck(i){6Y:2U 6:2U 0:r=v;g=n;b=wh;4e;2U 1:r=n;g=v;b=wh;4e;2U 2:r=wh;g=v;b=n;4e;2U 3:r=wh;g=n;b=v;4e;2U 4:r=n;g=wh;b=v;4e;2U 5:r=v;g=wh;b=n;4e}F[r*1t,g*1t,b*1t]}C rC(2j){F eE(eI(2j))}C rG(2j){F hB(eI(2j))}C rI(2j){F f7(eI(2j))}C rJ(2j){F fy(eI(2j))}C fT(7j){B c=7j[0]/2o,m=7j[1]/2o,y=7j[2]/2o,k=7j[3]/2o,r,g,b;r=1-N.1h(1,c*(1-k)+k);g=1-N.1h(1,m*(1-k)+k);b=1-N.1h(1,y*(1-k)+k);F[r*1t,g*1t,b*1t]}C rK(2j){F eE(fT(2j))}C rL(2j){F hB(fT(2j))}C rM(2j){F f2(fT(2j))}C rN(2j){F fy(fT(2j))}C pZ(9A){B x=9A[0]/2o,y=9A[1]/2o,z=9A[2]/2o,r,g,b;r=(x*3.OJ)+(y*-1.OI)+(z*-0.OF);g=(x*-0.OE)+(y*1.Oz)+(z*0.Ox);b=(x*0.Ov)+(y*-0.Oq)+(z*1.Op);r=r>0.rO?((1.8t*N.2F(r,1.0/2.4))-0.8t):r=(r*12.92);g=g>0.rO?((1.8t*N.2F(g,1.0/2.4))-0.8t):g=(g*12.92);b=b>0.rO?((1.8t*N.2F(b,1.0/2.4))-0.8t):b=(b*12.92);r=N.1h(N.1g(0,r),1);g=N.1h(N.1g(0,g),1);b=N.1h(N.1g(0,b),1);F[r*1t,g*1t,b*1t]}C qd(9A){B x=9A[0],y=9A[1],z=9A[2],l,a,b;x/=95.l7;y/=2o;z/=l3.l2;x=x>0.fw?N.2F(x,1/3):(7.cd*x)+(16/a3);y=y>0.fw?N.2F(y,1/3):(7.cd*y)+(16/a3);z=z>0.fw?N.2F(z,1/3):(7.cd*z)+(16/a3);l=(a3*y)-16;a=l6*(x-y);b=hO*(y-z);F[l,a,b]}C rP(2j){F kZ(qd(2j))}C kP(dK){B l=dK[0],a=dK[1],b=dK[2],x,y,z,y2;if(l<=8){y=(l*2o)/O8.3;y2=(7.cd*(y/2o))+(16/a3)}1a{y=2o*N.2F((l+16)/a3,3);y2=N.2F(y/2o,1/3)}x=x/95.l7<=0.fw?x=(95.l7*((a/ l6) + y2 - (16/a3)))/ 7.cd : 95.l7 * N.2F((a /l6)+y2,3);z=z/l3.l2<=0.NZ?z=(l3.l2*(y2-(b/ hO) - (16/a3)))/ 7.cd : l3.l2 * N.2F(y2 - (b /hO),3);F[x,y,z]}C kZ(dK){B l=dK[0],a=dK[1],b=dK[2],hr,h,c;hr=N.If(b,a);h=hr*6t/2/N.PI;if(h<0){h+=6t}c=N.8T(a*a+b*b);F[l,c,h]}C pP(2j){F pZ(kP(2j))}C kN(pY){B l=pY[0],c=pY[1],h=pY[2],a,b,hr;hr=h/6t*2*N.PI;a=c*N.7L(hr);b=c*N.6S(hr);F[l,a,b]}C rR(2j){F kP(kN(2j))}C rU(2j){F pP(kN(2j))}C cS(bx){F pw[bx]}C rV(2j){F eE(cS(2j))}C rW(2j){F hB(cS(2j))}C rX(2j){F f2(cS(2j))}C rY(2j){F f7(cS(2j))}C s0(2j){F kD(cS(2j))}C s1(2j){F kB(cS(2j))}B pw={EM:[6n,dH,1t],EV:[4X,gG,nQ],EW:[0,1t,1t],Fm:[cX,1t,Fz],FA:[6n,1t,1t],FQ:[6r,6r,ab],G0:[1t,g5,n9],oY:[0,0,0],Ga:[1t,gG,6Q],gZ:[0,0,1t],H7:[Ha,43,I8],I9:[gh,42,42],Ji:[d6,ox,gF],Jj:[95,JJ,d9],JM:[cX,1t,0],JN:[gM,6O,30],Ks:[1t,cX,80],KR:[2o,KS,yS],yX:[1t,dH,ab],z3:[ab,20,60],jM:[0,1t,1t],z8:[0,0,6o],za:[0,6o,6o],zk:[ox,zl,11],zm:[9Z,9Z,9Z],zn:[0,2o,0],zp:[9Z,9Z,9Z],zr:[zu,zx,ga],zC:[6o,0,6o],zS:[85,ga,47],zU:[1t,gN,0],zW:[dl,50,mL],zY:[6o,0,0],zZ:[A2,A3,nk],A6:[dj,qP,dj],Ae:[72,61,6o],Ak:[47,79,79],An:[47,79,79],Ar:[0,iC,mM],Au:[Aw,0,7M],Ax:[1t,20,go],AI:[0,q3,1t],AK:[6O,6O,6O],AR:[6O,6O,6O],AS:[30,bR,1t],AX:[nh,34,34],AY:[1t,4X,6n],B1:[34,6o,34],B4:[1t,0,1t],B8:[ab,ab,ab],Bl:[dH,dH,1t],Bn:[1t,nQ,0],Bo:[gr,gh,32],Bt:[3y,3y,3y],g3:[0,3y,0],Bu:[g6,1t,47],BA:[3y,3y,3y],BD:[6n,1t,6n],BI:[1t,6O,b1],BO:[6Q,92,92],BQ:[75,0,gR],BR:[1t,1t,6n],BS:[6n,8E,gN],BU:[8E,8E,4X],BW:[1t,6n,6r],BX:[C7,C8,0],Li:[1t,4X,6Q],Ca:[g6,gO,8E],Cd:[6n,3y,3y],Ch:[cZ,1t,1t],Ci:[4X,4X,gM],Cj:[7M,7M,7M],Ck:[bR,7G,bR],Cl:[7M,7M,7M],Cv:[1t,Cw,Cx],CL:[1t,d9,nk],CN:[32,nh,gn],CO:[gF,iC,4X],CP:[nc,nb,dl],CQ:[nc,nb,dl],CT:[r0,n9,d6],CU:[1t,1t,cZ],CV:[0,1t,0],CX:[50,6Q,50],D0:[4X,6n,8E],n3:[1t,0,1t],D6:[3y,0,0],D9:[qU,6Q,gn],Dz:[0,0,6Q],DA:[DB,85,7M],DG:[go,9U,m8],DH:[60,pO,DL],DR:[DZ,E1,7G],E2:[0,4X,pH],E4:[72,mM,mL],Ed:[Ee,21,rb],Eg:[25,25,9U],Ep:[6r,1t,4X],Eq:[1t,g5,ji],Er:[1t,g5,Eu],Ey:[1t,d6,g6],EC:[0,0,3y],ED:[EE,6r,8E],EG:[3y,3y,0],EH:[ga,EI,35],EL:[1t,gh,0],EN:[1t,69,0],EO:[gr,9U,ER],ET:[7G,F8,gn],FD:[mc,FS,mc],G1:[G2,7G,7G],G3:[m8,9U,go],G4:[1t,Gh,Gn],Gq:[1t,gr,GJ],GK:[6Q,rb,63],GL:[1t,c7,GP],GR:[r3,d9,r3],GU:[r0,cZ,8E],GY:[3y,0,3y],H4:[qU,51,dl],eJ:[1t,0,0],H9:[qP,dj,dj],Hc:[65,6O,ji],Hp:[6o,69,19],Hr:[4X,3y,sU],Ht:[Hv,Hy,96],HB:[46,6o,87],HC:[1t,6r,7G],HD:[d9,82,45],HG:[c7,c7,c7],HJ:[gF,iC,gG],HL:[HM,90,6Q],HN:[9U,3y,bR],HV:[9U,3y,bR],I2:[1t,4X,4X],I6:[0,1t,cX],I7:[70,gR,b1],Id:[gM,b1,gN],Ie:[0,3y,3y],IA:[gO,q3,gO],II:[1t,99,71],IV:[64,cZ,IY],J2:[7G,gR,7G],J5:[6r,d6,pO],Jc:[1t,1t,1t],Jg:[6r,6r,6r],pK:[1t,1t,0],Jn:[pH,6Q,50]};B s3={};1s(B 1v in pw){s3[D5.Dw(pw[1v])]=1v}},{}],56:[C(1j,1E,1A){B h8=1j("./h8");B 8c=C(){F 2A hc()}1s(B 5Z in h8){8c[5Z+"Mw"]=(C(5Z){F C(7H){if(2y 7H=="3N")7H=5y.2L.4s.2n(3d);F h8[5Z](7H)}})(5Z);B s4=/(\\w+)2(\\w+)/.bU(5Z),3A=s4[1],to=s4[2];8c[3A]=8c[3A]||{};8c[3A][to]=8c[5Z]=(C(5Z){F C(7H){if(2y 7H=="3N")7H=5y.2L.4s.2n(3d);B 2v=h8[5Z](7H);if(2y 2v=="2k"||2v===1C)F 2v;1s(B i=0;i<2v.1f;i++)2v[i]=N.2M(2v[i]);F 2v}})(5Z)}B hc=C(){I.hk={}};hc.2L.Ef=C(3m,2j){B 1M=2j[0];if(1M===1C){F I.pr(3m)}if(2y 1M=="3N"){1M=5y.2L.4s.2n(2j)}F I.5q(3m,1M)};hc.2L.5q=C(3m,1M){I.3m=3m;I.hk={};I.hk[3m]=1M;F I};hc.2L.pr=C(3m){B 2V=I.hk[3m];if(!2V){B s5=I.3m,3A=I.hk[s5];2V=8c[s5][3m](3A);I.hk[3m]=2V}F 2V};["1O","2X","6U","7j","bx"].aQ(C(3m){hc.2L[3m]=C(2V){F I.Ef(3m,3d)}});1E.1A=8c},{"./h8":55}],57:[C(1j,1E,1A){\'2H 2q\'1E.1A={"EM":[6n,dH,1t],"EV":[4X,gG,nQ],"EW":[0,1t,1t],"Fm":[cX,1t,Fz],"FA":[6n,1t,1t],"FQ":[6r,6r,ab],"G0":[1t,g5,n9],"oY":[0,0,0],"Ga":[1t,gG,6Q],"gZ":[0,0,1t],"H7":[Ha,43,I8],"I9":[gh,42,42],"Ji":[d6,ox,gF],"Jj":[95,JJ,d9],"JM":[cX,1t,0],"JN":[gM,6O,30],"Ks":[1t,cX,80],"KR":[2o,KS,yS],"yX":[1t,dH,ab],"z3":[ab,20,60],"jM":[0,1t,1t],"z8":[0,0,6o],"za":[0,6o,6o],"zk":[ox,zl,11],"zm":[9Z,9Z,9Z],"zn":[0,2o,0],"zp":[9Z,9Z,9Z],"zr":[zu,zx,ga],"zC":[6o,0,6o],"zS":[85,ga,47],"zU":[1t,gN,0],"zW":[dl,50,mL],"zY":[6o,0,0],"zZ":[A2,A3,nk],"A6":[dj,qP,dj],"Ae":[72,61,6o],"Ak":[47,79,79],"An":[47,79,79],"Ar":[0,iC,mM],"Au":[Aw,0,7M],"Ax":[1t,20,go],"AI":[0,q3,1t],"AK":[6O,6O,6O],"AR":[6O,6O,6O],"AS":[30,bR,1t],"AX":[nh,34,34],"AY":[1t,4X,6n],"B1":[34,6o,34],"B4":[1t,0,1t],"B8":[ab,ab,ab],"Bl":[dH,dH,1t],"Bn":[1t,nQ,0],"Bo":[gr,gh,32],"Bt":[3y,3y,3y],"g3":[0,3y,0],"Bu":[g6,1t,47],"BA":[3y,3y,3y],"BD":[6n,1t,6n],"BI":[1t,6O,b1],"BO":[6Q,92,92],"BQ":[75,0,gR],"BR":[1t,1t,6n],"BS":[6n,8E,gN],"BU":[8E,8E,4X],"BW":[1t,6n,6r],"BX":[C7,C8,0],"Li":[1t,4X,6Q],"Ca":[g6,gO,8E],"Cd":[6n,3y,3y],"Ch":[cZ,1t,1t],"Ci":[4X,4X,gM],"Cj":[7M,7M,7M],"Ck":[bR,7G,bR],"Cl":[7M,7M,7M],"Cv":[1t,Cw,Cx],"CL":[1t,d9,nk],"CN":[32,nh,gn],"CO":[gF,iC,4X],"CP":[nc,nb,dl],"CQ":[nc,nb,dl],"CT":[r0,n9,d6],"CU":[1t,1t,cZ],"CV":[0,1t,0],"CX":[50,6Q,50],"D0":[4X,6n,8E],"n3":[1t,0,1t],"D6":[3y,0,0],"D9":[qU,6Q,gn],"Dz":[0,0,6Q],"DA":[DB,85,7M],"DG":[go,9U,m8],"DH":[60,pO,DL],"DR":[DZ,E1,7G],"E2":[0,4X,pH],"E4":[72,mM,mL],"Ed":[Ee,21,rb],"Eg":[25,25,9U],"Ep":[6r,1t,4X],"Eq":[1t,g5,ji],"Er":[1t,g5,Eu],"Ey":[1t,d6,g6],"EC":[0,0,3y],"ED":[EE,6r,8E],"EG":[3y,3y,0],"EH":[ga,EI,35],"EL":[1t,gh,0],"EN":[1t,69,0],"EO":[gr,9U,ER],"ET":[7G,F8,gn],"FD":[mc,FS,mc],"G1":[G2,7G,7G],"G3":[m8,9U,go],"G4":[1t,Gh,Gn],"Gq":[1t,gr,GJ],"GK":[6Q,rb,63],"GL":[1t,c7,GP],"GR":[r3,d9,r3],"GU":[r0,cZ,8E],"GY":[3y,0,3y],"H4":[qU,51,dl],"eJ":[1t,0,0],"H9":[qP,dj,dj],"Hc":[65,6O,ji],"Hp":[6o,69,19],"Hr":[4X,3y,sU],"Ht":[Hv,Hy,96],"HB":[46,6o,87],"HC":[1t,6r,7G],"HD":[d9,82,45],"HG":[c7,c7,c7],"HJ":[gF,iC,gG],"HL":[HM,90,6Q],"HN":[9U,3y,bR],"HV":[9U,3y,bR],"I2":[1t,4X,4X],"I6":[0,1t,cX],"I7":[70,gR,b1],"Id":[gM,b1,gN],"Ie":[0,3y,3y],"IA":[gO,q3,gO],"II":[1t,99,71],"IV":[64,cZ,IY],"J2":[7G,gR,7G],"J5":[6r,d6,pO],"Jc":[1t,1t,1t],"Jg":[6r,6r,6r],"pK":[1t,1t,0],"Jn":[pH,6Q,50]}},{}],58:[C(1j,1E,1A){;(C(3T,pD){2y 1A===\'5m\'&&2y 1E!==\'1C\'?1E.1A=pD():2y ql===\'C\'&&ql.Qu?ql(pD):3T.3i=pD()}(I,(C(){\'2H 2q\';B ta;C 2D(){F ta.4m(1l,3d)}C Ih(3g){ta=3g}C 3M(1d){F 1d 8u 5y||3t.2L.6B.2n(1d)===\'[5m 5y]\'}C 77(1d){F 1d!=1l&&3t.2L.6B.2n(1d)===\'[5m 3t]\'}C Ct(3n){if(3t.Jp){F(3t.Jp(3n).1f===0)}1a{B k;1s(k in 3n){if(3n.9x(k)){F 1x}}F 1z}}C 7q(1d){F 1d===je 0}C ac(1d){F 2y 1d===\'3N\'||3t.2L.6B.2n(1d)===\'[5m 7f]\'}C fW(1d){F 1d 8u 4L||3t.2L.6B.2n(1d)===\'[5m 4L]\'}C 9Q(5N,fn){B 2Z=[],i;1s(i=0;i<5N.1f;++i){2Z.1P(fn(5N[i],i))}F 2Z}C 5V(a,b){F 3t.2L.9x.2n(a,b)}C 3f(a,b){1s(B i in b){if(5V(b,i)){a[i]=b[i]}}if(5V(b,\'6B\')){a.6B=b.6B}if(5V(b,\'4d\')){a.4d=b.4d}F a}C aE(1d,1F,2i,2q){F uW(1d,1F,2i,2q,1z).9B()}C Jr(){F{nM:1x,jW:[],uK:[],7J:-2,nt:0,uT:1x,tv:1l,uP:1x,tb:1x,As:1x,uN:[],98:1l,ol:1x,oG:1x}}C 3S(m){if(m.j8==1l){m.j8=Jr()}F m.j8}B h6;if(5y.2L.h6){h6=5y.2L.h6}1a{h6=C(Ju){B t=3t(I);B 5T=t.1f>>>0;1s(B i=0;i<5T;i++){if(i in t&&Ju.2n(I,t[i],i,t)){F 1z}}F 1x}}C 2C(m){if(m.7N==1l){B 76=3S(m);B Jv=h6.2n(76.uN,C(i){F i!=1l});B jc=!3p(m.3H.JC())&&76.7J<0&&!76.nM&&!76.tv&&!76.z5&&!76.oG&&!76.uT&&!76.uP&&!76.tb&&(!76.98||(76.98&&Jv));if(m.b4){jc=jc&&76.nt===0&&76.jW.1f===0&&76.iB===1C}if(3t.Jw==1l||!3t.Jw(m)){m.7N=jc}1a{F jc}}F m.7N}C fJ(76){B m=aE(6e);if(76!=1l){3f(3S(m),76)}1a{3S(m).tb=1z}F m}B j7=2D.j7=[];C qX(to,3A){B i,3h,2v;if(!7q(3A.jD)){to.jD=3A.jD}if(!7q(3A.6a)){to.6a=3A.6a}if(!7q(3A.8y)){to.8y=3A.8y}if(!7q(3A.jC)){to.jC=3A.jC}if(!7q(3A.b4)){to.b4=3A.b4}if(!7q(3A.bu)){to.bu=3A.bu}if(!7q(3A.5Y)){to.5Y=3A.5Y}if(!7q(3A.eG)){to.eG=3A.eG}if(!7q(3A.j8)){to.j8=3S(3A)}if(!7q(3A.5k)){to.5k=3A.5k}if(j7.1f>0){1s(i=0;i<j7.1f;i++){3h=j7[i];2v=3A[3h];if(!7q(2v)){to[3h]=2v}}}F to}B pi=1x;C fr(V){qX(I,V);I.3H=2A 4L(V.3H!=1l?V.3H.JC():6e);if(!I.2C()){I.3H=2A 4L(6e)}if(pi===1x){pi=1z;2D.9t(I);pi=1x}}C bG(3n){F 3n 8u fr||(3n!=1l&&3n.jD!=1l)}C 8V(3N){if(3N<0){F N.9H(3N)||0}1a{F N.4p(3N)}}C 3U(JG){B pg=+JG,1c=0;if(pg!==0&&8A(pg)){1c=8V(pg)}F 1c}C v7(j2,j1,td){B 5T=N.1h(j2.1f,j1.1f),JL=N.4W(j2.1f-j1.1f),te=0,i;1s(i=0;i<5T;i++){if((td&&j2[i]!==j1[i])||(!td&&3U(j2[i])!==3U(j1[i]))){te++}}F te+JL}C dN(dc){if(2D.JP===1x&&(2y 8F!==\'1C\')&&8F.dN){8F.dN(\'PB Pz: \'+dc)}}C 8Z(dc,fn){B tf=1z;F 3f(C(){if(2D.iU!=1l){2D.iU(1l,dc)}if(tf){B 2j=[];B 7H;1s(B i=0;i<3d.1f;i++){7H=\'\';if(2y 3d[i]===\'5m\'){7H+=\'\\n[\'+i+\'] \';1s(B 1v in 3d[0]){7H+=1v+\': \'+3d[0][1v]+\', \'}7H=7H.4s(0,-2)}1a{7H=3d[i]}2j.1P(7H)}dN(dc+\'\\Pr: \'+5y.2L.4s.2n(2j).7A(\'\')+\'\\n\'+(2A kW()).6y);tf=1x}F fn.4m(I,3d)},fn)}B ti={};C vf(3k,dc){if(2D.iU!=1l){2D.iU(3k,dc)}if(!ti[3k]){dN(dc);ti[3k]=1z}}2D.JP=1x;2D.iU=1l;C aO(1d){F 1d 8u JQ||3t.2L.6B.2n(1d)===\'[5m JQ]\'}C 8v(V){B 3h,i;1s(i in V){3h=V[i];if(aO(3h)){I[i]=3h}1a{I[\'6u\'+i]=3h}}I.j0=V;I.Ej=2A 7x((I.Eh.2G||I.Ei.2G)+\'|\'+(/\\d{1,2}/).2G)}C tY(7S,de){B 2Z=3f({},7S),3h;1s(3h in de){if(5V(de,3h)){if(77(7S[3h])&&77(de[3h])){2Z[3h]={};3f(2Z[3h],7S[3h]);3f(2Z[3h],de[3h])}1a if(de[3h]!=1l){2Z[3h]=de[3h]}1a{6v 2Z[3h]}}}1s(3h in 7S){if(5V(7S,3h)&&!5V(de,3h)&&77(7S[3h])){2Z[3h]=3f({},2Z[3h])}}F 2Z}C lc(V){if(V!=1l){I.8v(V)}}B 3R;if(3t.3R){3R=3t.3R}1a{3R=C(3n){B i,2Z=[];1s(i in 3n){if(5V(3n,i)){2Z.1P(i)}}F 2Z}}B zy={Dn:\'[P5 at] LT\',Dp:\'[OV at] LT\',Dq:\'bb [at] LT\',Dm:\'[OU at] LT\',Dl:\'[OT] bb [at] LT\',kT:\'L\'};C da(1v,2l,7r){B 4i=I.K1[1v]||I.K1[\'kT\'];F aO(4i)?4i.2n(2l,7r):4i}B zB={Kw:\'h:mm:ss A\',LT:\'h:mm A\',L:\'MM/DD/4t\',LL:\'c5 D, 4t\',OP:\'c5 D, 4t h:mm A\',OO:\'bb, c5 D, 4t h:mm A\'};C l5(1v){B 1F=I.oP[1v],tk=I.oP[1v.tj()];if(1F||!tk){F 1F}I.oP[1v]=tk.5t(/c5|MM|DD|bb/g,C(2v){F 2v.4s(1)});F I.oP[1v]}B zD=\'Ka 4j\';C cx(){F I.OK}B zF=\'%d\';B zH=/\\d{1,2}/;C cO(3N){F I.Oh.5t(\'%d\',3N)}B zI={Kh:\'in %s\',Ki:\'%s Of\',s:\'a Oe 4D\',ss:\'%d 4D\',m:\'a 83\',mm:\'%d 4b\',h:\'an 5E\',hh:\'%d 4v\',d:\'a 4c\',dd:\'%d 3q\',M:\'a 3j\',MM:\'%d 2J\',y:\'a 2s\',yy:\'%d 5P\'};C f4(3N,8B,2k,mI){B 4i=I.Kf[2k];F(aO(4i))?4i(3N,8B,2k,mI):4i.5t(/%d/i,3N)}C qu(7h,4i){B 1F=I.Kf[7h>0?\'Kh\':\'Ki\'];F aO(1F)?1F(4i):1F.5t(/%s/i,4i)}B h9={};C 7m(4n,Kl){B tm=4n.qE();h9[tm]=h9[tm+\'s\']=h9[Kl]=4n}C 8w(2h){F 2y 2h===\'2k\'?h9[2h]||h9[2h.qE()]:1C}C mE(oH){B 8z={},oI,3h;1s(3h in oH){if(5V(oH,3h)){oI=8w(3h);if(oI){8z[oI]=oH[3h]}}}F 8z}B tn={};C 7l(4n,iI){tn[4n]=iI}C Lb(Km){B 2h=[];1s(B u in Km){2h.1P({4n:u,iI:tn[u]})}2h.8j(C(a,b){F a.iI-b.iI});F 2h}C bM(3N,Kp,Kq){B tq=\'\'+N.4W(3N),Kr=Kp-tq.1f,3B=3N>=0;F(3B?(Kq?\'+\':\'\'):\'-\')+N.2F(10,N.1g(0,Kr)).6B().8p(1)+tq}B uG=/(\\[[^\\[]*\\])|(\\\\)?([Hh]mm(ss)?|Mo|MM?M?M?|Do|Ek|DD?D?D?|dP?d?|do?|w[o|w]?|W[o|W]?|Qo?|dO|o3|4t|o2|gg(Nl?)?|GG(Nh?)?|e|E|a|A|hh?|HH?|kk?|mm?|ss?|S{1,9}|x|X|zz?|kl?|.)/g;B lB=/(\\[[^\\[]*\\])|(\\\\)?(Kw|LT|LL?L?L?|l{1,4})/g;B ok={};B fS={};C 3l(2P,lP,cO,3g){B 5Z=3g;if(2y 3g===\'2k\'){5Z=C(){F I[3g]()}}if(2P){fS[2P]=5Z}if(lP){fS[lP[0]]=C(){F bM(5Z.4m(I,3d),lP[1],lP[2])}}if(cO){fS[cO]=C(){F I.4q().cO(5Z.4m(I,3d),2P)}}}C KB(1d){if(1d.2g(/\\[[\\s\\S]/)){F 1d.5t(/^\\[|\\]$/g,\'\')}F 1d.5t(/\\\\/g,\'\')}C KE(1F){B 2p=1F.2g(uG),i,1f;1s(i=0,1f=2p.1f;i<1f;i++){if(fS[2p[i]]){2p[i]=fS[2p[i]]}1a{2p[i]=KB(2p[i])}}F C(2l){B 4i=\'\',i;1s(i=0;i<1f;i++){4i+=aO(2p[i])?2p[i].2n(2l,1F):2p[i]}F 4i}}C k5(m,1F){if(!m.2C()){F m.4q().cx()}1F=uF(1F,m.4q());ok[1F]=ok[1F]||KE(1F);F ok[1F](m)}C uF(1F,2i){B i=5;C KF(1d){F 2i.l5(1d)||1d}lB.KH=0;aW(i>=0&&lB.9f(1F)){1F=1F.5t(lB,KF);lB.KH=0;i-=1}F 1F}B vU=/\\d/;B 8l=/\\d\\d/;B vV=/\\d{3}/;B nX=/\\d{4}/;B jL=/[+-]?\\d{6}/;B 5f=/\\d\\d?/;B tG=/\\d\\d\\d\\d?/;B tH=/\\d\\d\\d\\d\\d\\d?/;B lU=/\\d{1,3}/;B nZ=/\\d{1,4}/;B jO=/[+-]?\\d{1,6}/;B Ev=/\\d+/;B iO=/[+-]?\\d+/;B CK=/Z|[+-]\\d\\d:?\\d\\d/gi;B iZ=/Z|[+-]\\d\\d(?::?\\d\\d)?/gi;B Ic=/[+-]?\\d+(\\.\\d{1,3})?/;B hG=/[0-9]{0,oe}[\'a-z\\MX-\\MW\\MT-\\MS\\MN-\\MH\\MG-\\MF\\ME-\\MC]{1,oe}|[\\KJ-\\KM\\/]{1,oe}(\\s*?[\\KJ-\\KM]{1,oe}){1,2}/i;B oc={};C 2R(2P,bc,tt){oc[2P]=aO(bc)?bc:C(4I,4q){F(4I&&tt)?tt:bc}}C C0(2P,V){if(!5V(oc,2P)){F 2A 7x(KT(2P))}F oc[2P](V.b4,V.5k)}C KT(s){F dG(s.5t(\'\\\\\',\'\').5t(/\\\\(\\[)|\\\\(\\])|\\[([^\\]\\[]*)\\]|\\\\(.)/g,C(oi,p1,p2,p3,p4){F p1||p2||p3||p4}))}C dG(s){F s.5t(/[-\\/\\\\^$*+?.()|[\\]{}]/g,\'\\\\$&\')}B e9={};C 5i(2P,3g){B i,5Z=3g;if(2y 2P===\'2k\'){2P=[2P]}if(ac(3g)){5Z=C(1d,2p){2p[3g]=3U(1d)}}1s(i=0;i<2P.1f;i++){e9[2P[i]]=5Z}}C hU(2P,3g){5i(2P,C(1d,2p,V,2P){V.dT=V.dT||{};3g(1d,V.dT,V,2P)})}C C2(2P,1d,V){if(1d!=1l&&5V(e9,2P)){e9[2P](1d,V.4k,V,2P)}}B 9p=0;B aU=1;B 9w=2;B 6i=3;B 9s=4;B b5=5;B dD=6;B xv=7;B A5=8;3l(\'Y\',0,0,C(){B y=I.2s();F y<=vD?\'\'+y:\'+\'+y});3l(0,[\'o2\',2],0,C(){F I.2s()%2o});3l(0,[\'4t\',4],0,\'2s\');3l(0,[\'o3\',5],0,\'2s\');3l(0,[\'dO\',6,1z],0,\'2s\');7m(\'2s\',\'y\');7l(\'2s\',1);2R(\'Y\',iO);2R(\'o2\',5f,8l);2R(\'4t\',nZ,nX);2R(\'o3\',jO,jL);2R(\'dO\',jO,jL);5i([\'o3\',\'dO\'],9p);5i(\'4t\',C(1d,2p){2p[9p]=1d.1f===2?2D.nw(1d):3U(1d)});5i(\'o2\',C(1d,2p){2p[9p]=2D.nw(1d)});5i(\'Y\',C(1d,2p){2p[9p]=6k(1d,10)});C i3(2s){F hf(2s)?Ml:Mk}C hf(2s){F(2s%4===0&&2s%2o!==0)||2s%L6===0}2D.nw=C(1d){F 3U(1d)+(3U(1d)>68?AP:cq)};B wv=f1(\'L9\',1z);C F2(){F hf(I.2s())}C f1(4n,L7){F C(1c){if(1c!=1l){8v$1(I,4n,1c);2D.9t(I,L7);F I}1a{F 6s(I,4n)}}}C 6s(2l,4n){F 2l.2C()?2l.3H[\'6s\'+(2l.5Y?\'fm\':\'\')+4n]():6e}C 8v$1(2l,4n,1c){if(2l.2C()&&!3p(1c)){if(4n===\'L9\'&&hf(2l.2s())&&2l.3j()===1&&2l.4j()===29){2l.3H[\'8v\'+(2l.5Y?\'fm\':\'\')+4n](1c,2l.3j(),hd(1c,2l.3j()))}1a{2l.3H[\'8v\'+(2l.5Y?\'fm\':\'\')+4n](1c)}}}C EF(2h){2h=8w(2h);if(aO(I[2h])){F I[2h]()}F I}C EU(2h,1c){if(2y 2h===\'5m\'){2h=mE(2h);B nW=Lb(2h);1s(B i=0;i<nW.1f;i++){I[nW[i].4n](2h[nW[i].4n])}}1a{2h=8w(2h);if(aO(I[2h])){F I[2h](1c)}}F I}C Lc(n,x){F((n%x)+x)%x}B 3b;if(5y.2L.3b){3b=5y.2L.3b}1a{3b=C(o){B i;1s(i=0;i<I.1f;++i){if(I[i]===o){F i}}F-1}}C hd(2s,3j){if(3p(2s)||3p(3j)){F 6e}B nP=Lc(3j,12);2s+=(3j-nP)/12;F nP===1?(hf(2s)?29:28):(31-nP%7%2)}3l(\'M\',[\'MM\',2],\'Mo\',C(){F I.3j()+1});3l(\'a9\',0,0,C(1F){F I.4q().bN(I,1F)});3l(\'c5\',0,0,C(1F){F I.4q().2J(I,1F)});7m(\'3j\',\'M\');7l(\'3j\',8);2R(\'M\',5f);2R(\'MM\',5f,8l);2R(\'a9\',C(4I,2i){F 2i.mn(4I)});2R(\'c5\',C(4I,2i){F 2i.mp(4I)});5i([\'M\',\'MM\'],C(1d,2p){2p[aU]=3U(1d)-1});5i([\'a9\',\'c5\'],C(1d,2p,V,2P){B 3j=V.5k.wA(1d,2P,V.b4);if(3j!=1l){2p[aU]=3j}1a{3S(V).tv=1d}});B tw=/D[oD]?(\\[[^\\[\\]]*\\]|\\s)+c5?/;B zJ=\'LQ\'.9X(\'6u\');C Gl(m,1F){if(!m){F 3M(I.6g)?I.6g:I.6g[\'hx\']}F 3M(I.6g)?I.6g[m.3j()]:I.6g[(I.6g.z6||tw).9f(1F)?\'1F\':\'hx\'][m.3j()]}B u9=\'LO\'.9X(\'6u\');C Gm(m,1F){if(!m){F 3M(I.hn)?I.hn:I.hn[\'hx\']}F 3M(I.hn)?I.hn[m.3j()]:I.hn[tw.9f(1F)?\'1F\':\'hx\'][m.3j()]}C mX(fD,1F,2q){B i,ii,2l,6p=fD.eX();if(!I.fE){I.fE=[];I.c4=[];I.dz=[];1s(i=0;i<12;++i){2l=aE([cq,i]);I.dz[i]=I.bN(2l,\'\').eX();I.c4[i]=I.2J(2l,\'\').eX()}}if(2q){if(1F===\'a9\'){ii=3b.2n(I.dz,6p);F ii!==-1?ii:1l}1a{ii=3b.2n(I.c4,6p);F ii!==-1?ii:1l}}1a{if(1F===\'a9\'){ii=3b.2n(I.dz,6p);if(ii!==-1){F ii}ii=3b.2n(I.c4,6p);F ii!==-1?ii:1l}1a{ii=3b.2n(I.c4,6p);if(ii!==-1){F ii}ii=3b.2n(I.dz,6p);F ii!==-1?ii:1l}}}C Go(fD,1F,2q){B i,2l,bc;if(I.ty){F mX.2n(I,fD,1F,2q)}if(!I.fE){I.fE=[];I.c4=[];I.dz=[]}1s(i=0;i<12;i++){2l=aE([cq,i]);if(2q&&!I.c4[i]){I.c4[i]=2A 7x(\'^\'+I.2J(2l,\'\').5t(\'.\',\'\')+\'$\',\'i\');I.dz[i]=2A 7x(\'^\'+I.bN(2l,\'\').5t(\'.\',\'\')+\'$\',\'i\')}if(!2q&&!I.fE[i]){bc=\'^\'+I.2J(2l,\'\')+\'|^\'+I.bN(2l,\'\');I.fE[i]=2A 7x(bc.5t(\'.\',\'\'),\'i\')}if(2q&&1F===\'c5\'&&I.c4[i].9f(fD)){F i}1a if(2q&&1F===\'a9\'&&I.dz[i].9f(fD)){F i}1a if(!2q&&I.fE[i].9f(fD)){F i}}}C vn(2l,1c){B tx;if(!2l.2C()){F 2l}if(2y 1c===\'2k\'){if(/^\\d+$/.9f(1c)){1c=3U(1c)}1a{1c=2l.4q().wA(1c);if(!ac(1c)){F 2l}}}tx=N.1h(2l.4j(),hd(2l.2s(),1c));2l.3H[\'8v\'+(2l.5Y?\'fm\':\'\')+\'vo\'](1c,tx);F 2l}C wt(1c){if(1c!=1l){vn(I,1c);2D.9t(I,1z);F I}1a{F 6s(I,\'vo\')}}C Fg(){F hd(I.2s(),I.3j())}B yT=hG;C mn(4I){if(I.ty){if(!5V(I,\'cU\')){tz.2n(I)}if(4I){F I.nr}1a{F I.kO}}1a{if(!5V(I,\'kO\')){I.kO=yT}F I.nr&&4I?I.nr:I.kO}}B yW=hG;C mp(4I){if(I.ty){if(!5V(I,\'cU\')){tz.2n(I)}if(4I){F I.ns}1a{F I.cU}}1a{if(!5V(I,\'cU\')){I.cU=yW}F I.ns&&4I?I.ns:I.cU}}C tz(){C cv(a,b){F b.1f-a.1f}B 9o=[],9n=[],7R=[],i,2l;1s(i=0;i<12;i++){2l=aE([cq,i]);9o.1P(I.bN(2l,\'\'));9n.1P(I.2J(2l,\'\'));7R.1P(I.2J(2l,\'\'));7R.1P(I.bN(2l,\'\'))}9o.8j(cv);9n.8j(cv);7R.8j(cv);1s(i=0;i<12;i++){9o[i]=dG(9o[i]);9n[i]=dG(9n[i])}1s(i=0;i<24;i++){7R[i]=dG(7R[i])}I.cU=2A 7x(\'^(\'+7R.7A(\'|\')+\')\',\'i\');I.kO=I.cU;I.ns=2A 7x(\'^(\'+9n.7A(\'|\')+\')\',\'i\');I.nr=2A 7x(\'^(\'+9o.7A(\'|\')+\')\',\'i\')}C Ab(y,m,d,h,M,s,ms){B 4j=2A 4L(y,m,d,h,M,s,ms);if(y<2o&&y>=0&&8A(4j.A8())){4j.Lj(y)}F 4j}C hN(y){B 4j=2A 4L(4L.fm.4m(1l,3d));if(y<2o&&y>=0&&8A(4j.vO())){4j.RP(y)}F 4j}C ky(2s,4f,4K){B tA=7+4f-4K,yY=(7+hN(2s,0,tA).u2()-4f)%7;F-yY+tA-1}C vM(2s,2Q,3Z,4f,4K){B z0=(7+3Z-4f)%7,ht=ky(2s,4f,4K),7k=1+7*(2Q-1)+z0+ht,9Y,kF;if(7k<=0){9Y=2s-1;kF=i3(9Y)+7k}1a if(7k>i3(2s)){9Y=2s+1;kF=7k-i3(2s)}1a{9Y=2s;kF=7k}F{2s:9Y,7k:kF}}C hP(2l,4f,4K){B ht=ky(2l.2s(),4f,4K),2Q=N.4p((2l.7k()-ht-1)/7)+1,kE,9Y;if(2Q<1){9Y=2l.2s()-1;kE=2Q+co(9Y,4f,4K)}1a if(2Q>co(2l.2s(),4f,4K)){kE=2Q-co(2l.2s(),4f,4K);9Y=2l.2s()+1}1a{9Y=2l.2s();kE=2Q}F{2Q:kE,2s:9Y}}C co(2s,4f,4K){B ht=ky(2s,4f,4K),z1=ky(2s+1,4f,4K);F(i3(2s)-ht+z1)/7}3l(\'w\',[\'ww\',2],\'wo\',\'2Q\');3l(\'W\',[\'fc\',2],\'RB\',\'dk\');7m(\'2Q\',\'w\');7m(\'dk\',\'W\');7l(\'2Q\',5);7l(\'dk\',5);2R(\'w\',5f);2R(\'ww\',5f,8l);2R(\'W\',5f);2R(\'fc\',5f,8l);hU([\'w\',\'ww\',\'W\',\'fc\'],C(1d,2Q,V,2P){2Q[2P.8p(0,1)]=3U(1d)});C Gp(2l){F hP(2l,I.ak.4f,I.ak.4K).2Q}B zL={4f:0,4K:6};C Gs(){F I.ak.4f}C Gr(){F I.ak.4K}C Fj(1d){B 2Q=I.4q().2Q(I);F 1d==1l?2Q:I.5s((1d-2Q)*7,\'d\')}C Fl(1d){B 2Q=hP(I,1,4).2Q;F 1d==1l?2Q:I.5s((1d-2Q)*7,\'d\')}3l(\'d\',0,\'do\',\'4c\');3l(\'dd\',0,0,C(1F){F I.4q().cJ(I,1F)});3l(\'dP\',0,0,C(1F){F I.4q().bV(I,1F)});3l(\'bb\',0,0,C(1F){F I.4q().cu(I,1F)});3l(\'e\',0,0,\'3Z\');3l(\'E\',0,0,\'bC\');7m(\'4c\',\'d\');7m(\'3Z\',\'e\');7m(\'bC\',\'E\');7l(\'4c\',11);7l(\'3Z\',11);7l(\'bC\',11);2R(\'d\',5f);2R(\'e\',5f);2R(\'E\',5f);2R(\'dd\',C(4I,2i){F 2i.qK(4I)});2R(\'dP\',C(4I,2i){F 2i.qL(4I)});2R(\'bb\',C(4I,2i){F 2i.qM(4I)});hU([\'dd\',\'dP\',\'bb\'],C(1d,2Q,V,2P){B 3Z=V.5k.qZ(1d,2P,V.b4);if(3Z!=1l){2Q.d=3Z}1a{3S(V).z5=1d}});hU([\'d\',\'e\',\'E\'],C(1d,2Q,V,2P){2Q[2P]=3U(1d)});C zb(1d,2i){if(2y 1d!==\'2k\'){F 1d}if(!3p(1d)){F 6k(1d,10)}1d=2i.qZ(1d);if(2y 1d===\'3N\'){F 1d}F 1l}C zd(1d,2i){if(2y 1d===\'2k\'){F 2i.qZ(1d)%7||7}F 3p(1d)?1l:1d}B zM=\'Rh\'.9X(\'6u\');C Gv(m,1F){if(!m){F 3M(I.f8)?I.f8:I.f8[\'hx\']}F 3M(I.f8)?I.f8[m.4c()]:I.f8[I.f8.z6.9f(1F)?\'1F\':\'hx\'][m.4c()]}B ue=\'Rb\'.9X(\'6u\');C Gx(m){F(m)?I.z7[m.4c()]:I.z7}B zN=\'R9\'.9X(\'6u\');C Gw(m){F(m)?I.z9[m.4c()]:I.z9}C mX$1(dE,1F,2q){B i,ii,2l,6p=dE.eX();if(!I.aa){I.aa=[];I.cE=[];I.cD=[];1s(i=0;i<7;++i){2l=aE([cq,1]).4c(i);I.cD[i]=I.cJ(2l,\'\').eX();I.cE[i]=I.bV(2l,\'\').eX();I.aa[i]=I.cu(2l,\'\').eX()}}if(2q){if(1F===\'bb\'){ii=3b.2n(I.aa,6p);F ii!==-1?ii:1l}1a if(1F===\'dP\'){ii=3b.2n(I.cE,6p);F ii!==-1?ii:1l}1a{ii=3b.2n(I.cD,6p);F ii!==-1?ii:1l}}1a{if(1F===\'bb\'){ii=3b.2n(I.aa,6p);if(ii!==-1){F ii}ii=3b.2n(I.cE,6p);if(ii!==-1){F ii}ii=3b.2n(I.cD,6p);F ii!==-1?ii:1l}1a if(1F===\'dP\'){ii=3b.2n(I.cE,6p);if(ii!==-1){F ii}ii=3b.2n(I.aa,6p);if(ii!==-1){F ii}ii=3b.2n(I.cD,6p);F ii!==-1?ii:1l}1a{ii=3b.2n(I.cD,6p);if(ii!==-1){F ii}ii=3b.2n(I.aa,6p);if(ii!==-1){F ii}ii=3b.2n(I.cE,6p);F ii!==-1?ii:1l}}}C Gz(dE,1F,2q){B i,2l,bc;if(I.mF){F mX$1.2n(I,dE,1F,2q)}if(!I.aa){I.aa=[];I.cD=[];I.cE=[];I.mU=[]}1s(i=0;i<7;i++){2l=aE([cq,1]).4c(i);if(2q&&!I.mU[i]){I.mU[i]=2A 7x(\'^\'+I.cu(2l,\'\').5t(\'.\',\'\\\\.?\')+\'$\',\'i\');I.cE[i]=2A 7x(\'^\'+I.bV(2l,\'\').5t(\'.\',\'\\\\.?\')+\'$\',\'i\');I.cD[i]=2A 7x(\'^\'+I.cJ(2l,\'\').5t(\'.\',\'\\\\.?\')+\'$\',\'i\')}if(!I.aa[i]){bc=\'^\'+I.cu(2l,\'\')+\'|^\'+I.bV(2l,\'\')+\'|^\'+I.cJ(2l,\'\');I.aa[i]=2A 7x(bc.5t(\'.\',\'\'),\'i\')}if(2q&&1F===\'bb\'&&I.mU[i].9f(dE)){F i}1a if(2q&&1F===\'dP\'&&I.cE[i].9f(dE)){F i}1a if(2q&&1F===\'dd\'&&I.cD[i].9f(dE)){F i}1a if(!2q&&I.aa[i].9f(dE)){F i}}}C Fp(1d){if(!I.2C()){F 1d!=1l?I:6e}B 4c=I.5Y?I.3H.u2():I.3H.uh();if(1d!=1l){1d=zb(1d,I.4q());F I.5s(1d-4c,\'d\')}1a{F 4c}}C Ft(1d){if(!I.2C()){F 1d!=1l?I:6e}B 3Z=(I.4c()+7-I.4q().ak.4f)%7;F 1d==1l?3Z:I.5s(1d-3Z,\'d\')}C Fu(1d){if(!I.2C()){F 1d!=1l?I:6e}if(1d!=1l){B 3Z=zd(1d,I.4q());F I.4c(I.4c()%7?3Z:3Z-7)}1a{F I.4c()||7}}B ze=hG;C qM(4I){if(I.mF){if(!5V(I,\'b7\')){mD.2n(I)}if(4I){F I.mt}1a{F I.b7}}1a{if(!5V(I,\'b7\')){I.b7=ze}F I.mt&&4I?I.mt:I.b7}}B zg=hG;C qL(4I){if(I.mF){if(!5V(I,\'b7\')){mD.2n(I)}if(4I){F I.mq}1a{F I.jY}}1a{if(!5V(I,\'jY\')){I.jY=zg}F I.mq&&4I?I.mq:I.jY}}B zh=hG;C qK(4I){if(I.mF){if(!5V(I,\'b7\')){mD.2n(I)}if(4I){F I.mo}1a{F I.jX}}1a{if(!5V(I,\'jX\')){I.jX=zh}F I.mo&&4I?I.mo:I.jX}}C mD(){C cv(a,b){F b.1f-a.1f}B ml=[],9o=[],9n=[],7R=[],i,2l,mC,mB,mA;1s(i=0;i<7;i++){2l=aE([cq,1]).4c(i);mC=I.cJ(2l,\'\');mB=I.bV(2l,\'\');mA=I.cu(2l,\'\');ml.1P(mC);9o.1P(mB);9n.1P(mA);7R.1P(mC);7R.1P(mB);7R.1P(mA)}ml.8j(cv);9o.8j(cv);9n.8j(cv);7R.8j(cv);1s(i=0;i<7;i++){9o[i]=dG(9o[i]);9n[i]=dG(9n[i]);7R[i]=dG(7R[i])}I.b7=2A 7x(\'^(\'+7R.7A(\'|\')+\')\',\'i\');I.jY=I.b7;I.jX=I.b7;I.mt=2A 7x(\'^(\'+9n.7A(\'|\')+\')\',\'i\');I.mq=2A 7x(\'^(\'+9o.7A(\'|\')+\')\',\'i\');I.mo=2A 7x(\'^(\'+ml.7A(\'|\')+\')\',\'i\')}C mj(){F I.4v()%12||12}C zi(){F I.4v()||24}3l(\'H\',[\'HH\',2],0,\'5E\');3l(\'h\',[\'hh\',2],0,mj);3l(\'k\',[\'kk\',2],0,zi);3l(\'tJ\',0,0,C(){F\'\'+mj.4m(I)+bM(I.4b(),2)});3l(\'tK\',0,0,C(){F\'\'+mj.4m(I)+bM(I.4b(),2)+bM(I.4D(),2)});3l(\'tL\',0,0,C(){F\'\'+I.4v()+bM(I.4b(),2)});3l(\'tM\',0,0,C(){F\'\'+I.4v()+bM(I.4b(),2)+bM(I.4D(),2)});C 98(2P,zj){3l(2P,0,0,C(){F I.4q().98(I.4v(),I.4b(),zj)})}98(\'a\',1z);98(\'A\',1x);7m(\'5E\',\'h\');7l(\'5E\',13);C tF(4I,2i){F 2i.PV}2R(\'a\',tF);2R(\'A\',tF);2R(\'H\',5f);2R(\'h\',5f);2R(\'k\',5f);2R(\'HH\',5f,8l);2R(\'hh\',5f,8l);2R(\'kk\',5f,8l);2R(\'tJ\',tG);2R(\'tK\',tH);2R(\'tL\',tG);2R(\'tM\',tH);5i([\'H\',\'HH\'],6i);5i([\'k\',\'kk\'],C(1d,2p,V){B tI=3U(1d);2p[6i]=tI===24?0:tI});5i([\'a\',\'A\'],C(1d,2p,V){V.Pg=V.5k.qH(1d);V.uO=1d});5i([\'h\',\'hh\'],C(1d,2p,V){2p[6i]=3U(1d);3S(V).iB=1z});5i(\'tJ\',C(1d,2p,V){B 4l=1d.1f-2;2p[6i]=3U(1d.8p(0,4l));2p[9s]=3U(1d.8p(4l));3S(V).iB=1z});5i(\'tK\',C(1d,2p,V){B hR=1d.1f-4;B ra=1d.1f-2;2p[6i]=3U(1d.8p(0,hR));2p[9s]=3U(1d.8p(hR,2));2p[b5]=3U(1d.8p(ra));3S(V).iB=1z});5i(\'tL\',C(1d,2p,V){B 4l=1d.1f-2;2p[6i]=3U(1d.8p(0,4l));2p[9s]=3U(1d.8p(4l))});5i(\'tM\',C(1d,2p,V){B hR=1d.1f-4;B ra=1d.1f-2;2p[6i]=3U(1d.8p(0,hR));2p[9s]=3U(1d.8p(hR,2));2p[b5]=3U(1d.8p(ra))});C GA(1d){F((1d+\'\').qE().jE(0)===\'p\')}B zO=/[ap]\\.?m?\\.?/i;C GB(4v,4b,tN){if(4v>11){F tN?\'pm\':\'PM\'}1a{F tN?\'am\':\'AM\'}}B Fx=f1(\'O6\',1z);B tX={da:zy,l5:zB,cx:zD,cO:zF,GM:zH,f4:zI,2J:zJ,bN:u9,2Q:zL,cu:zM,cJ:zN,bV:ue,NQ:zO};B 62={};B hW={};B hX;C tS(1v){F 1v?1v.qE().5t(\'6u\',\'-\'):1v}C A4(qy){B i=0,j,3K,2i,9X;aW(i<qy.1f){9X=tS(qy[i]).9X(\'-\');j=9X.1f;3K=tS(qy[i+1]);3K=3K?3K.9X(\'-\'):1l;aW(j>0){2i=iT(9X.4s(0,j).7A(\'-\'));if(2i){F 2i}if(3K&&3K.1f>=j&&v7(9X,3K,1z)>=j-1){4e}j--}i++}F hX}C iT(3k){B tT=1l;if(!62[3k]&&(2y 1E!==\'1C\')&&1E&&1E.1A){oa{tT=hX.k4;B zT=1j;zT(\'./2i/\'+3k);fI(tT)}kX(e){}}F 62[3k]}C fI(1v,1M){B 1b;if(1v){if(7q(1M)){1b=cF(1v)}1a{1b=fX(1v,1M)}if(1b){hX=1b}1a{if((2y 8F!==\'1C\')&&8F.dN){8F.dN(\'lc \'+1v+\' iq tU. N3 N2 MZ to xF it?\')}}}F hX.k4}C fX(3k,V){if(V!==1l){B 2i,7S=tX;V.tW=3k;if(62[3k]!=1l){vf(\'Mz\',\'2H 3i.nI(A0, V) to mu \'+\'an My 2i. 3i.fX(A0, \'+\'V) Mv Mu be Mt 1s Ms a 2A 2i \'+\'wy eZ://db.bm/f5/#/f6/ql-2i/ 1s mP vg.\');7S=62[3k].j0}1a if(V.bh!=1l){if(62[V.bh]!=1l){7S=62[V.bh].j0}1a{2i=iT(V.bh);if(2i!=1l){7S=2i.j0}1a{if(!hW[V.bh]){hW[V.bh]=[]}hW[V.bh].1P({3k:3k,V:V});F 1l}}}62[3k]=2A lc(tY(7S,V));if(hW[3k]){hW[3k].aQ(C(x){fX(x.3k,x.V)})}fI(3k);F 62[3k]}1a{6v 62[3k];F 1l}}C nI(3k,V){if(V!=1l){B 2i,qh,7S=tX;qh=iT(3k);if(qh!=1l){7S=qh.j0}V=tY(7S,V);2i=2A lc(V);2i.bh=62[3k];62[3k]=2i;fI(3k)}1a{if(62[3k]!=1l){if(62[3k].bh!=1l){62[3k]=62[3k].bh}1a if(62[3k]!=1l){6v 62[3k]}}}F 62[3k]}C cF(1v){B 2i;if(1v&&1v.5k&&1v.5k.k4){1v=1v.5k.k4}if(!1v){F hX}if(!3M(1v)){2i=iT(1v);if(2i){F 2i}1v=[1v]}F A4(1v)}C Ir(){F 3R(62)}C ne(m){B 7J;B a=m.4k;if(a&&3S(m).7J===-2){7J=a[aU]<0||a[aU]>11?aU:a[9w]<1||a[9w]>hd(a[9p],a[aU])?9w:a[6i]<0||a[6i]>24||(a[6i]===24&&(a[9s]!==0||a[b5]!==0||a[dD]!==0))?6i:a[9s]<0||a[9s]>59?9s:a[b5]<0||a[b5]>59?b5:a[dD]<0||a[dD]>AO?dD:-1;if(3S(m).Aa&&(7J<9p||7J>9w)){7J=9w}if(3S(m).Al&&7J===-1){7J=xv}if(3S(m).Am&&7J===-1){7J=A5}3S(m).7J=7J}F m}C 1B(a,b,c){if(a!=1l){F a}if(b!=1l){F b}F c}C A9(V){B fj=2A 4L(2D.7r());if(V.c3){F[fj.vO(),fj.vP(),fj.vQ()]}F[fj.A8(),fj.M3(),fj.M1()]}C n1(V){B i,4j,1d=[],pV,u3,pW;if(V.3H){F}pV=A9(V);if(V.dT&&V.4k[9w]==1l&&V.4k[aU]==1l){Aj(V)}if(V.hL!=1l){pW=1B(V.4k[9p],pV[9p]);if(V.hL>i3(pW)||V.hL===0){3S(V).Aa=1z}4j=hN(pW,0,V.hL);V.4k[aU]=4j.vP();V.4k[9w]=4j.vQ()}1s(i=0;i<3&&V.4k[i]==1l;++i){V.4k[i]=1d[i]=pV[i]}1s(;i<7;i++){V.4k[i]=1d[i]=(V.4k[i]==1l)?(i===2?1:0):V.4k[i]}if(V.4k[6i]===24&&V.4k[9s]===0&&V.4k[b5]===0&&V.4k[dD]===0){V.ni=1z;V.4k[6i]=0}V.3H=(V.c3?hN:Ab).4m(1l,1d);u3=V.c3?V.3H.u2():V.3H.uh();if(V.bu!=1l){V.3H.BE(V.3H.BF()-V.bu)}if(V.ni){V.4k[6i]=24}if(V.dT&&2y V.dT.d!==\'1C\'&&V.dT.d!==u3){3S(V).oG=1z}}C Aj(V){B w,8N,2Q,3Z,4f,4K,pE,lR;w=V.dT;if(w.GG!=1l||w.W!=1l||w.E!=1l){4f=1;4K=4;8N=1B(w.GG,V.4k[9p],hP(5B(),1,4).2s);2Q=1B(w.W,1);3Z=1B(w.E,1);if(3Z<1||3Z>7){lR=1z}}1a{4f=V.5k.ak.4f;4K=V.5k.ak.4K;B u4=hP(5B(),4f,4K);8N=1B(w.gg,V.4k[9p],u4.2s);2Q=1B(w.w,u4.2Q);if(w.d!=1l){3Z=w.d;if(3Z<0||3Z>6){lR=1z}}1a if(w.e!=1l){3Z=w.e+4f;if(w.e<0||w.e>6){lR=1z}}1a{3Z=4f}}if(2Q<1||2Q>co(8N,4f,4K)){3S(V).Al=1z}1a if(lR!=1l){3S(V).Am=1z}1a{pE=vM(8N,2Q,3Z,4f,4K);V.4k[9p]=pE.2s;V.hL=pE.7k}}B Ao=/^\\s*((?:[+-]\\d{6}|\\d{4})-(?:\\d\\d-\\d\\d|W\\d\\d-\\d|W\\d\\d|\\d\\d\\d|\\d\\d))(?:(T| )(\\d\\d(?::\\d\\d(?::\\d\\d(?:[.,]\\d+)?)?)?)([\\+\\-]\\d\\d(?::?\\d\\d)?|\\s*Z)?)?$/;B Aq=/^\\s*((?:[+-]\\d{6}|\\d{4})(?:\\d\\d\\d\\d|W\\d\\d\\d|W\\d\\d|\\d\\d\\d|\\d\\d))(?:(T| )(\\d\\d(?:\\d\\d(?:\\d\\d(?:[.,]\\d+)?)?)?)([\\+\\-]\\d\\d(?::?\\d\\d)?|\\s*Z)?)?$/;B Av=/Z|[+-]\\d\\d(?::?\\d\\d)?/;B lw=[[\'dO-MM-DD\',/[+-]\\d{6}-\\d\\d-\\d\\d/],[\'4t-MM-DD\',/\\d{4}-\\d\\d-\\d\\d/],[\'fe-[W]fc-E\',/\\d{4}-W\\d\\d-\\d/],[\'fe-[W]fc\',/\\d{4}-W\\d\\d/,1x],[\'4t-iY\',/\\d{4}-\\d{3}/],[\'4t-MM\',/\\d{4}-\\d\\d/,1x],[\'RS\',/[+-]\\d{10}/],[\'RO\',/\\d{8}/],[\'fe[W]RL\',/\\d{4}W\\d{3}/],[\'fe[W]fc\',/\\d{4}W\\d{2}/,1x],[\'RK\',/\\d{7}/]];B pp=[[\'HH:mm:ss.hE\',/\\d\\d:\\d\\d:\\d\\d\\.\\d+/],[\'HH:mm:ss,hE\',/\\d\\d:\\d\\d:\\d\\d,\\d+/],[\'HH:mm:ss\',/\\d\\d:\\d\\d:\\d\\d/],[\'HH:mm\',/\\d\\d:\\d\\d/],[\'u5.hE\',/\\d\\d\\d\\d\\d\\d\\.\\d+/],[\'u5,hE\',/\\d\\d\\d\\d\\d\\d,\\d+/],[\'u5\',/\\d\\d\\d\\d\\d\\d/],[\'RI\',/\\d\\d\\d\\d/],[\'HH\',/\\d\\d/]];B BG=/^\\/?4L\\((\\-?\\d+)/i;C uB(V){B i,l,2k=V.6a,2g=Ao.bU(2k)||Aq.bU(2k),u7,pl,lq,u8;if(2g){3S(V).As=1z;1s(i=0,l=lw.1f;i<l;i++){if(lw[i][1].bU(2g[1])){pl=lw[i][0];u7=lw[i][2]!==1x;4e}}if(pl==1l){V.7N=1x;F}if(2g[3]){1s(i=0,l=pp.1f;i<l;i++){if(pp[i][1].bU(2g[3])){lq=(2g[2]||\' \')+pp[i][0];4e}}if(lq==1l){V.7N=1x;F}}if(!u7&&lq!=1l){V.7N=1x;F}if(2g[4]){if(Av.bU(2g[4])){u8=\'Z\'}1a{V.7N=1x;F}}V.8y=pl+(lq||\'\')+(u8||\'\');n7(V)}1a{V.7N=1x}}B ol=/^(?:(Ra|R8|R4|QZ|QY|QX|QW),?\\s)?(\\d{1,2})\\s(QU|QS|QR|QO|QM|QJ|QI|QB|QA|Qz|Qy|Qx)\\s(\\d{2,4})\\s(\\d\\d):(\\d\\d)(?::(\\d\\d))?\\s(?:(Ba|vw|[Qv][Qt]T)|([Qk])|([+-]\\d{4}))$/;C Br(p7,Ay,AB,AE,AG,ub){B 8M=[AL(p7),u9.3b(Ay),6k(AB,10),6k(AE,10),6k(AG,10)];if(ub){8M.1P(6k(ub,10))}F 8M}C AL(p7){B 2s=6k(p7,10);if(2s<=49){F cq+2s}1a if(2s<=AO){F AP+2s}F 2s}C Bq(s){F s.5t(/\\([^)]*\\)|[\\n\\t]/g,\' \').5t(/(\\s\\s+)/g,\' \').5t(/^\\s\\s*/,\'\').5t(/\\s\\s*$/,\'\')}C Bs(ug,8D,V){if(ug){B AZ=ue.3b(ug),B2=2A 4L(8D[0],8D[1],8D[2]).uh();if(AZ!==B2){3S(V).oG=1z;V.7N=1x;F 1x}}F 1z}B Bb={Ba:0,vw:0,PP:-4*60,PJ:-5*60,Pw:-5*60,Ph:-6*60,Pf:-6*60,Pd:-7*60,Pb:-7*60,Pa:-8*60};C BC(uo,Bg,Bk){if(uo){F Bb[uo]}1a if(Bg){F 0}1a{B hm=6k(Bk,10);B m=hm%2o,h=(hm-m)/2o;F h*60+m}}C uD(V){B 2g=ol.bU(Bq(V.6a));if(2g){B uu=Br(2g[4],2g[3],2g[2],2g[5],2g[6],2g[7]);if(!Bs(2g[1],uu,V)){F}V.4k=uu;V.bu=BC(2g[8],2g[9],2g[10]);V.3H=hN.4m(1l,V.4k);V.3H.BE(V.3H.BF()-V.bu);3S(V).ol=1z}1a{V.7N=1x}}C Cq(V){B oi=BG.bU(V.6a);if(oi!==1l){V.3H=2A 4L(+oi[1]);F}uB(V);if(V.7N===1x){6v V.7N}1a{F}uD(V);if(V.7N===1x){6v V.7N}1a{F}2D.uV(V)}2D.uV=8Z(\'1c NV is iq in a NU BJ or BK 1F. 3i NS NR NP to js 4L(), \'+\'NN is iq NC Ng Ne N9 uz N7. N6 BJ/BK 4j c8 MY \'+\'MA uz Mr be Mp in an Mm 5c Mh. jZ Mb to \'+\'eZ://db.bm/f5/#/f6/js-4j/ 1s mP vg.\',C(V){V.3H=2A 4L(V.6a+(V.c3?\' fm\':\'\'))});2D.BP=C(){};2D.BT=C(){};C n7(V){if(V.8y===2D.BP){uB(V);F}if(V.8y===2D.BT){uD(V);F}V.4k=[];3S(V).nM=1z;B 2k=\'\'+V.6a,i,8D,e9,2P,nR,C6=2k.1f,uJ=0;e9=uF(V.8y,V.5k).2g(uG)||[];1s(i=0;i<e9.1f;i++){2P=e9[i];8D=(2k.2g(C0(2P,V))||[])[0];if(8D){nR=2k.8p(0,2k.3b(8D));if(nR.1f>0){3S(V).uK.1P(nR)}2k=2k.4s(2k.3b(8D)+8D.1f);uJ+=8D.1f}if(fS[2P]){if(8D){3S(V).nM=1x}1a{3S(V).jW.1P(2P)}C2(2P,8D,V)}1a if(V.b4&&!8D){3S(V).jW.1P(2P)}}3S(V).nt=C6-uJ;if(2k.1f>0){3S(V).uK.1P(2k)}if(V.4k[6i]<=12&&3S(V).iB===1z&&V.4k[6i]>0){3S(V).iB=1C}3S(V).uN=V.4k.4s(0);3S(V).98=V.uO;V.4k[6i]=Cf(V.5k,V.4k[6i],V.uO);n1(V);ne(V)}C Cf(2i,5E,98){B nx;if(98==1l){F 5E}if(2i.Cg!=1l){F 2i.Cg(5E,98)}1a if(2i.qH!=1l){nx=2i.qH(98);if(nx&&5E<12){5E+=12}if(!nx&&5E===12){5E=0}F 5E}1a{F 5E}}C Cm(V){B aY,uS,no,i,fM;if(V.8y.1f===0){3S(V).uP=1z;V.3H=2A 4L(6e);F}1s(i=0;i<V.8y.1f;i++){fM=0;aY=qX({},V);if(V.c3!=1l){aY.c3=V.c3}aY.8y=V.8y[i];n7(aY);if(!2C(aY)){9e}fM+=3S(aY).nt;fM+=3S(aY).jW.1f*10;3S(aY).RJ=fM;if(no==1l||fM<no){no=fM;uS=aY}}3f(V,uS||aY)}C Cr(V){if(V.3H){F}B i=mE(V.6a);V.4k=9Q([i.2s,i.3j,i.4c||i.4j,i.5E,i.83,i.8q,i.4N],C(3n){F 3n&&6k(3n,10)});n1(V)}C Cu(V){B 2Z=2A fr(ne(v6(V)));if(2Z.ni){2Z.5s(1,\'d\');2Z.ni=1C}F 2Z}C v6(V){B 1d=V.6a,1F=V.8y;V.5k=V.5k||cF(V.jC);if(1d===1l||(1F===1C&&1d===\'\')){F fJ({uT:1z})}if(2y 1d===\'2k\'){V.6a=1d=V.5k.Gg(1d)}if(bG(1d)){F 2A fr(ne(1d))}1a if(fW(1d)){V.3H=1d}1a if(3M(1F)){Cm(V)}1a if(1F){n7(V)}1a{Cp(V)}if(!2C(V)){V.3H=1l}F V}C Cp(V){B 1d=V.6a;if(7q(1d)){V.3H=2A 4L(2D.7r())}1a if(fW(1d)){V.3H=2A 4L(1d.4d())}1a if(2y 1d===\'2k\'){Cq(V)}1a if(3M(1d)){V.4k=9Q(1d.4s(0),C(3n){F 6k(3n,10)});n1(V)}1a if(77(1d)){Cr(V)}1a if(ac(1d)){V.3H=2A 4L(1d)}1a{2D.uV(V)}}C uW(1d,1F,2i,2q,nT){B c={};if(2i===1z||2i===1x){2q=2i;2i=1C}if((77(1d)&&Ct(1d))||(3M(1d)&&1d.1f===0)){1d=1C}c.jD=1z;c.c3=c.5Y=nT;c.jC=2i;c.6a=1d;c.8y=1F;c.b4=2q;F Cu(c)}C 5B(1d,1F,2i,2q){F uW(1d,1F,2i,2q,1x)}B ES=8Z(\'3i().1h is 9h, 2H 3i.1g ca. eZ://db.bm/f5/#/f6/1h-1g/\',C(){B 5d=5B.4m(1l,3d);if(I.2C()&&5d.2C()){F 5d<I?I:5d}1a{F fJ()}});B EP=8Z(\'3i().1g is 9h, 2H 3i.1h ca. eZ://db.bm/f5/#/f6/1h-1g/\',C(){B 5d=5B.4m(1l,3d);if(I.2C()&&5d.2C()){F 5d>I?I:5d}1a{F fJ()}});C uX(fn,af){B 2Z,i;if(af.1f===1&&3M(af[0])){af=af[0]}if(!af.1f){F 5B()}2Z=af[0];1s(i=1;i<af.1f;++i){if(!af[i].2C()||af[i][fn](2Z)){2Z=af[i]}}F 2Z}C 1h(){B 2j=[].4s.2n(3d,0);F uX(\'dA\',2j)}C 1g(){B 2j=[].4s.2n(3d,0);F uX(\'dB\',2j)}B 7r=C(){F 4L.7r?4L.7r():+(2A 4L())};B ix=[\'2s\',\'ay\',\'3j\',\'2Q\',\'4c\',\'5E\',\'83\',\'8q\',\'4N\'];C Cz(m){1s(B 1v in m){if(!(3b.2n(ix,1v)!==-1&&(m[1v]==1l||!3p(m[1v])))){F 1x}}B uY=1x;1s(B i=0;i<ix.1f;++i){if(m[ix[i]]){if(uY){F 1x}if(6j(m[ix[i]])!==3U(m[ix[i]])){uY=1z}}}F 1z}C 2C$1(){F I.7N}C fJ$1(){F a8(6e)}C lb(2Y){B 8z=mE(2Y),5P=8z.2s||0,wg=8z.ay||0,2J=8z.3j||0,g4=8z.2Q||0,3q=8z.4c||0,4v=8z.5E||0,4b=8z.83||0,4D=8z.8q||0,3G=8z.4N||0;I.7N=Cz(8z);I.9R=+3G+4D*Ds+4b*od+4v*6f*60*60;I.9c=+3q+g4*7;I.6g=+2J+wg*3+5P*12;I.9g={};I.5k=cF();I.xm()}C jg(3n){F 3n 8u lb}C q6(3N){if(3N<0){F N.2M(-1*3N)*-1}1a{F N.2M(3N)}}C 2S(2P,CA){3l(2P,0,0,C(){B 2S=I.6w();B 3B=\'+\';if(2S<0){2S=-2S;3B=\'-\'}F 3B+bM(~~(2S/60),2)+CA+bM(~~(2S)%60,2)})}2S(\'Z\',\':\');2S(\'kl\',\'\');2R(\'Z\',iZ);2R(\'kl\',iZ);5i([\'Z\',\'kl\'],C(1d,2p,V){V.c3=1z;V.bu=r9(iZ,1d)});B CG=/([\\+\\-]|\\d\\d)/gi;C r9(CE,2k){B 9T=(2k||\'\').2g(CE);if(9T===1l){F 1l}B fL=9T[9T.1f-1]||[];B mh=(fL+\'\').2g(CG)||[\'-\',0,0];B 4b=+(mh[1]*60)+3U(mh[2]);F 4b===0?0:mh[0]===\'+\'?4b:-4b}C pv(1d,1i){B 2Z,7h;if(1i.5Y){2Z=1i.4o();7h=(bG(1d)||fW(1d)?1d.4d():5B(1d).4d())-2Z.4d();2Z.3H.Dg(2Z.3H.4d()+7h);2D.9t(2Z,1x);F 2Z}1a{F 5B(1d).FH()}}C m3(m){F-N.2M(m.3H.O9()/15)*15}2D.9t=C(){};C FF(1d,bv,CI){B 2S=I.eG||0,ma;if(!I.2C()){F 1d!=1l?I:6e}if(1d!=1l){if(2y 1d===\'2k\'){1d=r9(iZ,1d);if(1d===1l){F I}}1a if(N.4W(1d)<16&&!CI){1d=1d*60}if(!I.5Y&&bv){ma=m3(I)}I.eG=1d;I.5Y=1z;if(ma!=1l){I.5s(ma,\'m\')}if(2S!==1d){if(!bv||I.m7){gC(I,a8(1d-2S,\'m\'),1,1x)}1a if(!I.m7){I.m7=1z;2D.9t(I,1z);I.m7=1l}}F I}1a{F I.5Y?2S:m3(I)}}C G5(1d,bv){if(1d!=1l){if(2y 1d!==\'2k\'){1d=-1d}I.6w(1d,bv);F I}1a{F-I.6w()}}C FG(bv){F I.6w(0,bv)}C FI(bv){if(I.5Y){I.6w(0,bv);I.5Y=1x;if(bv){I.9z(m3(I),\'m\')}}F I}C FJ(){if(I.bu!=1l){I.6w(I.bu,1x,1z)}1a if(2y I.6a===\'2k\'){B v4=r9(CK,I.6a);if(v4!=1l){I.6w(v4)}1a{I.6w(0,1z)}}F I}C wp(1d){if(!I.2C()){F 1x}1d=1d?5B(1d).6w():0;F(I.6w()-1d)%60===0}C FR(){F(I.6w()>I.4o().3j(0).6w()||I.6w()>I.4o().3j(5).6w())}C Gf(){if(!7q(I.iN)){F I.iN}B c={};qX(c,I);c=v6(c);if(c.4k){B 5d=c.5Y?aE(c.4k):5B(c.4k);I.iN=I.2C()&&v7(c.4k,5d.pU())>0}1a{I.iN=1x}F I.iN}C o1(){F I.2C()?!I.5Y:1x}C wq(){F I.2C()?I.5Y:1x}C iL(){F I.2C()?I.5Y&&I.eG===0:1x}B CR=/^(\\-|\\+)?(?:(\\d*)[. ])?(\\d+)\\:(\\d+)(?:\\:(\\d+)(\\.\\d*)?)?$/;B CS=/^(-|\\+)?P(?:([-+]?[0-9,.]*)Y)?(?:([-+]?[0-9,.]*)M)?(?:([-+]?[0-9,.]*)W)?(?:([-+]?[0-9,.]*)D)?(?:T(?:([-+]?[0-9,.]*)H)?(?:([-+]?[0-9,.]*)M)?(?:([-+]?[0-9,.]*)S)?)?$/;C a8(1d,1v){B 2Y=1d,2g=1l,3B,e4,qw;if(jg(1d)){2Y={ms:1d.9R,d:1d.9c,M:1d.6g}}1a if(ac(1d)){2Y={};if(1v){2Y[1v]=1d}1a{2Y.3G=1d}}1a if(!!(2g=CR.bU(1d))){3B=(2g[1]===\'-\')?-1:1;2Y={y:0,d:3U(2g[9w])*3B,h:3U(2g[6i])*3B,m:3U(2g[9s])*3B,s:3U(2g[b5])*3B,ms:3U(q6(2g[dD]*6f))*3B}}1a if(!!(2g=CS.bU(1d))){3B=(2g[1]===\'-\')?-1:(2g[1]===\'+\')?1:1;2Y={y:e3(2g[2],3B),M:e3(2g[3],3B),w:e3(2g[4],3B),d:e3(2g[5],3B),h:e3(2g[6],3B),m:e3(2g[7],3B),s:e3(2g[8],3B)}}1a if(2Y==1l){2Y={}}1a if(2y 2Y===\'5m\'&&(\'3A\'in 2Y||\'to\'in 2Y)){qw=CW(5B(2Y.3A),5B(2Y.to));2Y={};2Y.ms=qw.3G;2Y.M=qw.2J}e4=2A lb(2Y);if(jg(1d)&&5V(1d,\'5k\')){e4.5k=1d.5k}F e4}a8.fn=lb.2L;a8.xq=fJ$1;C e3(va,3B){B 2Z=va&&6j(va.5t(\',\',\'.\'));F(3p(2Z)?0:2Z)*3B}C vd(3Q,5d){B 2Z={3G:0,2J:0};2Z.2J=5d.3j()-3Q.3j()+(5d.2s()-3Q.2s())*12;if(3Q.4o().5s(2Z.2J,\'M\').dB(5d)){--2Z.2J}2Z.3G=+5d- +(3Q.4o().5s(2Z.2J,\'M\'));F 2Z}C CW(3Q,5d){B 2Z;if(!(3Q.2C()&&5d.2C())){F{3G:0,2J:0}}5d=pv(5d,3Q);if(3Q.dA(5d)){2Z=vd(3Q,5d)}1a{2Z=vd(5d,3Q);2Z.3G=-2Z.3G;2Z.2J=-2Z.2J}F 2Z}C vt(gD,3k){F C(2v,dY){B vl,lv;if(dY!==1l&&!3p(+dY)){vf(3k,\'3i().\'+3k+\'(dY, 3N) is 9h. jZ 2H 3i().\'+3k+\'(3N, dY). \'+\'wy eZ://db.bm/f5/#/f6/5s-Lq-qe/ 1s mP vg.\');lv=2v;2v=dY;dY=lv}2v=2y 2v===\'2k\'?+2v:2v;vl=a8(2v,dY);gC(I,vl,gD);F I}}C gC(2l,2Y,q1,9t){B 3G=2Y.9R,3q=q6(2Y.9c),2J=q6(2Y.6g);if(!2l.2C()){F}9t=9t==1l?1z:9t;if(2J){vn(2l,6s(2l,\'vo\')+2J*q1)}if(3q){8v$1(2l,\'4L\',6s(2l,\'4L\')+3q*q1)}if(3G){2l.3H.Dg(2l.3H.4d()+3G*q1)}if(9t){2D.9t(2l,3q||2J)}}B 5s=vt(1,\'5s\');B 9z=vt(-1,\'9z\');C IG(Dk,7r){B 7h=Dk.7h(7r,\'3q\',1z);F 7h<-6?\'kT\':7h<-1?\'Dl\':7h<0?\'Dm\':7h<1?\'Dn\':7h<2?\'Dp\':7h<7?\'Dq\':\'kT\'}C da$1(2I,c8){B 7r=2I||5B(),Dr=pv(7r,I).7v(\'4c\'),1F=2D.Iy(I,Dr)||\'kT\';B 4i=c8&&(aO(c8[1F])?c8[1F].2n(I,7r):c8[1F]);F I.1F(4i||I.4q().da(1F,I,5B(7r)))}C 4o(){F 2A fr(I)}C dB(1d,2h){B 9j=bG(1d)?1d:5B(1d);if(!(I.2C()&&9j.2C())){F 1x}2h=8w(!7q(2h)?2h:\'4N\');if(2h===\'4N\'){F I.4d()>9j.4d()}1a{F 9j.4d()<I.4o().7v(2h).4d()}}C dA(1d,2h){B 9j=bG(1d)?1d:5B(1d);if(!(I.2C()&&9j.2C())){F 1x}2h=8w(!7q(2h)?2h:\'4N\');if(2h===\'4N\'){F I.4d()<9j.4d()}1a{F I.4o().hq(2h).4d()<9j.4d()}}C w5(3A,to,2h,kL){kL=kL||\'()\';F(kL[0]===\'(\'?I.dB(3A,2h):!I.dA(3A,2h))&&(kL[1]===\')\'?I.dA(to,2h):!I.dB(to,2h))}C kn(1d,2h){B 9j=bG(1d)?1d:5B(1d),pz;if(!(I.2C()&&9j.2C())){F 1x}2h=8w(2h||\'4N\');if(2h===\'4N\'){F I.4d()===9j.4d()}1a{pz=9j.4d();F I.4o().7v(2h).4d()<=pz&&pz<=I.4o().hq(2h).4d()}}C w6(1d,2h){F I.kn(1d,2h)||I.dB(1d,2h)}C w7(1d,2h){F I.kn(1d,2h)||I.dA(1d,2h)}C 7h(1d,2h,Dv){B 8P,pq,4i;if(!I.2C()){F 6e}8P=pv(1d,I);if(!8P.2C()){F 6e}pq=(8P.6w()-I.6w())*od;2h=8w(2h);ck(2h){2U\'2s\':4i=pk(I,8P)/12;4e;2U\'3j\':4i=pk(I,8P);4e;2U\'ay\':4i=pk(I,8P)/3;4e;2U\'8q\':4i=(I-8P)/Ds;4e; 2U\'83\':4i=(I-8P)/od;4e; 2U\'5E\':4i=(I-8P)/Hj;4e; 2U\'4c\':4i=(I-8P-pq)/eO;4e; 2U\'2Q\':4i=(I-8P-pq)/Hb;4e; 6Y:4i=I-8P}F Dv?4i:8V(4i)}C pk(a,b){B ks=((b.2s()-a.2s())*12)+(b.3j()-a.3j()),i4=a.4o().5s(ks,\'2J\'),ku,pd;if(b-i4<0){ku=a.4o().5s(ks-1,\'2J\');pd=(b-i4)/(i4-ku)}1a{ku=a.4o().5s(ks+1,\'2J\');pd=(b-i4)/(ku-i4)}F-(ks+pd)||0}2D.DS=\'4t-MM-lr:mm:P8\';2D.DP=\'4t-MM-lr:mm:ss[Z]\';C 6B(){F I.4o().2i(\'en\').1F(\'dP a9 DD 4t HH:mm:ss [vw]kl\')}C 8h(Dx){if(!I.2C()){F 1l}B 9B=Dx!==1z;B m=9B?I.4o().9B():I;if(m.2s()<0||m.2s()>vD){F k5(m,9B?\'dO-MM-DD[T]HH:mm:ss.cp[Z]\':\'dO-MM-DD[T]HH:mm:ss.Dy\')}if(aO(4L.2L.8h)){if(9B){F I.pS().8h()}1a{F 2A 4L(I.4d()+I.6w()*60*6f).8h().5t(\'Z\',k5(m,\'Z\'))}}F k5(m,9B?\'4t-MM-DD[T]HH:mm:ss.cp[Z]\':\'4t-MM-DD[T]HH:mm:ss.Dy\')}C we(){if(!I.2C()){F\'3i.xq(/* \'+I.6a+\' */)\'}B 5Z=\'3i\';B h7=\'\';if(!I.o1()){5Z=I.6w()===0?\'3i.9B\':\'3i.oy\';h7=\'Z\'}B DM=\'[\'+5Z+\'("]\';B 2s=(0<=I.2s()&&I.2s()<=vD)?\'4t\':\'dO\';B DN=\'-MM-DD[T]HH:mm:ss.cp\';B DO=h7+\'[")]\';F I.1F(DM+2s+DN+DO)}C 1F(ow){if(!ow){ow=I.iL()?2D.DP:2D.DS}B 4i=k5(I,ow);F I.4q().xd(4i)}C 3A(2I,8B){if(I.2C()&&((bG(2I)&&2I.2C())||5B(2I).2C())){F a8({to:I,3A:2I}).2i(I.2i()).jx(!8B)}1a{F I.4q().cx()}}C vY(8B){F I.3A(5B(),8B)}C to(2I,8B){if(I.2C()&&((bG(2I)&&2I.2C())||5B(2I).2C())){F a8({3A:I,to:2I}).2i(I.2i()).jx(!8B)}1a{F I.4q().cx()}}C vZ(8B){F I.to(5B(),8B)}C 2i(1v){B os;if(1v===1C){F I.5k.k4}1a{os=cF(1v);if(os!=1l){I.5k=os}F I}}B dW=8Z(\'3i().dW() is 9h. Mi, 2H 3i().4q() to 6s mJ Ma vF. gE 3i().2i() to mu M8.\',C(1v){if(1v===1C){F I.4q()}1a{F I.2i(1v)}});C 4q(){F I.5k}C 7v(2h){2h=8w(2h);ck(2h){2U\'2s\':I.3j(0);2U\'ay\':2U\'3j\':I.4j(1);2U\'2Q\':2U\'dk\':2U\'4c\':2U\'4j\':I.4v(0);2U\'5E\':I.4b(0);2U\'83\':I.4D(0);2U\'8q\':I.3G(0)}if(2h===\'2Q\'){I.3Z(0)}if(2h===\'dk\'){I.bC(1)}if(2h===\'ay\'){I.3j(N.4p(I.3j()/3)*3)}F I}C hq(2h){2h=8w(2h);if(2h===1C||2h===\'4N\'){F I}if(2h===\'4j\'){2h=\'4c\'}F I.7v(2h).5s(1,(2h===\'dk\'?\'2Q\':2h)).9z(1,\'ms\')}C 4d(){F I.3H.4d()-((I.eG||0)*DW)}C kp(){F N.4p(I.4d()/6f)}C pS(){F 2A 4L(I.4d())}C pU(){B m=I;F[m.2s(),m.3j(),m.4j(),m.5E(),m.83(),m.8q(),m.4N()]}C wd(){B m=I;F{5P:m.2s(),2J:m.3j(),4j:m.4j(),4v:m.4v(),4b:m.4b(),4D:m.4D(),3G:m.3G()}}C jp(){F I.2C()?I.8h():1l}C 2C$2(){F 2C(I)}C wb(){F 3f({},3S(I))}C w0(){F 3S(I).7J}C wf(){F{1d:I.6a,1F:I.8y,2i:I.5k,nT:I.5Y,2q:I.b4}}3l(0,[\'gg\',2],0,C(){F I.8N()%2o});3l(0,[\'GG\',2],0,C(){F I.he()%2o});C jP(2P,DY){3l(0,[2P,2P.1f],0,DY)}jP(\'vG\',\'8N\');jP(\'vH\',\'8N\');jP(\'fe\',\'he\');jP(\'vI\',\'he\');7m(\'8N\',\'gg\');7m(\'he\',\'GG\');7l(\'8N\',1);7l(\'he\',1);2R(\'G\',iO);2R(\'g\',iO);2R(\'GG\',5f,8l);2R(\'gg\',5f,8l);2R(\'fe\',nZ,nX);2R(\'vG\',nZ,nX);2R(\'vI\',jO,jL);2R(\'vH\',jO,jL);hU([\'vG\',\'vH\',\'fe\',\'vI\'],C(1d,2Q,V,2P){2Q[2P.8p(0,2)]=3U(1d)});hU([\'gg\',\'GG\'],C(1d,2Q,V,2P){2Q[2P]=2D.nw(1d)});C F3(1d){F vL.2n(I,1d,I.2Q(),I.3Z(),I.4q().ak.4f,I.4q().ak.4K)}C F7(1d){F vL.2n(I,1d,I.dk(),I.bC(),1,4)}C Fo(){F co(I.2s(),1,4)}C Fn(){B vK=I.4q().ak;F co(I.2s(),vK.4f,vK.4K)}C vL(1d,2Q,3Z,4f,4K){B nj;if(1d==1l){F hP(I,4f,4K).2s}1a{nj=co(1d,4f,4K);if(2Q>nj){2Q=nj}F E9.2n(I,1d,2Q,3Z,4f,4K)}}C E9(8N,2Q,3Z,4f,4K){B vN=vM(8N,2Q,3Z,4f,4K),4j=hN(vN.2s,0,vN.7k);I.2s(4j.vO());I.3j(4j.vP());I.4j(4j.vQ());F I}3l(\'Q\',0,\'Qo\',\'ay\');7m(\'ay\',\'Q\');7l(\'ay\',7);2R(\'Q\',vU);5i(\'Q\',C(1d,2p){2p[aU]=(3U(1d)-1)*3});C Fe(1d){F 1d==1l?N.9H((I.3j()+1)/3):I.3j((1d-1)*3+I.3j()%3)}3l(\'D\',[\'DD\',2],\'Do\',\'4j\');7m(\'4j\',\'D\');7l(\'4j\',9);2R(\'D\',5f);2R(\'DD\',5f,8l);2R(\'Do\',C(4I,2i){F 4I?(2i.Eh||2i.Ei):2i.Ej});5i([\'D\',\'DD\'],9w);5i(\'Do\',C(1d,2p){2p[9w]=3U(1d.2g(5f)[0])});B ws=f1(\'4L\',1z);3l(\'iY\',[\'vR\',3],\'Ek\',\'7k\');7m(\'7k\',\'iY\');7l(\'7k\',4);2R(\'iY\',lU);2R(\'vR\',vV);5i([\'iY\',\'vR\'],C(1d,2p,V){V.hL=3U(1d)});C Fw(1d){B 7k=N.2M((I.4o().7v(\'4c\')-I.4o().7v(\'2s\'))/eO)+1;F 1d==1l?7k:I.5s((1d-7k),\'d\')}3l(\'m\',[\'mm\',2],0,\'83\');7m(\'83\',\'m\');7l(\'83\',14);2R(\'m\',5f);2R(\'mm\',5f,8l);5i([\'m\',\'mm\'],9s);B Fy=f1(\'PX\',1x);3l(\'s\',[\'ss\',2],0,\'8q\');7m(\'8q\',\'s\');7l(\'8q\',15);2R(\'s\',5f);2R(\'ss\',5f,8l);5i([\'s\',\'ss\'],b5);B FB=f1(\'P7\',1x);3l(\'S\',0,0,C(){F~~(I.4N()/2o)});3l(0,[\'Et\',2],0,C(){F~~(I.4N()/10)});3l(0,[\'cp\',3],0,\'4N\');3l(0,[\'hE\',4],0,C(){F I.4N()*10});3l(0,[\'P6\',5],0,C(){F I.4N()*2o});3l(0,[\'OQ\',6],0,C(){F I.4N()*6f});3l(0,[\'ON\',7],0,C(){F I.4N()*OM});3l(0,[\'OL\',8],0,C(){F I.4N()*Oc});3l(0,[\'Oa\',9],0,C(){F I.4N()*En});7m(\'4N\',\'ms\');7l(\'4N\',16);2R(\'S\',lU,vU);2R(\'Et\',lU,8l);2R(\'cp\',lU,vV);B 2P;1s(2P=\'hE\';2P.1f<=9;2P+=\'S\'){2R(2P,Ev)}C Ex(1d,2p){2p[dD]=3U((\'0.\'+1d)*6f)}1s(2P=\'S\';2P.1f<=9;2P+=\'S\'){5i(2P,Ex)}B FE=f1(\'M0\',1x);3l(\'z\',0,0,\'FT\');3l(\'zz\',0,0,\'FV\');C FU(){F I.5Y?\'fm\':\'\'}C FW(){F I.5Y?\'LI LF LD\':\'\'}B 1y=fr.2L;1y.5s=5s;1y.da=da$1;1y.4o=4o;1y.7h=7h;1y.hq=hq;1y.1F=1F;1y.3A=3A;1y.vY=vY;1y.to=to;1y.vZ=vZ;1y.6s=EF;1y.w0=w0;1y.dB=dB;1y.dA=dA;1y.w5=w5;1y.kn=kn;1y.w6=w6;1y.w7=w7;1y.2C=2C$2;1y.dW=dW;1y.2i=2i;1y.4q=4q;1y.1g=EP;1y.1h=ES;1y.wb=wb;1y.8v=EU;1y.7v=7v;1y.9z=9z;1y.pU=pU;1y.wd=wd;1y.pS=pS;1y.8h=8h;1y.we=we;1y.jp=jp;1y.6B=6B;1y.kp=kp;1y.4d=4d;1y.wf=wf;1y.2s=wv;1y.hf=F2;1y.8N=F3;1y.he=F7;1y.ay=1y.wg=Fe;1y.3j=wt;1y.hd=Fg;1y.2Q=1y.g4=Fj;1y.dk=1y.PW=Fl;1y.co=Fn;1y.O2=Fo;1y.4j=ws;1y.4c=1y.3q=Fp;1y.3Z=Ft;1y.bC=Fu;1y.7k=Fw;1y.5E=1y.4v=Fx;1y.83=1y.4b=Fy;1y.8q=1y.4D=FB;1y.4N=1y.3G=FE;1y.6w=FF;1y.9B=FG;1y.FH=FI;1y.oy=FJ;1y.wp=wp;1y.LJ=FR;1y.o1=o1;1y.wq=wq;1y.iL=iL;1y.nT=iL;1y.FT=FU;1y.FV=FW;1y.FX=8Z(\'FX wu is 9h. gE 4j ca.\',ws);1y.2J=8Z(\'2J wu is 9h. gE 3j ca\',wt);1y.5P=8Z(\'5P wu is 9h. gE 2s ca\',wv);1y.h7=8Z(\'3i().h7 is 9h, 2H 3i().6w ca. eZ://db.bm/f5/#/f6/h7/\',G5);1y.G6=8Z(\'G6 is 9h. wy eZ://db.bm/f5/#/f6/Qc-Qb/ 1s mP Q9\',Gf);C Ij(1d){F 5B(1d*6f)}C In(){F 5B.4m(1l,3d).oy()}C wz(2k){F 2k}B 1y$1=lc.2L;1y$1.da=da;1y$1.l5=l5;1y$1.cx=cx;1y$1.cO=cO;1y$1.Gg=wz;1y$1.xd=wz;1y$1.f4=f4;1y$1.qu=qu;1y$1.8v=8v;1y$1.2J=Gl;1y$1.bN=Gm;1y$1.wA=Go;1y$1.mp=mp;1y$1.mn=mn;1y$1.2Q=Gp;1y$1.NY=Gr;1y$1.NW=Gs;1y$1.cu=Gv;1y$1.cJ=Gw;1y$1.bV=Gx;1y$1.qZ=Gz;1y$1.qM=qM;1y$1.qL=qL;1y$1.qK=qK;1y$1.qH=GA;1y$1.98=GB;C 6s$1(1F,K,d5,GC){B 2i=cF();B 9B=aE().8v(GC,K);F 2i[d5](9B,1F)}C wD(1F,K,d5){if(ac(1F)){K=1F;1F=1C}1F=1F||\'\';if(K!=1l){F 6s$1(1F,K,d5,\'3j\')}B i;B cL=[];1s(i=0;i<12;i++){cL[i]=6s$1(1F,i,d5,\'3j\')}F cL}C qb(ag,1F,K,d5){if(2y ag===\'GD\'){if(ac(1F)){K=1F;1F=1C}1F=1F||\'\'}1a{1F=ag;K=1F;ag=1x;if(ac(1F)){K=1F;1F=1C}1F=1F||\'\'}B 2i=cF(),jS=ag?2i.ak.4f:0;if(K!=1l){F 6s$1(1F,(K+jS)%7,d5,\'4c\')}B i;B cL=[];1s(i=0;i<7;i++){cL[i]=6s$1(1F,(i+jS)%7,d5,\'4c\')}F cL}C Ik(1F,K){F wD(1F,K,\'2J\')}C Io(1F,K){F wD(1F,K,\'bN\')}C Im(ag,1F,K){F qb(ag,1F,K,\'cu\')}C Is(ag,1F,K){F qb(ag,1F,K,\'bV\')}C Iq(ag,1F,K){F qb(ag,1F,K,\'cJ\')}fI(\'en\',{GM:/\\d{1,2}(th|st|nd|rd)/,cO:C(3N){B b=3N%10,4i=(3U(3N%2o/10)===1)?\'th\':(b===1)?\'st\':(b===2)?\'nd\':(b===3)?\'rd\':\'th\';F 3N+4i}});2D.dW=8Z(\'3i.dW is 9h. gE 3i.2i ca.\',fI);2D.GZ=8Z(\'3i.GZ is 9h. gE 3i.4q ca.\',cF);B bJ=N.4W;C 4W(){B 1b=I.9g;I.9R=bJ(I.9R);I.9c=bJ(I.9c);I.6g=bJ(I.6g);1b.3G=bJ(1b.3G);1b.4D=bJ(1b.4D);1b.4b=bJ(1b.4b);1b.4v=bJ(1b.4v);1b.2J=bJ(1b.2J);1b.5P=bJ(1b.5P);F I}C gC$1(2Y,1d,1c,gD){B 5d=a8(1d,1c);2Y.9R+=gD*5d.9R;2Y.9c+=gD*5d.9c;2Y.6g+=gD*5d.6g;F 2Y.xm()}C 5s$1(1d,1c){F gC$1(I,1d,1c,1)}C 9z$1(1d,1c){F gC$1(I,1d,1c,-1)}C wK(3N){if(3N<0){F N.4p(3N)}1a{F N.9H(3N)}}C fo(){B 3G=I.9R;B 3q=I.9c;B 2J=I.6g;B 1b=I.9g;B 4D,4b,4v,5P,pf;if(!((3G>=0&&3q>=0&&2J>=0)||(3G<=0&&3q<=0&&2J<=0))){3G+=wK(oU(2J)+3q)*eO;3q=0;2J=0}1b.3G=3G%6f;4D=8V(3G/6f);1b.4D=4D%60;4b=8V(4D/60);1b.4b=4b%60;4v=8V(4b/60);1b.4v=4v%24;3q+=8V(4v/24);pf=8V(wM(3q));2J+=pf;3q-=wK(oU(pf));5P=8V(2J/12);2J%=12;1b.3q=3q;1b.2J=2J;1b.5P=5P;F I}C wM(3q){F 3q*H6/H5}C oU(2J){F 2J*H5/H6}C as(2h){if(!I.2C()){F 6e}B 3q;B 2J;B 3G=I.9R;2h=8w(2h);if(2h===\'3j\'||2h===\'2s\'){3q=I.9c+3G/eO;2J=I.6g+wM(3q);F 2h===\'3j\'?2J:2J/12}1a{3q=I.9c+N.2M(oU(I.6g));ck(2h){2U\'2Q\':F 3q/7+3G/Hb;2U\'4c\':F 3q+3G/eO;2U\'5E\':F 3q*24+3G/Hj;2U\'83\':F 3q*Mx+3G/od;2U\'8q\':F 3q*M6+3G/6f;2U\'4N\':F N.4p(3q*eO)+3G;6Y:fs 2A kW(\'LX 4n \'+2h)}}}C 4d$1(){if(!I.2C()){F 6e}F(I.9R+I.9c*eO+(I.6g%12)*LC+3U(I.6g/12)*LB)}C cb(Hn){F C(){F I.as(Hn)}}B xf=cb(\'ms\');B p6=cb(\'s\');B xg=cb(\'m\');B xh=cb(\'h\');B xi=cb(\'d\');B xj=cb(\'w\');B xk=cb(\'M\');B xl=cb(\'y\');C 4o$1(){F a8(I)}C 6s$2(2h){2h=8w(2h);F I.2C()?I[2h+\'s\']():6e}C dv(3k){F C(){F I.2C()?I.9g[3k]:6e}}B 3G=dv(\'3G\');B 4D=dv(\'4D\');B 4b=dv(\'4b\');B 4v=dv(\'4v\');B 3q=dv(\'3q\');B 2J=dv(\'2J\');B 5P=dv(\'5P\');C g4(){F 8V(I.3q()/7)}B 2M=N.2M;B aC={ss:44,s:45,m:45,h:22,d:26,M:11};C HP(2k,3N,8B,mI,2i){F 2i.f4(3N||1,!!8B,2k,mI)}C f4$1(xb,8B,2i){B 2Y=a8(xb).4W();B 4D=2M(2Y.as(\'s\'));B 4b=2M(2Y.as(\'m\'));B 4v=2M(2Y.as(\'h\'));B 3q=2M(2Y.as(\'d\'));B 2J=2M(2Y.as(\'M\'));B 5P=2M(2Y.as(\'y\'));B a=4D<=aC.ss&&[\'s\',4D]||4D<aC.s&&[\'ss\',4D]||4b<=1&&[\'m\']||4b<aC.m&&[\'mm\',4b]||4v<=1&&[\'h\']||4v<aC.h&&[\'hh\',4v]||3q<=1&&[\'d\']||3q<aC.d&&[\'dd\',3q]||2J<=1&&[\'M\']||2J<aC.M&&[\'MM\',2J]||5P<=1&&[\'y\']||[\'yy\',5P];a[2]=8B;a[3]=+xb>0;a[4]=2i;F HP.4m(1l,a)}C Iv(qS){if(qS===1C){F 2M}if(2y(qS)===\'C\'){2M=qS;F 1z}F 1x}C Iw(jt,qD){if(aC[jt]===1C){F 1x}if(qD===1C){F aC[jt]}aC[jt]=qD;if(jt===\'s\'){aC.ss=qD-1}F 1z}C jx(xc){if(!I.2C()){F I.4q().cx()}B 2i=I.4q();B 4i=f4$1(I,!xc,2i);if(xc){4i=2i.qu(+I,4i)}F 2i.xd(4i)}B 4W$1=N.4W;C 3B(x){F((x>0)-(x<0))||+x}C 8h$1(){if(!I.2C()){F I.4q().cx()}B 4D=4W$1(I.9R)/6f;B 3q=4W$1(I.9c);B 2J=4W$1(I.6g);B 4b,4v,5P;4b=8V(4D/60);4v=8V(4b/60);4D%=60;4b%=60;5P=8V(2J/12);2J%=12;B Y=5P;B M=2J;B D=3q;B h=4v;B m=4b;B s=4D?4D.qm(3).5t(/\\.?0+$/,\'\'):\'\';B 8r=I.p6();if(!8r){F\'N4\'}B HU=8r<0?\'-\':\'\';B xe=3B(I.6g)!==3B(8r)?\'-\':\'\';B HW=3B(I.9c)!==3B(8r)?\'-\':\'\';B ps=3B(I.9R)!==3B(8r)?\'-\':\'\';F HU+\'P\'+(Y?xe+Y+\'Y\':\'\')+(M?xe+M+\'M\':\'\')+(D?HW+D+\'D\':\'\')+((h||m||s)?\'T\':\'\')+(h?ps+h+\'H\':\'\')+(m?ps+m+\'M\':\'\')+(s?ps+s+\'S\':\'\')}B 1y$2=lb.2L;1y$2.2C=2C$1;1y$2.4W=4W;1y$2.5s=5s$1;1y$2.9z=9z$1;1y$2.as=as;1y$2.xf=xf;1y$2.p6=p6;1y$2.xg=xg;1y$2.xh=xh;1y$2.xi=xi;1y$2.xj=xj;1y$2.xk=xk;1y$2.xl=xl;1y$2.4d=4d$1;1y$2.xm=fo;1y$2.4o=4o$1;1y$2.6s=6s$2;1y$2.3G=3G;1y$2.4D=4D;1y$2.4b=4b;1y$2.4v=4v;1y$2.3q=3q;1y$2.g4=g4;1y$2.2J=2J;1y$2.5P=5P;1y$2.jx=jx;1y$2.8h=8h$1;1y$2.6B=8h$1;1y$2.jp=8h$1;1y$2.2i=2i;1y$2.4q=4q;1y$2.Ib=8Z(\'Ib() is 9h. jZ 2H 8h() ca (M5 mJ M2)\',8h$1);1y$2.dW=dW;3l(\'X\',0,0,\'kp\');3l(\'x\',0,0,\'4d\');2R(\'x\',iO);2R(\'X\',Ic);5i(\'X\',C(1d,2p,V){V.3H=2A 4L(6j(1d,10)*6f)});5i(\'x\',C(1d,2p,V){V.3H=2A 4L(3U(1d))});2D.Re=\'2.22.2\';Ih(5B);2D.fn=1y;2D.1h=1h;2D.1g=1g;2D.7r=7r;2D.9B=aE;2D.kp=Ij;2D.2J=Ik;2D.fW=fW;2D.2i=fI;2D.xq=fJ;2D.2Y=a8;2D.bG=bG;2D.cu=Im;2D.oy=In;2D.4q=cF;2D.jg=jg;2D.bN=Io;2D.cJ=Iq;2D.fX=fX;2D.nI=nI;2D.62=Ir;2D.bV=Is;2D.8w=8w;2D.Rw=Iv;2D.Rf=Iw;2D.Iy=IG;2D.2L=1y;2D.Q8={Q7:\'4t-MM-lr:mm\',Q6:\'4t-MM-lr:mm:ss\',Q4:\'4t-MM-lr:mm:ss.cp\',9w:\'4t-MM-DD\',Q1:\'HH:mm\',Q0:\'HH:mm:ss\',PZ:\'HH:mm:ss.cp\',xv:\'4t-[W]fc\',aU:\'4t-MM\'};F 2D})))},{}],59:[C(1j,1E,1A){\'2H 2q\';B IP=1j(\'3i\');B gH=jT(IP);B IS=1j(\'./K0\');B J3=jT(IS);B qn=1j(\'./JZ\');C jT(3n){F 3n&&3n.nz?3n:{6Y:3n}}C cY(3n,1v,1c){if(1v in 3n){3t.b2(3n,1v,{1c:1c,jF:1z,qa:1z,KO:1z})}1a{3n[1v]=1c}F 3n}B xA=\'/LZ\';if(q4.q2){6m.6E(\'xF\',C(){q4.q2.xx(xA+\'/sw.js\',{97:xA+\'/\'}).9b(C(q8){if(!q4.q2.4r){F}8F.ke(\'J1 q8 Lp Ll 97: \',q8.97)},C(cN){8F.ke(\'J1 q8 RF\',cN)});B xB=je 0;q4.q2.6E(\'Ru\',C(){if(xB)F;6m.Rc.Qe();xB=1z})})}(C(){B xL=2A J3.6Y();B dp=6z.9W(\'dp\');B dr=6z.9W(\'dr\');B h3=6z.9W(\'h3\');B h1=6z.9W(\'h1\');B mT=6z.9W(\'mT\');B nU=6z.9W(\'nU\');B J4=6z.9W(\'J4\');B J6=6z.9W(\'J6\');B cR=je 0;B xH=[];B xJ=[];B 6G=[{id:\'J7\'}];B 6x=[{id:\'J7\'}];B PR=je 0;B PQ=je 0;B mg=\'yG://L0.L2.bm/L3/v5\';B gA=C gA(J8){F(0,gH.6Y)().9z(J8,\'3q\').1F(\'4t-MM-DD\')};B of=C of(1d){B re=/^\\d*(\\.)?\\d*$/g;B 2C=re.9f(1d);F{2C:2C}};6m.6E(\'xF\',C(5F){5F.kg();lW(mg+\'/cR\').9b(C(7c){7c.iV().9b(C(1b){B eD;cR=1b.Jd?3t.1M(1b.Jd):1b;xG(cR);(0,qn.es)(cY({},\'LA\',(eD={},cY(eD,\'\'+gA(0),1),cY(eD,\'\'+gA(1),1),cY(eD,\'\'+gA(2),1),cY(eD,\'\'+gA(3),1),eD)))})})});B xG=C xG(cR){B 5N=cR.8j(C(5x,3K){F 5x[\'nK\'].RG(3K[\'nK\'])});1s(B i=0;i<5N.1f;i++){xH.1P(\'<nD 1c=\'+5N[i][\'id\']+\' >\'+5N[i][\'nK\']+\'</nD>\');xJ.1P(\'<nD 1c=\'+5N[i][\'id\']+\'>\'+5N[i][\'nK\']+\'</nD>\')}mT.pc=5N[0].gQ;nU.pc=5N[0].gQ;dp.xI=xH.7A(\'\');dr.xI=xJ.7A(\'\')};dp.6E(\'mu\',C(5F){5F.kg();xK(5F.1L.1c);B 4O=(0,gH.6Y)().9z(6,\'3q\').1F(\'4t-MM-DD\');B qq=(0,gH.6Y)().1F(\'4t-MM-DD\');xL.po(6G[0].id,6x[0].id,4O,qq).9b(C(7c){B 1v=6G[0].id+\'6u\'+6x[0].id;if(!7c)F;7c.iV().9b(C(1b){B 8M=3t.3R(1b)[0]===1v?1b[\'\'+1v]:1b;(0,qn.es)(cY({},\'\'+1v,8M))})})});B xK=C xK(id){6G=cR.ah(C(el){F el.id===id});B Jl=6G[0].gQ?6G[0].gQ:6G[0].id;B OS=6G[0].id;mT.pc=Jl};dr.6E(\'mu\',C(5F){5F.kg();xM(5F.1L.1c);B 4O=(0,gH.6Y)().9z(6,\'3q\').1F(\'4t-MM-DD\');B qq=(0,gH.6Y)().1F(\'4t-MM-DD\');xL.po(6G[0].id,6x[0].id,4O,qq).9b(C(7c){B 1v=6G[0].id+\'6u\'+6x[0].id;if(!7c)F;7c.iV().9b(C(1b){B 8M=3t.3R(1b)[0]===1v?1b[\'\'+1v]:1b;(0,qn.es)(cY({},\'\'+1v,8M))})})});B xM=C xM(id){6x=cR.ah(C(el){F el.id===id});B JA=6x[0].gQ?6x[0].gQ:6x[0].id;B NT=6x[0].id;nU.pc=JA};h3.6E(\'1d\',C(5F){5F.kg();B JE=of(5F.1L.1c),2C=JE.2C;if(!2C){JT(\'jZ JV a fp 3N\');h3.1c=h3.1c.4s(0,-1);F}B io=6G[0].id+\'6u\'+6x[0].id+\',\'+6x[0].id+\'6u\'+6G[0].id;B ir=mg+\'/8c?q=\'+io+\'&yI=yK\';B 1v=6G[0].id+\'6u\'+6x[0].id;B md=lW(ir);md.9b(C(7c){7c.iV().9b(C(1b){B qr=3t.3R(1b)[0]===1v?1b[1v]:3t.1M(1b)[0];h1.1c=(5F.1L.1c*6j(qr)).qm(3)})})});h1.6E(\'1d\',C(5F){5F.kg();B JS=of(5F.1L.1c),2C=JS.2C;if(!2C){JT(\'jZ JV a fp 3N\');h1.1c=h1.1c.4s(0,-1);F}B io=6x[0].id+\'6u\'+6G[0].id+\',\'+6G[0].id+\'6u\'+6x[0].id;B ir=mg+\'/8c?q=\'+io+\'&yI=yK\';B 1v=6x[0].id+\'6u\'+6G[0].id;B md=lW(ir);md.9b(C(7c){7c.iV().9b(C(1b){B qr=3t.3R(1b)[0]===1v?1b[1v]:3t.1M(1b)[0];h3.1c=(5F.1L.1c*6j(qr)).qm(3)})})})})()},{"./JZ":60,"./K0":61,"3i":58}],60:[C(1j,1E,1A){\'2H 2q\';3t.b2(1A,"nz",{1c:1z});1A.es=1C;B Kd=C(){C K9(5N,i){B mY=[];B o8=1z;B 3H=1x;B ya=1C;oa{1s(B 6a=5N[K7.K8](),y9;!(o8=(y9=6a.3K()).Q2);o8=1z){mY.1P(y9.1c);if(i&&mY.1f===i)4e}}kX(K2){3H=1z;ya=K2}K3{oa{if(!o8&&6a["F"])6a["F"]()}K3{if(3H)fs ya}}F mY}F C(5N,i){if(5y.3M(5N)){F 5N}1a if(K7.K8 in 3t(5N)){F K9(5N,i)}1a{fs 2A KU("Ka O0 to NL Mq-M9 yF")}}}();B 6q=1j(\'O.js\');B KD=jT(6q);C jT(3n){F 3n&&3n.nz?3n:{6Y:3n}}B es=1A.es=C es(m0){B R=6z.9W(\'Kx\');B dp=6z.9W(\'dp\');B dr=6z.9W(\'dr\');B Kg=dp.U[dp.Kc].3s;B yr=dr.U[dr.Kc].3s;B my$3R=3t.3R(m0),my$Ke=Kd(my$3R,1),1v=my$Ke[0];B du=3t.3R(m0[\'\'+1v]);B yk=3t.1M(m0[\'\'+1v]);B yd=yw(yk),hH=yd.hH,hI=yd.hI;B 1b={1T:du,1X:[{2x:yr+\' Qd \'+Kg,2K:1z,jn:\'3r(ji,99,c7,0.8)\',2e:\'3r(2,2,RC,0.7)\',Qa:\'A\',1b:yk}]};B U={3F:{aN:[{1G:\'2I\',jQ:\'LK\',2I:{4n:\'4c\'}}],bg:[{id:\'A\',1G:\'6D\',1Z:\'1D\',1w:{1g:hH,1h:hI},aT:{3a:1z,yo:yr+\' Q3 PY\'}}]},1V:{3u:{5o:0}}};B Kx=2A KD.6Y(R,{1G:\'3u\',1b:1b,U:U})};B yw=C yw(5N){B cz=5N.hC(C(5x,3K){F N.1g(5x,3K)});B cy=5N.hC(C(5x,3K){F N.1h(5x,3K)});B 2S=(cz-cy)/5N.1f;B hH=cz+2S;B hI=cy-2S;F{hH:hH,hI:hI}};1A.6Y={}},{"O.js":1}],61:[C(1j,1E,1A){\'2H 2q\';3t.b2(1A,"nz",{1c:1z});B L4=C(){C yD(1L,hQ){1s(B i=0;i<hQ.1f;i++){B 9V=hQ[i];9V.jF=9V.jF||1x;9V.qa=1z;if("1c"in 9V)9V.KO=1z;3t.b2(1L,9V.1v,9V)}}F C(hY,yC,yE){if(yC)yD(hY.2L,yC);if(yE)yD(hY,yE);F hY}}();C KX(yF,hY){if(!(yF 8u hY)){fs 2A KU("KV 2n a i5 as a C")}}B gT=C(){C gT(){KX(I,gT);I.yH=\'yG://L0.L2.bm/L3/v5\'}L4(gT,[{1v:\'L5\',1c:C L5(){F lW(I.yH+\'/cR\').9b(C(7c){F 7c}).kX(C(cN){F 8F.ke(cN)})}},{1v:\'po\',1c:C po(6G,6x,Lg,rh){B io=6G+\'6u\'+6x+\',\'+6x+\'6u\'+6G;B ir=I.yH+\'/8c?q=\'+io+\'&yI=yK&4j=\'+Lg+\'&rh=\'+rh;F lW(ir).9b(C(7c){if(!7c)F;F 7c}).kX(C(cN){F 8F.ke(cN)})}}]);F gT}();1A.6Y=gT},{}]},{},[59])',62,3341,'|||||||||||||||||||||||||||||||||||||var|function|||return|||this|helpers|index|||Math|chart|||ctx|||options|config|||||||||||||||else|data|value|input||length|max|min|model|require|dataset|null|core|Chart|meta|custom|width|scale|for|255|height|key|ticks|false|proto|true|exports|defaults|undefined|left|module|format|type|ilen|top|opts|borderWidth|target|values|valueOrDefault|rgb|push|point|bottom|size|labels|datasetIndex|elements|canvas|datasets|backgroundColor|position|||||||||||right|radius|each||borderColor|element|match|units|locale|args|string|mom|item|call|100|array|strict|start|year|alpha|context|val|isHorizontal|label|typeof|tickOpts|new|box|isValid|hooks|chartArea|pow|source|use|time|months|fill|prototype|round|_model|valueAtIndexOrDefault|token|week|addRegexToken|offset|minSize|case|vals|plugins|hsl|duration|res|||||||||||display|indexOf|fontSize|arguments|style|extend|callback|prop|moment|month|name|addFormatToken|space|obj|noop|isNaN|days|rgba|text|Object|line|startAngle|points|lineTo|128|font|from|sign|globalDefaults|color|end|scales|milliseconds|_d|padding|reset|next|title|isArray|number|_view|animation|base|keys|getParsingFlags|global|toInt|arc|getMeta|ratio|hwb|weekday|||||||||||pointCurrent|minutes|day|valueOf|break|dow|angle|count|output|date|_a|pos|apply|unit|clone|floor|localeData|controller|slice|YYYY|labelOpts|hours|tooltipOpts|xAlign|lineWidth|getDatasetMeta|hidden|gridLines|reverse|seconds|lines|yAlign|legend|items|isStrict|update|doy|Date|endAngle|millisecond|previous|center|opacity|listener|tooltip|log10|rectangle|layouts|abs|250|legendItem|controllers|||||||||||pixel|rawValue|major|other|caretSize|match1to2|fillStyle|notify|addParseToken|getRightValue|_locale|timestamps|object|easingValue|tension|skip|setValues|callbacks|add|replace|moveTo|timeOpts|node|prev|Array|Element|axis|createLocal|draw|outerRadius|hour|event|view|_datasetIndex|maxWidth|resizer|_set|beginPath|plugin|arr|range|years|generationOptions|borderDash|borderDashOffset|len|getDataset|hasOwnProp|lineElementOptions|curr|_isUTC|func|||locales|||||itemToDraw|||_i|tick|isDatasetVisible|mouseX|NaN|1000|_months|table|HOUR|parseFloat|parseInt|platform|window|240|139|llc|_chart|245|get|360|_|delete|utcOffset|toCurrency|stack|document|mouseY|toString|pointStyle|linear|addEventListener|minor|fromCurrency|area|initialize|paddingLeft|hsla|collection|defaultFontSize|hitRadius|105|bodyFontSize|205|tooltipItems|sin|maxHeight|hsv|expando|yScale|textAlign|default|fontStyle||||strokeStyle|bounds||flags|isObject|getPixelForValue||margins|pointAfter|response|_index|changed|Number|concat|diff|bodyItem|cmyk|dayOfYear|addUnitPriority|addUnitAlias|defaultColor|mode|tooltipItem|isUndefined|now|fontFamily|innerRadius|closePath|startOf|Color|RegExp|animations|domNode|join|borderSkipped|steps|pixels|cache|_options|238|arg|paddingRight|overflow|fillText|cos|211|_isValid|textBaseline|stacked|exp|mixedPieces|parentConfig|stroke|tooltipSize|sval|borderCapStyle|UNITS|borderJoinStyle|inRange||spacing||minute|furthestLimits||yAxisID||maxTicks|optionTicks|container|delta|convert|tickFont|cursor|setChannel|ruler|toISOString|stepSize|sort|weight|match2|EXPANDO_KEY|listeners|fullWidth|substr|second|total|charts|055|instanceof|set|normalizeUnits|angleRadians|_f|normalizedInput|isFinite|withoutSuffix|bar|parsedInput|230|console|arcOpts|lineHeight|getHoverColor|paddingTop|pointPosition|fontString|result|weekYear|getPixelForTick|that|horizontal|deltaK|precision|sqrt|boxWidth|absFloor|current|rotation|hoverBorderWidth|deprecate||active||circumference|updateElement|||scope|meridiem||intersect|then|_days|merge|continue|test|_data|deprecated|totalLeftBoxesWidth|localInput|totalTopBoxesHeight|tickFontSize|boxes|longPieces|shortPieces|YEAR|innerDimension|measureText|MINUTE|updateOffset|minNotZero|globalDefault|DATE|hasOwnProperty|interval|subtract|xyz|utc|legendOpts|footer|labelRotation|titleOpts|pointElementOptions|ceil|method|common|legendItems|scaleService|tooltipPosition|removeHoverStyle|xAxisID|lineWidths|map|_milliseconds|tickValue|matches|112|descriptor|getElementById|split|resYear|169|||cosRotation|116|easing|DatasetController|minIndex|paddingBottom|createDuration|MMM|_weekdaysParse|220|isNumber|pointLabels|xOffset|moments|localeSorted|filter|dataRange|yOffset|_week|Scale|||findIndex||thing|getRelativePosition|||valuesPerStack|parentNode|pointBefore|significand|quarter|last|textSize|scaleOptions|thresholds|hoverBackgroundColor|createUTC|span|furthestAngles|descriptors|hoverBorderColor|getScaleForId|controlPoints|curve0|curve1|xAxes|isFunction|len1|forEach|distance|leftBoxes|scaleLabel|MONTH|capacity|while|maxChartAreaHeight|tempConfig|rightBoxes|cornerRadius|180|defineProperty|bottomBoxes|_strict|SECOND|mergeOpacity|_weekdaysRegex|pivot|splice|sources|dddd|regex|hover||topBoxes|yAxes|parentLocale|spanGaps|defaultConfig|origin||com|proxy|textWidth|isNullOrUndef|defaultFontStyle|titleFontSize|pointRadius|maxChartAreaWidth|_tzm|keepLocalTime||keyword||pointsWithTangents|defaultFontFamily|pushOrConcat|isoWeekday|head|xScale|thisArg|isMoment|beforeUpdate|hasStacks|mathAbs|axisWidth|niceFraction|zeroFill|monthsShort|getStyle|longest|fontColor|144|color2|currentStep|exec|weekdaysShort|cutoutPercentage|hoverRadius|interpolate|boundary|||drawingArea|_useUTC|_longMonthsParse|MMMM|caretPadding|192|formats|animationOpts|instead|makeAs|Ticks|787|skipRatio|render|deltaX|||body|switch|existingModel|tval|fit|weeksInYear|SSS|2000|steppedLine|rgbString|lazy|weekdays|cmpLenRev||invalidDate|minVal|maxVal|aliasPixel|titleBlock|resize|_minWeekdaysParse|_shortWeekdaysParse|getLocale|convertTicksToLabels|tickVal|len0|weekdaysMin|gridLineOpts|out|cutout|error|ordinal|div|timestamp|currencies|keyword2rgb|minUnit|_monthsRegex|numSpaces|positiveValues|127|_defineProperty|224|||category|offsetGridLines|enabled|field|222|idx|parse|160|calendar|momentjs|msg||childConfig|IDMatches|tooltips|afterUpdate|tickCount|143|isoWeek|153|clear|alignment||fromTo|stacks|toFrom||distanceMetric|xLabel|makeGetter|onClick|titleSpacing|nearestItems|_shortMonthsParse|isBefore|isAfter|getLabelForIndex|MILLISECOND|weekdayName|bodySpacing|regexEscape|248|footerFontSize|startIndex|lab|currentColWidth|transition|warn|YYYYYY|ddd|restore|maxTicksLimit|animationOptions|_w|currentVM|largestPossibleRadius|lang|lastDrawnIndex|period|middle|totalRightBoxesWidth|removeEventListener|totalBottomBoxesHeight|parseIso|ret|quadraticCurveTo|chartjs|dataElementType|effects|tokens|hue|defaultFontColor|loopable|save|xCenter|yCenter|_offsets|controlPointPreviousY|Line|caretPosition|flip||||tickPadding|determineDataLimits|controlPointNextY|_meta|showTrends|controlPointPreviousX|handleEvent|sinRotation|lineDefault|maxSize|parser|SQRT2||valuesForType|minDistance|_AFN_AFN|rgb2hsl|beforeSetDimensions|_offset|expand|hwb2rgb|red|lastActive|maxLineWidth|afterSetDimensions|yLabel|864e5|filler|beforeFit|first|INTERVALS|afterFit|lineTension|shrink|fraction|toLocaleLowerCase|factor|http|dataLabel|makeGetSet|rgb2hwb|proxies|relativeTime|guides|warnings|rgb2cmyk|_weekdays|_plugins|||WW|mapper|GGGG|isLeft|setDimensions|scaleLabelPadding|Interaction|nowValue|maxIndex|labelY|UTC||bubble|valid|boundingRect|Moment|throw|majorUnit|controlPointNextX|_ticks|008856|rgbaString|rgb2keyword|getPointPosition||afterBody|getBasePixel|monthName|_monthsParse|ChartElement|negativeValues|beforeBody|getSetGlobalLocale|createInvalid|rightValue|chunk|currentScore|filterCallback|after|itemHeight|niceMin|hitBox|formatTokenFunctions|cmyk2rgb|pointsLen|getDistanceFromCenterForValue|isDate|defineLocale|minBoxSize|beginAtZero|leftPadding|boxPadding|POSITIVE_INFINITY|green|weeks|228|173|radialLinear|filterByPosition|rects|107|_cacheId||mid|numSteps|intersectsItem||165||lineValue|parseVisibleItems|plFont|doughnut|170|147|modes|lineSpace|218|largestTextWidth|finalVal|newWidth|pt2|momentDate|pt1|tickMarkLength|before|calcDay|parseFontOptions|addSubtract|direction|Use|135|235|_moment2|jlen|buildTicks|lineColor|niceMax|210|140|216|pixelRatio|currencySymbol|130|tx1|HandleRequest|_chartjs|valueInPixels|ty1|tx2|ty2|blue|_timestamps|toInput|labelX|fromInput|touches|exponent|some|zone|conversions|aliases|dropFrames|labelWidth|Converter|daysInMonth|isoWeekYear|isLeapYear|hoverOptions|||native|convs|onHover||_monthsShort|linkScales|hitboxes|endOf||toRadians|weekOffset|pointHitRadius|centerY|centerX|standalone|labelColors|currentItem||rgb2hsv|reduce|fillLineOfText|SSSS|setLineDash|matchWord|yMax|yMin|arcs|arrayToSearch|_dayOfYear|ease|createUTCDate|200|weekOfYear|props|pos1|innerWidth|animateRotate|addWeekParseToken|propagate|localeFamilies|globalLocale|Constructor|loop|||registerScaleType|daysInYear|anchor|class|numMeta|globalOptionLineElements|numData|_scale|radiusLength|hsv2rgb|corner||hsl2rgb||getRgba|getHsla||setHoverStyle|CSS_RENDER_ANIMATION|cubicInterpolationMode|handler||query|aspectRatio|not|url|||setSpace|spaces|hslaString|ordering|70158|extensions|color1|bigHour|206|xAxisOptions|topPadding|toPush|footerSpacing|_start|priority|getBarBounds|nestedThing|isUtc|lineCount|_isDSTShifted|matchSigned|getCenterPoint|getArea|rotate|fillRect|loadLocale|deprecationHandler|json|yAxisOptions|single|DDD|matchShortOffset|_config|array2|array1|angleLines|configure|titleLineCount|combinedBodyLength|momentProperties|_pf|footerLineCount|drawCaret|dposition|isNowValid|edgeLength|void|Animation|isDuration|skey|225|paddingAndSize|isRotated|rightPadding|labelXOffset|pointBackgroundColor|xPadding|toJSON|_children|yPadding||threshold|offsetAmt|maxHorizontalLeftPadding|upper|humanize|lower|animateScale|maxHorizontalRightPadding|onComplete|_l|_isAMomentObject|charAt|enumerable|newOptions|_lastActive|_active|lineDashOffset|radar|match6|cyan|lineJoin|match1to6|addWeekYearFormatToken|distribution|getPadding|shift|_interopRequireDefault|datasetLabel|momentify|unusedTokens|_weekdaysMinRegex|_weekdaysShortRegex|Please|drawTicks|klen|ipixels|styleValue|_abbr|formatMoment|tooltipPoint|ptX|fff|insertElements|getTicks|getValueForPixel|_horizontal|arrayOfThings|log|resolve|preventDefault|DEFAULT_MAX|DEFAULT_MIN|titleMarginBottom||ZZ|capControlPoint|isSame|mouseout|unix|s01|property|wholeMonthDiff|s12|anchor2|bodyFontColor|logarithmic|_table|firstWeekOffset|displayColors|newHeight|rgb2xyz|formatters|rgb2lab|resWeek|resDayOfYear|family|longestText|hLimits|labelTextColors|vLimits|inclusivity|rectangleOptions|lch2lab|_monthsShortRegex|lab2xyz|formatOverride|tickWidth|columnWidths|sameElse|halfLineHeight|stackCount|Error|catch|css|lab2lch|newMaxChartAreaHeight|newControllers|883|108|keyframes|longDateFormat|500|047|valueCount|polarArea|errMargin|Duration|Locale|click|initial||imeta|||mousemove|signX||halfStroke|pointBorderWidth||signY|timeFormat|DDTHH|scatter|evt|handleTickRangeOptions|tmp|isoDates|sortByWeight|epsilon|numberOrZero|getHwb|localFormattingTokens|hexString|ivalue|radiusReductionLeft|percentString|hslString|radiusReductionRight|radiusReductionTop|animationObject|radiusReductionBottom|getValueCount|svalues|chartWidth|legendHitBoxes|padded|dom|weekdayOverflow|hwbString|lum|match1to3|getIndexAngle|fetch|footerMarginTop|newMaxChartAreaWidth|xLinePadding|historyData|pointLabelOptions|labelFont|getDateOffset|getBoxWidth|lineCap|distanceFromYCenter|_changeInProgress|219|calculateCircumference|localAdjust|d01|152|fetchRate||angleLineOpts|apiUrl|parts|footerFontColor|hFormat|getValueScaleId|minPieces||monthsShortRegex|_weekdaysMinStrictRegex|monthsRegex|_weekdaysShortStrictRegex|betaK||_weekdaysStrictRegex|change|scaleLabelX|scaleLabelY|originalLabelWidth|_Object|hoverWidth|longp|shortp|minp|computeWeekdaysParse|normalizeObjectUnits|_weekdaysParseExact|scaleLabelOpts|dsIndex|isFuture|the||204|209|interaction|getTickLimit|more|LinearScaleBase|longestTextCache|_bufferedRequest|fromBtn|_fullWeekdaysParse|showLine|pointOptions|handleStrictParse|_arr|tauK|constructors|configFromArray|numDecimal|magenta|tickString|chartHeight|d12|configFromStringAndFormat|defaultValue|196|updateBezierControlPoints|136|119||checkOverflow|xLeft|remain|178|_nextDay|weeksTarget|122|arrayEquals|minBoxSizes|yMiddle|scoreToBeat|legendWidth|numberOfLines|_monthsShortStrictRegex|_monthsStrictRegex|charsLeftOver|_bufferedRender|translate|parseTwoDigitYear|isPm|_merger|__esModule|dsMeta|backdropPaddingY|merger|option|inherits|_xScale|dtype|_yScale|updateLocale|tickFontColor|currencyName|yCenterOffset|empty|scaleMargin|mouseup|modMonth|215|skipped|5625|isUTC|toBtn|pointBorderColor|prioritized|match4|toPadding|match1to4|stackedRightValue|isLocal|YY|YYYYY|bottomPadding|tkey|scaleType|colorValue|_n|request|try|Legend|regexes|6e4|256|validate|widthPadding|isFullWidth|matched|renderWidth|formatFunctions|rfc2822|renderHeight|platforms|displayWidth|Tooltip|ticking||newLocaleData|CSS_PREFIX|cls|categoryPercentage|inputString|184|parseZone|nearest|eventPosition|beforeBuildLabels|buildLabels||MAX_INTEGER|afterBuildLabels|weekdayMismatch|inputObject|normalizedProp|placeBox|nearestElement|stop|distanceFromXCenter|toLineHeight|beforeTitle|_longDateFormat|titleX|titleY|middlePoint|afterTitle|monthsToDays|CSS_RENDER_MONITOR|addBox|beforeFooter|black|_element||||||Title|asSeconds|yearStr|afterFooter|datasetElementType|mergeIf|squaredMagnitude|innerText|adjust|barPercentage|monthsFromDays|coercedNumber|maxVerticalTopPadding|updateInProgress|removeBox|monthDiff|dateFormat||animating|fetchHistoricalData|isoTimes|zoneDelta|getValues|hmsSign||acquireContext|cloneWithOffset|cssKeywords||basic|inputMs|indexMode|getLabels|valueCategory|factory|temp|getIntersectItems|maxVerticalBottomPadding|154|getValueScale|getDistanceMetricForAxis|yellow|previousItem|backgroundPoint|xLineValue|179|lab2rgb|params|elementOpts|toDate|rectangleElementOptions|toArray|currentDate|yearToUse|getNearestItems|lch|xyz2rgb|ptY|isAdding|serviceWorker|191|navigator|titleFontColor|absRound|yLineValue|registration|requestAnimationFrame|configurable|listWeekdaysImpl|suggestedMin|xyz2lab|param|suggestedMax|tickLabelWidth|tmpLocale|startCorner|labelRotationRadians|actual|define|toFixed|_plot|endExp|visible|today|rate|showLines|percentaString|pastFuture|gcLen|diffRes|alphaK|names|hexDouble|num|str|colorNames|limit|toLowerCase|vpixels|_tmpIndex_|isPM|clipArea|generateTicks|weekdaysMinRegex|weekdaysShortRegex|weekdaysRegex|unclipArea|legendCallback|188|isVertical|generateLabels|roundingFunction|currentColHeight|102|sname|firstTickValue|copyConfig|maxes|weekdaysParse|176|chan|Point|221|lum2|lum1|datasetStartAngle|totalWidth|05|offsetFromString|pos2|133|degrees||||destroy|endDate|contrastRatio|lightness|saturation|luminosity|whiteness|capped|04045|rgb2lch|hsl2hsv|hsl2hwb|hsl2cmyk|hsl2keyword|onAnimationProgress|reverseNames|hsv2hsl|||hsv2hwb|hsv2cmyk|hsv2keyword|hwb2hsl|getAlpha|getHsl|getRgb|hwb2hsv|onAnimationComplete|hwb2cmyk|hwb2keyword|cmyk2hsl|cmyk2hsv|cmyk2hwb|cmyk2keyword|0031308|xyz2lch|animationService|lch2xyz|tickFormatFunction|displayFormats|lch2rgb|keyword2hsl|keyword2hsv|keyword2hwb|keyword2cmyk|ticksOpts|keyword2lab|keyword2xyz|maxRotation|reverseKeywords|pair|fspace|ControllerClass|getPixelForOffset|types|formatter|majorTickOpts|majorFormat|_majorUnit|_unit|updated|determineMajorUnit|MIN_INTEGER|sorter|arrayUnique|mergeTicksOptions|autoSkip||hasTime|scaleClass|hash|positionIsHorizontal|backdropPaddingX|ticksAsNumbers|||getPointPositionForValue|||getBasePosition|distanceFromCenter|thisAngle||scalingFactor|setCenterPoint|buildOrUpdateScales|scalesOptions|NEGATIVE_INFINITY|ensureScalesHaveIDs|newSize|circular|pointLabelPosition|_pointLabelSizes|toDegrees|pointLabelOpts|outerDistance|outerPosition|getPointLabelFontOptions|270|determineLimits|getValueOrDefault|_getFirstTickValue|114|handleDirectionalChanges|setMin|maxSign|minSign|almostEquals|niceNum||||valueDimension|horz|heightOffset|valueHeight|widthOffset|valueWidth|hookCallback|userInvalidated|createNewTitleBlockAndAttach|dontConvert|diffs|firstTime|beforeInit||deprecations|toUpperCase|formatUpper||lowerCase|priorities|||absNumber|framesToDrop|bold|strictRegex|createNewLegendAndAttach|invalidMonth|MONTHS_IN_FORMAT|dayOfMonth|_monthsParseExact|computeMonthsParse|fwd|halfFontSize|strokeRect|drawPoint|offSet|matchMeridiem|match3to4|match5to6|kInput|hmm|hmmss|Hmm|Hmmss|isLower|itemWidth|totalHeight|background|_loop|normalizeLocale|oldLocale|found|visibleCount|abbr|baseConfig|mergeConfigs|drawArea|isDrawable|visited|getUTCDay|expectedWeekday|curWeek|HHmmss|releaseContext|allowTime|tzFormat|defaultLocaleMonthsShort|getContext|secondStr|getPointBorderWidth|getPointBorderColor|defaultLocaleWeekdaysShort|_style|weekdayStr|getDay|_reset|createEvent|renderProxy||ANIMATION_START_EVENTS|onScroll|obsOffset|absolute|getPointBackgroundColor|none|events|requestAnimFrame|parsedArray|eventListenerOptions|supports|readUsedSize|lineEnabled|and|getVisibleDatasetCount|configFromISO|inputs|configFromRFC2822|normal|expandFormat|formattingTokens|easeOutBounce|asin|totalParsedInputLength|unusedInput|Surrogate|constructor|parsedDateParts|_meridiem|invalidFormat|destroyDatasetMeta|instances|bestMoment|nullInput|roundedRect|createFromInputFallback|createLocalOrUTC|pickBy|unitHasDecimal|rect|||sideSize|stepDecimal|tZone||prepareConfig|compareArrays|sumPos|inYRange|inp|inXRange|inLabelRange|positiveMomentsDifference|cornerAt|deprecateSimple|info|borderRight|borderLeft|borderBottom|borderTop|dur||setMonth|Month|barSize|_listeners|halfHeight|halfWidth|createAdder|xRange|bufferedRequest|GMT|rangeFromCentre|centreAngle|halfRadius|halfAngle|sumNeg|pointRelativePosition|9999|hasValue|configuration|gggg|ggggg|GGGGG|getElementsAtEventForMode|weekInfo|getSetWeekYearHelper|dayOfYearFromWeeks|dayOfYearData|getUTCFullYear|getUTCMonth|getUTCDate|DDDD|_footerFontFamily|_footerFontStyle|match1|match3|textColor|drawColorBoxes|fromNow|toNow|invalidAt|||_bodyFontFamily|_bodyFontStyle|isBetween|isSameOrAfter|isSameOrBefore|_titleFontFamily|_titleFontStyle|updateHoverStyle|parsingFlags|caretX|toObject|inspect|creationData|quarters||getBaseModel|bodyItems|radiusAndPadding|orf|olf|midX||hasAlignedHourOffset|isUtcOffset|labelCount|getSetDayOfMonth|getSetMonth|accessor|getSetYear||getScaleDefaults|See|preParsePostFormat|monthsParse|parseLineHeight|itemsToDraw|listMonthsImpl|availableHeight|labelOffset|availableWidth|getLineValue|mirror|labelYOffset|absCeil|optionMajorTicks|daysToMonths|shouldSkip|autoSkipPadding|longestRotatedLabel|decimal|ringIndex|pie|lastLabelWidth|firstLabelWidth|computeTextSize|tallestLabelHeightInLines|deltaHeight|labelsFromTicks|afterCalculateTickRotation|getIndexScaleId||||beforeCalculateTickRotation|afterTickToLabelConversion|beforeTickToLabelConversion|afterBuildTicks|beforeBuildTicks|afterDataLimits|beforeDataLimits|posNegDuration|withSuffix|postformat|ymSign|asMilliseconds|asMinutes|asHours|asDays|asWeeks|asMonths|asYears|_bubble|topPaddingAddition|barThickness|leftPaddingAddition|invalid|findNextWhere|fitBox|verticalBox|horizontalBox|WEEK|responsive|register||getIndexScale|repo|refreshing|stub|getRuler|_getStacks|load|loadCurrency|fromToHtml|innerHTML|toFromHtml|changeFromCurrency|handleRequest|changeToCurrency|garbageCollect|vscale|devicePixelRatio|currentDevicePixelRatio|retinaScale|getComputedStyle|arrayEvents|clientHeight|clientWidth|getConstraintDimension|infinity|percentageProperty|constrainedContainer|parseMaxStyle||||hasCContainer|constrainedNode|hasCNode|isConstrainedValue|maxStyle|_s|_e|nextItem|percent|_getLimits|EPSILON||slopeDeltaX|thickness|Scatter|Radar|yData|PolarArea|Doughnut|afterPoint|labelString|firstPoint|splineCurve|toLabel|centrePoint|anglePoint|powerOf10|rounded|getLimits|Bubble||Bar|filtered|configMerge|protoProps|defineProperties|staticProps|instance|https|baseUrl|compact|unlistenArrayEvents|ultra|createMetaData|metaData|Arc|pointHoverBackgroundColor|generate|pointHoverRadius|auto|237|defaultMonthsShortRegex|easingFunction|drawLegendBox|defaultMonthsRegex|cornsilk|fwdlw|exampleTime|localWeekday|weekOffsetNext|darken|crimson|isLineWidthZero|invalidWeekday|isFormat|_weekdaysShort|darkblue|_weekdaysMin|darkcyan|parseWeekday|usePointStyle|parseIsoWeekday|defaultWeekdaysRegex|lineDash|defaultWeekdaysShortRegex|defaultWeekdaysMinRegex|kFormat|lowercase|darkgoldenrod|134|darkgray|darkgreen|addAnimation|darkgrey|dark|darkkhaki|countVisibleElements|getLabelCapacity|189|resetRadius|vPadding|183|defaultCalendar||drawDataset|defaultLongDateFormat|darkmagenta|defaultInvalidDate|_drawTooltip|defaultOrdinal|deg|defaultDayOfMonthOrdinalParse|defaultRelativeTime|defaultLocaleMonths|doFill|defaultLocaleWeek|defaultLocaleWeekdays|defaultLocaleWeekdaysMin|defaultLocaleMeridiemParse|beforeDatasetDraw|createMapper|computeBoundary|darkolivegreen|aliasedRequire|darkorange|resolveTarget|darkorchid|decodeFill|darkred|darksalmon|localeName|afterDatasetsUpdate|233|150|chooseLocale|WEEKDAY|darkseagreen|majorTicksEnabled|getFullYear|currentDateArray|_overflowDayOfYear|createDate|mappers|determineStepSize|darkslateblue|scaleZero|scaleTop|scaleBottom|determineUnitForAutoTicks|dayOfYearFromWeekInfo|darkslategray|_overflowWeeks|_overflowWeekday|darkslategrey|extendedIsoRegex|implementation|basicIsoRegex|darkturquoise|iso|_enabled|darkviolet|tzRegex|148|deeppink|monthStr|removeResizeListener||dayStr|fromNativeEvent|addResizeListener|hourStr|setAttribute|minuteStr|initCanvas|deepskyblue|001s|dimgray|untruncateYear||webkit|999|1900|injectCSS|dimgrey|dodgerblue|appendChild|per|lookup|createElement|firebrick|floralwhite|weekdayProvided|unwatchForRender|forestgreen|weekdayActual|watchForRender|fuchsia|throttled|createResizer|classList|gainsboro|hex|UT|obsOffsets|bind|9007199254740991|scroll|LinearRadialScale|militaryOffset|scrollTop|scrollLeft|childNodes|numOffset|ghostwhite|drawPointLabels|gold|goldenrod|monitor|preprocessRFC2822|extractFromRFC2822Strings|checkWeekday|gray|greenyellow|EVENT_TYPES|nativeEvent|yiq|passive|supportsEventListenerOptions|grey|displayHeight|calculateOffset|honeydew|setUTCMinutes|getUTCMinutes|aspNetJsonRegex|getAttribute|hotpink|RFC2822|ISO|mousedown|touchmove|touchstart|indianred|ISO_8601|indigo|ivory|khaki|RFC_2822|lavender|onProgress|lavenderblush|lawngreen|backdropColor|easeInBounce|getParseRegexForToken|525|addTimeToArrayFromToken|showLabelBackdrop|easeOutQuart|fromIndex|stringLength|124|252|mixinColor|lightblue|setFn|_mergerIf|lightcoral|tickLabelFont|meridiemFixWrap|meridiemHour|lightcyan|lightgoldenrodyellow|lightgray|lightgreen|lightgrey|configFromStringAndArray|uid|drawRadiusLine|configFromInput|configFromString|configFromObject|mix|isObjectEmpty|createFromConfig|lightpink|182|193|tickFontFamily|isDurationValid|separator|tickFontStyle|topY|leftX|matcher|initToolTip|chunkOffset|bindEvents|keepMinutes|Rectangle|matchOffset|lightsalmon|unbindEvents|lightseagreen|lightskyblue|lightslategray|lightslategrey|aspNetRegex|isoRegex|lightsteelblue|lightyellow|lime|momentsDifference|limegreen|blackness|updateDataset|linen|corners|chans|borders|TimeScale|JSON|maroon|startAngleRadians|angleMultiplier|mediumaquamarine|maxBottom|maxTop|maxRight|eventHandler|maxLeft|bottomMovement|setTime|topMovement|yRange|leftMovement|myMoment|lastWeek|lastDay|sameDay||nextDay|nextWeek|sod|1e3|capBezierPoints|rightMovement|asFloat|stringify|keepOffset|SSSZ|mediumblue|mediumorchid|186|resetElements||withinRadius|betweenAngles|mediumpurple|mediumseagreen|chartY|chartX|getAngleFromPoint|113|prefix|datetime|suffix|defaultFormatUtc|distanceBetweenPoints|mediumslateblue|defaultFormat|average|positioners|setReductions|60000|_eventPosition|getter|123|fitWithPointLabels|104|mediumspringgreen|calculatePointY|mediumturquoise|drawFooter|drawBody|drawTitle|saturate|setWeekAll|contrast|drawBackground|hasTooltipContent|mediumvioletred|199|routeSpace|midnightblue|_dayOfMonthOrdinalParse|_ordinalParse|_dayOfMonthOrdinalParseLenient|DDDo|2126|getMaxBorderWidth|1000000|calculateTotal|mintcream|mistyrose|moccasin|_footerAlign|SS|181|matchUnsigned|offsetY|parseMs|navajowhite|offsetX|getRingIndex|legendColorBackground|navy|oldlace|253|stringGet|olive|olivedrab|142|_bodyAlign|onResize|orange|aliceblue|orangered|orchid|prototypeMax|_titleAlign|214|prototypeMin|palegoldenrod|stringSet|antiquewhite|aqua|adjustPointPositionForLabelHeight|getCaretPosition|getTextAlignForAngle||caretY|getIsLeapYear|getSetWeekYear|getBackgroundPoint|determineAlignment|getTooltipSize|getSetISOWeekYear|232|getFooter|getAfterBody|getBody|getBeforeBody|getTitle|getSetQuarter|labelTextColor|getDaysInMonth|labelColor|itemSort|getSetWeek|createTooltipItem|getSetISOWeek|aquamarine|getWeeksInYear|getISOWeeksInYear|getSetDayOfWeek|pointLabelFontColor|afterLabel|beforeLabel|getSetLocaleDayOfWeek|getSetISODayOfWeek|7152|getSetDayOfYear|getSetHour|getSetMinute|212|azure|getSetSecond|midY|palegreen|getSetMillisecond|getSetOffset|setOffsetToUTC|local|setOffsetToLocal|setOffsetToParsedOffset|multiKeyBackground|footerAlign|footerFontStyle|titleAlign|titleFontStyle|bodyAlign|beige|isDaylightSavingTime|251|zoneAbbr|getZoneAbbr|zoneName|getZoneName|dates|colorString|activeElement|bisque|paleturquoise|175|palevioletred|papayawhip|getSetZone|isDSTShifted|logDelta|addScalesToLayout|additions|blanchedalmond|measureLabelSize|getScaleConstructor|scaleDefaults|scaleConstructor|isDaylightSavingTimeShifted|preparse|239|drawBorder|scaleLabelFont|scaleLabelFontColor|localeMonths|localeMonthsShort|213|localeMonthsParse|localeWeek|peachpuff|localeFirstDayOfYear|localeFirstDayOfWeek|majorTickFontColor|majorTickFont|localeWeekdays|localeWeekdaysMin|localeWeekdaysShort|drawOnChartArea|localeWeekdaysParse|localeIsPM|localeMeridiem|setter|boolean|glBorderDashOffset|glBorderDash||glColor|glWidth|185|peru|pink|dayOfMonthOrdinalParse|xTickEnd|xTickStart|203|LogarithmicScale|plum|contains90|contains0|powderblue|yTickEnd|yTickStart|contains270|purple|langData|zeroLineBorderDashOffset|zeroLineBorderDash|zeroLineColor|zeroLineWidth|rebeccapurple|146097|4800|blueviolet|_autoSkip|rosybrown|138|6048e5|royalblue|silent|longestLabelWidth|getBaseValue|tickValues||contains180|36e5|valueOffset|getPixelForDecimal|innerHeight|alias|handleMargins|saddlebrown|cancelAnimation|salmon|updateLayout|sandybrown|labelHeight|244|numberOfLabelLines|_resolveElementOptions|164|scaleLabelLineHeight|dataPoint|seagreen|seashell|sienna|minRotation|calculateTickRotation|silver||lastTick|skyblue|endSignificand|slateblue|106|slategray|zeroLineIndex|substituteTimeAgo|_invalidate|updateDatasets|numericGeneratorOptions|horizontalBar|totalSign|slategrey|daysSign|hook|stackIndex|getStackIndex|computeFitCategoryTraits|computeFlexCategoryTraits|snow|chartAreaBoxes|userCallback|setMax|springgreen|steelblue|226|brown|initConfig|toIsoString|matchTimestamp|tan|teal|atan2|calculateBarIndexPixels|setHookCallback|calculateBarValuePixels|createUnix|listMonths|almostWhole|listWeekdays|createInZone|listMonthsShort|finalFitVerticalBox|listWeekdaysMin|listLocales|listWeekdaysShort|niceRange|minorFormat|getSetRelativeTimeRounding|getSetRelativeTimeThreshold|minBox|calendarFormat|LinearScale|thistle|getMinimumBoxSize|verticalBoxWidth|horizontalBoxHeight|chartAreaHeight|chartAreaWidth|getCalendarFormat|computeMinSampleSize|tomato|layoutOptions|layout|layoutItem|getStackCount|where|construct|_moment|Helvetica|animationDuration|_vendor|maintainAspectRatio|responsiveAnimationDuration|turquoise|drawDatasets|DatasetScale|208|sizeB|sizeA|ServiceWorker|violet|_vendor2|rateFrom|wheat|rateTo|AFN|step|0722|deltaY|hasUpdated|white|results|useY|useX|whitesmoke|majorTime|burlywood|cadetblue|buildOrUpdateControllers|fromCurrencySymbol|_ruler|yellowgreen|updateConfig|getOwnPropertyNames|pixelSize|defaultParsingFlags|yLabels|forceRatio|fun|parsedParts|isFrozen|defaultView|currentStyle|_labelFormat|toCurrencySymbol|getConstraintHeight|getTime|getMaximumHeight|_validate|getConstraintWidth|argumentForCoercion|getMaximumWidth|exampleLabel|158|tooltipFormat|lengthDiff|chartreuse|chocolate|ticksFromTimestamps|suppressDeprecationWarnings|Function|advance|_validate2|alert|parentProperty|enter|clientY|clientX|updateElementGeometry|plot|vendor|_calendar|err|finally|determineLabelFormat|computeOffsets|updateIndex|Symbol|iterator|sliceIterator|Invalid|titleFont|selectedIndex|_slicedToArray|keys2|_relativeTime|fromLabel|future|past|splineCurveMonotone|buildLookupTable|shorthand|unitsObj|getLabelWidth|frameDuration|targetLength|forceSign|zerosToFill|coral|startTime|pixelWidth|radialDistanceFromCenter|LTS|trendChart|endTime|determineUnitForFormatting|radians|removeFormattingTokens|isPowerOf10|_chart2|makeFormatFunction|replaceLongDateFormatTokens|isDefault|lastIndex|linearbase|u0600|slen|scaleMerge|u06FF|datasetController|writable|afterEvent|scaleID|cornflowerblue|149|unescapeFormat|TypeError|Cannot|pop|_classCallCheck|addElementAndReset|startDigest|free|resyncElements|currencyconverterapi|api|_createClass|fetchCurrencies|400|keepTime|listenArrayEvents|FullYear|buildOrUpdateElements|getPrioritizedUnits|mod|createMetaDataset|pointHoverBorderWidth|addElements|startDate|pointHoverBorderColor|lemonchiffon|setFullYear|layoutService|with|maxBarThickness|create|Infinity|successful|inverted|createTextNode|can|pluginService|getElementsByTagName|acquire|find|Controller|given|removeChild|AFN_AFN|31536e6|2592e6|Time|firstChild|Universal|insertBefore|afterInit|Coordinated|isDST|series||footerFontFamily|remove|Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Oct_Nov_Dec|titleFontFamily|January_February_March_April_May_June_July_August_September_October_November_December|bodyFontStyle|bodyFontFamily||animate|offsetParent|reflow|Unknown|animationName|CurrencyConverter|Milliseconds|getDate|capitals|getMonth|MODULE_NOT_FOUND|notice|86400|toExponential|languages|iterable|language|refer|getDatasetAtEvent|className|cssText|updateScaleDefaults|visibility|release|Instead|pointer|365|366|upcoming|monotone||removed|non|will|creating|used|only|should|Raw|1440|existing|defineLocaleOverride|discouraged|fixedStepSize|uFFEF|block|uFF10|uFF07|uFDF0|uFDCF|pointerout|pointerleave|pointerup|pointermove||uF900|pointerdown|mouseenter|pointerenter|touchend|uD7FF|u0700|webkitAnimationStart|animationstart|u05FF|u00A0|are|forget|generateLegend|unshift|you|Did|P0D|flex|Non|versions|easingEffects|browsers|relativePoints|easeInOutBounce|984375|625|all|9375|across|GGG|easeInOutBack|easeOutBack|easeInBack|ggg|easeInOutElastic|easeOutElastic|easeInElastic|easeInOutCirc|easeOutCirc|easeInCirc|easeInOutExpo|easeOutExpo|easeInExpo|easeInOutSine|easeOutSine|easeInSine|easeInOutQuint|easeOutQuint|easeInQuint|easeInOutQuart|reliable|easeInQuart|easeInOutCubic|easeOutCubic|easeInCubic|easeInOutQuad|easeOutQuad|easeInQuad|getValueAtIndexOrDefault|destructure|callCallback|which|__super__|back|meridiemParse|falls|construction|toCurrencyId|recognized|provided|firstDayOfWeek|PluginBase|firstDayOfYear|008859|attempt|xLabels|isoWeeksInYear|toBase64Image|toDataURL|getAll|Hours|unregister|903|getTimezoneOffset|SSSSSSSSS|drawRoundedRectangle|100000|replaced|few|ago|Download|_ordinal|bezierCurveTo|include|must|clip|You|could|dash|0570|2040|star|crossRot|cross|rectRot|0557|displayFormat|0415|rectRounded|8758|triangle|drawImage|HTMLCanvasElement|HTMLImageElement|9689|4986|_chartInstance|clearRect|5372|2406|_invalidDate|SSSSSSSS|10000|SSSSSSS|LLLL|LLL|SSSSSS|unitStepSize|fromCurrencyId|Last|Yesterday|Tomorrow|beforeLayout|afterScaleUpdate|serif|sans|Arial|afterLayout|Neue|666|0x01|Today|SSSSS|Seconds|ssZ|onData|PST|PDT|beforeDraw|MST|beforeDatasetsUpdate|MDT|_isPm|CST|154e10|beforeDatasetsDraw|884e9|beforeEvent|628e9|604800000|86400000|3600000|01|nArguments|MAX_SAFE_INTEGER|MIN_SAFE_INTEGER|afterDraw|CanvasPattern|CDT|CanvasGradient|circle|warning|beforeDatasetUpdate|Deprecation|afterDatasetUpdate|beforeRender|afterRender|miter|butt|bevel||EST|9505|1192||0193|getPropertyValue|EDT|toCurrencyValue|fromCurrencyValue|1805|3576|4124|_meridiemParse|isoWeeks|Minutes|rates|TIME_MS|TIME_SECONDS|TIME|done|conversion|DATETIME_LOCAL_MS|stepped|DATETIME_LOCAL_SECONDS|DATETIME_LOCAL|HTML5_FMT|information|yAxesID|shifted|dst|against|reload|unexpected|doughnutMode|afterDatasetsDraw|getBoundingClientRect|srcElement|Zz|currentTarget|originalEvent|setTimeout||msRequestAnimationFrame|oRequestAnimationFrame|mozRequestAnimationFrame|webkitRequestAnimationFrame|SD|amd|ECMP|afterDatasetDraw|Dec|Nov|Oct|Sep|Aug|opaquer|clearer|greyscale|blacken|whiten|desaturate|Jul|Jun|lighten|negate|May|light|Apr|587|299|Mar|Feb|AAA|Jan|level|Sun|Sat|Fri|Thu|beforeTooltipDraw|afterTooltipDraw|getElementAtEvent|chartInstance|Wed|03928|LOG10E|rgbNumber|Tue|Su_Mo_Tu_We_Th_Fr_Sa|Mon|Sun_Mon_Tue_Wed_Thu_Fri_Sat|location|findPreviousWhere|version|relativeTimeThreshold|saturationv|Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday|zero|hslaArray|rgbaArray|getElementsAtEvent|cmykArray|hwbArray|hsvArray|hslArray|onDataUnshift|rgbArray|onDataSplice|onDataShift|controllerchange|onDataPop|relativeTimeRounding|onDataPush|canvasHelpers|removeEvent|addEvent|Wo|198|dataIndex|dataPoints|fail|localeCompare|code|HHmm|score|YYYYDDD|WWE|Failed|removeAttribute|YYYYMMDD|setUTCFullYear|getElementsAtXAxis|transparent|YYYYYYMMDD'.split('|'),0,{}))
+(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+/**
+ * @namespace Chart
+ */
+var Chart = require('./core/core')();
+
+Chart.helpers = require('./helpers/index');
+
+// @todo dispatch these helpers into appropriated helpers/helpers.* file and write unit tests!
+require('./core/core.helpers')(Chart);
+
+Chart.defaults = require('./core/core.defaults');
+Chart.Element = require('./core/core.element');
+Chart.elements = require('./elements/index');
+Chart.Interaction = require('./core/core.interaction');
+Chart.layouts = require('./core/core.layouts');
+Chart.platform = require('./platforms/platform');
+Chart.plugins = require('./core/core.plugins');
+Chart.Ticks = require('./core/core.ticks');
+
+require('./core/core.animation')(Chart);
+require('./core/core.controller')(Chart);
+require('./core/core.datasetController')(Chart);
+require('./core/core.scaleService')(Chart);
+require('./core/core.scale')(Chart);
+require('./core/core.tooltip')(Chart);
+
+require('./scales/scale.linearbase')(Chart);
+require('./scales/scale.category')(Chart);
+require('./scales/scale.linear')(Chart);
+require('./scales/scale.logarithmic')(Chart);
+require('./scales/scale.radialLinear')(Chart);
+require('./scales/scale.time')(Chart);
+
+// Controllers must be loaded after elements
+// See Chart.core.datasetController.dataElementType
+require('./controllers/controller.bar')(Chart);
+require('./controllers/controller.bubble')(Chart);
+require('./controllers/controller.doughnut')(Chart);
+require('./controllers/controller.line')(Chart);
+require('./controllers/controller.polarArea')(Chart);
+require('./controllers/controller.radar')(Chart);
+require('./controllers/controller.scatter')(Chart);
+
+require('./charts/Chart.Bar')(Chart);
+require('./charts/Chart.Bubble')(Chart);
+require('./charts/Chart.Doughnut')(Chart);
+require('./charts/Chart.Line')(Chart);
+require('./charts/Chart.PolarArea')(Chart);
+require('./charts/Chart.Radar')(Chart);
+require('./charts/Chart.Scatter')(Chart);
+
+// Loading built-it plugins
+var plugins = require('./plugins');
+for (var k in plugins) {
+	if (plugins.hasOwnProperty(k)) {
+		Chart.plugins.register(plugins[k]);
+	}
+}
+
+Chart.platform.initialize();
+
+module.exports = Chart;
+if (typeof window !== 'undefined') {
+	window.Chart = Chart;
+}
+
+// DEPRECATIONS
+
+/**
+ * Provided for backward compatibility, not available anymore
+ * @namespace Chart.Legend
+ * @deprecated since version 2.1.5
+ * @todo remove at version 3
+ * @private
+ */
+Chart.Legend = plugins.legend._element;
+
+/**
+ * Provided for backward compatibility, not available anymore
+ * @namespace Chart.Title
+ * @deprecated since version 2.1.5
+ * @todo remove at version 3
+ * @private
+ */
+Chart.Title = plugins.title._element;
+
+/**
+ * Provided for backward compatibility, use Chart.plugins instead
+ * @namespace Chart.pluginService
+ * @deprecated since version 2.1.5
+ * @todo remove at version 3
+ * @private
+ */
+Chart.pluginService = Chart.plugins;
+
+/**
+ * Provided for backward compatibility, inheriting from Chart.PlugingBase has no
+ * effect, instead simply create/register plugins via plain JavaScript objects.
+ * @interface Chart.PluginBase
+ * @deprecated since version 2.5.0
+ * @todo remove at version 3
+ * @private
+ */
+Chart.PluginBase = Chart.Element.extend({});
+
+/**
+ * Provided for backward compatibility, use Chart.helpers.canvas instead.
+ * @namespace Chart.canvasHelpers
+ * @deprecated since version 2.6.0
+ * @todo remove at version 3
+ * @private
+ */
+Chart.canvasHelpers = Chart.helpers.canvas;
+
+/**
+ * Provided for backward compatibility, use Chart.layouts instead.
+ * @namespace Chart.layoutService
+ * @deprecated since version 2.8.0
+ * @todo remove at version 3
+ * @private
+ */
+Chart.layoutService = Chart.layouts;
+
+},{"./charts/Chart.Bar":2,"./charts/Chart.Bubble":3,"./charts/Chart.Doughnut":4,"./charts/Chart.Line":5,"./charts/Chart.PolarArea":6,"./charts/Chart.Radar":7,"./charts/Chart.Scatter":8,"./controllers/controller.bar":9,"./controllers/controller.bubble":10,"./controllers/controller.doughnut":11,"./controllers/controller.line":12,"./controllers/controller.polarArea":13,"./controllers/controller.radar":14,"./controllers/controller.scatter":15,"./core/core":23,"./core/core.animation":16,"./core/core.controller":17,"./core/core.datasetController":18,"./core/core.defaults":19,"./core/core.element":20,"./core/core.helpers":21,"./core/core.interaction":22,"./core/core.layouts":24,"./core/core.plugins":25,"./core/core.scale":26,"./core/core.scaleService":27,"./core/core.ticks":28,"./core/core.tooltip":29,"./elements/index":34,"./helpers/index":39,"./platforms/platform":42,"./plugins":43,"./scales/scale.category":47,"./scales/scale.linear":48,"./scales/scale.linearbase":49,"./scales/scale.logarithmic":50,"./scales/scale.radialLinear":51,"./scales/scale.time":52}],2:[function(require,module,exports){
+'use strict';
+
+module.exports = function(Chart) {
+
+	Chart.Bar = function(context, config) {
+		config.type = 'bar';
+
+		return new Chart(context, config);
+	};
+
+};
+
+},{}],3:[function(require,module,exports){
+'use strict';
+
+module.exports = function(Chart) {
+
+	Chart.Bubble = function(context, config) {
+		config.type = 'bubble';
+		return new Chart(context, config);
+	};
+
+};
+
+},{}],4:[function(require,module,exports){
+'use strict';
+
+module.exports = function(Chart) {
+
+	Chart.Doughnut = function(context, config) {
+		config.type = 'doughnut';
+
+		return new Chart(context, config);
+	};
+
+};
+
+},{}],5:[function(require,module,exports){
+'use strict';
+
+module.exports = function(Chart) {
+
+	Chart.Line = function(context, config) {
+		config.type = 'line';
+
+		return new Chart(context, config);
+	};
+
+};
+
+},{}],6:[function(require,module,exports){
+'use strict';
+
+module.exports = function(Chart) {
+
+	Chart.PolarArea = function(context, config) {
+		config.type = 'polarArea';
+
+		return new Chart(context, config);
+	};
+
+};
+
+},{}],7:[function(require,module,exports){
+'use strict';
+
+module.exports = function(Chart) {
+
+	Chart.Radar = function(context, config) {
+		config.type = 'radar';
+
+		return new Chart(context, config);
+	};
+
+};
+
+},{}],8:[function(require,module,exports){
+'use strict';
+
+module.exports = function(Chart) {
+	Chart.Scatter = function(context, config) {
+		config.type = 'scatter';
+		return new Chart(context, config);
+	};
+};
+
+},{}],9:[function(require,module,exports){
+'use strict';
+
+var defaults = require('../core/core.defaults');
+var elements = require('../elements/index');
+var helpers = require('../helpers/index');
+
+defaults._set('bar', {
+	hover: {
+		mode: 'label'
+	},
+
+	scales: {
+		xAxes: [{
+			type: 'category',
+
+			// Specific to Bar Controller
+			categoryPercentage: 0.8,
+			barPercentage: 0.9,
+
+			// offset settings
+			offset: true,
+
+			// grid line settings
+			gridLines: {
+				offsetGridLines: true
+			}
+		}],
+
+		yAxes: [{
+			type: 'linear'
+		}]
+	}
+});
+
+defaults._set('horizontalBar', {
+	hover: {
+		mode: 'index',
+		axis: 'y'
+	},
+
+	scales: {
+		xAxes: [{
+			type: 'linear',
+			position: 'bottom'
+		}],
+
+		yAxes: [{
+			position: 'left',
+			type: 'category',
+
+			// Specific to Horizontal Bar Controller
+			categoryPercentage: 0.8,
+			barPercentage: 0.9,
+
+			// offset settings
+			offset: true,
+
+			// grid line settings
+			gridLines: {
+				offsetGridLines: true
+			}
+		}]
+	},
+
+	elements: {
+		rectangle: {
+			borderSkipped: 'left'
+		}
+	},
+
+	tooltips: {
+		callbacks: {
+			title: function(item, data) {
+				// Pick first xLabel for now
+				var title = '';
+
+				if (item.length > 0) {
+					if (item[0].yLabel) {
+						title = item[0].yLabel;
+					} else if (data.labels.length > 0 && item[0].index < data.labels.length) {
+						title = data.labels[item[0].index];
+					}
+				}
+
+				return title;
+			},
+
+			label: function(item, data) {
+				var datasetLabel = data.datasets[item.datasetIndex].label || '';
+				return datasetLabel + ': ' + item.xLabel;
+			}
+		},
+		mode: 'index',
+		axis: 'y'
+	}
+});
+
+/**
+ * Computes the "optimal" sample size to maintain bars equally sized while preventing overlap.
+ * @private
+ */
+function computeMinSampleSize(scale, pixels) {
+	var min = scale.isHorizontal() ? scale.width : scale.height;
+	var ticks = scale.getTicks();
+	var prev, curr, i, ilen;
+
+	for (i = 1, ilen = pixels.length; i < ilen; ++i) {
+		min = Math.min(min, pixels[i] - pixels[i - 1]);
+	}
+
+	for (i = 0, ilen = ticks.length; i < ilen; ++i) {
+		curr = scale.getPixelForTick(i);
+		min = i > 0 ? Math.min(min, curr - prev) : min;
+		prev = curr;
+	}
+
+	return min;
+}
+
+/**
+ * Computes an "ideal" category based on the absolute bar thickness or, if undefined or null,
+ * uses the smallest interval (see computeMinSampleSize) that prevents bar overlapping. This
+ * mode currently always generates bars equally sized (until we introduce scriptable options?).
+ * @private
+ */
+function computeFitCategoryTraits(index, ruler, options) {
+	var thickness = options.barThickness;
+	var count = ruler.stackCount;
+	var curr = ruler.pixels[index];
+	var size, ratio;
+
+	if (helpers.isNullOrUndef(thickness)) {
+		size = ruler.min * options.categoryPercentage;
+		ratio = options.barPercentage;
+	} else {
+		// When bar thickness is enforced, category and bar percentages are ignored.
+		// Note(SB): we could add support for relative bar thickness (e.g. barThickness: '50%')
+		// and deprecate barPercentage since this value is ignored when thickness is absolute.
+		size = thickness * count;
+		ratio = 1;
+	}
+
+	return {
+		chunk: size / count,
+		ratio: ratio,
+		start: curr - (size / 2)
+	};
+}
+
+/**
+ * Computes an "optimal" category that globally arranges bars side by side (no gap when
+ * percentage options are 1), based on the previous and following categories. This mode
+ * generates bars with different widths when data are not evenly spaced.
+ * @private
+ */
+function computeFlexCategoryTraits(index, ruler, options) {
+	var pixels = ruler.pixels;
+	var curr = pixels[index];
+	var prev = index > 0 ? pixels[index - 1] : null;
+	var next = index < pixels.length - 1 ? pixels[index + 1] : null;
+	var percent = options.categoryPercentage;
+	var start, size;
+
+	if (prev === null) {
+		// first data: its size is double based on the next point or,
+		// if it's also the last data, we use the scale end extremity.
+		prev = curr - (next === null ? ruler.end - curr : next - curr);
+	}
+
+	if (next === null) {
+		// last data: its size is also double based on the previous point.
+		next = curr + curr - prev;
+	}
+
+	start = curr - ((curr - prev) / 2) * percent;
+	size = ((next - prev) / 2) * percent;
+
+	return {
+		chunk: size / ruler.stackCount,
+		ratio: options.barPercentage,
+		start: start
+	};
+}
+
+module.exports = function(Chart) {
+
+	Chart.controllers.bar = Chart.DatasetController.extend({
+
+		dataElementType: elements.Rectangle,
+
+		initialize: function() {
+			var me = this;
+			var meta;
+
+			Chart.DatasetController.prototype.initialize.apply(me, arguments);
+
+			meta = me.getMeta();
+			meta.stack = me.getDataset().stack;
+			meta.bar = true;
+		},
+
+		update: function(reset) {
+			var me = this;
+			var rects = me.getMeta().data;
+			var i, ilen;
+
+			me._ruler = me.getRuler();
+
+			for (i = 0, ilen = rects.length; i < ilen; ++i) {
+				me.updateElement(rects[i], i, reset);
+			}
+		},
+
+		updateElement: function(rectangle, index, reset) {
+			var me = this;
+			var chart = me.chart;
+			var meta = me.getMeta();
+			var dataset = me.getDataset();
+			var custom = rectangle.custom || {};
+			var rectangleOptions = chart.options.elements.rectangle;
+
+			rectangle._xScale = me.getScaleForId(meta.xAxisID);
+			rectangle._yScale = me.getScaleForId(meta.yAxisID);
+			rectangle._datasetIndex = me.index;
+			rectangle._index = index;
+
+			rectangle._model = {
+				datasetLabel: dataset.label,
+				label: chart.data.labels[index],
+				borderSkipped: custom.borderSkipped ? custom.borderSkipped : rectangleOptions.borderSkipped,
+				backgroundColor: custom.backgroundColor ? custom.backgroundColor : helpers.valueAtIndexOrDefault(dataset.backgroundColor, index, rectangleOptions.backgroundColor),
+				borderColor: custom.borderColor ? custom.borderColor : helpers.valueAtIndexOrDefault(dataset.borderColor, index, rectangleOptions.borderColor),
+				borderWidth: custom.borderWidth ? custom.borderWidth : helpers.valueAtIndexOrDefault(dataset.borderWidth, index, rectangleOptions.borderWidth)
+			};
+
+			me.updateElementGeometry(rectangle, index, reset);
+
+			rectangle.pivot();
+		},
+
+		/**
+		 * @private
+		 */
+		updateElementGeometry: function(rectangle, index, reset) {
+			var me = this;
+			var model = rectangle._model;
+			var vscale = me.getValueScale();
+			var base = vscale.getBasePixel();
+			var horizontal = vscale.isHorizontal();
+			var ruler = me._ruler || me.getRuler();
+			var vpixels = me.calculateBarValuePixels(me.index, index);
+			var ipixels = me.calculateBarIndexPixels(me.index, index, ruler);
+
+			model.horizontal = horizontal;
+			model.base = reset ? base : vpixels.base;
+			model.x = horizontal ? reset ? base : vpixels.head : ipixels.center;
+			model.y = horizontal ? ipixels.center : reset ? base : vpixels.head;
+			model.height = horizontal ? ipixels.size : undefined;
+			model.width = horizontal ? undefined : ipixels.size;
+		},
+
+		/**
+		 * @private
+		 */
+		getValueScaleId: function() {
+			return this.getMeta().yAxisID;
+		},
+
+		/**
+		 * @private
+		 */
+		getIndexScaleId: function() {
+			return this.getMeta().xAxisID;
+		},
+
+		/**
+		 * @private
+		 */
+		getValueScale: function() {
+			return this.getScaleForId(this.getValueScaleId());
+		},
+
+		/**
+		 * @private
+		 */
+		getIndexScale: function() {
+			return this.getScaleForId(this.getIndexScaleId());
+		},
+
+		/**
+		 * Returns the stacks based on groups and bar visibility.
+		 * @param {Number} [last] - The dataset index
+		 * @returns {Array} The stack list
+		 * @private
+		 */
+		_getStacks: function(last) {
+			var me = this;
+			var chart = me.chart;
+			var scale = me.getIndexScale();
+			var stacked = scale.options.stacked;
+			var ilen = last === undefined ? chart.data.datasets.length : last + 1;
+			var stacks = [];
+			var i, meta;
+
+			for (i = 0; i < ilen; ++i) {
+				meta = chart.getDatasetMeta(i);
+				if (meta.bar && chart.isDatasetVisible(i) &&
+					(stacked === false ||
+					(stacked === true && stacks.indexOf(meta.stack) === -1) ||
+					(stacked === undefined && (meta.stack === undefined || stacks.indexOf(meta.stack) === -1)))) {
+					stacks.push(meta.stack);
+				}
+			}
+
+			return stacks;
+		},
+
+		/**
+		 * Returns the effective number of stacks based on groups and bar visibility.
+		 * @private
+		 */
+		getStackCount: function() {
+			return this._getStacks().length;
+		},
+
+		/**
+		 * Returns the stack index for the given dataset based on groups and bar visibility.
+		 * @param {Number} [datasetIndex] - The dataset index
+		 * @param {String} [name] - The stack name to find
+		 * @returns {Number} The stack index
+		 * @private
+		 */
+		getStackIndex: function(datasetIndex, name) {
+			var stacks = this._getStacks(datasetIndex);
+			var index = (name !== undefined)
+				? stacks.indexOf(name)
+				: -1; // indexOf returns -1 if element is not present
+
+			return (index === -1)
+				? stacks.length - 1
+				: index;
+		},
+
+		/**
+		 * @private
+		 */
+		getRuler: function() {
+			var me = this;
+			var scale = me.getIndexScale();
+			var stackCount = me.getStackCount();
+			var datasetIndex = me.index;
+			var isHorizontal = scale.isHorizontal();
+			var start = isHorizontal ? scale.left : scale.top;
+			var end = start + (isHorizontal ? scale.width : scale.height);
+			var pixels = [];
+			var i, ilen, min;
+
+			for (i = 0, ilen = me.getMeta().data.length; i < ilen; ++i) {
+				pixels.push(scale.getPixelForValue(null, i, datasetIndex));
+			}
+
+			min = helpers.isNullOrUndef(scale.options.barThickness)
+				? computeMinSampleSize(scale, pixels)
+				: -1;
+
+			return {
+				min: min,
+				pixels: pixels,
+				start: start,
+				end: end,
+				stackCount: stackCount,
+				scale: scale
+			};
+		},
+
+		/**
+		 * Note: pixel values are not clamped to the scale area.
+		 * @private
+		 */
+		calculateBarValuePixels: function(datasetIndex, index) {
+			var me = this;
+			var chart = me.chart;
+			var meta = me.getMeta();
+			var scale = me.getValueScale();
+			var datasets = chart.data.datasets;
+			var value = scale.getRightValue(datasets[datasetIndex].data[index]);
+			var stacked = scale.options.stacked;
+			var stack = meta.stack;
+			var start = 0;
+			var i, imeta, ivalue, base, head, size;
+
+			if (stacked || (stacked === undefined && stack !== undefined)) {
+				for (i = 0; i < datasetIndex; ++i) {
+					imeta = chart.getDatasetMeta(i);
+
+					if (imeta.bar &&
+						imeta.stack === stack &&
+						imeta.controller.getValueScaleId() === scale.id &&
+						chart.isDatasetVisible(i)) {
+
+						ivalue = scale.getRightValue(datasets[i].data[index]);
+						if ((value < 0 && ivalue < 0) || (value >= 0 && ivalue > 0)) {
+							start += ivalue;
+						}
+					}
+				}
+			}
+
+			base = scale.getPixelForValue(start);
+			head = scale.getPixelForValue(start + value);
+			size = (head - base) / 2;
+
+			return {
+				size: size,
+				base: base,
+				head: head,
+				center: head + size / 2
+			};
+		},
+
+		/**
+		 * @private
+		 */
+		calculateBarIndexPixels: function(datasetIndex, index, ruler) {
+			var me = this;
+			var options = ruler.scale.options;
+			var range = options.barThickness === 'flex'
+				? computeFlexCategoryTraits(index, ruler, options)
+				: computeFitCategoryTraits(index, ruler, options);
+
+			var stackIndex = me.getStackIndex(datasetIndex, me.getMeta().stack);
+			var center = range.start + (range.chunk * stackIndex) + (range.chunk / 2);
+			var size = Math.min(
+				helpers.valueOrDefault(options.maxBarThickness, Infinity),
+				range.chunk * range.ratio);
+
+			return {
+				base: center - size / 2,
+				head: center + size / 2,
+				center: center,
+				size: size
+			};
+		},
+
+		draw: function() {
+			var me = this;
+			var chart = me.chart;
+			var scale = me.getValueScale();
+			var rects = me.getMeta().data;
+			var dataset = me.getDataset();
+			var ilen = rects.length;
+			var i = 0;
+
+			helpers.canvas.clipArea(chart.ctx, chart.chartArea);
+
+			for (; i < ilen; ++i) {
+				if (!isNaN(scale.getRightValue(dataset.data[i]))) {
+					rects[i].draw();
+				}
+			}
+
+			helpers.canvas.unclipArea(chart.ctx);
+		},
+
+		setHoverStyle: function(rectangle) {
+			var dataset = this.chart.data.datasets[rectangle._datasetIndex];
+			var index = rectangle._index;
+			var custom = rectangle.custom || {};
+			var model = rectangle._model;
+
+			model.backgroundColor = custom.hoverBackgroundColor ? custom.hoverBackgroundColor : helpers.valueAtIndexOrDefault(dataset.hoverBackgroundColor, index, helpers.getHoverColor(model.backgroundColor));
+			model.borderColor = custom.hoverBorderColor ? custom.hoverBorderColor : helpers.valueAtIndexOrDefault(dataset.hoverBorderColor, index, helpers.getHoverColor(model.borderColor));
+			model.borderWidth = custom.hoverBorderWidth ? custom.hoverBorderWidth : helpers.valueAtIndexOrDefault(dataset.hoverBorderWidth, index, model.borderWidth);
+		},
+
+		removeHoverStyle: function(rectangle) {
+			var dataset = this.chart.data.datasets[rectangle._datasetIndex];
+			var index = rectangle._index;
+			var custom = rectangle.custom || {};
+			var model = rectangle._model;
+			var rectangleElementOptions = this.chart.options.elements.rectangle;
+
+			model.backgroundColor = custom.backgroundColor ? custom.backgroundColor : helpers.valueAtIndexOrDefault(dataset.backgroundColor, index, rectangleElementOptions.backgroundColor);
+			model.borderColor = custom.borderColor ? custom.borderColor : helpers.valueAtIndexOrDefault(dataset.borderColor, index, rectangleElementOptions.borderColor);
+			model.borderWidth = custom.borderWidth ? custom.borderWidth : helpers.valueAtIndexOrDefault(dataset.borderWidth, index, rectangleElementOptions.borderWidth);
+		}
+	});
+
+	Chart.controllers.horizontalBar = Chart.controllers.bar.extend({
+		/**
+		 * @private
+		 */
+		getValueScaleId: function() {
+			return this.getMeta().xAxisID;
+		},
+
+		/**
+		 * @private
+		 */
+		getIndexScaleId: function() {
+			return this.getMeta().yAxisID;
+		}
+	});
+};
+
+},{"../core/core.defaults":19,"../elements/index":34,"../helpers/index":39}],10:[function(require,module,exports){
+'use strict';
+
+var defaults = require('../core/core.defaults');
+var elements = require('../elements/index');
+var helpers = require('../helpers/index');
+
+defaults._set('bubble', {
+	hover: {
+		mode: 'single'
+	},
+
+	scales: {
+		xAxes: [{
+			type: 'linear', // bubble should probably use a linear scale by default
+			position: 'bottom',
+			id: 'x-axis-0' // need an ID so datasets can reference the scale
+		}],
+		yAxes: [{
+			type: 'linear',
+			position: 'left',
+			id: 'y-axis-0'
+		}]
+	},
+
+	tooltips: {
+		callbacks: {
+			title: function() {
+				// Title doesn't make sense for scatter since we format the data as a point
+				return '';
+			},
+			label: function(item, data) {
+				var datasetLabel = data.datasets[item.datasetIndex].label || '';
+				var dataPoint = data.datasets[item.datasetIndex].data[item.index];
+				return datasetLabel + ': (' + item.xLabel + ', ' + item.yLabel + ', ' + dataPoint.r + ')';
+			}
+		}
+	}
+});
+
+
+module.exports = function(Chart) {
+
+	Chart.controllers.bubble = Chart.DatasetController.extend({
+		/**
+		 * @protected
+		 */
+		dataElementType: elements.Point,
+
+		/**
+		 * @protected
+		 */
+		update: function(reset) {
+			var me = this;
+			var meta = me.getMeta();
+			var points = meta.data;
+
+			// Update Points
+			helpers.each(points, function(point, index) {
+				me.updateElement(point, index, reset);
+			});
+		},
+
+		/**
+		 * @protected
+		 */
+		updateElement: function(point, index, reset) {
+			var me = this;
+			var meta = me.getMeta();
+			var custom = point.custom || {};
+			var xScale = me.getScaleForId(meta.xAxisID);
+			var yScale = me.getScaleForId(meta.yAxisID);
+			var options = me._resolveElementOptions(point, index);
+			var data = me.getDataset().data[index];
+			var dsIndex = me.index;
+
+			var x = reset ? xScale.getPixelForDecimal(0.5) : xScale.getPixelForValue(typeof data === 'object' ? data : NaN, index, dsIndex);
+			var y = reset ? yScale.getBasePixel() : yScale.getPixelForValue(data, index, dsIndex);
+
+			point._xScale = xScale;
+			point._yScale = yScale;
+			point._options = options;
+			point._datasetIndex = dsIndex;
+			point._index = index;
+			point._model = {
+				backgroundColor: options.backgroundColor,
+				borderColor: options.borderColor,
+				borderWidth: options.borderWidth,
+				hitRadius: options.hitRadius,
+				pointStyle: options.pointStyle,
+				radius: reset ? 0 : options.radius,
+				skip: custom.skip || isNaN(x) || isNaN(y),
+				x: x,
+				y: y,
+			};
+
+			point.pivot();
+		},
+
+		/**
+		 * @protected
+		 */
+		setHoverStyle: function(point) {
+			var model = point._model;
+			var options = point._options;
+
+			model.backgroundColor = helpers.valueOrDefault(options.hoverBackgroundColor, helpers.getHoverColor(options.backgroundColor));
+			model.borderColor = helpers.valueOrDefault(options.hoverBorderColor, helpers.getHoverColor(options.borderColor));
+			model.borderWidth = helpers.valueOrDefault(options.hoverBorderWidth, options.borderWidth);
+			model.radius = options.radius + options.hoverRadius;
+		},
+
+		/**
+		 * @protected
+		 */
+		removeHoverStyle: function(point) {
+			var model = point._model;
+			var options = point._options;
+
+			model.backgroundColor = options.backgroundColor;
+			model.borderColor = options.borderColor;
+			model.borderWidth = options.borderWidth;
+			model.radius = options.radius;
+		},
+
+		/**
+		 * @private
+		 */
+		_resolveElementOptions: function(point, index) {
+			var me = this;
+			var chart = me.chart;
+			var datasets = chart.data.datasets;
+			var dataset = datasets[me.index];
+			var custom = point.custom || {};
+			var options = chart.options.elements.point;
+			var resolve = helpers.options.resolve;
+			var data = dataset.data[index];
+			var values = {};
+			var i, ilen, key;
+
+			// Scriptable options
+			var context = {
+				chart: chart,
+				dataIndex: index,
+				dataset: dataset,
+				datasetIndex: me.index
+			};
+
+			var keys = [
+				'backgroundColor',
+				'borderColor',
+				'borderWidth',
+				'hoverBackgroundColor',
+				'hoverBorderColor',
+				'hoverBorderWidth',
+				'hoverRadius',
+				'hitRadius',
+				'pointStyle'
+			];
+
+			for (i = 0, ilen = keys.length; i < ilen; ++i) {
+				key = keys[i];
+				values[key] = resolve([
+					custom[key],
+					dataset[key],
+					options[key]
+				], context, index);
+			}
+
+			// Custom radius resolution
+			values.radius = resolve([
+				custom.radius,
+				data ? data.r : undefined,
+				dataset.radius,
+				options.radius
+			], context, index);
+
+			return values;
+		}
+	});
+};
+
+},{"../core/core.defaults":19,"../elements/index":34,"../helpers/index":39}],11:[function(require,module,exports){
+'use strict';
+
+var defaults = require('../core/core.defaults');
+var elements = require('../elements/index');
+var helpers = require('../helpers/index');
+
+defaults._set('doughnut', {
+	animation: {
+		// Boolean - Whether we animate the rotation of the Doughnut
+		animateRotate: true,
+		// Boolean - Whether we animate scaling the Doughnut from the centre
+		animateScale: false
+	},
+	hover: {
+		mode: 'single'
+	},
+	legendCallback: function(chart) {
+		var text = [];
+		text.push('<ul class="' + chart.id + '-legend">');
+
+		var data = chart.data;
+		var datasets = data.datasets;
+		var labels = data.labels;
+
+		if (datasets.length) {
+			for (var i = 0; i < datasets[0].data.length; ++i) {
+				text.push('<li><span style="background-color:' + datasets[0].backgroundColor[i] + '"></span>');
+				if (labels[i]) {
+					text.push(labels[i]);
+				}
+				text.push('</li>');
+			}
+		}
+
+		text.push('</ul>');
+		return text.join('');
+	},
+	legend: {
+		labels: {
+			generateLabels: function(chart) {
+				var data = chart.data;
+				if (data.labels.length && data.datasets.length) {
+					return data.labels.map(function(label, i) {
+						var meta = chart.getDatasetMeta(0);
+						var ds = data.datasets[0];
+						var arc = meta.data[i];
+						var custom = arc && arc.custom || {};
+						var valueAtIndexOrDefault = helpers.valueAtIndexOrDefault;
+						var arcOpts = chart.options.elements.arc;
+						var fill = custom.backgroundColor ? custom.backgroundColor : valueAtIndexOrDefault(ds.backgroundColor, i, arcOpts.backgroundColor);
+						var stroke = custom.borderColor ? custom.borderColor : valueAtIndexOrDefault(ds.borderColor, i, arcOpts.borderColor);
+						var bw = custom.borderWidth ? custom.borderWidth : valueAtIndexOrDefault(ds.borderWidth, i, arcOpts.borderWidth);
+
+						return {
+							text: label,
+							fillStyle: fill,
+							strokeStyle: stroke,
+							lineWidth: bw,
+							hidden: isNaN(ds.data[i]) || meta.data[i].hidden,
+
+							// Extra data used for toggling the correct item
+							index: i
+						};
+					});
+				}
+				return [];
+			}
+		},
+
+		onClick: function(e, legendItem) {
+			var index = legendItem.index;
+			var chart = this.chart;
+			var i, ilen, meta;
+
+			for (i = 0, ilen = (chart.data.datasets || []).length; i < ilen; ++i) {
+				meta = chart.getDatasetMeta(i);
+				// toggle visibility of index if exists
+				if (meta.data[index]) {
+					meta.data[index].hidden = !meta.data[index].hidden;
+				}
+			}
+
+			chart.update();
+		}
+	},
+
+	// The percentage of the chart that we cut out of the middle.
+	cutoutPercentage: 50,
+
+	// The rotation of the chart, where the first data arc begins.
+	rotation: Math.PI * -0.5,
+
+	// The total circumference of the chart.
+	circumference: Math.PI * 2.0,
+
+	// Need to override these to give a nice default
+	tooltips: {
+		callbacks: {
+			title: function() {
+				return '';
+			},
+			label: function(tooltipItem, data) {
+				var dataLabel = data.labels[tooltipItem.index];
+				var value = ': ' + data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index];
+
+				if (helpers.isArray(dataLabel)) {
+					// show value on first line of multiline label
+					// need to clone because we are changing the value
+					dataLabel = dataLabel.slice();
+					dataLabel[0] += value;
+				} else {
+					dataLabel += value;
+				}
+
+				return dataLabel;
+			}
+		}
+	}
+});
+
+defaults._set('pie', helpers.clone(defaults.doughnut));
+defaults._set('pie', {
+	cutoutPercentage: 0
+});
+
+module.exports = function(Chart) {
+
+	Chart.controllers.doughnut = Chart.controllers.pie = Chart.DatasetController.extend({
+
+		dataElementType: elements.Arc,
+
+		linkScales: helpers.noop,
+
+		// Get index of the dataset in relation to the visible datasets. This allows determining the inner and outer radius correctly
+		getRingIndex: function(datasetIndex) {
+			var ringIndex = 0;
+
+			for (var j = 0; j < datasetIndex; ++j) {
+				if (this.chart.isDatasetVisible(j)) {
+					++ringIndex;
+				}
+			}
+
+			return ringIndex;
+		},
+
+		update: function(reset) {
+			var me = this;
+			var chart = me.chart;
+			var chartArea = chart.chartArea;
+			var opts = chart.options;
+			var arcOpts = opts.elements.arc;
+			var availableWidth = chartArea.right - chartArea.left - arcOpts.borderWidth;
+			var availableHeight = chartArea.bottom - chartArea.top - arcOpts.borderWidth;
+			var minSize = Math.min(availableWidth, availableHeight);
+			var offset = {x: 0, y: 0};
+			var meta = me.getMeta();
+			var cutoutPercentage = opts.cutoutPercentage;
+			var circumference = opts.circumference;
+
+			// If the chart's circumference isn't a full circle, calculate minSize as a ratio of the width/height of the arc
+			if (circumference < Math.PI * 2.0) {
+				var startAngle = opts.rotation % (Math.PI * 2.0);
+				startAngle += Math.PI * 2.0 * (startAngle >= Math.PI ? -1 : startAngle < -Math.PI ? 1 : 0);
+				var endAngle = startAngle + circumference;
+				var start = {x: Math.cos(startAngle), y: Math.sin(startAngle)};
+				var end = {x: Math.cos(endAngle), y: Math.sin(endAngle)};
+				var contains0 = (startAngle <= 0 && endAngle >= 0) || (startAngle <= Math.PI * 2.0 && Math.PI * 2.0 <= endAngle);
+				var contains90 = (startAngle <= Math.PI * 0.5 && Math.PI * 0.5 <= endAngle) || (startAngle <= Math.PI * 2.5 && Math.PI * 2.5 <= endAngle);
+				var contains180 = (startAngle <= -Math.PI && -Math.PI <= endAngle) || (startAngle <= Math.PI && Math.PI <= endAngle);
+				var contains270 = (startAngle <= -Math.PI * 0.5 && -Math.PI * 0.5 <= endAngle) || (startAngle <= Math.PI * 1.5 && Math.PI * 1.5 <= endAngle);
+				var cutout = cutoutPercentage / 100.0;
+				var min = {x: contains180 ? -1 : Math.min(start.x * (start.x < 0 ? 1 : cutout), end.x * (end.x < 0 ? 1 : cutout)), y: contains270 ? -1 : Math.min(start.y * (start.y < 0 ? 1 : cutout), end.y * (end.y < 0 ? 1 : cutout))};
+				var max = {x: contains0 ? 1 : Math.max(start.x * (start.x > 0 ? 1 : cutout), end.x * (end.x > 0 ? 1 : cutout)), y: contains90 ? 1 : Math.max(start.y * (start.y > 0 ? 1 : cutout), end.y * (end.y > 0 ? 1 : cutout))};
+				var size = {width: (max.x - min.x) * 0.5, height: (max.y - min.y) * 0.5};
+				minSize = Math.min(availableWidth / size.width, availableHeight / size.height);
+				offset = {x: (max.x + min.x) * -0.5, y: (max.y + min.y) * -0.5};
+			}
+
+			chart.borderWidth = me.getMaxBorderWidth(meta.data);
+			chart.outerRadius = Math.max((minSize - chart.borderWidth) / 2, 0);
+			chart.innerRadius = Math.max(cutoutPercentage ? (chart.outerRadius / 100) * (cutoutPercentage) : 0, 0);
+			chart.radiusLength = (chart.outerRadius - chart.innerRadius) / chart.getVisibleDatasetCount();
+			chart.offsetX = offset.x * chart.outerRadius;
+			chart.offsetY = offset.y * chart.outerRadius;
+
+			meta.total = me.calculateTotal();
+
+			me.outerRadius = chart.outerRadius - (chart.radiusLength * me.getRingIndex(me.index));
+			me.innerRadius = Math.max(me.outerRadius - chart.radiusLength, 0);
+
+			helpers.each(meta.data, function(arc, index) {
+				me.updateElement(arc, index, reset);
+			});
+		},
+
+		updateElement: function(arc, index, reset) {
+			var me = this;
+			var chart = me.chart;
+			var chartArea = chart.chartArea;
+			var opts = chart.options;
+			var animationOpts = opts.animation;
+			var centerX = (chartArea.left + chartArea.right) / 2;
+			var centerY = (chartArea.top + chartArea.bottom) / 2;
+			var startAngle = opts.rotation; // non reset case handled later
+			var endAngle = opts.rotation; // non reset case handled later
+			var dataset = me.getDataset();
+			var circumference = reset && animationOpts.animateRotate ? 0 : arc.hidden ? 0 : me.calculateCircumference(dataset.data[index]) * (opts.circumference / (2.0 * Math.PI));
+			var innerRadius = reset && animationOpts.animateScale ? 0 : me.innerRadius;
+			var outerRadius = reset && animationOpts.animateScale ? 0 : me.outerRadius;
+			var valueAtIndexOrDefault = helpers.valueAtIndexOrDefault;
+
+			helpers.extend(arc, {
+				// Utility
+				_datasetIndex: me.index,
+				_index: index,
+
+				// Desired view properties
+				_model: {
+					x: centerX + chart.offsetX,
+					y: centerY + chart.offsetY,
+					startAngle: startAngle,
+					endAngle: endAngle,
+					circumference: circumference,
+					outerRadius: outerRadius,
+					innerRadius: innerRadius,
+					label: valueAtIndexOrDefault(dataset.label, index, chart.data.labels[index])
+				}
+			});
+
+			var model = arc._model;
+			// Resets the visual styles
+			this.removeHoverStyle(arc);
+
+			// Set correct angles if not resetting
+			if (!reset || !animationOpts.animateRotate) {
+				if (index === 0) {
+					model.startAngle = opts.rotation;
+				} else {
+					model.startAngle = me.getMeta().data[index - 1]._model.endAngle;
+				}
+
+				model.endAngle = model.startAngle + model.circumference;
+			}
+
+			arc.pivot();
+		},
+
+		removeHoverStyle: function(arc) {
+			Chart.DatasetController.prototype.removeHoverStyle.call(this, arc, this.chart.options.elements.arc);
+		},
+
+		calculateTotal: function() {
+			var dataset = this.getDataset();
+			var meta = this.getMeta();
+			var total = 0;
+			var value;
+
+			helpers.each(meta.data, function(element, index) {
+				value = dataset.data[index];
+				if (!isNaN(value) && !element.hidden) {
+					total += Math.abs(value);
+				}
+			});
+
+			/* if (total === 0) {
+				total = NaN;
+			}*/
+
+			return total;
+		},
+
+		calculateCircumference: function(value) {
+			var total = this.getMeta().total;
+			if (total > 0 && !isNaN(value)) {
+				return (Math.PI * 2.0) * (Math.abs(value) / total);
+			}
+			return 0;
+		},
+
+		// gets the max border or hover width to properly scale pie charts
+		getMaxBorderWidth: function(arcs) {
+			var max = 0;
+			var index = this.index;
+			var length = arcs.length;
+			var borderWidth;
+			var hoverWidth;
+
+			for (var i = 0; i < length; i++) {
+				borderWidth = arcs[i]._model ? arcs[i]._model.borderWidth : 0;
+				hoverWidth = arcs[i]._chart ? arcs[i]._chart.config.data.datasets[index].hoverBorderWidth : 0;
+
+				max = borderWidth > max ? borderWidth : max;
+				max = hoverWidth > max ? hoverWidth : max;
+			}
+			return max;
+		}
+	});
+};
+
+},{"../core/core.defaults":19,"../elements/index":34,"../helpers/index":39}],12:[function(require,module,exports){
+'use strict';
+
+var defaults = require('../core/core.defaults');
+var elements = require('../elements/index');
+var helpers = require('../helpers/index');
+
+defaults._set('line', {
+	showLines: true,
+	spanGaps: false,
+
+	hover: {
+		mode: 'label'
+	},
+
+	scales: {
+		xAxes: [{
+			type: 'category',
+			id: 'x-axis-0'
+		}],
+		yAxes: [{
+			type: 'linear',
+			id: 'y-axis-0'
+		}]
+	}
+});
+
+module.exports = function(Chart) {
+
+	function lineEnabled(dataset, options) {
+		return helpers.valueOrDefault(dataset.showLine, options.showLines);
+	}
+
+	Chart.controllers.line = Chart.DatasetController.extend({
+
+		datasetElementType: elements.Line,
+
+		dataElementType: elements.Point,
+
+		update: function(reset) {
+			var me = this;
+			var meta = me.getMeta();
+			var line = meta.dataset;
+			var points = meta.data || [];
+			var options = me.chart.options;
+			var lineElementOptions = options.elements.line;
+			var scale = me.getScaleForId(meta.yAxisID);
+			var i, ilen, custom;
+			var dataset = me.getDataset();
+			var showLine = lineEnabled(dataset, options);
+
+			// Update Line
+			if (showLine) {
+				custom = line.custom || {};
+
+				// Compatibility: If the properties are defined with only the old name, use those values
+				if ((dataset.tension !== undefined) && (dataset.lineTension === undefined)) {
+					dataset.lineTension = dataset.tension;
+				}
+
+				// Utility
+				line._scale = scale;
+				line._datasetIndex = me.index;
+				// Data
+				line._children = points;
+				// Model
+				line._model = {
+					// Appearance
+					// The default behavior of lines is to break at null values, according
+					// to https://github.com/chartjs/Chart.js/issues/2435#issuecomment-216718158
+					// This option gives lines the ability to span gaps
+					spanGaps: dataset.spanGaps ? dataset.spanGaps : options.spanGaps,
+					tension: custom.tension ? custom.tension : helpers.valueOrDefault(dataset.lineTension, lineElementOptions.tension),
+					backgroundColor: custom.backgroundColor ? custom.backgroundColor : (dataset.backgroundColor || lineElementOptions.backgroundColor),
+					borderWidth: custom.borderWidth ? custom.borderWidth : (dataset.borderWidth || lineElementOptions.borderWidth),
+					borderColor: custom.borderColor ? custom.borderColor : (dataset.borderColor || lineElementOptions.borderColor),
+					borderCapStyle: custom.borderCapStyle ? custom.borderCapStyle : (dataset.borderCapStyle || lineElementOptions.borderCapStyle),
+					borderDash: custom.borderDash ? custom.borderDash : (dataset.borderDash || lineElementOptions.borderDash),
+					borderDashOffset: custom.borderDashOffset ? custom.borderDashOffset : (dataset.borderDashOffset || lineElementOptions.borderDashOffset),
+					borderJoinStyle: custom.borderJoinStyle ? custom.borderJoinStyle : (dataset.borderJoinStyle || lineElementOptions.borderJoinStyle),
+					fill: custom.fill ? custom.fill : (dataset.fill !== undefined ? dataset.fill : lineElementOptions.fill),
+					steppedLine: custom.steppedLine ? custom.steppedLine : helpers.valueOrDefault(dataset.steppedLine, lineElementOptions.stepped),
+					cubicInterpolationMode: custom.cubicInterpolationMode ? custom.cubicInterpolationMode : helpers.valueOrDefault(dataset.cubicInterpolationMode, lineElementOptions.cubicInterpolationMode),
+				};
+
+				line.pivot();
+			}
+
+			// Update Points
+			for (i = 0, ilen = points.length; i < ilen; ++i) {
+				me.updateElement(points[i], i, reset);
+			}
+
+			if (showLine && line._model.tension !== 0) {
+				me.updateBezierControlPoints();
+			}
+
+			// Now pivot the point for animation
+			for (i = 0, ilen = points.length; i < ilen; ++i) {
+				points[i].pivot();
+			}
+		},
+
+		getPointBackgroundColor: function(point, index) {
+			var backgroundColor = this.chart.options.elements.point.backgroundColor;
+			var dataset = this.getDataset();
+			var custom = point.custom || {};
+
+			if (custom.backgroundColor) {
+				backgroundColor = custom.backgroundColor;
+			} else if (dataset.pointBackgroundColor) {
+				backgroundColor = helpers.valueAtIndexOrDefault(dataset.pointBackgroundColor, index, backgroundColor);
+			} else if (dataset.backgroundColor) {
+				backgroundColor = dataset.backgroundColor;
+			}
+
+			return backgroundColor;
+		},
+
+		getPointBorderColor: function(point, index) {
+			var borderColor = this.chart.options.elements.point.borderColor;
+			var dataset = this.getDataset();
+			var custom = point.custom || {};
+
+			if (custom.borderColor) {
+				borderColor = custom.borderColor;
+			} else if (dataset.pointBorderColor) {
+				borderColor = helpers.valueAtIndexOrDefault(dataset.pointBorderColor, index, borderColor);
+			} else if (dataset.borderColor) {
+				borderColor = dataset.borderColor;
+			}
+
+			return borderColor;
+		},
+
+		getPointBorderWidth: function(point, index) {
+			var borderWidth = this.chart.options.elements.point.borderWidth;
+			var dataset = this.getDataset();
+			var custom = point.custom || {};
+
+			if (!isNaN(custom.borderWidth)) {
+				borderWidth = custom.borderWidth;
+			} else if (!isNaN(dataset.pointBorderWidth) || helpers.isArray(dataset.pointBorderWidth)) {
+				borderWidth = helpers.valueAtIndexOrDefault(dataset.pointBorderWidth, index, borderWidth);
+			} else if (!isNaN(dataset.borderWidth)) {
+				borderWidth = dataset.borderWidth;
+			}
+
+			return borderWidth;
+		},
+
+		updateElement: function(point, index, reset) {
+			var me = this;
+			var meta = me.getMeta();
+			var custom = point.custom || {};
+			var dataset = me.getDataset();
+			var datasetIndex = me.index;
+			var value = dataset.data[index];
+			var yScale = me.getScaleForId(meta.yAxisID);
+			var xScale = me.getScaleForId(meta.xAxisID);
+			var pointOptions = me.chart.options.elements.point;
+			var x, y;
+
+			// Compatibility: If the properties are defined with only the old name, use those values
+			if ((dataset.radius !== undefined) && (dataset.pointRadius === undefined)) {
+				dataset.pointRadius = dataset.radius;
+			}
+			if ((dataset.hitRadius !== undefined) && (dataset.pointHitRadius === undefined)) {
+				dataset.pointHitRadius = dataset.hitRadius;
+			}
+
+			x = xScale.getPixelForValue(typeof value === 'object' ? value : NaN, index, datasetIndex);
+			y = reset ? yScale.getBasePixel() : me.calculatePointY(value, index, datasetIndex);
+
+			// Utility
+			point._xScale = xScale;
+			point._yScale = yScale;
+			point._datasetIndex = datasetIndex;
+			point._index = index;
+
+			// Desired view properties
+			point._model = {
+				x: x,
+				y: y,
+				skip: custom.skip || isNaN(x) || isNaN(y),
+				// Appearance
+				radius: custom.radius || helpers.valueAtIndexOrDefault(dataset.pointRadius, index, pointOptions.radius),
+				pointStyle: custom.pointStyle || helpers.valueAtIndexOrDefault(dataset.pointStyle, index, pointOptions.pointStyle),
+				backgroundColor: me.getPointBackgroundColor(point, index),
+				borderColor: me.getPointBorderColor(point, index),
+				borderWidth: me.getPointBorderWidth(point, index),
+				tension: meta.dataset._model ? meta.dataset._model.tension : 0,
+				steppedLine: meta.dataset._model ? meta.dataset._model.steppedLine : false,
+				// Tooltip
+				hitRadius: custom.hitRadius || helpers.valueAtIndexOrDefault(dataset.pointHitRadius, index, pointOptions.hitRadius)
+			};
+		},
+
+		calculatePointY: function(value, index, datasetIndex) {
+			var me = this;
+			var chart = me.chart;
+			var meta = me.getMeta();
+			var yScale = me.getScaleForId(meta.yAxisID);
+			var sumPos = 0;
+			var sumNeg = 0;
+			var i, ds, dsMeta;
+
+			if (yScale.options.stacked) {
+				for (i = 0; i < datasetIndex; i++) {
+					ds = chart.data.datasets[i];
+					dsMeta = chart.getDatasetMeta(i);
+					if (dsMeta.type === 'line' && dsMeta.yAxisID === yScale.id && chart.isDatasetVisible(i)) {
+						var stackedRightValue = Number(yScale.getRightValue(ds.data[index]));
+						if (stackedRightValue < 0) {
+							sumNeg += stackedRightValue || 0;
+						} else {
+							sumPos += stackedRightValue || 0;
+						}
+					}
+				}
+
+				var rightValue = Number(yScale.getRightValue(value));
+				if (rightValue < 0) {
+					return yScale.getPixelForValue(sumNeg + rightValue);
+				}
+				return yScale.getPixelForValue(sumPos + rightValue);
+			}
+
+			return yScale.getPixelForValue(value);
+		},
+
+		updateBezierControlPoints: function() {
+			var me = this;
+			var meta = me.getMeta();
+			var area = me.chart.chartArea;
+			var points = (meta.data || []);
+			var i, ilen, point, model, controlPoints;
+
+			// Only consider points that are drawn in case the spanGaps option is used
+			if (meta.dataset._model.spanGaps) {
+				points = points.filter(function(pt) {
+					return !pt._model.skip;
+				});
+			}
+
+			function capControlPoint(pt, min, max) {
+				return Math.max(Math.min(pt, max), min);
+			}
+
+			if (meta.dataset._model.cubicInterpolationMode === 'monotone') {
+				helpers.splineCurveMonotone(points);
+			} else {
+				for (i = 0, ilen = points.length; i < ilen; ++i) {
+					point = points[i];
+					model = point._model;
+					controlPoints = helpers.splineCurve(
+						helpers.previousItem(points, i)._model,
+						model,
+						helpers.nextItem(points, i)._model,
+						meta.dataset._model.tension
+					);
+					model.controlPointPreviousX = controlPoints.previous.x;
+					model.controlPointPreviousY = controlPoints.previous.y;
+					model.controlPointNextX = controlPoints.next.x;
+					model.controlPointNextY = controlPoints.next.y;
+				}
+			}
+
+			if (me.chart.options.elements.line.capBezierPoints) {
+				for (i = 0, ilen = points.length; i < ilen; ++i) {
+					model = points[i]._model;
+					model.controlPointPreviousX = capControlPoint(model.controlPointPreviousX, area.left, area.right);
+					model.controlPointPreviousY = capControlPoint(model.controlPointPreviousY, area.top, area.bottom);
+					model.controlPointNextX = capControlPoint(model.controlPointNextX, area.left, area.right);
+					model.controlPointNextY = capControlPoint(model.controlPointNextY, area.top, area.bottom);
+				}
+			}
+		},
+
+		draw: function() {
+			var me = this;
+			var chart = me.chart;
+			var meta = me.getMeta();
+			var points = meta.data || [];
+			var area = chart.chartArea;
+			var ilen = points.length;
+			var i = 0;
+
+			helpers.canvas.clipArea(chart.ctx, area);
+
+			if (lineEnabled(me.getDataset(), chart.options)) {
+				meta.dataset.draw();
+			}
+
+			helpers.canvas.unclipArea(chart.ctx);
+
+			// Draw the points
+			for (; i < ilen; ++i) {
+				points[i].draw(area);
+			}
+		},
+
+		setHoverStyle: function(point) {
+			// Point
+			var dataset = this.chart.data.datasets[point._datasetIndex];
+			var index = point._index;
+			var custom = point.custom || {};
+			var model = point._model;
+
+			model.radius = custom.hoverRadius || helpers.valueAtIndexOrDefault(dataset.pointHoverRadius, index, this.chart.options.elements.point.hoverRadius);
+			model.backgroundColor = custom.hoverBackgroundColor || helpers.valueAtIndexOrDefault(dataset.pointHoverBackgroundColor, index, helpers.getHoverColor(model.backgroundColor));
+			model.borderColor = custom.hoverBorderColor || helpers.valueAtIndexOrDefault(dataset.pointHoverBorderColor, index, helpers.getHoverColor(model.borderColor));
+			model.borderWidth = custom.hoverBorderWidth || helpers.valueAtIndexOrDefault(dataset.pointHoverBorderWidth, index, model.borderWidth);
+		},
+
+		removeHoverStyle: function(point) {
+			var me = this;
+			var dataset = me.chart.data.datasets[point._datasetIndex];
+			var index = point._index;
+			var custom = point.custom || {};
+			var model = point._model;
+
+			// Compatibility: If the properties are defined with only the old name, use those values
+			if ((dataset.radius !== undefined) && (dataset.pointRadius === undefined)) {
+				dataset.pointRadius = dataset.radius;
+			}
+
+			model.radius = custom.radius || helpers.valueAtIndexOrDefault(dataset.pointRadius, index, me.chart.options.elements.point.radius);
+			model.backgroundColor = me.getPointBackgroundColor(point, index);
+			model.borderColor = me.getPointBorderColor(point, index);
+			model.borderWidth = me.getPointBorderWidth(point, index);
+		}
+	});
+};
+
+},{"../core/core.defaults":19,"../elements/index":34,"../helpers/index":39}],13:[function(require,module,exports){
+'use strict';
+
+var defaults = require('../core/core.defaults');
+var elements = require('../elements/index');
+var helpers = require('../helpers/index');
+
+defaults._set('polarArea', {
+	scale: {
+		type: 'radialLinear',
+		angleLines: {
+			display: false
+		},
+		gridLines: {
+			circular: true
+		},
+		pointLabels: {
+			display: false
+		},
+		ticks: {
+			beginAtZero: true
+		}
+	},
+
+	// Boolean - Whether to animate the rotation of the chart
+	animation: {
+		animateRotate: true,
+		animateScale: true
+	},
+
+	startAngle: -0.5 * Math.PI,
+	legendCallback: function(chart) {
+		var text = [];
+		text.push('<ul class="' + chart.id + '-legend">');
+
+		var data = chart.data;
+		var datasets = data.datasets;
+		var labels = data.labels;
+
+		if (datasets.length) {
+			for (var i = 0; i < datasets[0].data.length; ++i) {
+				text.push('<li><span style="background-color:' + datasets[0].backgroundColor[i] + '"></span>');
+				if (labels[i]) {
+					text.push(labels[i]);
+				}
+				text.push('</li>');
+			}
+		}
+
+		text.push('</ul>');
+		return text.join('');
+	},
+	legend: {
+		labels: {
+			generateLabels: function(chart) {
+				var data = chart.data;
+				if (data.labels.length && data.datasets.length) {
+					return data.labels.map(function(label, i) {
+						var meta = chart.getDatasetMeta(0);
+						var ds = data.datasets[0];
+						var arc = meta.data[i];
+						var custom = arc.custom || {};
+						var valueAtIndexOrDefault = helpers.valueAtIndexOrDefault;
+						var arcOpts = chart.options.elements.arc;
+						var fill = custom.backgroundColor ? custom.backgroundColor : valueAtIndexOrDefault(ds.backgroundColor, i, arcOpts.backgroundColor);
+						var stroke = custom.borderColor ? custom.borderColor : valueAtIndexOrDefault(ds.borderColor, i, arcOpts.borderColor);
+						var bw = custom.borderWidth ? custom.borderWidth : valueAtIndexOrDefault(ds.borderWidth, i, arcOpts.borderWidth);
+
+						return {
+							text: label,
+							fillStyle: fill,
+							strokeStyle: stroke,
+							lineWidth: bw,
+							hidden: isNaN(ds.data[i]) || meta.data[i].hidden,
+
+							// Extra data used for toggling the correct item
+							index: i
+						};
+					});
+				}
+				return [];
+			}
+		},
+
+		onClick: function(e, legendItem) {
+			var index = legendItem.index;
+			var chart = this.chart;
+			var i, ilen, meta;
+
+			for (i = 0, ilen = (chart.data.datasets || []).length; i < ilen; ++i) {
+				meta = chart.getDatasetMeta(i);
+				meta.data[index].hidden = !meta.data[index].hidden;
+			}
+
+			chart.update();
+		}
+	},
+
+	// Need to override these to give a nice default
+	tooltips: {
+		callbacks: {
+			title: function() {
+				return '';
+			},
+			label: function(item, data) {
+				return data.labels[item.index] + ': ' + item.yLabel;
+			}
+		}
+	}
+});
+
+module.exports = function(Chart) {
+
+	Chart.controllers.polarArea = Chart.DatasetController.extend({
+
+		dataElementType: elements.Arc,
+
+		linkScales: helpers.noop,
+
+		update: function(reset) {
+			var me = this;
+			var chart = me.chart;
+			var chartArea = chart.chartArea;
+			var meta = me.getMeta();
+			var opts = chart.options;
+			var arcOpts = opts.elements.arc;
+			var minSize = Math.min(chartArea.right - chartArea.left, chartArea.bottom - chartArea.top);
+			chart.outerRadius = Math.max((minSize - arcOpts.borderWidth / 2) / 2, 0);
+			chart.innerRadius = Math.max(opts.cutoutPercentage ? (chart.outerRadius / 100) * (opts.cutoutPercentage) : 1, 0);
+			chart.radiusLength = (chart.outerRadius - chart.innerRadius) / chart.getVisibleDatasetCount();
+
+			me.outerRadius = chart.outerRadius - (chart.radiusLength * me.index);
+			me.innerRadius = me.outerRadius - chart.radiusLength;
+
+			meta.count = me.countVisibleElements();
+
+			helpers.each(meta.data, function(arc, index) {
+				me.updateElement(arc, index, reset);
+			});
+		},
+
+		updateElement: function(arc, index, reset) {
+			var me = this;
+			var chart = me.chart;
+			var dataset = me.getDataset();
+			var opts = chart.options;
+			var animationOpts = opts.animation;
+			var scale = chart.scale;
+			var labels = chart.data.labels;
+
+			var circumference = me.calculateCircumference(dataset.data[index]);
+			var centerX = scale.xCenter;
+			var centerY = scale.yCenter;
+
+			// If there is NaN data before us, we need to calculate the starting angle correctly.
+			// We could be way more efficient here, but its unlikely that the polar area chart will have a lot of data
+			var visibleCount = 0;
+			var meta = me.getMeta();
+			for (var i = 0; i < index; ++i) {
+				if (!isNaN(dataset.data[i]) && !meta.data[i].hidden) {
+					++visibleCount;
+				}
+			}
+
+			// var negHalfPI = -0.5 * Math.PI;
+			var datasetStartAngle = opts.startAngle;
+			var distance = arc.hidden ? 0 : scale.getDistanceFromCenterForValue(dataset.data[index]);
+			var startAngle = datasetStartAngle + (circumference * visibleCount);
+			var endAngle = startAngle + (arc.hidden ? 0 : circumference);
+
+			var resetRadius = animationOpts.animateScale ? 0 : scale.getDistanceFromCenterForValue(dataset.data[index]);
+
+			helpers.extend(arc, {
+				// Utility
+				_datasetIndex: me.index,
+				_index: index,
+				_scale: scale,
+
+				// Desired view properties
+				_model: {
+					x: centerX,
+					y: centerY,
+					innerRadius: 0,
+					outerRadius: reset ? resetRadius : distance,
+					startAngle: reset && animationOpts.animateRotate ? datasetStartAngle : startAngle,
+					endAngle: reset && animationOpts.animateRotate ? datasetStartAngle : endAngle,
+					label: helpers.valueAtIndexOrDefault(labels, index, labels[index])
+				}
+			});
+
+			// Apply border and fill style
+			me.removeHoverStyle(arc);
+
+			arc.pivot();
+		},
+
+		removeHoverStyle: function(arc) {
+			Chart.DatasetController.prototype.removeHoverStyle.call(this, arc, this.chart.options.elements.arc);
+		},
+
+		countVisibleElements: function() {
+			var dataset = this.getDataset();
+			var meta = this.getMeta();
+			var count = 0;
+
+			helpers.each(meta.data, function(element, index) {
+				if (!isNaN(dataset.data[index]) && !element.hidden) {
+					count++;
+				}
+			});
+
+			return count;
+		},
+
+		calculateCircumference: function(value) {
+			var count = this.getMeta().count;
+			if (count > 0 && !isNaN(value)) {
+				return (2 * Math.PI) / count;
+			}
+			return 0;
+		}
+	});
+};
+
+},{"../core/core.defaults":19,"../elements/index":34,"../helpers/index":39}],14:[function(require,module,exports){
+'use strict';
+
+var defaults = require('../core/core.defaults');
+var elements = require('../elements/index');
+var helpers = require('../helpers/index');
+
+defaults._set('radar', {
+	scale: {
+		type: 'radialLinear'
+	},
+	elements: {
+		line: {
+			tension: 0 // no bezier in radar
+		}
+	}
+});
+
+module.exports = function(Chart) {
+
+	Chart.controllers.radar = Chart.DatasetController.extend({
+
+		datasetElementType: elements.Line,
+
+		dataElementType: elements.Point,
+
+		linkScales: helpers.noop,
+
+		update: function(reset) {
+			var me = this;
+			var meta = me.getMeta();
+			var line = meta.dataset;
+			var points = meta.data;
+			var custom = line.custom || {};
+			var dataset = me.getDataset();
+			var lineElementOptions = me.chart.options.elements.line;
+			var scale = me.chart.scale;
+
+			// Compatibility: If the properties are defined with only the old name, use those values
+			if ((dataset.tension !== undefined) && (dataset.lineTension === undefined)) {
+				dataset.lineTension = dataset.tension;
+			}
+
+			helpers.extend(meta.dataset, {
+				// Utility
+				_datasetIndex: me.index,
+				_scale: scale,
+				// Data
+				_children: points,
+				_loop: true,
+				// Model
+				_model: {
+					// Appearance
+					tension: custom.tension ? custom.tension : helpers.valueOrDefault(dataset.lineTension, lineElementOptions.tension),
+					backgroundColor: custom.backgroundColor ? custom.backgroundColor : (dataset.backgroundColor || lineElementOptions.backgroundColor),
+					borderWidth: custom.borderWidth ? custom.borderWidth : (dataset.borderWidth || lineElementOptions.borderWidth),
+					borderColor: custom.borderColor ? custom.borderColor : (dataset.borderColor || lineElementOptions.borderColor),
+					fill: custom.fill ? custom.fill : (dataset.fill !== undefined ? dataset.fill : lineElementOptions.fill),
+					borderCapStyle: custom.borderCapStyle ? custom.borderCapStyle : (dataset.borderCapStyle || lineElementOptions.borderCapStyle),
+					borderDash: custom.borderDash ? custom.borderDash : (dataset.borderDash || lineElementOptions.borderDash),
+					borderDashOffset: custom.borderDashOffset ? custom.borderDashOffset : (dataset.borderDashOffset || lineElementOptions.borderDashOffset),
+					borderJoinStyle: custom.borderJoinStyle ? custom.borderJoinStyle : (dataset.borderJoinStyle || lineElementOptions.borderJoinStyle),
+				}
+			});
+
+			meta.dataset.pivot();
+
+			// Update Points
+			helpers.each(points, function(point, index) {
+				me.updateElement(point, index, reset);
+			}, me);
+
+			// Update bezier control points
+			me.updateBezierControlPoints();
+		},
+		updateElement: function(point, index, reset) {
+			var me = this;
+			var custom = point.custom || {};
+			var dataset = me.getDataset();
+			var scale = me.chart.scale;
+			var pointElementOptions = me.chart.options.elements.point;
+			var pointPosition = scale.getPointPositionForValue(index, dataset.data[index]);
+
+			// Compatibility: If the properties are defined with only the old name, use those values
+			if ((dataset.radius !== undefined) && (dataset.pointRadius === undefined)) {
+				dataset.pointRadius = dataset.radius;
+			}
+			if ((dataset.hitRadius !== undefined) && (dataset.pointHitRadius === undefined)) {
+				dataset.pointHitRadius = dataset.hitRadius;
+			}
+
+			helpers.extend(point, {
+				// Utility
+				_datasetIndex: me.index,
+				_index: index,
+				_scale: scale,
+
+				// Desired view properties
+				_model: {
+					x: reset ? scale.xCenter : pointPosition.x, // value not used in dataset scale, but we want a consistent API between scales
+					y: reset ? scale.yCenter : pointPosition.y,
+
+					// Appearance
+					tension: custom.tension ? custom.tension : helpers.valueOrDefault(dataset.lineTension, me.chart.options.elements.line.tension),
+					radius: custom.radius ? custom.radius : helpers.valueAtIndexOrDefault(dataset.pointRadius, index, pointElementOptions.radius),
+					backgroundColor: custom.backgroundColor ? custom.backgroundColor : helpers.valueAtIndexOrDefault(dataset.pointBackgroundColor, index, pointElementOptions.backgroundColor),
+					borderColor: custom.borderColor ? custom.borderColor : helpers.valueAtIndexOrDefault(dataset.pointBorderColor, index, pointElementOptions.borderColor),
+					borderWidth: custom.borderWidth ? custom.borderWidth : helpers.valueAtIndexOrDefault(dataset.pointBorderWidth, index, pointElementOptions.borderWidth),
+					pointStyle: custom.pointStyle ? custom.pointStyle : helpers.valueAtIndexOrDefault(dataset.pointStyle, index, pointElementOptions.pointStyle),
+
+					// Tooltip
+					hitRadius: custom.hitRadius ? custom.hitRadius : helpers.valueAtIndexOrDefault(dataset.pointHitRadius, index, pointElementOptions.hitRadius)
+				}
+			});
+
+			point._model.skip = custom.skip ? custom.skip : (isNaN(point._model.x) || isNaN(point._model.y));
+		},
+		updateBezierControlPoints: function() {
+			var chartArea = this.chart.chartArea;
+			var meta = this.getMeta();
+
+			helpers.each(meta.data, function(point, index) {
+				var model = point._model;
+				var controlPoints = helpers.splineCurve(
+					helpers.previousItem(meta.data, index, true)._model,
+					model,
+					helpers.nextItem(meta.data, index, true)._model,
+					model.tension
+				);
+
+				// Prevent the bezier going outside of the bounds of the graph
+				model.controlPointPreviousX = Math.max(Math.min(controlPoints.previous.x, chartArea.right), chartArea.left);
+				model.controlPointPreviousY = Math.max(Math.min(controlPoints.previous.y, chartArea.bottom), chartArea.top);
+
+				model.controlPointNextX = Math.max(Math.min(controlPoints.next.x, chartArea.right), chartArea.left);
+				model.controlPointNextY = Math.max(Math.min(controlPoints.next.y, chartArea.bottom), chartArea.top);
+
+				// Now pivot the point for animation
+				point.pivot();
+			});
+		},
+
+		setHoverStyle: function(point) {
+			// Point
+			var dataset = this.chart.data.datasets[point._datasetIndex];
+			var custom = point.custom || {};
+			var index = point._index;
+			var model = point._model;
+
+			model.radius = custom.hoverRadius ? custom.hoverRadius : helpers.valueAtIndexOrDefault(dataset.pointHoverRadius, index, this.chart.options.elements.point.hoverRadius);
+			model.backgroundColor = custom.hoverBackgroundColor ? custom.hoverBackgroundColor : helpers.valueAtIndexOrDefault(dataset.pointHoverBackgroundColor, index, helpers.getHoverColor(model.backgroundColor));
+			model.borderColor = custom.hoverBorderColor ? custom.hoverBorderColor : helpers.valueAtIndexOrDefault(dataset.pointHoverBorderColor, index, helpers.getHoverColor(model.borderColor));
+			model.borderWidth = custom.hoverBorderWidth ? custom.hoverBorderWidth : helpers.valueAtIndexOrDefault(dataset.pointHoverBorderWidth, index, model.borderWidth);
+		},
+
+		removeHoverStyle: function(point) {
+			var dataset = this.chart.data.datasets[point._datasetIndex];
+			var custom = point.custom || {};
+			var index = point._index;
+			var model = point._model;
+			var pointElementOptions = this.chart.options.elements.point;
+
+			model.radius = custom.radius ? custom.radius : helpers.valueAtIndexOrDefault(dataset.pointRadius, index, pointElementOptions.radius);
+			model.backgroundColor = custom.backgroundColor ? custom.backgroundColor : helpers.valueAtIndexOrDefault(dataset.pointBackgroundColor, index, pointElementOptions.backgroundColor);
+			model.borderColor = custom.borderColor ? custom.borderColor : helpers.valueAtIndexOrDefault(dataset.pointBorderColor, index, pointElementOptions.borderColor);
+			model.borderWidth = custom.borderWidth ? custom.borderWidth : helpers.valueAtIndexOrDefault(dataset.pointBorderWidth, index, pointElementOptions.borderWidth);
+		}
+	});
+};
+
+},{"../core/core.defaults":19,"../elements/index":34,"../helpers/index":39}],15:[function(require,module,exports){
+'use strict';
+
+var defaults = require('../core/core.defaults');
+
+defaults._set('scatter', {
+	hover: {
+		mode: 'single'
+	},
+
+	scales: {
+		xAxes: [{
+			id: 'x-axis-1',    // need an ID so datasets can reference the scale
+			type: 'linear',    // scatter should not use a category axis
+			position: 'bottom'
+		}],
+		yAxes: [{
+			id: 'y-axis-1',
+			type: 'linear',
+			position: 'left'
+		}]
+	},
+
+	showLines: false,
+
+	tooltips: {
+		callbacks: {
+			title: function() {
+				return '';     // doesn't make sense for scatter since data are formatted as a point
+			},
+			label: function(item) {
+				return '(' + item.xLabel + ', ' + item.yLabel + ')';
+			}
+		}
+	}
+});
+
+module.exports = function(Chart) {
+
+	// Scatter charts use line controllers
+	Chart.controllers.scatter = Chart.controllers.line;
+
+};
+
+},{"../core/core.defaults":19}],16:[function(require,module,exports){
+/* global window: false */
+'use strict';
+
+var defaults = require('./core.defaults');
+var Element = require('./core.element');
+var helpers = require('../helpers/index');
+
+defaults._set('global', {
+	animation: {
+		duration: 1000,
+		easing: 'easeOutQuart',
+		onProgress: helpers.noop,
+		onComplete: helpers.noop
+	}
+});
+
+module.exports = function(Chart) {
+
+	Chart.Animation = Element.extend({
+		chart: null, // the animation associated chart instance
+		currentStep: 0, // the current animation step
+		numSteps: 60, // default number of steps
+		easing: '', // the easing to use for this animation
+		render: null, // render function used by the animation service
+
+		onAnimationProgress: null, // user specified callback to fire on each step of the animation
+		onAnimationComplete: null, // user specified callback to fire when the animation finishes
+	});
+
+	Chart.animationService = {
+		frameDuration: 17,
+		animations: [],
+		dropFrames: 0,
+		request: null,
+
+		/**
+		 * @param {Chart} chart - The chart to animate.
+		 * @param {Chart.Animation} animation - The animation that we will animate.
+		 * @param {Number} duration - The animation duration in ms.
+		 * @param {Boolean} lazy - if true, the chart is not marked as animating to enable more responsive interactions
+		 */
+		addAnimation: function(chart, animation, duration, lazy) {
+			var animations = this.animations;
+			var i, ilen;
+
+			animation.chart = chart;
+
+			if (!lazy) {
+				chart.animating = true;
+			}
+
+			for (i = 0, ilen = animations.length; i < ilen; ++i) {
+				if (animations[i].chart === chart) {
+					animations[i] = animation;
+					return;
+				}
+			}
+
+			animations.push(animation);
+
+			// If there are no animations queued, manually kickstart a digest, for lack of a better word
+			if (animations.length === 1) {
+				this.requestAnimationFrame();
+			}
+		},
+
+		cancelAnimation: function(chart) {
+			var index = helpers.findIndex(this.animations, function(animation) {
+				return animation.chart === chart;
+			});
+
+			if (index !== -1) {
+				this.animations.splice(index, 1);
+				chart.animating = false;
+			}
+		},
+
+		requestAnimationFrame: function() {
+			var me = this;
+			if (me.request === null) {
+				// Skip animation frame requests until the active one is executed.
+				// This can happen when processing mouse events, e.g. 'mousemove'
+				// and 'mouseout' events will trigger multiple renders.
+				me.request = helpers.requestAnimFrame.call(window, function() {
+					me.request = null;
+					me.startDigest();
+				});
+			}
+		},
+
+		/**
+		 * @private
+		 */
+		startDigest: function() {
+			var me = this;
+			var startTime = Date.now();
+			var framesToDrop = 0;
+
+			if (me.dropFrames > 1) {
+				framesToDrop = Math.floor(me.dropFrames);
+				me.dropFrames = me.dropFrames % 1;
+			}
+
+			me.advance(1 + framesToDrop);
+
+			var endTime = Date.now();
+
+			me.dropFrames += (endTime - startTime) / me.frameDuration;
+
+			// Do we have more stuff to animate?
+			if (me.animations.length > 0) {
+				me.requestAnimationFrame();
+			}
+		},
+
+		/**
+		 * @private
+		 */
+		advance: function(count) {
+			var animations = this.animations;
+			var animation, chart;
+			var i = 0;
+
+			while (i < animations.length) {
+				animation = animations[i];
+				chart = animation.chart;
+
+				animation.currentStep = (animation.currentStep || 0) + count;
+				animation.currentStep = Math.min(animation.currentStep, animation.numSteps);
+
+				helpers.callback(animation.render, [chart, animation], chart);
+				helpers.callback(animation.onAnimationProgress, [animation], chart);
+
+				if (animation.currentStep >= animation.numSteps) {
+					helpers.callback(animation.onAnimationComplete, [animation], chart);
+					chart.animating = false;
+					animations.splice(i, 1);
+				} else {
+					++i;
+				}
+			}
+		}
+	};
+
+	/**
+	 * Provided for backward compatibility, use Chart.Animation instead
+	 * @prop Chart.Animation#animationObject
+	 * @deprecated since version 2.6.0
+	 * @todo remove at version 3
+	 */
+	Object.defineProperty(Chart.Animation.prototype, 'animationObject', {
+		get: function() {
+			return this;
+		}
+	});
+
+	/**
+	 * Provided for backward compatibility, use Chart.Animation#chart instead
+	 * @prop Chart.Animation#chartInstance
+	 * @deprecated since version 2.6.0
+	 * @todo remove at version 3
+	 */
+	Object.defineProperty(Chart.Animation.prototype, 'chartInstance', {
+		get: function() {
+			return this.chart;
+		},
+		set: function(value) {
+			this.chart = value;
+		}
+	});
+
+};
+
+},{"../helpers/index":39,"./core.defaults":19,"./core.element":20}],17:[function(require,module,exports){
+'use strict';
+
+var defaults = require('./core.defaults');
+var helpers = require('../helpers/index');
+var Interaction = require('./core.interaction');
+var layouts = require('./core.layouts');
+var platform = require('../platforms/platform');
+var plugins = require('./core.plugins');
+
+module.exports = function(Chart) {
+
+	// Create a dictionary of chart types, to allow for extension of existing types
+	Chart.types = {};
+
+	// Store a reference to each instance - allowing us to globally resize chart instances on window resize.
+	// Destroy method on the chart will remove the instance of the chart from this reference.
+	Chart.instances = {};
+
+	// Controllers available for dataset visualization eg. bar, line, slice, etc.
+	Chart.controllers = {};
+
+	/**
+	 * Initializes the given config with global and chart default values.
+	 */
+	function initConfig(config) {
+		config = config || {};
+
+		// Do NOT use configMerge() for the data object because this method merges arrays
+		// and so would change references to labels and datasets, preventing data updates.
+		var data = config.data = config.data || {};
+		data.datasets = data.datasets || [];
+		data.labels = data.labels || [];
+
+		config.options = helpers.configMerge(
+			defaults.global,
+			defaults[config.type],
+			config.options || {});
+
+		return config;
+	}
+
+	/**
+	 * Updates the config of the chart
+	 * @param chart {Chart} chart to update the options for
+	 */
+	function updateConfig(chart) {
+		var newOptions = chart.options;
+
+		helpers.each(chart.scales, function(scale) {
+			layouts.removeBox(chart, scale);
+		});
+
+		newOptions = helpers.configMerge(
+			Chart.defaults.global,
+			Chart.defaults[chart.config.type],
+			newOptions);
+
+		chart.options = chart.config.options = newOptions;
+		chart.ensureScalesHaveIDs();
+		chart.buildOrUpdateScales();
+		// Tooltip
+		chart.tooltip._options = newOptions.tooltips;
+		chart.tooltip.initialize();
+	}
+
+	function positionIsHorizontal(position) {
+		return position === 'top' || position === 'bottom';
+	}
+
+	helpers.extend(Chart.prototype, /** @lends Chart */ {
+		/**
+		 * @private
+		 */
+		construct: function(item, config) {
+			var me = this;
+
+			config = initConfig(config);
+
+			var context = platform.acquireContext(item, config);
+			var canvas = context && context.canvas;
+			var height = canvas && canvas.height;
+			var width = canvas && canvas.width;
+
+			me.id = helpers.uid();
+			me.ctx = context;
+			me.canvas = canvas;
+			me.config = config;
+			me.width = width;
+			me.height = height;
+			me.aspectRatio = height ? width / height : null;
+			me.options = config.options;
+			me._bufferedRender = false;
+
+			/**
+			 * Provided for backward compatibility, Chart and Chart.Controller have been merged,
+			 * the "instance" still need to be defined since it might be called from plugins.
+			 * @prop Chart#chart
+			 * @deprecated since version 2.6.0
+			 * @todo remove at version 3
+			 * @private
+			 */
+			me.chart = me;
+			me.controller = me; // chart.chart.controller #inception
+
+			// Add the chart instance to the global namespace
+			Chart.instances[me.id] = me;
+
+			// Define alias to the config data: `chart.data === chart.config.data`
+			Object.defineProperty(me, 'data', {
+				get: function() {
+					return me.config.data;
+				},
+				set: function(value) {
+					me.config.data = value;
+				}
+			});
+
+			if (!context || !canvas) {
+				// The given item is not a compatible context2d element, let's return before finalizing
+				// the chart initialization but after setting basic chart / controller properties that
+				// can help to figure out that the chart is not valid (e.g chart.canvas !== null);
+				// https://github.com/chartjs/Chart.js/issues/2807
+				console.error("Failed to create chart: can't acquire context from the given item");
+				return;
+			}
+
+			me.initialize();
+			me.update();
+		},
+
+		/**
+		 * @private
+		 */
+		initialize: function() {
+			var me = this;
+
+			// Before init plugin notification
+			plugins.notify(me, 'beforeInit');
+
+			helpers.retinaScale(me, me.options.devicePixelRatio);
+
+			me.bindEvents();
+
+			if (me.options.responsive) {
+				// Initial resize before chart draws (must be silent to preserve initial animations).
+				me.resize(true);
+			}
+
+			// Make sure scales have IDs and are built before we build any controllers.
+			me.ensureScalesHaveIDs();
+			me.buildOrUpdateScales();
+			me.initToolTip();
+
+			// After init plugin notification
+			plugins.notify(me, 'afterInit');
+
+			return me;
+		},
+
+		clear: function() {
+			helpers.canvas.clear(this);
+			return this;
+		},
+
+		stop: function() {
+			// Stops any current animation loop occurring
+			Chart.animationService.cancelAnimation(this);
+			return this;
+		},
+
+		resize: function(silent) {
+			var me = this;
+			var options = me.options;
+			var canvas = me.canvas;
+			var aspectRatio = (options.maintainAspectRatio && me.aspectRatio) || null;
+
+			// the canvas render width and height will be casted to integers so make sure that
+			// the canvas display style uses the same integer values to avoid blurring effect.
+
+			// Set to 0 instead of canvas.size because the size defaults to 300x150 if the element is collased
+			var newWidth = Math.max(0, Math.floor(helpers.getMaximumWidth(canvas)));
+			var newHeight = Math.max(0, Math.floor(aspectRatio ? newWidth / aspectRatio : helpers.getMaximumHeight(canvas)));
+
+			if (me.width === newWidth && me.height === newHeight) {
+				return;
+			}
+
+			canvas.width = me.width = newWidth;
+			canvas.height = me.height = newHeight;
+			canvas.style.width = newWidth + 'px';
+			canvas.style.height = newHeight + 'px';
+
+			helpers.retinaScale(me, options.devicePixelRatio);
+
+			if (!silent) {
+				// Notify any plugins about the resize
+				var newSize = {width: newWidth, height: newHeight};
+				plugins.notify(me, 'resize', [newSize]);
+
+				// Notify of resize
+				if (me.options.onResize) {
+					me.options.onResize(me, newSize);
+				}
+
+				me.stop();
+				me.update(me.options.responsiveAnimationDuration);
+			}
+		},
+
+		ensureScalesHaveIDs: function() {
+			var options = this.options;
+			var scalesOptions = options.scales || {};
+			var scaleOptions = options.scale;
+
+			helpers.each(scalesOptions.xAxes, function(xAxisOptions, index) {
+				xAxisOptions.id = xAxisOptions.id || ('x-axis-' + index);
+			});
+
+			helpers.each(scalesOptions.yAxes, function(yAxisOptions, index) {
+				yAxisOptions.id = yAxisOptions.id || ('y-axis-' + index);
+			});
+
+			if (scaleOptions) {
+				scaleOptions.id = scaleOptions.id || 'scale';
+			}
+		},
+
+		/**
+		 * Builds a map of scale ID to scale object for future lookup.
+		 */
+		buildOrUpdateScales: function() {
+			var me = this;
+			var options = me.options;
+			var scales = me.scales || {};
+			var items = [];
+			var updated = Object.keys(scales).reduce(function(obj, id) {
+				obj[id] = false;
+				return obj;
+			}, {});
+
+			if (options.scales) {
+				items = items.concat(
+					(options.scales.xAxes || []).map(function(xAxisOptions) {
+						return {options: xAxisOptions, dtype: 'category', dposition: 'bottom'};
+					}),
+					(options.scales.yAxes || []).map(function(yAxisOptions) {
+						return {options: yAxisOptions, dtype: 'linear', dposition: 'left'};
+					})
+				);
+			}
+
+			if (options.scale) {
+				items.push({
+					options: options.scale,
+					dtype: 'radialLinear',
+					isDefault: true,
+					dposition: 'chartArea'
+				});
+			}
+
+			helpers.each(items, function(item) {
+				var scaleOptions = item.options;
+				var id = scaleOptions.id;
+				var scaleType = helpers.valueOrDefault(scaleOptions.type, item.dtype);
+
+				if (positionIsHorizontal(scaleOptions.position) !== positionIsHorizontal(item.dposition)) {
+					scaleOptions.position = item.dposition;
+				}
+
+				updated[id] = true;
+				var scale = null;
+				if (id in scales && scales[id].type === scaleType) {
+					scale = scales[id];
+					scale.options = scaleOptions;
+					scale.ctx = me.ctx;
+					scale.chart = me;
+				} else {
+					var scaleClass = Chart.scaleService.getScaleConstructor(scaleType);
+					if (!scaleClass) {
+						return;
+					}
+					scale = new scaleClass({
+						id: id,
+						type: scaleType,
+						options: scaleOptions,
+						ctx: me.ctx,
+						chart: me
+					});
+					scales[scale.id] = scale;
+				}
+
+				scale.mergeTicksOptions();
+
+				// TODO(SB): I think we should be able to remove this custom case (options.scale)
+				// and consider it as a regular scale part of the "scales"" map only! This would
+				// make the logic easier and remove some useless? custom code.
+				if (item.isDefault) {
+					me.scale = scale;
+				}
+			});
+			// clear up discarded scales
+			helpers.each(updated, function(hasUpdated, id) {
+				if (!hasUpdated) {
+					delete scales[id];
+				}
+			});
+
+			me.scales = scales;
+
+			Chart.scaleService.addScalesToLayout(this);
+		},
+
+		buildOrUpdateControllers: function() {
+			var me = this;
+			var types = [];
+			var newControllers = [];
+
+			helpers.each(me.data.datasets, function(dataset, datasetIndex) {
+				var meta = me.getDatasetMeta(datasetIndex);
+				var type = dataset.type || me.config.type;
+
+				if (meta.type && meta.type !== type) {
+					me.destroyDatasetMeta(datasetIndex);
+					meta = me.getDatasetMeta(datasetIndex);
+				}
+				meta.type = type;
+
+				types.push(meta.type);
+
+				if (meta.controller) {
+					meta.controller.updateIndex(datasetIndex);
+					meta.controller.linkScales();
+				} else {
+					var ControllerClass = Chart.controllers[meta.type];
+					if (ControllerClass === undefined) {
+						throw new Error('"' + meta.type + '" is not a chart type.');
+					}
+
+					meta.controller = new ControllerClass(me, datasetIndex);
+					newControllers.push(meta.controller);
+				}
+			}, me);
+
+			return newControllers;
+		},
+
+		/**
+		 * Reset the elements of all datasets
+		 * @private
+		 */
+		resetElements: function() {
+			var me = this;
+			helpers.each(me.data.datasets, function(dataset, datasetIndex) {
+				me.getDatasetMeta(datasetIndex).controller.reset();
+			}, me);
+		},
+
+		/**
+		* Resets the chart back to it's state before the initial animation
+		*/
+		reset: function() {
+			this.resetElements();
+			this.tooltip.initialize();
+		},
+
+		update: function(config) {
+			var me = this;
+
+			if (!config || typeof config !== 'object') {
+				// backwards compatibility
+				config = {
+					duration: config,
+					lazy: arguments[1]
+				};
+			}
+
+			updateConfig(me);
+
+			// plugins options references might have change, let's invalidate the cache
+			// https://github.com/chartjs/Chart.js/issues/5111#issuecomment-355934167
+			plugins._invalidate(me);
+
+			if (plugins.notify(me, 'beforeUpdate') === false) {
+				return;
+			}
+
+			// In case the entire data object changed
+			me.tooltip._data = me.data;
+
+			// Make sure dataset controllers are updated and new controllers are reset
+			var newControllers = me.buildOrUpdateControllers();
+
+			// Make sure all dataset controllers have correct meta data counts
+			helpers.each(me.data.datasets, function(dataset, datasetIndex) {
+				me.getDatasetMeta(datasetIndex).controller.buildOrUpdateElements();
+			}, me);
+
+			me.updateLayout();
+
+			// Can only reset the new controllers after the scales have been updated
+			if (me.options.animation && me.options.animation.duration) {
+				helpers.each(newControllers, function(controller) {
+					controller.reset();
+				});
+			}
+
+			me.updateDatasets();
+
+			// Need to reset tooltip in case it is displayed with elements that are removed
+			// after update.
+			me.tooltip.initialize();
+
+			// Last active contains items that were previously in the tooltip.
+			// When we reset the tooltip, we need to clear it
+			me.lastActive = [];
+
+			// Do this before render so that any plugins that need final scale updates can use it
+			plugins.notify(me, 'afterUpdate');
+
+			if (me._bufferedRender) {
+				me._bufferedRequest = {
+					duration: config.duration,
+					easing: config.easing,
+					lazy: config.lazy
+				};
+			} else {
+				me.render(config);
+			}
+		},
+
+		/**
+		 * Updates the chart layout unless a plugin returns `false` to the `beforeLayout`
+		 * hook, in which case, plugins will not be called on `afterLayout`.
+		 * @private
+		 */
+		updateLayout: function() {
+			var me = this;
+
+			if (plugins.notify(me, 'beforeLayout') === false) {
+				return;
+			}
+
+			layouts.update(this, this.width, this.height);
+
+			/**
+			 * Provided for backward compatibility, use `afterLayout` instead.
+			 * @method IPlugin#afterScaleUpdate
+			 * @deprecated since version 2.5.0
+			 * @todo remove at version 3
+			 * @private
+			 */
+			plugins.notify(me, 'afterScaleUpdate');
+			plugins.notify(me, 'afterLayout');
+		},
+
+		/**
+		 * Updates all datasets unless a plugin returns `false` to the `beforeDatasetsUpdate`
+		 * hook, in which case, plugins will not be called on `afterDatasetsUpdate`.
+		 * @private
+		 */
+		updateDatasets: function() {
+			var me = this;
+
+			if (plugins.notify(me, 'beforeDatasetsUpdate') === false) {
+				return;
+			}
+
+			for (var i = 0, ilen = me.data.datasets.length; i < ilen; ++i) {
+				me.updateDataset(i);
+			}
+
+			plugins.notify(me, 'afterDatasetsUpdate');
+		},
+
+		/**
+		 * Updates dataset at index unless a plugin returns `false` to the `beforeDatasetUpdate`
+		 * hook, in which case, plugins will not be called on `afterDatasetUpdate`.
+		 * @private
+		 */
+		updateDataset: function(index) {
+			var me = this;
+			var meta = me.getDatasetMeta(index);
+			var args = {
+				meta: meta,
+				index: index
+			};
+
+			if (plugins.notify(me, 'beforeDatasetUpdate', [args]) === false) {
+				return;
+			}
+
+			meta.controller.update();
+
+			plugins.notify(me, 'afterDatasetUpdate', [args]);
+		},
+
+		render: function(config) {
+			var me = this;
+
+			if (!config || typeof config !== 'object') {
+				// backwards compatibility
+				config = {
+					duration: config,
+					lazy: arguments[1]
+				};
+			}
+
+			var duration = config.duration;
+			var lazy = config.lazy;
+
+			if (plugins.notify(me, 'beforeRender') === false) {
+				return;
+			}
+
+			var animationOptions = me.options.animation;
+			var onComplete = function(animation) {
+				plugins.notify(me, 'afterRender');
+				helpers.callback(animationOptions && animationOptions.onComplete, [animation], me);
+			};
+
+			if (animationOptions && ((typeof duration !== 'undefined' && duration !== 0) || (typeof duration === 'undefined' && animationOptions.duration !== 0))) {
+				var animation = new Chart.Animation({
+					numSteps: (duration || animationOptions.duration) / 16.66, // 60 fps
+					easing: config.easing || animationOptions.easing,
+
+					render: function(chart, animationObject) {
+						var easingFunction = helpers.easing.effects[animationObject.easing];
+						var currentStep = animationObject.currentStep;
+						var stepDecimal = currentStep / animationObject.numSteps;
+
+						chart.draw(easingFunction(stepDecimal), stepDecimal, currentStep);
+					},
+
+					onAnimationProgress: animationOptions.onProgress,
+					onAnimationComplete: onComplete
+				});
+
+				Chart.animationService.addAnimation(me, animation, duration, lazy);
+			} else {
+				me.draw();
+
+				// See https://github.com/chartjs/Chart.js/issues/3781
+				onComplete(new Chart.Animation({numSteps: 0, chart: me}));
+			}
+
+			return me;
+		},
+
+		draw: function(easingValue) {
+			var me = this;
+
+			me.clear();
+
+			if (helpers.isNullOrUndef(easingValue)) {
+				easingValue = 1;
+			}
+
+			me.transition(easingValue);
+
+			if (plugins.notify(me, 'beforeDraw', [easingValue]) === false) {
+				return;
+			}
+
+			// Draw all the scales
+			helpers.each(me.boxes, function(box) {
+				box.draw(me.chartArea);
+			}, me);
+
+			if (me.scale) {
+				me.scale.draw();
+			}
+
+			me.drawDatasets(easingValue);
+			me._drawTooltip(easingValue);
+
+			plugins.notify(me, 'afterDraw', [easingValue]);
+		},
+
+		/**
+		 * @private
+		 */
+		transition: function(easingValue) {
+			var me = this;
+
+			for (var i = 0, ilen = (me.data.datasets || []).length; i < ilen; ++i) {
+				if (me.isDatasetVisible(i)) {
+					me.getDatasetMeta(i).controller.transition(easingValue);
+				}
+			}
+
+			me.tooltip.transition(easingValue);
+		},
+
+		/**
+		 * Draws all datasets unless a plugin returns `false` to the `beforeDatasetsDraw`
+		 * hook, in which case, plugins will not be called on `afterDatasetsDraw`.
+		 * @private
+		 */
+		drawDatasets: function(easingValue) {
+			var me = this;
+
+			if (plugins.notify(me, 'beforeDatasetsDraw', [easingValue]) === false) {
+				return;
+			}
+
+			// Draw datasets reversed to support proper line stacking
+			for (var i = (me.data.datasets || []).length - 1; i >= 0; --i) {
+				if (me.isDatasetVisible(i)) {
+					me.drawDataset(i, easingValue);
+				}
+			}
+
+			plugins.notify(me, 'afterDatasetsDraw', [easingValue]);
+		},
+
+		/**
+		 * Draws dataset at index unless a plugin returns `false` to the `beforeDatasetDraw`
+		 * hook, in which case, plugins will not be called on `afterDatasetDraw`.
+		 * @private
+		 */
+		drawDataset: function(index, easingValue) {
+			var me = this;
+			var meta = me.getDatasetMeta(index);
+			var args = {
+				meta: meta,
+				index: index,
+				easingValue: easingValue
+			};
+
+			if (plugins.notify(me, 'beforeDatasetDraw', [args]) === false) {
+				return;
+			}
+
+			meta.controller.draw(easingValue);
+
+			plugins.notify(me, 'afterDatasetDraw', [args]);
+		},
+
+		/**
+		 * Draws tooltip unless a plugin returns `false` to the `beforeTooltipDraw`
+		 * hook, in which case, plugins will not be called on `afterTooltipDraw`.
+		 * @private
+		 */
+		_drawTooltip: function(easingValue) {
+			var me = this;
+			var tooltip = me.tooltip;
+			var args = {
+				tooltip: tooltip,
+				easingValue: easingValue
+			};
+
+			if (plugins.notify(me, 'beforeTooltipDraw', [args]) === false) {
+				return;
+			}
+
+			tooltip.draw();
+
+			plugins.notify(me, 'afterTooltipDraw', [args]);
+		},
+
+		// Get the single element that was clicked on
+		// @return : An object containing the dataset index and element index of the matching element. Also contains the rectangle that was draw
+		getElementAtEvent: function(e) {
+			return Interaction.modes.single(this, e);
+		},
+
+		getElementsAtEvent: function(e) {
+			return Interaction.modes.label(this, e, {intersect: true});
+		},
+
+		getElementsAtXAxis: function(e) {
+			return Interaction.modes['x-axis'](this, e, {intersect: true});
+		},
+
+		getElementsAtEventForMode: function(e, mode, options) {
+			var method = Interaction.modes[mode];
+			if (typeof method === 'function') {
+				return method(this, e, options);
+			}
+
+			return [];
+		},
+
+		getDatasetAtEvent: function(e) {
+			return Interaction.modes.dataset(this, e, {intersect: true});
+		},
+
+		getDatasetMeta: function(datasetIndex) {
+			var me = this;
+			var dataset = me.data.datasets[datasetIndex];
+			if (!dataset._meta) {
+				dataset._meta = {};
+			}
+
+			var meta = dataset._meta[me.id];
+			if (!meta) {
+				meta = dataset._meta[me.id] = {
+					type: null,
+					data: [],
+					dataset: null,
+					controller: null,
+					hidden: null,			// See isDatasetVisible() comment
+					xAxisID: null,
+					yAxisID: null
+				};
+			}
+
+			return meta;
+		},
+
+		getVisibleDatasetCount: function() {
+			var count = 0;
+			for (var i = 0, ilen = this.data.datasets.length; i < ilen; ++i) {
+				if (this.isDatasetVisible(i)) {
+					count++;
+				}
+			}
+			return count;
+		},
+
+		isDatasetVisible: function(datasetIndex) {
+			var meta = this.getDatasetMeta(datasetIndex);
+
+			// meta.hidden is a per chart dataset hidden flag override with 3 states: if true or false,
+			// the dataset.hidden value is ignored, else if null, the dataset hidden state is returned.
+			return typeof meta.hidden === 'boolean' ? !meta.hidden : !this.data.datasets[datasetIndex].hidden;
+		},
+
+		generateLegend: function() {
+			return this.options.legendCallback(this);
+		},
+
+		/**
+		 * @private
+		 */
+		destroyDatasetMeta: function(datasetIndex) {
+			var id = this.id;
+			var dataset = this.data.datasets[datasetIndex];
+			var meta = dataset._meta && dataset._meta[id];
+
+			if (meta) {
+				meta.controller.destroy();
+				delete dataset._meta[id];
+			}
+		},
+
+		destroy: function() {
+			var me = this;
+			var canvas = me.canvas;
+			var i, ilen;
+
+			me.stop();
+
+			// dataset controllers need to cleanup associated data
+			for (i = 0, ilen = me.data.datasets.length; i < ilen; ++i) {
+				me.destroyDatasetMeta(i);
+			}
+
+			if (canvas) {
+				me.unbindEvents();
+				helpers.canvas.clear(me);
+				platform.releaseContext(me.ctx);
+				me.canvas = null;
+				me.ctx = null;
+			}
+
+			plugins.notify(me, 'destroy');
+
+			delete Chart.instances[me.id];
+		},
+
+		toBase64Image: function() {
+			return this.canvas.toDataURL.apply(this.canvas, arguments);
+		},
+
+		initToolTip: function() {
+			var me = this;
+			me.tooltip = new Chart.Tooltip({
+				_chart: me,
+				_chartInstance: me, // deprecated, backward compatibility
+				_data: me.data,
+				_options: me.options.tooltips
+			}, me);
+		},
+
+		/**
+		 * @private
+		 */
+		bindEvents: function() {
+			var me = this;
+			var listeners = me._listeners = {};
+			var listener = function() {
+				me.eventHandler.apply(me, arguments);
+			};
+
+			helpers.each(me.options.events, function(type) {
+				platform.addEventListener(me, type, listener);
+				listeners[type] = listener;
+			});
+
+			// Elements used to detect size change should not be injected for non responsive charts.
+			// See https://github.com/chartjs/Chart.js/issues/2210
+			if (me.options.responsive) {
+				listener = function() {
+					me.resize();
+				};
+
+				platform.addEventListener(me, 'resize', listener);
+				listeners.resize = listener;
+			}
+		},
+
+		/**
+		 * @private
+		 */
+		unbindEvents: function() {
+			var me = this;
+			var listeners = me._listeners;
+			if (!listeners) {
+				return;
+			}
+
+			delete me._listeners;
+			helpers.each(listeners, function(listener, type) {
+				platform.removeEventListener(me, type, listener);
+			});
+		},
+
+		updateHoverStyle: function(elements, mode, enabled) {
+			var method = enabled ? 'setHoverStyle' : 'removeHoverStyle';
+			var element, i, ilen;
+
+			for (i = 0, ilen = elements.length; i < ilen; ++i) {
+				element = elements[i];
+				if (element) {
+					this.getDatasetMeta(element._datasetIndex).controller[method](element);
+				}
+			}
+		},
+
+		/**
+		 * @private
+		 */
+		eventHandler: function(e) {
+			var me = this;
+			var tooltip = me.tooltip;
+
+			if (plugins.notify(me, 'beforeEvent', [e]) === false) {
+				return;
+			}
+
+			// Buffer any update calls so that renders do not occur
+			me._bufferedRender = true;
+			me._bufferedRequest = null;
+
+			var changed = me.handleEvent(e);
+			// for smooth tooltip animations issue #4989
+			// the tooltip should be the source of change
+			// Animation check workaround:
+			// tooltip._start will be null when tooltip isn't animating
+			if (tooltip) {
+				changed = tooltip._start
+					? tooltip.handleEvent(e)
+					: changed | tooltip.handleEvent(e);
+			}
+
+			plugins.notify(me, 'afterEvent', [e]);
+
+			var bufferedRequest = me._bufferedRequest;
+			if (bufferedRequest) {
+				// If we have an update that was triggered, we need to do a normal render
+				me.render(bufferedRequest);
+			} else if (changed && !me.animating) {
+				// If entering, leaving, or changing elements, animate the change via pivot
+				me.stop();
+
+				// We only need to render at this point. Updating will cause scales to be
+				// recomputed generating flicker & using more memory than necessary.
+				me.render(me.options.hover.animationDuration, true);
+			}
+
+			me._bufferedRender = false;
+			me._bufferedRequest = null;
+
+			return me;
+		},
+
+		/**
+		 * Handle an event
+		 * @private
+		 * @param {IEvent} event the event to handle
+		 * @return {Boolean} true if the chart needs to re-render
+		 */
+		handleEvent: function(e) {
+			var me = this;
+			var options = me.options || {};
+			var hoverOptions = options.hover;
+			var changed = false;
+
+			me.lastActive = me.lastActive || [];
+
+			// Find Active Elements for hover and tooltips
+			if (e.type === 'mouseout') {
+				me.active = [];
+			} else {
+				me.active = me.getElementsAtEventForMode(e, hoverOptions.mode, hoverOptions);
+			}
+
+			// Invoke onHover hook
+			// Need to call with native event here to not break backwards compatibility
+			helpers.callback(options.onHover || options.hover.onHover, [e.native, me.active], me);
+
+			if (e.type === 'mouseup' || e.type === 'click') {
+				if (options.onClick) {
+					// Use e.native here for backwards compatibility
+					options.onClick.call(me, e.native, me.active);
+				}
+			}
+
+			// Remove styling for last active (even if it may still be active)
+			if (me.lastActive.length) {
+				me.updateHoverStyle(me.lastActive, hoverOptions.mode, false);
+			}
+
+			// Built in hover styling
+			if (me.active.length && hoverOptions.mode) {
+				me.updateHoverStyle(me.active, hoverOptions.mode, true);
+			}
+
+			changed = !helpers.arrayEquals(me.active, me.lastActive);
+
+			// Remember Last Actives
+			me.lastActive = me.active;
+
+			return changed;
+		}
+	});
+
+	/**
+	 * Provided for backward compatibility, use Chart instead.
+	 * @class Chart.Controller
+	 * @deprecated since version 2.6.0
+	 * @todo remove at version 3
+	 * @private
+	 */
+	Chart.Controller = Chart;
+};
+
+},{"../helpers/index":39,"../platforms/platform":42,"./core.defaults":19,"./core.interaction":22,"./core.layouts":24,"./core.plugins":25}],18:[function(require,module,exports){
+'use strict';
+
+var helpers = require('../helpers/index');
+
+module.exports = function(Chart) {
+
+	var arrayEvents = ['push', 'pop', 'shift', 'splice', 'unshift'];
+
+	/**
+	 * Hooks the array methods that add or remove values ('push', pop', 'shift', 'splice',
+	 * 'unshift') and notify the listener AFTER the array has been altered. Listeners are
+	 * called on the 'onData*' callbacks (e.g. onDataPush, etc.) with same arguments.
+	 */
+	function listenArrayEvents(array, listener) {
+		if (array._chartjs) {
+			array._chartjs.listeners.push(listener);
+			return;
+		}
+
+		Object.defineProperty(array, '_chartjs', {
+			configurable: true,
+			enumerable: false,
+			value: {
+				listeners: [listener]
+			}
+		});
+
+		arrayEvents.forEach(function(key) {
+			var method = 'onData' + key.charAt(0).toUpperCase() + key.slice(1);
+			var base = array[key];
+
+			Object.defineProperty(array, key, {
+				configurable: true,
+				enumerable: false,
+				value: function() {
+					var args = Array.prototype.slice.call(arguments);
+					var res = base.apply(this, args);
+
+					helpers.each(array._chartjs.listeners, function(object) {
+						if (typeof object[method] === 'function') {
+							object[method].apply(object, args);
+						}
+					});
+
+					return res;
+				}
+			});
+		});
+	}
+
+	/**
+	 * Removes the given array event listener and cleanup extra attached properties (such as
+	 * the _chartjs stub and overridden methods) if array doesn't have any more listeners.
+	 */
+	function unlistenArrayEvents(array, listener) {
+		var stub = array._chartjs;
+		if (!stub) {
+			return;
+		}
+
+		var listeners = stub.listeners;
+		var index = listeners.indexOf(listener);
+		if (index !== -1) {
+			listeners.splice(index, 1);
+		}
+
+		if (listeners.length > 0) {
+			return;
+		}
+
+		arrayEvents.forEach(function(key) {
+			delete array[key];
+		});
+
+		delete array._chartjs;
+	}
+
+	// Base class for all dataset controllers (line, bar, etc)
+	Chart.DatasetController = function(chart, datasetIndex) {
+		this.initialize(chart, datasetIndex);
+	};
+
+	helpers.extend(Chart.DatasetController.prototype, {
+
+		/**
+		 * Element type used to generate a meta dataset (e.g. Chart.element.Line).
+		 * @type {Chart.core.element}
+		 */
+		datasetElementType: null,
+
+		/**
+		 * Element type used to generate a meta data (e.g. Chart.element.Point).
+		 * @type {Chart.core.element}
+		 */
+		dataElementType: null,
+
+		initialize: function(chart, datasetIndex) {
+			var me = this;
+			me.chart = chart;
+			me.index = datasetIndex;
+			me.linkScales();
+			me.addElements();
+		},
+
+		updateIndex: function(datasetIndex) {
+			this.index = datasetIndex;
+		},
+
+		linkScales: function() {
+			var me = this;
+			var meta = me.getMeta();
+			var dataset = me.getDataset();
+
+			if (meta.xAxisID === null || !(meta.xAxisID in me.chart.scales)) {
+				meta.xAxisID = dataset.xAxisID || me.chart.options.scales.xAxes[0].id;
+			}
+			if (meta.yAxisID === null || !(meta.yAxisID in me.chart.scales)) {
+				meta.yAxisID = dataset.yAxisID || me.chart.options.scales.yAxes[0].id;
+			}
+		},
+
+		getDataset: function() {
+			return this.chart.data.datasets[this.index];
+		},
+
+		getMeta: function() {
+			return this.chart.getDatasetMeta(this.index);
+		},
+
+		getScaleForId: function(scaleID) {
+			return this.chart.scales[scaleID];
+		},
+
+		reset: function() {
+			this.update(true);
+		},
+
+		/**
+		 * @private
+		 */
+		destroy: function() {
+			if (this._data) {
+				unlistenArrayEvents(this._data, this);
+			}
+		},
+
+		createMetaDataset: function() {
+			var me = this;
+			var type = me.datasetElementType;
+			return type && new type({
+				_chart: me.chart,
+				_datasetIndex: me.index
+			});
+		},
+
+		createMetaData: function(index) {
+			var me = this;
+			var type = me.dataElementType;
+			return type && new type({
+				_chart: me.chart,
+				_datasetIndex: me.index,
+				_index: index
+			});
+		},
+
+		addElements: function() {
+			var me = this;
+			var meta = me.getMeta();
+			var data = me.getDataset().data || [];
+			var metaData = meta.data;
+			var i, ilen;
+
+			for (i = 0, ilen = data.length; i < ilen; ++i) {
+				metaData[i] = metaData[i] || me.createMetaData(i);
+			}
+
+			meta.dataset = meta.dataset || me.createMetaDataset();
+		},
+
+		addElementAndReset: function(index) {
+			var element = this.createMetaData(index);
+			this.getMeta().data.splice(index, 0, element);
+			this.updateElement(element, index, true);
+		},
+
+		buildOrUpdateElements: function() {
+			var me = this;
+			var dataset = me.getDataset();
+			var data = dataset.data || (dataset.data = []);
+
+			// In order to correctly handle data addition/deletion animation (an thus simulate
+			// real-time charts), we need to monitor these data modifications and synchronize
+			// the internal meta data accordingly.
+			if (me._data !== data) {
+				if (me._data) {
+					// This case happens when the user replaced the data array instance.
+					unlistenArrayEvents(me._data, me);
+				}
+
+				listenArrayEvents(data, me);
+				me._data = data;
+			}
+
+			// Re-sync meta data in case the user replaced the data array or if we missed
+			// any updates and so make sure that we handle number of datapoints changing.
+			me.resyncElements();
+		},
+
+		update: helpers.noop,
+
+		transition: function(easingValue) {
+			var meta = this.getMeta();
+			var elements = meta.data || [];
+			var ilen = elements.length;
+			var i = 0;
+
+			for (; i < ilen; ++i) {
+				elements[i].transition(easingValue);
+			}
+
+			if (meta.dataset) {
+				meta.dataset.transition(easingValue);
+			}
+		},
+
+		draw: function() {
+			var meta = this.getMeta();
+			var elements = meta.data || [];
+			var ilen = elements.length;
+			var i = 0;
+
+			if (meta.dataset) {
+				meta.dataset.draw();
+			}
+
+			for (; i < ilen; ++i) {
+				elements[i].draw();
+			}
+		},
+
+		removeHoverStyle: function(element, elementOpts) {
+			var dataset = this.chart.data.datasets[element._datasetIndex];
+			var index = element._index;
+			var custom = element.custom || {};
+			var valueOrDefault = helpers.valueAtIndexOrDefault;
+			var model = element._model;
+
+			model.backgroundColor = custom.backgroundColor ? custom.backgroundColor : valueOrDefault(dataset.backgroundColor, index, elementOpts.backgroundColor);
+			model.borderColor = custom.borderColor ? custom.borderColor : valueOrDefault(dataset.borderColor, index, elementOpts.borderColor);
+			model.borderWidth = custom.borderWidth ? custom.borderWidth : valueOrDefault(dataset.borderWidth, index, elementOpts.borderWidth);
+		},
+
+		setHoverStyle: function(element) {
+			var dataset = this.chart.data.datasets[element._datasetIndex];
+			var index = element._index;
+			var custom = element.custom || {};
+			var valueOrDefault = helpers.valueAtIndexOrDefault;
+			var getHoverColor = helpers.getHoverColor;
+			var model = element._model;
+
+			model.backgroundColor = custom.hoverBackgroundColor ? custom.hoverBackgroundColor : valueOrDefault(dataset.hoverBackgroundColor, index, getHoverColor(model.backgroundColor));
+			model.borderColor = custom.hoverBorderColor ? custom.hoverBorderColor : valueOrDefault(dataset.hoverBorderColor, index, getHoverColor(model.borderColor));
+			model.borderWidth = custom.hoverBorderWidth ? custom.hoverBorderWidth : valueOrDefault(dataset.hoverBorderWidth, index, model.borderWidth);
+		},
+
+		/**
+		 * @private
+		 */
+		resyncElements: function() {
+			var me = this;
+			var meta = me.getMeta();
+			var data = me.getDataset().data;
+			var numMeta = meta.data.length;
+			var numData = data.length;
+
+			if (numData < numMeta) {
+				meta.data.splice(numData, numMeta - numData);
+			} else if (numData > numMeta) {
+				me.insertElements(numMeta, numData - numMeta);
+			}
+		},
+
+		/**
+		 * @private
+		 */
+		insertElements: function(start, count) {
+			for (var i = 0; i < count; ++i) {
+				this.addElementAndReset(start + i);
+			}
+		},
+
+		/**
+		 * @private
+		 */
+		onDataPush: function() {
+			this.insertElements(this.getDataset().data.length - 1, arguments.length);
+		},
+
+		/**
+		 * @private
+		 */
+		onDataPop: function() {
+			this.getMeta().data.pop();
+		},
+
+		/**
+		 * @private
+		 */
+		onDataShift: function() {
+			this.getMeta().data.shift();
+		},
+
+		/**
+		 * @private
+		 */
+		onDataSplice: function(start, count) {
+			this.getMeta().data.splice(start, count);
+			this.insertElements(start, arguments.length - 2);
+		},
+
+		/**
+		 * @private
+		 */
+		onDataUnshift: function() {
+			this.insertElements(0, arguments.length);
+		}
+	});
+
+	Chart.DatasetController.extend = helpers.inherits;
+};
+
+},{"../helpers/index":39}],19:[function(require,module,exports){
+'use strict';
+
+var helpers = require('../helpers/index');
+
+module.exports = {
+	/**
+	 * @private
+	 */
+	_set: function(scope, values) {
+		return helpers.merge(this[scope] || (this[scope] = {}), values);
+	}
+};
+
+},{"../helpers/index":39}],20:[function(require,module,exports){
+'use strict';
+
+var color = require('chartjs-color');
+var helpers = require('../helpers/index');
+
+function interpolate(start, view, model, ease) {
+	var keys = Object.keys(model);
+	var i, ilen, key, actual, origin, target, type, c0, c1;
+
+	for (i = 0, ilen = keys.length; i < ilen; ++i) {
+		key = keys[i];
+
+		target = model[key];
+
+		// if a value is added to the model after pivot() has been called, the view
+		// doesn't contain it, so let's initialize the view to the target value.
+		if (!view.hasOwnProperty(key)) {
+			view[key] = target;
+		}
+
+		actual = view[key];
+
+		if (actual === target || key[0] === '_') {
+			continue;
+		}
+
+		if (!start.hasOwnProperty(key)) {
+			start[key] = actual;
+		}
+
+		origin = start[key];
+
+		type = typeof target;
+
+		if (type === typeof origin) {
+			if (type === 'string') {
+				c0 = color(origin);
+				if (c0.valid) {
+					c1 = color(target);
+					if (c1.valid) {
+						view[key] = c1.mix(c0, ease).rgbString();
+						continue;
+					}
+				}
+			} else if (type === 'number' && isFinite(origin) && isFinite(target)) {
+				view[key] = origin + (target - origin) * ease;
+				continue;
+			}
+		}
+
+		view[key] = target;
+	}
+}
+
+var Element = function(configuration) {
+	helpers.extend(this, configuration);
+	this.initialize.apply(this, arguments);
+};
+
+helpers.extend(Element.prototype, {
+
+	initialize: function() {
+		this.hidden = false;
+	},
+
+	pivot: function() {
+		var me = this;
+		if (!me._view) {
+			me._view = helpers.clone(me._model);
+		}
+		me._start = {};
+		return me;
+	},
+
+	transition: function(ease) {
+		var me = this;
+		var model = me._model;
+		var start = me._start;
+		var view = me._view;
+
+		// No animation -> No Transition
+		if (!model || ease === 1) {
+			me._view = model;
+			me._start = null;
+			return me;
+		}
+
+		if (!view) {
+			view = me._view = {};
+		}
+
+		if (!start) {
+			start = me._start = {};
+		}
+
+		interpolate(start, view, model, ease);
+
+		return me;
+	},
+
+	tooltipPosition: function() {
+		return {
+			x: this._model.x,
+			y: this._model.y
+		};
+	},
+
+	hasValue: function() {
+		return helpers.isNumber(this._model.x) && helpers.isNumber(this._model.y);
+	}
+});
+
+Element.extend = helpers.inherits;
+
+module.exports = Element;
+
+},{"../helpers/index":39,"chartjs-color":54}],21:[function(require,module,exports){
+/* global window: false */
+/* global document: false */
+'use strict';
+
+var color = require('chartjs-color');
+var defaults = require('./core.defaults');
+var helpers = require('../helpers/index');
+
+module.exports = function(Chart) {
+
+	// -- Basic js utility methods
+
+	helpers.configMerge = function(/* objects ... */) {
+		return helpers.merge(helpers.clone(arguments[0]), [].slice.call(arguments, 1), {
+			merger: function(key, target, source, options) {
+				var tval = target[key] || {};
+				var sval = source[key];
+
+				if (key === 'scales') {
+					// scale config merging is complex. Add our own function here for that
+					target[key] = helpers.scaleMerge(tval, sval);
+				} else if (key === 'scale') {
+					// used in polar area & radar charts since there is only one scale
+					target[key] = helpers.merge(tval, [Chart.scaleService.getScaleDefaults(sval.type), sval]);
+				} else {
+					helpers._merger(key, target, source, options);
+				}
+			}
+		});
+	};
+
+	helpers.scaleMerge = function(/* objects ... */) {
+		return helpers.merge(helpers.clone(arguments[0]), [].slice.call(arguments, 1), {
+			merger: function(key, target, source, options) {
+				if (key === 'xAxes' || key === 'yAxes') {
+					var slen = source[key].length;
+					var i, type, scale;
+
+					if (!target[key]) {
+						target[key] = [];
+					}
+
+					for (i = 0; i < slen; ++i) {
+						scale = source[key][i];
+						type = helpers.valueOrDefault(scale.type, key === 'xAxes' ? 'category' : 'linear');
+
+						if (i >= target[key].length) {
+							target[key].push({});
+						}
+
+						if (!target[key][i].type || (scale.type && scale.type !== target[key][i].type)) {
+							// new/untyped scale or type changed: let's apply the new defaults
+							// then merge source scale to correctly overwrite the defaults.
+							helpers.merge(target[key][i], [Chart.scaleService.getScaleDefaults(type), scale]);
+						} else {
+							// scales type are the same
+							helpers.merge(target[key][i], scale);
+						}
+					}
+				} else {
+					helpers._merger(key, target, source, options);
+				}
+			}
+		});
+	};
+
+	helpers.where = function(collection, filterCallback) {
+		if (helpers.isArray(collection) && Array.prototype.filter) {
+			return collection.filter(filterCallback);
+		}
+		var filtered = [];
+
+		helpers.each(collection, function(item) {
+			if (filterCallback(item)) {
+				filtered.push(item);
+			}
+		});
+
+		return filtered;
+	};
+	helpers.findIndex = Array.prototype.findIndex ?
+		function(array, callback, scope) {
+			return array.findIndex(callback, scope);
+		} :
+		function(array, callback, scope) {
+			scope = scope === undefined ? array : scope;
+			for (var i = 0, ilen = array.length; i < ilen; ++i) {
+				if (callback.call(scope, array[i], i, array)) {
+					return i;
+				}
+			}
+			return -1;
+		};
+	helpers.findNextWhere = function(arrayToSearch, filterCallback, startIndex) {
+		// Default to start of the array
+		if (helpers.isNullOrUndef(startIndex)) {
+			startIndex = -1;
+		}
+		for (var i = startIndex + 1; i < arrayToSearch.length; i++) {
+			var currentItem = arrayToSearch[i];
+			if (filterCallback(currentItem)) {
+				return currentItem;
+			}
+		}
+	};
+	helpers.findPreviousWhere = function(arrayToSearch, filterCallback, startIndex) {
+		// Default to end of the array
+		if (helpers.isNullOrUndef(startIndex)) {
+			startIndex = arrayToSearch.length;
+		}
+		for (var i = startIndex - 1; i >= 0; i--) {
+			var currentItem = arrayToSearch[i];
+			if (filterCallback(currentItem)) {
+				return currentItem;
+			}
+		}
+	};
+
+	// -- Math methods
+	helpers.isNumber = function(n) {
+		return !isNaN(parseFloat(n)) && isFinite(n);
+	};
+	helpers.almostEquals = function(x, y, epsilon) {
+		return Math.abs(x - y) < epsilon;
+	};
+	helpers.almostWhole = function(x, epsilon) {
+		var rounded = Math.round(x);
+		return (((rounded - epsilon) < x) && ((rounded + epsilon) > x));
+	};
+	helpers.max = function(array) {
+		return array.reduce(function(max, value) {
+			if (!isNaN(value)) {
+				return Math.max(max, value);
+			}
+			return max;
+		}, Number.NEGATIVE_INFINITY);
+	};
+	helpers.min = function(array) {
+		return array.reduce(function(min, value) {
+			if (!isNaN(value)) {
+				return Math.min(min, value);
+			}
+			return min;
+		}, Number.POSITIVE_INFINITY);
+	};
+	helpers.sign = Math.sign ?
+		function(x) {
+			return Math.sign(x);
+		} :
+		function(x) {
+			x = +x; // convert to a number
+			if (x === 0 || isNaN(x)) {
+				return x;
+			}
+			return x > 0 ? 1 : -1;
+		};
+	helpers.log10 = Math.log10 ?
+		function(x) {
+			return Math.log10(x);
+		} :
+		function(x) {
+			var exponent = Math.log(x) * Math.LOG10E; // Math.LOG10E = 1 / Math.LN10.
+			// Check for whole powers of 10,
+			// which due to floating point rounding error should be corrected.
+			var powerOf10 = Math.round(exponent);
+			var isPowerOf10 = x === Math.pow(10, powerOf10);
+
+			return isPowerOf10 ? powerOf10 : exponent;
+		};
+	helpers.toRadians = function(degrees) {
+		return degrees * (Math.PI / 180);
+	};
+	helpers.toDegrees = function(radians) {
+		return radians * (180 / Math.PI);
+	};
+	// Gets the angle from vertical upright to the point about a centre.
+	helpers.getAngleFromPoint = function(centrePoint, anglePoint) {
+		var distanceFromXCenter = anglePoint.x - centrePoint.x;
+		var distanceFromYCenter = anglePoint.y - centrePoint.y;
+		var radialDistanceFromCenter = Math.sqrt(distanceFromXCenter * distanceFromXCenter + distanceFromYCenter * distanceFromYCenter);
+
+		var angle = Math.atan2(distanceFromYCenter, distanceFromXCenter);
+
+		if (angle < (-0.5 * Math.PI)) {
+			angle += 2.0 * Math.PI; // make sure the returned angle is in the range of (-PI/2, 3PI/2]
+		}
+
+		return {
+			angle: angle,
+			distance: radialDistanceFromCenter
+		};
+	};
+	helpers.distanceBetweenPoints = function(pt1, pt2) {
+		return Math.sqrt(Math.pow(pt2.x - pt1.x, 2) + Math.pow(pt2.y - pt1.y, 2));
+	};
+	helpers.aliasPixel = function(pixelWidth) {
+		return (pixelWidth % 2 === 0) ? 0 : 0.5;
+	};
+	helpers.splineCurve = function(firstPoint, middlePoint, afterPoint, t) {
+		// Props to Rob Spencer at scaled innovation for his post on splining between points
+		// http://scaledinnovation.com/analytics/splines/aboutSplines.html
+
+		// This function must also respect "skipped" points
+
+		var previous = firstPoint.skip ? middlePoint : firstPoint;
+		var current = middlePoint;
+		var next = afterPoint.skip ? middlePoint : afterPoint;
+
+		var d01 = Math.sqrt(Math.pow(current.x - previous.x, 2) + Math.pow(current.y - previous.y, 2));
+		var d12 = Math.sqrt(Math.pow(next.x - current.x, 2) + Math.pow(next.y - current.y, 2));
+
+		var s01 = d01 / (d01 + d12);
+		var s12 = d12 / (d01 + d12);
+
+		// If all points are the same, s01 & s02 will be inf
+		s01 = isNaN(s01) ? 0 : s01;
+		s12 = isNaN(s12) ? 0 : s12;
+
+		var fa = t * s01; // scaling factor for triangle Ta
+		var fb = t * s12;
+
+		return {
+			previous: {
+				x: current.x - fa * (next.x - previous.x),
+				y: current.y - fa * (next.y - previous.y)
+			},
+			next: {
+				x: current.x + fb * (next.x - previous.x),
+				y: current.y + fb * (next.y - previous.y)
+			}
+		};
+	};
+	helpers.EPSILON = Number.EPSILON || 1e-14;
+	helpers.splineCurveMonotone = function(points) {
+		// This function calculates Bézier control points in a similar way than |splineCurve|,
+		// but preserves monotonicity of the provided data and ensures no local extremums are added
+		// between the dataset discrete points due to the interpolation.
+		// See : https://en.wikipedia.org/wiki/Monotone_cubic_interpolation
+
+		var pointsWithTangents = (points || []).map(function(point) {
+			return {
+				model: point._model,
+				deltaK: 0,
+				mK: 0
+			};
+		});
+
+		// Calculate slopes (deltaK) and initialize tangents (mK)
+		var pointsLen = pointsWithTangents.length;
+		var i, pointBefore, pointCurrent, pointAfter;
+		for (i = 0; i < pointsLen; ++i) {
+			pointCurrent = pointsWithTangents[i];
+			if (pointCurrent.model.skip) {
+				continue;
+			}
+
+			pointBefore = i > 0 ? pointsWithTangents[i - 1] : null;
+			pointAfter = i < pointsLen - 1 ? pointsWithTangents[i + 1] : null;
+			if (pointAfter && !pointAfter.model.skip) {
+				var slopeDeltaX = (pointAfter.model.x - pointCurrent.model.x);
+
+				// In the case of two points that appear at the same x pixel, slopeDeltaX is 0
+				pointCurrent.deltaK = slopeDeltaX !== 0 ? (pointAfter.model.y - pointCurrent.model.y) / slopeDeltaX : 0;
+			}
+
+			if (!pointBefore || pointBefore.model.skip) {
+				pointCurrent.mK = pointCurrent.deltaK;
+			} else if (!pointAfter || pointAfter.model.skip) {
+				pointCurrent.mK = pointBefore.deltaK;
+			} else if (this.sign(pointBefore.deltaK) !== this.sign(pointCurrent.deltaK)) {
+				pointCurrent.mK = 0;
+			} else {
+				pointCurrent.mK = (pointBefore.deltaK + pointCurrent.deltaK) / 2;
+			}
+		}
+
+		// Adjust tangents to ensure monotonic properties
+		var alphaK, betaK, tauK, squaredMagnitude;
+		for (i = 0; i < pointsLen - 1; ++i) {
+			pointCurrent = pointsWithTangents[i];
+			pointAfter = pointsWithTangents[i + 1];
+			if (pointCurrent.model.skip || pointAfter.model.skip) {
+				continue;
+			}
+
+			if (helpers.almostEquals(pointCurrent.deltaK, 0, this.EPSILON)) {
+				pointCurrent.mK = pointAfter.mK = 0;
+				continue;
+			}
+
+			alphaK = pointCurrent.mK / pointCurrent.deltaK;
+			betaK = pointAfter.mK / pointCurrent.deltaK;
+			squaredMagnitude = Math.pow(alphaK, 2) + Math.pow(betaK, 2);
+			if (squaredMagnitude <= 9) {
+				continue;
+			}
+
+			tauK = 3 / Math.sqrt(squaredMagnitude);
+			pointCurrent.mK = alphaK * tauK * pointCurrent.deltaK;
+			pointAfter.mK = betaK * tauK * pointCurrent.deltaK;
+		}
+
+		// Compute control points
+		var deltaX;
+		for (i = 0; i < pointsLen; ++i) {
+			pointCurrent = pointsWithTangents[i];
+			if (pointCurrent.model.skip) {
+				continue;
+			}
+
+			pointBefore = i > 0 ? pointsWithTangents[i - 1] : null;
+			pointAfter = i < pointsLen - 1 ? pointsWithTangents[i + 1] : null;
+			if (pointBefore && !pointBefore.model.skip) {
+				deltaX = (pointCurrent.model.x - pointBefore.model.x) / 3;
+				pointCurrent.model.controlPointPreviousX = pointCurrent.model.x - deltaX;
+				pointCurrent.model.controlPointPreviousY = pointCurrent.model.y - deltaX * pointCurrent.mK;
+			}
+			if (pointAfter && !pointAfter.model.skip) {
+				deltaX = (pointAfter.model.x - pointCurrent.model.x) / 3;
+				pointCurrent.model.controlPointNextX = pointCurrent.model.x + deltaX;
+				pointCurrent.model.controlPointNextY = pointCurrent.model.y + deltaX * pointCurrent.mK;
+			}
+		}
+	};
+	helpers.nextItem = function(collection, index, loop) {
+		if (loop) {
+			return index >= collection.length - 1 ? collection[0] : collection[index + 1];
+		}
+		return index >= collection.length - 1 ? collection[collection.length - 1] : collection[index + 1];
+	};
+	helpers.previousItem = function(collection, index, loop) {
+		if (loop) {
+			return index <= 0 ? collection[collection.length - 1] : collection[index - 1];
+		}
+		return index <= 0 ? collection[0] : collection[index - 1];
+	};
+	// Implementation of the nice number algorithm used in determining where axis labels will go
+	helpers.niceNum = function(range, round) {
+		var exponent = Math.floor(helpers.log10(range));
+		var fraction = range / Math.pow(10, exponent);
+		var niceFraction;
+
+		if (round) {
+			if (fraction < 1.5) {
+				niceFraction = 1;
+			} else if (fraction < 3) {
+				niceFraction = 2;
+			} else if (fraction < 7) {
+				niceFraction = 5;
+			} else {
+				niceFraction = 10;
+			}
+		} else if (fraction <= 1.0) {
+			niceFraction = 1;
+		} else if (fraction <= 2) {
+			niceFraction = 2;
+		} else if (fraction <= 5) {
+			niceFraction = 5;
+		} else {
+			niceFraction = 10;
+		}
+
+		return niceFraction * Math.pow(10, exponent);
+	};
+	// Request animation polyfill - http://www.paulirish.com/2011/requestanimationframe-for-smart-animating/
+	helpers.requestAnimFrame = (function() {
+		if (typeof window === 'undefined') {
+			return function(callback) {
+				callback();
+			};
+		}
+		return window.requestAnimationFrame ||
+			window.webkitRequestAnimationFrame ||
+			window.mozRequestAnimationFrame ||
+			window.oRequestAnimationFrame ||
+			window.msRequestAnimationFrame ||
+			function(callback) {
+				return window.setTimeout(callback, 1000 / 60);
+			};
+	}());
+	// -- DOM methods
+	helpers.getRelativePosition = function(evt, chart) {
+		var mouseX, mouseY;
+		var e = evt.originalEvent || evt;
+		var canvas = evt.currentTarget || evt.srcElement;
+		var boundingRect = canvas.getBoundingClientRect();
+
+		var touches = e.touches;
+		if (touches && touches.length > 0) {
+			mouseX = touches[0].clientX;
+			mouseY = touches[0].clientY;
+
+		} else {
+			mouseX = e.clientX;
+			mouseY = e.clientY;
+		}
+
+		// Scale mouse coordinates into canvas coordinates
+		// by following the pattern laid out by 'jerryj' in the comments of
+		// http://www.html5canvastutorials.com/advanced/html5-canvas-mouse-coordinates/
+		var paddingLeft = parseFloat(helpers.getStyle(canvas, 'padding-left'));
+		var paddingTop = parseFloat(helpers.getStyle(canvas, 'padding-top'));
+		var paddingRight = parseFloat(helpers.getStyle(canvas, 'padding-right'));
+		var paddingBottom = parseFloat(helpers.getStyle(canvas, 'padding-bottom'));
+		var width = boundingRect.right - boundingRect.left - paddingLeft - paddingRight;
+		var height = boundingRect.bottom - boundingRect.top - paddingTop - paddingBottom;
+
+		// We divide by the current device pixel ratio, because the canvas is scaled up by that amount in each direction. However
+		// the backend model is in unscaled coordinates. Since we are going to deal with our model coordinates, we go back here
+		mouseX = Math.round((mouseX - boundingRect.left - paddingLeft) / (width) * canvas.width / chart.currentDevicePixelRatio);
+		mouseY = Math.round((mouseY - boundingRect.top - paddingTop) / (height) * canvas.height / chart.currentDevicePixelRatio);
+
+		return {
+			x: mouseX,
+			y: mouseY
+		};
+
+	};
+
+	// Private helper function to convert max-width/max-height values that may be percentages into a number
+	function parseMaxStyle(styleValue, node, parentProperty) {
+		var valueInPixels;
+		if (typeof styleValue === 'string') {
+			valueInPixels = parseInt(styleValue, 10);
+
+			if (styleValue.indexOf('%') !== -1) {
+				// percentage * size in dimension
+				valueInPixels = valueInPixels / 100 * node.parentNode[parentProperty];
+			}
+		} else {
+			valueInPixels = styleValue;
+		}
+
+		return valueInPixels;
+	}
+
+	/**
+	 * Returns if the given value contains an effective constraint.
+	 * @private
+	 */
+	function isConstrainedValue(value) {
+		return value !== undefined && value !== null && value !== 'none';
+	}
+
+	// Private helper to get a constraint dimension
+	// @param domNode : the node to check the constraint on
+	// @param maxStyle : the style that defines the maximum for the direction we are using (maxWidth / maxHeight)
+	// @param percentageProperty : property of parent to use when calculating width as a percentage
+	// @see http://www.nathanaeljones.com/blog/2013/reading-max-width-cross-browser
+	function getConstraintDimension(domNode, maxStyle, percentageProperty) {
+		var view = document.defaultView;
+		var parentNode = domNode.parentNode;
+		var constrainedNode = view.getComputedStyle(domNode)[maxStyle];
+		var constrainedContainer = view.getComputedStyle(parentNode)[maxStyle];
+		var hasCNode = isConstrainedValue(constrainedNode);
+		var hasCContainer = isConstrainedValue(constrainedContainer);
+		var infinity = Number.POSITIVE_INFINITY;
+
+		if (hasCNode || hasCContainer) {
+			return Math.min(
+				hasCNode ? parseMaxStyle(constrainedNode, domNode, percentageProperty) : infinity,
+				hasCContainer ? parseMaxStyle(constrainedContainer, parentNode, percentageProperty) : infinity);
+		}
+
+		return 'none';
+	}
+	// returns Number or undefined if no constraint
+	helpers.getConstraintWidth = function(domNode) {
+		return getConstraintDimension(domNode, 'max-width', 'clientWidth');
+	};
+	// returns Number or undefined if no constraint
+	helpers.getConstraintHeight = function(domNode) {
+		return getConstraintDimension(domNode, 'max-height', 'clientHeight');
+	};
+	helpers.getMaximumWidth = function(domNode) {
+		var container = domNode.parentNode;
+		if (!container) {
+			return domNode.clientWidth;
+		}
+
+		var paddingLeft = parseInt(helpers.getStyle(container, 'padding-left'), 10);
+		var paddingRight = parseInt(helpers.getStyle(container, 'padding-right'), 10);
+		var w = container.clientWidth - paddingLeft - paddingRight;
+		var cw = helpers.getConstraintWidth(domNode);
+		return isNaN(cw) ? w : Math.min(w, cw);
+	};
+	helpers.getMaximumHeight = function(domNode) {
+		var container = domNode.parentNode;
+		if (!container) {
+			return domNode.clientHeight;
+		}
+
+		var paddingTop = parseInt(helpers.getStyle(container, 'padding-top'), 10);
+		var paddingBottom = parseInt(helpers.getStyle(container, 'padding-bottom'), 10);
+		var h = container.clientHeight - paddingTop - paddingBottom;
+		var ch = helpers.getConstraintHeight(domNode);
+		return isNaN(ch) ? h : Math.min(h, ch);
+	};
+	helpers.getStyle = function(el, property) {
+		return el.currentStyle ?
+			el.currentStyle[property] :
+			document.defaultView.getComputedStyle(el, null).getPropertyValue(property);
+	};
+	helpers.retinaScale = function(chart, forceRatio) {
+		var pixelRatio = chart.currentDevicePixelRatio = forceRatio || window.devicePixelRatio || 1;
+		if (pixelRatio === 1) {
+			return;
+		}
+
+		var canvas = chart.canvas;
+		var height = chart.height;
+		var width = chart.width;
+
+		canvas.height = height * pixelRatio;
+		canvas.width = width * pixelRatio;
+		chart.ctx.scale(pixelRatio, pixelRatio);
+
+		// If no style has been set on the canvas, the render size is used as display size,
+		// making the chart visually bigger, so let's enforce it to the "correct" values.
+		// See https://github.com/chartjs/Chart.js/issues/3575
+		if (!canvas.style.height && !canvas.style.width) {
+			canvas.style.height = height + 'px';
+			canvas.style.width = width + 'px';
+		}
+	};
+	// -- Canvas methods
+	helpers.fontString = function(pixelSize, fontStyle, fontFamily) {
+		return fontStyle + ' ' + pixelSize + 'px ' + fontFamily;
+	};
+	helpers.longestText = function(ctx, font, arrayOfThings, cache) {
+		cache = cache || {};
+		var data = cache.data = cache.data || {};
+		var gc = cache.garbageCollect = cache.garbageCollect || [];
+
+		if (cache.font !== font) {
+			data = cache.data = {};
+			gc = cache.garbageCollect = [];
+			cache.font = font;
+		}
+
+		ctx.font = font;
+		var longest = 0;
+		helpers.each(arrayOfThings, function(thing) {
+			// Undefined strings and arrays should not be measured
+			if (thing !== undefined && thing !== null && helpers.isArray(thing) !== true) {
+				longest = helpers.measureText(ctx, data, gc, longest, thing);
+			} else if (helpers.isArray(thing)) {
+				// if it is an array lets measure each element
+				// to do maybe simplify this function a bit so we can do this more recursively?
+				helpers.each(thing, function(nestedThing) {
+					// Undefined strings and arrays should not be measured
+					if (nestedThing !== undefined && nestedThing !== null && !helpers.isArray(nestedThing)) {
+						longest = helpers.measureText(ctx, data, gc, longest, nestedThing);
+					}
+				});
+			}
+		});
+
+		var gcLen = gc.length / 2;
+		if (gcLen > arrayOfThings.length) {
+			for (var i = 0; i < gcLen; i++) {
+				delete data[gc[i]];
+			}
+			gc.splice(0, gcLen);
+		}
+		return longest;
+	};
+	helpers.measureText = function(ctx, data, gc, longest, string) {
+		var textWidth = data[string];
+		if (!textWidth) {
+			textWidth = data[string] = ctx.measureText(string).width;
+			gc.push(string);
+		}
+		if (textWidth > longest) {
+			longest = textWidth;
+		}
+		return longest;
+	};
+	helpers.numberOfLabelLines = function(arrayOfThings) {
+		var numberOfLines = 1;
+		helpers.each(arrayOfThings, function(thing) {
+			if (helpers.isArray(thing)) {
+				if (thing.length > numberOfLines) {
+					numberOfLines = thing.length;
+				}
+			}
+		});
+		return numberOfLines;
+	};
+
+	helpers.color = !color ?
+		function(value) {
+			console.error('Color.js not found!');
+			return value;
+		} :
+		function(value) {
+			/* global CanvasGradient */
+			if (value instanceof CanvasGradient) {
+				value = defaults.global.defaultColor;
+			}
+
+			return color(value);
+		};
+
+	helpers.getHoverColor = function(colorValue) {
+		/* global CanvasPattern */
+		return (colorValue instanceof CanvasPattern) ?
+			colorValue :
+			helpers.color(colorValue).saturate(0.5).darken(0.1).rgbString();
+	};
+};
+
+},{"../helpers/index":39,"./core.defaults":19,"chartjs-color":54}],22:[function(require,module,exports){
+'use strict';
+
+var helpers = require('../helpers/index');
+
+/**
+ * Helper function to get relative position for an event
+ * @param {Event|IEvent} event - The event to get the position for
+ * @param {Chart} chart - The chart
+ * @returns {Point} the event position
+ */
+function getRelativePosition(e, chart) {
+	if (e.native) {
+		return {
+			x: e.x,
+			y: e.y
+		};
+	}
+
+	return helpers.getRelativePosition(e, chart);
+}
+
+/**
+ * Helper function to traverse all of the visible elements in the chart
+ * @param chart {chart} the chart
+ * @param handler {Function} the callback to execute for each visible item
+ */
+function parseVisibleItems(chart, handler) {
+	var datasets = chart.data.datasets;
+	var meta, i, j, ilen, jlen;
+
+	for (i = 0, ilen = datasets.length; i < ilen; ++i) {
+		if (!chart.isDatasetVisible(i)) {
+			continue;
+		}
+
+		meta = chart.getDatasetMeta(i);
+		for (j = 0, jlen = meta.data.length; j < jlen; ++j) {
+			var element = meta.data[j];
+			if (!element._view.skip) {
+				handler(element);
+			}
+		}
+	}
+}
+
+/**
+ * Helper function to get the items that intersect the event position
+ * @param items {ChartElement[]} elements to filter
+ * @param position {Point} the point to be nearest to
+ * @return {ChartElement[]} the nearest items
+ */
+function getIntersectItems(chart, position) {
+	var elements = [];
+
+	parseVisibleItems(chart, function(element) {
+		if (element.inRange(position.x, position.y)) {
+			elements.push(element);
+		}
+	});
+
+	return elements;
+}
+
+/**
+ * Helper function to get the items nearest to the event position considering all visible items in teh chart
+ * @param chart {Chart} the chart to look at elements from
+ * @param position {Point} the point to be nearest to
+ * @param intersect {Boolean} if true, only consider items that intersect the position
+ * @param distanceMetric {Function} function to provide the distance between points
+ * @return {ChartElement[]} the nearest items
+ */
+function getNearestItems(chart, position, intersect, distanceMetric) {
+	var minDistance = Number.POSITIVE_INFINITY;
+	var nearestItems = [];
+
+	parseVisibleItems(chart, function(element) {
+		if (intersect && !element.inRange(position.x, position.y)) {
+			return;
+		}
+
+		var center = element.getCenterPoint();
+		var distance = distanceMetric(position, center);
+
+		if (distance < minDistance) {
+			nearestItems = [element];
+			minDistance = distance;
+		} else if (distance === minDistance) {
+			// Can have multiple items at the same distance in which case we sort by size
+			nearestItems.push(element);
+		}
+	});
+
+	return nearestItems;
+}
+
+/**
+ * Get a distance metric function for two points based on the
+ * axis mode setting
+ * @param {String} axis the axis mode. x|y|xy
+ */
+function getDistanceMetricForAxis(axis) {
+	var useX = axis.indexOf('x') !== -1;
+	var useY = axis.indexOf('y') !== -1;
+
+	return function(pt1, pt2) {
+		var deltaX = useX ? Math.abs(pt1.x - pt2.x) : 0;
+		var deltaY = useY ? Math.abs(pt1.y - pt2.y) : 0;
+		return Math.sqrt(Math.pow(deltaX, 2) + Math.pow(deltaY, 2));
+	};
+}
+
+function indexMode(chart, e, options) {
+	var position = getRelativePosition(e, chart);
+	// Default axis for index mode is 'x' to match old behaviour
+	options.axis = options.axis || 'x';
+	var distanceMetric = getDistanceMetricForAxis(options.axis);
+	var items = options.intersect ? getIntersectItems(chart, position) : getNearestItems(chart, position, false, distanceMetric);
+	var elements = [];
+
+	if (!items.length) {
+		return [];
+	}
+
+	chart.data.datasets.forEach(function(dataset, datasetIndex) {
+		if (chart.isDatasetVisible(datasetIndex)) {
+			var meta = chart.getDatasetMeta(datasetIndex);
+			var element = meta.data[items[0]._index];
+
+			// don't count items that are skipped (null data)
+			if (element && !element._view.skip) {
+				elements.push(element);
+			}
+		}
+	});
+
+	return elements;
+}
+
+/**
+ * @interface IInteractionOptions
+ */
+/**
+ * If true, only consider items that intersect the point
+ * @name IInterfaceOptions#boolean
+ * @type Boolean
+ */
+
+/**
+ * Contains interaction related functions
+ * @namespace Chart.Interaction
+ */
+module.exports = {
+	// Helper function for different modes
+	modes: {
+		single: function(chart, e) {
+			var position = getRelativePosition(e, chart);
+			var elements = [];
+
+			parseVisibleItems(chart, function(element) {
+				if (element.inRange(position.x, position.y)) {
+					elements.push(element);
+					return elements;
+				}
+			});
+
+			return elements.slice(0, 1);
+		},
+
+		/**
+		 * @function Chart.Interaction.modes.label
+		 * @deprecated since version 2.4.0
+		 * @todo remove at version 3
+		 * @private
+		 */
+		label: indexMode,
+
+		/**
+		 * Returns items at the same index. If the options.intersect parameter is true, we only return items if we intersect something
+		 * If the options.intersect mode is false, we find the nearest item and return the items at the same index as that item
+		 * @function Chart.Interaction.modes.index
+		 * @since v2.4.0
+		 * @param chart {chart} the chart we are returning items from
+		 * @param e {Event} the event we are find things at
+		 * @param options {IInteractionOptions} options to use during interaction
+		 * @return {Chart.Element[]} Array of elements that are under the point. If none are found, an empty array is returned
+		 */
+		index: indexMode,
+
+		/**
+		 * Returns items in the same dataset. If the options.intersect parameter is true, we only return items if we intersect something
+		 * If the options.intersect is false, we find the nearest item and return the items in that dataset
+		 * @function Chart.Interaction.modes.dataset
+		 * @param chart {chart} the chart we are returning items from
+		 * @param e {Event} the event we are find things at
+		 * @param options {IInteractionOptions} options to use during interaction
+		 * @return {Chart.Element[]} Array of elements that are under the point. If none are found, an empty array is returned
+		 */
+		dataset: function(chart, e, options) {
+			var position = getRelativePosition(e, chart);
+			options.axis = options.axis || 'xy';
+			var distanceMetric = getDistanceMetricForAxis(options.axis);
+			var items = options.intersect ? getIntersectItems(chart, position) : getNearestItems(chart, position, false, distanceMetric);
+
+			if (items.length > 0) {
+				items = chart.getDatasetMeta(items[0]._datasetIndex).data;
+			}
+
+			return items;
+		},
+
+		/**
+		 * @function Chart.Interaction.modes.x-axis
+		 * @deprecated since version 2.4.0. Use index mode and intersect == true
+		 * @todo remove at version 3
+		 * @private
+		 */
+		'x-axis': function(chart, e) {
+			return indexMode(chart, e, {intersect: false});
+		},
+
+		/**
+		 * Point mode returns all elements that hit test based on the event position
+		 * of the event
+		 * @function Chart.Interaction.modes.intersect
+		 * @param chart {chart} the chart we are returning items from
+		 * @param e {Event} the event we are find things at
+		 * @return {Chart.Element[]} Array of elements that are under the point. If none are found, an empty array is returned
+		 */
+		point: function(chart, e) {
+			var position = getRelativePosition(e, chart);
+			return getIntersectItems(chart, position);
+		},
+
+		/**
+		 * nearest mode returns the element closest to the point
+		 * @function Chart.Interaction.modes.intersect
+		 * @param chart {chart} the chart we are returning items from
+		 * @param e {Event} the event we are find things at
+		 * @param options {IInteractionOptions} options to use
+		 * @return {Chart.Element[]} Array of elements that are under the point. If none are found, an empty array is returned
+		 */
+		nearest: function(chart, e, options) {
+			var position = getRelativePosition(e, chart);
+			options.axis = options.axis || 'xy';
+			var distanceMetric = getDistanceMetricForAxis(options.axis);
+			var nearestItems = getNearestItems(chart, position, options.intersect, distanceMetric);
+
+			// We have multiple items at the same distance from the event. Now sort by smallest
+			if (nearestItems.length > 1) {
+				nearestItems.sort(function(a, b) {
+					var sizeA = a.getArea();
+					var sizeB = b.getArea();
+					var ret = sizeA - sizeB;
+
+					if (ret === 0) {
+						// if equal sort by dataset index
+						ret = a._datasetIndex - b._datasetIndex;
+					}
+
+					return ret;
+				});
+			}
+
+			// Return only 1 item
+			return nearestItems.slice(0, 1);
+		},
+
+		/**
+		 * x mode returns the elements that hit-test at the current x coordinate
+		 * @function Chart.Interaction.modes.x
+		 * @param chart {chart} the chart we are returning items from
+		 * @param e {Event} the event we are find things at
+		 * @param options {IInteractionOptions} options to use
+		 * @return {Chart.Element[]} Array of elements that are under the point. If none are found, an empty array is returned
+		 */
+		x: function(chart, e, options) {
+			var position = getRelativePosition(e, chart);
+			var items = [];
+			var intersectsItem = false;
+
+			parseVisibleItems(chart, function(element) {
+				if (element.inXRange(position.x)) {
+					items.push(element);
+				}
+
+				if (element.inRange(position.x, position.y)) {
+					intersectsItem = true;
+				}
+			});
+
+			// If we want to trigger on an intersect and we don't have any items
+			// that intersect the position, return nothing
+			if (options.intersect && !intersectsItem) {
+				items = [];
+			}
+			return items;
+		},
+
+		/**
+		 * y mode returns the elements that hit-test at the current y coordinate
+		 * @function Chart.Interaction.modes.y
+		 * @param chart {chart} the chart we are returning items from
+		 * @param e {Event} the event we are find things at
+		 * @param options {IInteractionOptions} options to use
+		 * @return {Chart.Element[]} Array of elements that are under the point. If none are found, an empty array is returned
+		 */
+		y: function(chart, e, options) {
+			var position = getRelativePosition(e, chart);
+			var items = [];
+			var intersectsItem = false;
+
+			parseVisibleItems(chart, function(element) {
+				if (element.inYRange(position.y)) {
+					items.push(element);
+				}
+
+				if (element.inRange(position.x, position.y)) {
+					intersectsItem = true;
+				}
+			});
+
+			// If we want to trigger on an intersect and we don't have any items
+			// that intersect the position, return nothing
+			if (options.intersect && !intersectsItem) {
+				items = [];
+			}
+			return items;
+		}
+	}
+};
+
+},{"../helpers/index":39}],23:[function(require,module,exports){
+'use strict';
+
+var defaults = require('./core.defaults');
+
+defaults._set('global', {
+	responsive: true,
+	responsiveAnimationDuration: 0,
+	maintainAspectRatio: true,
+	events: ['mousemove', 'mouseout', 'click', 'touchstart', 'touchmove'],
+	hover: {
+		onHover: null,
+		mode: 'nearest',
+		intersect: true,
+		animationDuration: 400
+	},
+	onClick: null,
+	defaultColor: 'rgba(0,0,0,0.1)',
+	defaultFontColor: '#666',
+	defaultFontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
+	defaultFontSize: 12,
+	defaultFontStyle: 'normal',
+	showLines: true,
+
+	// Element defaults defined in element extensions
+	elements: {},
+
+	// Layout options such as padding
+	layout: {
+		padding: {
+			top: 0,
+			right: 0,
+			bottom: 0,
+			left: 0
+		}
+	}
+});
+
+module.exports = function() {
+
+	// Occupy the global variable of Chart, and create a simple base class
+	var Chart = function(item, config) {
+		this.construct(item, config);
+		return this;
+	};
+
+	Chart.Chart = Chart;
+
+	return Chart;
+};
+
+},{"./core.defaults":19}],24:[function(require,module,exports){
+'use strict';
+
+var helpers = require('../helpers/index');
+
+function filterByPosition(array, position) {
+	return helpers.where(array, function(v) {
+		return v.position === position;
+	});
+}
+
+function sortByWeight(array, reverse) {
+	array.forEach(function(v, i) {
+		v._tmpIndex_ = i;
+		return v;
+	});
+	array.sort(function(a, b) {
+		var v0 = reverse ? b : a;
+		var v1 = reverse ? a : b;
+		return v0.weight === v1.weight ?
+			v0._tmpIndex_ - v1._tmpIndex_ :
+			v0.weight - v1.weight;
+	});
+	array.forEach(function(v) {
+		delete v._tmpIndex_;
+	});
+}
+
+/**
+ * @interface ILayoutItem
+ * @prop {String} position - The position of the item in the chart layout. Possible values are
+ * 'left', 'top', 'right', 'bottom', and 'chartArea'
+ * @prop {Number} weight - The weight used to sort the item. Higher weights are further away from the chart area
+ * @prop {Boolean} fullWidth - if true, and the item is horizontal, then push vertical boxes down
+ * @prop {Function} isHorizontal - returns true if the layout item is horizontal (ie. top or bottom)
+ * @prop {Function} update - Takes two parameters: width and height. Returns size of item
+ * @prop {Function} getPadding -  Returns an object with padding on the edges
+ * @prop {Number} width - Width of item. Must be valid after update()
+ * @prop {Number} height - Height of item. Must be valid after update()
+ * @prop {Number} left - Left edge of the item. Set by layout system and cannot be used in update
+ * @prop {Number} top - Top edge of the item. Set by layout system and cannot be used in update
+ * @prop {Number} right - Right edge of the item. Set by layout system and cannot be used in update
+ * @prop {Number} bottom - Bottom edge of the item. Set by layout system and cannot be used in update
+ */
+
+// The layout service is very self explanatory.  It's responsible for the layout within a chart.
+// Scales, Legends and Plugins all rely on the layout service and can easily register to be placed anywhere they need
+// It is this service's responsibility of carrying out that layout.
+module.exports = {
+	defaults: {},
+
+	/**
+	 * Register a box to a chart.
+	 * A box is simply a reference to an object that requires layout. eg. Scales, Legend, Title.
+	 * @param {Chart} chart - the chart to use
+	 * @param {ILayoutItem} item - the item to add to be layed out
+	 */
+	addBox: function(chart, item) {
+		if (!chart.boxes) {
+			chart.boxes = [];
+		}
+
+		// initialize item with default values
+		item.fullWidth = item.fullWidth || false;
+		item.position = item.position || 'top';
+		item.weight = item.weight || 0;
+
+		chart.boxes.push(item);
+	},
+
+	/**
+	 * Remove a layoutItem from a chart
+	 * @param {Chart} chart - the chart to remove the box from
+	 * @param {Object} layoutItem - the item to remove from the layout
+	 */
+	removeBox: function(chart, layoutItem) {
+		var index = chart.boxes ? chart.boxes.indexOf(layoutItem) : -1;
+		if (index !== -1) {
+			chart.boxes.splice(index, 1);
+		}
+	},
+
+	/**
+	 * Sets (or updates) options on the given `item`.
+	 * @param {Chart} chart - the chart in which the item lives (or will be added to)
+	 * @param {Object} item - the item to configure with the given options
+	 * @param {Object} options - the new item options.
+	 */
+	configure: function(chart, item, options) {
+		var props = ['fullWidth', 'position', 'weight'];
+		var ilen = props.length;
+		var i = 0;
+		var prop;
+
+		for (; i < ilen; ++i) {
+			prop = props[i];
+			if (options.hasOwnProperty(prop)) {
+				item[prop] = options[prop];
+			}
+		}
+	},
+
+	/**
+	 * Fits boxes of the given chart into the given size by having each box measure itself
+	 * then running a fitting algorithm
+	 * @param {Chart} chart - the chart
+	 * @param {Number} width - the width to fit into
+	 * @param {Number} height - the height to fit into
+	 */
+	update: function(chart, width, height) {
+		if (!chart) {
+			return;
+		}
+
+		var layoutOptions = chart.options.layout || {};
+		var padding = helpers.options.toPadding(layoutOptions.padding);
+		var leftPadding = padding.left;
+		var rightPadding = padding.right;
+		var topPadding = padding.top;
+		var bottomPadding = padding.bottom;
+
+		var leftBoxes = filterByPosition(chart.boxes, 'left');
+		var rightBoxes = filterByPosition(chart.boxes, 'right');
+		var topBoxes = filterByPosition(chart.boxes, 'top');
+		var bottomBoxes = filterByPosition(chart.boxes, 'bottom');
+		var chartAreaBoxes = filterByPosition(chart.boxes, 'chartArea');
+
+		// Sort boxes by weight. A higher weight is further away from the chart area
+		sortByWeight(leftBoxes, true);
+		sortByWeight(rightBoxes, false);
+		sortByWeight(topBoxes, true);
+		sortByWeight(bottomBoxes, false);
+
+		// Essentially we now have any number of boxes on each of the 4 sides.
+		// Our canvas looks like the following.
+		// The areas L1 and L2 are the left axes. R1 is the right axis, T1 is the top axis and
+		// B1 is the bottom axis
+		// There are also 4 quadrant-like locations (left to right instead of clockwise) reserved for chart overlays
+		// These locations are single-box locations only, when trying to register a chartArea location that is already taken,
+		// an error will be thrown.
+		//
+		// |----------------------------------------------------|
+		// |                  T1 (Full Width)                   |
+		// |----------------------------------------------------|
+		// |    |    |                 T2                  |    |
+		// |    |----|-------------------------------------|----|
+		// |    |    | C1 |                           | C2 |    |
+		// |    |    |----|                           |----|    |
+		// |    |    |                                     |    |
+		// | L1 | L2 |           ChartArea (C0)            | R1 |
+		// |    |    |                                     |    |
+		// |    |    |----|                           |----|    |
+		// |    |    | C3 |                           | C4 |    |
+		// |    |----|-------------------------------------|----|
+		// |    |    |                 B1                  |    |
+		// |----------------------------------------------------|
+		// |                  B2 (Full Width)                   |
+		// |----------------------------------------------------|
+		//
+		// What we do to find the best sizing, we do the following
+		// 1. Determine the minimum size of the chart area.
+		// 2. Split the remaining width equally between each vertical axis
+		// 3. Split the remaining height equally between each horizontal axis
+		// 4. Give each layout the maximum size it can be. The layout will return it's minimum size
+		// 5. Adjust the sizes of each axis based on it's minimum reported size.
+		// 6. Refit each axis
+		// 7. Position each axis in the final location
+		// 8. Tell the chart the final location of the chart area
+		// 9. Tell any axes that overlay the chart area the positions of the chart area
+
+		// Step 1
+		var chartWidth = width - leftPadding - rightPadding;
+		var chartHeight = height - topPadding - bottomPadding;
+		var chartAreaWidth = chartWidth / 2; // min 50%
+		var chartAreaHeight = chartHeight / 2; // min 50%
+
+		// Step 2
+		var verticalBoxWidth = (width - chartAreaWidth) / (leftBoxes.length + rightBoxes.length);
+
+		// Step 3
+		var horizontalBoxHeight = (height - chartAreaHeight) / (topBoxes.length + bottomBoxes.length);
+
+		// Step 4
+		var maxChartAreaWidth = chartWidth;
+		var maxChartAreaHeight = chartHeight;
+		var minBoxSizes = [];
+
+		function getMinimumBoxSize(box) {
+			var minSize;
+			var isHorizontal = box.isHorizontal();
+
+			if (isHorizontal) {
+				minSize = box.update(box.fullWidth ? chartWidth : maxChartAreaWidth, horizontalBoxHeight);
+				maxChartAreaHeight -= minSize.height;
+			} else {
+				minSize = box.update(verticalBoxWidth, maxChartAreaHeight);
+				maxChartAreaWidth -= minSize.width;
+			}
+
+			minBoxSizes.push({
+				horizontal: isHorizontal,
+				minSize: minSize,
+				box: box,
+			});
+		}
+
+		helpers.each(leftBoxes.concat(rightBoxes, topBoxes, bottomBoxes), getMinimumBoxSize);
+
+		// If a horizontal box has padding, we move the left boxes over to avoid ugly charts (see issue #2478)
+		var maxHorizontalLeftPadding = 0;
+		var maxHorizontalRightPadding = 0;
+		var maxVerticalTopPadding = 0;
+		var maxVerticalBottomPadding = 0;
+
+		helpers.each(topBoxes.concat(bottomBoxes), function(horizontalBox) {
+			if (horizontalBox.getPadding) {
+				var boxPadding = horizontalBox.getPadding();
+				maxHorizontalLeftPadding = Math.max(maxHorizontalLeftPadding, boxPadding.left);
+				maxHorizontalRightPadding = Math.max(maxHorizontalRightPadding, boxPadding.right);
+			}
+		});
+
+		helpers.each(leftBoxes.concat(rightBoxes), function(verticalBox) {
+			if (verticalBox.getPadding) {
+				var boxPadding = verticalBox.getPadding();
+				maxVerticalTopPadding = Math.max(maxVerticalTopPadding, boxPadding.top);
+				maxVerticalBottomPadding = Math.max(maxVerticalBottomPadding, boxPadding.bottom);
+			}
+		});
+
+		// At this point, maxChartAreaHeight and maxChartAreaWidth are the size the chart area could
+		// be if the axes are drawn at their minimum sizes.
+		// Steps 5 & 6
+		var totalLeftBoxesWidth = leftPadding;
+		var totalRightBoxesWidth = rightPadding;
+		var totalTopBoxesHeight = topPadding;
+		var totalBottomBoxesHeight = bottomPadding;
+
+		// Function to fit a box
+		function fitBox(box) {
+			var minBoxSize = helpers.findNextWhere(minBoxSizes, function(minBox) {
+				return minBox.box === box;
+			});
+
+			if (minBoxSize) {
+				if (box.isHorizontal()) {
+					var scaleMargin = {
+						left: Math.max(totalLeftBoxesWidth, maxHorizontalLeftPadding),
+						right: Math.max(totalRightBoxesWidth, maxHorizontalRightPadding),
+						top: 0,
+						bottom: 0
+					};
+
+					// Don't use min size here because of label rotation. When the labels are rotated, their rotation highly depends
+					// on the margin. Sometimes they need to increase in size slightly
+					box.update(box.fullWidth ? chartWidth : maxChartAreaWidth, chartHeight / 2, scaleMargin);
+				} else {
+					box.update(minBoxSize.minSize.width, maxChartAreaHeight);
+				}
+			}
+		}
+
+		// Update, and calculate the left and right margins for the horizontal boxes
+		helpers.each(leftBoxes.concat(rightBoxes), fitBox);
+
+		helpers.each(leftBoxes, function(box) {
+			totalLeftBoxesWidth += box.width;
+		});
+
+		helpers.each(rightBoxes, function(box) {
+			totalRightBoxesWidth += box.width;
+		});
+
+		// Set the Left and Right margins for the horizontal boxes
+		helpers.each(topBoxes.concat(bottomBoxes), fitBox);
+
+		// Figure out how much margin is on the top and bottom of the vertical boxes
+		helpers.each(topBoxes, function(box) {
+			totalTopBoxesHeight += box.height;
+		});
+
+		helpers.each(bottomBoxes, function(box) {
+			totalBottomBoxesHeight += box.height;
+		});
+
+		function finalFitVerticalBox(box) {
+			var minBoxSize = helpers.findNextWhere(minBoxSizes, function(minSize) {
+				return minSize.box === box;
+			});
+
+			var scaleMargin = {
+				left: 0,
+				right: 0,
+				top: totalTopBoxesHeight,
+				bottom: totalBottomBoxesHeight
+			};
+
+			if (minBoxSize) {
+				box.update(minBoxSize.minSize.width, maxChartAreaHeight, scaleMargin);
+			}
+		}
+
+		// Let the left layout know the final margin
+		helpers.each(leftBoxes.concat(rightBoxes), finalFitVerticalBox);
+
+		// Recalculate because the size of each layout might have changed slightly due to the margins (label rotation for instance)
+		totalLeftBoxesWidth = leftPadding;
+		totalRightBoxesWidth = rightPadding;
+		totalTopBoxesHeight = topPadding;
+		totalBottomBoxesHeight = bottomPadding;
+
+		helpers.each(leftBoxes, function(box) {
+			totalLeftBoxesWidth += box.width;
+		});
+
+		helpers.each(rightBoxes, function(box) {
+			totalRightBoxesWidth += box.width;
+		});
+
+		helpers.each(topBoxes, function(box) {
+			totalTopBoxesHeight += box.height;
+		});
+		helpers.each(bottomBoxes, function(box) {
+			totalBottomBoxesHeight += box.height;
+		});
+
+		// We may be adding some padding to account for rotated x axis labels
+		var leftPaddingAddition = Math.max(maxHorizontalLeftPadding - totalLeftBoxesWidth, 0);
+		totalLeftBoxesWidth += leftPaddingAddition;
+		totalRightBoxesWidth += Math.max(maxHorizontalRightPadding - totalRightBoxesWidth, 0);
+
+		var topPaddingAddition = Math.max(maxVerticalTopPadding - totalTopBoxesHeight, 0);
+		totalTopBoxesHeight += topPaddingAddition;
+		totalBottomBoxesHeight += Math.max(maxVerticalBottomPadding - totalBottomBoxesHeight, 0);
+
+		// Figure out if our chart area changed. This would occur if the dataset layout label rotation
+		// changed due to the application of the margins in step 6. Since we can only get bigger, this is safe to do
+		// without calling `fit` again
+		var newMaxChartAreaHeight = height - totalTopBoxesHeight - totalBottomBoxesHeight;
+		var newMaxChartAreaWidth = width - totalLeftBoxesWidth - totalRightBoxesWidth;
+
+		if (newMaxChartAreaWidth !== maxChartAreaWidth || newMaxChartAreaHeight !== maxChartAreaHeight) {
+			helpers.each(leftBoxes, function(box) {
+				box.height = newMaxChartAreaHeight;
+			});
+
+			helpers.each(rightBoxes, function(box) {
+				box.height = newMaxChartAreaHeight;
+			});
+
+			helpers.each(topBoxes, function(box) {
+				if (!box.fullWidth) {
+					box.width = newMaxChartAreaWidth;
+				}
+			});
+
+			helpers.each(bottomBoxes, function(box) {
+				if (!box.fullWidth) {
+					box.width = newMaxChartAreaWidth;
+				}
+			});
+
+			maxChartAreaHeight = newMaxChartAreaHeight;
+			maxChartAreaWidth = newMaxChartAreaWidth;
+		}
+
+		// Step 7 - Position the boxes
+		var left = leftPadding + leftPaddingAddition;
+		var top = topPadding + topPaddingAddition;
+
+		function placeBox(box) {
+			if (box.isHorizontal()) {
+				box.left = box.fullWidth ? leftPadding : totalLeftBoxesWidth;
+				box.right = box.fullWidth ? width - rightPadding : totalLeftBoxesWidth + maxChartAreaWidth;
+				box.top = top;
+				box.bottom = top + box.height;
+
+				// Move to next point
+				top = box.bottom;
+
+			} else {
+
+				box.left = left;
+				box.right = left + box.width;
+				box.top = totalTopBoxesHeight;
+				box.bottom = totalTopBoxesHeight + maxChartAreaHeight;
+
+				// Move to next point
+				left = box.right;
+			}
+		}
+
+		helpers.each(leftBoxes.concat(topBoxes), placeBox);
+
+		// Account for chart width and height
+		left += maxChartAreaWidth;
+		top += maxChartAreaHeight;
+
+		helpers.each(rightBoxes, placeBox);
+		helpers.each(bottomBoxes, placeBox);
+
+		// Step 8
+		chart.chartArea = {
+			left: totalLeftBoxesWidth,
+			top: totalTopBoxesHeight,
+			right: totalLeftBoxesWidth + maxChartAreaWidth,
+			bottom: totalTopBoxesHeight + maxChartAreaHeight
+		};
+
+		// Step 9
+		helpers.each(chartAreaBoxes, function(box) {
+			box.left = chart.chartArea.left;
+			box.top = chart.chartArea.top;
+			box.right = chart.chartArea.right;
+			box.bottom = chart.chartArea.bottom;
+
+			box.update(maxChartAreaWidth, maxChartAreaHeight);
+		});
+	}
+};
+
+},{"../helpers/index":39}],25:[function(require,module,exports){
+'use strict';
+
+var defaults = require('./core.defaults');
+var helpers = require('../helpers/index');
+
+defaults._set('global', {
+	plugins: {}
+});
+
+/**
+ * The plugin service singleton
+ * @namespace Chart.plugins
+ * @since 2.1.0
+ */
+module.exports = {
+	/**
+	 * Globally registered plugins.
+	 * @private
+	 */
+	_plugins: [],
+
+	/**
+	 * This identifier is used to invalidate the descriptors cache attached to each chart
+	 * when a global plugin is registered or unregistered. In this case, the cache ID is
+	 * incremented and descriptors are regenerated during following API calls.
+	 * @private
+	 */
+	_cacheId: 0,
+
+	/**
+	 * Registers the given plugin(s) if not already registered.
+	 * @param {Array|Object} plugins plugin instance(s).
+	 */
+	register: function(plugins) {
+		var p = this._plugins;
+		([]).concat(plugins).forEach(function(plugin) {
+			if (p.indexOf(plugin) === -1) {
+				p.push(plugin);
+			}
+		});
+
+		this._cacheId++;
+	},
+
+	/**
+	 * Unregisters the given plugin(s) only if registered.
+	 * @param {Array|Object} plugins plugin instance(s).
+	 */
+	unregister: function(plugins) {
+		var p = this._plugins;
+		([]).concat(plugins).forEach(function(plugin) {
+			var idx = p.indexOf(plugin);
+			if (idx !== -1) {
+				p.splice(idx, 1);
+			}
+		});
+
+		this._cacheId++;
+	},
+
+	/**
+	 * Remove all registered plugins.
+	 * @since 2.1.5
+	 */
+	clear: function() {
+		this._plugins = [];
+		this._cacheId++;
+	},
+
+	/**
+	 * Returns the number of registered plugins?
+	 * @returns {Number}
+	 * @since 2.1.5
+	 */
+	count: function() {
+		return this._plugins.length;
+	},
+
+	/**
+	 * Returns all registered plugin instances.
+	 * @returns {Array} array of plugin objects.
+	 * @since 2.1.5
+	 */
+	getAll: function() {
+		return this._plugins;
+	},
+
+	/**
+	 * Calls enabled plugins for `chart` on the specified hook and with the given args.
+	 * This method immediately returns as soon as a plugin explicitly returns false. The
+	 * returned value can be used, for instance, to interrupt the current action.
+	 * @param {Object} chart - The chart instance for which plugins should be called.
+	 * @param {String} hook - The name of the plugin method to call (e.g. 'beforeUpdate').
+	 * @param {Array} [args] - Extra arguments to apply to the hook call.
+	 * @returns {Boolean} false if any of the plugins return false, else returns true.
+	 */
+	notify: function(chart, hook, args) {
+		var descriptors = this.descriptors(chart);
+		var ilen = descriptors.length;
+		var i, descriptor, plugin, params, method;
+
+		for (i = 0; i < ilen; ++i) {
+			descriptor = descriptors[i];
+			plugin = descriptor.plugin;
+			method = plugin[hook];
+			if (typeof method === 'function') {
+				params = [chart].concat(args || []);
+				params.push(descriptor.options);
+				if (method.apply(plugin, params) === false) {
+					return false;
+				}
+			}
+		}
+
+		return true;
+	},
+
+	/**
+	 * Returns descriptors of enabled plugins for the given chart.
+	 * @returns {Array} [{ plugin, options }]
+	 * @private
+	 */
+	descriptors: function(chart) {
+		var cache = chart.$plugins || (chart.$plugins = {});
+		if (cache.id === this._cacheId) {
+			return cache.descriptors;
+		}
+
+		var plugins = [];
+		var descriptors = [];
+		var config = (chart && chart.config) || {};
+		var options = (config.options && config.options.plugins) || {};
+
+		this._plugins.concat(config.plugins || []).forEach(function(plugin) {
+			var idx = plugins.indexOf(plugin);
+			if (idx !== -1) {
+				return;
+			}
+
+			var id = plugin.id;
+			var opts = options[id];
+			if (opts === false) {
+				return;
+			}
+
+			if (opts === true) {
+				opts = helpers.clone(defaults.global.plugins[id]);
+			}
+
+			plugins.push(plugin);
+			descriptors.push({
+				plugin: plugin,
+				options: opts || {}
+			});
+		});
+
+		cache.descriptors = descriptors;
+		cache.id = this._cacheId;
+		return descriptors;
+	},
+
+	/**
+	 * Invalidates cache for the given chart: descriptors hold a reference on plugin option,
+	 * but in some cases, this reference can be changed by the user when updating options.
+	 * https://github.com/chartjs/Chart.js/issues/5111#issuecomment-355934167
+	 * @private
+	 */
+	_invalidate: function(chart) {
+		delete chart.$plugins;
+	}
+};
+
+/**
+ * Plugin extension hooks.
+ * @interface IPlugin
+ * @since 2.1.0
+ */
+/**
+ * @method IPlugin#beforeInit
+ * @desc Called before initializing `chart`.
+ * @param {Chart.Controller} chart - The chart instance.
+ * @param {Object} options - The plugin options.
+ */
+/**
+ * @method IPlugin#afterInit
+ * @desc Called after `chart` has been initialized and before the first update.
+ * @param {Chart.Controller} chart - The chart instance.
+ * @param {Object} options - The plugin options.
+ */
+/**
+ * @method IPlugin#beforeUpdate
+ * @desc Called before updating `chart`. If any plugin returns `false`, the update
+ * is cancelled (and thus subsequent render(s)) until another `update` is triggered.
+ * @param {Chart.Controller} chart - The chart instance.
+ * @param {Object} options - The plugin options.
+ * @returns {Boolean} `false` to cancel the chart update.
+ */
+/**
+ * @method IPlugin#afterUpdate
+ * @desc Called after `chart` has been updated and before rendering. Note that this
+ * hook will not be called if the chart update has been previously cancelled.
+ * @param {Chart.Controller} chart - The chart instance.
+ * @param {Object} options - The plugin options.
+ */
+/**
+ * @method IPlugin#beforeDatasetsUpdate
+ * @desc Called before updating the `chart` datasets. If any plugin returns `false`,
+ * the datasets update is cancelled until another `update` is triggered.
+ * @param {Chart.Controller} chart - The chart instance.
+ * @param {Object} options - The plugin options.
+ * @returns {Boolean} false to cancel the datasets update.
+ * @since version 2.1.5
+*/
+/**
+ * @method IPlugin#afterDatasetsUpdate
+ * @desc Called after the `chart` datasets have been updated. Note that this hook
+ * will not be called if the datasets update has been previously cancelled.
+ * @param {Chart.Controller} chart - The chart instance.
+ * @param {Object} options - The plugin options.
+ * @since version 2.1.5
+ */
+/**
+ * @method IPlugin#beforeDatasetUpdate
+ * @desc Called before updating the `chart` dataset at the given `args.index`. If any plugin
+ * returns `false`, the datasets update is cancelled until another `update` is triggered.
+ * @param {Chart} chart - The chart instance.
+ * @param {Object} args - The call arguments.
+ * @param {Number} args.index - The dataset index.
+ * @param {Object} args.meta - The dataset metadata.
+ * @param {Object} options - The plugin options.
+ * @returns {Boolean} `false` to cancel the chart datasets drawing.
+ */
+/**
+ * @method IPlugin#afterDatasetUpdate
+ * @desc Called after the `chart` datasets at the given `args.index` has been updated. Note
+ * that this hook will not be called if the datasets update has been previously cancelled.
+ * @param {Chart} chart - The chart instance.
+ * @param {Object} args - The call arguments.
+ * @param {Number} args.index - The dataset index.
+ * @param {Object} args.meta - The dataset metadata.
+ * @param {Object} options - The plugin options.
+ */
+/**
+ * @method IPlugin#beforeLayout
+ * @desc Called before laying out `chart`. If any plugin returns `false`,
+ * the layout update is cancelled until another `update` is triggered.
+ * @param {Chart.Controller} chart - The chart instance.
+ * @param {Object} options - The plugin options.
+ * @returns {Boolean} `false` to cancel the chart layout.
+ */
+/**
+ * @method IPlugin#afterLayout
+ * @desc Called after the `chart` has been layed out. Note that this hook will not
+ * be called if the layout update has been previously cancelled.
+ * @param {Chart.Controller} chart - The chart instance.
+ * @param {Object} options - The plugin options.
+ */
+/**
+ * @method IPlugin#beforeRender
+ * @desc Called before rendering `chart`. If any plugin returns `false`,
+ * the rendering is cancelled until another `render` is triggered.
+ * @param {Chart.Controller} chart - The chart instance.
+ * @param {Object} options - The plugin options.
+ * @returns {Boolean} `false` to cancel the chart rendering.
+ */
+/**
+ * @method IPlugin#afterRender
+ * @desc Called after the `chart` has been fully rendered (and animation completed). Note
+ * that this hook will not be called if the rendering has been previously cancelled.
+ * @param {Chart.Controller} chart - The chart instance.
+ * @param {Object} options - The plugin options.
+ */
+/**
+ * @method IPlugin#beforeDraw
+ * @desc Called before drawing `chart` at every animation frame specified by the given
+ * easing value. If any plugin returns `false`, the frame drawing is cancelled until
+ * another `render` is triggered.
+ * @param {Chart.Controller} chart - The chart instance.
+ * @param {Number} easingValue - The current animation value, between 0.0 and 1.0.
+ * @param {Object} options - The plugin options.
+ * @returns {Boolean} `false` to cancel the chart drawing.
+ */
+/**
+ * @method IPlugin#afterDraw
+ * @desc Called after the `chart` has been drawn for the specific easing value. Note
+ * that this hook will not be called if the drawing has been previously cancelled.
+ * @param {Chart.Controller} chart - The chart instance.
+ * @param {Number} easingValue - The current animation value, between 0.0 and 1.0.
+ * @param {Object} options - The plugin options.
+ */
+/**
+ * @method IPlugin#beforeDatasetsDraw
+ * @desc Called before drawing the `chart` datasets. If any plugin returns `false`,
+ * the datasets drawing is cancelled until another `render` is triggered.
+ * @param {Chart.Controller} chart - The chart instance.
+ * @param {Number} easingValue - The current animation value, between 0.0 and 1.0.
+ * @param {Object} options - The plugin options.
+ * @returns {Boolean} `false` to cancel the chart datasets drawing.
+ */
+/**
+ * @method IPlugin#afterDatasetsDraw
+ * @desc Called after the `chart` datasets have been drawn. Note that this hook
+ * will not be called if the datasets drawing has been previously cancelled.
+ * @param {Chart.Controller} chart - The chart instance.
+ * @param {Number} easingValue - The current animation value, between 0.0 and 1.0.
+ * @param {Object} options - The plugin options.
+ */
+/**
+ * @method IPlugin#beforeDatasetDraw
+ * @desc Called before drawing the `chart` dataset at the given `args.index` (datasets
+ * are drawn in the reverse order). If any plugin returns `false`, the datasets drawing
+ * is cancelled until another `render` is triggered.
+ * @param {Chart} chart - The chart instance.
+ * @param {Object} args - The call arguments.
+ * @param {Number} args.index - The dataset index.
+ * @param {Object} args.meta - The dataset metadata.
+ * @param {Number} args.easingValue - The current animation value, between 0.0 and 1.0.
+ * @param {Object} options - The plugin options.
+ * @returns {Boolean} `false` to cancel the chart datasets drawing.
+ */
+/**
+ * @method IPlugin#afterDatasetDraw
+ * @desc Called after the `chart` datasets at the given `args.index` have been drawn
+ * (datasets are drawn in the reverse order). Note that this hook will not be called
+ * if the datasets drawing has been previously cancelled.
+ * @param {Chart} chart - The chart instance.
+ * @param {Object} args - The call arguments.
+ * @param {Number} args.index - The dataset index.
+ * @param {Object} args.meta - The dataset metadata.
+ * @param {Number} args.easingValue - The current animation value, between 0.0 and 1.0.
+ * @param {Object} options - The plugin options.
+ */
+/**
+ * @method IPlugin#beforeTooltipDraw
+ * @desc Called before drawing the `tooltip`. If any plugin returns `false`,
+ * the tooltip drawing is cancelled until another `render` is triggered.
+ * @param {Chart} chart - The chart instance.
+ * @param {Object} args - The call arguments.
+ * @param {Object} args.tooltip - The tooltip.
+ * @param {Number} args.easingValue - The current animation value, between 0.0 and 1.0.
+ * @param {Object} options - The plugin options.
+ * @returns {Boolean} `false` to cancel the chart tooltip drawing.
+ */
+/**
+ * @method IPlugin#afterTooltipDraw
+ * @desc Called after drawing the `tooltip`. Note that this hook will not
+ * be called if the tooltip drawing has been previously cancelled.
+ * @param {Chart} chart - The chart instance.
+ * @param {Object} args - The call arguments.
+ * @param {Object} args.tooltip - The tooltip.
+ * @param {Number} args.easingValue - The current animation value, between 0.0 and 1.0.
+ * @param {Object} options - The plugin options.
+ */
+/**
+ * @method IPlugin#beforeEvent
+ * @desc Called before processing the specified `event`. If any plugin returns `false`,
+ * the event will be discarded.
+ * @param {Chart.Controller} chart - The chart instance.
+ * @param {IEvent} event - The event object.
+ * @param {Object} options - The plugin options.
+ */
+/**
+ * @method IPlugin#afterEvent
+ * @desc Called after the `event` has been consumed. Note that this hook
+ * will not be called if the `event` has been previously discarded.
+ * @param {Chart.Controller} chart - The chart instance.
+ * @param {IEvent} event - The event object.
+ * @param {Object} options - The plugin options.
+ */
+/**
+ * @method IPlugin#resize
+ * @desc Called after the chart as been resized.
+ * @param {Chart.Controller} chart - The chart instance.
+ * @param {Number} size - The new canvas display size (eq. canvas.style width & height).
+ * @param {Object} options - The plugin options.
+ */
+/**
+ * @method IPlugin#destroy
+ * @desc Called after the chart as been destroyed.
+ * @param {Chart.Controller} chart - The chart instance.
+ * @param {Object} options - The plugin options.
+ */
+
+},{"../helpers/index":39,"./core.defaults":19}],26:[function(require,module,exports){
+'use strict';
+
+var defaults = require('./core.defaults');
+var Element = require('./core.element');
+var helpers = require('../helpers/index');
+var Ticks = require('./core.ticks');
+
+defaults._set('scale', {
+	display: true,
+	position: 'left',
+	offset: false,
+
+	// grid line settings
+	gridLines: {
+		display: true,
+		color: 'rgba(0, 0, 0, 0.1)',
+		lineWidth: 1,
+		drawBorder: true,
+		drawOnChartArea: true,
+		drawTicks: true,
+		tickMarkLength: 10,
+		zeroLineWidth: 1,
+		zeroLineColor: 'rgba(0,0,0,0.25)',
+		zeroLineBorderDash: [],
+		zeroLineBorderDashOffset: 0.0,
+		offsetGridLines: false,
+		borderDash: [],
+		borderDashOffset: 0.0
+	},
+
+	// scale label
+	scaleLabel: {
+		// display property
+		display: false,
+
+		// actual label
+		labelString: '',
+
+		// line height
+		lineHeight: 1.2,
+
+		// top/bottom padding
+		padding: {
+			top: 4,
+			bottom: 4
+		}
+	},
+
+	// label settings
+	ticks: {
+		beginAtZero: false,
+		minRotation: 0,
+		maxRotation: 50,
+		mirror: false,
+		padding: 0,
+		reverse: false,
+		display: true,
+		autoSkip: true,
+		autoSkipPadding: 0,
+		labelOffset: 0,
+		// We pass through arrays to be rendered as multiline labels, we convert Others to strings here.
+		callback: Ticks.formatters.values,
+		minor: {},
+		major: {}
+	}
+});
+
+function labelsFromTicks(ticks) {
+	var labels = [];
+	var i, ilen;
+
+	for (i = 0, ilen = ticks.length; i < ilen; ++i) {
+		labels.push(ticks[i].label);
+	}
+
+	return labels;
+}
+
+function getLineValue(scale, index, offsetGridLines) {
+	var lineValue = scale.getPixelForTick(index);
+
+	if (offsetGridLines) {
+		if (index === 0) {
+			lineValue -= (scale.getPixelForTick(1) - lineValue) / 2;
+		} else {
+			lineValue -= (lineValue - scale.getPixelForTick(index - 1)) / 2;
+		}
+	}
+	return lineValue;
+}
+
+module.exports = function(Chart) {
+
+	function computeTextSize(context, tick, font) {
+		return helpers.isArray(tick) ?
+			helpers.longestText(context, font, tick) :
+			context.measureText(tick).width;
+	}
+
+	function parseFontOptions(options) {
+		var valueOrDefault = helpers.valueOrDefault;
+		var globalDefaults = defaults.global;
+		var size = valueOrDefault(options.fontSize, globalDefaults.defaultFontSize);
+		var style = valueOrDefault(options.fontStyle, globalDefaults.defaultFontStyle);
+		var family = valueOrDefault(options.fontFamily, globalDefaults.defaultFontFamily);
+
+		return {
+			size: size,
+			style: style,
+			family: family,
+			font: helpers.fontString(size, style, family)
+		};
+	}
+
+	function parseLineHeight(options) {
+		return helpers.options.toLineHeight(
+			helpers.valueOrDefault(options.lineHeight, 1.2),
+			helpers.valueOrDefault(options.fontSize, defaults.global.defaultFontSize));
+	}
+
+	Chart.Scale = Element.extend({
+		/**
+		 * Get the padding needed for the scale
+		 * @method getPadding
+		 * @private
+		 * @returns {Padding} the necessary padding
+		 */
+		getPadding: function() {
+			var me = this;
+			return {
+				left: me.paddingLeft || 0,
+				top: me.paddingTop || 0,
+				right: me.paddingRight || 0,
+				bottom: me.paddingBottom || 0
+			};
+		},
+
+		/**
+		 * Returns the scale tick objects ({label, major})
+		 * @since 2.7
+		 */
+		getTicks: function() {
+			return this._ticks;
+		},
+
+		// These methods are ordered by lifecyle. Utilities then follow.
+		// Any function defined here is inherited by all scale types.
+		// Any function can be extended by the scale type
+
+		mergeTicksOptions: function() {
+			var ticks = this.options.ticks;
+			if (ticks.minor === false) {
+				ticks.minor = {
+					display: false
+				};
+			}
+			if (ticks.major === false) {
+				ticks.major = {
+					display: false
+				};
+			}
+			for (var key in ticks) {
+				if (key !== 'major' && key !== 'minor') {
+					if (typeof ticks.minor[key] === 'undefined') {
+						ticks.minor[key] = ticks[key];
+					}
+					if (typeof ticks.major[key] === 'undefined') {
+						ticks.major[key] = ticks[key];
+					}
+				}
+			}
+		},
+		beforeUpdate: function() {
+			helpers.callback(this.options.beforeUpdate, [this]);
+		},
+		update: function(maxWidth, maxHeight, margins) {
+			var me = this;
+			var i, ilen, labels, label, ticks, tick;
+
+			// Update Lifecycle - Probably don't want to ever extend or overwrite this function ;)
+			me.beforeUpdate();
+
+			// Absorb the master measurements
+			me.maxWidth = maxWidth;
+			me.maxHeight = maxHeight;
+			me.margins = helpers.extend({
+				left: 0,
+				right: 0,
+				top: 0,
+				bottom: 0
+			}, margins);
+			me.longestTextCache = me.longestTextCache || {};
+
+			// Dimensions
+			me.beforeSetDimensions();
+			me.setDimensions();
+			me.afterSetDimensions();
+
+			// Data min/max
+			me.beforeDataLimits();
+			me.determineDataLimits();
+			me.afterDataLimits();
+
+			// Ticks - `this.ticks` is now DEPRECATED!
+			// Internal ticks are now stored as objects in the PRIVATE `this._ticks` member
+			// and must not be accessed directly from outside this class. `this.ticks` being
+			// around for long time and not marked as private, we can't change its structure
+			// without unexpected breaking changes. If you need to access the scale ticks,
+			// use scale.getTicks() instead.
+
+			me.beforeBuildTicks();
+
+			// New implementations should return an array of objects but for BACKWARD COMPAT,
+			// we still support no return (`this.ticks` internally set by calling this method).
+			ticks = me.buildTicks() || [];
+
+			me.afterBuildTicks();
+
+			me.beforeTickToLabelConversion();
+
+			// New implementations should return the formatted tick labels but for BACKWARD
+			// COMPAT, we still support no return (`this.ticks` internally changed by calling
+			// this method and supposed to contain only string values).
+			labels = me.convertTicksToLabels(ticks) || me.ticks;
+
+			me.afterTickToLabelConversion();
+
+			me.ticks = labels;   // BACKWARD COMPATIBILITY
+
+			// IMPORTANT: from this point, we consider that `this.ticks` will NEVER change!
+
+			// BACKWARD COMPAT: synchronize `_ticks` with labels (so potentially `this.ticks`)
+			for (i = 0, ilen = labels.length; i < ilen; ++i) {
+				label = labels[i];
+				tick = ticks[i];
+				if (!tick) {
+					ticks.push(tick = {
+						label: label,
+						major: false
+					});
+				} else {
+					tick.label = label;
+				}
+			}
+
+			me._ticks = ticks;
+
+			// Tick Rotation
+			me.beforeCalculateTickRotation();
+			me.calculateTickRotation();
+			me.afterCalculateTickRotation();
+			// Fit
+			me.beforeFit();
+			me.fit();
+			me.afterFit();
+			//
+			me.afterUpdate();
+
+			return me.minSize;
+
+		},
+		afterUpdate: function() {
+			helpers.callback(this.options.afterUpdate, [this]);
+		},
+
+		//
+
+		beforeSetDimensions: function() {
+			helpers.callback(this.options.beforeSetDimensions, [this]);
+		},
+		setDimensions: function() {
+			var me = this;
+			// Set the unconstrained dimension before label rotation
+			if (me.isHorizontal()) {
+				// Reset position before calculating rotation
+				me.width = me.maxWidth;
+				me.left = 0;
+				me.right = me.width;
+			} else {
+				me.height = me.maxHeight;
+
+				// Reset position before calculating rotation
+				me.top = 0;
+				me.bottom = me.height;
+			}
+
+			// Reset padding
+			me.paddingLeft = 0;
+			me.paddingTop = 0;
+			me.paddingRight = 0;
+			me.paddingBottom = 0;
+		},
+		afterSetDimensions: function() {
+			helpers.callback(this.options.afterSetDimensions, [this]);
+		},
+
+		// Data limits
+		beforeDataLimits: function() {
+			helpers.callback(this.options.beforeDataLimits, [this]);
+		},
+		determineDataLimits: helpers.noop,
+		afterDataLimits: function() {
+			helpers.callback(this.options.afterDataLimits, [this]);
+		},
+
+		//
+		beforeBuildTicks: function() {
+			helpers.callback(this.options.beforeBuildTicks, [this]);
+		},
+		buildTicks: helpers.noop,
+		afterBuildTicks: function() {
+			helpers.callback(this.options.afterBuildTicks, [this]);
+		},
+
+		beforeTickToLabelConversion: function() {
+			helpers.callback(this.options.beforeTickToLabelConversion, [this]);
+		},
+		convertTicksToLabels: function() {
+			var me = this;
+			// Convert ticks to strings
+			var tickOpts = me.options.ticks;
+			me.ticks = me.ticks.map(tickOpts.userCallback || tickOpts.callback, this);
+		},
+		afterTickToLabelConversion: function() {
+			helpers.callback(this.options.afterTickToLabelConversion, [this]);
+		},
+
+		//
+
+		beforeCalculateTickRotation: function() {
+			helpers.callback(this.options.beforeCalculateTickRotation, [this]);
+		},
+		calculateTickRotation: function() {
+			var me = this;
+			var context = me.ctx;
+			var tickOpts = me.options.ticks;
+			var labels = labelsFromTicks(me._ticks);
+
+			// Get the width of each grid by calculating the difference
+			// between x offsets between 0 and 1.
+			var tickFont = parseFontOptions(tickOpts);
+			context.font = tickFont.font;
+
+			var labelRotation = tickOpts.minRotation || 0;
+
+			if (labels.length && me.options.display && me.isHorizontal()) {
+				var originalLabelWidth = helpers.longestText(context, tickFont.font, labels, me.longestTextCache);
+				var labelWidth = originalLabelWidth;
+				var cosRotation, sinRotation;
+
+				// Allow 3 pixels x2 padding either side for label readability
+				var tickWidth = me.getPixelForTick(1) - me.getPixelForTick(0) - 6;
+
+				// Max label rotation can be set or default to 90 - also act as a loop counter
+				while (labelWidth > tickWidth && labelRotation < tickOpts.maxRotation) {
+					var angleRadians = helpers.toRadians(labelRotation);
+					cosRotation = Math.cos(angleRadians);
+					sinRotation = Math.sin(angleRadians);
+
+					if (sinRotation * originalLabelWidth > me.maxHeight) {
+						// go back one step
+						labelRotation--;
+						break;
+					}
+
+					labelRotation++;
+					labelWidth = cosRotation * originalLabelWidth;
+				}
+			}
+
+			me.labelRotation = labelRotation;
+		},
+		afterCalculateTickRotation: function() {
+			helpers.callback(this.options.afterCalculateTickRotation, [this]);
+		},
+
+		//
+
+		beforeFit: function() {
+			helpers.callback(this.options.beforeFit, [this]);
+		},
+		fit: function() {
+			var me = this;
+			// Reset
+			var minSize = me.minSize = {
+				width: 0,
+				height: 0
+			};
+
+			var labels = labelsFromTicks(me._ticks);
+
+			var opts = me.options;
+			var tickOpts = opts.ticks;
+			var scaleLabelOpts = opts.scaleLabel;
+			var gridLineOpts = opts.gridLines;
+			var display = opts.display;
+			var isHorizontal = me.isHorizontal();
+
+			var tickFont = parseFontOptions(tickOpts);
+			var tickMarkLength = opts.gridLines.tickMarkLength;
+
+			// Width
+			if (isHorizontal) {
+				// subtract the margins to line up with the chartArea if we are a full width scale
+				minSize.width = me.isFullWidth() ? me.maxWidth - me.margins.left - me.margins.right : me.maxWidth;
+			} else {
+				minSize.width = display && gridLineOpts.drawTicks ? tickMarkLength : 0;
+			}
+
+			// height
+			if (isHorizontal) {
+				minSize.height = display && gridLineOpts.drawTicks ? tickMarkLength : 0;
+			} else {
+				minSize.height = me.maxHeight; // fill all the height
+			}
+
+			// Are we showing a title for the scale?
+			if (scaleLabelOpts.display && display) {
+				var scaleLabelLineHeight = parseLineHeight(scaleLabelOpts);
+				var scaleLabelPadding = helpers.options.toPadding(scaleLabelOpts.padding);
+				var deltaHeight = scaleLabelLineHeight + scaleLabelPadding.height;
+
+				if (isHorizontal) {
+					minSize.height += deltaHeight;
+				} else {
+					minSize.width += deltaHeight;
+				}
+			}
+
+			// Don't bother fitting the ticks if we are not showing them
+			if (tickOpts.display && display) {
+				var largestTextWidth = helpers.longestText(me.ctx, tickFont.font, labels, me.longestTextCache);
+				var tallestLabelHeightInLines = helpers.numberOfLabelLines(labels);
+				var lineSpace = tickFont.size * 0.5;
+				var tickPadding = me.options.ticks.padding;
+
+				if (isHorizontal) {
+					// A horizontal axis is more constrained by the height.
+					me.longestLabelWidth = largestTextWidth;
+
+					var angleRadians = helpers.toRadians(me.labelRotation);
+					var cosRotation = Math.cos(angleRadians);
+					var sinRotation = Math.sin(angleRadians);
+
+					// TODO - improve this calculation
+					var labelHeight = (sinRotation * largestTextWidth)
+						+ (tickFont.size * tallestLabelHeightInLines)
+						+ (lineSpace * (tallestLabelHeightInLines - 1))
+						+ lineSpace; // padding
+
+					minSize.height = Math.min(me.maxHeight, minSize.height + labelHeight + tickPadding);
+
+					me.ctx.font = tickFont.font;
+					var firstLabelWidth = computeTextSize(me.ctx, labels[0], tickFont.font);
+					var lastLabelWidth = computeTextSize(me.ctx, labels[labels.length - 1], tickFont.font);
+
+					// Ensure that our ticks are always inside the canvas. When rotated, ticks are right aligned
+					// which means that the right padding is dominated by the font height
+					if (me.labelRotation !== 0) {
+						me.paddingLeft = opts.position === 'bottom' ? (cosRotation * firstLabelWidth) + 3 : (cosRotation * lineSpace) + 3; // add 3 px to move away from canvas edges
+						me.paddingRight = opts.position === 'bottom' ? (cosRotation * lineSpace) + 3 : (cosRotation * lastLabelWidth) + 3;
+					} else {
+						me.paddingLeft = firstLabelWidth / 2 + 3; // add 3 px to move away from canvas edges
+						me.paddingRight = lastLabelWidth / 2 + 3;
+					}
+				} else {
+					// A vertical axis is more constrained by the width. Labels are the
+					// dominant factor here, so get that length first and account for padding
+					if (tickOpts.mirror) {
+						largestTextWidth = 0;
+					} else {
+						// use lineSpace for consistency with horizontal axis
+						// tickPadding is not implemented for horizontal
+						largestTextWidth += tickPadding + lineSpace;
+					}
+
+					minSize.width = Math.min(me.maxWidth, minSize.width + largestTextWidth);
+
+					me.paddingTop = tickFont.size / 2;
+					me.paddingBottom = tickFont.size / 2;
+				}
+			}
+
+			me.handleMargins();
+
+			me.width = minSize.width;
+			me.height = minSize.height;
+		},
+
+		/**
+		 * Handle margins and padding interactions
+		 * @private
+		 */
+		handleMargins: function() {
+			var me = this;
+			if (me.margins) {
+				me.paddingLeft = Math.max(me.paddingLeft - me.margins.left, 0);
+				me.paddingTop = Math.max(me.paddingTop - me.margins.top, 0);
+				me.paddingRight = Math.max(me.paddingRight - me.margins.right, 0);
+				me.paddingBottom = Math.max(me.paddingBottom - me.margins.bottom, 0);
+			}
+		},
+
+		afterFit: function() {
+			helpers.callback(this.options.afterFit, [this]);
+		},
+
+		// Shared Methods
+		isHorizontal: function() {
+			return this.options.position === 'top' || this.options.position === 'bottom';
+		},
+		isFullWidth: function() {
+			return (this.options.fullWidth);
+		},
+
+		// Get the correct value. NaN bad inputs, If the value type is object get the x or y based on whether we are horizontal or not
+		getRightValue: function(rawValue) {
+			// Null and undefined values first
+			if (helpers.isNullOrUndef(rawValue)) {
+				return NaN;
+			}
+			// isNaN(object) returns true, so make sure NaN is checking for a number; Discard Infinite values
+			if (typeof rawValue === 'number' && !isFinite(rawValue)) {
+				return NaN;
+			}
+			// If it is in fact an object, dive in one more level
+			if (rawValue) {
+				if (this.isHorizontal()) {
+					if (rawValue.x !== undefined) {
+						return this.getRightValue(rawValue.x);
+					}
+				} else if (rawValue.y !== undefined) {
+					return this.getRightValue(rawValue.y);
+				}
+			}
+
+			// Value is good, return it
+			return rawValue;
+		},
+
+		/**
+		 * Used to get the value to display in the tooltip for the data at the given index
+		 * @param index
+		 * @param datasetIndex
+		 */
+		getLabelForIndex: helpers.noop,
+
+		/**
+		 * Returns the location of the given data point. Value can either be an index or a numerical value
+		 * The coordinate (0, 0) is at the upper-left corner of the canvas
+		 * @param value
+		 * @param index
+		 * @param datasetIndex
+		 */
+		getPixelForValue: helpers.noop,
+
+		/**
+		 * Used to get the data value from a given pixel. This is the inverse of getPixelForValue
+		 * The coordinate (0, 0) is at the upper-left corner of the canvas
+		 * @param pixel
+		 */
+		getValueForPixel: helpers.noop,
+
+		/**
+		 * Returns the location of the tick at the given index
+		 * The coordinate (0, 0) is at the upper-left corner of the canvas
+		 */
+		getPixelForTick: function(index) {
+			var me = this;
+			var offset = me.options.offset;
+			if (me.isHorizontal()) {
+				var innerWidth = me.width - (me.paddingLeft + me.paddingRight);
+				var tickWidth = innerWidth / Math.max((me._ticks.length - (offset ? 0 : 1)), 1);
+				var pixel = (tickWidth * index) + me.paddingLeft;
+
+				if (offset) {
+					pixel += tickWidth / 2;
+				}
+
+				var finalVal = me.left + Math.round(pixel);
+				finalVal += me.isFullWidth() ? me.margins.left : 0;
+				return finalVal;
+			}
+			var innerHeight = me.height - (me.paddingTop + me.paddingBottom);
+			return me.top + (index * (innerHeight / (me._ticks.length - 1)));
+		},
+
+		/**
+		 * Utility for getting the pixel location of a percentage of scale
+		 * The coordinate (0, 0) is at the upper-left corner of the canvas
+		 */
+		getPixelForDecimal: function(decimal) {
+			var me = this;
+			if (me.isHorizontal()) {
+				var innerWidth = me.width - (me.paddingLeft + me.paddingRight);
+				var valueOffset = (innerWidth * decimal) + me.paddingLeft;
+
+				var finalVal = me.left + Math.round(valueOffset);
+				finalVal += me.isFullWidth() ? me.margins.left : 0;
+				return finalVal;
+			}
+			return me.top + (decimal * me.height);
+		},
+
+		/**
+		 * Returns the pixel for the minimum chart value
+		 * The coordinate (0, 0) is at the upper-left corner of the canvas
+		 */
+		getBasePixel: function() {
+			return this.getPixelForValue(this.getBaseValue());
+		},
+
+		getBaseValue: function() {
+			var me = this;
+			var min = me.min;
+			var max = me.max;
+
+			return me.beginAtZero ? 0 :
+				min < 0 && max < 0 ? max :
+				min > 0 && max > 0 ? min :
+				0;
+		},
+
+		/**
+		 * Returns a subset of ticks to be plotted to avoid overlapping labels.
+		 * @private
+		 */
+		_autoSkip: function(ticks) {
+			var skipRatio;
+			var me = this;
+			var isHorizontal = me.isHorizontal();
+			var optionTicks = me.options.ticks.minor;
+			var tickCount = ticks.length;
+			var labelRotationRadians = helpers.toRadians(me.labelRotation);
+			var cosRotation = Math.cos(labelRotationRadians);
+			var longestRotatedLabel = me.longestLabelWidth * cosRotation;
+			var result = [];
+			var i, tick, shouldSkip;
+
+			// figure out the maximum number of gridlines to show
+			var maxTicks;
+			if (optionTicks.maxTicksLimit) {
+				maxTicks = optionTicks.maxTicksLimit;
+			}
+
+			if (isHorizontal) {
+				skipRatio = false;
+
+				if ((longestRotatedLabel + optionTicks.autoSkipPadding) * tickCount > (me.width - (me.paddingLeft + me.paddingRight))) {
+					skipRatio = 1 + Math.floor(((longestRotatedLabel + optionTicks.autoSkipPadding) * tickCount) / (me.width - (me.paddingLeft + me.paddingRight)));
+				}
+
+				// if they defined a max number of optionTicks,
+				// increase skipRatio until that number is met
+				if (maxTicks && tickCount > maxTicks) {
+					skipRatio = Math.max(skipRatio, Math.floor(tickCount / maxTicks));
+				}
+			}
+
+			for (i = 0; i < tickCount; i++) {
+				tick = ticks[i];
+
+				// Since we always show the last tick,we need may need to hide the last shown one before
+				shouldSkip = (skipRatio > 1 && i % skipRatio > 0) || (i % skipRatio === 0 && i + skipRatio >= tickCount);
+				if (shouldSkip && i !== tickCount - 1) {
+					// leave tick in place but make sure it's not displayed (#4635)
+					delete tick.label;
+				}
+				result.push(tick);
+			}
+			return result;
+		},
+
+		// Actually draw the scale on the canvas
+		// @param {rectangle} chartArea : the area of the chart to draw full grid lines on
+		draw: function(chartArea) {
+			var me = this;
+			var options = me.options;
+			if (!options.display) {
+				return;
+			}
+
+			var context = me.ctx;
+			var globalDefaults = defaults.global;
+			var optionTicks = options.ticks.minor;
+			var optionMajorTicks = options.ticks.major || optionTicks;
+			var gridLines = options.gridLines;
+			var scaleLabel = options.scaleLabel;
+
+			var isRotated = me.labelRotation !== 0;
+			var isHorizontal = me.isHorizontal();
+
+			var ticks = optionTicks.autoSkip ? me._autoSkip(me.getTicks()) : me.getTicks();
+			var tickFontColor = helpers.valueOrDefault(optionTicks.fontColor, globalDefaults.defaultFontColor);
+			var tickFont = parseFontOptions(optionTicks);
+			var majorTickFontColor = helpers.valueOrDefault(optionMajorTicks.fontColor, globalDefaults.defaultFontColor);
+			var majorTickFont = parseFontOptions(optionMajorTicks);
+
+			var tl = gridLines.drawTicks ? gridLines.tickMarkLength : 0;
+
+			var scaleLabelFontColor = helpers.valueOrDefault(scaleLabel.fontColor, globalDefaults.defaultFontColor);
+			var scaleLabelFont = parseFontOptions(scaleLabel);
+			var scaleLabelPadding = helpers.options.toPadding(scaleLabel.padding);
+			var labelRotationRadians = helpers.toRadians(me.labelRotation);
+
+			var itemsToDraw = [];
+
+			var axisWidth = me.options.gridLines.lineWidth;
+			var xTickStart = options.position === 'right' ? me.right : me.right - axisWidth - tl;
+			var xTickEnd = options.position === 'right' ? me.right + tl : me.right;
+			var yTickStart = options.position === 'bottom' ? me.top + axisWidth : me.bottom - tl - axisWidth;
+			var yTickEnd = options.position === 'bottom' ? me.top + axisWidth + tl : me.bottom + axisWidth;
+
+			helpers.each(ticks, function(tick, index) {
+				// autoskipper skipped this tick (#4635)
+				if (helpers.isNullOrUndef(tick.label)) {
+					return;
+				}
+
+				var label = tick.label;
+				var lineWidth, lineColor, borderDash, borderDashOffset;
+				if (index === me.zeroLineIndex && options.offset === gridLines.offsetGridLines) {
+					// Draw the first index specially
+					lineWidth = gridLines.zeroLineWidth;
+					lineColor = gridLines.zeroLineColor;
+					borderDash = gridLines.zeroLineBorderDash;
+					borderDashOffset = gridLines.zeroLineBorderDashOffset;
+				} else {
+					lineWidth = helpers.valueAtIndexOrDefault(gridLines.lineWidth, index);
+					lineColor = helpers.valueAtIndexOrDefault(gridLines.color, index);
+					borderDash = helpers.valueOrDefault(gridLines.borderDash, globalDefaults.borderDash);
+					borderDashOffset = helpers.valueOrDefault(gridLines.borderDashOffset, globalDefaults.borderDashOffset);
+				}
+
+				// Common properties
+				var tx1, ty1, tx2, ty2, x1, y1, x2, y2, labelX, labelY;
+				var textAlign = 'middle';
+				var textBaseline = 'middle';
+				var tickPadding = optionTicks.padding;
+
+				if (isHorizontal) {
+					var labelYOffset = tl + tickPadding;
+
+					if (options.position === 'bottom') {
+						// bottom
+						textBaseline = !isRotated ? 'top' : 'middle';
+						textAlign = !isRotated ? 'center' : 'right';
+						labelY = me.top + labelYOffset;
+					} else {
+						// top
+						textBaseline = !isRotated ? 'bottom' : 'middle';
+						textAlign = !isRotated ? 'center' : 'left';
+						labelY = me.bottom - labelYOffset;
+					}
+
+					var xLineValue = getLineValue(me, index, gridLines.offsetGridLines && ticks.length > 1);
+					if (xLineValue < me.left) {
+						lineColor = 'rgba(0,0,0,0)';
+					}
+					xLineValue += helpers.aliasPixel(lineWidth);
+
+					labelX = me.getPixelForTick(index) + optionTicks.labelOffset; // x values for optionTicks (need to consider offsetLabel option)
+
+					tx1 = tx2 = x1 = x2 = xLineValue;
+					ty1 = yTickStart;
+					ty2 = yTickEnd;
+					y1 = chartArea.top;
+					y2 = chartArea.bottom + axisWidth;
+				} else {
+					var isLeft = options.position === 'left';
+					var labelXOffset;
+
+					if (optionTicks.mirror) {
+						textAlign = isLeft ? 'left' : 'right';
+						labelXOffset = tickPadding;
+					} else {
+						textAlign = isLeft ? 'right' : 'left';
+						labelXOffset = tl + tickPadding;
+					}
+
+					labelX = isLeft ? me.right - labelXOffset : me.left + labelXOffset;
+
+					var yLineValue = getLineValue(me, index, gridLines.offsetGridLines && ticks.length > 1);
+					if (yLineValue < me.top) {
+						lineColor = 'rgba(0,0,0,0)';
+					}
+					yLineValue += helpers.aliasPixel(lineWidth);
+
+					labelY = me.getPixelForTick(index) + optionTicks.labelOffset;
+
+					tx1 = xTickStart;
+					tx2 = xTickEnd;
+					x1 = chartArea.left;
+					x2 = chartArea.right + axisWidth;
+					ty1 = ty2 = y1 = y2 = yLineValue;
+				}
+
+				itemsToDraw.push({
+					tx1: tx1,
+					ty1: ty1,
+					tx2: tx2,
+					ty2: ty2,
+					x1: x1,
+					y1: y1,
+					x2: x2,
+					y2: y2,
+					labelX: labelX,
+					labelY: labelY,
+					glWidth: lineWidth,
+					glColor: lineColor,
+					glBorderDash: borderDash,
+					glBorderDashOffset: borderDashOffset,
+					rotation: -1 * labelRotationRadians,
+					label: label,
+					major: tick.major,
+					textBaseline: textBaseline,
+					textAlign: textAlign
+				});
+			});
+
+			// Draw all of the tick labels, tick marks, and grid lines at the correct places
+			helpers.each(itemsToDraw, function(itemToDraw) {
+				if (gridLines.display) {
+					context.save();
+					context.lineWidth = itemToDraw.glWidth;
+					context.strokeStyle = itemToDraw.glColor;
+					if (context.setLineDash) {
+						context.setLineDash(itemToDraw.glBorderDash);
+						context.lineDashOffset = itemToDraw.glBorderDashOffset;
+					}
+
+					context.beginPath();
+
+					if (gridLines.drawTicks) {
+						context.moveTo(itemToDraw.tx1, itemToDraw.ty1);
+						context.lineTo(itemToDraw.tx2, itemToDraw.ty2);
+					}
+
+					if (gridLines.drawOnChartArea) {
+						context.moveTo(itemToDraw.x1, itemToDraw.y1);
+						context.lineTo(itemToDraw.x2, itemToDraw.y2);
+					}
+
+					context.stroke();
+					context.restore();
+				}
+
+				if (optionTicks.display) {
+					// Make sure we draw text in the correct color and font
+					context.save();
+					context.translate(itemToDraw.labelX, itemToDraw.labelY);
+					context.rotate(itemToDraw.rotation);
+					context.font = itemToDraw.major ? majorTickFont.font : tickFont.font;
+					context.fillStyle = itemToDraw.major ? majorTickFontColor : tickFontColor;
+					context.textBaseline = itemToDraw.textBaseline;
+					context.textAlign = itemToDraw.textAlign;
+
+					var label = itemToDraw.label;
+					if (helpers.isArray(label)) {
+						var lineCount = label.length;
+						var lineHeight = tickFont.size * 1.5;
+						var y = me.isHorizontal() ? 0 : -lineHeight * (lineCount - 1) / 2;
+
+						for (var i = 0; i < lineCount; ++i) {
+							// We just make sure the multiline element is a string here..
+							context.fillText('' + label[i], 0, y);
+							// apply same lineSpacing as calculated @ L#320
+							y += lineHeight;
+						}
+					} else {
+						context.fillText(label, 0, 0);
+					}
+					context.restore();
+				}
+			});
+
+			if (scaleLabel.display) {
+				// Draw the scale label
+				var scaleLabelX;
+				var scaleLabelY;
+				var rotation = 0;
+				var halfLineHeight = parseLineHeight(scaleLabel) / 2;
+
+				if (isHorizontal) {
+					scaleLabelX = me.left + ((me.right - me.left) / 2); // midpoint of the width
+					scaleLabelY = options.position === 'bottom'
+						? me.bottom - halfLineHeight - scaleLabelPadding.bottom
+						: me.top + halfLineHeight + scaleLabelPadding.top;
+				} else {
+					var isLeft = options.position === 'left';
+					scaleLabelX = isLeft
+						? me.left + halfLineHeight + scaleLabelPadding.top
+						: me.right - halfLineHeight - scaleLabelPadding.top;
+					scaleLabelY = me.top + ((me.bottom - me.top) / 2);
+					rotation = isLeft ? -0.5 * Math.PI : 0.5 * Math.PI;
+				}
+
+				context.save();
+				context.translate(scaleLabelX, scaleLabelY);
+				context.rotate(rotation);
+				context.textAlign = 'center';
+				context.textBaseline = 'middle';
+				context.fillStyle = scaleLabelFontColor; // render in correct colour
+				context.font = scaleLabelFont.font;
+				context.fillText(scaleLabel.labelString, 0, 0);
+				context.restore();
+			}
+
+			if (gridLines.drawBorder) {
+				// Draw the line at the edge of the axis
+				context.lineWidth = helpers.valueAtIndexOrDefault(gridLines.lineWidth, 0);
+				context.strokeStyle = helpers.valueAtIndexOrDefault(gridLines.color, 0);
+				var x1 = me.left;
+				var x2 = me.right + axisWidth;
+				var y1 = me.top;
+				var y2 = me.bottom + axisWidth;
+
+				var aliasPixel = helpers.aliasPixel(context.lineWidth);
+				if (isHorizontal) {
+					y1 = y2 = options.position === 'top' ? me.bottom : me.top;
+					y1 += aliasPixel;
+					y2 += aliasPixel;
+				} else {
+					x1 = x2 = options.position === 'left' ? me.right : me.left;
+					x1 += aliasPixel;
+					x2 += aliasPixel;
+				}
+
+				context.beginPath();
+				context.moveTo(x1, y1);
+				context.lineTo(x2, y2);
+				context.stroke();
+			}
+		}
+	});
+};
+
+},{"../helpers/index":39,"./core.defaults":19,"./core.element":20,"./core.ticks":28}],27:[function(require,module,exports){
+'use strict';
+
+var defaults = require('./core.defaults');
+var helpers = require('../helpers/index');
+var layouts = require('./core.layouts');
+
+module.exports = function(Chart) {
+
+	Chart.scaleService = {
+		// Scale registration object. Extensions can register new scale types (such as log or DB scales) and then
+		// use the new chart options to grab the correct scale
+		constructors: {},
+		// Use a registration function so that we can move to an ES6 map when we no longer need to support
+		// old browsers
+
+		// Scale config defaults
+		defaults: {},
+		registerScaleType: function(type, scaleConstructor, scaleDefaults) {
+			this.constructors[type] = scaleConstructor;
+			this.defaults[type] = helpers.clone(scaleDefaults);
+		},
+		getScaleConstructor: function(type) {
+			return this.constructors.hasOwnProperty(type) ? this.constructors[type] : undefined;
+		},
+		getScaleDefaults: function(type) {
+			// Return the scale defaults merged with the global settings so that we always use the latest ones
+			return this.defaults.hasOwnProperty(type) ? helpers.merge({}, [defaults.scale, this.defaults[type]]) : {};
+		},
+		updateScaleDefaults: function(type, additions) {
+			var me = this;
+			if (me.defaults.hasOwnProperty(type)) {
+				me.defaults[type] = helpers.extend(me.defaults[type], additions);
+			}
+		},
+		addScalesToLayout: function(chart) {
+			// Adds each scale to the chart.boxes array to be sized accordingly
+			helpers.each(chart.scales, function(scale) {
+				// Set ILayoutItem parameters for backwards compatibility
+				scale.fullWidth = scale.options.fullWidth;
+				scale.position = scale.options.position;
+				scale.weight = scale.options.weight;
+				layouts.addBox(chart, scale);
+			});
+		}
+	};
+};
+
+},{"../helpers/index":39,"./core.defaults":19,"./core.layouts":24}],28:[function(require,module,exports){
+'use strict';
+
+var helpers = require('../helpers/index');
+
+/**
+ * Namespace to hold static tick generation functions
+ * @namespace Chart.Ticks
+ */
+module.exports = {
+	/**
+	 * Namespace to hold formatters for different types of ticks
+	 * @namespace Chart.Ticks.formatters
+	 */
+	formatters: {
+		/**
+		 * Formatter for value labels
+		 * @method Chart.Ticks.formatters.values
+		 * @param value the value to display
+		 * @return {String|Array} the label to display
+		 */
+		values: function(value) {
+			return helpers.isArray(value) ? value : '' + value;
+		},
+
+		/**
+		 * Formatter for linear numeric ticks
+		 * @method Chart.Ticks.formatters.linear
+		 * @param tickValue {Number} the value to be formatted
+		 * @param index {Number} the position of the tickValue parameter in the ticks array
+		 * @param ticks {Array<Number>} the list of ticks being converted
+		 * @return {String} string representation of the tickValue parameter
+		 */
+		linear: function(tickValue, index, ticks) {
+			// If we have lots of ticks, don't use the ones
+			var delta = ticks.length > 3 ? ticks[2] - ticks[1] : ticks[1] - ticks[0];
+
+			// If we have a number like 2.5 as the delta, figure out how many decimal places we need
+			if (Math.abs(delta) > 1) {
+				if (tickValue !== Math.floor(tickValue)) {
+					// not an integer
+					delta = tickValue - Math.floor(tickValue);
+				}
+			}
+
+			var logDelta = helpers.log10(Math.abs(delta));
+			var tickString = '';
+
+			if (tickValue !== 0) {
+				var numDecimal = -1 * Math.floor(logDelta);
+				numDecimal = Math.max(Math.min(numDecimal, 20), 0); // toFixed has a max of 20 decimal places
+				tickString = tickValue.toFixed(numDecimal);
+			} else {
+				tickString = '0'; // never show decimal places for 0
+			}
+
+			return tickString;
+		},
+
+		logarithmic: function(tickValue, index, ticks) {
+			var remain = tickValue / (Math.pow(10, Math.floor(helpers.log10(tickValue))));
+
+			if (tickValue === 0) {
+				return '0';
+			} else if (remain === 1 || remain === 2 || remain === 5 || index === 0 || index === ticks.length - 1) {
+				return tickValue.toExponential();
+			}
+			return '';
+		}
+	}
+};
+
+},{"../helpers/index":39}],29:[function(require,module,exports){
+'use strict';
+
+var defaults = require('./core.defaults');
+var Element = require('./core.element');
+var helpers = require('../helpers/index');
+
+defaults._set('global', {
+	tooltips: {
+		enabled: true,
+		custom: null,
+		mode: 'nearest',
+		position: 'average',
+		intersect: true,
+		backgroundColor: 'rgba(0,0,0,0.8)',
+		titleFontStyle: 'bold',
+		titleSpacing: 2,
+		titleMarginBottom: 6,
+		titleFontColor: '#fff',
+		titleAlign: 'left',
+		bodySpacing: 2,
+		bodyFontColor: '#fff',
+		bodyAlign: 'left',
+		footerFontStyle: 'bold',
+		footerSpacing: 2,
+		footerMarginTop: 6,
+		footerFontColor: '#fff',
+		footerAlign: 'left',
+		yPadding: 6,
+		xPadding: 6,
+		caretPadding: 2,
+		caretSize: 5,
+		cornerRadius: 6,
+		multiKeyBackground: '#fff',
+		displayColors: true,
+		borderColor: 'rgba(0,0,0,0)',
+		borderWidth: 0,
+		callbacks: {
+			// Args are: (tooltipItems, data)
+			beforeTitle: helpers.noop,
+			title: function(tooltipItems, data) {
+				// Pick first xLabel for now
+				var title = '';
+				var labels = data.labels;
+				var labelCount = labels ? labels.length : 0;
+
+				if (tooltipItems.length > 0) {
+					var item = tooltipItems[0];
+
+					if (item.xLabel) {
+						title = item.xLabel;
+					} else if (labelCount > 0 && item.index < labelCount) {
+						title = labels[item.index];
+					}
+				}
+
+				return title;
+			},
+			afterTitle: helpers.noop,
+
+			// Args are: (tooltipItems, data)
+			beforeBody: helpers.noop,
+
+			// Args are: (tooltipItem, data)
+			beforeLabel: helpers.noop,
+			label: function(tooltipItem, data) {
+				var label = data.datasets[tooltipItem.datasetIndex].label || '';
+
+				if (label) {
+					label += ': ';
+				}
+				label += tooltipItem.yLabel;
+				return label;
+			},
+			labelColor: function(tooltipItem, chart) {
+				var meta = chart.getDatasetMeta(tooltipItem.datasetIndex);
+				var activeElement = meta.data[tooltipItem.index];
+				var view = activeElement._view;
+				return {
+					borderColor: view.borderColor,
+					backgroundColor: view.backgroundColor
+				};
+			},
+			labelTextColor: function() {
+				return this._options.bodyFontColor;
+			},
+			afterLabel: helpers.noop,
+
+			// Args are: (tooltipItems, data)
+			afterBody: helpers.noop,
+
+			// Args are: (tooltipItems, data)
+			beforeFooter: helpers.noop,
+			footer: helpers.noop,
+			afterFooter: helpers.noop
+		}
+	}
+});
+
+module.exports = function(Chart) {
+
+	/**
+ 	 * Helper method to merge the opacity into a color
+ 	 */
+	function mergeOpacity(colorString, opacity) {
+		var color = helpers.color(colorString);
+		return color.alpha(opacity * color.alpha()).rgbaString();
+	}
+
+	// Helper to push or concat based on if the 2nd parameter is an array or not
+	function pushOrConcat(base, toPush) {
+		if (toPush) {
+			if (helpers.isArray(toPush)) {
+				// base = base.concat(toPush);
+				Array.prototype.push.apply(base, toPush);
+			} else {
+				base.push(toPush);
+			}
+		}
+
+		return base;
+	}
+
+	// Private helper to create a tooltip item model
+	// @param element : the chart element (point, arc, bar) to create the tooltip item for
+	// @return : new tooltip item
+	function createTooltipItem(element) {
+		var xScale = element._xScale;
+		var yScale = element._yScale || element._scale; // handle radar || polarArea charts
+		var index = element._index;
+		var datasetIndex = element._datasetIndex;
+
+		return {
+			xLabel: xScale ? xScale.getLabelForIndex(index, datasetIndex) : '',
+			yLabel: yScale ? yScale.getLabelForIndex(index, datasetIndex) : '',
+			index: index,
+			datasetIndex: datasetIndex,
+			x: element._model.x,
+			y: element._model.y
+		};
+	}
+
+	/**
+	 * Helper to get the reset model for the tooltip
+	 * @param tooltipOpts {Object} the tooltip options
+	 */
+	function getBaseModel(tooltipOpts) {
+		var globalDefaults = defaults.global;
+		var valueOrDefault = helpers.valueOrDefault;
+
+		return {
+			// Positioning
+			xPadding: tooltipOpts.xPadding,
+			yPadding: tooltipOpts.yPadding,
+			xAlign: tooltipOpts.xAlign,
+			yAlign: tooltipOpts.yAlign,
+
+			// Body
+			bodyFontColor: tooltipOpts.bodyFontColor,
+			_bodyFontFamily: valueOrDefault(tooltipOpts.bodyFontFamily, globalDefaults.defaultFontFamily),
+			_bodyFontStyle: valueOrDefault(tooltipOpts.bodyFontStyle, globalDefaults.defaultFontStyle),
+			_bodyAlign: tooltipOpts.bodyAlign,
+			bodyFontSize: valueOrDefault(tooltipOpts.bodyFontSize, globalDefaults.defaultFontSize),
+			bodySpacing: tooltipOpts.bodySpacing,
+
+			// Title
+			titleFontColor: tooltipOpts.titleFontColor,
+			_titleFontFamily: valueOrDefault(tooltipOpts.titleFontFamily, globalDefaults.defaultFontFamily),
+			_titleFontStyle: valueOrDefault(tooltipOpts.titleFontStyle, globalDefaults.defaultFontStyle),
+			titleFontSize: valueOrDefault(tooltipOpts.titleFontSize, globalDefaults.defaultFontSize),
+			_titleAlign: tooltipOpts.titleAlign,
+			titleSpacing: tooltipOpts.titleSpacing,
+			titleMarginBottom: tooltipOpts.titleMarginBottom,
+
+			// Footer
+			footerFontColor: tooltipOpts.footerFontColor,
+			_footerFontFamily: valueOrDefault(tooltipOpts.footerFontFamily, globalDefaults.defaultFontFamily),
+			_footerFontStyle: valueOrDefault(tooltipOpts.footerFontStyle, globalDefaults.defaultFontStyle),
+			footerFontSize: valueOrDefault(tooltipOpts.footerFontSize, globalDefaults.defaultFontSize),
+			_footerAlign: tooltipOpts.footerAlign,
+			footerSpacing: tooltipOpts.footerSpacing,
+			footerMarginTop: tooltipOpts.footerMarginTop,
+
+			// Appearance
+			caretSize: tooltipOpts.caretSize,
+			cornerRadius: tooltipOpts.cornerRadius,
+			backgroundColor: tooltipOpts.backgroundColor,
+			opacity: 0,
+			legendColorBackground: tooltipOpts.multiKeyBackground,
+			displayColors: tooltipOpts.displayColors,
+			borderColor: tooltipOpts.borderColor,
+			borderWidth: tooltipOpts.borderWidth
+		};
+	}
+
+	/**
+	 * Get the size of the tooltip
+	 */
+	function getTooltipSize(tooltip, model) {
+		var ctx = tooltip._chart.ctx;
+
+		var height = model.yPadding * 2; // Tooltip Padding
+		var width = 0;
+
+		// Count of all lines in the body
+		var body = model.body;
+		var combinedBodyLength = body.reduce(function(count, bodyItem) {
+			return count + bodyItem.before.length + bodyItem.lines.length + bodyItem.after.length;
+		}, 0);
+		combinedBodyLength += model.beforeBody.length + model.afterBody.length;
+
+		var titleLineCount = model.title.length;
+		var footerLineCount = model.footer.length;
+		var titleFontSize = model.titleFontSize;
+		var bodyFontSize = model.bodyFontSize;
+		var footerFontSize = model.footerFontSize;
+
+		height += titleLineCount * titleFontSize; // Title Lines
+		height += titleLineCount ? (titleLineCount - 1) * model.titleSpacing : 0; // Title Line Spacing
+		height += titleLineCount ? model.titleMarginBottom : 0; // Title's bottom Margin
+		height += combinedBodyLength * bodyFontSize; // Body Lines
+		height += combinedBodyLength ? (combinedBodyLength - 1) * model.bodySpacing : 0; // Body Line Spacing
+		height += footerLineCount ? model.footerMarginTop : 0; // Footer Margin
+		height += footerLineCount * (footerFontSize); // Footer Lines
+		height += footerLineCount ? (footerLineCount - 1) * model.footerSpacing : 0; // Footer Line Spacing
+
+		// Title width
+		var widthPadding = 0;
+		var maxLineWidth = function(line) {
+			width = Math.max(width, ctx.measureText(line).width + widthPadding);
+		};
+
+		ctx.font = helpers.fontString(titleFontSize, model._titleFontStyle, model._titleFontFamily);
+		helpers.each(model.title, maxLineWidth);
+
+		// Body width
+		ctx.font = helpers.fontString(bodyFontSize, model._bodyFontStyle, model._bodyFontFamily);
+		helpers.each(model.beforeBody.concat(model.afterBody), maxLineWidth);
+
+		// Body lines may include some extra width due to the color box
+		widthPadding = model.displayColors ? (bodyFontSize + 2) : 0;
+		helpers.each(body, function(bodyItem) {
+			helpers.each(bodyItem.before, maxLineWidth);
+			helpers.each(bodyItem.lines, maxLineWidth);
+			helpers.each(bodyItem.after, maxLineWidth);
+		});
+
+		// Reset back to 0
+		widthPadding = 0;
+
+		// Footer width
+		ctx.font = helpers.fontString(footerFontSize, model._footerFontStyle, model._footerFontFamily);
+		helpers.each(model.footer, maxLineWidth);
+
+		// Add padding
+		width += 2 * model.xPadding;
+
+		return {
+			width: width,
+			height: height
+		};
+	}
+
+	/**
+	 * Helper to get the alignment of a tooltip given the size
+	 */
+	function determineAlignment(tooltip, size) {
+		var model = tooltip._model;
+		var chart = tooltip._chart;
+		var chartArea = tooltip._chart.chartArea;
+		var xAlign = 'center';
+		var yAlign = 'center';
+
+		if (model.y < size.height) {
+			yAlign = 'top';
+		} else if (model.y > (chart.height - size.height)) {
+			yAlign = 'bottom';
+		}
+
+		var lf, rf; // functions to determine left, right alignment
+		var olf, orf; // functions to determine if left/right alignment causes tooltip to go outside chart
+		var yf; // function to get the y alignment if the tooltip goes outside of the left or right edges
+		var midX = (chartArea.left + chartArea.right) / 2;
+		var midY = (chartArea.top + chartArea.bottom) / 2;
+
+		if (yAlign === 'center') {
+			lf = function(x) {
+				return x <= midX;
+			};
+			rf = function(x) {
+				return x > midX;
+			};
+		} else {
+			lf = function(x) {
+				return x <= (size.width / 2);
+			};
+			rf = function(x) {
+				return x >= (chart.width - (size.width / 2));
+			};
+		}
+
+		olf = function(x) {
+			return x + size.width + model.caretSize + model.caretPadding > chart.width;
+		};
+		orf = function(x) {
+			return x - size.width - model.caretSize - model.caretPadding < 0;
+		};
+		yf = function(y) {
+			return y <= midY ? 'top' : 'bottom';
+		};
+
+		if (lf(model.x)) {
+			xAlign = 'left';
+
+			// Is tooltip too wide and goes over the right side of the chart.?
+			if (olf(model.x)) {
+				xAlign = 'center';
+				yAlign = yf(model.y);
+			}
+		} else if (rf(model.x)) {
+			xAlign = 'right';
+
+			// Is tooltip too wide and goes outside left edge of canvas?
+			if (orf(model.x)) {
+				xAlign = 'center';
+				yAlign = yf(model.y);
+			}
+		}
+
+		var opts = tooltip._options;
+		return {
+			xAlign: opts.xAlign ? opts.xAlign : xAlign,
+			yAlign: opts.yAlign ? opts.yAlign : yAlign
+		};
+	}
+
+	/**
+	 * @Helper to get the location a tooltip needs to be placed at given the initial position (via the vm) and the size and alignment
+	 */
+	function getBackgroundPoint(vm, size, alignment, chart) {
+		// Background Position
+		var x = vm.x;
+		var y = vm.y;
+
+		var caretSize = vm.caretSize;
+		var caretPadding = vm.caretPadding;
+		var cornerRadius = vm.cornerRadius;
+		var xAlign = alignment.xAlign;
+		var yAlign = alignment.yAlign;
+		var paddingAndSize = caretSize + caretPadding;
+		var radiusAndPadding = cornerRadius + caretPadding;
+
+		if (xAlign === 'right') {
+			x -= size.width;
+		} else if (xAlign === 'center') {
+			x -= (size.width / 2);
+			if (x + size.width > chart.width) {
+				x = chart.width - size.width;
+			}
+			if (x < 0) {
+				x = 0;
+			}
+		}
+
+		if (yAlign === 'top') {
+			y += paddingAndSize;
+		} else if (yAlign === 'bottom') {
+			y -= size.height + paddingAndSize;
+		} else {
+			y -= (size.height / 2);
+		}
+
+		if (yAlign === 'center') {
+			if (xAlign === 'left') {
+				x += paddingAndSize;
+			} else if (xAlign === 'right') {
+				x -= paddingAndSize;
+			}
+		} else if (xAlign === 'left') {
+			x -= radiusAndPadding;
+		} else if (xAlign === 'right') {
+			x += radiusAndPadding;
+		}
+
+		return {
+			x: x,
+			y: y
+		};
+	}
+
+	Chart.Tooltip = Element.extend({
+		initialize: function() {
+			this._model = getBaseModel(this._options);
+			this._lastActive = [];
+		},
+
+		// Get the title
+		// Args are: (tooltipItem, data)
+		getTitle: function() {
+			var me = this;
+			var opts = me._options;
+			var callbacks = opts.callbacks;
+
+			var beforeTitle = callbacks.beforeTitle.apply(me, arguments);
+			var title = callbacks.title.apply(me, arguments);
+			var afterTitle = callbacks.afterTitle.apply(me, arguments);
+
+			var lines = [];
+			lines = pushOrConcat(lines, beforeTitle);
+			lines = pushOrConcat(lines, title);
+			lines = pushOrConcat(lines, afterTitle);
+
+			return lines;
+		},
+
+		// Args are: (tooltipItem, data)
+		getBeforeBody: function() {
+			var lines = this._options.callbacks.beforeBody.apply(this, arguments);
+			return helpers.isArray(lines) ? lines : lines !== undefined ? [lines] : [];
+		},
+
+		// Args are: (tooltipItem, data)
+		getBody: function(tooltipItems, data) {
+			var me = this;
+			var callbacks = me._options.callbacks;
+			var bodyItems = [];
+
+			helpers.each(tooltipItems, function(tooltipItem) {
+				var bodyItem = {
+					before: [],
+					lines: [],
+					after: []
+				};
+				pushOrConcat(bodyItem.before, callbacks.beforeLabel.call(me, tooltipItem, data));
+				pushOrConcat(bodyItem.lines, callbacks.label.call(me, tooltipItem, data));
+				pushOrConcat(bodyItem.after, callbacks.afterLabel.call(me, tooltipItem, data));
+
+				bodyItems.push(bodyItem);
+			});
+
+			return bodyItems;
+		},
+
+		// Args are: (tooltipItem, data)
+		getAfterBody: function() {
+			var lines = this._options.callbacks.afterBody.apply(this, arguments);
+			return helpers.isArray(lines) ? lines : lines !== undefined ? [lines] : [];
+		},
+
+		// Get the footer and beforeFooter and afterFooter lines
+		// Args are: (tooltipItem, data)
+		getFooter: function() {
+			var me = this;
+			var callbacks = me._options.callbacks;
+
+			var beforeFooter = callbacks.beforeFooter.apply(me, arguments);
+			var footer = callbacks.footer.apply(me, arguments);
+			var afterFooter = callbacks.afterFooter.apply(me, arguments);
+
+			var lines = [];
+			lines = pushOrConcat(lines, beforeFooter);
+			lines = pushOrConcat(lines, footer);
+			lines = pushOrConcat(lines, afterFooter);
+
+			return lines;
+		},
+
+		update: function(changed) {
+			var me = this;
+			var opts = me._options;
+
+			// Need to regenerate the model because its faster than using extend and it is necessary due to the optimization in Chart.Element.transition
+			// that does _view = _model if ease === 1. This causes the 2nd tooltip update to set properties in both the view and model at the same time
+			// which breaks any animations.
+			var existingModel = me._model;
+			var model = me._model = getBaseModel(opts);
+			var active = me._active;
+
+			var data = me._data;
+
+			// In the case where active.length === 0 we need to keep these at existing values for good animations
+			var alignment = {
+				xAlign: existingModel.xAlign,
+				yAlign: existingModel.yAlign
+			};
+			var backgroundPoint = {
+				x: existingModel.x,
+				y: existingModel.y
+			};
+			var tooltipSize = {
+				width: existingModel.width,
+				height: existingModel.height
+			};
+			var tooltipPosition = {
+				x: existingModel.caretX,
+				y: existingModel.caretY
+			};
+
+			var i, len;
+
+			if (active.length) {
+				model.opacity = 1;
+
+				var labelColors = [];
+				var labelTextColors = [];
+				tooltipPosition = Chart.Tooltip.positioners[opts.position].call(me, active, me._eventPosition);
+
+				var tooltipItems = [];
+				for (i = 0, len = active.length; i < len; ++i) {
+					tooltipItems.push(createTooltipItem(active[i]));
+				}
+
+				// If the user provided a filter function, use it to modify the tooltip items
+				if (opts.filter) {
+					tooltipItems = tooltipItems.filter(function(a) {
+						return opts.filter(a, data);
+					});
+				}
+
+				// If the user provided a sorting function, use it to modify the tooltip items
+				if (opts.itemSort) {
+					tooltipItems = tooltipItems.sort(function(a, b) {
+						return opts.itemSort(a, b, data);
+					});
+				}
+
+				// Determine colors for boxes
+				helpers.each(tooltipItems, function(tooltipItem) {
+					labelColors.push(opts.callbacks.labelColor.call(me, tooltipItem, me._chart));
+					labelTextColors.push(opts.callbacks.labelTextColor.call(me, tooltipItem, me._chart));
+				});
+
+
+				// Build the Text Lines
+				model.title = me.getTitle(tooltipItems, data);
+				model.beforeBody = me.getBeforeBody(tooltipItems, data);
+				model.body = me.getBody(tooltipItems, data);
+				model.afterBody = me.getAfterBody(tooltipItems, data);
+				model.footer = me.getFooter(tooltipItems, data);
+
+				// Initial positioning and colors
+				model.x = Math.round(tooltipPosition.x);
+				model.y = Math.round(tooltipPosition.y);
+				model.caretPadding = opts.caretPadding;
+				model.labelColors = labelColors;
+				model.labelTextColors = labelTextColors;
+
+				// data points
+				model.dataPoints = tooltipItems;
+
+				// We need to determine alignment of the tooltip
+				tooltipSize = getTooltipSize(this, model);
+				alignment = determineAlignment(this, tooltipSize);
+				// Final Size and Position
+				backgroundPoint = getBackgroundPoint(model, tooltipSize, alignment, me._chart);
+			} else {
+				model.opacity = 0;
+			}
+
+			model.xAlign = alignment.xAlign;
+			model.yAlign = alignment.yAlign;
+			model.x = backgroundPoint.x;
+			model.y = backgroundPoint.y;
+			model.width = tooltipSize.width;
+			model.height = tooltipSize.height;
+
+			// Point where the caret on the tooltip points to
+			model.caretX = tooltipPosition.x;
+			model.caretY = tooltipPosition.y;
+
+			me._model = model;
+
+			if (changed && opts.custom) {
+				opts.custom.call(me, model);
+			}
+
+			return me;
+		},
+		drawCaret: function(tooltipPoint, size) {
+			var ctx = this._chart.ctx;
+			var vm = this._view;
+			var caretPosition = this.getCaretPosition(tooltipPoint, size, vm);
+
+			ctx.lineTo(caretPosition.x1, caretPosition.y1);
+			ctx.lineTo(caretPosition.x2, caretPosition.y2);
+			ctx.lineTo(caretPosition.x3, caretPosition.y3);
+		},
+		getCaretPosition: function(tooltipPoint, size, vm) {
+			var x1, x2, x3, y1, y2, y3;
+			var caretSize = vm.caretSize;
+			var cornerRadius = vm.cornerRadius;
+			var xAlign = vm.xAlign;
+			var yAlign = vm.yAlign;
+			var ptX = tooltipPoint.x;
+			var ptY = tooltipPoint.y;
+			var width = size.width;
+			var height = size.height;
+
+			if (yAlign === 'center') {
+				y2 = ptY + (height / 2);
+
+				if (xAlign === 'left') {
+					x1 = ptX;
+					x2 = x1 - caretSize;
+					x3 = x1;
+
+					y1 = y2 + caretSize;
+					y3 = y2 - caretSize;
+				} else {
+					x1 = ptX + width;
+					x2 = x1 + caretSize;
+					x3 = x1;
+
+					y1 = y2 - caretSize;
+					y3 = y2 + caretSize;
+				}
+			} else {
+				if (xAlign === 'left') {
+					x2 = ptX + cornerRadius + (caretSize);
+					x1 = x2 - caretSize;
+					x3 = x2 + caretSize;
+				} else if (xAlign === 'right') {
+					x2 = ptX + width - cornerRadius - caretSize;
+					x1 = x2 - caretSize;
+					x3 = x2 + caretSize;
+				} else {
+					x2 = vm.caretX;
+					x1 = x2 - caretSize;
+					x3 = x2 + caretSize;
+				}
+				if (yAlign === 'top') {
+					y1 = ptY;
+					y2 = y1 - caretSize;
+					y3 = y1;
+				} else {
+					y1 = ptY + height;
+					y2 = y1 + caretSize;
+					y3 = y1;
+					// invert drawing order
+					var tmp = x3;
+					x3 = x1;
+					x1 = tmp;
+				}
+			}
+			return {x1: x1, x2: x2, x3: x3, y1: y1, y2: y2, y3: y3};
+		},
+		drawTitle: function(pt, vm, ctx, opacity) {
+			var title = vm.title;
+
+			if (title.length) {
+				ctx.textAlign = vm._titleAlign;
+				ctx.textBaseline = 'top';
+
+				var titleFontSize = vm.titleFontSize;
+				var titleSpacing = vm.titleSpacing;
+
+				ctx.fillStyle = mergeOpacity(vm.titleFontColor, opacity);
+				ctx.font = helpers.fontString(titleFontSize, vm._titleFontStyle, vm._titleFontFamily);
+
+				var i, len;
+				for (i = 0, len = title.length; i < len; ++i) {
+					ctx.fillText(title[i], pt.x, pt.y);
+					pt.y += titleFontSize + titleSpacing; // Line Height and spacing
+
+					if (i + 1 === title.length) {
+						pt.y += vm.titleMarginBottom - titleSpacing; // If Last, add margin, remove spacing
+					}
+				}
+			}
+		},
+		drawBody: function(pt, vm, ctx, opacity) {
+			var bodyFontSize = vm.bodyFontSize;
+			var bodySpacing = vm.bodySpacing;
+			var body = vm.body;
+
+			ctx.textAlign = vm._bodyAlign;
+			ctx.textBaseline = 'top';
+			ctx.font = helpers.fontString(bodyFontSize, vm._bodyFontStyle, vm._bodyFontFamily);
+
+			// Before Body
+			var xLinePadding = 0;
+			var fillLineOfText = function(line) {
+				ctx.fillText(line, pt.x + xLinePadding, pt.y);
+				pt.y += bodyFontSize + bodySpacing;
+			};
+
+			// Before body lines
+			ctx.fillStyle = mergeOpacity(vm.bodyFontColor, opacity);
+			helpers.each(vm.beforeBody, fillLineOfText);
+
+			var drawColorBoxes = vm.displayColors;
+			xLinePadding = drawColorBoxes ? (bodyFontSize + 2) : 0;
+
+			// Draw body lines now
+			helpers.each(body, function(bodyItem, i) {
+				var textColor = mergeOpacity(vm.labelTextColors[i], opacity);
+				ctx.fillStyle = textColor;
+				helpers.each(bodyItem.before, fillLineOfText);
+
+				helpers.each(bodyItem.lines, function(line) {
+					// Draw Legend-like boxes if needed
+					if (drawColorBoxes) {
+						// Fill a white rect so that colours merge nicely if the opacity is < 1
+						ctx.fillStyle = mergeOpacity(vm.legendColorBackground, opacity);
+						ctx.fillRect(pt.x, pt.y, bodyFontSize, bodyFontSize);
+
+						// Border
+						ctx.lineWidth = 1;
+						ctx.strokeStyle = mergeOpacity(vm.labelColors[i].borderColor, opacity);
+						ctx.strokeRect(pt.x, pt.y, bodyFontSize, bodyFontSize);
+
+						// Inner square
+						ctx.fillStyle = mergeOpacity(vm.labelColors[i].backgroundColor, opacity);
+						ctx.fillRect(pt.x + 1, pt.y + 1, bodyFontSize - 2, bodyFontSize - 2);
+						ctx.fillStyle = textColor;
+					}
+
+					fillLineOfText(line);
+				});
+
+				helpers.each(bodyItem.after, fillLineOfText);
+			});
+
+			// Reset back to 0 for after body
+			xLinePadding = 0;
+
+			// After body lines
+			helpers.each(vm.afterBody, fillLineOfText);
+			pt.y -= bodySpacing; // Remove last body spacing
+		},
+		drawFooter: function(pt, vm, ctx, opacity) {
+			var footer = vm.footer;
+
+			if (footer.length) {
+				pt.y += vm.footerMarginTop;
+
+				ctx.textAlign = vm._footerAlign;
+				ctx.textBaseline = 'top';
+
+				ctx.fillStyle = mergeOpacity(vm.footerFontColor, opacity);
+				ctx.font = helpers.fontString(vm.footerFontSize, vm._footerFontStyle, vm._footerFontFamily);
+
+				helpers.each(footer, function(line) {
+					ctx.fillText(line, pt.x, pt.y);
+					pt.y += vm.footerFontSize + vm.footerSpacing;
+				});
+			}
+		},
+		drawBackground: function(pt, vm, ctx, tooltipSize, opacity) {
+			ctx.fillStyle = mergeOpacity(vm.backgroundColor, opacity);
+			ctx.strokeStyle = mergeOpacity(vm.borderColor, opacity);
+			ctx.lineWidth = vm.borderWidth;
+			var xAlign = vm.xAlign;
+			var yAlign = vm.yAlign;
+			var x = pt.x;
+			var y = pt.y;
+			var width = tooltipSize.width;
+			var height = tooltipSize.height;
+			var radius = vm.cornerRadius;
+
+			ctx.beginPath();
+			ctx.moveTo(x + radius, y);
+			if (yAlign === 'top') {
+				this.drawCaret(pt, tooltipSize);
+			}
+			ctx.lineTo(x + width - radius, y);
+			ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+			if (yAlign === 'center' && xAlign === 'right') {
+				this.drawCaret(pt, tooltipSize);
+			}
+			ctx.lineTo(x + width, y + height - radius);
+			ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+			if (yAlign === 'bottom') {
+				this.drawCaret(pt, tooltipSize);
+			}
+			ctx.lineTo(x + radius, y + height);
+			ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+			if (yAlign === 'center' && xAlign === 'left') {
+				this.drawCaret(pt, tooltipSize);
+			}
+			ctx.lineTo(x, y + radius);
+			ctx.quadraticCurveTo(x, y, x + radius, y);
+			ctx.closePath();
+
+			ctx.fill();
+
+			if (vm.borderWidth > 0) {
+				ctx.stroke();
+			}
+		},
+		draw: function() {
+			var ctx = this._chart.ctx;
+			var vm = this._view;
+
+			if (vm.opacity === 0) {
+				return;
+			}
+
+			var tooltipSize = {
+				width: vm.width,
+				height: vm.height
+			};
+			var pt = {
+				x: vm.x,
+				y: vm.y
+			};
+
+			// IE11/Edge does not like very small opacities, so snap to 0
+			var opacity = Math.abs(vm.opacity < 1e-3) ? 0 : vm.opacity;
+
+			// Truthy/falsey value for empty tooltip
+			var hasTooltipContent = vm.title.length || vm.beforeBody.length || vm.body.length || vm.afterBody.length || vm.footer.length;
+
+			if (this._options.enabled && hasTooltipContent) {
+				// Draw Background
+				this.drawBackground(pt, vm, ctx, tooltipSize, opacity);
+
+				// Draw Title, Body, and Footer
+				pt.x += vm.xPadding;
+				pt.y += vm.yPadding;
+
+				// Titles
+				this.drawTitle(pt, vm, ctx, opacity);
+
+				// Body
+				this.drawBody(pt, vm, ctx, opacity);
+
+				// Footer
+				this.drawFooter(pt, vm, ctx, opacity);
+			}
+		},
+
+		/**
+		 * Handle an event
+		 * @private
+		 * @param {IEvent} event - The event to handle
+		 * @returns {Boolean} true if the tooltip changed
+		 */
+		handleEvent: function(e) {
+			var me = this;
+			var options = me._options;
+			var changed = false;
+
+			me._lastActive = me._lastActive || [];
+
+			// Find Active Elements for tooltips
+			if (e.type === 'mouseout') {
+				me._active = [];
+			} else {
+				me._active = me._chart.getElementsAtEventForMode(e, options.mode, options);
+			}
+
+			// Remember Last Actives
+			changed = !helpers.arrayEquals(me._active, me._lastActive);
+
+			// Only handle target event on tooltip change
+			if (changed) {
+				me._lastActive = me._active;
+
+				if (options.enabled || options.custom) {
+					me._eventPosition = {
+						x: e.x,
+						y: e.y
+					};
+
+					me.update(true);
+					me.pivot();
+				}
+			}
+
+			return changed;
+		}
+	});
+
+	/**
+	 * @namespace Chart.Tooltip.positioners
+	 */
+	Chart.Tooltip.positioners = {
+		/**
+		 * Average mode places the tooltip at the average position of the elements shown
+		 * @function Chart.Tooltip.positioners.average
+		 * @param elements {ChartElement[]} the elements being displayed in the tooltip
+		 * @returns {Point} tooltip position
+		 */
+		average: function(elements) {
+			if (!elements.length) {
+				return false;
+			}
+
+			var i, len;
+			var x = 0;
+			var y = 0;
+			var count = 0;
+
+			for (i = 0, len = elements.length; i < len; ++i) {
+				var el = elements[i];
+				if (el && el.hasValue()) {
+					var pos = el.tooltipPosition();
+					x += pos.x;
+					y += pos.y;
+					++count;
+				}
+			}
+
+			return {
+				x: Math.round(x / count),
+				y: Math.round(y / count)
+			};
+		},
+
+		/**
+		 * Gets the tooltip position nearest of the item nearest to the event position
+		 * @function Chart.Tooltip.positioners.nearest
+		 * @param elements {Chart.Element[]} the tooltip elements
+		 * @param eventPosition {Point} the position of the event in canvas coordinates
+		 * @returns {Point} the tooltip position
+		 */
+		nearest: function(elements, eventPosition) {
+			var x = eventPosition.x;
+			var y = eventPosition.y;
+			var minDistance = Number.POSITIVE_INFINITY;
+			var i, len, nearestElement;
+
+			for (i = 0, len = elements.length; i < len; ++i) {
+				var el = elements[i];
+				if (el && el.hasValue()) {
+					var center = el.getCenterPoint();
+					var d = helpers.distanceBetweenPoints(eventPosition, center);
+
+					if (d < minDistance) {
+						minDistance = d;
+						nearestElement = el;
+					}
+				}
+			}
+
+			if (nearestElement) {
+				var tp = nearestElement.tooltipPosition();
+				x = tp.x;
+				y = tp.y;
+			}
+
+			return {
+				x: x,
+				y: y
+			};
+		}
+	};
+};
+
+},{"../helpers/index":39,"./core.defaults":19,"./core.element":20}],30:[function(require,module,exports){
+'use strict';
+
+var defaults = require('../core/core.defaults');
+var Element = require('../core/core.element');
+var helpers = require('../helpers/index');
+
+defaults._set('global', {
+	elements: {
+		arc: {
+			backgroundColor: defaults.global.defaultColor,
+			borderColor: '#fff',
+			borderWidth: 2
+		}
+	}
+});
+
+module.exports = Element.extend({
+	inLabelRange: function(mouseX) {
+		var vm = this._view;
+
+		if (vm) {
+			return (Math.pow(mouseX - vm.x, 2) < Math.pow(vm.radius + vm.hoverRadius, 2));
+		}
+		return false;
+	},
+
+	inRange: function(chartX, chartY) {
+		var vm = this._view;
+
+		if (vm) {
+			var pointRelativePosition = helpers.getAngleFromPoint(vm, {x: chartX, y: chartY});
+			var	angle = pointRelativePosition.angle;
+			var distance = pointRelativePosition.distance;
+
+			// Sanitise angle range
+			var startAngle = vm.startAngle;
+			var endAngle = vm.endAngle;
+			while (endAngle < startAngle) {
+				endAngle += 2.0 * Math.PI;
+			}
+			while (angle > endAngle) {
+				angle -= 2.0 * Math.PI;
+			}
+			while (angle < startAngle) {
+				angle += 2.0 * Math.PI;
+			}
+
+			// Check if within the range of the open/close angle
+			var betweenAngles = (angle >= startAngle && angle <= endAngle);
+			var withinRadius = (distance >= vm.innerRadius && distance <= vm.outerRadius);
+
+			return (betweenAngles && withinRadius);
+		}
+		return false;
+	},
+
+	getCenterPoint: function() {
+		var vm = this._view;
+		var halfAngle = (vm.startAngle + vm.endAngle) / 2;
+		var halfRadius = (vm.innerRadius + vm.outerRadius) / 2;
+		return {
+			x: vm.x + Math.cos(halfAngle) * halfRadius,
+			y: vm.y + Math.sin(halfAngle) * halfRadius
+		};
+	},
+
+	getArea: function() {
+		var vm = this._view;
+		return Math.PI * ((vm.endAngle - vm.startAngle) / (2 * Math.PI)) * (Math.pow(vm.outerRadius, 2) - Math.pow(vm.innerRadius, 2));
+	},
+
+	tooltipPosition: function() {
+		var vm = this._view;
+		var centreAngle = vm.startAngle + ((vm.endAngle - vm.startAngle) / 2);
+		var rangeFromCentre = (vm.outerRadius - vm.innerRadius) / 2 + vm.innerRadius;
+
+		return {
+			x: vm.x + (Math.cos(centreAngle) * rangeFromCentre),
+			y: vm.y + (Math.sin(centreAngle) * rangeFromCentre)
+		};
+	},
+
+	draw: function() {
+		var ctx = this._chart.ctx;
+		var vm = this._view;
+		var sA = vm.startAngle;
+		var eA = vm.endAngle;
+
+		ctx.beginPath();
+
+		ctx.arc(vm.x, vm.y, vm.outerRadius, sA, eA);
+		ctx.arc(vm.x, vm.y, vm.innerRadius, eA, sA, true);
+
+		ctx.closePath();
+		ctx.strokeStyle = vm.borderColor;
+		ctx.lineWidth = vm.borderWidth;
+
+		ctx.fillStyle = vm.backgroundColor;
+
+		ctx.fill();
+		ctx.lineJoin = 'bevel';
+
+		if (vm.borderWidth) {
+			ctx.stroke();
+		}
+	}
+});
+
+},{"../core/core.defaults":19,"../core/core.element":20,"../helpers/index":39}],31:[function(require,module,exports){
+'use strict';
+
+var defaults = require('../core/core.defaults');
+var Element = require('../core/core.element');
+var helpers = require('../helpers/index');
+
+var globalDefaults = defaults.global;
+
+defaults._set('global', {
+	elements: {
+		line: {
+			tension: 0.4,
+			backgroundColor: globalDefaults.defaultColor,
+			borderWidth: 3,
+			borderColor: globalDefaults.defaultColor,
+			borderCapStyle: 'butt',
+			borderDash: [],
+			borderDashOffset: 0.0,
+			borderJoinStyle: 'miter',
+			capBezierPoints: true,
+			fill: true, // do we fill in the area between the line and its base axis
+		}
+	}
+});
+
+module.exports = Element.extend({
+	draw: function() {
+		var me = this;
+		var vm = me._view;
+		var ctx = me._chart.ctx;
+		var spanGaps = vm.spanGaps;
+		var points = me._children.slice(); // clone array
+		var globalOptionLineElements = globalDefaults.elements.line;
+		var lastDrawnIndex = -1;
+		var index, current, previous, currentVM;
+
+		// If we are looping, adding the first point again
+		if (me._loop && points.length) {
+			points.push(points[0]);
+		}
+
+		ctx.save();
+
+		// Stroke Line Options
+		ctx.lineCap = vm.borderCapStyle || globalOptionLineElements.borderCapStyle;
+
+		// IE 9 and 10 do not support line dash
+		if (ctx.setLineDash) {
+			ctx.setLineDash(vm.borderDash || globalOptionLineElements.borderDash);
+		}
+
+		ctx.lineDashOffset = vm.borderDashOffset || globalOptionLineElements.borderDashOffset;
+		ctx.lineJoin = vm.borderJoinStyle || globalOptionLineElements.borderJoinStyle;
+		ctx.lineWidth = vm.borderWidth || globalOptionLineElements.borderWidth;
+		ctx.strokeStyle = vm.borderColor || globalDefaults.defaultColor;
+
+		// Stroke Line
+		ctx.beginPath();
+		lastDrawnIndex = -1;
+
+		for (index = 0; index < points.length; ++index) {
+			current = points[index];
+			previous = helpers.previousItem(points, index);
+			currentVM = current._view;
+
+			// First point moves to it's starting position no matter what
+			if (index === 0) {
+				if (!currentVM.skip) {
+					ctx.moveTo(currentVM.x, currentVM.y);
+					lastDrawnIndex = index;
+				}
+			} else {
+				previous = lastDrawnIndex === -1 ? previous : points[lastDrawnIndex];
+
+				if (!currentVM.skip) {
+					if ((lastDrawnIndex !== (index - 1) && !spanGaps) || lastDrawnIndex === -1) {
+						// There was a gap and this is the first point after the gap
+						ctx.moveTo(currentVM.x, currentVM.y);
+					} else {
+						// Line to next point
+						helpers.canvas.lineTo(ctx, previous._view, current._view);
+					}
+					lastDrawnIndex = index;
+				}
+			}
+		}
+
+		ctx.stroke();
+		ctx.restore();
+	}
+});
+
+},{"../core/core.defaults":19,"../core/core.element":20,"../helpers/index":39}],32:[function(require,module,exports){
+'use strict';
+
+var defaults = require('../core/core.defaults');
+var Element = require('../core/core.element');
+var helpers = require('../helpers/index');
+
+var defaultColor = defaults.global.defaultColor;
+
+defaults._set('global', {
+	elements: {
+		point: {
+			radius: 3,
+			pointStyle: 'circle',
+			backgroundColor: defaultColor,
+			borderColor: defaultColor,
+			borderWidth: 1,
+			// Hover
+			hitRadius: 1,
+			hoverRadius: 4,
+			hoverBorderWidth: 1
+		}
+	}
+});
+
+function xRange(mouseX) {
+	var vm = this._view;
+	return vm ? (Math.abs(mouseX - vm.x) < vm.radius + vm.hitRadius) : false;
+}
+
+function yRange(mouseY) {
+	var vm = this._view;
+	return vm ? (Math.abs(mouseY - vm.y) < vm.radius + vm.hitRadius) : false;
+}
+
+module.exports = Element.extend({
+	inRange: function(mouseX, mouseY) {
+		var vm = this._view;
+		return vm ? ((Math.pow(mouseX - vm.x, 2) + Math.pow(mouseY - vm.y, 2)) < Math.pow(vm.hitRadius + vm.radius, 2)) : false;
+	},
+
+	inLabelRange: xRange,
+	inXRange: xRange,
+	inYRange: yRange,
+
+	getCenterPoint: function() {
+		var vm = this._view;
+		return {
+			x: vm.x,
+			y: vm.y
+		};
+	},
+
+	getArea: function() {
+		return Math.PI * Math.pow(this._view.radius, 2);
+	},
+
+	tooltipPosition: function() {
+		var vm = this._view;
+		return {
+			x: vm.x,
+			y: vm.y,
+			padding: vm.radius + vm.borderWidth
+		};
+	},
+
+	draw: function(chartArea) {
+		var vm = this._view;
+		var model = this._model;
+		var ctx = this._chart.ctx;
+		var pointStyle = vm.pointStyle;
+		var radius = vm.radius;
+		var x = vm.x;
+		var y = vm.y;
+		var color = helpers.color;
+		var errMargin = 1.01; // 1.01 is margin for Accumulated error. (Especially Edge, IE.)
+		var ratio = 0;
+
+		if (vm.skip) {
+			return;
+		}
+
+		ctx.strokeStyle = vm.borderColor || defaultColor;
+		ctx.lineWidth = helpers.valueOrDefault(vm.borderWidth, defaults.global.elements.point.borderWidth);
+		ctx.fillStyle = vm.backgroundColor || defaultColor;
+
+		// Cliping for Points.
+		// going out from inner charArea?
+		if ((chartArea !== undefined) && ((model.x < chartArea.left) || (chartArea.right * errMargin < model.x) || (model.y < chartArea.top) || (chartArea.bottom * errMargin < model.y))) {
+			// Point fade out
+			if (model.x < chartArea.left) {
+				ratio = (x - model.x) / (chartArea.left - model.x);
+			} else if (chartArea.right * errMargin < model.x) {
+				ratio = (model.x - x) / (model.x - chartArea.right);
+			} else if (model.y < chartArea.top) {
+				ratio = (y - model.y) / (chartArea.top - model.y);
+			} else if (chartArea.bottom * errMargin < model.y) {
+				ratio = (model.y - y) / (model.y - chartArea.bottom);
+			}
+			ratio = Math.round(ratio * 100) / 100;
+			ctx.strokeStyle = color(ctx.strokeStyle).alpha(ratio).rgbString();
+			ctx.fillStyle = color(ctx.fillStyle).alpha(ratio).rgbString();
+		}
+
+		helpers.canvas.drawPoint(ctx, pointStyle, radius, x, y);
+	}
+});
+
+},{"../core/core.defaults":19,"../core/core.element":20,"../helpers/index":39}],33:[function(require,module,exports){
+'use strict';
+
+var defaults = require('../core/core.defaults');
+var Element = require('../core/core.element');
+
+defaults._set('global', {
+	elements: {
+		rectangle: {
+			backgroundColor: defaults.global.defaultColor,
+			borderColor: defaults.global.defaultColor,
+			borderSkipped: 'bottom',
+			borderWidth: 0
+		}
+	}
+});
+
+function isVertical(bar) {
+	return bar._view.width !== undefined;
+}
+
+/**
+ * Helper function to get the bounds of the bar regardless of the orientation
+ * @param bar {Chart.Element.Rectangle} the bar
+ * @return {Bounds} bounds of the bar
+ * @private
+ */
+function getBarBounds(bar) {
+	var vm = bar._view;
+	var x1, x2, y1, y2;
+
+	if (isVertical(bar)) {
+		// vertical
+		var halfWidth = vm.width / 2;
+		x1 = vm.x - halfWidth;
+		x2 = vm.x + halfWidth;
+		y1 = Math.min(vm.y, vm.base);
+		y2 = Math.max(vm.y, vm.base);
+	} else {
+		// horizontal bar
+		var halfHeight = vm.height / 2;
+		x1 = Math.min(vm.x, vm.base);
+		x2 = Math.max(vm.x, vm.base);
+		y1 = vm.y - halfHeight;
+		y2 = vm.y + halfHeight;
+	}
+
+	return {
+		left: x1,
+		top: y1,
+		right: x2,
+		bottom: y2
+	};
+}
+
+module.exports = Element.extend({
+	draw: function() {
+		var ctx = this._chart.ctx;
+		var vm = this._view;
+		var left, right, top, bottom, signX, signY, borderSkipped;
+		var borderWidth = vm.borderWidth;
+
+		if (!vm.horizontal) {
+			// bar
+			left = vm.x - vm.width / 2;
+			right = vm.x + vm.width / 2;
+			top = vm.y;
+			bottom = vm.base;
+			signX = 1;
+			signY = bottom > top ? 1 : -1;
+			borderSkipped = vm.borderSkipped || 'bottom';
+		} else {
+			// horizontal bar
+			left = vm.base;
+			right = vm.x;
+			top = vm.y - vm.height / 2;
+			bottom = vm.y + vm.height / 2;
+			signX = right > left ? 1 : -1;
+			signY = 1;
+			borderSkipped = vm.borderSkipped || 'left';
+		}
+
+		// Canvas doesn't allow us to stroke inside the width so we can
+		// adjust the sizes to fit if we're setting a stroke on the line
+		if (borderWidth) {
+			// borderWidth shold be less than bar width and bar height.
+			var barSize = Math.min(Math.abs(left - right), Math.abs(top - bottom));
+			borderWidth = borderWidth > barSize ? barSize : borderWidth;
+			var halfStroke = borderWidth / 2;
+			// Adjust borderWidth when bar top position is near vm.base(zero).
+			var borderLeft = left + (borderSkipped !== 'left' ? halfStroke * signX : 0);
+			var borderRight = right + (borderSkipped !== 'right' ? -halfStroke * signX : 0);
+			var borderTop = top + (borderSkipped !== 'top' ? halfStroke * signY : 0);
+			var borderBottom = bottom + (borderSkipped !== 'bottom' ? -halfStroke * signY : 0);
+			// not become a vertical line?
+			if (borderLeft !== borderRight) {
+				top = borderTop;
+				bottom = borderBottom;
+			}
+			// not become a horizontal line?
+			if (borderTop !== borderBottom) {
+				left = borderLeft;
+				right = borderRight;
+			}
+		}
+
+		ctx.beginPath();
+		ctx.fillStyle = vm.backgroundColor;
+		ctx.strokeStyle = vm.borderColor;
+		ctx.lineWidth = borderWidth;
+
+		// Corner points, from bottom-left to bottom-right clockwise
+		// | 1 2 |
+		// | 0 3 |
+		var corners = [
+			[left, bottom],
+			[left, top],
+			[right, top],
+			[right, bottom]
+		];
+
+		// Find first (starting) corner with fallback to 'bottom'
+		var borders = ['bottom', 'left', 'top', 'right'];
+		var startCorner = borders.indexOf(borderSkipped, 0);
+		if (startCorner === -1) {
+			startCorner = 0;
+		}
+
+		function cornerAt(index) {
+			return corners[(startCorner + index) % 4];
+		}
+
+		// Draw rectangle from 'startCorner'
+		var corner = cornerAt(0);
+		ctx.moveTo(corner[0], corner[1]);
+
+		for (var i = 1; i < 4; i++) {
+			corner = cornerAt(i);
+			ctx.lineTo(corner[0], corner[1]);
+		}
+
+		ctx.fill();
+		if (borderWidth) {
+			ctx.stroke();
+		}
+	},
+
+	height: function() {
+		var vm = this._view;
+		return vm.base - vm.y;
+	},
+
+	inRange: function(mouseX, mouseY) {
+		var inRange = false;
+
+		if (this._view) {
+			var bounds = getBarBounds(this);
+			inRange = mouseX >= bounds.left && mouseX <= bounds.right && mouseY >= bounds.top && mouseY <= bounds.bottom;
+		}
+
+		return inRange;
+	},
+
+	inLabelRange: function(mouseX, mouseY) {
+		var me = this;
+		if (!me._view) {
+			return false;
+		}
+
+		var inRange = false;
+		var bounds = getBarBounds(me);
+
+		if (isVertical(me)) {
+			inRange = mouseX >= bounds.left && mouseX <= bounds.right;
+		} else {
+			inRange = mouseY >= bounds.top && mouseY <= bounds.bottom;
+		}
+
+		return inRange;
+	},
+
+	inXRange: function(mouseX) {
+		var bounds = getBarBounds(this);
+		return mouseX >= bounds.left && mouseX <= bounds.right;
+	},
+
+	inYRange: function(mouseY) {
+		var bounds = getBarBounds(this);
+		return mouseY >= bounds.top && mouseY <= bounds.bottom;
+	},
+
+	getCenterPoint: function() {
+		var vm = this._view;
+		var x, y;
+		if (isVertical(this)) {
+			x = vm.x;
+			y = (vm.y + vm.base) / 2;
+		} else {
+			x = (vm.x + vm.base) / 2;
+			y = vm.y;
+		}
+
+		return {x: x, y: y};
+	},
+
+	getArea: function() {
+		var vm = this._view;
+		return vm.width * Math.abs(vm.y - vm.base);
+	},
+
+	tooltipPosition: function() {
+		var vm = this._view;
+		return {
+			x: vm.x,
+			y: vm.y
+		};
+	}
+});
+
+},{"../core/core.defaults":19,"../core/core.element":20}],34:[function(require,module,exports){
+'use strict';
+
+module.exports = {};
+module.exports.Arc = require('./element.arc');
+module.exports.Line = require('./element.line');
+module.exports.Point = require('./element.point');
+module.exports.Rectangle = require('./element.rectangle');
+
+},{"./element.arc":30,"./element.line":31,"./element.point":32,"./element.rectangle":33}],35:[function(require,module,exports){
+'use strict';
+
+var helpers = require('./helpers.core');
+
+/**
+ * @namespace Chart.helpers.canvas
+ */
+var exports = module.exports = {
+	/**
+	 * Clears the entire canvas associated to the given `chart`.
+	 * @param {Chart} chart - The chart for which to clear the canvas.
+	 */
+	clear: function(chart) {
+		chart.ctx.clearRect(0, 0, chart.width, chart.height);
+	},
+
+	/**
+	 * Creates a "path" for a rectangle with rounded corners at position (x, y) with a
+	 * given size (width, height) and the same `radius` for all corners.
+	 * @param {CanvasRenderingContext2D} ctx - The canvas 2D Context.
+	 * @param {Number} x - The x axis of the coordinate for the rectangle starting point.
+	 * @param {Number} y - The y axis of the coordinate for the rectangle starting point.
+	 * @param {Number} width - The rectangle's width.
+	 * @param {Number} height - The rectangle's height.
+	 * @param {Number} radius - The rounded amount (in pixels) for the four corners.
+	 * @todo handle `radius` as top-left, top-right, bottom-right, bottom-left array/object?
+	 */
+	roundedRect: function(ctx, x, y, width, height, radius) {
+		if (radius) {
+			var rx = Math.min(radius, width / 2);
+			var ry = Math.min(radius, height / 2);
+
+			ctx.moveTo(x + rx, y);
+			ctx.lineTo(x + width - rx, y);
+			ctx.quadraticCurveTo(x + width, y, x + width, y + ry);
+			ctx.lineTo(x + width, y + height - ry);
+			ctx.quadraticCurveTo(x + width, y + height, x + width - rx, y + height);
+			ctx.lineTo(x + rx, y + height);
+			ctx.quadraticCurveTo(x, y + height, x, y + height - ry);
+			ctx.lineTo(x, y + ry);
+			ctx.quadraticCurveTo(x, y, x + rx, y);
+		} else {
+			ctx.rect(x, y, width, height);
+		}
+	},
+
+	drawPoint: function(ctx, style, radius, x, y) {
+		var type, edgeLength, xOffset, yOffset, height, size;
+
+		if (style && typeof style === 'object') {
+			type = style.toString();
+			if (type === '[object HTMLImageElement]' || type === '[object HTMLCanvasElement]') {
+				ctx.drawImage(style, x - style.width / 2, y - style.height / 2, style.width, style.height);
+				return;
+			}
+		}
+
+		if (isNaN(radius) || radius <= 0) {
+			return;
+		}
+
+		switch (style) {
+		// Default includes circle
+		default:
+			ctx.beginPath();
+			ctx.arc(x, y, radius, 0, Math.PI * 2);
+			ctx.closePath();
+			ctx.fill();
+			break;
+		case 'triangle':
+			ctx.beginPath();
+			edgeLength = 3 * radius / Math.sqrt(3);
+			height = edgeLength * Math.sqrt(3) / 2;
+			ctx.moveTo(x - edgeLength / 2, y + height / 3);
+			ctx.lineTo(x + edgeLength / 2, y + height / 3);
+			ctx.lineTo(x, y - 2 * height / 3);
+			ctx.closePath();
+			ctx.fill();
+			break;
+		case 'rect':
+			size = 1 / Math.SQRT2 * radius;
+			ctx.beginPath();
+			ctx.fillRect(x - size, y - size, 2 * size, 2 * size);
+			ctx.strokeRect(x - size, y - size, 2 * size, 2 * size);
+			break;
+		case 'rectRounded':
+			var offset = radius / Math.SQRT2;
+			var leftX = x - offset;
+			var topY = y - offset;
+			var sideSize = Math.SQRT2 * radius;
+			ctx.beginPath();
+			this.roundedRect(ctx, leftX, topY, sideSize, sideSize, radius / 2);
+			ctx.closePath();
+			ctx.fill();
+			break;
+		case 'rectRot':
+			size = 1 / Math.SQRT2 * radius;
+			ctx.beginPath();
+			ctx.moveTo(x - size, y);
+			ctx.lineTo(x, y + size);
+			ctx.lineTo(x + size, y);
+			ctx.lineTo(x, y - size);
+			ctx.closePath();
+			ctx.fill();
+			break;
+		case 'cross':
+			ctx.beginPath();
+			ctx.moveTo(x, y + radius);
+			ctx.lineTo(x, y - radius);
+			ctx.moveTo(x - radius, y);
+			ctx.lineTo(x + radius, y);
+			ctx.closePath();
+			break;
+		case 'crossRot':
+			ctx.beginPath();
+			xOffset = Math.cos(Math.PI / 4) * radius;
+			yOffset = Math.sin(Math.PI / 4) * radius;
+			ctx.moveTo(x - xOffset, y - yOffset);
+			ctx.lineTo(x + xOffset, y + yOffset);
+			ctx.moveTo(x - xOffset, y + yOffset);
+			ctx.lineTo(x + xOffset, y - yOffset);
+			ctx.closePath();
+			break;
+		case 'star':
+			ctx.beginPath();
+			ctx.moveTo(x, y + radius);
+			ctx.lineTo(x, y - radius);
+			ctx.moveTo(x - radius, y);
+			ctx.lineTo(x + radius, y);
+			xOffset = Math.cos(Math.PI / 4) * radius;
+			yOffset = Math.sin(Math.PI / 4) * radius;
+			ctx.moveTo(x - xOffset, y - yOffset);
+			ctx.lineTo(x + xOffset, y + yOffset);
+			ctx.moveTo(x - xOffset, y + yOffset);
+			ctx.lineTo(x + xOffset, y - yOffset);
+			ctx.closePath();
+			break;
+		case 'line':
+			ctx.beginPath();
+			ctx.moveTo(x - radius, y);
+			ctx.lineTo(x + radius, y);
+			ctx.closePath();
+			break;
+		case 'dash':
+			ctx.beginPath();
+			ctx.moveTo(x, y);
+			ctx.lineTo(x + radius, y);
+			ctx.closePath();
+			break;
+		}
+
+		ctx.stroke();
+	},
+
+	clipArea: function(ctx, area) {
+		ctx.save();
+		ctx.beginPath();
+		ctx.rect(area.left, area.top, area.right - area.left, area.bottom - area.top);
+		ctx.clip();
+	},
+
+	unclipArea: function(ctx) {
+		ctx.restore();
+	},
+
+	lineTo: function(ctx, previous, target, flip) {
+		if (target.steppedLine) {
+			if ((target.steppedLine === 'after' && !flip) || (target.steppedLine !== 'after' && flip)) {
+				ctx.lineTo(previous.x, target.y);
+			} else {
+				ctx.lineTo(target.x, previous.y);
+			}
+			ctx.lineTo(target.x, target.y);
+			return;
+		}
+
+		if (!target.tension) {
+			ctx.lineTo(target.x, target.y);
+			return;
+		}
+
+		ctx.bezierCurveTo(
+			flip ? previous.controlPointPreviousX : previous.controlPointNextX,
+			flip ? previous.controlPointPreviousY : previous.controlPointNextY,
+			flip ? target.controlPointNextX : target.controlPointPreviousX,
+			flip ? target.controlPointNextY : target.controlPointPreviousY,
+			target.x,
+			target.y);
+	}
+};
+
+// DEPRECATIONS
+
+/**
+ * Provided for backward compatibility, use Chart.helpers.canvas.clear instead.
+ * @namespace Chart.helpers.clear
+ * @deprecated since version 2.7.0
+ * @todo remove at version 3
+ * @private
+ */
+helpers.clear = exports.clear;
+
+/**
+ * Provided for backward compatibility, use Chart.helpers.canvas.roundedRect instead.
+ * @namespace Chart.helpers.drawRoundedRectangle
+ * @deprecated since version 2.7.0
+ * @todo remove at version 3
+ * @private
+ */
+helpers.drawRoundedRectangle = function(ctx) {
+	ctx.beginPath();
+	exports.roundedRect.apply(exports, arguments);
+	ctx.closePath();
+};
+
+},{"./helpers.core":36}],36:[function(require,module,exports){
+'use strict';
+
+/**
+ * @namespace Chart.helpers
+ */
+var helpers = {
+	/**
+	 * An empty function that can be used, for example, for optional callback.
+	 */
+	noop: function() {},
+
+	/**
+	 * Returns a unique id, sequentially generated from a global variable.
+	 * @returns {Number}
+	 * @function
+	 */
+	uid: (function() {
+		var id = 0;
+		return function() {
+			return id++;
+		};
+	}()),
+
+	/**
+	 * Returns true if `value` is neither null nor undefined, else returns false.
+	 * @param {*} value - The value to test.
+	 * @returns {Boolean}
+	 * @since 2.7.0
+	 */
+	isNullOrUndef: function(value) {
+		return value === null || typeof value === 'undefined';
+	},
+
+	/**
+	 * Returns true if `value` is an array, else returns false.
+	 * @param {*} value - The value to test.
+	 * @returns {Boolean}
+	 * @function
+	 */
+	isArray: Array.isArray ? Array.isArray : function(value) {
+		return Object.prototype.toString.call(value) === '[object Array]';
+	},
+
+	/**
+	 * Returns true if `value` is an object (excluding null), else returns false.
+	 * @param {*} value - The value to test.
+	 * @returns {Boolean}
+	 * @since 2.7.0
+	 */
+	isObject: function(value) {
+		return value !== null && Object.prototype.toString.call(value) === '[object Object]';
+	},
+
+	/**
+	 * Returns `value` if defined, else returns `defaultValue`.
+	 * @param {*} value - The value to return if defined.
+	 * @param {*} defaultValue - The value to return if `value` is undefined.
+	 * @returns {*}
+	 */
+	valueOrDefault: function(value, defaultValue) {
+		return typeof value === 'undefined' ? defaultValue : value;
+	},
+
+	/**
+	 * Returns value at the given `index` in array if defined, else returns `defaultValue`.
+	 * @param {Array} value - The array to lookup for value at `index`.
+	 * @param {Number} index - The index in `value` to lookup for value.
+	 * @param {*} defaultValue - The value to return if `value[index]` is undefined.
+	 * @returns {*}
+	 */
+	valueAtIndexOrDefault: function(value, index, defaultValue) {
+		return helpers.valueOrDefault(helpers.isArray(value) ? value[index] : value, defaultValue);
+	},
+
+	/**
+	 * Calls `fn` with the given `args` in the scope defined by `thisArg` and returns the
+	 * value returned by `fn`. If `fn` is not a function, this method returns undefined.
+	 * @param {Function} fn - The function to call.
+	 * @param {Array|undefined|null} args - The arguments with which `fn` should be called.
+	 * @param {Object} [thisArg] - The value of `this` provided for the call to `fn`.
+	 * @returns {*}
+	 */
+	callback: function(fn, args, thisArg) {
+		if (fn && typeof fn.call === 'function') {
+			return fn.apply(thisArg, args);
+		}
+	},
+
+	/**
+	 * Note(SB) for performance sake, this method should only be used when loopable type
+	 * is unknown or in none intensive code (not called often and small loopable). Else
+	 * it's preferable to use a regular for() loop and save extra function calls.
+	 * @param {Object|Array} loopable - The object or array to be iterated.
+	 * @param {Function} fn - The function to call for each item.
+	 * @param {Object} [thisArg] - The value of `this` provided for the call to `fn`.
+	 * @param {Boolean} [reverse] - If true, iterates backward on the loopable.
+	 */
+	each: function(loopable, fn, thisArg, reverse) {
+		var i, len, keys;
+		if (helpers.isArray(loopable)) {
+			len = loopable.length;
+			if (reverse) {
+				for (i = len - 1; i >= 0; i--) {
+					fn.call(thisArg, loopable[i], i);
+				}
+			} else {
+				for (i = 0; i < len; i++) {
+					fn.call(thisArg, loopable[i], i);
+				}
+			}
+		} else if (helpers.isObject(loopable)) {
+			keys = Object.keys(loopable);
+			len = keys.length;
+			for (i = 0; i < len; i++) {
+				fn.call(thisArg, loopable[keys[i]], keys[i]);
+			}
+		}
+	},
+
+	/**
+	 * Returns true if the `a0` and `a1` arrays have the same content, else returns false.
+	 * @see http://stackoverflow.com/a/14853974
+	 * @param {Array} a0 - The array to compare
+	 * @param {Array} a1 - The array to compare
+	 * @returns {Boolean}
+	 */
+	arrayEquals: function(a0, a1) {
+		var i, ilen, v0, v1;
+
+		if (!a0 || !a1 || a0.length !== a1.length) {
+			return false;
+		}
+
+		for (i = 0, ilen = a0.length; i < ilen; ++i) {
+			v0 = a0[i];
+			v1 = a1[i];
+
+			if (v0 instanceof Array && v1 instanceof Array) {
+				if (!helpers.arrayEquals(v0, v1)) {
+					return false;
+				}
+			} else if (v0 !== v1) {
+				// NOTE: two different object instances will never be equal: {x:20} != {x:20}
+				return false;
+			}
+		}
+
+		return true;
+	},
+
+	/**
+	 * Returns a deep copy of `source` without keeping references on objects and arrays.
+	 * @param {*} source - The value to clone.
+	 * @returns {*}
+	 */
+	clone: function(source) {
+		if (helpers.isArray(source)) {
+			return source.map(helpers.clone);
+		}
+
+		if (helpers.isObject(source)) {
+			var target = {};
+			var keys = Object.keys(source);
+			var klen = keys.length;
+			var k = 0;
+
+			for (; k < klen; ++k) {
+				target[keys[k]] = helpers.clone(source[keys[k]]);
+			}
+
+			return target;
+		}
+
+		return source;
+	},
+
+	/**
+	 * The default merger when Chart.helpers.merge is called without merger option.
+	 * Note(SB): this method is also used by configMerge and scaleMerge as fallback.
+	 * @private
+	 */
+	_merger: function(key, target, source, options) {
+		var tval = target[key];
+		var sval = source[key];
+
+		if (helpers.isObject(tval) && helpers.isObject(sval)) {
+			helpers.merge(tval, sval, options);
+		} else {
+			target[key] = helpers.clone(sval);
+		}
+	},
+
+	/**
+	 * Merges source[key] in target[key] only if target[key] is undefined.
+	 * @private
+	 */
+	_mergerIf: function(key, target, source) {
+		var tval = target[key];
+		var sval = source[key];
+
+		if (helpers.isObject(tval) && helpers.isObject(sval)) {
+			helpers.mergeIf(tval, sval);
+		} else if (!target.hasOwnProperty(key)) {
+			target[key] = helpers.clone(sval);
+		}
+	},
+
+	/**
+	 * Recursively deep copies `source` properties into `target` with the given `options`.
+	 * IMPORTANT: `target` is not cloned and will be updated with `source` properties.
+	 * @param {Object} target - The target object in which all sources are merged into.
+	 * @param {Object|Array(Object)} source - Object(s) to merge into `target`.
+	 * @param {Object} [options] - Merging options:
+	 * @param {Function} [options.merger] - The merge method (key, target, source, options)
+	 * @returns {Object} The `target` object.
+	 */
+	merge: function(target, source, options) {
+		var sources = helpers.isArray(source) ? source : [source];
+		var ilen = sources.length;
+		var merge, i, keys, klen, k;
+
+		if (!helpers.isObject(target)) {
+			return target;
+		}
+
+		options = options || {};
+		merge = options.merger || helpers._merger;
+
+		for (i = 0; i < ilen; ++i) {
+			source = sources[i];
+			if (!helpers.isObject(source)) {
+				continue;
+			}
+
+			keys = Object.keys(source);
+			for (k = 0, klen = keys.length; k < klen; ++k) {
+				merge(keys[k], target, source, options);
+			}
+		}
+
+		return target;
+	},
+
+	/**
+	 * Recursively deep copies `source` properties into `target` *only* if not defined in target.
+	 * IMPORTANT: `target` is not cloned and will be updated with `source` properties.
+	 * @param {Object} target - The target object in which all sources are merged into.
+	 * @param {Object|Array(Object)} source - Object(s) to merge into `target`.
+	 * @returns {Object} The `target` object.
+	 */
+	mergeIf: function(target, source) {
+		return helpers.merge(target, source, {merger: helpers._mergerIf});
+	},
+
+	/**
+	 * Applies the contents of two or more objects together into the first object.
+	 * @param {Object} target - The target object in which all objects are merged into.
+	 * @param {Object} arg1 - Object containing additional properties to merge in target.
+	 * @param {Object} argN - Additional objects containing properties to merge in target.
+	 * @returns {Object} The `target` object.
+	 */
+	extend: function(target) {
+		var setFn = function(value, key) {
+			target[key] = value;
+		};
+		for (var i = 1, ilen = arguments.length; i < ilen; ++i) {
+			helpers.each(arguments[i], setFn);
+		}
+		return target;
+	},
+
+	/**
+	 * Basic javascript inheritance based on the model created in Backbone.js
+	 */
+	inherits: function(extensions) {
+		var me = this;
+		var ChartElement = (extensions && extensions.hasOwnProperty('constructor')) ? extensions.constructor : function() {
+			return me.apply(this, arguments);
+		};
+
+		var Surrogate = function() {
+			this.constructor = ChartElement;
+		};
+
+		Surrogate.prototype = me.prototype;
+		ChartElement.prototype = new Surrogate();
+		ChartElement.extend = helpers.inherits;
+
+		if (extensions) {
+			helpers.extend(ChartElement.prototype, extensions);
+		}
+
+		ChartElement.__super__ = me.prototype;
+		return ChartElement;
+	}
+};
+
+module.exports = helpers;
+
+// DEPRECATIONS
+
+/**
+ * Provided for backward compatibility, use Chart.helpers.callback instead.
+ * @function Chart.helpers.callCallback
+ * @deprecated since version 2.6.0
+ * @todo remove at version 3
+ * @private
+ */
+helpers.callCallback = helpers.callback;
+
+/**
+ * Provided for backward compatibility, use Array.prototype.indexOf instead.
+ * Array.prototype.indexOf compatibility: Chrome, Opera, Safari, FF1.5+, IE9+
+ * @function Chart.helpers.indexOf
+ * @deprecated since version 2.7.0
+ * @todo remove at version 3
+ * @private
+ */
+helpers.indexOf = function(array, item, fromIndex) {
+	return Array.prototype.indexOf.call(array, item, fromIndex);
+};
+
+/**
+ * Provided for backward compatibility, use Chart.helpers.valueOrDefault instead.
+ * @function Chart.helpers.getValueOrDefault
+ * @deprecated since version 2.7.0
+ * @todo remove at version 3
+ * @private
+ */
+helpers.getValueOrDefault = helpers.valueOrDefault;
+
+/**
+ * Provided for backward compatibility, use Chart.helpers.valueAtIndexOrDefault instead.
+ * @function Chart.helpers.getValueAtIndexOrDefault
+ * @deprecated since version 2.7.0
+ * @todo remove at version 3
+ * @private
+ */
+helpers.getValueAtIndexOrDefault = helpers.valueAtIndexOrDefault;
+
+},{}],37:[function(require,module,exports){
+'use strict';
+
+var helpers = require('./helpers.core');
+
+/**
+ * Easing functions adapted from Robert Penner's easing equations.
+ * @namespace Chart.helpers.easingEffects
+ * @see http://www.robertpenner.com/easing/
+ */
+var effects = {
+	linear: function(t) {
+		return t;
+	},
+
+	easeInQuad: function(t) {
+		return t * t;
+	},
+
+	easeOutQuad: function(t) {
+		return -t * (t - 2);
+	},
+
+	easeInOutQuad: function(t) {
+		if ((t /= 0.5) < 1) {
+			return 0.5 * t * t;
+		}
+		return -0.5 * ((--t) * (t - 2) - 1);
+	},
+
+	easeInCubic: function(t) {
+		return t * t * t;
+	},
+
+	easeOutCubic: function(t) {
+		return (t = t - 1) * t * t + 1;
+	},
+
+	easeInOutCubic: function(t) {
+		if ((t /= 0.5) < 1) {
+			return 0.5 * t * t * t;
+		}
+		return 0.5 * ((t -= 2) * t * t + 2);
+	},
+
+	easeInQuart: function(t) {
+		return t * t * t * t;
+	},
+
+	easeOutQuart: function(t) {
+		return -((t = t - 1) * t * t * t - 1);
+	},
+
+	easeInOutQuart: function(t) {
+		if ((t /= 0.5) < 1) {
+			return 0.5 * t * t * t * t;
+		}
+		return -0.5 * ((t -= 2) * t * t * t - 2);
+	},
+
+	easeInQuint: function(t) {
+		return t * t * t * t * t;
+	},
+
+	easeOutQuint: function(t) {
+		return (t = t - 1) * t * t * t * t + 1;
+	},
+
+	easeInOutQuint: function(t) {
+		if ((t /= 0.5) < 1) {
+			return 0.5 * t * t * t * t * t;
+		}
+		return 0.5 * ((t -= 2) * t * t * t * t + 2);
+	},
+
+	easeInSine: function(t) {
+		return -Math.cos(t * (Math.PI / 2)) + 1;
+	},
+
+	easeOutSine: function(t) {
+		return Math.sin(t * (Math.PI / 2));
+	},
+
+	easeInOutSine: function(t) {
+		return -0.5 * (Math.cos(Math.PI * t) - 1);
+	},
+
+	easeInExpo: function(t) {
+		return (t === 0) ? 0 : Math.pow(2, 10 * (t - 1));
+	},
+
+	easeOutExpo: function(t) {
+		return (t === 1) ? 1 : -Math.pow(2, -10 * t) + 1;
+	},
+
+	easeInOutExpo: function(t) {
+		if (t === 0) {
+			return 0;
+		}
+		if (t === 1) {
+			return 1;
+		}
+		if ((t /= 0.5) < 1) {
+			return 0.5 * Math.pow(2, 10 * (t - 1));
+		}
+		return 0.5 * (-Math.pow(2, -10 * --t) + 2);
+	},
+
+	easeInCirc: function(t) {
+		if (t >= 1) {
+			return t;
+		}
+		return -(Math.sqrt(1 - t * t) - 1);
+	},
+
+	easeOutCirc: function(t) {
+		return Math.sqrt(1 - (t = t - 1) * t);
+	},
+
+	easeInOutCirc: function(t) {
+		if ((t /= 0.5) < 1) {
+			return -0.5 * (Math.sqrt(1 - t * t) - 1);
+		}
+		return 0.5 * (Math.sqrt(1 - (t -= 2) * t) + 1);
+	},
+
+	easeInElastic: function(t) {
+		var s = 1.70158;
+		var p = 0;
+		var a = 1;
+		if (t === 0) {
+			return 0;
+		}
+		if (t === 1) {
+			return 1;
+		}
+		if (!p) {
+			p = 0.3;
+		}
+		if (a < 1) {
+			a = 1;
+			s = p / 4;
+		} else {
+			s = p / (2 * Math.PI) * Math.asin(1 / a);
+		}
+		return -(a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t - s) * (2 * Math.PI) / p));
+	},
+
+	easeOutElastic: function(t) {
+		var s = 1.70158;
+		var p = 0;
+		var a = 1;
+		if (t === 0) {
+			return 0;
+		}
+		if (t === 1) {
+			return 1;
+		}
+		if (!p) {
+			p = 0.3;
+		}
+		if (a < 1) {
+			a = 1;
+			s = p / 4;
+		} else {
+			s = p / (2 * Math.PI) * Math.asin(1 / a);
+		}
+		return a * Math.pow(2, -10 * t) * Math.sin((t - s) * (2 * Math.PI) / p) + 1;
+	},
+
+	easeInOutElastic: function(t) {
+		var s = 1.70158;
+		var p = 0;
+		var a = 1;
+		if (t === 0) {
+			return 0;
+		}
+		if ((t /= 0.5) === 2) {
+			return 1;
+		}
+		if (!p) {
+			p = 0.45;
+		}
+		if (a < 1) {
+			a = 1;
+			s = p / 4;
+		} else {
+			s = p / (2 * Math.PI) * Math.asin(1 / a);
+		}
+		if (t < 1) {
+			return -0.5 * (a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t - s) * (2 * Math.PI) / p));
+		}
+		return a * Math.pow(2, -10 * (t -= 1)) * Math.sin((t - s) * (2 * Math.PI) / p) * 0.5 + 1;
+	},
+	easeInBack: function(t) {
+		var s = 1.70158;
+		return t * t * ((s + 1) * t - s);
+	},
+
+	easeOutBack: function(t) {
+		var s = 1.70158;
+		return (t = t - 1) * t * ((s + 1) * t + s) + 1;
+	},
+
+	easeInOutBack: function(t) {
+		var s = 1.70158;
+		if ((t /= 0.5) < 1) {
+			return 0.5 * (t * t * (((s *= (1.525)) + 1) * t - s));
+		}
+		return 0.5 * ((t -= 2) * t * (((s *= (1.525)) + 1) * t + s) + 2);
+	},
+
+	easeInBounce: function(t) {
+		return 1 - effects.easeOutBounce(1 - t);
+	},
+
+	easeOutBounce: function(t) {
+		if (t < (1 / 2.75)) {
+			return 7.5625 * t * t;
+		}
+		if (t < (2 / 2.75)) {
+			return 7.5625 * (t -= (1.5 / 2.75)) * t + 0.75;
+		}
+		if (t < (2.5 / 2.75)) {
+			return 7.5625 * (t -= (2.25 / 2.75)) * t + 0.9375;
+		}
+		return 7.5625 * (t -= (2.625 / 2.75)) * t + 0.984375;
+	},
+
+	easeInOutBounce: function(t) {
+		if (t < 0.5) {
+			return effects.easeInBounce(t * 2) * 0.5;
+		}
+		return effects.easeOutBounce(t * 2 - 1) * 0.5 + 0.5;
+	}
+};
+
+module.exports = {
+	effects: effects
+};
+
+// DEPRECATIONS
+
+/**
+ * Provided for backward compatibility, use Chart.helpers.easing.effects instead.
+ * @function Chart.helpers.easingEffects
+ * @deprecated since version 2.7.0
+ * @todo remove at version 3
+ * @private
+ */
+helpers.easingEffects = effects;
+
+},{"./helpers.core":36}],38:[function(require,module,exports){
+'use strict';
+
+var helpers = require('./helpers.core');
+
+/**
+ * @alias Chart.helpers.options
+ * @namespace
+ */
+module.exports = {
+	/**
+	 * Converts the given line height `value` in pixels for a specific font `size`.
+	 * @param {Number|String} value - The lineHeight to parse (eg. 1.6, '14px', '75%', '1.6em').
+	 * @param {Number} size - The font size (in pixels) used to resolve relative `value`.
+	 * @returns {Number} The effective line height in pixels (size * 1.2 if value is invalid).
+	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
+	 * @since 2.7.0
+	 */
+	toLineHeight: function(value, size) {
+		var matches = ('' + value).match(/^(normal|(\d+(?:\.\d+)?)(px|em|%)?)$/);
+		if (!matches || matches[1] === 'normal') {
+			return size * 1.2;
+		}
+
+		value = +matches[2];
+
+		switch (matches[3]) {
+		case 'px':
+			return value;
+		case '%':
+			value /= 100;
+			break;
+		default:
+			break;
+		}
+
+		return size * value;
+	},
+
+	/**
+	 * Converts the given value into a padding object with pre-computed width/height.
+	 * @param {Number|Object} value - If a number, set the value to all TRBL component,
+	 *  else, if and object, use defined properties and sets undefined ones to 0.
+	 * @returns {Object} The padding values (top, right, bottom, left, width, height)
+	 * @since 2.7.0
+	 */
+	toPadding: function(value) {
+		var t, r, b, l;
+
+		if (helpers.isObject(value)) {
+			t = +value.top || 0;
+			r = +value.right || 0;
+			b = +value.bottom || 0;
+			l = +value.left || 0;
+		} else {
+			t = r = b = l = +value || 0;
+		}
+
+		return {
+			top: t,
+			right: r,
+			bottom: b,
+			left: l,
+			height: t + b,
+			width: l + r
+		};
+	},
+
+	/**
+	 * Evaluates the given `inputs` sequentially and returns the first defined value.
+	 * @param {Array[]} inputs - An array of values, falling back to the last value.
+	 * @param {Object} [context] - If defined and the current value is a function, the value
+	 * is called with `context` as first argument and the result becomes the new input.
+	 * @param {Number} [index] - If defined and the current value is an array, the value
+	 * at `index` become the new input.
+	 * @since 2.7.0
+	 */
+	resolve: function(inputs, context, index) {
+		var i, ilen, value;
+
+		for (i = 0, ilen = inputs.length; i < ilen; ++i) {
+			value = inputs[i];
+			if (value === undefined) {
+				continue;
+			}
+			if (context !== undefined && typeof value === 'function') {
+				value = value(context);
+			}
+			if (index !== undefined && helpers.isArray(value)) {
+				value = value[index];
+			}
+			if (value !== undefined) {
+				return value;
+			}
+		}
+	}
+};
+
+},{"./helpers.core":36}],39:[function(require,module,exports){
+'use strict';
+
+module.exports = require('./helpers.core');
+module.exports.easing = require('./helpers.easing');
+module.exports.canvas = require('./helpers.canvas');
+module.exports.options = require('./helpers.options');
+
+},{"./helpers.canvas":35,"./helpers.core":36,"./helpers.easing":37,"./helpers.options":38}],40:[function(require,module,exports){
+/**
+ * Platform fallback implementation (minimal).
+ * @see https://github.com/chartjs/Chart.js/pull/4591#issuecomment-319575939
+ */
+
+module.exports = {
+	acquireContext: function(item) {
+		if (item && item.canvas) {
+			// Support for any object associated to a canvas (including a context2d)
+			item = item.canvas;
+		}
+
+		return item && item.getContext('2d') || null;
+	}
+};
+
+},{}],41:[function(require,module,exports){
+/**
+ * Chart.Platform implementation for targeting a web browser
+ */
+
+'use strict';
+
+var helpers = require('../helpers/index');
+
+var EXPANDO_KEY = '$chartjs';
+var CSS_PREFIX = 'chartjs-';
+var CSS_RENDER_MONITOR = CSS_PREFIX + 'render-monitor';
+var CSS_RENDER_ANIMATION = CSS_PREFIX + 'render-animation';
+var ANIMATION_START_EVENTS = ['animationstart', 'webkitAnimationStart'];
+
+/**
+ * DOM event types -> Chart.js event types.
+ * Note: only events with different types are mapped.
+ * @see https://developer.mozilla.org/en-US/docs/Web/Events
+ */
+var EVENT_TYPES = {
+	touchstart: 'mousedown',
+	touchmove: 'mousemove',
+	touchend: 'mouseup',
+	pointerenter: 'mouseenter',
+	pointerdown: 'mousedown',
+	pointermove: 'mousemove',
+	pointerup: 'mouseup',
+	pointerleave: 'mouseout',
+	pointerout: 'mouseout'
+};
+
+/**
+ * The "used" size is the final value of a dimension property after all calculations have
+ * been performed. This method uses the computed style of `element` but returns undefined
+ * if the computed style is not expressed in pixels. That can happen in some cases where
+ * `element` has a size relative to its parent and this last one is not yet displayed,
+ * for example because of `display: none` on a parent node.
+ * @see https://developer.mozilla.org/en-US/docs/Web/CSS/used_value
+ * @returns {Number} Size in pixels or undefined if unknown.
+ */
+function readUsedSize(element, property) {
+	var value = helpers.getStyle(element, property);
+	var matches = value && value.match(/^(\d+)(\.\d+)?px$/);
+	return matches ? Number(matches[1]) : undefined;
+}
+
+/**
+ * Initializes the canvas style and render size without modifying the canvas display size,
+ * since responsiveness is handled by the controller.resize() method. The config is used
+ * to determine the aspect ratio to apply in case no explicit height has been specified.
+ */
+function initCanvas(canvas, config) {
+	var style = canvas.style;
+
+	// NOTE(SB) canvas.getAttribute('width') !== canvas.width: in the first case it
+	// returns null or '' if no explicit value has been set to the canvas attribute.
+	var renderHeight = canvas.getAttribute('height');
+	var renderWidth = canvas.getAttribute('width');
+
+	// Chart.js modifies some canvas values that we want to restore on destroy
+	canvas[EXPANDO_KEY] = {
+		initial: {
+			height: renderHeight,
+			width: renderWidth,
+			style: {
+				display: style.display,
+				height: style.height,
+				width: style.width
+			}
+		}
+	};
+
+	// Force canvas to display as block to avoid extra space caused by inline
+	// elements, which would interfere with the responsive resize process.
+	// https://github.com/chartjs/Chart.js/issues/2538
+	style.display = style.display || 'block';
+
+	if (renderWidth === null || renderWidth === '') {
+		var displayWidth = readUsedSize(canvas, 'width');
+		if (displayWidth !== undefined) {
+			canvas.width = displayWidth;
+		}
+	}
+
+	if (renderHeight === null || renderHeight === '') {
+		if (canvas.style.height === '') {
+			// If no explicit render height and style height, let's apply the aspect ratio,
+			// which one can be specified by the user but also by charts as default option
+			// (i.e. options.aspectRatio). If not specified, use canvas aspect ratio of 2.
+			canvas.height = canvas.width / (config.options.aspectRatio || 2);
+		} else {
+			var displayHeight = readUsedSize(canvas, 'height');
+			if (displayWidth !== undefined) {
+				canvas.height = displayHeight;
+			}
+		}
+	}
+
+	return canvas;
+}
+
+/**
+ * Detects support for options object argument in addEventListener.
+ * https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#Safely_detecting_option_support
+ * @private
+ */
+var supportsEventListenerOptions = (function() {
+	var supports = false;
+	try {
+		var options = Object.defineProperty({}, 'passive', {
+			get: function() {
+				supports = true;
+			}
+		});
+		window.addEventListener('e', null, options);
+	} catch (e) {
+		// continue regardless of error
+	}
+	return supports;
+}());
+
+// Default passive to true as expected by Chrome for 'touchstart' and 'touchend' events.
+// https://github.com/chartjs/Chart.js/issues/4287
+var eventListenerOptions = supportsEventListenerOptions ? {passive: true} : false;
+
+function addEventListener(node, type, listener) {
+	node.addEventListener(type, listener, eventListenerOptions);
+}
+
+function removeEventListener(node, type, listener) {
+	node.removeEventListener(type, listener, eventListenerOptions);
+}
+
+function createEvent(type, chart, x, y, nativeEvent) {
+	return {
+		type: type,
+		chart: chart,
+		native: nativeEvent || null,
+		x: x !== undefined ? x : null,
+		y: y !== undefined ? y : null,
+	};
+}
+
+function fromNativeEvent(event, chart) {
+	var type = EVENT_TYPES[event.type] || event.type;
+	var pos = helpers.getRelativePosition(event, chart);
+	return createEvent(type, chart, pos.x, pos.y, event);
+}
+
+function throttled(fn, thisArg) {
+	var ticking = false;
+	var args = [];
+
+	return function() {
+		args = Array.prototype.slice.call(arguments);
+		thisArg = thisArg || this;
+
+		if (!ticking) {
+			ticking = true;
+			helpers.requestAnimFrame.call(window, function() {
+				ticking = false;
+				fn.apply(thisArg, args);
+			});
+		}
+	};
+}
+
+// Implementation based on https://github.com/marcj/css-element-queries
+function createResizer(handler) {
+	var resizer = document.createElement('div');
+	var cls = CSS_PREFIX + 'size-monitor';
+	var maxSize = 1000000;
+	var style =
+		'position:absolute;' +
+		'left:0;' +
+		'top:0;' +
+		'right:0;' +
+		'bottom:0;' +
+		'overflow:hidden;' +
+		'pointer-events:none;' +
+		'visibility:hidden;' +
+		'z-index:-1;';
+
+	resizer.style.cssText = style;
+	resizer.className = cls;
+	resizer.innerHTML =
+		'<div class="' + cls + '-expand" style="' + style + '">' +
+			'<div style="' +
+				'position:absolute;' +
+				'width:' + maxSize + 'px;' +
+				'height:' + maxSize + 'px;' +
+				'left:0;' +
+				'top:0">' +
+			'</div>' +
+		'</div>' +
+		'<div class="' + cls + '-shrink" style="' + style + '">' +
+			'<div style="' +
+				'position:absolute;' +
+				'width:200%;' +
+				'height:200%;' +
+				'left:0; ' +
+				'top:0">' +
+			'</div>' +
+		'</div>';
+
+	var expand = resizer.childNodes[0];
+	var shrink = resizer.childNodes[1];
+
+	resizer._reset = function() {
+		expand.scrollLeft = maxSize;
+		expand.scrollTop = maxSize;
+		shrink.scrollLeft = maxSize;
+		shrink.scrollTop = maxSize;
+	};
+	var onScroll = function() {
+		resizer._reset();
+		handler();
+	};
+
+	addEventListener(expand, 'scroll', onScroll.bind(expand, 'expand'));
+	addEventListener(shrink, 'scroll', onScroll.bind(shrink, 'shrink'));
+
+	return resizer;
+}
+
+// https://davidwalsh.name/detect-node-insertion
+function watchForRender(node, handler) {
+	var expando = node[EXPANDO_KEY] || (node[EXPANDO_KEY] = {});
+	var proxy = expando.renderProxy = function(e) {
+		if (e.animationName === CSS_RENDER_ANIMATION) {
+			handler();
+		}
+	};
+
+	helpers.each(ANIMATION_START_EVENTS, function(type) {
+		addEventListener(node, type, proxy);
+	});
+
+	// #4737: Chrome might skip the CSS animation when the CSS_RENDER_MONITOR class
+	// is removed then added back immediately (same animation frame?). Accessing the
+	// `offsetParent` property will force a reflow and re-evaluate the CSS animation.
+	// https://gist.github.com/paulirish/5d52fb081b3570c81e3a#box-metrics
+	// https://github.com/chartjs/Chart.js/issues/4737
+	expando.reflow = !!node.offsetParent;
+
+	node.classList.add(CSS_RENDER_MONITOR);
+}
+
+function unwatchForRender(node) {
+	var expando = node[EXPANDO_KEY] || {};
+	var proxy = expando.renderProxy;
+
+	if (proxy) {
+		helpers.each(ANIMATION_START_EVENTS, function(type) {
+			removeEventListener(node, type, proxy);
+		});
+
+		delete expando.renderProxy;
+	}
+
+	node.classList.remove(CSS_RENDER_MONITOR);
+}
+
+function addResizeListener(node, listener, chart) {
+	var expando = node[EXPANDO_KEY] || (node[EXPANDO_KEY] = {});
+
+	// Let's keep track of this added resizer and thus avoid DOM query when removing it.
+	var resizer = expando.resizer = createResizer(throttled(function() {
+		if (expando.resizer) {
+			return listener(createEvent('resize', chart));
+		}
+	}));
+
+	// The resizer needs to be attached to the node parent, so we first need to be
+	// sure that `node` is attached to the DOM before injecting the resizer element.
+	watchForRender(node, function() {
+		if (expando.resizer) {
+			var container = node.parentNode;
+			if (container && container !== resizer.parentNode) {
+				container.insertBefore(resizer, container.firstChild);
+			}
+
+			// The container size might have changed, let's reset the resizer state.
+			resizer._reset();
+		}
+	});
+}
+
+function removeResizeListener(node) {
+	var expando = node[EXPANDO_KEY] || {};
+	var resizer = expando.resizer;
+
+	delete expando.resizer;
+	unwatchForRender(node);
+
+	if (resizer && resizer.parentNode) {
+		resizer.parentNode.removeChild(resizer);
+	}
+}
+
+function injectCSS(platform, css) {
+	// http://stackoverflow.com/q/3922139
+	var style = platform._style || document.createElement('style');
+	if (!platform._style) {
+		platform._style = style;
+		css = '/* Chart.js */\n' + css;
+		style.setAttribute('type', 'text/css');
+		document.getElementsByTagName('head')[0].appendChild(style);
+	}
+
+	style.appendChild(document.createTextNode(css));
+}
+
+module.exports = {
+	/**
+	 * This property holds whether this platform is enabled for the current environment.
+	 * Currently used by platform.js to select the proper implementation.
+	 * @private
+	 */
+	_enabled: typeof window !== 'undefined' && typeof document !== 'undefined',
+
+	initialize: function() {
+		var keyframes = 'from{opacity:0.99}to{opacity:1}';
+
+		injectCSS(this,
+			// DOM rendering detection
+			// https://davidwalsh.name/detect-node-insertion
+			'@-webkit-keyframes ' + CSS_RENDER_ANIMATION + '{' + keyframes + '}' +
+			'@keyframes ' + CSS_RENDER_ANIMATION + '{' + keyframes + '}' +
+			'.' + CSS_RENDER_MONITOR + '{' +
+				'-webkit-animation:' + CSS_RENDER_ANIMATION + ' 0.001s;' +
+				'animation:' + CSS_RENDER_ANIMATION + ' 0.001s;' +
+			'}'
+		);
+	},
+
+	acquireContext: function(item, config) {
+		if (typeof item === 'string') {
+			item = document.getElementById(item);
+		} else if (item.length) {
+			// Support for array based queries (such as jQuery)
+			item = item[0];
+		}
+
+		if (item && item.canvas) {
+			// Support for any object associated to a canvas (including a context2d)
+			item = item.canvas;
+		}
+
+		// To prevent canvas fingerprinting, some add-ons undefine the getContext
+		// method, for example: https://github.com/kkapsner/CanvasBlocker
+		// https://github.com/chartjs/Chart.js/issues/2807
+		var context = item && item.getContext && item.getContext('2d');
+
+		// `instanceof HTMLCanvasElement/CanvasRenderingContext2D` fails when the item is
+		// inside an iframe or when running in a protected environment. We could guess the
+		// types from their toString() value but let's keep things flexible and assume it's
+		// a sufficient condition if the item has a context2D which has item as `canvas`.
+		// https://github.com/chartjs/Chart.js/issues/3887
+		// https://github.com/chartjs/Chart.js/issues/4102
+		// https://github.com/chartjs/Chart.js/issues/4152
+		if (context && context.canvas === item) {
+			initCanvas(item, config);
+			return context;
+		}
+
+		return null;
+	},
+
+	releaseContext: function(context) {
+		var canvas = context.canvas;
+		if (!canvas[EXPANDO_KEY]) {
+			return;
+		}
+
+		var initial = canvas[EXPANDO_KEY].initial;
+		['height', 'width'].forEach(function(prop) {
+			var value = initial[prop];
+			if (helpers.isNullOrUndef(value)) {
+				canvas.removeAttribute(prop);
+			} else {
+				canvas.setAttribute(prop, value);
+			}
+		});
+
+		helpers.each(initial.style || {}, function(value, key) {
+			canvas.style[key] = value;
+		});
+
+		// The canvas render size might have been changed (and thus the state stack discarded),
+		// we can't use save() and restore() to restore the initial state. So make sure that at
+		// least the canvas context is reset to the default state by setting the canvas width.
+		// https://www.w3.org/TR/2011/WD-html5-20110525/the-canvas-element.html
+		canvas.width = canvas.width;
+
+		delete canvas[EXPANDO_KEY];
+	},
+
+	addEventListener: function(chart, type, listener) {
+		var canvas = chart.canvas;
+		if (type === 'resize') {
+			// Note: the resize event is not supported on all browsers.
+			addResizeListener(canvas, listener, chart);
+			return;
+		}
+
+		var expando = listener[EXPANDO_KEY] || (listener[EXPANDO_KEY] = {});
+		var proxies = expando.proxies || (expando.proxies = {});
+		var proxy = proxies[chart.id + '_' + type] = function(event) {
+			listener(fromNativeEvent(event, chart));
+		};
+
+		addEventListener(canvas, type, proxy);
+	},
+
+	removeEventListener: function(chart, type, listener) {
+		var canvas = chart.canvas;
+		if (type === 'resize') {
+			// Note: the resize event is not supported on all browsers.
+			removeResizeListener(canvas, listener);
+			return;
+		}
+
+		var expando = listener[EXPANDO_KEY] || {};
+		var proxies = expando.proxies || {};
+		var proxy = proxies[chart.id + '_' + type];
+		if (!proxy) {
+			return;
+		}
+
+		removeEventListener(canvas, type, proxy);
+	}
+};
+
+// DEPRECATIONS
+
+/**
+ * Provided for backward compatibility, use EventTarget.addEventListener instead.
+ * EventTarget.addEventListener compatibility: Chrome, Opera 7, Safari, FF1.5+, IE9+
+ * @see https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+ * @function Chart.helpers.addEvent
+ * @deprecated since version 2.7.0
+ * @todo remove at version 3
+ * @private
+ */
+helpers.addEvent = addEventListener;
+
+/**
+ * Provided for backward compatibility, use EventTarget.removeEventListener instead.
+ * EventTarget.removeEventListener compatibility: Chrome, Opera 7, Safari, FF1.5+, IE9+
+ * @see https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener
+ * @function Chart.helpers.removeEvent
+ * @deprecated since version 2.7.0
+ * @todo remove at version 3
+ * @private
+ */
+helpers.removeEvent = removeEventListener;
+
+},{"../helpers/index":39}],42:[function(require,module,exports){
+'use strict';
+
+var helpers = require('../helpers/index');
+var basic = require('./platform.basic');
+var dom = require('./platform.dom');
+
+// @TODO Make possible to select another platform at build time.
+var implementation = dom._enabled ? dom : basic;
+
+/**
+ * @namespace Chart.platform
+ * @see https://chartjs.gitbooks.io/proposals/content/Platform.html
+ * @since 2.4.0
+ */
+module.exports = helpers.extend({
+	/**
+	 * @since 2.7.0
+	 */
+	initialize: function() {},
+
+	/**
+	 * Called at chart construction time, returns a context2d instance implementing
+	 * the [W3C Canvas 2D Context API standard]{@link https://www.w3.org/TR/2dcontext/}.
+	 * @param {*} item - The native item from which to acquire context (platform specific)
+	 * @param {Object} options - The chart options
+	 * @returns {CanvasRenderingContext2D} context2d instance
+	 */
+	acquireContext: function() {},
+
+	/**
+	 * Called at chart destruction time, releases any resources associated to the context
+	 * previously returned by the acquireContext() method.
+	 * @param {CanvasRenderingContext2D} context - The context2d instance
+	 * @returns {Boolean} true if the method succeeded, else false
+	 */
+	releaseContext: function() {},
+
+	/**
+	 * Registers the specified listener on the given chart.
+	 * @param {Chart} chart - Chart from which to listen for event
+	 * @param {String} type - The ({@link IEvent}) type to listen for
+	 * @param {Function} listener - Receives a notification (an object that implements
+	 * the {@link IEvent} interface) when an event of the specified type occurs.
+	 */
+	addEventListener: function() {},
+
+	/**
+	 * Removes the specified listener previously registered with addEventListener.
+	 * @param {Chart} chart -Chart from which to remove the listener
+	 * @param {String} type - The ({@link IEvent}) type to remove
+	 * @param {Function} listener - The listener function to remove from the event target.
+	 */
+	removeEventListener: function() {}
+
+}, implementation);
+
+/**
+ * @interface IPlatform
+ * Allows abstracting platform dependencies away from the chart
+ * @borrows Chart.platform.acquireContext as acquireContext
+ * @borrows Chart.platform.releaseContext as releaseContext
+ * @borrows Chart.platform.addEventListener as addEventListener
+ * @borrows Chart.platform.removeEventListener as removeEventListener
+ */
+
+/**
+ * @interface IEvent
+ * @prop {String} type - The event type name, possible values are:
+ * 'contextmenu', 'mouseenter', 'mousedown', 'mousemove', 'mouseup', 'mouseout',
+ * 'click', 'dblclick', 'keydown', 'keypress', 'keyup' and 'resize'
+ * @prop {*} native - The original native event (null for emulated events, e.g. 'resize')
+ * @prop {Number} x - The mouse x position, relative to the canvas (null for incompatible events)
+ * @prop {Number} y - The mouse y position, relative to the canvas (null for incompatible events)
+ */
+
+},{"../helpers/index":39,"./platform.basic":40,"./platform.dom":41}],43:[function(require,module,exports){
+'use strict';
+
+module.exports = {};
+module.exports.filler = require('./plugin.filler');
+module.exports.legend = require('./plugin.legend');
+module.exports.title = require('./plugin.title');
+
+},{"./plugin.filler":44,"./plugin.legend":45,"./plugin.title":46}],44:[function(require,module,exports){
+/**
+ * Plugin based on discussion from the following Chart.js issues:
+ * @see https://github.com/chartjs/Chart.js/issues/2380#issuecomment-279961569
+ * @see https://github.com/chartjs/Chart.js/issues/2440#issuecomment-256461897
+ */
+
+'use strict';
+
+var defaults = require('../core/core.defaults');
+var elements = require('../elements/index');
+var helpers = require('../helpers/index');
+
+defaults._set('global', {
+	plugins: {
+		filler: {
+			propagate: true
+		}
+	}
+});
+
+var mappers = {
+	dataset: function(source) {
+		var index = source.fill;
+		var chart = source.chart;
+		var meta = chart.getDatasetMeta(index);
+		var visible = meta && chart.isDatasetVisible(index);
+		var points = (visible && meta.dataset._children) || [];
+		var length = points.length || 0;
+
+		return !length ? null : function(point, i) {
+			return (i < length && points[i]._view) || null;
+		};
+	},
+
+	boundary: function(source) {
+		var boundary = source.boundary;
+		var x = boundary ? boundary.x : null;
+		var y = boundary ? boundary.y : null;
+
+		return function(point) {
+			return {
+				x: x === null ? point.x : x,
+				y: y === null ? point.y : y,
+			};
+		};
+	}
+};
+
+// @todo if (fill[0] === '#')
+function decodeFill(el, index, count) {
+	var model = el._model || {};
+	var fill = model.fill;
+	var target;
+
+	if (fill === undefined) {
+		fill = !!model.backgroundColor;
+	}
+
+	if (fill === false || fill === null) {
+		return false;
+	}
+
+	if (fill === true) {
+		return 'origin';
+	}
+
+	target = parseFloat(fill, 10);
+	if (isFinite(target) && Math.floor(target) === target) {
+		if (fill[0] === '-' || fill[0] === '+') {
+			target = index + target;
+		}
+
+		if (target === index || target < 0 || target >= count) {
+			return false;
+		}
+
+		return target;
+	}
+
+	switch (fill) {
+	// compatibility
+	case 'bottom':
+		return 'start';
+	case 'top':
+		return 'end';
+	case 'zero':
+		return 'origin';
+	// supported boundaries
+	case 'origin':
+	case 'start':
+	case 'end':
+		return fill;
+	// invalid fill values
+	default:
+		return false;
+	}
+}
+
+function computeBoundary(source) {
+	var model = source.el._model || {};
+	var scale = source.el._scale || {};
+	var fill = source.fill;
+	var target = null;
+	var horizontal;
+
+	if (isFinite(fill)) {
+		return null;
+	}
+
+	// Backward compatibility: until v3, we still need to support boundary values set on
+	// the model (scaleTop, scaleBottom and scaleZero) because some external plugins and
+	// controllers might still use it (e.g. the Smith chart).
+
+	if (fill === 'start') {
+		target = model.scaleBottom === undefined ? scale.bottom : model.scaleBottom;
+	} else if (fill === 'end') {
+		target = model.scaleTop === undefined ? scale.top : model.scaleTop;
+	} else if (model.scaleZero !== undefined) {
+		target = model.scaleZero;
+	} else if (scale.getBasePosition) {
+		target = scale.getBasePosition();
+	} else if (scale.getBasePixel) {
+		target = scale.getBasePixel();
+	}
+
+	if (target !== undefined && target !== null) {
+		if (target.x !== undefined && target.y !== undefined) {
+			return target;
+		}
+
+		if (typeof target === 'number' && isFinite(target)) {
+			horizontal = scale.isHorizontal();
+			return {
+				x: horizontal ? target : null,
+				y: horizontal ? null : target
+			};
+		}
+	}
+
+	return null;
+}
+
+function resolveTarget(sources, index, propagate) {
+	var source = sources[index];
+	var fill = source.fill;
+	var visited = [index];
+	var target;
+
+	if (!propagate) {
+		return fill;
+	}
+
+	while (fill !== false && visited.indexOf(fill) === -1) {
+		if (!isFinite(fill)) {
+			return fill;
+		}
+
+		target = sources[fill];
+		if (!target) {
+			return false;
+		}
+
+		if (target.visible) {
+			return fill;
+		}
+
+		visited.push(fill);
+		fill = target.fill;
+	}
+
+	return false;
+}
+
+function createMapper(source) {
+	var fill = source.fill;
+	var type = 'dataset';
+
+	if (fill === false) {
+		return null;
+	}
+
+	if (!isFinite(fill)) {
+		type = 'boundary';
+	}
+
+	return mappers[type](source);
+}
+
+function isDrawable(point) {
+	return point && !point.skip;
+}
+
+function drawArea(ctx, curve0, curve1, len0, len1) {
+	var i;
+
+	if (!len0 || !len1) {
+		return;
+	}
+
+	// building first area curve (normal)
+	ctx.moveTo(curve0[0].x, curve0[0].y);
+	for (i = 1; i < len0; ++i) {
+		helpers.canvas.lineTo(ctx, curve0[i - 1], curve0[i]);
+	}
+
+	// joining the two area curves
+	ctx.lineTo(curve1[len1 - 1].x, curve1[len1 - 1].y);
+
+	// building opposite area curve (reverse)
+	for (i = len1 - 1; i > 0; --i) {
+		helpers.canvas.lineTo(ctx, curve1[i], curve1[i - 1], true);
+	}
+}
+
+function doFill(ctx, points, mapper, view, color, loop) {
+	var count = points.length;
+	var span = view.spanGaps;
+	var curve0 = [];
+	var curve1 = [];
+	var len0 = 0;
+	var len1 = 0;
+	var i, ilen, index, p0, p1, d0, d1;
+
+	ctx.beginPath();
+
+	for (i = 0, ilen = (count + !!loop); i < ilen; ++i) {
+		index = i % count;
+		p0 = points[index]._view;
+		p1 = mapper(p0, index, view);
+		d0 = isDrawable(p0);
+		d1 = isDrawable(p1);
+
+		if (d0 && d1) {
+			len0 = curve0.push(p0);
+			len1 = curve1.push(p1);
+		} else if (len0 && len1) {
+			if (!span) {
+				drawArea(ctx, curve0, curve1, len0, len1);
+				len0 = len1 = 0;
+				curve0 = [];
+				curve1 = [];
+			} else {
+				if (d0) {
+					curve0.push(p0);
+				}
+				if (d1) {
+					curve1.push(p1);
+				}
+			}
+		}
+	}
+
+	drawArea(ctx, curve0, curve1, len0, len1);
+
+	ctx.closePath();
+	ctx.fillStyle = color;
+	ctx.fill();
+}
+
+module.exports = {
+	id: 'filler',
+
+	afterDatasetsUpdate: function(chart, options) {
+		var count = (chart.data.datasets || []).length;
+		var propagate = options.propagate;
+		var sources = [];
+		var meta, i, el, source;
+
+		for (i = 0; i < count; ++i) {
+			meta = chart.getDatasetMeta(i);
+			el = meta.dataset;
+			source = null;
+
+			if (el && el._model && el instanceof elements.Line) {
+				source = {
+					visible: chart.isDatasetVisible(i),
+					fill: decodeFill(el, i, count),
+					chart: chart,
+					el: el
+				};
+			}
+
+			meta.$filler = source;
+			sources.push(source);
+		}
+
+		for (i = 0; i < count; ++i) {
+			source = sources[i];
+			if (!source) {
+				continue;
+			}
+
+			source.fill = resolveTarget(sources, i, propagate);
+			source.boundary = computeBoundary(source);
+			source.mapper = createMapper(source);
+		}
+	},
+
+	beforeDatasetDraw: function(chart, args) {
+		var meta = args.meta.$filler;
+		if (!meta) {
+			return;
+		}
+
+		var ctx = chart.ctx;
+		var el = meta.el;
+		var view = el._view;
+		var points = el._children || [];
+		var mapper = meta.mapper;
+		var color = view.backgroundColor || defaults.global.defaultColor;
+
+		if (mapper && color && points.length) {
+			helpers.canvas.clipArea(ctx, chart.chartArea);
+			doFill(ctx, points, mapper, view, color, el._loop);
+			helpers.canvas.unclipArea(ctx);
+		}
+	}
+};
+
+},{"../core/core.defaults":19,"../elements/index":34,"../helpers/index":39}],45:[function(require,module,exports){
+'use strict';
+
+var defaults = require('../core/core.defaults');
+var Element = require('../core/core.element');
+var helpers = require('../helpers/index');
+var layouts = require('../core/core.layouts');
+
+var noop = helpers.noop;
+
+defaults._set('global', {
+	legend: {
+		display: true,
+		position: 'top',
+		fullWidth: true,
+		reverse: false,
+		weight: 1000,
+
+		// a callback that will handle
+		onClick: function(e, legendItem) {
+			var index = legendItem.datasetIndex;
+			var ci = this.chart;
+			var meta = ci.getDatasetMeta(index);
+
+			// See controller.isDatasetVisible comment
+			meta.hidden = meta.hidden === null ? !ci.data.datasets[index].hidden : null;
+
+			// We hid a dataset ... rerender the chart
+			ci.update();
+		},
+
+		onHover: null,
+
+		labels: {
+			boxWidth: 40,
+			padding: 10,
+			// Generates labels shown in the legend
+			// Valid properties to return:
+			// text : text to display
+			// fillStyle : fill of coloured box
+			// strokeStyle: stroke of coloured box
+			// hidden : if this legend item refers to a hidden item
+			// lineCap : cap style for line
+			// lineDash
+			// lineDashOffset :
+			// lineJoin :
+			// lineWidth :
+			generateLabels: function(chart) {
+				var data = chart.data;
+				return helpers.isArray(data.datasets) ? data.datasets.map(function(dataset, i) {
+					return {
+						text: dataset.label,
+						fillStyle: (!helpers.isArray(dataset.backgroundColor) ? dataset.backgroundColor : dataset.backgroundColor[0]),
+						hidden: !chart.isDatasetVisible(i),
+						lineCap: dataset.borderCapStyle,
+						lineDash: dataset.borderDash,
+						lineDashOffset: dataset.borderDashOffset,
+						lineJoin: dataset.borderJoinStyle,
+						lineWidth: dataset.borderWidth,
+						strokeStyle: dataset.borderColor,
+						pointStyle: dataset.pointStyle,
+
+						// Below is extra data used for toggling the datasets
+						datasetIndex: i
+					};
+				}, this) : [];
+			}
+		}
+	},
+
+	legendCallback: function(chart) {
+		var text = [];
+		text.push('<ul class="' + chart.id + '-legend">');
+		for (var i = 0; i < chart.data.datasets.length; i++) {
+			text.push('<li><span style="background-color:' + chart.data.datasets[i].backgroundColor + '"></span>');
+			if (chart.data.datasets[i].label) {
+				text.push(chart.data.datasets[i].label);
+			}
+			text.push('</li>');
+		}
+		text.push('</ul>');
+		return text.join('');
+	}
+});
+
+/**
+ * Helper function to get the box width based on the usePointStyle option
+ * @param labelopts {Object} the label options on the legend
+ * @param fontSize {Number} the label font size
+ * @return {Number} width of the color box area
+ */
+function getBoxWidth(labelOpts, fontSize) {
+	return labelOpts.usePointStyle ?
+		fontSize * Math.SQRT2 :
+		labelOpts.boxWidth;
+}
+
+/**
+ * IMPORTANT: this class is exposed publicly as Chart.Legend, backward compatibility required!
+ */
+var Legend = Element.extend({
+
+	initialize: function(config) {
+		helpers.extend(this, config);
+
+		// Contains hit boxes for each dataset (in dataset order)
+		this.legendHitBoxes = [];
+
+		// Are we in doughnut mode which has a different data type
+		this.doughnutMode = false;
+	},
+
+	// These methods are ordered by lifecycle. Utilities then follow.
+	// Any function defined here is inherited by all legend types.
+	// Any function can be extended by the legend type
+
+	beforeUpdate: noop,
+	update: function(maxWidth, maxHeight, margins) {
+		var me = this;
+
+		// Update Lifecycle - Probably don't want to ever extend or overwrite this function ;)
+		me.beforeUpdate();
+
+		// Absorb the master measurements
+		me.maxWidth = maxWidth;
+		me.maxHeight = maxHeight;
+		me.margins = margins;
+
+		// Dimensions
+		me.beforeSetDimensions();
+		me.setDimensions();
+		me.afterSetDimensions();
+		// Labels
+		me.beforeBuildLabels();
+		me.buildLabels();
+		me.afterBuildLabels();
+
+		// Fit
+		me.beforeFit();
+		me.fit();
+		me.afterFit();
+		//
+		me.afterUpdate();
+
+		return me.minSize;
+	},
+	afterUpdate: noop,
+
+	//
+
+	beforeSetDimensions: noop,
+	setDimensions: function() {
+		var me = this;
+		// Set the unconstrained dimension before label rotation
+		if (me.isHorizontal()) {
+			// Reset position before calculating rotation
+			me.width = me.maxWidth;
+			me.left = 0;
+			me.right = me.width;
+		} else {
+			me.height = me.maxHeight;
+
+			// Reset position before calculating rotation
+			me.top = 0;
+			me.bottom = me.height;
+		}
+
+		// Reset padding
+		me.paddingLeft = 0;
+		me.paddingTop = 0;
+		me.paddingRight = 0;
+		me.paddingBottom = 0;
+
+		// Reset minSize
+		me.minSize = {
+			width: 0,
+			height: 0
+		};
+	},
+	afterSetDimensions: noop,
+
+	//
+
+	beforeBuildLabels: noop,
+	buildLabels: function() {
+		var me = this;
+		var labelOpts = me.options.labels || {};
+		var legendItems = helpers.callback(labelOpts.generateLabels, [me.chart], me) || [];
+
+		if (labelOpts.filter) {
+			legendItems = legendItems.filter(function(item) {
+				return labelOpts.filter(item, me.chart.data);
+			});
+		}
+
+		if (me.options.reverse) {
+			legendItems.reverse();
+		}
+
+		me.legendItems = legendItems;
+	},
+	afterBuildLabels: noop,
+
+	//
+
+	beforeFit: noop,
+	fit: function() {
+		var me = this;
+		var opts = me.options;
+		var labelOpts = opts.labels;
+		var display = opts.display;
+
+		var ctx = me.ctx;
+
+		var globalDefault = defaults.global;
+		var valueOrDefault = helpers.valueOrDefault;
+		var fontSize = valueOrDefault(labelOpts.fontSize, globalDefault.defaultFontSize);
+		var fontStyle = valueOrDefault(labelOpts.fontStyle, globalDefault.defaultFontStyle);
+		var fontFamily = valueOrDefault(labelOpts.fontFamily, globalDefault.defaultFontFamily);
+		var labelFont = helpers.fontString(fontSize, fontStyle, fontFamily);
+
+		// Reset hit boxes
+		var hitboxes = me.legendHitBoxes = [];
+
+		var minSize = me.minSize;
+		var isHorizontal = me.isHorizontal();
+
+		if (isHorizontal) {
+			minSize.width = me.maxWidth; // fill all the width
+			minSize.height = display ? 10 : 0;
+		} else {
+			minSize.width = display ? 10 : 0;
+			minSize.height = me.maxHeight; // fill all the height
+		}
+
+		// Increase sizes here
+		if (display) {
+			ctx.font = labelFont;
+
+			if (isHorizontal) {
+				// Labels
+
+				// Width of each line of legend boxes. Labels wrap onto multiple lines when there are too many to fit on one
+				var lineWidths = me.lineWidths = [0];
+				var totalHeight = me.legendItems.length ? fontSize + (labelOpts.padding) : 0;
+
+				ctx.textAlign = 'left';
+				ctx.textBaseline = 'top';
+
+				helpers.each(me.legendItems, function(legendItem, i) {
+					var boxWidth = getBoxWidth(labelOpts, fontSize);
+					var width = boxWidth + (fontSize / 2) + ctx.measureText(legendItem.text).width;
+
+					if (lineWidths[lineWidths.length - 1] + width + labelOpts.padding >= me.width) {
+						totalHeight += fontSize + (labelOpts.padding);
+						lineWidths[lineWidths.length] = me.left;
+					}
+
+					// Store the hitbox width and height here. Final position will be updated in `draw`
+					hitboxes[i] = {
+						left: 0,
+						top: 0,
+						width: width,
+						height: fontSize
+					};
+
+					lineWidths[lineWidths.length - 1] += width + labelOpts.padding;
+				});
+
+				minSize.height += totalHeight;
+
+			} else {
+				var vPadding = labelOpts.padding;
+				var columnWidths = me.columnWidths = [];
+				var totalWidth = labelOpts.padding;
+				var currentColWidth = 0;
+				var currentColHeight = 0;
+				var itemHeight = fontSize + vPadding;
+
+				helpers.each(me.legendItems, function(legendItem, i) {
+					var boxWidth = getBoxWidth(labelOpts, fontSize);
+					var itemWidth = boxWidth + (fontSize / 2) + ctx.measureText(legendItem.text).width;
+
+					// If too tall, go to new column
+					if (currentColHeight + itemHeight > minSize.height) {
+						totalWidth += currentColWidth + labelOpts.padding;
+						columnWidths.push(currentColWidth); // previous column width
+
+						currentColWidth = 0;
+						currentColHeight = 0;
+					}
+
+					// Get max width
+					currentColWidth = Math.max(currentColWidth, itemWidth);
+					currentColHeight += itemHeight;
+
+					// Store the hitbox width and height here. Final position will be updated in `draw`
+					hitboxes[i] = {
+						left: 0,
+						top: 0,
+						width: itemWidth,
+						height: fontSize
+					};
+				});
+
+				totalWidth += currentColWidth;
+				columnWidths.push(currentColWidth);
+				minSize.width += totalWidth;
+			}
+		}
+
+		me.width = minSize.width;
+		me.height = minSize.height;
+	},
+	afterFit: noop,
+
+	// Shared Methods
+	isHorizontal: function() {
+		return this.options.position === 'top' || this.options.position === 'bottom';
+	},
+
+	// Actually draw the legend on the canvas
+	draw: function() {
+		var me = this;
+		var opts = me.options;
+		var labelOpts = opts.labels;
+		var globalDefault = defaults.global;
+		var lineDefault = globalDefault.elements.line;
+		var legendWidth = me.width;
+		var lineWidths = me.lineWidths;
+
+		if (opts.display) {
+			var ctx = me.ctx;
+			var valueOrDefault = helpers.valueOrDefault;
+			var fontColor = valueOrDefault(labelOpts.fontColor, globalDefault.defaultFontColor);
+			var fontSize = valueOrDefault(labelOpts.fontSize, globalDefault.defaultFontSize);
+			var fontStyle = valueOrDefault(labelOpts.fontStyle, globalDefault.defaultFontStyle);
+			var fontFamily = valueOrDefault(labelOpts.fontFamily, globalDefault.defaultFontFamily);
+			var labelFont = helpers.fontString(fontSize, fontStyle, fontFamily);
+			var cursor;
+
+			// Canvas setup
+			ctx.textAlign = 'left';
+			ctx.textBaseline = 'middle';
+			ctx.lineWidth = 0.5;
+			ctx.strokeStyle = fontColor; // for strikethrough effect
+			ctx.fillStyle = fontColor; // render in correct colour
+			ctx.font = labelFont;
+
+			var boxWidth = getBoxWidth(labelOpts, fontSize);
+			var hitboxes = me.legendHitBoxes;
+
+			// current position
+			var drawLegendBox = function(x, y, legendItem) {
+				if (isNaN(boxWidth) || boxWidth <= 0) {
+					return;
+				}
+
+				// Set the ctx for the box
+				ctx.save();
+
+				ctx.fillStyle = valueOrDefault(legendItem.fillStyle, globalDefault.defaultColor);
+				ctx.lineCap = valueOrDefault(legendItem.lineCap, lineDefault.borderCapStyle);
+				ctx.lineDashOffset = valueOrDefault(legendItem.lineDashOffset, lineDefault.borderDashOffset);
+				ctx.lineJoin = valueOrDefault(legendItem.lineJoin, lineDefault.borderJoinStyle);
+				ctx.lineWidth = valueOrDefault(legendItem.lineWidth, lineDefault.borderWidth);
+				ctx.strokeStyle = valueOrDefault(legendItem.strokeStyle, globalDefault.defaultColor);
+				var isLineWidthZero = (valueOrDefault(legendItem.lineWidth, lineDefault.borderWidth) === 0);
+
+				if (ctx.setLineDash) {
+					// IE 9 and 10 do not support line dash
+					ctx.setLineDash(valueOrDefault(legendItem.lineDash, lineDefault.borderDash));
+				}
+
+				if (opts.labels && opts.labels.usePointStyle) {
+					// Recalculate x and y for drawPoint() because its expecting
+					// x and y to be center of figure (instead of top left)
+					var radius = fontSize * Math.SQRT2 / 2;
+					var offSet = radius / Math.SQRT2;
+					var centerX = x + offSet;
+					var centerY = y + offSet;
+
+					// Draw pointStyle as legend symbol
+					helpers.canvas.drawPoint(ctx, legendItem.pointStyle, radius, centerX, centerY);
+				} else {
+					// Draw box as legend symbol
+					if (!isLineWidthZero) {
+						ctx.strokeRect(x, y, boxWidth, fontSize);
+					}
+					ctx.fillRect(x, y, boxWidth, fontSize);
+				}
+
+				ctx.restore();
+			};
+			var fillText = function(x, y, legendItem, textWidth) {
+				var halfFontSize = fontSize / 2;
+				var xLeft = boxWidth + halfFontSize + x;
+				var yMiddle = y + halfFontSize;
+
+				ctx.fillText(legendItem.text, xLeft, yMiddle);
+
+				if (legendItem.hidden) {
+					// Strikethrough the text if hidden
+					ctx.beginPath();
+					ctx.lineWidth = 2;
+					ctx.moveTo(xLeft, yMiddle);
+					ctx.lineTo(xLeft + textWidth, yMiddle);
+					ctx.stroke();
+				}
+			};
+
+			// Horizontal
+			var isHorizontal = me.isHorizontal();
+			if (isHorizontal) {
+				cursor = {
+					x: me.left + ((legendWidth - lineWidths[0]) / 2),
+					y: me.top + labelOpts.padding,
+					line: 0
+				};
+			} else {
+				cursor = {
+					x: me.left + labelOpts.padding,
+					y: me.top + labelOpts.padding,
+					line: 0
+				};
+			}
+
+			var itemHeight = fontSize + labelOpts.padding;
+			helpers.each(me.legendItems, function(legendItem, i) {
+				var textWidth = ctx.measureText(legendItem.text).width;
+				var width = boxWidth + (fontSize / 2) + textWidth;
+				var x = cursor.x;
+				var y = cursor.y;
+
+				if (isHorizontal) {
+					if (x + width >= legendWidth) {
+						y = cursor.y += itemHeight;
+						cursor.line++;
+						x = cursor.x = me.left + ((legendWidth - lineWidths[cursor.line]) / 2);
+					}
+				} else if (y + itemHeight > me.bottom) {
+					x = cursor.x = x + me.columnWidths[cursor.line] + labelOpts.padding;
+					y = cursor.y = me.top + labelOpts.padding;
+					cursor.line++;
+				}
+
+				drawLegendBox(x, y, legendItem);
+
+				hitboxes[i].left = x;
+				hitboxes[i].top = y;
+
+				// Fill the actual label
+				fillText(x, y, legendItem, textWidth);
+
+				if (isHorizontal) {
+					cursor.x += width + (labelOpts.padding);
+				} else {
+					cursor.y += itemHeight;
+				}
+
+			});
+		}
+	},
+
+	/**
+	 * Handle an event
+	 * @private
+	 * @param {IEvent} event - The event to handle
+	 * @return {Boolean} true if a change occured
+	 */
+	handleEvent: function(e) {
+		var me = this;
+		var opts = me.options;
+		var type = e.type === 'mouseup' ? 'click' : e.type;
+		var changed = false;
+
+		if (type === 'mousemove') {
+			if (!opts.onHover) {
+				return;
+			}
+		} else if (type === 'click') {
+			if (!opts.onClick) {
+				return;
+			}
+		} else {
+			return;
+		}
+
+		// Chart event already has relative position in it
+		var x = e.x;
+		var y = e.y;
+
+		if (x >= me.left && x <= me.right && y >= me.top && y <= me.bottom) {
+			// See if we are touching one of the dataset boxes
+			var lh = me.legendHitBoxes;
+			for (var i = 0; i < lh.length; ++i) {
+				var hitBox = lh[i];
+
+				if (x >= hitBox.left && x <= hitBox.left + hitBox.width && y >= hitBox.top && y <= hitBox.top + hitBox.height) {
+					// Touching an element
+					if (type === 'click') {
+						// use e.native for backwards compatibility
+						opts.onClick.call(me, e.native, me.legendItems[i]);
+						changed = true;
+						break;
+					} else if (type === 'mousemove') {
+						// use e.native for backwards compatibility
+						opts.onHover.call(me, e.native, me.legendItems[i]);
+						changed = true;
+						break;
+					}
+				}
+			}
+		}
+
+		return changed;
+	}
+});
+
+function createNewLegendAndAttach(chart, legendOpts) {
+	var legend = new Legend({
+		ctx: chart.ctx,
+		options: legendOpts,
+		chart: chart
+	});
+
+	layouts.configure(chart, legend, legendOpts);
+	layouts.addBox(chart, legend);
+	chart.legend = legend;
+}
+
+module.exports = {
+	id: 'legend',
+
+	/**
+	 * Backward compatibility: since 2.1.5, the legend is registered as a plugin, making
+	 * Chart.Legend obsolete. To avoid a breaking change, we export the Legend as part of
+	 * the plugin, which one will be re-exposed in the chart.js file.
+	 * https://github.com/chartjs/Chart.js/pull/2640
+	 * @private
+	 */
+	_element: Legend,
+
+	beforeInit: function(chart) {
+		var legendOpts = chart.options.legend;
+
+		if (legendOpts) {
+			createNewLegendAndAttach(chart, legendOpts);
+		}
+	},
+
+	beforeUpdate: function(chart) {
+		var legendOpts = chart.options.legend;
+		var legend = chart.legend;
+
+		if (legendOpts) {
+			helpers.mergeIf(legendOpts, defaults.global.legend);
+
+			if (legend) {
+				layouts.configure(chart, legend, legendOpts);
+				legend.options = legendOpts;
+			} else {
+				createNewLegendAndAttach(chart, legendOpts);
+			}
+		} else if (legend) {
+			layouts.removeBox(chart, legend);
+			delete chart.legend;
+		}
+	},
+
+	afterEvent: function(chart, e) {
+		var legend = chart.legend;
+		if (legend) {
+			legend.handleEvent(e);
+		}
+	}
+};
+
+},{"../core/core.defaults":19,"../core/core.element":20,"../core/core.layouts":24,"../helpers/index":39}],46:[function(require,module,exports){
+'use strict';
+
+var defaults = require('../core/core.defaults');
+var Element = require('../core/core.element');
+var helpers = require('../helpers/index');
+var layouts = require('../core/core.layouts');
+
+var noop = helpers.noop;
+
+defaults._set('global', {
+	title: {
+		display: false,
+		fontStyle: 'bold',
+		fullWidth: true,
+		lineHeight: 1.2,
+		padding: 10,
+		position: 'top',
+		text: '',
+		weight: 2000         // by default greater than legend (1000) to be above
+	}
+});
+
+/**
+ * IMPORTANT: this class is exposed publicly as Chart.Legend, backward compatibility required!
+ */
+var Title = Element.extend({
+	initialize: function(config) {
+		var me = this;
+		helpers.extend(me, config);
+
+		// Contains hit boxes for each dataset (in dataset order)
+		me.legendHitBoxes = [];
+	},
+
+	// These methods are ordered by lifecycle. Utilities then follow.
+
+	beforeUpdate: noop,
+	update: function(maxWidth, maxHeight, margins) {
+		var me = this;
+
+		// Update Lifecycle - Probably don't want to ever extend or overwrite this function ;)
+		me.beforeUpdate();
+
+		// Absorb the master measurements
+		me.maxWidth = maxWidth;
+		me.maxHeight = maxHeight;
+		me.margins = margins;
+
+		// Dimensions
+		me.beforeSetDimensions();
+		me.setDimensions();
+		me.afterSetDimensions();
+		// Labels
+		me.beforeBuildLabels();
+		me.buildLabels();
+		me.afterBuildLabels();
+
+		// Fit
+		me.beforeFit();
+		me.fit();
+		me.afterFit();
+		//
+		me.afterUpdate();
+
+		return me.minSize;
+
+	},
+	afterUpdate: noop,
+
+	//
+
+	beforeSetDimensions: noop,
+	setDimensions: function() {
+		var me = this;
+		// Set the unconstrained dimension before label rotation
+		if (me.isHorizontal()) {
+			// Reset position before calculating rotation
+			me.width = me.maxWidth;
+			me.left = 0;
+			me.right = me.width;
+		} else {
+			me.height = me.maxHeight;
+
+			// Reset position before calculating rotation
+			me.top = 0;
+			me.bottom = me.height;
+		}
+
+		// Reset padding
+		me.paddingLeft = 0;
+		me.paddingTop = 0;
+		me.paddingRight = 0;
+		me.paddingBottom = 0;
+
+		// Reset minSize
+		me.minSize = {
+			width: 0,
+			height: 0
+		};
+	},
+	afterSetDimensions: noop,
+
+	//
+
+	beforeBuildLabels: noop,
+	buildLabels: noop,
+	afterBuildLabels: noop,
+
+	//
+
+	beforeFit: noop,
+	fit: function() {
+		var me = this;
+		var valueOrDefault = helpers.valueOrDefault;
+		var opts = me.options;
+		var display = opts.display;
+		var fontSize = valueOrDefault(opts.fontSize, defaults.global.defaultFontSize);
+		var minSize = me.minSize;
+		var lineCount = helpers.isArray(opts.text) ? opts.text.length : 1;
+		var lineHeight = helpers.options.toLineHeight(opts.lineHeight, fontSize);
+		var textSize = display ? (lineCount * lineHeight) + (opts.padding * 2) : 0;
+
+		if (me.isHorizontal()) {
+			minSize.width = me.maxWidth; // fill all the width
+			minSize.height = textSize;
+		} else {
+			minSize.width = textSize;
+			minSize.height = me.maxHeight; // fill all the height
+		}
+
+		me.width = minSize.width;
+		me.height = minSize.height;
+
+	},
+	afterFit: noop,
+
+	// Shared Methods
+	isHorizontal: function() {
+		var pos = this.options.position;
+		return pos === 'top' || pos === 'bottom';
+	},
+
+	// Actually draw the title block on the canvas
+	draw: function() {
+		var me = this;
+		var ctx = me.ctx;
+		var valueOrDefault = helpers.valueOrDefault;
+		var opts = me.options;
+		var globalDefaults = defaults.global;
+
+		if (opts.display) {
+			var fontSize = valueOrDefault(opts.fontSize, globalDefaults.defaultFontSize);
+			var fontStyle = valueOrDefault(opts.fontStyle, globalDefaults.defaultFontStyle);
+			var fontFamily = valueOrDefault(opts.fontFamily, globalDefaults.defaultFontFamily);
+			var titleFont = helpers.fontString(fontSize, fontStyle, fontFamily);
+			var lineHeight = helpers.options.toLineHeight(opts.lineHeight, fontSize);
+			var offset = lineHeight / 2 + opts.padding;
+			var rotation = 0;
+			var top = me.top;
+			var left = me.left;
+			var bottom = me.bottom;
+			var right = me.right;
+			var maxWidth, titleX, titleY;
+
+			ctx.fillStyle = valueOrDefault(opts.fontColor, globalDefaults.defaultFontColor); // render in correct colour
+			ctx.font = titleFont;
+
+			// Horizontal
+			if (me.isHorizontal()) {
+				titleX = left + ((right - left) / 2); // midpoint of the width
+				titleY = top + offset;
+				maxWidth = right - left;
+			} else {
+				titleX = opts.position === 'left' ? left + offset : right - offset;
+				titleY = top + ((bottom - top) / 2);
+				maxWidth = bottom - top;
+				rotation = Math.PI * (opts.position === 'left' ? -0.5 : 0.5);
+			}
+
+			ctx.save();
+			ctx.translate(titleX, titleY);
+			ctx.rotate(rotation);
+			ctx.textAlign = 'center';
+			ctx.textBaseline = 'middle';
+
+			var text = opts.text;
+			if (helpers.isArray(text)) {
+				var y = 0;
+				for (var i = 0; i < text.length; ++i) {
+					ctx.fillText(text[i], 0, y, maxWidth);
+					y += lineHeight;
+				}
+			} else {
+				ctx.fillText(text, 0, 0, maxWidth);
+			}
+
+			ctx.restore();
+		}
+	}
+});
+
+function createNewTitleBlockAndAttach(chart, titleOpts) {
+	var title = new Title({
+		ctx: chart.ctx,
+		options: titleOpts,
+		chart: chart
+	});
+
+	layouts.configure(chart, title, titleOpts);
+	layouts.addBox(chart, title);
+	chart.titleBlock = title;
+}
+
+module.exports = {
+	id: 'title',
+
+	/**
+	 * Backward compatibility: since 2.1.5, the title is registered as a plugin, making
+	 * Chart.Title obsolete. To avoid a breaking change, we export the Title as part of
+	 * the plugin, which one will be re-exposed in the chart.js file.
+	 * https://github.com/chartjs/Chart.js/pull/2640
+	 * @private
+	 */
+	_element: Title,
+
+	beforeInit: function(chart) {
+		var titleOpts = chart.options.title;
+
+		if (titleOpts) {
+			createNewTitleBlockAndAttach(chart, titleOpts);
+		}
+	},
+
+	beforeUpdate: function(chart) {
+		var titleOpts = chart.options.title;
+		var titleBlock = chart.titleBlock;
+
+		if (titleOpts) {
+			helpers.mergeIf(titleOpts, defaults.global.title);
+
+			if (titleBlock) {
+				layouts.configure(chart, titleBlock, titleOpts);
+				titleBlock.options = titleOpts;
+			} else {
+				createNewTitleBlockAndAttach(chart, titleOpts);
+			}
+		} else if (titleBlock) {
+			layouts.removeBox(chart, titleBlock);
+			delete chart.titleBlock;
+		}
+	}
+};
+
+},{"../core/core.defaults":19,"../core/core.element":20,"../core/core.layouts":24,"../helpers/index":39}],47:[function(require,module,exports){
+'use strict';
+
+module.exports = function(Chart) {
+
+	// Default config for a category scale
+	var defaultConfig = {
+		position: 'bottom'
+	};
+
+	var DatasetScale = Chart.Scale.extend({
+		/**
+		* Internal function to get the correct labels. If data.xLabels or data.yLabels are defined, use those
+		* else fall back to data.labels
+		* @private
+		*/
+		getLabels: function() {
+			var data = this.chart.data;
+			return this.options.labels || (this.isHorizontal() ? data.xLabels : data.yLabels) || data.labels;
+		},
+
+		determineDataLimits: function() {
+			var me = this;
+			var labels = me.getLabels();
+			me.minIndex = 0;
+			me.maxIndex = labels.length - 1;
+			var findIndex;
+
+			if (me.options.ticks.min !== undefined) {
+				// user specified min value
+				findIndex = labels.indexOf(me.options.ticks.min);
+				me.minIndex = findIndex !== -1 ? findIndex : me.minIndex;
+			}
+
+			if (me.options.ticks.max !== undefined) {
+				// user specified max value
+				findIndex = labels.indexOf(me.options.ticks.max);
+				me.maxIndex = findIndex !== -1 ? findIndex : me.maxIndex;
+			}
+
+			me.min = labels[me.minIndex];
+			me.max = labels[me.maxIndex];
+		},
+
+		buildTicks: function() {
+			var me = this;
+			var labels = me.getLabels();
+			// If we are viewing some subset of labels, slice the original array
+			me.ticks = (me.minIndex === 0 && me.maxIndex === labels.length - 1) ? labels : labels.slice(me.minIndex, me.maxIndex + 1);
+		},
+
+		getLabelForIndex: function(index, datasetIndex) {
+			var me = this;
+			var data = me.chart.data;
+			var isHorizontal = me.isHorizontal();
+
+			if (data.yLabels && !isHorizontal) {
+				return me.getRightValue(data.datasets[datasetIndex].data[index]);
+			}
+			return me.ticks[index - me.minIndex];
+		},
+
+		// Used to get data value locations.  Value can either be an index or a numerical value
+		getPixelForValue: function(value, index) {
+			var me = this;
+			var offset = me.options.offset;
+			// 1 is added because we need the length but we have the indexes
+			var offsetAmt = Math.max((me.maxIndex + 1 - me.minIndex - (offset ? 0 : 1)), 1);
+
+			// If value is a data object, then index is the index in the data array,
+			// not the index of the scale. We need to change that.
+			var valueCategory;
+			if (value !== undefined && value !== null) {
+				valueCategory = me.isHorizontal() ? value.x : value.y;
+			}
+			if (valueCategory !== undefined || (value !== undefined && isNaN(index))) {
+				var labels = me.getLabels();
+				value = valueCategory || value;
+				var idx = labels.indexOf(value);
+				index = idx !== -1 ? idx : index;
+			}
+
+			if (me.isHorizontal()) {
+				var valueWidth = me.width / offsetAmt;
+				var widthOffset = (valueWidth * (index - me.minIndex));
+
+				if (offset) {
+					widthOffset += (valueWidth / 2);
+				}
+
+				return me.left + Math.round(widthOffset);
+			}
+			var valueHeight = me.height / offsetAmt;
+			var heightOffset = (valueHeight * (index - me.minIndex));
+
+			if (offset) {
+				heightOffset += (valueHeight / 2);
+			}
+
+			return me.top + Math.round(heightOffset);
+		},
+		getPixelForTick: function(index) {
+			return this.getPixelForValue(this.ticks[index], index + this.minIndex, null);
+		},
+		getValueForPixel: function(pixel) {
+			var me = this;
+			var offset = me.options.offset;
+			var value;
+			var offsetAmt = Math.max((me._ticks.length - (offset ? 0 : 1)), 1);
+			var horz = me.isHorizontal();
+			var valueDimension = (horz ? me.width : me.height) / offsetAmt;
+
+			pixel -= horz ? me.left : me.top;
+
+			if (offset) {
+				pixel -= (valueDimension / 2);
+			}
+
+			if (pixel <= 0) {
+				value = 0;
+			} else {
+				value = Math.round(pixel / valueDimension);
+			}
+
+			return value + me.minIndex;
+		},
+		getBasePixel: function() {
+			return this.bottom;
+		}
+	});
+
+	Chart.scaleService.registerScaleType('category', DatasetScale, defaultConfig);
+
+};
+
+},{}],48:[function(require,module,exports){
+'use strict';
+
+var defaults = require('../core/core.defaults');
+var helpers = require('../helpers/index');
+var Ticks = require('../core/core.ticks');
+
+module.exports = function(Chart) {
+
+	var defaultConfig = {
+		position: 'left',
+		ticks: {
+			callback: Ticks.formatters.linear
+		}
+	};
+
+	var LinearScale = Chart.LinearScaleBase.extend({
+
+		determineDataLimits: function() {
+			var me = this;
+			var opts = me.options;
+			var chart = me.chart;
+			var data = chart.data;
+			var datasets = data.datasets;
+			var isHorizontal = me.isHorizontal();
+			var DEFAULT_MIN = 0;
+			var DEFAULT_MAX = 1;
+
+			function IDMatches(meta) {
+				return isHorizontal ? meta.xAxisID === me.id : meta.yAxisID === me.id;
+			}
+
+			// First Calculate the range
+			me.min = null;
+			me.max = null;
+
+			var hasStacks = opts.stacked;
+			if (hasStacks === undefined) {
+				helpers.each(datasets, function(dataset, datasetIndex) {
+					if (hasStacks) {
+						return;
+					}
+
+					var meta = chart.getDatasetMeta(datasetIndex);
+					if (chart.isDatasetVisible(datasetIndex) && IDMatches(meta) &&
+						meta.stack !== undefined) {
+						hasStacks = true;
+					}
+				});
+			}
+
+			if (opts.stacked || hasStacks) {
+				var valuesPerStack = {};
+
+				helpers.each(datasets, function(dataset, datasetIndex) {
+					var meta = chart.getDatasetMeta(datasetIndex);
+					var key = [
+						meta.type,
+						// we have a separate stack for stack=undefined datasets when the opts.stacked is undefined
+						((opts.stacked === undefined && meta.stack === undefined) ? datasetIndex : ''),
+						meta.stack
+					].join('.');
+
+					if (valuesPerStack[key] === undefined) {
+						valuesPerStack[key] = {
+							positiveValues: [],
+							negativeValues: []
+						};
+					}
+
+					// Store these per type
+					var positiveValues = valuesPerStack[key].positiveValues;
+					var negativeValues = valuesPerStack[key].negativeValues;
+
+					if (chart.isDatasetVisible(datasetIndex) && IDMatches(meta)) {
+						helpers.each(dataset.data, function(rawValue, index) {
+							var value = +me.getRightValue(rawValue);
+							if (isNaN(value) || meta.data[index].hidden) {
+								return;
+							}
+
+							positiveValues[index] = positiveValues[index] || 0;
+							negativeValues[index] = negativeValues[index] || 0;
+
+							if (opts.relativePoints) {
+								positiveValues[index] = 100;
+							} else if (value < 0) {
+								negativeValues[index] += value;
+							} else {
+								positiveValues[index] += value;
+							}
+						});
+					}
+				});
+
+				helpers.each(valuesPerStack, function(valuesForType) {
+					var values = valuesForType.positiveValues.concat(valuesForType.negativeValues);
+					var minVal = helpers.min(values);
+					var maxVal = helpers.max(values);
+					me.min = me.min === null ? minVal : Math.min(me.min, minVal);
+					me.max = me.max === null ? maxVal : Math.max(me.max, maxVal);
+				});
+
+			} else {
+				helpers.each(datasets, function(dataset, datasetIndex) {
+					var meta = chart.getDatasetMeta(datasetIndex);
+					if (chart.isDatasetVisible(datasetIndex) && IDMatches(meta)) {
+						helpers.each(dataset.data, function(rawValue, index) {
+							var value = +me.getRightValue(rawValue);
+							if (isNaN(value) || meta.data[index].hidden) {
+								return;
+							}
+
+							if (me.min === null) {
+								me.min = value;
+							} else if (value < me.min) {
+								me.min = value;
+							}
+
+							if (me.max === null) {
+								me.max = value;
+							} else if (value > me.max) {
+								me.max = value;
+							}
+						});
+					}
+				});
+			}
+
+			me.min = isFinite(me.min) && !isNaN(me.min) ? me.min : DEFAULT_MIN;
+			me.max = isFinite(me.max) && !isNaN(me.max) ? me.max : DEFAULT_MAX;
+
+			// Common base implementation to handle ticks.min, ticks.max, ticks.beginAtZero
+			this.handleTickRangeOptions();
+		},
+		getTickLimit: function() {
+			var maxTicks;
+			var me = this;
+			var tickOpts = me.options.ticks;
+
+			if (me.isHorizontal()) {
+				maxTicks = Math.min(tickOpts.maxTicksLimit ? tickOpts.maxTicksLimit : 11, Math.ceil(me.width / 50));
+			} else {
+				// The factor of 2 used to scale the font size has been experimentally determined.
+				var tickFontSize = helpers.valueOrDefault(tickOpts.fontSize, defaults.global.defaultFontSize);
+				maxTicks = Math.min(tickOpts.maxTicksLimit ? tickOpts.maxTicksLimit : 11, Math.ceil(me.height / (2 * tickFontSize)));
+			}
+
+			return maxTicks;
+		},
+		// Called after the ticks are built. We need
+		handleDirectionalChanges: function() {
+			if (!this.isHorizontal()) {
+				// We are in a vertical orientation. The top value is the highest. So reverse the array
+				this.ticks.reverse();
+			}
+		},
+		getLabelForIndex: function(index, datasetIndex) {
+			return +this.getRightValue(this.chart.data.datasets[datasetIndex].data[index]);
+		},
+		// Utils
+		getPixelForValue: function(value) {
+			// This must be called after fit has been run so that
+			// this.left, this.top, this.right, and this.bottom have been defined
+			var me = this;
+			var start = me.start;
+
+			var rightValue = +me.getRightValue(value);
+			var pixel;
+			var range = me.end - start;
+
+			if (me.isHorizontal()) {
+				pixel = me.left + (me.width / range * (rightValue - start));
+			} else {
+				pixel = me.bottom - (me.height / range * (rightValue - start));
+			}
+			return pixel;
+		},
+		getValueForPixel: function(pixel) {
+			var me = this;
+			var isHorizontal = me.isHorizontal();
+			var innerDimension = isHorizontal ? me.width : me.height;
+			var offset = (isHorizontal ? pixel - me.left : me.bottom - pixel) / innerDimension;
+			return me.start + ((me.end - me.start) * offset);
+		},
+		getPixelForTick: function(index) {
+			return this.getPixelForValue(this.ticksAsNumbers[index]);
+		}
+	});
+	Chart.scaleService.registerScaleType('linear', LinearScale, defaultConfig);
+
+};
+
+},{"../core/core.defaults":19,"../core/core.ticks":28,"../helpers/index":39}],49:[function(require,module,exports){
+'use strict';
+
+var helpers = require('../helpers/index');
+
+/**
+ * Generate a set of linear ticks
+ * @param generationOptions the options used to generate the ticks
+ * @param dataRange the range of the data
+ * @returns {Array<Number>} array of tick values
+ */
+function generateTicks(generationOptions, dataRange) {
+	var ticks = [];
+	// To get a "nice" value for the tick spacing, we will use the appropriately named
+	// "nice number" algorithm. See http://stackoverflow.com/questions/8506881/nice-label-algorithm-for-charts-with-minimum-ticks
+	// for details.
+
+	var spacing;
+	if (generationOptions.stepSize && generationOptions.stepSize > 0) {
+		spacing = generationOptions.stepSize;
+	} else {
+		var niceRange = helpers.niceNum(dataRange.max - dataRange.min, false);
+		spacing = helpers.niceNum(niceRange / (generationOptions.maxTicks - 1), true);
+	}
+	var niceMin = Math.floor(dataRange.min / spacing) * spacing;
+	var niceMax = Math.ceil(dataRange.max / spacing) * spacing;
+
+	// If min, max and stepSize is set and they make an evenly spaced scale use it.
+	if (generationOptions.min && generationOptions.max && generationOptions.stepSize) {
+		// If very close to our whole number, use it.
+		if (helpers.almostWhole((generationOptions.max - generationOptions.min) / generationOptions.stepSize, spacing / 1000)) {
+			niceMin = generationOptions.min;
+			niceMax = generationOptions.max;
+		}
+	}
+
+	var numSpaces = (niceMax - niceMin) / spacing;
+	// If very close to our rounded value, use it.
+	if (helpers.almostEquals(numSpaces, Math.round(numSpaces), spacing / 1000)) {
+		numSpaces = Math.round(numSpaces);
+	} else {
+		numSpaces = Math.ceil(numSpaces);
+	}
+
+	var precision = 1;
+	if (spacing < 1) {
+		precision = Math.pow(10, spacing.toString().length - 2);
+		niceMin = Math.round(niceMin * precision) / precision;
+		niceMax = Math.round(niceMax * precision) / precision;
+	}
+	ticks.push(generationOptions.min !== undefined ? generationOptions.min : niceMin);
+	for (var j = 1; j < numSpaces; ++j) {
+		ticks.push(Math.round((niceMin + j * spacing) * precision) / precision);
+	}
+	ticks.push(generationOptions.max !== undefined ? generationOptions.max : niceMax);
+
+	return ticks;
+}
+
+
+module.exports = function(Chart) {
+
+	var noop = helpers.noop;
+
+	Chart.LinearScaleBase = Chart.Scale.extend({
+		getRightValue: function(value) {
+			if (typeof value === 'string') {
+				return +value;
+			}
+			return Chart.Scale.prototype.getRightValue.call(this, value);
+		},
+
+		handleTickRangeOptions: function() {
+			var me = this;
+			var opts = me.options;
+			var tickOpts = opts.ticks;
+
+			// If we are forcing it to begin at 0, but 0 will already be rendered on the chart,
+			// do nothing since that would make the chart weird. If the user really wants a weird chart
+			// axis, they can manually override it
+			if (tickOpts.beginAtZero) {
+				var minSign = helpers.sign(me.min);
+				var maxSign = helpers.sign(me.max);
+
+				if (minSign < 0 && maxSign < 0) {
+					// move the top up to 0
+					me.max = 0;
+				} else if (minSign > 0 && maxSign > 0) {
+					// move the bottom down to 0
+					me.min = 0;
+				}
+			}
+
+			var setMin = tickOpts.min !== undefined || tickOpts.suggestedMin !== undefined;
+			var setMax = tickOpts.max !== undefined || tickOpts.suggestedMax !== undefined;
+
+			if (tickOpts.min !== undefined) {
+				me.min = tickOpts.min;
+			} else if (tickOpts.suggestedMin !== undefined) {
+				if (me.min === null) {
+					me.min = tickOpts.suggestedMin;
+				} else {
+					me.min = Math.min(me.min, tickOpts.suggestedMin);
+				}
+			}
+
+			if (tickOpts.max !== undefined) {
+				me.max = tickOpts.max;
+			} else if (tickOpts.suggestedMax !== undefined) {
+				if (me.max === null) {
+					me.max = tickOpts.suggestedMax;
+				} else {
+					me.max = Math.max(me.max, tickOpts.suggestedMax);
+				}
+			}
+
+			if (setMin !== setMax) {
+				// We set the min or the max but not both.
+				// So ensure that our range is good
+				// Inverted or 0 length range can happen when
+				// ticks.min is set, and no datasets are visible
+				if (me.min >= me.max) {
+					if (setMin) {
+						me.max = me.min + 1;
+					} else {
+						me.min = me.max - 1;
+					}
+				}
+			}
+
+			if (me.min === me.max) {
+				me.max++;
+
+				if (!tickOpts.beginAtZero) {
+					me.min--;
+				}
+			}
+		},
+		getTickLimit: noop,
+		handleDirectionalChanges: noop,
+
+		buildTicks: function() {
+			var me = this;
+			var opts = me.options;
+			var tickOpts = opts.ticks;
+
+			// Figure out what the max number of ticks we can support it is based on the size of
+			// the axis area. For now, we say that the minimum tick spacing in pixels must be 50
+			// We also limit the maximum number of ticks to 11 which gives a nice 10 squares on
+			// the graph. Make sure we always have at least 2 ticks
+			var maxTicks = me.getTickLimit();
+			maxTicks = Math.max(2, maxTicks);
+
+			var numericGeneratorOptions = {
+				maxTicks: maxTicks,
+				min: tickOpts.min,
+				max: tickOpts.max,
+				stepSize: helpers.valueOrDefault(tickOpts.fixedStepSize, tickOpts.stepSize)
+			};
+			var ticks = me.ticks = generateTicks(numericGeneratorOptions, me);
+
+			me.handleDirectionalChanges();
+
+			// At this point, we need to update our max and min given the tick values since we have expanded the
+			// range of the scale
+			me.max = helpers.max(ticks);
+			me.min = helpers.min(ticks);
+
+			if (tickOpts.reverse) {
+				ticks.reverse();
+
+				me.start = me.max;
+				me.end = me.min;
+			} else {
+				me.start = me.min;
+				me.end = me.max;
+			}
+		},
+		convertTicksToLabels: function() {
+			var me = this;
+			me.ticksAsNumbers = me.ticks.slice();
+			me.zeroLineIndex = me.ticks.indexOf(0);
+
+			Chart.Scale.prototype.convertTicksToLabels.call(me);
+		}
+	});
+};
+
+},{"../helpers/index":39}],50:[function(require,module,exports){
+'use strict';
+
+var helpers = require('../helpers/index');
+var Ticks = require('../core/core.ticks');
+
+/**
+ * Generate a set of logarithmic ticks
+ * @param generationOptions the options used to generate the ticks
+ * @param dataRange the range of the data
+ * @returns {Array<Number>} array of tick values
+ */
+function generateTicks(generationOptions, dataRange) {
+	var ticks = [];
+	var valueOrDefault = helpers.valueOrDefault;
+
+	// Figure out what the max number of ticks we can support it is based on the size of
+	// the axis area. For now, we say that the minimum tick spacing in pixels must be 50
+	// We also limit the maximum number of ticks to 11 which gives a nice 10 squares on
+	// the graph
+	var tickVal = valueOrDefault(generationOptions.min, Math.pow(10, Math.floor(helpers.log10(dataRange.min))));
+
+	var endExp = Math.floor(helpers.log10(dataRange.max));
+	var endSignificand = Math.ceil(dataRange.max / Math.pow(10, endExp));
+	var exp, significand;
+
+	if (tickVal === 0) {
+		exp = Math.floor(helpers.log10(dataRange.minNotZero));
+		significand = Math.floor(dataRange.minNotZero / Math.pow(10, exp));
+
+		ticks.push(tickVal);
+		tickVal = significand * Math.pow(10, exp);
+	} else {
+		exp = Math.floor(helpers.log10(tickVal));
+		significand = Math.floor(tickVal / Math.pow(10, exp));
+	}
+	var precision = exp < 0 ? Math.pow(10, Math.abs(exp)) : 1;
+
+	do {
+		ticks.push(tickVal);
+
+		++significand;
+		if (significand === 10) {
+			significand = 1;
+			++exp;
+			precision = exp >= 0 ? 1 : precision;
+		}
+
+		tickVal = Math.round(significand * Math.pow(10, exp) * precision) / precision;
+	} while (exp < endExp || (exp === endExp && significand < endSignificand));
+
+	var lastTick = valueOrDefault(generationOptions.max, tickVal);
+	ticks.push(lastTick);
+
+	return ticks;
+}
+
+
+module.exports = function(Chart) {
+
+	var defaultConfig = {
+		position: 'left',
+
+		// label settings
+		ticks: {
+			callback: Ticks.formatters.logarithmic
+		}
+	};
+
+	var LogarithmicScale = Chart.Scale.extend({
+		determineDataLimits: function() {
+			var me = this;
+			var opts = me.options;
+			var chart = me.chart;
+			var data = chart.data;
+			var datasets = data.datasets;
+			var isHorizontal = me.isHorizontal();
+			function IDMatches(meta) {
+				return isHorizontal ? meta.xAxisID === me.id : meta.yAxisID === me.id;
+			}
+
+			// Calculate Range
+			me.min = null;
+			me.max = null;
+			me.minNotZero = null;
+
+			var hasStacks = opts.stacked;
+			if (hasStacks === undefined) {
+				helpers.each(datasets, function(dataset, datasetIndex) {
+					if (hasStacks) {
+						return;
+					}
+
+					var meta = chart.getDatasetMeta(datasetIndex);
+					if (chart.isDatasetVisible(datasetIndex) && IDMatches(meta) &&
+						meta.stack !== undefined) {
+						hasStacks = true;
+					}
+				});
+			}
+
+			if (opts.stacked || hasStacks) {
+				var valuesPerStack = {};
+
+				helpers.each(datasets, function(dataset, datasetIndex) {
+					var meta = chart.getDatasetMeta(datasetIndex);
+					var key = [
+						meta.type,
+						// we have a separate stack for stack=undefined datasets when the opts.stacked is undefined
+						((opts.stacked === undefined && meta.stack === undefined) ? datasetIndex : ''),
+						meta.stack
+					].join('.');
+
+					if (chart.isDatasetVisible(datasetIndex) && IDMatches(meta)) {
+						if (valuesPerStack[key] === undefined) {
+							valuesPerStack[key] = [];
+						}
+
+						helpers.each(dataset.data, function(rawValue, index) {
+							var values = valuesPerStack[key];
+							var value = +me.getRightValue(rawValue);
+							// invalid, hidden and negative values are ignored
+							if (isNaN(value) || meta.data[index].hidden || value < 0) {
+								return;
+							}
+							values[index] = values[index] || 0;
+							values[index] += value;
+						});
+					}
+				});
+
+				helpers.each(valuesPerStack, function(valuesForType) {
+					if (valuesForType.length > 0) {
+						var minVal = helpers.min(valuesForType);
+						var maxVal = helpers.max(valuesForType);
+						me.min = me.min === null ? minVal : Math.min(me.min, minVal);
+						me.max = me.max === null ? maxVal : Math.max(me.max, maxVal);
+					}
+				});
+
+			} else {
+				helpers.each(datasets, function(dataset, datasetIndex) {
+					var meta = chart.getDatasetMeta(datasetIndex);
+					if (chart.isDatasetVisible(datasetIndex) && IDMatches(meta)) {
+						helpers.each(dataset.data, function(rawValue, index) {
+							var value = +me.getRightValue(rawValue);
+							// invalid, hidden and negative values are ignored
+							if (isNaN(value) || meta.data[index].hidden || value < 0) {
+								return;
+							}
+
+							if (me.min === null) {
+								me.min = value;
+							} else if (value < me.min) {
+								me.min = value;
+							}
+
+							if (me.max === null) {
+								me.max = value;
+							} else if (value > me.max) {
+								me.max = value;
+							}
+
+							if (value !== 0 && (me.minNotZero === null || value < me.minNotZero)) {
+								me.minNotZero = value;
+							}
+						});
+					}
+				});
+			}
+
+			// Common base implementation to handle ticks.min, ticks.max
+			this.handleTickRangeOptions();
+		},
+		handleTickRangeOptions: function() {
+			var me = this;
+			var opts = me.options;
+			var tickOpts = opts.ticks;
+			var valueOrDefault = helpers.valueOrDefault;
+			var DEFAULT_MIN = 1;
+			var DEFAULT_MAX = 10;
+
+			me.min = valueOrDefault(tickOpts.min, me.min);
+			me.max = valueOrDefault(tickOpts.max, me.max);
+
+			if (me.min === me.max) {
+				if (me.min !== 0 && me.min !== null) {
+					me.min = Math.pow(10, Math.floor(helpers.log10(me.min)) - 1);
+					me.max = Math.pow(10, Math.floor(helpers.log10(me.max)) + 1);
+				} else {
+					me.min = DEFAULT_MIN;
+					me.max = DEFAULT_MAX;
+				}
+			}
+			if (me.min === null) {
+				me.min = Math.pow(10, Math.floor(helpers.log10(me.max)) - 1);
+			}
+			if (me.max === null) {
+				me.max = me.min !== 0
+					? Math.pow(10, Math.floor(helpers.log10(me.min)) + 1)
+					: DEFAULT_MAX;
+			}
+			if (me.minNotZero === null) {
+				if (me.min > 0) {
+					me.minNotZero = me.min;
+				} else if (me.max < 1) {
+					me.minNotZero = Math.pow(10, Math.floor(helpers.log10(me.max)));
+				} else {
+					me.minNotZero = DEFAULT_MIN;
+				}
+			}
+		},
+		buildTicks: function() {
+			var me = this;
+			var opts = me.options;
+			var tickOpts = opts.ticks;
+			var reverse = !me.isHorizontal();
+
+			var generationOptions = {
+				min: tickOpts.min,
+				max: tickOpts.max
+			};
+			var ticks = me.ticks = generateTicks(generationOptions, me);
+
+			// At this point, we need to update our max and min given the tick values since we have expanded the
+			// range of the scale
+			me.max = helpers.max(ticks);
+			me.min = helpers.min(ticks);
+
+			if (tickOpts.reverse) {
+				reverse = !reverse;
+				me.start = me.max;
+				me.end = me.min;
+			} else {
+				me.start = me.min;
+				me.end = me.max;
+			}
+			if (reverse) {
+				ticks.reverse();
+			}
+		},
+		convertTicksToLabels: function() {
+			this.tickValues = this.ticks.slice();
+
+			Chart.Scale.prototype.convertTicksToLabels.call(this);
+		},
+		// Get the correct tooltip label
+		getLabelForIndex: function(index, datasetIndex) {
+			return +this.getRightValue(this.chart.data.datasets[datasetIndex].data[index]);
+		},
+		getPixelForTick: function(index) {
+			return this.getPixelForValue(this.tickValues[index]);
+		},
+		/**
+		 * Returns the value of the first tick.
+		 * @param {Number} value - The minimum not zero value.
+		 * @return {Number} The first tick value.
+		 * @private
+		 */
+		_getFirstTickValue: function(value) {
+			var exp = Math.floor(helpers.log10(value));
+			var significand = Math.floor(value / Math.pow(10, exp));
+
+			return significand * Math.pow(10, exp);
+		},
+		getPixelForValue: function(value) {
+			var me = this;
+			var reverse = me.options.ticks.reverse;
+			var log10 = helpers.log10;
+			var firstTickValue = me._getFirstTickValue(me.minNotZero);
+			var offset = 0;
+			var innerDimension, pixel, start, end, sign;
+
+			value = +me.getRightValue(value);
+			if (reverse) {
+				start = me.end;
+				end = me.start;
+				sign = -1;
+			} else {
+				start = me.start;
+				end = me.end;
+				sign = 1;
+			}
+			if (me.isHorizontal()) {
+				innerDimension = me.width;
+				pixel = reverse ? me.right : me.left;
+			} else {
+				innerDimension = me.height;
+				sign *= -1; // invert, since the upper-left corner of the canvas is at pixel (0, 0)
+				pixel = reverse ? me.top : me.bottom;
+			}
+			if (value !== start) {
+				if (start === 0) { // include zero tick
+					offset = helpers.getValueOrDefault(
+						me.options.ticks.fontSize,
+						Chart.defaults.global.defaultFontSize
+					);
+					innerDimension -= offset;
+					start = firstTickValue;
+				}
+				if (value !== 0) {
+					offset += innerDimension / (log10(end) - log10(start)) * (log10(value) - log10(start));
+				}
+				pixel += sign * offset;
+			}
+			return pixel;
+		},
+		getValueForPixel: function(pixel) {
+			var me = this;
+			var reverse = me.options.ticks.reverse;
+			var log10 = helpers.log10;
+			var firstTickValue = me._getFirstTickValue(me.minNotZero);
+			var innerDimension, start, end, value;
+
+			if (reverse) {
+				start = me.end;
+				end = me.start;
+			} else {
+				start = me.start;
+				end = me.end;
+			}
+			if (me.isHorizontal()) {
+				innerDimension = me.width;
+				value = reverse ? me.right - pixel : pixel - me.left;
+			} else {
+				innerDimension = me.height;
+				value = reverse ? pixel - me.top : me.bottom - pixel;
+			}
+			if (value !== start) {
+				if (start === 0) { // include zero tick
+					var offset = helpers.getValueOrDefault(
+						me.options.ticks.fontSize,
+						Chart.defaults.global.defaultFontSize
+					);
+					value -= offset;
+					innerDimension -= offset;
+					start = firstTickValue;
+				}
+				value *= log10(end) - log10(start);
+				value /= innerDimension;
+				value = Math.pow(10, log10(start) + value);
+			}
+			return value;
+		}
+	});
+	Chart.scaleService.registerScaleType('logarithmic', LogarithmicScale, defaultConfig);
+
+};
+
+},{"../core/core.ticks":28,"../helpers/index":39}],51:[function(require,module,exports){
+'use strict';
+
+var defaults = require('../core/core.defaults');
+var helpers = require('../helpers/index');
+var Ticks = require('../core/core.ticks');
+
+module.exports = function(Chart) {
+
+	var globalDefaults = defaults.global;
+
+	var defaultConfig = {
+		display: true,
+
+		// Boolean - Whether to animate scaling the chart from the centre
+		animate: true,
+		position: 'chartArea',
+
+		angleLines: {
+			display: true,
+			color: 'rgba(0, 0, 0, 0.1)',
+			lineWidth: 1
+		},
+
+		gridLines: {
+			circular: false
+		},
+
+		// label settings
+		ticks: {
+			// Boolean - Show a backdrop to the scale label
+			showLabelBackdrop: true,
+
+			// String - The colour of the label backdrop
+			backdropColor: 'rgba(255,255,255,0.75)',
+
+			// Number - The backdrop padding above & below the label in pixels
+			backdropPaddingY: 2,
+
+			// Number - The backdrop padding to the side of the label in pixels
+			backdropPaddingX: 2,
+
+			callback: Ticks.formatters.linear
+		},
+
+		pointLabels: {
+			// Boolean - if true, show point labels
+			display: true,
+
+			// Number - Point label font size in pixels
+			fontSize: 10,
+
+			// Function - Used to convert point labels
+			callback: function(label) {
+				return label;
+			}
+		}
+	};
+
+	function getValueCount(scale) {
+		var opts = scale.options;
+		return opts.angleLines.display || opts.pointLabels.display ? scale.chart.data.labels.length : 0;
+	}
+
+	function getPointLabelFontOptions(scale) {
+		var pointLabelOptions = scale.options.pointLabels;
+		var fontSize = helpers.valueOrDefault(pointLabelOptions.fontSize, globalDefaults.defaultFontSize);
+		var fontStyle = helpers.valueOrDefault(pointLabelOptions.fontStyle, globalDefaults.defaultFontStyle);
+		var fontFamily = helpers.valueOrDefault(pointLabelOptions.fontFamily, globalDefaults.defaultFontFamily);
+		var font = helpers.fontString(fontSize, fontStyle, fontFamily);
+
+		return {
+			size: fontSize,
+			style: fontStyle,
+			family: fontFamily,
+			font: font
+		};
+	}
+
+	function measureLabelSize(ctx, fontSize, label) {
+		if (helpers.isArray(label)) {
+			return {
+				w: helpers.longestText(ctx, ctx.font, label),
+				h: (label.length * fontSize) + ((label.length - 1) * 1.5 * fontSize)
+			};
+		}
+
+		return {
+			w: ctx.measureText(label).width,
+			h: fontSize
+		};
+	}
+
+	function determineLimits(angle, pos, size, min, max) {
+		if (angle === min || angle === max) {
+			return {
+				start: pos - (size / 2),
+				end: pos + (size / 2)
+			};
+		} else if (angle < min || angle > max) {
+			return {
+				start: pos - size - 5,
+				end: pos
+			};
+		}
+
+		return {
+			start: pos,
+			end: pos + size + 5
+		};
+	}
+
+	/**
+	 * Helper function to fit a radial linear scale with point labels
+	 */
+	function fitWithPointLabels(scale) {
+		/*
+		 * Right, this is really confusing and there is a lot of maths going on here
+		 * The gist of the problem is here: https://gist.github.com/nnnick/696cc9c55f4b0beb8fe9
+		 *
+		 * Reaction: https://dl.dropboxusercontent.com/u/34601363/toomuchscience.gif
+		 *
+		 * Solution:
+		 *
+		 * We assume the radius of the polygon is half the size of the canvas at first
+		 * at each index we check if the text overlaps.
+		 *
+		 * Where it does, we store that angle and that index.
+		 *
+		 * After finding the largest index and angle we calculate how much we need to remove
+		 * from the shape radius to move the point inwards by that x.
+		 *
+		 * We average the left and right distances to get the maximum shape radius that can fit in the box
+		 * along with labels.
+		 *
+		 * Once we have that, we can find the centre point for the chart, by taking the x text protrusion
+		 * on each side, removing that from the size, halving it and adding the left x protrusion width.
+		 *
+		 * This will mean we have a shape fitted to the canvas, as large as it can be with the labels
+		 * and position it in the most space efficient manner
+		 *
+		 * https://dl.dropboxusercontent.com/u/34601363/yeahscience.gif
+		 */
+
+		var plFont = getPointLabelFontOptions(scale);
+
+		// Get maximum radius of the polygon. Either half the height (minus the text width) or half the width.
+		// Use this to calculate the offset + change. - Make sure L/R protrusion is at least 0 to stop issues with centre points
+		var largestPossibleRadius = Math.min(scale.height / 2, scale.width / 2);
+		var furthestLimits = {
+			r: scale.width,
+			l: 0,
+			t: scale.height,
+			b: 0
+		};
+		var furthestAngles = {};
+		var i, textSize, pointPosition;
+
+		scale.ctx.font = plFont.font;
+		scale._pointLabelSizes = [];
+
+		var valueCount = getValueCount(scale);
+		for (i = 0; i < valueCount; i++) {
+			pointPosition = scale.getPointPosition(i, largestPossibleRadius);
+			textSize = measureLabelSize(scale.ctx, plFont.size, scale.pointLabels[i] || '');
+			scale._pointLabelSizes[i] = textSize;
+
+			// Add quarter circle to make degree 0 mean top of circle
+			var angleRadians = scale.getIndexAngle(i);
+			var angle = helpers.toDegrees(angleRadians) % 360;
+			var hLimits = determineLimits(angle, pointPosition.x, textSize.w, 0, 180);
+			var vLimits = determineLimits(angle, pointPosition.y, textSize.h, 90, 270);
+
+			if (hLimits.start < furthestLimits.l) {
+				furthestLimits.l = hLimits.start;
+				furthestAngles.l = angleRadians;
+			}
+
+			if (hLimits.end > furthestLimits.r) {
+				furthestLimits.r = hLimits.end;
+				furthestAngles.r = angleRadians;
+			}
+
+			if (vLimits.start < furthestLimits.t) {
+				furthestLimits.t = vLimits.start;
+				furthestAngles.t = angleRadians;
+			}
+
+			if (vLimits.end > furthestLimits.b) {
+				furthestLimits.b = vLimits.end;
+				furthestAngles.b = angleRadians;
+			}
+		}
+
+		scale.setReductions(largestPossibleRadius, furthestLimits, furthestAngles);
+	}
+
+	/**
+	 * Helper function to fit a radial linear scale with no point labels
+	 */
+	function fit(scale) {
+		var largestPossibleRadius = Math.min(scale.height / 2, scale.width / 2);
+		scale.drawingArea = Math.round(largestPossibleRadius);
+		scale.setCenterPoint(0, 0, 0, 0);
+	}
+
+	function getTextAlignForAngle(angle) {
+		if (angle === 0 || angle === 180) {
+			return 'center';
+		} else if (angle < 180) {
+			return 'left';
+		}
+
+		return 'right';
+	}
+
+	function fillText(ctx, text, position, fontSize) {
+		if (helpers.isArray(text)) {
+			var y = position.y;
+			var spacing = 1.5 * fontSize;
+
+			for (var i = 0; i < text.length; ++i) {
+				ctx.fillText(text[i], position.x, y);
+				y += spacing;
+			}
+		} else {
+			ctx.fillText(text, position.x, position.y);
+		}
+	}
+
+	function adjustPointPositionForLabelHeight(angle, textSize, position) {
+		if (angle === 90 || angle === 270) {
+			position.y -= (textSize.h / 2);
+		} else if (angle > 270 || angle < 90) {
+			position.y -= textSize.h;
+		}
+	}
+
+	function drawPointLabels(scale) {
+		var ctx = scale.ctx;
+		var opts = scale.options;
+		var angleLineOpts = opts.angleLines;
+		var pointLabelOpts = opts.pointLabels;
+
+		ctx.lineWidth = angleLineOpts.lineWidth;
+		ctx.strokeStyle = angleLineOpts.color;
+
+		var outerDistance = scale.getDistanceFromCenterForValue(opts.ticks.reverse ? scale.min : scale.max);
+
+		// Point Label Font
+		var plFont = getPointLabelFontOptions(scale);
+
+		ctx.textBaseline = 'top';
+
+		for (var i = getValueCount(scale) - 1; i >= 0; i--) {
+			if (angleLineOpts.display) {
+				var outerPosition = scale.getPointPosition(i, outerDistance);
+				ctx.beginPath();
+				ctx.moveTo(scale.xCenter, scale.yCenter);
+				ctx.lineTo(outerPosition.x, outerPosition.y);
+				ctx.stroke();
+				ctx.closePath();
+			}
+
+			if (pointLabelOpts.display) {
+				// Extra 3px out for some label spacing
+				var pointLabelPosition = scale.getPointPosition(i, outerDistance + 5);
+
+				// Keep this in loop since we may support array properties here
+				var pointLabelFontColor = helpers.valueAtIndexOrDefault(pointLabelOpts.fontColor, i, globalDefaults.defaultFontColor);
+				ctx.font = plFont.font;
+				ctx.fillStyle = pointLabelFontColor;
+
+				var angleRadians = scale.getIndexAngle(i);
+				var angle = helpers.toDegrees(angleRadians);
+				ctx.textAlign = getTextAlignForAngle(angle);
+				adjustPointPositionForLabelHeight(angle, scale._pointLabelSizes[i], pointLabelPosition);
+				fillText(ctx, scale.pointLabels[i] || '', pointLabelPosition, plFont.size);
+			}
+		}
+	}
+
+	function drawRadiusLine(scale, gridLineOpts, radius, index) {
+		var ctx = scale.ctx;
+		ctx.strokeStyle = helpers.valueAtIndexOrDefault(gridLineOpts.color, index - 1);
+		ctx.lineWidth = helpers.valueAtIndexOrDefault(gridLineOpts.lineWidth, index - 1);
+
+		if (scale.options.gridLines.circular) {
+			// Draw circular arcs between the points
+			ctx.beginPath();
+			ctx.arc(scale.xCenter, scale.yCenter, radius, 0, Math.PI * 2);
+			ctx.closePath();
+			ctx.stroke();
+		} else {
+			// Draw straight lines connecting each index
+			var valueCount = getValueCount(scale);
+
+			if (valueCount === 0) {
+				return;
+			}
+
+			ctx.beginPath();
+			var pointPosition = scale.getPointPosition(0, radius);
+			ctx.moveTo(pointPosition.x, pointPosition.y);
+
+			for (var i = 1; i < valueCount; i++) {
+				pointPosition = scale.getPointPosition(i, radius);
+				ctx.lineTo(pointPosition.x, pointPosition.y);
+			}
+
+			ctx.closePath();
+			ctx.stroke();
+		}
+	}
+
+	function numberOrZero(param) {
+		return helpers.isNumber(param) ? param : 0;
+	}
+
+	var LinearRadialScale = Chart.LinearScaleBase.extend({
+		setDimensions: function() {
+			var me = this;
+			var opts = me.options;
+			var tickOpts = opts.ticks;
+			// Set the unconstrained dimension before label rotation
+			me.width = me.maxWidth;
+			me.height = me.maxHeight;
+			me.xCenter = Math.round(me.width / 2);
+			me.yCenter = Math.round(me.height / 2);
+
+			var minSize = helpers.min([me.height, me.width]);
+			var tickFontSize = helpers.valueOrDefault(tickOpts.fontSize, globalDefaults.defaultFontSize);
+			me.drawingArea = opts.display ? (minSize / 2) - (tickFontSize / 2 + tickOpts.backdropPaddingY) : (minSize / 2);
+		},
+		determineDataLimits: function() {
+			var me = this;
+			var chart = me.chart;
+			var min = Number.POSITIVE_INFINITY;
+			var max = Number.NEGATIVE_INFINITY;
+
+			helpers.each(chart.data.datasets, function(dataset, datasetIndex) {
+				if (chart.isDatasetVisible(datasetIndex)) {
+					var meta = chart.getDatasetMeta(datasetIndex);
+
+					helpers.each(dataset.data, function(rawValue, index) {
+						var value = +me.getRightValue(rawValue);
+						if (isNaN(value) || meta.data[index].hidden) {
+							return;
+						}
+
+						min = Math.min(value, min);
+						max = Math.max(value, max);
+					});
+				}
+			});
+
+			me.min = (min === Number.POSITIVE_INFINITY ? 0 : min);
+			me.max = (max === Number.NEGATIVE_INFINITY ? 0 : max);
+
+			// Common base implementation to handle ticks.min, ticks.max, ticks.beginAtZero
+			me.handleTickRangeOptions();
+		},
+		getTickLimit: function() {
+			var tickOpts = this.options.ticks;
+			var tickFontSize = helpers.valueOrDefault(tickOpts.fontSize, globalDefaults.defaultFontSize);
+			return Math.min(tickOpts.maxTicksLimit ? tickOpts.maxTicksLimit : 11, Math.ceil(this.drawingArea / (1.5 * tickFontSize)));
+		},
+		convertTicksToLabels: function() {
+			var me = this;
+
+			Chart.LinearScaleBase.prototype.convertTicksToLabels.call(me);
+
+			// Point labels
+			me.pointLabels = me.chart.data.labels.map(me.options.pointLabels.callback, me);
+		},
+		getLabelForIndex: function(index, datasetIndex) {
+			return +this.getRightValue(this.chart.data.datasets[datasetIndex].data[index]);
+		},
+		fit: function() {
+			if (this.options.pointLabels.display) {
+				fitWithPointLabels(this);
+			} else {
+				fit(this);
+			}
+		},
+		/**
+		 * Set radius reductions and determine new radius and center point
+		 * @private
+		 */
+		setReductions: function(largestPossibleRadius, furthestLimits, furthestAngles) {
+			var me = this;
+			var radiusReductionLeft = furthestLimits.l / Math.sin(furthestAngles.l);
+			var radiusReductionRight = Math.max(furthestLimits.r - me.width, 0) / Math.sin(furthestAngles.r);
+			var radiusReductionTop = -furthestLimits.t / Math.cos(furthestAngles.t);
+			var radiusReductionBottom = -Math.max(furthestLimits.b - me.height, 0) / Math.cos(furthestAngles.b);
+
+			radiusReductionLeft = numberOrZero(radiusReductionLeft);
+			radiusReductionRight = numberOrZero(radiusReductionRight);
+			radiusReductionTop = numberOrZero(radiusReductionTop);
+			radiusReductionBottom = numberOrZero(radiusReductionBottom);
+
+			me.drawingArea = Math.min(
+				Math.round(largestPossibleRadius - (radiusReductionLeft + radiusReductionRight) / 2),
+				Math.round(largestPossibleRadius - (radiusReductionTop + radiusReductionBottom) / 2));
+			me.setCenterPoint(radiusReductionLeft, radiusReductionRight, radiusReductionTop, radiusReductionBottom);
+		},
+		setCenterPoint: function(leftMovement, rightMovement, topMovement, bottomMovement) {
+			var me = this;
+			var maxRight = me.width - rightMovement - me.drawingArea;
+			var maxLeft = leftMovement + me.drawingArea;
+			var maxTop = topMovement + me.drawingArea;
+			var maxBottom = me.height - bottomMovement - me.drawingArea;
+
+			me.xCenter = Math.round(((maxLeft + maxRight) / 2) + me.left);
+			me.yCenter = Math.round(((maxTop + maxBottom) / 2) + me.top);
+		},
+
+		getIndexAngle: function(index) {
+			var angleMultiplier = (Math.PI * 2) / getValueCount(this);
+			var startAngle = this.chart.options && this.chart.options.startAngle ?
+				this.chart.options.startAngle :
+				0;
+
+			var startAngleRadians = startAngle * Math.PI * 2 / 360;
+
+			// Start from the top instead of right, so remove a quarter of the circle
+			return index * angleMultiplier + startAngleRadians;
+		},
+		getDistanceFromCenterForValue: function(value) {
+			var me = this;
+
+			if (value === null) {
+				return 0; // null always in center
+			}
+
+			// Take into account half font size + the yPadding of the top value
+			var scalingFactor = me.drawingArea / (me.max - me.min);
+			if (me.options.ticks.reverse) {
+				return (me.max - value) * scalingFactor;
+			}
+			return (value - me.min) * scalingFactor;
+		},
+		getPointPosition: function(index, distanceFromCenter) {
+			var me = this;
+			var thisAngle = me.getIndexAngle(index) - (Math.PI / 2);
+			return {
+				x: Math.round(Math.cos(thisAngle) * distanceFromCenter) + me.xCenter,
+				y: Math.round(Math.sin(thisAngle) * distanceFromCenter) + me.yCenter
+			};
+		},
+		getPointPositionForValue: function(index, value) {
+			return this.getPointPosition(index, this.getDistanceFromCenterForValue(value));
+		},
+
+		getBasePosition: function() {
+			var me = this;
+			var min = me.min;
+			var max = me.max;
+
+			return me.getPointPositionForValue(0,
+				me.beginAtZero ? 0 :
+				min < 0 && max < 0 ? max :
+				min > 0 && max > 0 ? min :
+				0);
+		},
+
+		draw: function() {
+			var me = this;
+			var opts = me.options;
+			var gridLineOpts = opts.gridLines;
+			var tickOpts = opts.ticks;
+			var valueOrDefault = helpers.valueOrDefault;
+
+			if (opts.display) {
+				var ctx = me.ctx;
+				var startAngle = this.getIndexAngle(0);
+
+				// Tick Font
+				var tickFontSize = valueOrDefault(tickOpts.fontSize, globalDefaults.defaultFontSize);
+				var tickFontStyle = valueOrDefault(tickOpts.fontStyle, globalDefaults.defaultFontStyle);
+				var tickFontFamily = valueOrDefault(tickOpts.fontFamily, globalDefaults.defaultFontFamily);
+				var tickLabelFont = helpers.fontString(tickFontSize, tickFontStyle, tickFontFamily);
+
+				helpers.each(me.ticks, function(label, index) {
+					// Don't draw a centre value (if it is minimum)
+					if (index > 0 || tickOpts.reverse) {
+						var yCenterOffset = me.getDistanceFromCenterForValue(me.ticksAsNumbers[index]);
+
+						// Draw circular lines around the scale
+						if (gridLineOpts.display && index !== 0) {
+							drawRadiusLine(me, gridLineOpts, yCenterOffset, index);
+						}
+
+						if (tickOpts.display) {
+							var tickFontColor = valueOrDefault(tickOpts.fontColor, globalDefaults.defaultFontColor);
+							ctx.font = tickLabelFont;
+
+							ctx.save();
+							ctx.translate(me.xCenter, me.yCenter);
+							ctx.rotate(startAngle);
+
+							if (tickOpts.showLabelBackdrop) {
+								var labelWidth = ctx.measureText(label).width;
+								ctx.fillStyle = tickOpts.backdropColor;
+								ctx.fillRect(
+									-labelWidth / 2 - tickOpts.backdropPaddingX,
+									-yCenterOffset - tickFontSize / 2 - tickOpts.backdropPaddingY,
+									labelWidth + tickOpts.backdropPaddingX * 2,
+									tickFontSize + tickOpts.backdropPaddingY * 2
+								);
+							}
+
+							ctx.textAlign = 'center';
+							ctx.textBaseline = 'middle';
+							ctx.fillStyle = tickFontColor;
+							ctx.fillText(label, 0, -yCenterOffset);
+							ctx.restore();
+						}
+					}
+				});
+
+				if (opts.angleLines.display || opts.pointLabels.display) {
+					drawPointLabels(me);
+				}
+			}
+		}
+	});
+	Chart.scaleService.registerScaleType('radialLinear', LinearRadialScale, defaultConfig);
+
+};
+
+},{"../core/core.defaults":19,"../core/core.ticks":28,"../helpers/index":39}],52:[function(require,module,exports){
+/* global window: false */
+'use strict';
+
+var moment = require('moment');
+moment = typeof moment === 'function' ? moment : window.moment;
+
+var defaults = require('../core/core.defaults');
+var helpers = require('../helpers/index');
+
+// Integer constants are from the ES6 spec.
+var MIN_INTEGER = Number.MIN_SAFE_INTEGER || -9007199254740991;
+var MAX_INTEGER = Number.MAX_SAFE_INTEGER || 9007199254740991;
+
+var INTERVALS = {
+	millisecond: {
+		common: true,
+		size: 1,
+		steps: [1, 2, 5, 10, 20, 50, 100, 250, 500]
+	},
+	second: {
+		common: true,
+		size: 1000,
+		steps: [1, 2, 5, 10, 30]
+	},
+	minute: {
+		common: true,
+		size: 60000,
+		steps: [1, 2, 5, 10, 30]
+	},
+	hour: {
+		common: true,
+		size: 3600000,
+		steps: [1, 2, 3, 6, 12]
+	},
+	day: {
+		common: true,
+		size: 86400000,
+		steps: [1, 2, 5]
+	},
+	week: {
+		common: false,
+		size: 604800000,
+		steps: [1, 2, 3, 4]
+	},
+	month: {
+		common: true,
+		size: 2.628e9,
+		steps: [1, 2, 3]
+	},
+	quarter: {
+		common: false,
+		size: 7.884e9,
+		steps: [1, 2, 3, 4]
+	},
+	year: {
+		common: true,
+		size: 3.154e10
+	}
+};
+
+var UNITS = Object.keys(INTERVALS);
+
+function sorter(a, b) {
+	return a - b;
+}
+
+function arrayUnique(items) {
+	var hash = {};
+	var out = [];
+	var i, ilen, item;
+
+	for (i = 0, ilen = items.length; i < ilen; ++i) {
+		item = items[i];
+		if (!hash[item]) {
+			hash[item] = true;
+			out.push(item);
+		}
+	}
+
+	return out;
+}
+
+/**
+ * Returns an array of {time, pos} objects used to interpolate a specific `time` or position
+ * (`pos`) on the scale, by searching entries before and after the requested value. `pos` is
+ * a decimal between 0 and 1: 0 being the start of the scale (left or top) and 1 the other
+ * extremity (left + width or top + height). Note that it would be more optimized to directly
+ * store pre-computed pixels, but the scale dimensions are not guaranteed at the time we need
+ * to create the lookup table. The table ALWAYS contains at least two items: min and max.
+ *
+ * @param {Number[]} timestamps - timestamps sorted from lowest to highest.
+ * @param {String} distribution - If 'linear', timestamps will be spread linearly along the min
+ * and max range, so basically, the table will contains only two items: {min, 0} and {max, 1}.
+ * If 'series', timestamps will be positioned at the same distance from each other. In this
+ * case, only timestamps that break the time linearity are registered, meaning that in the
+ * best case, all timestamps are linear, the table contains only min and max.
+ */
+function buildLookupTable(timestamps, min, max, distribution) {
+	if (distribution === 'linear' || !timestamps.length) {
+		return [
+			{time: min, pos: 0},
+			{time: max, pos: 1}
+		];
+	}
+
+	var table = [];
+	var items = [min];
+	var i, ilen, prev, curr, next;
+
+	for (i = 0, ilen = timestamps.length; i < ilen; ++i) {
+		curr = timestamps[i];
+		if (curr > min && curr < max) {
+			items.push(curr);
+		}
+	}
+
+	items.push(max);
+
+	for (i = 0, ilen = items.length; i < ilen; ++i) {
+		next = items[i + 1];
+		prev = items[i - 1];
+		curr = items[i];
+
+		// only add points that breaks the scale linearity
+		if (prev === undefined || next === undefined || Math.round((next + prev) / 2) !== curr) {
+			table.push({time: curr, pos: i / (ilen - 1)});
+		}
+	}
+
+	return table;
+}
+
+// @see adapted from http://www.anujgakhar.com/2014/03/01/binary-search-in-javascript/
+function lookup(table, key, value) {
+	var lo = 0;
+	var hi = table.length - 1;
+	var mid, i0, i1;
+
+	while (lo >= 0 && lo <= hi) {
+		mid = (lo + hi) >> 1;
+		i0 = table[mid - 1] || null;
+		i1 = table[mid];
+
+		if (!i0) {
+			// given value is outside table (before first item)
+			return {lo: null, hi: i1};
+		} else if (i1[key] < value) {
+			lo = mid + 1;
+		} else if (i0[key] > value) {
+			hi = mid - 1;
+		} else {
+			return {lo: i0, hi: i1};
+		}
+	}
+
+	// given value is outside table (after last item)
+	return {lo: i1, hi: null};
+}
+
+/**
+ * Linearly interpolates the given source `value` using the table items `skey` values and
+ * returns the associated `tkey` value. For example, interpolate(table, 'time', 42, 'pos')
+ * returns the position for a timestamp equal to 42. If value is out of bounds, values at
+ * index [0, 1] or [n - 1, n] are used for the interpolation.
+ */
+function interpolate(table, skey, sval, tkey) {
+	var range = lookup(table, skey, sval);
+
+	// Note: the lookup table ALWAYS contains at least 2 items (min and max)
+	var prev = !range.lo ? table[0] : !range.hi ? table[table.length - 2] : range.lo;
+	var next = !range.lo ? table[1] : !range.hi ? table[table.length - 1] : range.hi;
+
+	var span = next[skey] - prev[skey];
+	var ratio = span ? (sval - prev[skey]) / span : 0;
+	var offset = (next[tkey] - prev[tkey]) * ratio;
+
+	return prev[tkey] + offset;
+}
+
+/**
+ * Convert the given value to a moment object using the given time options.
+ * @see http://momentjs.com/docs/#/parsing/
+ */
+function momentify(value, options) {
+	var parser = options.parser;
+	var format = options.parser || options.format;
+
+	if (typeof parser === 'function') {
+		return parser(value);
+	}
+
+	if (typeof value === 'string' && typeof format === 'string') {
+		return moment(value, format);
+	}
+
+	if (!(value instanceof moment)) {
+		value = moment(value);
+	}
+
+	if (value.isValid()) {
+		return value;
+	}
+
+	// Labels are in an incompatible moment format and no `parser` has been provided.
+	// The user might still use the deprecated `format` option to convert his inputs.
+	if (typeof format === 'function') {
+		return format(value);
+	}
+
+	return value;
+}
+
+function parse(input, scale) {
+	if (helpers.isNullOrUndef(input)) {
+		return null;
+	}
+
+	var options = scale.options.time;
+	var value = momentify(scale.getRightValue(input), options);
+	if (!value.isValid()) {
+		return null;
+	}
+
+	if (options.round) {
+		value.startOf(options.round);
+	}
+
+	return value.valueOf();
+}
+
+/**
+ * Returns the number of unit to skip to be able to display up to `capacity` number of ticks
+ * in `unit` for the given `min` / `max` range and respecting the interval steps constraints.
+ */
+function determineStepSize(min, max, unit, capacity) {
+	var range = max - min;
+	var interval = INTERVALS[unit];
+	var milliseconds = interval.size;
+	var steps = interval.steps;
+	var i, ilen, factor;
+
+	if (!steps) {
+		return Math.ceil(range / (capacity * milliseconds));
+	}
+
+	for (i = 0, ilen = steps.length; i < ilen; ++i) {
+		factor = steps[i];
+		if (Math.ceil(range / (milliseconds * factor)) <= capacity) {
+			break;
+		}
+	}
+
+	return factor;
+}
+
+/**
+ * Figures out what unit results in an appropriate number of auto-generated ticks
+ */
+function determineUnitForAutoTicks(minUnit, min, max, capacity) {
+	var ilen = UNITS.length;
+	var i, interval, factor;
+
+	for (i = UNITS.indexOf(minUnit); i < ilen - 1; ++i) {
+		interval = INTERVALS[UNITS[i]];
+		factor = interval.steps ? interval.steps[interval.steps.length - 1] : MAX_INTEGER;
+
+		if (interval.common && Math.ceil((max - min) / (factor * interval.size)) <= capacity) {
+			return UNITS[i];
+		}
+	}
+
+	return UNITS[ilen - 1];
+}
+
+/**
+ * Figures out what unit to format a set of ticks with
+ */
+function determineUnitForFormatting(ticks, minUnit, min, max) {
+	var duration = moment.duration(moment(max).diff(moment(min)));
+	var ilen = UNITS.length;
+	var i, unit;
+
+	for (i = ilen - 1; i >= UNITS.indexOf(minUnit); i--) {
+		unit = UNITS[i];
+		if (INTERVALS[unit].common && duration.as(unit) >= ticks.length) {
+			return unit;
+		}
+	}
+
+	return UNITS[minUnit ? UNITS.indexOf(minUnit) : 0];
+}
+
+function determineMajorUnit(unit) {
+	for (var i = UNITS.indexOf(unit) + 1, ilen = UNITS.length; i < ilen; ++i) {
+		if (INTERVALS[UNITS[i]].common) {
+			return UNITS[i];
+		}
+	}
+}
+
+/**
+ * Generates a maximum of `capacity` timestamps between min and max, rounded to the
+ * `minor` unit, aligned on the `major` unit and using the given scale time `options`.
+ * Important: this method can return ticks outside the min and max range, it's the
+ * responsibility of the calling code to clamp values if needed.
+ */
+function generate(min, max, capacity, options) {
+	var timeOpts = options.time;
+	var minor = timeOpts.unit || determineUnitForAutoTicks(timeOpts.minUnit, min, max, capacity);
+	var major = determineMajorUnit(minor);
+	var stepSize = helpers.valueOrDefault(timeOpts.stepSize, timeOpts.unitStepSize);
+	var weekday = minor === 'week' ? timeOpts.isoWeekday : false;
+	var majorTicksEnabled = options.ticks.major.enabled;
+	var interval = INTERVALS[minor];
+	var first = moment(min);
+	var last = moment(max);
+	var ticks = [];
+	var time;
+
+	if (!stepSize) {
+		stepSize = determineStepSize(min, max, minor, capacity);
+	}
+
+	// For 'week' unit, handle the first day of week option
+	if (weekday) {
+		first = first.isoWeekday(weekday);
+		last = last.isoWeekday(weekday);
+	}
+
+	// Align first/last ticks on unit
+	first = first.startOf(weekday ? 'day' : minor);
+	last = last.startOf(weekday ? 'day' : minor);
+
+	// Make sure that the last tick include max
+	if (last < max) {
+		last.add(1, minor);
+	}
+
+	time = moment(first);
+
+	if (majorTicksEnabled && major && !weekday && !timeOpts.round) {
+		// Align the first tick on the previous `minor` unit aligned on the `major` unit:
+		// we first aligned time on the previous `major` unit then add the number of full
+		// stepSize there is between first and the previous major time.
+		time.startOf(major);
+		time.add(~~((first - time) / (interval.size * stepSize)) * stepSize, minor);
+	}
+
+	for (; time < last; time.add(stepSize, minor)) {
+		ticks.push(+time);
+	}
+
+	ticks.push(+time);
+
+	return ticks;
+}
+
+/**
+ * Returns the right and left offsets from edges in the form of {left, right}.
+ * Offsets are added when the `offset` option is true.
+ */
+function computeOffsets(table, ticks, min, max, options) {
+	var left = 0;
+	var right = 0;
+	var upper, lower;
+
+	if (options.offset && ticks.length) {
+		if (!options.time.min) {
+			upper = ticks.length > 1 ? ticks[1] : max;
+			lower = ticks[0];
+			left = (
+				interpolate(table, 'time', upper, 'pos') -
+				interpolate(table, 'time', lower, 'pos')
+			) / 2;
+		}
+		if (!options.time.max) {
+			upper = ticks[ticks.length - 1];
+			lower = ticks.length > 1 ? ticks[ticks.length - 2] : min;
+			right = (
+				interpolate(table, 'time', upper, 'pos') -
+				interpolate(table, 'time', lower, 'pos')
+			) / 2;
+		}
+	}
+
+	return {left: left, right: right};
+}
+
+function ticksFromTimestamps(values, majorUnit) {
+	var ticks = [];
+	var i, ilen, value, major;
+
+	for (i = 0, ilen = values.length; i < ilen; ++i) {
+		value = values[i];
+		major = majorUnit ? value === +moment(value).startOf(majorUnit) : false;
+
+		ticks.push({
+			value: value,
+			major: major
+		});
+	}
+
+	return ticks;
+}
+
+function determineLabelFormat(data, timeOpts) {
+	var i, momentDate, hasTime;
+	var ilen = data.length;
+
+	// find the label with the most parts (milliseconds, minutes, etc.)
+	// format all labels with the same level of detail as the most specific label
+	for (i = 0; i < ilen; i++) {
+		momentDate = momentify(data[i], timeOpts);
+		if (momentDate.millisecond() !== 0) {
+			return 'MMM D, YYYY h:mm:ss.SSS a';
+		}
+		if (momentDate.second() !== 0 || momentDate.minute() !== 0 || momentDate.hour() !== 0) {
+			hasTime = true;
+		}
+	}
+	if (hasTime) {
+		return 'MMM D, YYYY h:mm:ss a';
+	}
+	return 'MMM D, YYYY';
+}
+
+module.exports = function(Chart) {
+
+	var defaultConfig = {
+		position: 'bottom',
+
+		/**
+		 * Data distribution along the scale:
+		 * - 'linear': data are spread according to their time (distances can vary),
+		 * - 'series': data are spread at the same distance from each other.
+		 * @see https://github.com/chartjs/Chart.js/pull/4507
+		 * @since 2.7.0
+		 */
+		distribution: 'linear',
+
+		/**
+		 * Scale boundary strategy (bypassed by min/max time options)
+		 * - `data`: make sure data are fully visible, ticks outside are removed
+		 * - `ticks`: make sure ticks are fully visible, data outside are truncated
+		 * @see https://github.com/chartjs/Chart.js/pull/4556
+		 * @since 2.7.0
+		 */
+		bounds: 'data',
+
+		time: {
+			parser: false, // false == a pattern string from http://momentjs.com/docs/#/parsing/string-format/ or a custom callback that converts its argument to a moment
+			format: false, // DEPRECATED false == date objects, moment object, callback or a pattern string from http://momentjs.com/docs/#/parsing/string-format/
+			unit: false, // false == automatic or override with week, month, year, etc.
+			round: false, // none, or override with week, month, year, etc.
+			displayFormat: false, // DEPRECATED
+			isoWeekday: false, // override week start day - see http://momentjs.com/docs/#/get-set/iso-weekday/
+			minUnit: 'millisecond',
+
+			// defaults to unit's corresponding unitFormat below or override using pattern string from http://momentjs.com/docs/#/displaying/format/
+			displayFormats: {
+				millisecond: 'h:mm:ss.SSS a', // 11:20:01.123 AM,
+				second: 'h:mm:ss a', // 11:20:01 AM
+				minute: 'h:mm a', // 11:20 AM
+				hour: 'hA', // 5PM
+				day: 'MMM D', // Sep 4
+				week: 'll', // Week 46, or maybe "[W]WW - YYYY" ?
+				month: 'MMM YYYY', // Sept 2015
+				quarter: '[Q]Q - YYYY', // Q3
+				year: 'YYYY' // 2015
+			},
+		},
+		ticks: {
+			autoSkip: false,
+
+			/**
+			 * Ticks generation input values:
+			 * - 'auto': generates "optimal" ticks based on scale size and time options.
+			 * - 'data': generates ticks from data (including labels from data {t|x|y} objects).
+			 * - 'labels': generates ticks from user given `data.labels` values ONLY.
+			 * @see https://github.com/chartjs/Chart.js/pull/4507
+			 * @since 2.7.0
+			 */
+			source: 'auto',
+
+			major: {
+				enabled: false
+			}
+		}
+	};
+
+	var TimeScale = Chart.Scale.extend({
+		initialize: function() {
+			if (!moment) {
+				throw new Error('Chart.js - Moment.js could not be found! You must include it before Chart.js to use the time scale. Download at https://momentjs.com');
+			}
+
+			this.mergeTicksOptions();
+
+			Chart.Scale.prototype.initialize.call(this);
+		},
+
+		update: function() {
+			var me = this;
+			var options = me.options;
+
+			// DEPRECATIONS: output a message only one time per update
+			if (options.time && options.time.format) {
+				console.warn('options.time.format is deprecated and replaced by options.time.parser.');
+			}
+
+			return Chart.Scale.prototype.update.apply(me, arguments);
+		},
+
+		/**
+		 * Allows data to be referenced via 't' attribute
+		 */
+		getRightValue: function(rawValue) {
+			if (rawValue && rawValue.t !== undefined) {
+				rawValue = rawValue.t;
+			}
+			return Chart.Scale.prototype.getRightValue.call(this, rawValue);
+		},
+
+		determineDataLimits: function() {
+			var me = this;
+			var chart = me.chart;
+			var timeOpts = me.options.time;
+			var unit = timeOpts.unit || 'day';
+			var min = MAX_INTEGER;
+			var max = MIN_INTEGER;
+			var timestamps = [];
+			var datasets = [];
+			var labels = [];
+			var i, j, ilen, jlen, data, timestamp;
+
+			// Convert labels to timestamps
+			for (i = 0, ilen = chart.data.labels.length; i < ilen; ++i) {
+				labels.push(parse(chart.data.labels[i], me));
+			}
+
+			// Convert data to timestamps
+			for (i = 0, ilen = (chart.data.datasets || []).length; i < ilen; ++i) {
+				if (chart.isDatasetVisible(i)) {
+					data = chart.data.datasets[i].data;
+
+					// Let's consider that all data have the same format.
+					if (helpers.isObject(data[0])) {
+						datasets[i] = [];
+
+						for (j = 0, jlen = data.length; j < jlen; ++j) {
+							timestamp = parse(data[j], me);
+							timestamps.push(timestamp);
+							datasets[i][j] = timestamp;
+						}
+					} else {
+						timestamps.push.apply(timestamps, labels);
+						datasets[i] = labels.slice(0);
+					}
+				} else {
+					datasets[i] = [];
+				}
+			}
+
+			if (labels.length) {
+				// Sort labels **after** data have been converted
+				labels = arrayUnique(labels).sort(sorter);
+				min = Math.min(min, labels[0]);
+				max = Math.max(max, labels[labels.length - 1]);
+			}
+
+			if (timestamps.length) {
+				timestamps = arrayUnique(timestamps).sort(sorter);
+				min = Math.min(min, timestamps[0]);
+				max = Math.max(max, timestamps[timestamps.length - 1]);
+			}
+
+			min = parse(timeOpts.min, me) || min;
+			max = parse(timeOpts.max, me) || max;
+
+			// In case there is no valid min/max, set limits based on unit time option
+			min = min === MAX_INTEGER ? +moment().startOf(unit) : min;
+			max = max === MIN_INTEGER ? +moment().endOf(unit) + 1 : max;
+
+			// Make sure that max is strictly higher than min (required by the lookup table)
+			me.min = Math.min(min, max);
+			me.max = Math.max(min + 1, max);
+
+			// PRIVATE
+			me._horizontal = me.isHorizontal();
+			me._table = [];
+			me._timestamps = {
+				data: timestamps,
+				datasets: datasets,
+				labels: labels
+			};
+		},
+
+		buildTicks: function() {
+			var me = this;
+			var min = me.min;
+			var max = me.max;
+			var options = me.options;
+			var timeOpts = options.time;
+			var timestamps = [];
+			var ticks = [];
+			var i, ilen, timestamp;
+
+			switch (options.ticks.source) {
+			case 'data':
+				timestamps = me._timestamps.data;
+				break;
+			case 'labels':
+				timestamps = me._timestamps.labels;
+				break;
+			case 'auto':
+			default:
+				timestamps = generate(min, max, me.getLabelCapacity(min), options);
+			}
+
+			if (options.bounds === 'ticks' && timestamps.length) {
+				min = timestamps[0];
+				max = timestamps[timestamps.length - 1];
+			}
+
+			// Enforce limits with user min/max options
+			min = parse(timeOpts.min, me) || min;
+			max = parse(timeOpts.max, me) || max;
+
+			// Remove ticks outside the min/max range
+			for (i = 0, ilen = timestamps.length; i < ilen; ++i) {
+				timestamp = timestamps[i];
+				if (timestamp >= min && timestamp <= max) {
+					ticks.push(timestamp);
+				}
+			}
+
+			me.min = min;
+			me.max = max;
+
+			// PRIVATE
+			me._unit = timeOpts.unit || determineUnitForFormatting(ticks, timeOpts.minUnit, me.min, me.max);
+			me._majorUnit = determineMajorUnit(me._unit);
+			me._table = buildLookupTable(me._timestamps.data, min, max, options.distribution);
+			me._offsets = computeOffsets(me._table, ticks, min, max, options);
+			me._labelFormat = determineLabelFormat(me._timestamps.data, timeOpts);
+
+			return ticksFromTimestamps(ticks, me._majorUnit);
+		},
+
+		getLabelForIndex: function(index, datasetIndex) {
+			var me = this;
+			var data = me.chart.data;
+			var timeOpts = me.options.time;
+			var label = data.labels && index < data.labels.length ? data.labels[index] : '';
+			var value = data.datasets[datasetIndex].data[index];
+
+			if (helpers.isObject(value)) {
+				label = me.getRightValue(value);
+			}
+			if (timeOpts.tooltipFormat) {
+				return momentify(label, timeOpts).format(timeOpts.tooltipFormat);
+			}
+			if (typeof label === 'string') {
+				return label;
+			}
+
+			return momentify(label, timeOpts).format(me._labelFormat);
+		},
+
+		/**
+		 * Function to format an individual tick mark
+		 * @private
+		 */
+		tickFormatFunction: function(tick, index, ticks, formatOverride) {
+			var me = this;
+			var options = me.options;
+			var time = tick.valueOf();
+			var formats = options.time.displayFormats;
+			var minorFormat = formats[me._unit];
+			var majorUnit = me._majorUnit;
+			var majorFormat = formats[majorUnit];
+			var majorTime = tick.clone().startOf(majorUnit).valueOf();
+			var majorTickOpts = options.ticks.major;
+			var major = majorTickOpts.enabled && majorUnit && majorFormat && time === majorTime;
+			var label = tick.format(formatOverride ? formatOverride : major ? majorFormat : minorFormat);
+			var tickOpts = major ? majorTickOpts : options.ticks.minor;
+			var formatter = helpers.valueOrDefault(tickOpts.callback, tickOpts.userCallback);
+
+			return formatter ? formatter(label, index, ticks) : label;
+		},
+
+		convertTicksToLabels: function(ticks) {
+			var labels = [];
+			var i, ilen;
+
+			for (i = 0, ilen = ticks.length; i < ilen; ++i) {
+				labels.push(this.tickFormatFunction(moment(ticks[i].value), i, ticks));
+			}
+
+			return labels;
+		},
+
+		/**
+		 * @private
+		 */
+		getPixelForOffset: function(time) {
+			var me = this;
+			var size = me._horizontal ? me.width : me.height;
+			var start = me._horizontal ? me.left : me.top;
+			var pos = interpolate(me._table, 'time', time, 'pos');
+
+			return start + size * (me._offsets.left + pos) / (me._offsets.left + 1 + me._offsets.right);
+		},
+
+		getPixelForValue: function(value, index, datasetIndex) {
+			var me = this;
+			var time = null;
+
+			if (index !== undefined && datasetIndex !== undefined) {
+				time = me._timestamps.datasets[datasetIndex][index];
+			}
+
+			if (time === null) {
+				time = parse(value, me);
+			}
+
+			if (time !== null) {
+				return me.getPixelForOffset(time);
+			}
+		},
+
+		getPixelForTick: function(index) {
+			var ticks = this.getTicks();
+			return index >= 0 && index < ticks.length ?
+				this.getPixelForOffset(ticks[index].value) :
+				null;
+		},
+
+		getValueForPixel: function(pixel) {
+			var me = this;
+			var size = me._horizontal ? me.width : me.height;
+			var start = me._horizontal ? me.left : me.top;
+			var pos = (size ? (pixel - start) / size : 0) * (me._offsets.left + 1 + me._offsets.left) - me._offsets.right;
+			var time = interpolate(me._table, 'pos', pos, 'time');
+
+			return moment(time);
+		},
+
+		/**
+		 * Crude approximation of what the label width might be
+		 * @private
+		 */
+		getLabelWidth: function(label) {
+			var me = this;
+			var ticksOpts = me.options.ticks;
+			var tickLabelWidth = me.ctx.measureText(label).width;
+			var angle = helpers.toRadians(ticksOpts.maxRotation);
+			var cosRotation = Math.cos(angle);
+			var sinRotation = Math.sin(angle);
+			var tickFontSize = helpers.valueOrDefault(ticksOpts.fontSize, defaults.global.defaultFontSize);
+
+			return (tickLabelWidth * cosRotation) + (tickFontSize * sinRotation);
+		},
+
+		/**
+		 * @private
+		 */
+		getLabelCapacity: function(exampleTime) {
+			var me = this;
+
+			var formatOverride = me.options.time.displayFormats.millisecond;	// Pick the longest format for guestimation
+
+			var exampleLabel = me.tickFormatFunction(moment(exampleTime), 0, [], formatOverride);
+			var tickLabelWidth = me.getLabelWidth(exampleLabel);
+			var innerWidth = me.isHorizontal() ? me.width : me.height;
+
+			var capacity = Math.floor(innerWidth / tickLabelWidth);
+			return capacity > 0 ? capacity : 1;
+		}
+	});
+
+	Chart.scaleService.registerScaleType('time', TimeScale, defaultConfig);
+};
+
+},{"../core/core.defaults":19,"../helpers/index":39,"moment":58}],53:[function(require,module,exports){
+/* MIT license */
+var colorNames = require('color-name');
+
+module.exports = {
+   getRgba: getRgba,
+   getHsla: getHsla,
+   getRgb: getRgb,
+   getHsl: getHsl,
+   getHwb: getHwb,
+   getAlpha: getAlpha,
+
+   hexString: hexString,
+   rgbString: rgbString,
+   rgbaString: rgbaString,
+   percentString: percentString,
+   percentaString: percentaString,
+   hslString: hslString,
+   hslaString: hslaString,
+   hwbString: hwbString,
+   keyword: keyword
+}
+
+function getRgba(string) {
+   if (!string) {
+      return;
+   }
+   var abbr =  /^#([a-fA-F0-9]{3})$/i,
+       hex =  /^#([a-fA-F0-9]{6})$/i,
+       rgba = /^rgba?\(\s*([+-]?\d+)\s*,\s*([+-]?\d+)\s*,\s*([+-]?\d+)\s*(?:,\s*([+-]?[\d\.]+)\s*)?\)$/i,
+       per = /^rgba?\(\s*([+-]?[\d\.]+)\%\s*,\s*([+-]?[\d\.]+)\%\s*,\s*([+-]?[\d\.]+)\%\s*(?:,\s*([+-]?[\d\.]+)\s*)?\)$/i,
+       keyword = /(\w+)/;
+
+   var rgb = [0, 0, 0],
+       a = 1,
+       match = string.match(abbr);
+   if (match) {
+      match = match[1];
+      for (var i = 0; i < rgb.length; i++) {
+         rgb[i] = parseInt(match[i] + match[i], 16);
+      }
+   }
+   else if (match = string.match(hex)) {
+      match = match[1];
+      for (var i = 0; i < rgb.length; i++) {
+         rgb[i] = parseInt(match.slice(i * 2, i * 2 + 2), 16);
+      }
+   }
+   else if (match = string.match(rgba)) {
+      for (var i = 0; i < rgb.length; i++) {
+         rgb[i] = parseInt(match[i + 1]);
+      }
+      a = parseFloat(match[4]);
+   }
+   else if (match = string.match(per)) {
+      for (var i = 0; i < rgb.length; i++) {
+         rgb[i] = Math.round(parseFloat(match[i + 1]) * 2.55);
+      }
+      a = parseFloat(match[4]);
+   }
+   else if (match = string.match(keyword)) {
+      if (match[1] == "transparent") {
+         return [0, 0, 0, 0];
+      }
+      rgb = colorNames[match[1]];
+      if (!rgb) {
+         return;
+      }
+   }
+
+   for (var i = 0; i < rgb.length; i++) {
+      rgb[i] = scale(rgb[i], 0, 255);
+   }
+   if (!a && a != 0) {
+      a = 1;
+   }
+   else {
+      a = scale(a, 0, 1);
+   }
+   rgb[3] = a;
+   return rgb;
+}
+
+function getHsla(string) {
+   if (!string) {
+      return;
+   }
+   var hsl = /^hsla?\(\s*([+-]?\d+)(?:deg)?\s*,\s*([+-]?[\d\.]+)%\s*,\s*([+-]?[\d\.]+)%\s*(?:,\s*([+-]?[\d\.]+)\s*)?\)/;
+   var match = string.match(hsl);
+   if (match) {
+      var alpha = parseFloat(match[4]);
+      var h = scale(parseInt(match[1]), 0, 360),
+          s = scale(parseFloat(match[2]), 0, 100),
+          l = scale(parseFloat(match[3]), 0, 100),
+          a = scale(isNaN(alpha) ? 1 : alpha, 0, 1);
+      return [h, s, l, a];
+   }
+}
+
+function getHwb(string) {
+   if (!string) {
+      return;
+   }
+   var hwb = /^hwb\(\s*([+-]?\d+)(?:deg)?\s*,\s*([+-]?[\d\.]+)%\s*,\s*([+-]?[\d\.]+)%\s*(?:,\s*([+-]?[\d\.]+)\s*)?\)/;
+   var match = string.match(hwb);
+   if (match) {
+    var alpha = parseFloat(match[4]);
+      var h = scale(parseInt(match[1]), 0, 360),
+          w = scale(parseFloat(match[2]), 0, 100),
+          b = scale(parseFloat(match[3]), 0, 100),
+          a = scale(isNaN(alpha) ? 1 : alpha, 0, 1);
+      return [h, w, b, a];
+   }
+}
+
+function getRgb(string) {
+   var rgba = getRgba(string);
+   return rgba && rgba.slice(0, 3);
+}
+
+function getHsl(string) {
+  var hsla = getHsla(string);
+  return hsla && hsla.slice(0, 3);
+}
+
+function getAlpha(string) {
+   var vals = getRgba(string);
+   if (vals) {
+      return vals[3];
+   }
+   else if (vals = getHsla(string)) {
+      return vals[3];
+   }
+   else if (vals = getHwb(string)) {
+      return vals[3];
+   }
+}
+
+// generators
+function hexString(rgb) {
+   return "#" + hexDouble(rgb[0]) + hexDouble(rgb[1])
+              + hexDouble(rgb[2]);
+}
+
+function rgbString(rgba, alpha) {
+   if (alpha < 1 || (rgba[3] && rgba[3] < 1)) {
+      return rgbaString(rgba, alpha);
+   }
+   return "rgb(" + rgba[0] + ", " + rgba[1] + ", " + rgba[2] + ")";
+}
+
+function rgbaString(rgba, alpha) {
+   if (alpha === undefined) {
+      alpha = (rgba[3] !== undefined ? rgba[3] : 1);
+   }
+   return "rgba(" + rgba[0] + ", " + rgba[1] + ", " + rgba[2]
+           + ", " + alpha + ")";
+}
+
+function percentString(rgba, alpha) {
+   if (alpha < 1 || (rgba[3] && rgba[3] < 1)) {
+      return percentaString(rgba, alpha);
+   }
+   var r = Math.round(rgba[0]/255 * 100),
+       g = Math.round(rgba[1]/255 * 100),
+       b = Math.round(rgba[2]/255 * 100);
+
+   return "rgb(" + r + "%, " + g + "%, " + b + "%)";
+}
+
+function percentaString(rgba, alpha) {
+   var r = Math.round(rgba[0]/255 * 100),
+       g = Math.round(rgba[1]/255 * 100),
+       b = Math.round(rgba[2]/255 * 100);
+   return "rgba(" + r + "%, " + g + "%, " + b + "%, " + (alpha || rgba[3] || 1) + ")";
+}
+
+function hslString(hsla, alpha) {
+   if (alpha < 1 || (hsla[3] && hsla[3] < 1)) {
+      return hslaString(hsla, alpha);
+   }
+   return "hsl(" + hsla[0] + ", " + hsla[1] + "%, " + hsla[2] + "%)";
+}
+
+function hslaString(hsla, alpha) {
+   if (alpha === undefined) {
+      alpha = (hsla[3] !== undefined ? hsla[3] : 1);
+   }
+   return "hsla(" + hsla[0] + ", " + hsla[1] + "%, " + hsla[2] + "%, "
+           + alpha + ")";
+}
+
+// hwb is a bit different than rgb(a) & hsl(a) since there is no alpha specific syntax
+// (hwb have alpha optional & 1 is default value)
+function hwbString(hwb, alpha) {
+   if (alpha === undefined) {
+      alpha = (hwb[3] !== undefined ? hwb[3] : 1);
+   }
+   return "hwb(" + hwb[0] + ", " + hwb[1] + "%, " + hwb[2] + "%"
+           + (alpha !== undefined && alpha !== 1 ? ", " + alpha : "") + ")";
+}
+
+function keyword(rgb) {
+  return reverseNames[rgb.slice(0, 3)];
+}
+
+// helpers
+function scale(num, min, max) {
+   return Math.min(Math.max(min, num), max);
+}
+
+function hexDouble(num) {
+  var str = num.toString(16).toUpperCase();
+  return (str.length < 2) ? "0" + str : str;
+}
+
+
+//create a list of reverse color names
+var reverseNames = {};
+for (var name in colorNames) {
+   reverseNames[colorNames[name]] = name;
+}
+
+},{"color-name":57}],54:[function(require,module,exports){
+/* MIT license */
+var convert = require('color-convert');
+var string = require('chartjs-color-string');
+
+var Color = function (obj) {
+	if (obj instanceof Color) {
+		return obj;
+	}
+	if (!(this instanceof Color)) {
+		return new Color(obj);
+	}
+
+	this.valid = false;
+	this.values = {
+		rgb: [0, 0, 0],
+		hsl: [0, 0, 0],
+		hsv: [0, 0, 0],
+		hwb: [0, 0, 0],
+		cmyk: [0, 0, 0, 0],
+		alpha: 1
+	};
+
+	// parse Color() argument
+	var vals;
+	if (typeof obj === 'string') {
+		vals = string.getRgba(obj);
+		if (vals) {
+			this.setValues('rgb', vals);
+		} else if (vals = string.getHsla(obj)) {
+			this.setValues('hsl', vals);
+		} else if (vals = string.getHwb(obj)) {
+			this.setValues('hwb', vals);
+		}
+	} else if (typeof obj === 'object') {
+		vals = obj;
+		if (vals.r !== undefined || vals.red !== undefined) {
+			this.setValues('rgb', vals);
+		} else if (vals.l !== undefined || vals.lightness !== undefined) {
+			this.setValues('hsl', vals);
+		} else if (vals.v !== undefined || vals.value !== undefined) {
+			this.setValues('hsv', vals);
+		} else if (vals.w !== undefined || vals.whiteness !== undefined) {
+			this.setValues('hwb', vals);
+		} else if (vals.c !== undefined || vals.cyan !== undefined) {
+			this.setValues('cmyk', vals);
+		}
+	}
+};
+
+Color.prototype = {
+	isValid: function () {
+		return this.valid;
+	},
+	rgb: function () {
+		return this.setSpace('rgb', arguments);
+	},
+	hsl: function () {
+		return this.setSpace('hsl', arguments);
+	},
+	hsv: function () {
+		return this.setSpace('hsv', arguments);
+	},
+	hwb: function () {
+		return this.setSpace('hwb', arguments);
+	},
+	cmyk: function () {
+		return this.setSpace('cmyk', arguments);
+	},
+
+	rgbArray: function () {
+		return this.values.rgb;
+	},
+	hslArray: function () {
+		return this.values.hsl;
+	},
+	hsvArray: function () {
+		return this.values.hsv;
+	},
+	hwbArray: function () {
+		var values = this.values;
+		if (values.alpha !== 1) {
+			return values.hwb.concat([values.alpha]);
+		}
+		return values.hwb;
+	},
+	cmykArray: function () {
+		return this.values.cmyk;
+	},
+	rgbaArray: function () {
+		var values = this.values;
+		return values.rgb.concat([values.alpha]);
+	},
+	hslaArray: function () {
+		var values = this.values;
+		return values.hsl.concat([values.alpha]);
+	},
+	alpha: function (val) {
+		if (val === undefined) {
+			return this.values.alpha;
+		}
+		this.setValues('alpha', val);
+		return this;
+	},
+
+	red: function (val) {
+		return this.setChannel('rgb', 0, val);
+	},
+	green: function (val) {
+		return this.setChannel('rgb', 1, val);
+	},
+	blue: function (val) {
+		return this.setChannel('rgb', 2, val);
+	},
+	hue: function (val) {
+		if (val) {
+			val %= 360;
+			val = val < 0 ? 360 + val : val;
+		}
+		return this.setChannel('hsl', 0, val);
+	},
+	saturation: function (val) {
+		return this.setChannel('hsl', 1, val);
+	},
+	lightness: function (val) {
+		return this.setChannel('hsl', 2, val);
+	},
+	saturationv: function (val) {
+		return this.setChannel('hsv', 1, val);
+	},
+	whiteness: function (val) {
+		return this.setChannel('hwb', 1, val);
+	},
+	blackness: function (val) {
+		return this.setChannel('hwb', 2, val);
+	},
+	value: function (val) {
+		return this.setChannel('hsv', 2, val);
+	},
+	cyan: function (val) {
+		return this.setChannel('cmyk', 0, val);
+	},
+	magenta: function (val) {
+		return this.setChannel('cmyk', 1, val);
+	},
+	yellow: function (val) {
+		return this.setChannel('cmyk', 2, val);
+	},
+	black: function (val) {
+		return this.setChannel('cmyk', 3, val);
+	},
+
+	hexString: function () {
+		return string.hexString(this.values.rgb);
+	},
+	rgbString: function () {
+		return string.rgbString(this.values.rgb, this.values.alpha);
+	},
+	rgbaString: function () {
+		return string.rgbaString(this.values.rgb, this.values.alpha);
+	},
+	percentString: function () {
+		return string.percentString(this.values.rgb, this.values.alpha);
+	},
+	hslString: function () {
+		return string.hslString(this.values.hsl, this.values.alpha);
+	},
+	hslaString: function () {
+		return string.hslaString(this.values.hsl, this.values.alpha);
+	},
+	hwbString: function () {
+		return string.hwbString(this.values.hwb, this.values.alpha);
+	},
+	keyword: function () {
+		return string.keyword(this.values.rgb, this.values.alpha);
+	},
+
+	rgbNumber: function () {
+		var rgb = this.values.rgb;
+		return (rgb[0] << 16) | (rgb[1] << 8) | rgb[2];
+	},
+
+	luminosity: function () {
+		// http://www.w3.org/TR/WCAG20/#relativeluminancedef
+		var rgb = this.values.rgb;
+		var lum = [];
+		for (var i = 0; i < rgb.length; i++) {
+			var chan = rgb[i] / 255;
+			lum[i] = (chan <= 0.03928) ? chan / 12.92 : Math.pow(((chan + 0.055) / 1.055), 2.4);
+		}
+		return 0.2126 * lum[0] + 0.7152 * lum[1] + 0.0722 * lum[2];
+	},
+
+	contrast: function (color2) {
+		// http://www.w3.org/TR/WCAG20/#contrast-ratiodef
+		var lum1 = this.luminosity();
+		var lum2 = color2.luminosity();
+		if (lum1 > lum2) {
+			return (lum1 + 0.05) / (lum2 + 0.05);
+		}
+		return (lum2 + 0.05) / (lum1 + 0.05);
+	},
+
+	level: function (color2) {
+		var contrastRatio = this.contrast(color2);
+		if (contrastRatio >= 7.1) {
+			return 'AAA';
+		}
+
+		return (contrastRatio >= 4.5) ? 'AA' : '';
+	},
+
+	dark: function () {
+		// YIQ equation from http://24ways.org/2010/calculating-color-contrast
+		var rgb = this.values.rgb;
+		var yiq = (rgb[0] * 299 + rgb[1] * 587 + rgb[2] * 114) / 1000;
+		return yiq < 128;
+	},
+
+	light: function () {
+		return !this.dark();
+	},
+
+	negate: function () {
+		var rgb = [];
+		for (var i = 0; i < 3; i++) {
+			rgb[i] = 255 - this.values.rgb[i];
+		}
+		this.setValues('rgb', rgb);
+		return this;
+	},
+
+	lighten: function (ratio) {
+		var hsl = this.values.hsl;
+		hsl[2] += hsl[2] * ratio;
+		this.setValues('hsl', hsl);
+		return this;
+	},
+
+	darken: function (ratio) {
+		var hsl = this.values.hsl;
+		hsl[2] -= hsl[2] * ratio;
+		this.setValues('hsl', hsl);
+		return this;
+	},
+
+	saturate: function (ratio) {
+		var hsl = this.values.hsl;
+		hsl[1] += hsl[1] * ratio;
+		this.setValues('hsl', hsl);
+		return this;
+	},
+
+	desaturate: function (ratio) {
+		var hsl = this.values.hsl;
+		hsl[1] -= hsl[1] * ratio;
+		this.setValues('hsl', hsl);
+		return this;
+	},
+
+	whiten: function (ratio) {
+		var hwb = this.values.hwb;
+		hwb[1] += hwb[1] * ratio;
+		this.setValues('hwb', hwb);
+		return this;
+	},
+
+	blacken: function (ratio) {
+		var hwb = this.values.hwb;
+		hwb[2] += hwb[2] * ratio;
+		this.setValues('hwb', hwb);
+		return this;
+	},
+
+	greyscale: function () {
+		var rgb = this.values.rgb;
+		// http://en.wikipedia.org/wiki/Grayscale#Converting_color_to_grayscale
+		var val = rgb[0] * 0.3 + rgb[1] * 0.59 + rgb[2] * 0.11;
+		this.setValues('rgb', [val, val, val]);
+		return this;
+	},
+
+	clearer: function (ratio) {
+		var alpha = this.values.alpha;
+		this.setValues('alpha', alpha - (alpha * ratio));
+		return this;
+	},
+
+	opaquer: function (ratio) {
+		var alpha = this.values.alpha;
+		this.setValues('alpha', alpha + (alpha * ratio));
+		return this;
+	},
+
+	rotate: function (degrees) {
+		var hsl = this.values.hsl;
+		var hue = (hsl[0] + degrees) % 360;
+		hsl[0] = hue < 0 ? 360 + hue : hue;
+		this.setValues('hsl', hsl);
+		return this;
+	},
+
+	/**
+	 * Ported from sass implementation in C
+	 * https://github.com/sass/libsass/blob/0e6b4a2850092356aa3ece07c6b249f0221caced/functions.cpp#L209
+	 */
+	mix: function (mixinColor, weight) {
+		var color1 = this;
+		var color2 = mixinColor;
+		var p = weight === undefined ? 0.5 : weight;
+
+		var w = 2 * p - 1;
+		var a = color1.alpha() - color2.alpha();
+
+		var w1 = (((w * a === -1) ? w : (w + a) / (1 + w * a)) + 1) / 2.0;
+		var w2 = 1 - w1;
+
+		return this
+			.rgb(
+				w1 * color1.red() + w2 * color2.red(),
+				w1 * color1.green() + w2 * color2.green(),
+				w1 * color1.blue() + w2 * color2.blue()
+			)
+			.alpha(color1.alpha() * p + color2.alpha() * (1 - p));
+	},
+
+	toJSON: function () {
+		return this.rgb();
+	},
+
+	clone: function () {
+		// NOTE(SB): using node-clone creates a dependency to Buffer when using browserify,
+		// making the final build way to big to embed in Chart.js. So let's do it manually,
+		// assuming that values to clone are 1 dimension arrays containing only numbers,
+		// except 'alpha' which is a number.
+		var result = new Color();
+		var source = this.values;
+		var target = result.values;
+		var value, type;
+
+		for (var prop in source) {
+			if (source.hasOwnProperty(prop)) {
+				value = source[prop];
+				type = ({}).toString.call(value);
+				if (type === '[object Array]') {
+					target[prop] = value.slice(0);
+				} else if (type === '[object Number]') {
+					target[prop] = value;
+				} else {
+					console.error('unexpected color value:', value);
+				}
+			}
+		}
+
+		return result;
+	}
+};
+
+Color.prototype.spaces = {
+	rgb: ['red', 'green', 'blue'],
+	hsl: ['hue', 'saturation', 'lightness'],
+	hsv: ['hue', 'saturation', 'value'],
+	hwb: ['hue', 'whiteness', 'blackness'],
+	cmyk: ['cyan', 'magenta', 'yellow', 'black']
+};
+
+Color.prototype.maxes = {
+	rgb: [255, 255, 255],
+	hsl: [360, 100, 100],
+	hsv: [360, 100, 100],
+	hwb: [360, 100, 100],
+	cmyk: [100, 100, 100, 100]
+};
+
+Color.prototype.getValues = function (space) {
+	var values = this.values;
+	var vals = {};
+
+	for (var i = 0; i < space.length; i++) {
+		vals[space.charAt(i)] = values[space][i];
+	}
+
+	if (values.alpha !== 1) {
+		vals.a = values.alpha;
+	}
+
+	// {r: 255, g: 255, b: 255, a: 0.4}
+	return vals;
+};
+
+Color.prototype.setValues = function (space, vals) {
+	var values = this.values;
+	var spaces = this.spaces;
+	var maxes = this.maxes;
+	var alpha = 1;
+	var i;
+
+	this.valid = true;
+
+	if (space === 'alpha') {
+		alpha = vals;
+	} else if (vals.length) {
+		// [10, 10, 10]
+		values[space] = vals.slice(0, space.length);
+		alpha = vals[space.length];
+	} else if (vals[space.charAt(0)] !== undefined) {
+		// {r: 10, g: 10, b: 10}
+		for (i = 0; i < space.length; i++) {
+			values[space][i] = vals[space.charAt(i)];
+		}
+
+		alpha = vals.a;
+	} else if (vals[spaces[space][0]] !== undefined) {
+		// {red: 10, green: 10, blue: 10}
+		var chans = spaces[space];
+
+		for (i = 0; i < space.length; i++) {
+			values[space][i] = vals[chans[i]];
+		}
+
+		alpha = vals.alpha;
+	}
+
+	values.alpha = Math.max(0, Math.min(1, (alpha === undefined ? values.alpha : alpha)));
+
+	if (space === 'alpha') {
+		return false;
+	}
+
+	var capped;
+
+	// cap values of the space prior converting all values
+	for (i = 0; i < space.length; i++) {
+		capped = Math.max(0, Math.min(maxes[space][i], values[space][i]));
+		values[space][i] = Math.round(capped);
+	}
+
+	// convert to all the other color spaces
+	for (var sname in spaces) {
+		if (sname !== space) {
+			values[sname] = convert[space][sname](values[space]);
+		}
+	}
+
+	return true;
+};
+
+Color.prototype.setSpace = function (space, args) {
+	var vals = args[0];
+
+	if (vals === undefined) {
+		// color.rgb()
+		return this.getValues(space);
+	}
+
+	// color.rgb(10, 10, 10)
+	if (typeof vals === 'number') {
+		vals = Array.prototype.slice.call(args);
+	}
+
+	this.setValues(space, vals);
+	return this;
+};
+
+Color.prototype.setChannel = function (space, index, val) {
+	var svalues = this.values[space];
+	if (val === undefined) {
+		// color.red()
+		return svalues[index];
+	} else if (val === svalues[index]) {
+		// color.red(color.red())
+		return this;
+	}
+
+	// color.red(100)
+	svalues[index] = val;
+	this.setValues(space, svalues);
+
+	return this;
+};
+
+if (typeof window !== 'undefined') {
+	window.Color = Color;
+}
+
+module.exports = Color;
+
+},{"chartjs-color-string":53,"color-convert":56}],55:[function(require,module,exports){
+/* MIT license */
+
+module.exports = {
+  rgb2hsl: rgb2hsl,
+  rgb2hsv: rgb2hsv,
+  rgb2hwb: rgb2hwb,
+  rgb2cmyk: rgb2cmyk,
+  rgb2keyword: rgb2keyword,
+  rgb2xyz: rgb2xyz,
+  rgb2lab: rgb2lab,
+  rgb2lch: rgb2lch,
+
+  hsl2rgb: hsl2rgb,
+  hsl2hsv: hsl2hsv,
+  hsl2hwb: hsl2hwb,
+  hsl2cmyk: hsl2cmyk,
+  hsl2keyword: hsl2keyword,
+
+  hsv2rgb: hsv2rgb,
+  hsv2hsl: hsv2hsl,
+  hsv2hwb: hsv2hwb,
+  hsv2cmyk: hsv2cmyk,
+  hsv2keyword: hsv2keyword,
+
+  hwb2rgb: hwb2rgb,
+  hwb2hsl: hwb2hsl,
+  hwb2hsv: hwb2hsv,
+  hwb2cmyk: hwb2cmyk,
+  hwb2keyword: hwb2keyword,
+
+  cmyk2rgb: cmyk2rgb,
+  cmyk2hsl: cmyk2hsl,
+  cmyk2hsv: cmyk2hsv,
+  cmyk2hwb: cmyk2hwb,
+  cmyk2keyword: cmyk2keyword,
+
+  keyword2rgb: keyword2rgb,
+  keyword2hsl: keyword2hsl,
+  keyword2hsv: keyword2hsv,
+  keyword2hwb: keyword2hwb,
+  keyword2cmyk: keyword2cmyk,
+  keyword2lab: keyword2lab,
+  keyword2xyz: keyword2xyz,
+
+  xyz2rgb: xyz2rgb,
+  xyz2lab: xyz2lab,
+  xyz2lch: xyz2lch,
+
+  lab2xyz: lab2xyz,
+  lab2rgb: lab2rgb,
+  lab2lch: lab2lch,
+
+  lch2lab: lch2lab,
+  lch2xyz: lch2xyz,
+  lch2rgb: lch2rgb
+}
+
+
+function rgb2hsl(rgb) {
+  var r = rgb[0]/255,
+      g = rgb[1]/255,
+      b = rgb[2]/255,
+      min = Math.min(r, g, b),
+      max = Math.max(r, g, b),
+      delta = max - min,
+      h, s, l;
+
+  if (max == min)
+    h = 0;
+  else if (r == max)
+    h = (g - b) / delta;
+  else if (g == max)
+    h = 2 + (b - r) / delta;
+  else if (b == max)
+    h = 4 + (r - g)/ delta;
+
+  h = Math.min(h * 60, 360);
+
+  if (h < 0)
+    h += 360;
+
+  l = (min + max) / 2;
+
+  if (max == min)
+    s = 0;
+  else if (l <= 0.5)
+    s = delta / (max + min);
+  else
+    s = delta / (2 - max - min);
+
+  return [h, s * 100, l * 100];
+}
+
+function rgb2hsv(rgb) {
+  var r = rgb[0],
+      g = rgb[1],
+      b = rgb[2],
+      min = Math.min(r, g, b),
+      max = Math.max(r, g, b),
+      delta = max - min,
+      h, s, v;
+
+  if (max == 0)
+    s = 0;
+  else
+    s = (delta/max * 1000)/10;
+
+  if (max == min)
+    h = 0;
+  else if (r == max)
+    h = (g - b) / delta;
+  else if (g == max)
+    h = 2 + (b - r) / delta;
+  else if (b == max)
+    h = 4 + (r - g) / delta;
+
+  h = Math.min(h * 60, 360);
+
+  if (h < 0)
+    h += 360;
+
+  v = ((max / 255) * 1000) / 10;
+
+  return [h, s, v];
+}
+
+function rgb2hwb(rgb) {
+  var r = rgb[0],
+      g = rgb[1],
+      b = rgb[2],
+      h = rgb2hsl(rgb)[0],
+      w = 1/255 * Math.min(r, Math.min(g, b)),
+      b = 1 - 1/255 * Math.max(r, Math.max(g, b));
+
+  return [h, w * 100, b * 100];
+}
+
+function rgb2cmyk(rgb) {
+  var r = rgb[0] / 255,
+      g = rgb[1] / 255,
+      b = rgb[2] / 255,
+      c, m, y, k;
+
+  k = Math.min(1 - r, 1 - g, 1 - b);
+  c = (1 - r - k) / (1 - k) || 0;
+  m = (1 - g - k) / (1 - k) || 0;
+  y = (1 - b - k) / (1 - k) || 0;
+  return [c * 100, m * 100, y * 100, k * 100];
+}
+
+function rgb2keyword(rgb) {
+  return reverseKeywords[JSON.stringify(rgb)];
+}
+
+function rgb2xyz(rgb) {
+  var r = rgb[0] / 255,
+      g = rgb[1] / 255,
+      b = rgb[2] / 255;
+
+  // assume sRGB
+  r = r > 0.04045 ? Math.pow(((r + 0.055) / 1.055), 2.4) : (r / 12.92);
+  g = g > 0.04045 ? Math.pow(((g + 0.055) / 1.055), 2.4) : (g / 12.92);
+  b = b > 0.04045 ? Math.pow(((b + 0.055) / 1.055), 2.4) : (b / 12.92);
+
+  var x = (r * 0.4124) + (g * 0.3576) + (b * 0.1805);
+  var y = (r * 0.2126) + (g * 0.7152) + (b * 0.0722);
+  var z = (r * 0.0193) + (g * 0.1192) + (b * 0.9505);
+
+  return [x * 100, y *100, z * 100];
+}
+
+function rgb2lab(rgb) {
+  var xyz = rgb2xyz(rgb),
+        x = xyz[0],
+        y = xyz[1],
+        z = xyz[2],
+        l, a, b;
+
+  x /= 95.047;
+  y /= 100;
+  z /= 108.883;
+
+  x = x > 0.008856 ? Math.pow(x, 1/3) : (7.787 * x) + (16 / 116);
+  y = y > 0.008856 ? Math.pow(y, 1/3) : (7.787 * y) + (16 / 116);
+  z = z > 0.008856 ? Math.pow(z, 1/3) : (7.787 * z) + (16 / 116);
+
+  l = (116 * y) - 16;
+  a = 500 * (x - y);
+  b = 200 * (y - z);
+
+  return [l, a, b];
+}
+
+function rgb2lch(args) {
+  return lab2lch(rgb2lab(args));
+}
+
+function hsl2rgb(hsl) {
+  var h = hsl[0] / 360,
+      s = hsl[1] / 100,
+      l = hsl[2] / 100,
+      t1, t2, t3, rgb, val;
+
+  if (s == 0) {
+    val = l * 255;
+    return [val, val, val];
+  }
+
+  if (l < 0.5)
+    t2 = l * (1 + s);
+  else
+    t2 = l + s - l * s;
+  t1 = 2 * l - t2;
+
+  rgb = [0, 0, 0];
+  for (var i = 0; i < 3; i++) {
+    t3 = h + 1 / 3 * - (i - 1);
+    t3 < 0 && t3++;
+    t3 > 1 && t3--;
+
+    if (6 * t3 < 1)
+      val = t1 + (t2 - t1) * 6 * t3;
+    else if (2 * t3 < 1)
+      val = t2;
+    else if (3 * t3 < 2)
+      val = t1 + (t2 - t1) * (2 / 3 - t3) * 6;
+    else
+      val = t1;
+
+    rgb[i] = val * 255;
+  }
+
+  return rgb;
+}
+
+function hsl2hsv(hsl) {
+  var h = hsl[0],
+      s = hsl[1] / 100,
+      l = hsl[2] / 100,
+      sv, v;
+
+  if(l === 0) {
+      // no need to do calc on black
+      // also avoids divide by 0 error
+      return [0, 0, 0];
+  }
+
+  l *= 2;
+  s *= (l <= 1) ? l : 2 - l;
+  v = (l + s) / 2;
+  sv = (2 * s) / (l + s);
+  return [h, sv * 100, v * 100];
+}
+
+function hsl2hwb(args) {
+  return rgb2hwb(hsl2rgb(args));
+}
+
+function hsl2cmyk(args) {
+  return rgb2cmyk(hsl2rgb(args));
+}
+
+function hsl2keyword(args) {
+  return rgb2keyword(hsl2rgb(args));
+}
+
+
+function hsv2rgb(hsv) {
+  var h = hsv[0] / 60,
+      s = hsv[1] / 100,
+      v = hsv[2] / 100,
+      hi = Math.floor(h) % 6;
+
+  var f = h - Math.floor(h),
+      p = 255 * v * (1 - s),
+      q = 255 * v * (1 - (s * f)),
+      t = 255 * v * (1 - (s * (1 - f))),
+      v = 255 * v;
+
+  switch(hi) {
+    case 0:
+      return [v, t, p];
+    case 1:
+      return [q, v, p];
+    case 2:
+      return [p, v, t];
+    case 3:
+      return [p, q, v];
+    case 4:
+      return [t, p, v];
+    case 5:
+      return [v, p, q];
+  }
+}
+
+function hsv2hsl(hsv) {
+  var h = hsv[0],
+      s = hsv[1] / 100,
+      v = hsv[2] / 100,
+      sl, l;
+
+  l = (2 - s) * v;
+  sl = s * v;
+  sl /= (l <= 1) ? l : 2 - l;
+  sl = sl || 0;
+  l /= 2;
+  return [h, sl * 100, l * 100];
+}
+
+function hsv2hwb(args) {
+  return rgb2hwb(hsv2rgb(args))
+}
+
+function hsv2cmyk(args) {
+  return rgb2cmyk(hsv2rgb(args));
+}
+
+function hsv2keyword(args) {
+  return rgb2keyword(hsv2rgb(args));
+}
+
+// http://dev.w3.org/csswg/css-color/#hwb-to-rgb
+function hwb2rgb(hwb) {
+  var h = hwb[0] / 360,
+      wh = hwb[1] / 100,
+      bl = hwb[2] / 100,
+      ratio = wh + bl,
+      i, v, f, n;
+
+  // wh + bl cant be > 1
+  if (ratio > 1) {
+    wh /= ratio;
+    bl /= ratio;
+  }
+
+  i = Math.floor(6 * h);
+  v = 1 - bl;
+  f = 6 * h - i;
+  if ((i & 0x01) != 0) {
+    f = 1 - f;
+  }
+  n = wh + f * (v - wh);  // linear interpolation
+
+  switch (i) {
+    default:
+    case 6:
+    case 0: r = v; g = n; b = wh; break;
+    case 1: r = n; g = v; b = wh; break;
+    case 2: r = wh; g = v; b = n; break;
+    case 3: r = wh; g = n; b = v; break;
+    case 4: r = n; g = wh; b = v; break;
+    case 5: r = v; g = wh; b = n; break;
+  }
+
+  return [r * 255, g * 255, b * 255];
+}
+
+function hwb2hsl(args) {
+  return rgb2hsl(hwb2rgb(args));
+}
+
+function hwb2hsv(args) {
+  return rgb2hsv(hwb2rgb(args));
+}
+
+function hwb2cmyk(args) {
+  return rgb2cmyk(hwb2rgb(args));
+}
+
+function hwb2keyword(args) {
+  return rgb2keyword(hwb2rgb(args));
+}
+
+function cmyk2rgb(cmyk) {
+  var c = cmyk[0] / 100,
+      m = cmyk[1] / 100,
+      y = cmyk[2] / 100,
+      k = cmyk[3] / 100,
+      r, g, b;
+
+  r = 1 - Math.min(1, c * (1 - k) + k);
+  g = 1 - Math.min(1, m * (1 - k) + k);
+  b = 1 - Math.min(1, y * (1 - k) + k);
+  return [r * 255, g * 255, b * 255];
+}
+
+function cmyk2hsl(args) {
+  return rgb2hsl(cmyk2rgb(args));
+}
+
+function cmyk2hsv(args) {
+  return rgb2hsv(cmyk2rgb(args));
+}
+
+function cmyk2hwb(args) {
+  return rgb2hwb(cmyk2rgb(args));
+}
+
+function cmyk2keyword(args) {
+  return rgb2keyword(cmyk2rgb(args));
+}
+
+
+function xyz2rgb(xyz) {
+  var x = xyz[0] / 100,
+      y = xyz[1] / 100,
+      z = xyz[2] / 100,
+      r, g, b;
+
+  r = (x * 3.2406) + (y * -1.5372) + (z * -0.4986);
+  g = (x * -0.9689) + (y * 1.8758) + (z * 0.0415);
+  b = (x * 0.0557) + (y * -0.2040) + (z * 1.0570);
+
+  // assume sRGB
+  r = r > 0.0031308 ? ((1.055 * Math.pow(r, 1.0 / 2.4)) - 0.055)
+    : r = (r * 12.92);
+
+  g = g > 0.0031308 ? ((1.055 * Math.pow(g, 1.0 / 2.4)) - 0.055)
+    : g = (g * 12.92);
+
+  b = b > 0.0031308 ? ((1.055 * Math.pow(b, 1.0 / 2.4)) - 0.055)
+    : b = (b * 12.92);
+
+  r = Math.min(Math.max(0, r), 1);
+  g = Math.min(Math.max(0, g), 1);
+  b = Math.min(Math.max(0, b), 1);
+
+  return [r * 255, g * 255, b * 255];
+}
+
+function xyz2lab(xyz) {
+  var x = xyz[0],
+      y = xyz[1],
+      z = xyz[2],
+      l, a, b;
+
+  x /= 95.047;
+  y /= 100;
+  z /= 108.883;
+
+  x = x > 0.008856 ? Math.pow(x, 1/3) : (7.787 * x) + (16 / 116);
+  y = y > 0.008856 ? Math.pow(y, 1/3) : (7.787 * y) + (16 / 116);
+  z = z > 0.008856 ? Math.pow(z, 1/3) : (7.787 * z) + (16 / 116);
+
+  l = (116 * y) - 16;
+  a = 500 * (x - y);
+  b = 200 * (y - z);
+
+  return [l, a, b];
+}
+
+function xyz2lch(args) {
+  return lab2lch(xyz2lab(args));
+}
+
+function lab2xyz(lab) {
+  var l = lab[0],
+      a = lab[1],
+      b = lab[2],
+      x, y, z, y2;
+
+  if (l <= 8) {
+    y = (l * 100) / 903.3;
+    y2 = (7.787 * (y / 100)) + (16 / 116);
+  } else {
+    y = 100 * Math.pow((l + 16) / 116, 3);
+    y2 = Math.pow(y / 100, 1/3);
+  }
+
+  x = x / 95.047 <= 0.008856 ? x = (95.047 * ((a / 500) + y2 - (16 / 116))) / 7.787 : 95.047 * Math.pow((a / 500) + y2, 3);
+
+  z = z / 108.883 <= 0.008859 ? z = (108.883 * (y2 - (b / 200) - (16 / 116))) / 7.787 : 108.883 * Math.pow(y2 - (b / 200), 3);
+
+  return [x, y, z];
+}
+
+function lab2lch(lab) {
+  var l = lab[0],
+      a = lab[1],
+      b = lab[2],
+      hr, h, c;
+
+  hr = Math.atan2(b, a);
+  h = hr * 360 / 2 / Math.PI;
+  if (h < 0) {
+    h += 360;
+  }
+  c = Math.sqrt(a * a + b * b);
+  return [l, c, h];
+}
+
+function lab2rgb(args) {
+  return xyz2rgb(lab2xyz(args));
+}
+
+function lch2lab(lch) {
+  var l = lch[0],
+      c = lch[1],
+      h = lch[2],
+      a, b, hr;
+
+  hr = h / 360 * 2 * Math.PI;
+  a = c * Math.cos(hr);
+  b = c * Math.sin(hr);
+  return [l, a, b];
+}
+
+function lch2xyz(args) {
+  return lab2xyz(lch2lab(args));
+}
+
+function lch2rgb(args) {
+  return lab2rgb(lch2lab(args));
+}
+
+function keyword2rgb(keyword) {
+  return cssKeywords[keyword];
+}
+
+function keyword2hsl(args) {
+  return rgb2hsl(keyword2rgb(args));
+}
+
+function keyword2hsv(args) {
+  return rgb2hsv(keyword2rgb(args));
+}
+
+function keyword2hwb(args) {
+  return rgb2hwb(keyword2rgb(args));
+}
+
+function keyword2cmyk(args) {
+  return rgb2cmyk(keyword2rgb(args));
+}
+
+function keyword2lab(args) {
+  return rgb2lab(keyword2rgb(args));
+}
+
+function keyword2xyz(args) {
+  return rgb2xyz(keyword2rgb(args));
+}
+
+var cssKeywords = {
+  aliceblue:  [240,248,255],
+  antiquewhite: [250,235,215],
+  aqua: [0,255,255],
+  aquamarine: [127,255,212],
+  azure:  [240,255,255],
+  beige:  [245,245,220],
+  bisque: [255,228,196],
+  black:  [0,0,0],
+  blanchedalmond: [255,235,205],
+  blue: [0,0,255],
+  blueviolet: [138,43,226],
+  brown:  [165,42,42],
+  burlywood:  [222,184,135],
+  cadetblue:  [95,158,160],
+  chartreuse: [127,255,0],
+  chocolate:  [210,105,30],
+  coral:  [255,127,80],
+  cornflowerblue: [100,149,237],
+  cornsilk: [255,248,220],
+  crimson:  [220,20,60],
+  cyan: [0,255,255],
+  darkblue: [0,0,139],
+  darkcyan: [0,139,139],
+  darkgoldenrod:  [184,134,11],
+  darkgray: [169,169,169],
+  darkgreen:  [0,100,0],
+  darkgrey: [169,169,169],
+  darkkhaki:  [189,183,107],
+  darkmagenta:  [139,0,139],
+  darkolivegreen: [85,107,47],
+  darkorange: [255,140,0],
+  darkorchid: [153,50,204],
+  darkred:  [139,0,0],
+  darksalmon: [233,150,122],
+  darkseagreen: [143,188,143],
+  darkslateblue:  [72,61,139],
+  darkslategray:  [47,79,79],
+  darkslategrey:  [47,79,79],
+  darkturquoise:  [0,206,209],
+  darkviolet: [148,0,211],
+  deeppink: [255,20,147],
+  deepskyblue:  [0,191,255],
+  dimgray:  [105,105,105],
+  dimgrey:  [105,105,105],
+  dodgerblue: [30,144,255],
+  firebrick:  [178,34,34],
+  floralwhite:  [255,250,240],
+  forestgreen:  [34,139,34],
+  fuchsia:  [255,0,255],
+  gainsboro:  [220,220,220],
+  ghostwhite: [248,248,255],
+  gold: [255,215,0],
+  goldenrod:  [218,165,32],
+  gray: [128,128,128],
+  green:  [0,128,0],
+  greenyellow:  [173,255,47],
+  grey: [128,128,128],
+  honeydew: [240,255,240],
+  hotpink:  [255,105,180],
+  indianred:  [205,92,92],
+  indigo: [75,0,130],
+  ivory:  [255,255,240],
+  khaki:  [240,230,140],
+  lavender: [230,230,250],
+  lavenderblush:  [255,240,245],
+  lawngreen:  [124,252,0],
+  lemonchiffon: [255,250,205],
+  lightblue:  [173,216,230],
+  lightcoral: [240,128,128],
+  lightcyan:  [224,255,255],
+  lightgoldenrodyellow: [250,250,210],
+  lightgray:  [211,211,211],
+  lightgreen: [144,238,144],
+  lightgrey:  [211,211,211],
+  lightpink:  [255,182,193],
+  lightsalmon:  [255,160,122],
+  lightseagreen:  [32,178,170],
+  lightskyblue: [135,206,250],
+  lightslategray: [119,136,153],
+  lightslategrey: [119,136,153],
+  lightsteelblue: [176,196,222],
+  lightyellow:  [255,255,224],
+  lime: [0,255,0],
+  limegreen:  [50,205,50],
+  linen:  [250,240,230],
+  magenta:  [255,0,255],
+  maroon: [128,0,0],
+  mediumaquamarine: [102,205,170],
+  mediumblue: [0,0,205],
+  mediumorchid: [186,85,211],
+  mediumpurple: [147,112,219],
+  mediumseagreen: [60,179,113],
+  mediumslateblue:  [123,104,238],
+  mediumspringgreen:  [0,250,154],
+  mediumturquoise:  [72,209,204],
+  mediumvioletred:  [199,21,133],
+  midnightblue: [25,25,112],
+  mintcream:  [245,255,250],
+  mistyrose:  [255,228,225],
+  moccasin: [255,228,181],
+  navajowhite:  [255,222,173],
+  navy: [0,0,128],
+  oldlace:  [253,245,230],
+  olive:  [128,128,0],
+  olivedrab:  [107,142,35],
+  orange: [255,165,0],
+  orangered:  [255,69,0],
+  orchid: [218,112,214],
+  palegoldenrod:  [238,232,170],
+  palegreen:  [152,251,152],
+  paleturquoise:  [175,238,238],
+  palevioletred:  [219,112,147],
+  papayawhip: [255,239,213],
+  peachpuff:  [255,218,185],
+  peru: [205,133,63],
+  pink: [255,192,203],
+  plum: [221,160,221],
+  powderblue: [176,224,230],
+  purple: [128,0,128],
+  rebeccapurple: [102, 51, 153],
+  red:  [255,0,0],
+  rosybrown:  [188,143,143],
+  royalblue:  [65,105,225],
+  saddlebrown:  [139,69,19],
+  salmon: [250,128,114],
+  sandybrown: [244,164,96],
+  seagreen: [46,139,87],
+  seashell: [255,245,238],
+  sienna: [160,82,45],
+  silver: [192,192,192],
+  skyblue:  [135,206,235],
+  slateblue:  [106,90,205],
+  slategray:  [112,128,144],
+  slategrey:  [112,128,144],
+  snow: [255,250,250],
+  springgreen:  [0,255,127],
+  steelblue:  [70,130,180],
+  tan:  [210,180,140],
+  teal: [0,128,128],
+  thistle:  [216,191,216],
+  tomato: [255,99,71],
+  turquoise:  [64,224,208],
+  violet: [238,130,238],
+  wheat:  [245,222,179],
+  white:  [255,255,255],
+  whitesmoke: [245,245,245],
+  yellow: [255,255,0],
+  yellowgreen:  [154,205,50]
+};
+
+var reverseKeywords = {};
+for (var key in cssKeywords) {
+  reverseKeywords[JSON.stringify(cssKeywords[key])] = key;
+}
+
+},{}],56:[function(require,module,exports){
+var conversions = require("./conversions");
+
+var convert = function() {
+   return new Converter();
+}
+
+for (var func in conversions) {
+  // export Raw versions
+  convert[func + "Raw"] =  (function(func) {
+    // accept array or plain args
+    return function(arg) {
+      if (typeof arg == "number")
+        arg = Array.prototype.slice.call(arguments);
+      return conversions[func](arg);
+    }
+  })(func);
+
+  var pair = /(\w+)2(\w+)/.exec(func),
+      from = pair[1],
+      to = pair[2];
+
+  // export rgb2hsl and ["rgb"]["hsl"]
+  convert[from] = convert[from] || {};
+
+  convert[from][to] = convert[func] = (function(func) { 
+    return function(arg) {
+      if (typeof arg == "number")
+        arg = Array.prototype.slice.call(arguments);
+      
+      var val = conversions[func](arg);
+      if (typeof val == "string" || val === undefined)
+        return val; // keyword
+
+      for (var i = 0; i < val.length; i++)
+        val[i] = Math.round(val[i]);
+      return val;
+    }
+  })(func);
+}
+
+
+/* Converter does lazy conversion and caching */
+var Converter = function() {
+   this.convs = {};
+};
+
+/* Either get the values for a space or
+  set the values for a space, depending on args */
+Converter.prototype.routeSpace = function(space, args) {
+   var values = args[0];
+   if (values === undefined) {
+      // color.rgb()
+      return this.getValues(space);
+   }
+   // color.rgb(10, 10, 10)
+   if (typeof values == "number") {
+      values = Array.prototype.slice.call(args);        
+   }
+
+   return this.setValues(space, values);
+};
+  
+/* Set the values for a space, invalidating cache */
+Converter.prototype.setValues = function(space, values) {
+   this.space = space;
+   this.convs = {};
+   this.convs[space] = values;
+   return this;
+};
+
+/* Get the values for a space. If there's already
+  a conversion for the space, fetch it, otherwise
+  compute it */
+Converter.prototype.getValues = function(space) {
+   var vals = this.convs[space];
+   if (!vals) {
+      var fspace = this.space,
+          from = this.convs[fspace];
+      vals = convert[fspace][space](from);
+
+      this.convs[space] = vals;
+   }
+  return vals;
+};
+
+["rgb", "hsl", "hsv", "cmyk", "keyword"].forEach(function(space) {
+   Converter.prototype[space] = function(vals) {
+      return this.routeSpace(space, arguments);
+   }
+});
+
+module.exports = convert;
+},{"./conversions":55}],57:[function(require,module,exports){
+'use strict'
+
+module.exports = {
+	"aliceblue": [240, 248, 255],
+	"antiquewhite": [250, 235, 215],
+	"aqua": [0, 255, 255],
+	"aquamarine": [127, 255, 212],
+	"azure": [240, 255, 255],
+	"beige": [245, 245, 220],
+	"bisque": [255, 228, 196],
+	"black": [0, 0, 0],
+	"blanchedalmond": [255, 235, 205],
+	"blue": [0, 0, 255],
+	"blueviolet": [138, 43, 226],
+	"brown": [165, 42, 42],
+	"burlywood": [222, 184, 135],
+	"cadetblue": [95, 158, 160],
+	"chartreuse": [127, 255, 0],
+	"chocolate": [210, 105, 30],
+	"coral": [255, 127, 80],
+	"cornflowerblue": [100, 149, 237],
+	"cornsilk": [255, 248, 220],
+	"crimson": [220, 20, 60],
+	"cyan": [0, 255, 255],
+	"darkblue": [0, 0, 139],
+	"darkcyan": [0, 139, 139],
+	"darkgoldenrod": [184, 134, 11],
+	"darkgray": [169, 169, 169],
+	"darkgreen": [0, 100, 0],
+	"darkgrey": [169, 169, 169],
+	"darkkhaki": [189, 183, 107],
+	"darkmagenta": [139, 0, 139],
+	"darkolivegreen": [85, 107, 47],
+	"darkorange": [255, 140, 0],
+	"darkorchid": [153, 50, 204],
+	"darkred": [139, 0, 0],
+	"darksalmon": [233, 150, 122],
+	"darkseagreen": [143, 188, 143],
+	"darkslateblue": [72, 61, 139],
+	"darkslategray": [47, 79, 79],
+	"darkslategrey": [47, 79, 79],
+	"darkturquoise": [0, 206, 209],
+	"darkviolet": [148, 0, 211],
+	"deeppink": [255, 20, 147],
+	"deepskyblue": [0, 191, 255],
+	"dimgray": [105, 105, 105],
+	"dimgrey": [105, 105, 105],
+	"dodgerblue": [30, 144, 255],
+	"firebrick": [178, 34, 34],
+	"floralwhite": [255, 250, 240],
+	"forestgreen": [34, 139, 34],
+	"fuchsia": [255, 0, 255],
+	"gainsboro": [220, 220, 220],
+	"ghostwhite": [248, 248, 255],
+	"gold": [255, 215, 0],
+	"goldenrod": [218, 165, 32],
+	"gray": [128, 128, 128],
+	"green": [0, 128, 0],
+	"greenyellow": [173, 255, 47],
+	"grey": [128, 128, 128],
+	"honeydew": [240, 255, 240],
+	"hotpink": [255, 105, 180],
+	"indianred": [205, 92, 92],
+	"indigo": [75, 0, 130],
+	"ivory": [255, 255, 240],
+	"khaki": [240, 230, 140],
+	"lavender": [230, 230, 250],
+	"lavenderblush": [255, 240, 245],
+	"lawngreen": [124, 252, 0],
+	"lemonchiffon": [255, 250, 205],
+	"lightblue": [173, 216, 230],
+	"lightcoral": [240, 128, 128],
+	"lightcyan": [224, 255, 255],
+	"lightgoldenrodyellow": [250, 250, 210],
+	"lightgray": [211, 211, 211],
+	"lightgreen": [144, 238, 144],
+	"lightgrey": [211, 211, 211],
+	"lightpink": [255, 182, 193],
+	"lightsalmon": [255, 160, 122],
+	"lightseagreen": [32, 178, 170],
+	"lightskyblue": [135, 206, 250],
+	"lightslategray": [119, 136, 153],
+	"lightslategrey": [119, 136, 153],
+	"lightsteelblue": [176, 196, 222],
+	"lightyellow": [255, 255, 224],
+	"lime": [0, 255, 0],
+	"limegreen": [50, 205, 50],
+	"linen": [250, 240, 230],
+	"magenta": [255, 0, 255],
+	"maroon": [128, 0, 0],
+	"mediumaquamarine": [102, 205, 170],
+	"mediumblue": [0, 0, 205],
+	"mediumorchid": [186, 85, 211],
+	"mediumpurple": [147, 112, 219],
+	"mediumseagreen": [60, 179, 113],
+	"mediumslateblue": [123, 104, 238],
+	"mediumspringgreen": [0, 250, 154],
+	"mediumturquoise": [72, 209, 204],
+	"mediumvioletred": [199, 21, 133],
+	"midnightblue": [25, 25, 112],
+	"mintcream": [245, 255, 250],
+	"mistyrose": [255, 228, 225],
+	"moccasin": [255, 228, 181],
+	"navajowhite": [255, 222, 173],
+	"navy": [0, 0, 128],
+	"oldlace": [253, 245, 230],
+	"olive": [128, 128, 0],
+	"olivedrab": [107, 142, 35],
+	"orange": [255, 165, 0],
+	"orangered": [255, 69, 0],
+	"orchid": [218, 112, 214],
+	"palegoldenrod": [238, 232, 170],
+	"palegreen": [152, 251, 152],
+	"paleturquoise": [175, 238, 238],
+	"palevioletred": [219, 112, 147],
+	"papayawhip": [255, 239, 213],
+	"peachpuff": [255, 218, 185],
+	"peru": [205, 133, 63],
+	"pink": [255, 192, 203],
+	"plum": [221, 160, 221],
+	"powderblue": [176, 224, 230],
+	"purple": [128, 0, 128],
+	"rebeccapurple": [102, 51, 153],
+	"red": [255, 0, 0],
+	"rosybrown": [188, 143, 143],
+	"royalblue": [65, 105, 225],
+	"saddlebrown": [139, 69, 19],
+	"salmon": [250, 128, 114],
+	"sandybrown": [244, 164, 96],
+	"seagreen": [46, 139, 87],
+	"seashell": [255, 245, 238],
+	"sienna": [160, 82, 45],
+	"silver": [192, 192, 192],
+	"skyblue": [135, 206, 235],
+	"slateblue": [106, 90, 205],
+	"slategray": [112, 128, 144],
+	"slategrey": [112, 128, 144],
+	"snow": [255, 250, 250],
+	"springgreen": [0, 255, 127],
+	"steelblue": [70, 130, 180],
+	"tan": [210, 180, 140],
+	"teal": [0, 128, 128],
+	"thistle": [216, 191, 216],
+	"tomato": [255, 99, 71],
+	"turquoise": [64, 224, 208],
+	"violet": [238, 130, 238],
+	"wheat": [245, 222, 179],
+	"white": [255, 255, 255],
+	"whitesmoke": [245, 245, 245],
+	"yellow": [255, 255, 0],
+	"yellowgreen": [154, 205, 50]
+};
+
+},{}],58:[function(require,module,exports){
+//! moment.js
+
+;(function (global, factory) {
+    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+    typeof define === 'function' && define.amd ? define(factory) :
+    global.moment = factory()
+}(this, (function () { 'use strict';
+
+    var hookCallback;
+
+    function hooks () {
+        return hookCallback.apply(null, arguments);
+    }
+
+    // This is done to register the method called with moment()
+    // without creating circular dependencies.
+    function setHookCallback (callback) {
+        hookCallback = callback;
+    }
+
+    function isArray(input) {
+        return input instanceof Array || Object.prototype.toString.call(input) === '[object Array]';
+    }
+
+    function isObject(input) {
+        // IE8 will treat undefined and null as object if it wasn't for
+        // input != null
+        return input != null && Object.prototype.toString.call(input) === '[object Object]';
+    }
+
+    function isObjectEmpty(obj) {
+        if (Object.getOwnPropertyNames) {
+            return (Object.getOwnPropertyNames(obj).length === 0);
+        } else {
+            var k;
+            for (k in obj) {
+                if (obj.hasOwnProperty(k)) {
+                    return false;
+                }
+            }
+            return true;
+        }
+    }
+
+    function isUndefined(input) {
+        return input === void 0;
+    }
+
+    function isNumber(input) {
+        return typeof input === 'number' || Object.prototype.toString.call(input) === '[object Number]';
+    }
+
+    function isDate(input) {
+        return input instanceof Date || Object.prototype.toString.call(input) === '[object Date]';
+    }
+
+    function map(arr, fn) {
+        var res = [], i;
+        for (i = 0; i < arr.length; ++i) {
+            res.push(fn(arr[i], i));
+        }
+        return res;
+    }
+
+    function hasOwnProp(a, b) {
+        return Object.prototype.hasOwnProperty.call(a, b);
+    }
+
+    function extend(a, b) {
+        for (var i in b) {
+            if (hasOwnProp(b, i)) {
+                a[i] = b[i];
+            }
+        }
+
+        if (hasOwnProp(b, 'toString')) {
+            a.toString = b.toString;
+        }
+
+        if (hasOwnProp(b, 'valueOf')) {
+            a.valueOf = b.valueOf;
+        }
+
+        return a;
+    }
+
+    function createUTC (input, format, locale, strict) {
+        return createLocalOrUTC(input, format, locale, strict, true).utc();
+    }
+
+    function defaultParsingFlags() {
+        // We need to deep clone this object.
+        return {
+            empty           : false,
+            unusedTokens    : [],
+            unusedInput     : [],
+            overflow        : -2,
+            charsLeftOver   : 0,
+            nullInput       : false,
+            invalidMonth    : null,
+            invalidFormat   : false,
+            userInvalidated : false,
+            iso             : false,
+            parsedDateParts : [],
+            meridiem        : null,
+            rfc2822         : false,
+            weekdayMismatch : false
+        };
+    }
+
+    function getParsingFlags(m) {
+        if (m._pf == null) {
+            m._pf = defaultParsingFlags();
+        }
+        return m._pf;
+    }
+
+    var some;
+    if (Array.prototype.some) {
+        some = Array.prototype.some;
+    } else {
+        some = function (fun) {
+            var t = Object(this);
+            var len = t.length >>> 0;
+
+            for (var i = 0; i < len; i++) {
+                if (i in t && fun.call(this, t[i], i, t)) {
+                    return true;
+                }
+            }
+
+            return false;
+        };
+    }
+
+    function isValid(m) {
+        if (m._isValid == null) {
+            var flags = getParsingFlags(m);
+            var parsedParts = some.call(flags.parsedDateParts, function (i) {
+                return i != null;
+            });
+            var isNowValid = !isNaN(m._d.getTime()) &&
+                flags.overflow < 0 &&
+                !flags.empty &&
+                !flags.invalidMonth &&
+                !flags.invalidWeekday &&
+                !flags.weekdayMismatch &&
+                !flags.nullInput &&
+                !flags.invalidFormat &&
+                !flags.userInvalidated &&
+                (!flags.meridiem || (flags.meridiem && parsedParts));
+
+            if (m._strict) {
+                isNowValid = isNowValid &&
+                    flags.charsLeftOver === 0 &&
+                    flags.unusedTokens.length === 0 &&
+                    flags.bigHour === undefined;
+            }
+
+            if (Object.isFrozen == null || !Object.isFrozen(m)) {
+                m._isValid = isNowValid;
+            }
+            else {
+                return isNowValid;
+            }
+        }
+        return m._isValid;
+    }
+
+    function createInvalid (flags) {
+        var m = createUTC(NaN);
+        if (flags != null) {
+            extend(getParsingFlags(m), flags);
+        }
+        else {
+            getParsingFlags(m).userInvalidated = true;
+        }
+
+        return m;
+    }
+
+    // Plugins that add properties should also add the key here (null value),
+    // so we can properly clone ourselves.
+    var momentProperties = hooks.momentProperties = [];
+
+    function copyConfig(to, from) {
+        var i, prop, val;
+
+        if (!isUndefined(from._isAMomentObject)) {
+            to._isAMomentObject = from._isAMomentObject;
+        }
+        if (!isUndefined(from._i)) {
+            to._i = from._i;
+        }
+        if (!isUndefined(from._f)) {
+            to._f = from._f;
+        }
+        if (!isUndefined(from._l)) {
+            to._l = from._l;
+        }
+        if (!isUndefined(from._strict)) {
+            to._strict = from._strict;
+        }
+        if (!isUndefined(from._tzm)) {
+            to._tzm = from._tzm;
+        }
+        if (!isUndefined(from._isUTC)) {
+            to._isUTC = from._isUTC;
+        }
+        if (!isUndefined(from._offset)) {
+            to._offset = from._offset;
+        }
+        if (!isUndefined(from._pf)) {
+            to._pf = getParsingFlags(from);
+        }
+        if (!isUndefined(from._locale)) {
+            to._locale = from._locale;
+        }
+
+        if (momentProperties.length > 0) {
+            for (i = 0; i < momentProperties.length; i++) {
+                prop = momentProperties[i];
+                val = from[prop];
+                if (!isUndefined(val)) {
+                    to[prop] = val;
+                }
+            }
+        }
+
+        return to;
+    }
+
+    var updateInProgress = false;
+
+    // Moment prototype object
+    function Moment(config) {
+        copyConfig(this, config);
+        this._d = new Date(config._d != null ? config._d.getTime() : NaN);
+        if (!this.isValid()) {
+            this._d = new Date(NaN);
+        }
+        // Prevent infinite loop in case updateOffset creates new moment
+        // objects.
+        if (updateInProgress === false) {
+            updateInProgress = true;
+            hooks.updateOffset(this);
+            updateInProgress = false;
+        }
+    }
+
+    function isMoment (obj) {
+        return obj instanceof Moment || (obj != null && obj._isAMomentObject != null);
+    }
+
+    function absFloor (number) {
+        if (number < 0) {
+            // -0 -> 0
+            return Math.ceil(number) || 0;
+        } else {
+            return Math.floor(number);
+        }
+    }
+
+    function toInt(argumentForCoercion) {
+        var coercedNumber = +argumentForCoercion,
+            value = 0;
+
+        if (coercedNumber !== 0 && isFinite(coercedNumber)) {
+            value = absFloor(coercedNumber);
+        }
+
+        return value;
+    }
+
+    // compare two arrays, return the number of differences
+    function compareArrays(array1, array2, dontConvert) {
+        var len = Math.min(array1.length, array2.length),
+            lengthDiff = Math.abs(array1.length - array2.length),
+            diffs = 0,
+            i;
+        for (i = 0; i < len; i++) {
+            if ((dontConvert && array1[i] !== array2[i]) ||
+                (!dontConvert && toInt(array1[i]) !== toInt(array2[i]))) {
+                diffs++;
+            }
+        }
+        return diffs + lengthDiff;
+    }
+
+    function warn(msg) {
+        if (hooks.suppressDeprecationWarnings === false &&
+                (typeof console !==  'undefined') && console.warn) {
+            console.warn('Deprecation warning: ' + msg);
+        }
+    }
+
+    function deprecate(msg, fn) {
+        var firstTime = true;
+
+        return extend(function () {
+            if (hooks.deprecationHandler != null) {
+                hooks.deprecationHandler(null, msg);
+            }
+            if (firstTime) {
+                var args = [];
+                var arg;
+                for (var i = 0; i < arguments.length; i++) {
+                    arg = '';
+                    if (typeof arguments[i] === 'object') {
+                        arg += '\n[' + i + '] ';
+                        for (var key in arguments[0]) {
+                            arg += key + ': ' + arguments[0][key] + ', ';
+                        }
+                        arg = arg.slice(0, -2); // Remove trailing comma and space
+                    } else {
+                        arg = arguments[i];
+                    }
+                    args.push(arg);
+                }
+                warn(msg + '\nArguments: ' + Array.prototype.slice.call(args).join('') + '\n' + (new Error()).stack);
+                firstTime = false;
+            }
+            return fn.apply(this, arguments);
+        }, fn);
+    }
+
+    var deprecations = {};
+
+    function deprecateSimple(name, msg) {
+        if (hooks.deprecationHandler != null) {
+            hooks.deprecationHandler(name, msg);
+        }
+        if (!deprecations[name]) {
+            warn(msg);
+            deprecations[name] = true;
+        }
+    }
+
+    hooks.suppressDeprecationWarnings = false;
+    hooks.deprecationHandler = null;
+
+    function isFunction(input) {
+        return input instanceof Function || Object.prototype.toString.call(input) === '[object Function]';
+    }
+
+    function set (config) {
+        var prop, i;
+        for (i in config) {
+            prop = config[i];
+            if (isFunction(prop)) {
+                this[i] = prop;
+            } else {
+                this['_' + i] = prop;
+            }
+        }
+        this._config = config;
+        // Lenient ordinal parsing accepts just a number in addition to
+        // number + (possibly) stuff coming from _dayOfMonthOrdinalParse.
+        // TODO: Remove "ordinalParse" fallback in next major release.
+        this._dayOfMonthOrdinalParseLenient = new RegExp(
+            (this._dayOfMonthOrdinalParse.source || this._ordinalParse.source) +
+                '|' + (/\d{1,2}/).source);
+    }
+
+    function mergeConfigs(parentConfig, childConfig) {
+        var res = extend({}, parentConfig), prop;
+        for (prop in childConfig) {
+            if (hasOwnProp(childConfig, prop)) {
+                if (isObject(parentConfig[prop]) && isObject(childConfig[prop])) {
+                    res[prop] = {};
+                    extend(res[prop], parentConfig[prop]);
+                    extend(res[prop], childConfig[prop]);
+                } else if (childConfig[prop] != null) {
+                    res[prop] = childConfig[prop];
+                } else {
+                    delete res[prop];
+                }
+            }
+        }
+        for (prop in parentConfig) {
+            if (hasOwnProp(parentConfig, prop) &&
+                    !hasOwnProp(childConfig, prop) &&
+                    isObject(parentConfig[prop])) {
+                // make sure changes to properties don't modify parent config
+                res[prop] = extend({}, res[prop]);
+            }
+        }
+        return res;
+    }
+
+    function Locale(config) {
+        if (config != null) {
+            this.set(config);
+        }
+    }
+
+    var keys;
+
+    if (Object.keys) {
+        keys = Object.keys;
+    } else {
+        keys = function (obj) {
+            var i, res = [];
+            for (i in obj) {
+                if (hasOwnProp(obj, i)) {
+                    res.push(i);
+                }
+            }
+            return res;
+        };
+    }
+
+    var defaultCalendar = {
+        sameDay : '[Today at] LT',
+        nextDay : '[Tomorrow at] LT',
+        nextWeek : 'dddd [at] LT',
+        lastDay : '[Yesterday at] LT',
+        lastWeek : '[Last] dddd [at] LT',
+        sameElse : 'L'
+    };
+
+    function calendar (key, mom, now) {
+        var output = this._calendar[key] || this._calendar['sameElse'];
+        return isFunction(output) ? output.call(mom, now) : output;
+    }
+
+    var defaultLongDateFormat = {
+        LTS  : 'h:mm:ss A',
+        LT   : 'h:mm A',
+        L    : 'MM/DD/YYYY',
+        LL   : 'MMMM D, YYYY',
+        LLL  : 'MMMM D, YYYY h:mm A',
+        LLLL : 'dddd, MMMM D, YYYY h:mm A'
+    };
+
+    function longDateFormat (key) {
+        var format = this._longDateFormat[key],
+            formatUpper = this._longDateFormat[key.toUpperCase()];
+
+        if (format || !formatUpper) {
+            return format;
+        }
+
+        this._longDateFormat[key] = formatUpper.replace(/MMMM|MM|DD|dddd/g, function (val) {
+            return val.slice(1);
+        });
+
+        return this._longDateFormat[key];
+    }
+
+    var defaultInvalidDate = 'Invalid date';
+
+    function invalidDate () {
+        return this._invalidDate;
+    }
+
+    var defaultOrdinal = '%d';
+    var defaultDayOfMonthOrdinalParse = /\d{1,2}/;
+
+    function ordinal (number) {
+        return this._ordinal.replace('%d', number);
+    }
+
+    var defaultRelativeTime = {
+        future : 'in %s',
+        past   : '%s ago',
+        s  : 'a few seconds',
+        ss : '%d seconds',
+        m  : 'a minute',
+        mm : '%d minutes',
+        h  : 'an hour',
+        hh : '%d hours',
+        d  : 'a day',
+        dd : '%d days',
+        M  : 'a month',
+        MM : '%d months',
+        y  : 'a year',
+        yy : '%d years'
+    };
+
+    function relativeTime (number, withoutSuffix, string, isFuture) {
+        var output = this._relativeTime[string];
+        return (isFunction(output)) ?
+            output(number, withoutSuffix, string, isFuture) :
+            output.replace(/%d/i, number);
+    }
+
+    function pastFuture (diff, output) {
+        var format = this._relativeTime[diff > 0 ? 'future' : 'past'];
+        return isFunction(format) ? format(output) : format.replace(/%s/i, output);
+    }
+
+    var aliases = {};
+
+    function addUnitAlias (unit, shorthand) {
+        var lowerCase = unit.toLowerCase();
+        aliases[lowerCase] = aliases[lowerCase + 's'] = aliases[shorthand] = unit;
+    }
+
+    function normalizeUnits(units) {
+        return typeof units === 'string' ? aliases[units] || aliases[units.toLowerCase()] : undefined;
+    }
+
+    function normalizeObjectUnits(inputObject) {
+        var normalizedInput = {},
+            normalizedProp,
+            prop;
+
+        for (prop in inputObject) {
+            if (hasOwnProp(inputObject, prop)) {
+                normalizedProp = normalizeUnits(prop);
+                if (normalizedProp) {
+                    normalizedInput[normalizedProp] = inputObject[prop];
+                }
+            }
+        }
+
+        return normalizedInput;
+    }
+
+    var priorities = {};
+
+    function addUnitPriority(unit, priority) {
+        priorities[unit] = priority;
+    }
+
+    function getPrioritizedUnits(unitsObj) {
+        var units = [];
+        for (var u in unitsObj) {
+            units.push({unit: u, priority: priorities[u]});
+        }
+        units.sort(function (a, b) {
+            return a.priority - b.priority;
+        });
+        return units;
+    }
+
+    function zeroFill(number, targetLength, forceSign) {
+        var absNumber = '' + Math.abs(number),
+            zerosToFill = targetLength - absNumber.length,
+            sign = number >= 0;
+        return (sign ? (forceSign ? '+' : '') : '-') +
+            Math.pow(10, Math.max(0, zerosToFill)).toString().substr(1) + absNumber;
+    }
+
+    var formattingTokens = /(\[[^\[]*\])|(\\)?([Hh]mm(ss)?|Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|Qo?|YYYYYY|YYYYY|YYYY|YY|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|kk?|mm?|ss?|S{1,9}|x|X|zz?|ZZ?|.)/g;
+
+    var localFormattingTokens = /(\[[^\[]*\])|(\\)?(LTS|LT|LL?L?L?|l{1,4})/g;
+
+    var formatFunctions = {};
+
+    var formatTokenFunctions = {};
+
+    // token:    'M'
+    // padded:   ['MM', 2]
+    // ordinal:  'Mo'
+    // callback: function () { this.month() + 1 }
+    function addFormatToken (token, padded, ordinal, callback) {
+        var func = callback;
+        if (typeof callback === 'string') {
+            func = function () {
+                return this[callback]();
+            };
+        }
+        if (token) {
+            formatTokenFunctions[token] = func;
+        }
+        if (padded) {
+            formatTokenFunctions[padded[0]] = function () {
+                return zeroFill(func.apply(this, arguments), padded[1], padded[2]);
+            };
+        }
+        if (ordinal) {
+            formatTokenFunctions[ordinal] = function () {
+                return this.localeData().ordinal(func.apply(this, arguments), token);
+            };
+        }
+    }
+
+    function removeFormattingTokens(input) {
+        if (input.match(/\[[\s\S]/)) {
+            return input.replace(/^\[|\]$/g, '');
+        }
+        return input.replace(/\\/g, '');
+    }
+
+    function makeFormatFunction(format) {
+        var array = format.match(formattingTokens), i, length;
+
+        for (i = 0, length = array.length; i < length; i++) {
+            if (formatTokenFunctions[array[i]]) {
+                array[i] = formatTokenFunctions[array[i]];
+            } else {
+                array[i] = removeFormattingTokens(array[i]);
+            }
+        }
+
+        return function (mom) {
+            var output = '', i;
+            for (i = 0; i < length; i++) {
+                output += isFunction(array[i]) ? array[i].call(mom, format) : array[i];
+            }
+            return output;
+        };
+    }
+
+    // format date using native date object
+    function formatMoment(m, format) {
+        if (!m.isValid()) {
+            return m.localeData().invalidDate();
+        }
+
+        format = expandFormat(format, m.localeData());
+        formatFunctions[format] = formatFunctions[format] || makeFormatFunction(format);
+
+        return formatFunctions[format](m);
+    }
+
+    function expandFormat(format, locale) {
+        var i = 5;
+
+        function replaceLongDateFormatTokens(input) {
+            return locale.longDateFormat(input) || input;
+        }
+
+        localFormattingTokens.lastIndex = 0;
+        while (i >= 0 && localFormattingTokens.test(format)) {
+            format = format.replace(localFormattingTokens, replaceLongDateFormatTokens);
+            localFormattingTokens.lastIndex = 0;
+            i -= 1;
+        }
+
+        return format;
+    }
+
+    var match1         = /\d/;            //       0 - 9
+    var match2         = /\d\d/;          //      00 - 99
+    var match3         = /\d{3}/;         //     000 - 999
+    var match4         = /\d{4}/;         //    0000 - 9999
+    var match6         = /[+-]?\d{6}/;    // -999999 - 999999
+    var match1to2      = /\d\d?/;         //       0 - 99
+    var match3to4      = /\d\d\d\d?/;     //     999 - 9999
+    var match5to6      = /\d\d\d\d\d\d?/; //   99999 - 999999
+    var match1to3      = /\d{1,3}/;       //       0 - 999
+    var match1to4      = /\d{1,4}/;       //       0 - 9999
+    var match1to6      = /[+-]?\d{1,6}/;  // -999999 - 999999
+
+    var matchUnsigned  = /\d+/;           //       0 - inf
+    var matchSigned    = /[+-]?\d+/;      //    -inf - inf
+
+    var matchOffset    = /Z|[+-]\d\d:?\d\d/gi; // +00:00 -00:00 +0000 -0000 or Z
+    var matchShortOffset = /Z|[+-]\d\d(?::?\d\d)?/gi; // +00 -00 +00:00 -00:00 +0000 -0000 or Z
+
+    var matchTimestamp = /[+-]?\d+(\.\d{1,3})?/; // 123456789 123456789.123
+
+    // any word (or two) characters or numbers including two/three word month in arabic.
+    // includes scottish gaelic two word and hyphenated months
+    var matchWord = /[0-9]{0,256}['a-z\u00A0-\u05FF\u0700-\uD7FF\uF900-\uFDCF\uFDF0-\uFF07\uFF10-\uFFEF]{1,256}|[\u0600-\u06FF\/]{1,256}(\s*?[\u0600-\u06FF]{1,256}){1,2}/i;
+
+    var regexes = {};
+
+    function addRegexToken (token, regex, strictRegex) {
+        regexes[token] = isFunction(regex) ? regex : function (isStrict, localeData) {
+            return (isStrict && strictRegex) ? strictRegex : regex;
+        };
+    }
+
+    function getParseRegexForToken (token, config) {
+        if (!hasOwnProp(regexes, token)) {
+            return new RegExp(unescapeFormat(token));
+        }
+
+        return regexes[token](config._strict, config._locale);
+    }
+
+    // Code from http://stackoverflow.com/questions/3561493/is-there-a-regexp-escape-function-in-javascript
+    function unescapeFormat(s) {
+        return regexEscape(s.replace('\\', '').replace(/\\(\[)|\\(\])|\[([^\]\[]*)\]|\\(.)/g, function (matched, p1, p2, p3, p4) {
+            return p1 || p2 || p3 || p4;
+        }));
+    }
+
+    function regexEscape(s) {
+        return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+    }
+
+    var tokens = {};
+
+    function addParseToken (token, callback) {
+        var i, func = callback;
+        if (typeof token === 'string') {
+            token = [token];
+        }
+        if (isNumber(callback)) {
+            func = function (input, array) {
+                array[callback] = toInt(input);
+            };
+        }
+        for (i = 0; i < token.length; i++) {
+            tokens[token[i]] = func;
+        }
+    }
+
+    function addWeekParseToken (token, callback) {
+        addParseToken(token, function (input, array, config, token) {
+            config._w = config._w || {};
+            callback(input, config._w, config, token);
+        });
+    }
+
+    function addTimeToArrayFromToken(token, input, config) {
+        if (input != null && hasOwnProp(tokens, token)) {
+            tokens[token](input, config._a, config, token);
+        }
+    }
+
+    var YEAR = 0;
+    var MONTH = 1;
+    var DATE = 2;
+    var HOUR = 3;
+    var MINUTE = 4;
+    var SECOND = 5;
+    var MILLISECOND = 6;
+    var WEEK = 7;
+    var WEEKDAY = 8;
+
+    // FORMATTING
+
+    addFormatToken('Y', 0, 0, function () {
+        var y = this.year();
+        return y <= 9999 ? '' + y : '+' + y;
+    });
+
+    addFormatToken(0, ['YY', 2], 0, function () {
+        return this.year() % 100;
+    });
+
+    addFormatToken(0, ['YYYY',   4],       0, 'year');
+    addFormatToken(0, ['YYYYY',  5],       0, 'year');
+    addFormatToken(0, ['YYYYYY', 6, true], 0, 'year');
+
+    // ALIASES
+
+    addUnitAlias('year', 'y');
+
+    // PRIORITIES
+
+    addUnitPriority('year', 1);
+
+    // PARSING
+
+    addRegexToken('Y',      matchSigned);
+    addRegexToken('YY',     match1to2, match2);
+    addRegexToken('YYYY',   match1to4, match4);
+    addRegexToken('YYYYY',  match1to6, match6);
+    addRegexToken('YYYYYY', match1to6, match6);
+
+    addParseToken(['YYYYY', 'YYYYYY'], YEAR);
+    addParseToken('YYYY', function (input, array) {
+        array[YEAR] = input.length === 2 ? hooks.parseTwoDigitYear(input) : toInt(input);
+    });
+    addParseToken('YY', function (input, array) {
+        array[YEAR] = hooks.parseTwoDigitYear(input);
+    });
+    addParseToken('Y', function (input, array) {
+        array[YEAR] = parseInt(input, 10);
+    });
+
+    // HELPERS
+
+    function daysInYear(year) {
+        return isLeapYear(year) ? 366 : 365;
+    }
+
+    function isLeapYear(year) {
+        return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
+    }
+
+    // HOOKS
+
+    hooks.parseTwoDigitYear = function (input) {
+        return toInt(input) + (toInt(input) > 68 ? 1900 : 2000);
+    };
+
+    // MOMENTS
+
+    var getSetYear = makeGetSet('FullYear', true);
+
+    function getIsLeapYear () {
+        return isLeapYear(this.year());
+    }
+
+    function makeGetSet (unit, keepTime) {
+        return function (value) {
+            if (value != null) {
+                set$1(this, unit, value);
+                hooks.updateOffset(this, keepTime);
+                return this;
+            } else {
+                return get(this, unit);
+            }
+        };
+    }
+
+    function get (mom, unit) {
+        return mom.isValid() ?
+            mom._d['get' + (mom._isUTC ? 'UTC' : '') + unit]() : NaN;
+    }
+
+    function set$1 (mom, unit, value) {
+        if (mom.isValid() && !isNaN(value)) {
+            if (unit === 'FullYear' && isLeapYear(mom.year()) && mom.month() === 1 && mom.date() === 29) {
+                mom._d['set' + (mom._isUTC ? 'UTC' : '') + unit](value, mom.month(), daysInMonth(value, mom.month()));
+            }
+            else {
+                mom._d['set' + (mom._isUTC ? 'UTC' : '') + unit](value);
+            }
+        }
+    }
+
+    // MOMENTS
+
+    function stringGet (units) {
+        units = normalizeUnits(units);
+        if (isFunction(this[units])) {
+            return this[units]();
+        }
+        return this;
+    }
+
+
+    function stringSet (units, value) {
+        if (typeof units === 'object') {
+            units = normalizeObjectUnits(units);
+            var prioritized = getPrioritizedUnits(units);
+            for (var i = 0; i < prioritized.length; i++) {
+                this[prioritized[i].unit](units[prioritized[i].unit]);
+            }
+        } else {
+            units = normalizeUnits(units);
+            if (isFunction(this[units])) {
+                return this[units](value);
+            }
+        }
+        return this;
+    }
+
+    function mod(n, x) {
+        return ((n % x) + x) % x;
+    }
+
+    var indexOf;
+
+    if (Array.prototype.indexOf) {
+        indexOf = Array.prototype.indexOf;
+    } else {
+        indexOf = function (o) {
+            // I know
+            var i;
+            for (i = 0; i < this.length; ++i) {
+                if (this[i] === o) {
+                    return i;
+                }
+            }
+            return -1;
+        };
+    }
+
+    function daysInMonth(year, month) {
+        if (isNaN(year) || isNaN(month)) {
+            return NaN;
+        }
+        var modMonth = mod(month, 12);
+        year += (month - modMonth) / 12;
+        return modMonth === 1 ? (isLeapYear(year) ? 29 : 28) : (31 - modMonth % 7 % 2);
+    }
+
+    // FORMATTING
+
+    addFormatToken('M', ['MM', 2], 'Mo', function () {
+        return this.month() + 1;
+    });
+
+    addFormatToken('MMM', 0, 0, function (format) {
+        return this.localeData().monthsShort(this, format);
+    });
+
+    addFormatToken('MMMM', 0, 0, function (format) {
+        return this.localeData().months(this, format);
+    });
+
+    // ALIASES
+
+    addUnitAlias('month', 'M');
+
+    // PRIORITY
+
+    addUnitPriority('month', 8);
+
+    // PARSING
+
+    addRegexToken('M',    match1to2);
+    addRegexToken('MM',   match1to2, match2);
+    addRegexToken('MMM',  function (isStrict, locale) {
+        return locale.monthsShortRegex(isStrict);
+    });
+    addRegexToken('MMMM', function (isStrict, locale) {
+        return locale.monthsRegex(isStrict);
+    });
+
+    addParseToken(['M', 'MM'], function (input, array) {
+        array[MONTH] = toInt(input) - 1;
+    });
+
+    addParseToken(['MMM', 'MMMM'], function (input, array, config, token) {
+        var month = config._locale.monthsParse(input, token, config._strict);
+        // if we didn't find a month name, mark the date as invalid.
+        if (month != null) {
+            array[MONTH] = month;
+        } else {
+            getParsingFlags(config).invalidMonth = input;
+        }
+    });
+
+    // LOCALES
+
+    var MONTHS_IN_FORMAT = /D[oD]?(\[[^\[\]]*\]|\s)+MMMM?/;
+    var defaultLocaleMonths = 'January_February_March_April_May_June_July_August_September_October_November_December'.split('_');
+    function localeMonths (m, format) {
+        if (!m) {
+            return isArray(this._months) ? this._months :
+                this._months['standalone'];
+        }
+        return isArray(this._months) ? this._months[m.month()] :
+            this._months[(this._months.isFormat || MONTHS_IN_FORMAT).test(format) ? 'format' : 'standalone'][m.month()];
+    }
+
+    var defaultLocaleMonthsShort = 'Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Oct_Nov_Dec'.split('_');
+    function localeMonthsShort (m, format) {
+        if (!m) {
+            return isArray(this._monthsShort) ? this._monthsShort :
+                this._monthsShort['standalone'];
+        }
+        return isArray(this._monthsShort) ? this._monthsShort[m.month()] :
+            this._monthsShort[MONTHS_IN_FORMAT.test(format) ? 'format' : 'standalone'][m.month()];
+    }
+
+    function handleStrictParse(monthName, format, strict) {
+        var i, ii, mom, llc = monthName.toLocaleLowerCase();
+        if (!this._monthsParse) {
+            // this is not used
+            this._monthsParse = [];
+            this._longMonthsParse = [];
+            this._shortMonthsParse = [];
+            for (i = 0; i < 12; ++i) {
+                mom = createUTC([2000, i]);
+                this._shortMonthsParse[i] = this.monthsShort(mom, '').toLocaleLowerCase();
+                this._longMonthsParse[i] = this.months(mom, '').toLocaleLowerCase();
+            }
+        }
+
+        if (strict) {
+            if (format === 'MMM') {
+                ii = indexOf.call(this._shortMonthsParse, llc);
+                return ii !== -1 ? ii : null;
+            } else {
+                ii = indexOf.call(this._longMonthsParse, llc);
+                return ii !== -1 ? ii : null;
+            }
+        } else {
+            if (format === 'MMM') {
+                ii = indexOf.call(this._shortMonthsParse, llc);
+                if (ii !== -1) {
+                    return ii;
+                }
+                ii = indexOf.call(this._longMonthsParse, llc);
+                return ii !== -1 ? ii : null;
+            } else {
+                ii = indexOf.call(this._longMonthsParse, llc);
+                if (ii !== -1) {
+                    return ii;
+                }
+                ii = indexOf.call(this._shortMonthsParse, llc);
+                return ii !== -1 ? ii : null;
+            }
+        }
+    }
+
+    function localeMonthsParse (monthName, format, strict) {
+        var i, mom, regex;
+
+        if (this._monthsParseExact) {
+            return handleStrictParse.call(this, monthName, format, strict);
+        }
+
+        if (!this._monthsParse) {
+            this._monthsParse = [];
+            this._longMonthsParse = [];
+            this._shortMonthsParse = [];
+        }
+
+        // TODO: add sorting
+        // Sorting makes sure if one month (or abbr) is a prefix of another
+        // see sorting in computeMonthsParse
+        for (i = 0; i < 12; i++) {
+            // make the regex if we don't have it already
+            mom = createUTC([2000, i]);
+            if (strict && !this._longMonthsParse[i]) {
+                this._longMonthsParse[i] = new RegExp('^' + this.months(mom, '').replace('.', '') + '$', 'i');
+                this._shortMonthsParse[i] = new RegExp('^' + this.monthsShort(mom, '').replace('.', '') + '$', 'i');
+            }
+            if (!strict && !this._monthsParse[i]) {
+                regex = '^' + this.months(mom, '') + '|^' + this.monthsShort(mom, '');
+                this._monthsParse[i] = new RegExp(regex.replace('.', ''), 'i');
+            }
+            // test the regex
+            if (strict && format === 'MMMM' && this._longMonthsParse[i].test(monthName)) {
+                return i;
+            } else if (strict && format === 'MMM' && this._shortMonthsParse[i].test(monthName)) {
+                return i;
+            } else if (!strict && this._monthsParse[i].test(monthName)) {
+                return i;
+            }
+        }
+    }
+
+    // MOMENTS
+
+    function setMonth (mom, value) {
+        var dayOfMonth;
+
+        if (!mom.isValid()) {
+            // No op
+            return mom;
+        }
+
+        if (typeof value === 'string') {
+            if (/^\d+$/.test(value)) {
+                value = toInt(value);
+            } else {
+                value = mom.localeData().monthsParse(value);
+                // TODO: Another silent failure?
+                if (!isNumber(value)) {
+                    return mom;
+                }
+            }
+        }
+
+        dayOfMonth = Math.min(mom.date(), daysInMonth(mom.year(), value));
+        mom._d['set' + (mom._isUTC ? 'UTC' : '') + 'Month'](value, dayOfMonth);
+        return mom;
+    }
+
+    function getSetMonth (value) {
+        if (value != null) {
+            setMonth(this, value);
+            hooks.updateOffset(this, true);
+            return this;
+        } else {
+            return get(this, 'Month');
+        }
+    }
+
+    function getDaysInMonth () {
+        return daysInMonth(this.year(), this.month());
+    }
+
+    var defaultMonthsShortRegex = matchWord;
+    function monthsShortRegex (isStrict) {
+        if (this._monthsParseExact) {
+            if (!hasOwnProp(this, '_monthsRegex')) {
+                computeMonthsParse.call(this);
+            }
+            if (isStrict) {
+                return this._monthsShortStrictRegex;
+            } else {
+                return this._monthsShortRegex;
+            }
+        } else {
+            if (!hasOwnProp(this, '_monthsShortRegex')) {
+                this._monthsShortRegex = defaultMonthsShortRegex;
+            }
+            return this._monthsShortStrictRegex && isStrict ?
+                this._monthsShortStrictRegex : this._monthsShortRegex;
+        }
+    }
+
+    var defaultMonthsRegex = matchWord;
+    function monthsRegex (isStrict) {
+        if (this._monthsParseExact) {
+            if (!hasOwnProp(this, '_monthsRegex')) {
+                computeMonthsParse.call(this);
+            }
+            if (isStrict) {
+                return this._monthsStrictRegex;
+            } else {
+                return this._monthsRegex;
+            }
+        } else {
+            if (!hasOwnProp(this, '_monthsRegex')) {
+                this._monthsRegex = defaultMonthsRegex;
+            }
+            return this._monthsStrictRegex && isStrict ?
+                this._monthsStrictRegex : this._monthsRegex;
+        }
+    }
+
+    function computeMonthsParse () {
+        function cmpLenRev(a, b) {
+            return b.length - a.length;
+        }
+
+        var shortPieces = [], longPieces = [], mixedPieces = [],
+            i, mom;
+        for (i = 0; i < 12; i++) {
+            // make the regex if we don't have it already
+            mom = createUTC([2000, i]);
+            shortPieces.push(this.monthsShort(mom, ''));
+            longPieces.push(this.months(mom, ''));
+            mixedPieces.push(this.months(mom, ''));
+            mixedPieces.push(this.monthsShort(mom, ''));
+        }
+        // Sorting makes sure if one month (or abbr) is a prefix of another it
+        // will match the longer piece.
+        shortPieces.sort(cmpLenRev);
+        longPieces.sort(cmpLenRev);
+        mixedPieces.sort(cmpLenRev);
+        for (i = 0; i < 12; i++) {
+            shortPieces[i] = regexEscape(shortPieces[i]);
+            longPieces[i] = regexEscape(longPieces[i]);
+        }
+        for (i = 0; i < 24; i++) {
+            mixedPieces[i] = regexEscape(mixedPieces[i]);
+        }
+
+        this._monthsRegex = new RegExp('^(' + mixedPieces.join('|') + ')', 'i');
+        this._monthsShortRegex = this._monthsRegex;
+        this._monthsStrictRegex = new RegExp('^(' + longPieces.join('|') + ')', 'i');
+        this._monthsShortStrictRegex = new RegExp('^(' + shortPieces.join('|') + ')', 'i');
+    }
+
+    function createDate (y, m, d, h, M, s, ms) {
+        // can't just apply() to create a date:
+        // https://stackoverflow.com/q/181348
+        var date = new Date(y, m, d, h, M, s, ms);
+
+        // the date constructor remaps years 0-99 to 1900-1999
+        if (y < 100 && y >= 0 && isFinite(date.getFullYear())) {
+            date.setFullYear(y);
+        }
+        return date;
+    }
+
+    function createUTCDate (y) {
+        var date = new Date(Date.UTC.apply(null, arguments));
+
+        // the Date.UTC function remaps years 0-99 to 1900-1999
+        if (y < 100 && y >= 0 && isFinite(date.getUTCFullYear())) {
+            date.setUTCFullYear(y);
+        }
+        return date;
+    }
+
+    // start-of-first-week - start-of-year
+    function firstWeekOffset(year, dow, doy) {
+        var // first-week day -- which january is always in the first week (4 for iso, 1 for other)
+            fwd = 7 + dow - doy,
+            // first-week day local weekday -- which local weekday is fwd
+            fwdlw = (7 + createUTCDate(year, 0, fwd).getUTCDay() - dow) % 7;
+
+        return -fwdlw + fwd - 1;
+    }
+
+    // https://en.wikipedia.org/wiki/ISO_week_date#Calculating_a_date_given_the_year.2C_week_number_and_weekday
+    function dayOfYearFromWeeks(year, week, weekday, dow, doy) {
+        var localWeekday = (7 + weekday - dow) % 7,
+            weekOffset = firstWeekOffset(year, dow, doy),
+            dayOfYear = 1 + 7 * (week - 1) + localWeekday + weekOffset,
+            resYear, resDayOfYear;
+
+        if (dayOfYear <= 0) {
+            resYear = year - 1;
+            resDayOfYear = daysInYear(resYear) + dayOfYear;
+        } else if (dayOfYear > daysInYear(year)) {
+            resYear = year + 1;
+            resDayOfYear = dayOfYear - daysInYear(year);
+        } else {
+            resYear = year;
+            resDayOfYear = dayOfYear;
+        }
+
+        return {
+            year: resYear,
+            dayOfYear: resDayOfYear
+        };
+    }
+
+    function weekOfYear(mom, dow, doy) {
+        var weekOffset = firstWeekOffset(mom.year(), dow, doy),
+            week = Math.floor((mom.dayOfYear() - weekOffset - 1) / 7) + 1,
+            resWeek, resYear;
+
+        if (week < 1) {
+            resYear = mom.year() - 1;
+            resWeek = week + weeksInYear(resYear, dow, doy);
+        } else if (week > weeksInYear(mom.year(), dow, doy)) {
+            resWeek = week - weeksInYear(mom.year(), dow, doy);
+            resYear = mom.year() + 1;
+        } else {
+            resYear = mom.year();
+            resWeek = week;
+        }
+
+        return {
+            week: resWeek,
+            year: resYear
+        };
+    }
+
+    function weeksInYear(year, dow, doy) {
+        var weekOffset = firstWeekOffset(year, dow, doy),
+            weekOffsetNext = firstWeekOffset(year + 1, dow, doy);
+        return (daysInYear(year) - weekOffset + weekOffsetNext) / 7;
+    }
+
+    // FORMATTING
+
+    addFormatToken('w', ['ww', 2], 'wo', 'week');
+    addFormatToken('W', ['WW', 2], 'Wo', 'isoWeek');
+
+    // ALIASES
+
+    addUnitAlias('week', 'w');
+    addUnitAlias('isoWeek', 'W');
+
+    // PRIORITIES
+
+    addUnitPriority('week', 5);
+    addUnitPriority('isoWeek', 5);
+
+    // PARSING
+
+    addRegexToken('w',  match1to2);
+    addRegexToken('ww', match1to2, match2);
+    addRegexToken('W',  match1to2);
+    addRegexToken('WW', match1to2, match2);
+
+    addWeekParseToken(['w', 'ww', 'W', 'WW'], function (input, week, config, token) {
+        week[token.substr(0, 1)] = toInt(input);
+    });
+
+    // HELPERS
+
+    // LOCALES
+
+    function localeWeek (mom) {
+        return weekOfYear(mom, this._week.dow, this._week.doy).week;
+    }
+
+    var defaultLocaleWeek = {
+        dow : 0, // Sunday is the first day of the week.
+        doy : 6  // The week that contains Jan 1st is the first week of the year.
+    };
+
+    function localeFirstDayOfWeek () {
+        return this._week.dow;
+    }
+
+    function localeFirstDayOfYear () {
+        return this._week.doy;
+    }
+
+    // MOMENTS
+
+    function getSetWeek (input) {
+        var week = this.localeData().week(this);
+        return input == null ? week : this.add((input - week) * 7, 'd');
+    }
+
+    function getSetISOWeek (input) {
+        var week = weekOfYear(this, 1, 4).week;
+        return input == null ? week : this.add((input - week) * 7, 'd');
+    }
+
+    // FORMATTING
+
+    addFormatToken('d', 0, 'do', 'day');
+
+    addFormatToken('dd', 0, 0, function (format) {
+        return this.localeData().weekdaysMin(this, format);
+    });
+
+    addFormatToken('ddd', 0, 0, function (format) {
+        return this.localeData().weekdaysShort(this, format);
+    });
+
+    addFormatToken('dddd', 0, 0, function (format) {
+        return this.localeData().weekdays(this, format);
+    });
+
+    addFormatToken('e', 0, 0, 'weekday');
+    addFormatToken('E', 0, 0, 'isoWeekday');
+
+    // ALIASES
+
+    addUnitAlias('day', 'd');
+    addUnitAlias('weekday', 'e');
+    addUnitAlias('isoWeekday', 'E');
+
+    // PRIORITY
+    addUnitPriority('day', 11);
+    addUnitPriority('weekday', 11);
+    addUnitPriority('isoWeekday', 11);
+
+    // PARSING
+
+    addRegexToken('d',    match1to2);
+    addRegexToken('e',    match1to2);
+    addRegexToken('E',    match1to2);
+    addRegexToken('dd',   function (isStrict, locale) {
+        return locale.weekdaysMinRegex(isStrict);
+    });
+    addRegexToken('ddd',   function (isStrict, locale) {
+        return locale.weekdaysShortRegex(isStrict);
+    });
+    addRegexToken('dddd',   function (isStrict, locale) {
+        return locale.weekdaysRegex(isStrict);
+    });
+
+    addWeekParseToken(['dd', 'ddd', 'dddd'], function (input, week, config, token) {
+        var weekday = config._locale.weekdaysParse(input, token, config._strict);
+        // if we didn't get a weekday name, mark the date as invalid
+        if (weekday != null) {
+            week.d = weekday;
+        } else {
+            getParsingFlags(config).invalidWeekday = input;
+        }
+    });
+
+    addWeekParseToken(['d', 'e', 'E'], function (input, week, config, token) {
+        week[token] = toInt(input);
+    });
+
+    // HELPERS
+
+    function parseWeekday(input, locale) {
+        if (typeof input !== 'string') {
+            return input;
+        }
+
+        if (!isNaN(input)) {
+            return parseInt(input, 10);
+        }
+
+        input = locale.weekdaysParse(input);
+        if (typeof input === 'number') {
+            return input;
+        }
+
+        return null;
+    }
+
+    function parseIsoWeekday(input, locale) {
+        if (typeof input === 'string') {
+            return locale.weekdaysParse(input) % 7 || 7;
+        }
+        return isNaN(input) ? null : input;
+    }
+
+    // LOCALES
+
+    var defaultLocaleWeekdays = 'Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday'.split('_');
+    function localeWeekdays (m, format) {
+        if (!m) {
+            return isArray(this._weekdays) ? this._weekdays :
+                this._weekdays['standalone'];
+        }
+        return isArray(this._weekdays) ? this._weekdays[m.day()] :
+            this._weekdays[this._weekdays.isFormat.test(format) ? 'format' : 'standalone'][m.day()];
+    }
+
+    var defaultLocaleWeekdaysShort = 'Sun_Mon_Tue_Wed_Thu_Fri_Sat'.split('_');
+    function localeWeekdaysShort (m) {
+        return (m) ? this._weekdaysShort[m.day()] : this._weekdaysShort;
+    }
+
+    var defaultLocaleWeekdaysMin = 'Su_Mo_Tu_We_Th_Fr_Sa'.split('_');
+    function localeWeekdaysMin (m) {
+        return (m) ? this._weekdaysMin[m.day()] : this._weekdaysMin;
+    }
+
+    function handleStrictParse$1(weekdayName, format, strict) {
+        var i, ii, mom, llc = weekdayName.toLocaleLowerCase();
+        if (!this._weekdaysParse) {
+            this._weekdaysParse = [];
+            this._shortWeekdaysParse = [];
+            this._minWeekdaysParse = [];
+
+            for (i = 0; i < 7; ++i) {
+                mom = createUTC([2000, 1]).day(i);
+                this._minWeekdaysParse[i] = this.weekdaysMin(mom, '').toLocaleLowerCase();
+                this._shortWeekdaysParse[i] = this.weekdaysShort(mom, '').toLocaleLowerCase();
+                this._weekdaysParse[i] = this.weekdays(mom, '').toLocaleLowerCase();
+            }
+        }
+
+        if (strict) {
+            if (format === 'dddd') {
+                ii = indexOf.call(this._weekdaysParse, llc);
+                return ii !== -1 ? ii : null;
+            } else if (format === 'ddd') {
+                ii = indexOf.call(this._shortWeekdaysParse, llc);
+                return ii !== -1 ? ii : null;
+            } else {
+                ii = indexOf.call(this._minWeekdaysParse, llc);
+                return ii !== -1 ? ii : null;
+            }
+        } else {
+            if (format === 'dddd') {
+                ii = indexOf.call(this._weekdaysParse, llc);
+                if (ii !== -1) {
+                    return ii;
+                }
+                ii = indexOf.call(this._shortWeekdaysParse, llc);
+                if (ii !== -1) {
+                    return ii;
+                }
+                ii = indexOf.call(this._minWeekdaysParse, llc);
+                return ii !== -1 ? ii : null;
+            } else if (format === 'ddd') {
+                ii = indexOf.call(this._shortWeekdaysParse, llc);
+                if (ii !== -1) {
+                    return ii;
+                }
+                ii = indexOf.call(this._weekdaysParse, llc);
+                if (ii !== -1) {
+                    return ii;
+                }
+                ii = indexOf.call(this._minWeekdaysParse, llc);
+                return ii !== -1 ? ii : null;
+            } else {
+                ii = indexOf.call(this._minWeekdaysParse, llc);
+                if (ii !== -1) {
+                    return ii;
+                }
+                ii = indexOf.call(this._weekdaysParse, llc);
+                if (ii !== -1) {
+                    return ii;
+                }
+                ii = indexOf.call(this._shortWeekdaysParse, llc);
+                return ii !== -1 ? ii : null;
+            }
+        }
+    }
+
+    function localeWeekdaysParse (weekdayName, format, strict) {
+        var i, mom, regex;
+
+        if (this._weekdaysParseExact) {
+            return handleStrictParse$1.call(this, weekdayName, format, strict);
+        }
+
+        if (!this._weekdaysParse) {
+            this._weekdaysParse = [];
+            this._minWeekdaysParse = [];
+            this._shortWeekdaysParse = [];
+            this._fullWeekdaysParse = [];
+        }
+
+        for (i = 0; i < 7; i++) {
+            // make the regex if we don't have it already
+
+            mom = createUTC([2000, 1]).day(i);
+            if (strict && !this._fullWeekdaysParse[i]) {
+                this._fullWeekdaysParse[i] = new RegExp('^' + this.weekdays(mom, '').replace('.', '\\.?') + '$', 'i');
+                this._shortWeekdaysParse[i] = new RegExp('^' + this.weekdaysShort(mom, '').replace('.', '\\.?') + '$', 'i');
+                this._minWeekdaysParse[i] = new RegExp('^' + this.weekdaysMin(mom, '').replace('.', '\\.?') + '$', 'i');
+            }
+            if (!this._weekdaysParse[i]) {
+                regex = '^' + this.weekdays(mom, '') + '|^' + this.weekdaysShort(mom, '') + '|^' + this.weekdaysMin(mom, '');
+                this._weekdaysParse[i] = new RegExp(regex.replace('.', ''), 'i');
+            }
+            // test the regex
+            if (strict && format === 'dddd' && this._fullWeekdaysParse[i].test(weekdayName)) {
+                return i;
+            } else if (strict && format === 'ddd' && this._shortWeekdaysParse[i].test(weekdayName)) {
+                return i;
+            } else if (strict && format === 'dd' && this._minWeekdaysParse[i].test(weekdayName)) {
+                return i;
+            } else if (!strict && this._weekdaysParse[i].test(weekdayName)) {
+                return i;
+            }
+        }
+    }
+
+    // MOMENTS
+
+    function getSetDayOfWeek (input) {
+        if (!this.isValid()) {
+            return input != null ? this : NaN;
+        }
+        var day = this._isUTC ? this._d.getUTCDay() : this._d.getDay();
+        if (input != null) {
+            input = parseWeekday(input, this.localeData());
+            return this.add(input - day, 'd');
+        } else {
+            return day;
+        }
+    }
+
+    function getSetLocaleDayOfWeek (input) {
+        if (!this.isValid()) {
+            return input != null ? this : NaN;
+        }
+        var weekday = (this.day() + 7 - this.localeData()._week.dow) % 7;
+        return input == null ? weekday : this.add(input - weekday, 'd');
+    }
+
+    function getSetISODayOfWeek (input) {
+        if (!this.isValid()) {
+            return input != null ? this : NaN;
+        }
+
+        // behaves the same as moment#day except
+        // as a getter, returns 7 instead of 0 (1-7 range instead of 0-6)
+        // as a setter, sunday should belong to the previous week.
+
+        if (input != null) {
+            var weekday = parseIsoWeekday(input, this.localeData());
+            return this.day(this.day() % 7 ? weekday : weekday - 7);
+        } else {
+            return this.day() || 7;
+        }
+    }
+
+    var defaultWeekdaysRegex = matchWord;
+    function weekdaysRegex (isStrict) {
+        if (this._weekdaysParseExact) {
+            if (!hasOwnProp(this, '_weekdaysRegex')) {
+                computeWeekdaysParse.call(this);
+            }
+            if (isStrict) {
+                return this._weekdaysStrictRegex;
+            } else {
+                return this._weekdaysRegex;
+            }
+        } else {
+            if (!hasOwnProp(this, '_weekdaysRegex')) {
+                this._weekdaysRegex = defaultWeekdaysRegex;
+            }
+            return this._weekdaysStrictRegex && isStrict ?
+                this._weekdaysStrictRegex : this._weekdaysRegex;
+        }
+    }
+
+    var defaultWeekdaysShortRegex = matchWord;
+    function weekdaysShortRegex (isStrict) {
+        if (this._weekdaysParseExact) {
+            if (!hasOwnProp(this, '_weekdaysRegex')) {
+                computeWeekdaysParse.call(this);
+            }
+            if (isStrict) {
+                return this._weekdaysShortStrictRegex;
+            } else {
+                return this._weekdaysShortRegex;
+            }
+        } else {
+            if (!hasOwnProp(this, '_weekdaysShortRegex')) {
+                this._weekdaysShortRegex = defaultWeekdaysShortRegex;
+            }
+            return this._weekdaysShortStrictRegex && isStrict ?
+                this._weekdaysShortStrictRegex : this._weekdaysShortRegex;
+        }
+    }
+
+    var defaultWeekdaysMinRegex = matchWord;
+    function weekdaysMinRegex (isStrict) {
+        if (this._weekdaysParseExact) {
+            if (!hasOwnProp(this, '_weekdaysRegex')) {
+                computeWeekdaysParse.call(this);
+            }
+            if (isStrict) {
+                return this._weekdaysMinStrictRegex;
+            } else {
+                return this._weekdaysMinRegex;
+            }
+        } else {
+            if (!hasOwnProp(this, '_weekdaysMinRegex')) {
+                this._weekdaysMinRegex = defaultWeekdaysMinRegex;
+            }
+            return this._weekdaysMinStrictRegex && isStrict ?
+                this._weekdaysMinStrictRegex : this._weekdaysMinRegex;
+        }
+    }
+
+
+    function computeWeekdaysParse () {
+        function cmpLenRev(a, b) {
+            return b.length - a.length;
+        }
+
+        var minPieces = [], shortPieces = [], longPieces = [], mixedPieces = [],
+            i, mom, minp, shortp, longp;
+        for (i = 0; i < 7; i++) {
+            // make the regex if we don't have it already
+            mom = createUTC([2000, 1]).day(i);
+            minp = this.weekdaysMin(mom, '');
+            shortp = this.weekdaysShort(mom, '');
+            longp = this.weekdays(mom, '');
+            minPieces.push(minp);
+            shortPieces.push(shortp);
+            longPieces.push(longp);
+            mixedPieces.push(minp);
+            mixedPieces.push(shortp);
+            mixedPieces.push(longp);
+        }
+        // Sorting makes sure if one weekday (or abbr) is a prefix of another it
+        // will match the longer piece.
+        minPieces.sort(cmpLenRev);
+        shortPieces.sort(cmpLenRev);
+        longPieces.sort(cmpLenRev);
+        mixedPieces.sort(cmpLenRev);
+        for (i = 0; i < 7; i++) {
+            shortPieces[i] = regexEscape(shortPieces[i]);
+            longPieces[i] = regexEscape(longPieces[i]);
+            mixedPieces[i] = regexEscape(mixedPieces[i]);
+        }
+
+        this._weekdaysRegex = new RegExp('^(' + mixedPieces.join('|') + ')', 'i');
+        this._weekdaysShortRegex = this._weekdaysRegex;
+        this._weekdaysMinRegex = this._weekdaysRegex;
+
+        this._weekdaysStrictRegex = new RegExp('^(' + longPieces.join('|') + ')', 'i');
+        this._weekdaysShortStrictRegex = new RegExp('^(' + shortPieces.join('|') + ')', 'i');
+        this._weekdaysMinStrictRegex = new RegExp('^(' + minPieces.join('|') + ')', 'i');
+    }
+
+    // FORMATTING
+
+    function hFormat() {
+        return this.hours() % 12 || 12;
+    }
+
+    function kFormat() {
+        return this.hours() || 24;
+    }
+
+    addFormatToken('H', ['HH', 2], 0, 'hour');
+    addFormatToken('h', ['hh', 2], 0, hFormat);
+    addFormatToken('k', ['kk', 2], 0, kFormat);
+
+    addFormatToken('hmm', 0, 0, function () {
+        return '' + hFormat.apply(this) + zeroFill(this.minutes(), 2);
+    });
+
+    addFormatToken('hmmss', 0, 0, function () {
+        return '' + hFormat.apply(this) + zeroFill(this.minutes(), 2) +
+            zeroFill(this.seconds(), 2);
+    });
+
+    addFormatToken('Hmm', 0, 0, function () {
+        return '' + this.hours() + zeroFill(this.minutes(), 2);
+    });
+
+    addFormatToken('Hmmss', 0, 0, function () {
+        return '' + this.hours() + zeroFill(this.minutes(), 2) +
+            zeroFill(this.seconds(), 2);
+    });
+
+    function meridiem (token, lowercase) {
+        addFormatToken(token, 0, 0, function () {
+            return this.localeData().meridiem(this.hours(), this.minutes(), lowercase);
+        });
+    }
+
+    meridiem('a', true);
+    meridiem('A', false);
+
+    // ALIASES
+
+    addUnitAlias('hour', 'h');
+
+    // PRIORITY
+    addUnitPriority('hour', 13);
+
+    // PARSING
+
+    function matchMeridiem (isStrict, locale) {
+        return locale._meridiemParse;
+    }
+
+    addRegexToken('a',  matchMeridiem);
+    addRegexToken('A',  matchMeridiem);
+    addRegexToken('H',  match1to2);
+    addRegexToken('h',  match1to2);
+    addRegexToken('k',  match1to2);
+    addRegexToken('HH', match1to2, match2);
+    addRegexToken('hh', match1to2, match2);
+    addRegexToken('kk', match1to2, match2);
+
+    addRegexToken('hmm', match3to4);
+    addRegexToken('hmmss', match5to6);
+    addRegexToken('Hmm', match3to4);
+    addRegexToken('Hmmss', match5to6);
+
+    addParseToken(['H', 'HH'], HOUR);
+    addParseToken(['k', 'kk'], function (input, array, config) {
+        var kInput = toInt(input);
+        array[HOUR] = kInput === 24 ? 0 : kInput;
+    });
+    addParseToken(['a', 'A'], function (input, array, config) {
+        config._isPm = config._locale.isPM(input);
+        config._meridiem = input;
+    });
+    addParseToken(['h', 'hh'], function (input, array, config) {
+        array[HOUR] = toInt(input);
+        getParsingFlags(config).bigHour = true;
+    });
+    addParseToken('hmm', function (input, array, config) {
+        var pos = input.length - 2;
+        array[HOUR] = toInt(input.substr(0, pos));
+        array[MINUTE] = toInt(input.substr(pos));
+        getParsingFlags(config).bigHour = true;
+    });
+    addParseToken('hmmss', function (input, array, config) {
+        var pos1 = input.length - 4;
+        var pos2 = input.length - 2;
+        array[HOUR] = toInt(input.substr(0, pos1));
+        array[MINUTE] = toInt(input.substr(pos1, 2));
+        array[SECOND] = toInt(input.substr(pos2));
+        getParsingFlags(config).bigHour = true;
+    });
+    addParseToken('Hmm', function (input, array, config) {
+        var pos = input.length - 2;
+        array[HOUR] = toInt(input.substr(0, pos));
+        array[MINUTE] = toInt(input.substr(pos));
+    });
+    addParseToken('Hmmss', function (input, array, config) {
+        var pos1 = input.length - 4;
+        var pos2 = input.length - 2;
+        array[HOUR] = toInt(input.substr(0, pos1));
+        array[MINUTE] = toInt(input.substr(pos1, 2));
+        array[SECOND] = toInt(input.substr(pos2));
+    });
+
+    // LOCALES
+
+    function localeIsPM (input) {
+        // IE8 Quirks Mode & IE7 Standards Mode do not allow accessing strings like arrays
+        // Using charAt should be more compatible.
+        return ((input + '').toLowerCase().charAt(0) === 'p');
+    }
+
+    var defaultLocaleMeridiemParse = /[ap]\.?m?\.?/i;
+    function localeMeridiem (hours, minutes, isLower) {
+        if (hours > 11) {
+            return isLower ? 'pm' : 'PM';
+        } else {
+            return isLower ? 'am' : 'AM';
+        }
+    }
+
+
+    // MOMENTS
+
+    // Setting the hour should keep the time, because the user explicitly
+    // specified which hour they want. So trying to maintain the same hour (in
+    // a new timezone) makes sense. Adding/subtracting hours does not follow
+    // this rule.
+    var getSetHour = makeGetSet('Hours', true);
+
+    var baseConfig = {
+        calendar: defaultCalendar,
+        longDateFormat: defaultLongDateFormat,
+        invalidDate: defaultInvalidDate,
+        ordinal: defaultOrdinal,
+        dayOfMonthOrdinalParse: defaultDayOfMonthOrdinalParse,
+        relativeTime: defaultRelativeTime,
+
+        months: defaultLocaleMonths,
+        monthsShort: defaultLocaleMonthsShort,
+
+        week: defaultLocaleWeek,
+
+        weekdays: defaultLocaleWeekdays,
+        weekdaysMin: defaultLocaleWeekdaysMin,
+        weekdaysShort: defaultLocaleWeekdaysShort,
+
+        meridiemParse: defaultLocaleMeridiemParse
+    };
+
+    // internal storage for locale config files
+    var locales = {};
+    var localeFamilies = {};
+    var globalLocale;
+
+    function normalizeLocale(key) {
+        return key ? key.toLowerCase().replace('_', '-') : key;
+    }
+
+    // pick the locale from the array
+    // try ['en-au', 'en-gb'] as 'en-au', 'en-gb', 'en', as in move through the list trying each
+    // substring from most specific to least, but move to the next array item if it's a more specific variant than the current root
+    function chooseLocale(names) {
+        var i = 0, j, next, locale, split;
+
+        while (i < names.length) {
+            split = normalizeLocale(names[i]).split('-');
+            j = split.length;
+            next = normalizeLocale(names[i + 1]);
+            next = next ? next.split('-') : null;
+            while (j > 0) {
+                locale = loadLocale(split.slice(0, j).join('-'));
+                if (locale) {
+                    return locale;
+                }
+                if (next && next.length >= j && compareArrays(split, next, true) >= j - 1) {
+                    //the next array item is better than a shallower substring of this one
+                    break;
+                }
+                j--;
+            }
+            i++;
+        }
+        return globalLocale;
+    }
+
+    function loadLocale(name) {
+        var oldLocale = null;
+        // TODO: Find a better way to register and load all the locales in Node
+        if (!locales[name] && (typeof module !== 'undefined') &&
+                module && module.exports) {
+            try {
+                oldLocale = globalLocale._abbr;
+                var aliasedRequire = require;
+                aliasedRequire('./locale/' + name);
+                getSetGlobalLocale(oldLocale);
+            } catch (e) {}
+        }
+        return locales[name];
+    }
+
+    // This function will load locale and then set the global locale.  If
+    // no arguments are passed in, it will simply return the current global
+    // locale key.
+    function getSetGlobalLocale (key, values) {
+        var data;
+        if (key) {
+            if (isUndefined(values)) {
+                data = getLocale(key);
+            }
+            else {
+                data = defineLocale(key, values);
+            }
+
+            if (data) {
+                // moment.duration._locale = moment._locale = data;
+                globalLocale = data;
+            }
+            else {
+                if ((typeof console !==  'undefined') && console.warn) {
+                    //warn user if arguments are passed but the locale could not be set
+                    console.warn('Locale ' + key +  ' not found. Did you forget to load it?');
+                }
+            }
+        }
+
+        return globalLocale._abbr;
+    }
+
+    function defineLocale (name, config) {
+        if (config !== null) {
+            var locale, parentConfig = baseConfig;
+            config.abbr = name;
+            if (locales[name] != null) {
+                deprecateSimple('defineLocaleOverride',
+                        'use moment.updateLocale(localeName, config) to change ' +
+                        'an existing locale. moment.defineLocale(localeName, ' +
+                        'config) should only be used for creating a new locale ' +
+                        'See http://momentjs.com/guides/#/warnings/define-locale/ for more info.');
+                parentConfig = locales[name]._config;
+            } else if (config.parentLocale != null) {
+                if (locales[config.parentLocale] != null) {
+                    parentConfig = locales[config.parentLocale]._config;
+                } else {
+                    locale = loadLocale(config.parentLocale);
+                    if (locale != null) {
+                        parentConfig = locale._config;
+                    } else {
+                        if (!localeFamilies[config.parentLocale]) {
+                            localeFamilies[config.parentLocale] = [];
+                        }
+                        localeFamilies[config.parentLocale].push({
+                            name: name,
+                            config: config
+                        });
+                        return null;
+                    }
+                }
+            }
+            locales[name] = new Locale(mergeConfigs(parentConfig, config));
+
+            if (localeFamilies[name]) {
+                localeFamilies[name].forEach(function (x) {
+                    defineLocale(x.name, x.config);
+                });
+            }
+
+            // backwards compat for now: also set the locale
+            // make sure we set the locale AFTER all child locales have been
+            // created, so we won't end up with the child locale set.
+            getSetGlobalLocale(name);
+
+
+            return locales[name];
+        } else {
+            // useful for testing
+            delete locales[name];
+            return null;
+        }
+    }
+
+    function updateLocale(name, config) {
+        if (config != null) {
+            var locale, tmpLocale, parentConfig = baseConfig;
+            // MERGE
+            tmpLocale = loadLocale(name);
+            if (tmpLocale != null) {
+                parentConfig = tmpLocale._config;
+            }
+            config = mergeConfigs(parentConfig, config);
+            locale = new Locale(config);
+            locale.parentLocale = locales[name];
+            locales[name] = locale;
+
+            // backwards compat for now: also set the locale
+            getSetGlobalLocale(name);
+        } else {
+            // pass null for config to unupdate, useful for tests
+            if (locales[name] != null) {
+                if (locales[name].parentLocale != null) {
+                    locales[name] = locales[name].parentLocale;
+                } else if (locales[name] != null) {
+                    delete locales[name];
+                }
+            }
+        }
+        return locales[name];
+    }
+
+    // returns locale data
+    function getLocale (key) {
+        var locale;
+
+        if (key && key._locale && key._locale._abbr) {
+            key = key._locale._abbr;
+        }
+
+        if (!key) {
+            return globalLocale;
+        }
+
+        if (!isArray(key)) {
+            //short-circuit everything else
+            locale = loadLocale(key);
+            if (locale) {
+                return locale;
+            }
+            key = [key];
+        }
+
+        return chooseLocale(key);
+    }
+
+    function listLocales() {
+        return keys(locales);
+    }
+
+    function checkOverflow (m) {
+        var overflow;
+        var a = m._a;
+
+        if (a && getParsingFlags(m).overflow === -2) {
+            overflow =
+                a[MONTH]       < 0 || a[MONTH]       > 11  ? MONTH :
+                a[DATE]        < 1 || a[DATE]        > daysInMonth(a[YEAR], a[MONTH]) ? DATE :
+                a[HOUR]        < 0 || a[HOUR]        > 24 || (a[HOUR] === 24 && (a[MINUTE] !== 0 || a[SECOND] !== 0 || a[MILLISECOND] !== 0)) ? HOUR :
+                a[MINUTE]      < 0 || a[MINUTE]      > 59  ? MINUTE :
+                a[SECOND]      < 0 || a[SECOND]      > 59  ? SECOND :
+                a[MILLISECOND] < 0 || a[MILLISECOND] > 999 ? MILLISECOND :
+                -1;
+
+            if (getParsingFlags(m)._overflowDayOfYear && (overflow < YEAR || overflow > DATE)) {
+                overflow = DATE;
+            }
+            if (getParsingFlags(m)._overflowWeeks && overflow === -1) {
+                overflow = WEEK;
+            }
+            if (getParsingFlags(m)._overflowWeekday && overflow === -1) {
+                overflow = WEEKDAY;
+            }
+
+            getParsingFlags(m).overflow = overflow;
+        }
+
+        return m;
+    }
+
+    // Pick the first defined of two or three arguments.
+    function defaults(a, b, c) {
+        if (a != null) {
+            return a;
+        }
+        if (b != null) {
+            return b;
+        }
+        return c;
+    }
+
+    function currentDateArray(config) {
+        // hooks is actually the exported moment object
+        var nowValue = new Date(hooks.now());
+        if (config._useUTC) {
+            return [nowValue.getUTCFullYear(), nowValue.getUTCMonth(), nowValue.getUTCDate()];
+        }
+        return [nowValue.getFullYear(), nowValue.getMonth(), nowValue.getDate()];
+    }
+
+    // convert an array to a date.
+    // the array should mirror the parameters below
+    // note: all values past the year are optional and will default to the lowest possible value.
+    // [year, month, day , hour, minute, second, millisecond]
+    function configFromArray (config) {
+        var i, date, input = [], currentDate, expectedWeekday, yearToUse;
+
+        if (config._d) {
+            return;
+        }
+
+        currentDate = currentDateArray(config);
+
+        //compute day of the year from weeks and weekdays
+        if (config._w && config._a[DATE] == null && config._a[MONTH] == null) {
+            dayOfYearFromWeekInfo(config);
+        }
+
+        //if the day of the year is set, figure out what it is
+        if (config._dayOfYear != null) {
+            yearToUse = defaults(config._a[YEAR], currentDate[YEAR]);
+
+            if (config._dayOfYear > daysInYear(yearToUse) || config._dayOfYear === 0) {
+                getParsingFlags(config)._overflowDayOfYear = true;
+            }
+
+            date = createUTCDate(yearToUse, 0, config._dayOfYear);
+            config._a[MONTH] = date.getUTCMonth();
+            config._a[DATE] = date.getUTCDate();
+        }
+
+        // Default to current date.
+        // * if no year, month, day of month are given, default to today
+        // * if day of month is given, default month and year
+        // * if month is given, default only year
+        // * if year is given, don't default anything
+        for (i = 0; i < 3 && config._a[i] == null; ++i) {
+            config._a[i] = input[i] = currentDate[i];
+        }
+
+        // Zero out whatever was not defaulted, including time
+        for (; i < 7; i++) {
+            config._a[i] = input[i] = (config._a[i] == null) ? (i === 2 ? 1 : 0) : config._a[i];
+        }
+
+        // Check for 24:00:00.000
+        if (config._a[HOUR] === 24 &&
+                config._a[MINUTE] === 0 &&
+                config._a[SECOND] === 0 &&
+                config._a[MILLISECOND] === 0) {
+            config._nextDay = true;
+            config._a[HOUR] = 0;
+        }
+
+        config._d = (config._useUTC ? createUTCDate : createDate).apply(null, input);
+        expectedWeekday = config._useUTC ? config._d.getUTCDay() : config._d.getDay();
+
+        // Apply timezone offset from input. The actual utcOffset can be changed
+        // with parseZone.
+        if (config._tzm != null) {
+            config._d.setUTCMinutes(config._d.getUTCMinutes() - config._tzm);
+        }
+
+        if (config._nextDay) {
+            config._a[HOUR] = 24;
+        }
+
+        // check for mismatching day of week
+        if (config._w && typeof config._w.d !== 'undefined' && config._w.d !== expectedWeekday) {
+            getParsingFlags(config).weekdayMismatch = true;
+        }
+    }
+
+    function dayOfYearFromWeekInfo(config) {
+        var w, weekYear, week, weekday, dow, doy, temp, weekdayOverflow;
+
+        w = config._w;
+        if (w.GG != null || w.W != null || w.E != null) {
+            dow = 1;
+            doy = 4;
+
+            // TODO: We need to take the current isoWeekYear, but that depends on
+            // how we interpret now (local, utc, fixed offset). So create
+            // a now version of current config (take local/utc/offset flags, and
+            // create now).
+            weekYear = defaults(w.GG, config._a[YEAR], weekOfYear(createLocal(), 1, 4).year);
+            week = defaults(w.W, 1);
+            weekday = defaults(w.E, 1);
+            if (weekday < 1 || weekday > 7) {
+                weekdayOverflow = true;
+            }
+        } else {
+            dow = config._locale._week.dow;
+            doy = config._locale._week.doy;
+
+            var curWeek = weekOfYear(createLocal(), dow, doy);
+
+            weekYear = defaults(w.gg, config._a[YEAR], curWeek.year);
+
+            // Default to current week.
+            week = defaults(w.w, curWeek.week);
+
+            if (w.d != null) {
+                // weekday -- low day numbers are considered next week
+                weekday = w.d;
+                if (weekday < 0 || weekday > 6) {
+                    weekdayOverflow = true;
+                }
+            } else if (w.e != null) {
+                // local weekday -- counting starts from begining of week
+                weekday = w.e + dow;
+                if (w.e < 0 || w.e > 6) {
+                    weekdayOverflow = true;
+                }
+            } else {
+                // default to begining of week
+                weekday = dow;
+            }
+        }
+        if (week < 1 || week > weeksInYear(weekYear, dow, doy)) {
+            getParsingFlags(config)._overflowWeeks = true;
+        } else if (weekdayOverflow != null) {
+            getParsingFlags(config)._overflowWeekday = true;
+        } else {
+            temp = dayOfYearFromWeeks(weekYear, week, weekday, dow, doy);
+            config._a[YEAR] = temp.year;
+            config._dayOfYear = temp.dayOfYear;
+        }
+    }
+
+    // iso 8601 regex
+    // 0000-00-00 0000-W00 or 0000-W00-0 + T + 00 or 00:00 or 00:00:00 or 00:00:00.000 + +00:00 or +0000 or +00)
+    var extendedIsoRegex = /^\s*((?:[+-]\d{6}|\d{4})-(?:\d\d-\d\d|W\d\d-\d|W\d\d|\d\d\d|\d\d))(?:(T| )(\d\d(?::\d\d(?::\d\d(?:[.,]\d+)?)?)?)([\+\-]\d\d(?::?\d\d)?|\s*Z)?)?$/;
+    var basicIsoRegex = /^\s*((?:[+-]\d{6}|\d{4})(?:\d\d\d\d|W\d\d\d|W\d\d|\d\d\d|\d\d))(?:(T| )(\d\d(?:\d\d(?:\d\d(?:[.,]\d+)?)?)?)([\+\-]\d\d(?::?\d\d)?|\s*Z)?)?$/;
+
+    var tzRegex = /Z|[+-]\d\d(?::?\d\d)?/;
+
+    var isoDates = [
+        ['YYYYYY-MM-DD', /[+-]\d{6}-\d\d-\d\d/],
+        ['YYYY-MM-DD', /\d{4}-\d\d-\d\d/],
+        ['GGGG-[W]WW-E', /\d{4}-W\d\d-\d/],
+        ['GGGG-[W]WW', /\d{4}-W\d\d/, false],
+        ['YYYY-DDD', /\d{4}-\d{3}/],
+        ['YYYY-MM', /\d{4}-\d\d/, false],
+        ['YYYYYYMMDD', /[+-]\d{10}/],
+        ['YYYYMMDD', /\d{8}/],
+        // YYYYMM is NOT allowed by the standard
+        ['GGGG[W]WWE', /\d{4}W\d{3}/],
+        ['GGGG[W]WW', /\d{4}W\d{2}/, false],
+        ['YYYYDDD', /\d{7}/]
+    ];
+
+    // iso time formats and regexes
+    var isoTimes = [
+        ['HH:mm:ss.SSSS', /\d\d:\d\d:\d\d\.\d+/],
+        ['HH:mm:ss,SSSS', /\d\d:\d\d:\d\d,\d+/],
+        ['HH:mm:ss', /\d\d:\d\d:\d\d/],
+        ['HH:mm', /\d\d:\d\d/],
+        ['HHmmss.SSSS', /\d\d\d\d\d\d\.\d+/],
+        ['HHmmss,SSSS', /\d\d\d\d\d\d,\d+/],
+        ['HHmmss', /\d\d\d\d\d\d/],
+        ['HHmm', /\d\d\d\d/],
+        ['HH', /\d\d/]
+    ];
+
+    var aspNetJsonRegex = /^\/?Date\((\-?\d+)/i;
+
+    // date from iso format
+    function configFromISO(config) {
+        var i, l,
+            string = config._i,
+            match = extendedIsoRegex.exec(string) || basicIsoRegex.exec(string),
+            allowTime, dateFormat, timeFormat, tzFormat;
+
+        if (match) {
+            getParsingFlags(config).iso = true;
+
+            for (i = 0, l = isoDates.length; i < l; i++) {
+                if (isoDates[i][1].exec(match[1])) {
+                    dateFormat = isoDates[i][0];
+                    allowTime = isoDates[i][2] !== false;
+                    break;
+                }
+            }
+            if (dateFormat == null) {
+                config._isValid = false;
+                return;
+            }
+            if (match[3]) {
+                for (i = 0, l = isoTimes.length; i < l; i++) {
+                    if (isoTimes[i][1].exec(match[3])) {
+                        // match[2] should be 'T' or space
+                        timeFormat = (match[2] || ' ') + isoTimes[i][0];
+                        break;
+                    }
+                }
+                if (timeFormat == null) {
+                    config._isValid = false;
+                    return;
+                }
+            }
+            if (!allowTime && timeFormat != null) {
+                config._isValid = false;
+                return;
+            }
+            if (match[4]) {
+                if (tzRegex.exec(match[4])) {
+                    tzFormat = 'Z';
+                } else {
+                    config._isValid = false;
+                    return;
+                }
+            }
+            config._f = dateFormat + (timeFormat || '') + (tzFormat || '');
+            configFromStringAndFormat(config);
+        } else {
+            config._isValid = false;
+        }
+    }
+
+    // RFC 2822 regex: For details see https://tools.ietf.org/html/rfc2822#section-3.3
+    var rfc2822 = /^(?:(Mon|Tue|Wed|Thu|Fri|Sat|Sun),?\s)?(\d{1,2})\s(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s(\d{2,4})\s(\d\d):(\d\d)(?::(\d\d))?\s(?:(UT|GMT|[ECMP][SD]T)|([Zz])|([+-]\d{4}))$/;
+
+    function extractFromRFC2822Strings(yearStr, monthStr, dayStr, hourStr, minuteStr, secondStr) {
+        var result = [
+            untruncateYear(yearStr),
+            defaultLocaleMonthsShort.indexOf(monthStr),
+            parseInt(dayStr, 10),
+            parseInt(hourStr, 10),
+            parseInt(minuteStr, 10)
+        ];
+
+        if (secondStr) {
+            result.push(parseInt(secondStr, 10));
+        }
+
+        return result;
+    }
+
+    function untruncateYear(yearStr) {
+        var year = parseInt(yearStr, 10);
+        if (year <= 49) {
+            return 2000 + year;
+        } else if (year <= 999) {
+            return 1900 + year;
+        }
+        return year;
+    }
+
+    function preprocessRFC2822(s) {
+        // Remove comments and folding whitespace and replace multiple-spaces with a single space
+        return s.replace(/\([^)]*\)|[\n\t]/g, ' ').replace(/(\s\s+)/g, ' ').replace(/^\s\s*/, '').replace(/\s\s*$/, '');
+    }
+
+    function checkWeekday(weekdayStr, parsedInput, config) {
+        if (weekdayStr) {
+            // TODO: Replace the vanilla JS Date object with an indepentent day-of-week check.
+            var weekdayProvided = defaultLocaleWeekdaysShort.indexOf(weekdayStr),
+                weekdayActual = new Date(parsedInput[0], parsedInput[1], parsedInput[2]).getDay();
+            if (weekdayProvided !== weekdayActual) {
+                getParsingFlags(config).weekdayMismatch = true;
+                config._isValid = false;
+                return false;
+            }
+        }
+        return true;
+    }
+
+    var obsOffsets = {
+        UT: 0,
+        GMT: 0,
+        EDT: -4 * 60,
+        EST: -5 * 60,
+        CDT: -5 * 60,
+        CST: -6 * 60,
+        MDT: -6 * 60,
+        MST: -7 * 60,
+        PDT: -7 * 60,
+        PST: -8 * 60
+    };
+
+    function calculateOffset(obsOffset, militaryOffset, numOffset) {
+        if (obsOffset) {
+            return obsOffsets[obsOffset];
+        } else if (militaryOffset) {
+            // the only allowed military tz is Z
+            return 0;
+        } else {
+            var hm = parseInt(numOffset, 10);
+            var m = hm % 100, h = (hm - m) / 100;
+            return h * 60 + m;
+        }
+    }
+
+    // date and time from ref 2822 format
+    function configFromRFC2822(config) {
+        var match = rfc2822.exec(preprocessRFC2822(config._i));
+        if (match) {
+            var parsedArray = extractFromRFC2822Strings(match[4], match[3], match[2], match[5], match[6], match[7]);
+            if (!checkWeekday(match[1], parsedArray, config)) {
+                return;
+            }
+
+            config._a = parsedArray;
+            config._tzm = calculateOffset(match[8], match[9], match[10]);
+
+            config._d = createUTCDate.apply(null, config._a);
+            config._d.setUTCMinutes(config._d.getUTCMinutes() - config._tzm);
+
+            getParsingFlags(config).rfc2822 = true;
+        } else {
+            config._isValid = false;
+        }
+    }
+
+    // date from iso format or fallback
+    function configFromString(config) {
+        var matched = aspNetJsonRegex.exec(config._i);
+
+        if (matched !== null) {
+            config._d = new Date(+matched[1]);
+            return;
+        }
+
+        configFromISO(config);
+        if (config._isValid === false) {
+            delete config._isValid;
+        } else {
+            return;
+        }
+
+        configFromRFC2822(config);
+        if (config._isValid === false) {
+            delete config._isValid;
+        } else {
+            return;
+        }
+
+        // Final attempt, use Input Fallback
+        hooks.createFromInputFallback(config);
+    }
+
+    hooks.createFromInputFallback = deprecate(
+        'value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), ' +
+        'which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are ' +
+        'discouraged and will be removed in an upcoming major release. Please refer to ' +
+        'http://momentjs.com/guides/#/warnings/js-date/ for more info.',
+        function (config) {
+            config._d = new Date(config._i + (config._useUTC ? ' UTC' : ''));
+        }
+    );
+
+    // constant that refers to the ISO standard
+    hooks.ISO_8601 = function () {};
+
+    // constant that refers to the RFC 2822 form
+    hooks.RFC_2822 = function () {};
+
+    // date from string and format string
+    function configFromStringAndFormat(config) {
+        // TODO: Move this to another part of the creation flow to prevent circular deps
+        if (config._f === hooks.ISO_8601) {
+            configFromISO(config);
+            return;
+        }
+        if (config._f === hooks.RFC_2822) {
+            configFromRFC2822(config);
+            return;
+        }
+        config._a = [];
+        getParsingFlags(config).empty = true;
+
+        // This array is used to make a Date, either with `new Date` or `Date.UTC`
+        var string = '' + config._i,
+            i, parsedInput, tokens, token, skipped,
+            stringLength = string.length,
+            totalParsedInputLength = 0;
+
+        tokens = expandFormat(config._f, config._locale).match(formattingTokens) || [];
+
+        for (i = 0; i < tokens.length; i++) {
+            token = tokens[i];
+            parsedInput = (string.match(getParseRegexForToken(token, config)) || [])[0];
+            // console.log('token', token, 'parsedInput', parsedInput,
+            //         'regex', getParseRegexForToken(token, config));
+            if (parsedInput) {
+                skipped = string.substr(0, string.indexOf(parsedInput));
+                if (skipped.length > 0) {
+                    getParsingFlags(config).unusedInput.push(skipped);
+                }
+                string = string.slice(string.indexOf(parsedInput) + parsedInput.length);
+                totalParsedInputLength += parsedInput.length;
+            }
+            // don't parse if it's not a known token
+            if (formatTokenFunctions[token]) {
+                if (parsedInput) {
+                    getParsingFlags(config).empty = false;
+                }
+                else {
+                    getParsingFlags(config).unusedTokens.push(token);
+                }
+                addTimeToArrayFromToken(token, parsedInput, config);
+            }
+            else if (config._strict && !parsedInput) {
+                getParsingFlags(config).unusedTokens.push(token);
+            }
+        }
+
+        // add remaining unparsed input length to the string
+        getParsingFlags(config).charsLeftOver = stringLength - totalParsedInputLength;
+        if (string.length > 0) {
+            getParsingFlags(config).unusedInput.push(string);
+        }
+
+        // clear _12h flag if hour is <= 12
+        if (config._a[HOUR] <= 12 &&
+            getParsingFlags(config).bigHour === true &&
+            config._a[HOUR] > 0) {
+            getParsingFlags(config).bigHour = undefined;
+        }
+
+        getParsingFlags(config).parsedDateParts = config._a.slice(0);
+        getParsingFlags(config).meridiem = config._meridiem;
+        // handle meridiem
+        config._a[HOUR] = meridiemFixWrap(config._locale, config._a[HOUR], config._meridiem);
+
+        configFromArray(config);
+        checkOverflow(config);
+    }
+
+
+    function meridiemFixWrap (locale, hour, meridiem) {
+        var isPm;
+
+        if (meridiem == null) {
+            // nothing to do
+            return hour;
+        }
+        if (locale.meridiemHour != null) {
+            return locale.meridiemHour(hour, meridiem);
+        } else if (locale.isPM != null) {
+            // Fallback
+            isPm = locale.isPM(meridiem);
+            if (isPm && hour < 12) {
+                hour += 12;
+            }
+            if (!isPm && hour === 12) {
+                hour = 0;
+            }
+            return hour;
+        } else {
+            // this is not supposed to happen
+            return hour;
+        }
+    }
+
+    // date from string and array of format strings
+    function configFromStringAndArray(config) {
+        var tempConfig,
+            bestMoment,
+
+            scoreToBeat,
+            i,
+            currentScore;
+
+        if (config._f.length === 0) {
+            getParsingFlags(config).invalidFormat = true;
+            config._d = new Date(NaN);
+            return;
+        }
+
+        for (i = 0; i < config._f.length; i++) {
+            currentScore = 0;
+            tempConfig = copyConfig({}, config);
+            if (config._useUTC != null) {
+                tempConfig._useUTC = config._useUTC;
+            }
+            tempConfig._f = config._f[i];
+            configFromStringAndFormat(tempConfig);
+
+            if (!isValid(tempConfig)) {
+                continue;
+            }
+
+            // if there is any input that was not parsed add a penalty for that format
+            currentScore += getParsingFlags(tempConfig).charsLeftOver;
+
+            //or tokens
+            currentScore += getParsingFlags(tempConfig).unusedTokens.length * 10;
+
+            getParsingFlags(tempConfig).score = currentScore;
+
+            if (scoreToBeat == null || currentScore < scoreToBeat) {
+                scoreToBeat = currentScore;
+                bestMoment = tempConfig;
+            }
+        }
+
+        extend(config, bestMoment || tempConfig);
+    }
+
+    function configFromObject(config) {
+        if (config._d) {
+            return;
+        }
+
+        var i = normalizeObjectUnits(config._i);
+        config._a = map([i.year, i.month, i.day || i.date, i.hour, i.minute, i.second, i.millisecond], function (obj) {
+            return obj && parseInt(obj, 10);
+        });
+
+        configFromArray(config);
+    }
+
+    function createFromConfig (config) {
+        var res = new Moment(checkOverflow(prepareConfig(config)));
+        if (res._nextDay) {
+            // Adding is smart enough around DST
+            res.add(1, 'd');
+            res._nextDay = undefined;
+        }
+
+        return res;
+    }
+
+    function prepareConfig (config) {
+        var input = config._i,
+            format = config._f;
+
+        config._locale = config._locale || getLocale(config._l);
+
+        if (input === null || (format === undefined && input === '')) {
+            return createInvalid({nullInput: true});
+        }
+
+        if (typeof input === 'string') {
+            config._i = input = config._locale.preparse(input);
+        }
+
+        if (isMoment(input)) {
+            return new Moment(checkOverflow(input));
+        } else if (isDate(input)) {
+            config._d = input;
+        } else if (isArray(format)) {
+            configFromStringAndArray(config);
+        } else if (format) {
+            configFromStringAndFormat(config);
+        }  else {
+            configFromInput(config);
+        }
+
+        if (!isValid(config)) {
+            config._d = null;
+        }
+
+        return config;
+    }
+
+    function configFromInput(config) {
+        var input = config._i;
+        if (isUndefined(input)) {
+            config._d = new Date(hooks.now());
+        } else if (isDate(input)) {
+            config._d = new Date(input.valueOf());
+        } else if (typeof input === 'string') {
+            configFromString(config);
+        } else if (isArray(input)) {
+            config._a = map(input.slice(0), function (obj) {
+                return parseInt(obj, 10);
+            });
+            configFromArray(config);
+        } else if (isObject(input)) {
+            configFromObject(config);
+        } else if (isNumber(input)) {
+            // from milliseconds
+            config._d = new Date(input);
+        } else {
+            hooks.createFromInputFallback(config);
+        }
+    }
+
+    function createLocalOrUTC (input, format, locale, strict, isUTC) {
+        var c = {};
+
+        if (locale === true || locale === false) {
+            strict = locale;
+            locale = undefined;
+        }
+
+        if ((isObject(input) && isObjectEmpty(input)) ||
+                (isArray(input) && input.length === 0)) {
+            input = undefined;
+        }
+        // object construction must be done this way.
+        // https://github.com/moment/moment/issues/1423
+        c._isAMomentObject = true;
+        c._useUTC = c._isUTC = isUTC;
+        c._l = locale;
+        c._i = input;
+        c._f = format;
+        c._strict = strict;
+
+        return createFromConfig(c);
+    }
+
+    function createLocal (input, format, locale, strict) {
+        return createLocalOrUTC(input, format, locale, strict, false);
+    }
+
+    var prototypeMin = deprecate(
+        'moment().min is deprecated, use moment.max instead. http://momentjs.com/guides/#/warnings/min-max/',
+        function () {
+            var other = createLocal.apply(null, arguments);
+            if (this.isValid() && other.isValid()) {
+                return other < this ? this : other;
+            } else {
+                return createInvalid();
+            }
+        }
+    );
+
+    var prototypeMax = deprecate(
+        'moment().max is deprecated, use moment.min instead. http://momentjs.com/guides/#/warnings/min-max/',
+        function () {
+            var other = createLocal.apply(null, arguments);
+            if (this.isValid() && other.isValid()) {
+                return other > this ? this : other;
+            } else {
+                return createInvalid();
+            }
+        }
+    );
+
+    // Pick a moment m from moments so that m[fn](other) is true for all
+    // other. This relies on the function fn to be transitive.
+    //
+    // moments should either be an array of moment objects or an array, whose
+    // first element is an array of moment objects.
+    function pickBy(fn, moments) {
+        var res, i;
+        if (moments.length === 1 && isArray(moments[0])) {
+            moments = moments[0];
+        }
+        if (!moments.length) {
+            return createLocal();
+        }
+        res = moments[0];
+        for (i = 1; i < moments.length; ++i) {
+            if (!moments[i].isValid() || moments[i][fn](res)) {
+                res = moments[i];
+            }
+        }
+        return res;
+    }
+
+    // TODO: Use [].sort instead?
+    function min () {
+        var args = [].slice.call(arguments, 0);
+
+        return pickBy('isBefore', args);
+    }
+
+    function max () {
+        var args = [].slice.call(arguments, 0);
+
+        return pickBy('isAfter', args);
+    }
+
+    var now = function () {
+        return Date.now ? Date.now() : +(new Date());
+    };
+
+    var ordering = ['year', 'quarter', 'month', 'week', 'day', 'hour', 'minute', 'second', 'millisecond'];
+
+    function isDurationValid(m) {
+        for (var key in m) {
+            if (!(indexOf.call(ordering, key) !== -1 && (m[key] == null || !isNaN(m[key])))) {
+                return false;
+            }
+        }
+
+        var unitHasDecimal = false;
+        for (var i = 0; i < ordering.length; ++i) {
+            if (m[ordering[i]]) {
+                if (unitHasDecimal) {
+                    return false; // only allow non-integers for smallest unit
+                }
+                if (parseFloat(m[ordering[i]]) !== toInt(m[ordering[i]])) {
+                    unitHasDecimal = true;
+                }
+            }
+        }
+
+        return true;
+    }
+
+    function isValid$1() {
+        return this._isValid;
+    }
+
+    function createInvalid$1() {
+        return createDuration(NaN);
+    }
+
+    function Duration (duration) {
+        var normalizedInput = normalizeObjectUnits(duration),
+            years = normalizedInput.year || 0,
+            quarters = normalizedInput.quarter || 0,
+            months = normalizedInput.month || 0,
+            weeks = normalizedInput.week || 0,
+            days = normalizedInput.day || 0,
+            hours = normalizedInput.hour || 0,
+            minutes = normalizedInput.minute || 0,
+            seconds = normalizedInput.second || 0,
+            milliseconds = normalizedInput.millisecond || 0;
+
+        this._isValid = isDurationValid(normalizedInput);
+
+        // representation for dateAddRemove
+        this._milliseconds = +milliseconds +
+            seconds * 1e3 + // 1000
+            minutes * 6e4 + // 1000 * 60
+            hours * 1000 * 60 * 60; //using 1000 * 60 * 60 instead of 36e5 to avoid floating point rounding errors https://github.com/moment/moment/issues/2978
+        // Because of dateAddRemove treats 24 hours as different from a
+        // day when working around DST, we need to store them separately
+        this._days = +days +
+            weeks * 7;
+        // It is impossible to translate months into days without knowing
+        // which months you are are talking about, so we have to store
+        // it separately.
+        this._months = +months +
+            quarters * 3 +
+            years * 12;
+
+        this._data = {};
+
+        this._locale = getLocale();
+
+        this._bubble();
+    }
+
+    function isDuration (obj) {
+        return obj instanceof Duration;
+    }
+
+    function absRound (number) {
+        if (number < 0) {
+            return Math.round(-1 * number) * -1;
+        } else {
+            return Math.round(number);
+        }
+    }
+
+    // FORMATTING
+
+    function offset (token, separator) {
+        addFormatToken(token, 0, 0, function () {
+            var offset = this.utcOffset();
+            var sign = '+';
+            if (offset < 0) {
+                offset = -offset;
+                sign = '-';
+            }
+            return sign + zeroFill(~~(offset / 60), 2) + separator + zeroFill(~~(offset) % 60, 2);
+        });
+    }
+
+    offset('Z', ':');
+    offset('ZZ', '');
+
+    // PARSING
+
+    addRegexToken('Z',  matchShortOffset);
+    addRegexToken('ZZ', matchShortOffset);
+    addParseToken(['Z', 'ZZ'], function (input, array, config) {
+        config._useUTC = true;
+        config._tzm = offsetFromString(matchShortOffset, input);
+    });
+
+    // HELPERS
+
+    // timezone chunker
+    // '+10:00' > ['10',  '00']
+    // '-1530'  > ['-15', '30']
+    var chunkOffset = /([\+\-]|\d\d)/gi;
+
+    function offsetFromString(matcher, string) {
+        var matches = (string || '').match(matcher);
+
+        if (matches === null) {
+            return null;
+        }
+
+        var chunk   = matches[matches.length - 1] || [];
+        var parts   = (chunk + '').match(chunkOffset) || ['-', 0, 0];
+        var minutes = +(parts[1] * 60) + toInt(parts[2]);
+
+        return minutes === 0 ?
+          0 :
+          parts[0] === '+' ? minutes : -minutes;
+    }
+
+    // Return a moment from input, that is local/utc/zone equivalent to model.
+    function cloneWithOffset(input, model) {
+        var res, diff;
+        if (model._isUTC) {
+            res = model.clone();
+            diff = (isMoment(input) || isDate(input) ? input.valueOf() : createLocal(input).valueOf()) - res.valueOf();
+            // Use low-level api, because this fn is low-level api.
+            res._d.setTime(res._d.valueOf() + diff);
+            hooks.updateOffset(res, false);
+            return res;
+        } else {
+            return createLocal(input).local();
+        }
+    }
+
+    function getDateOffset (m) {
+        // On Firefox.24 Date#getTimezoneOffset returns a floating point.
+        // https://github.com/moment/moment/pull/1871
+        return -Math.round(m._d.getTimezoneOffset() / 15) * 15;
+    }
+
+    // HOOKS
+
+    // This function will be called whenever a moment is mutated.
+    // It is intended to keep the offset in sync with the timezone.
+    hooks.updateOffset = function () {};
+
+    // MOMENTS
+
+    // keepLocalTime = true means only change the timezone, without
+    // affecting the local hour. So 5:31:26 +0300 --[utcOffset(2, true)]-->
+    // 5:31:26 +0200 It is possible that 5:31:26 doesn't exist with offset
+    // +0200, so we adjust the time as needed, to be valid.
+    //
+    // Keeping the time actually adds/subtracts (one hour)
+    // from the actual represented time. That is why we call updateOffset
+    // a second time. In case it wants us to change the offset again
+    // _changeInProgress == true case, then we have to adjust, because
+    // there is no such time in the given timezone.
+    function getSetOffset (input, keepLocalTime, keepMinutes) {
+        var offset = this._offset || 0,
+            localAdjust;
+        if (!this.isValid()) {
+            return input != null ? this : NaN;
+        }
+        if (input != null) {
+            if (typeof input === 'string') {
+                input = offsetFromString(matchShortOffset, input);
+                if (input === null) {
+                    return this;
+                }
+            } else if (Math.abs(input) < 16 && !keepMinutes) {
+                input = input * 60;
+            }
+            if (!this._isUTC && keepLocalTime) {
+                localAdjust = getDateOffset(this);
+            }
+            this._offset = input;
+            this._isUTC = true;
+            if (localAdjust != null) {
+                this.add(localAdjust, 'm');
+            }
+            if (offset !== input) {
+                if (!keepLocalTime || this._changeInProgress) {
+                    addSubtract(this, createDuration(input - offset, 'm'), 1, false);
+                } else if (!this._changeInProgress) {
+                    this._changeInProgress = true;
+                    hooks.updateOffset(this, true);
+                    this._changeInProgress = null;
+                }
+            }
+            return this;
+        } else {
+            return this._isUTC ? offset : getDateOffset(this);
+        }
+    }
+
+    function getSetZone (input, keepLocalTime) {
+        if (input != null) {
+            if (typeof input !== 'string') {
+                input = -input;
+            }
+
+            this.utcOffset(input, keepLocalTime);
+
+            return this;
+        } else {
+            return -this.utcOffset();
+        }
+    }
+
+    function setOffsetToUTC (keepLocalTime) {
+        return this.utcOffset(0, keepLocalTime);
+    }
+
+    function setOffsetToLocal (keepLocalTime) {
+        if (this._isUTC) {
+            this.utcOffset(0, keepLocalTime);
+            this._isUTC = false;
+
+            if (keepLocalTime) {
+                this.subtract(getDateOffset(this), 'm');
+            }
+        }
+        return this;
+    }
+
+    function setOffsetToParsedOffset () {
+        if (this._tzm != null) {
+            this.utcOffset(this._tzm, false, true);
+        } else if (typeof this._i === 'string') {
+            var tZone = offsetFromString(matchOffset, this._i);
+            if (tZone != null) {
+                this.utcOffset(tZone);
+            }
+            else {
+                this.utcOffset(0, true);
+            }
+        }
+        return this;
+    }
+
+    function hasAlignedHourOffset (input) {
+        if (!this.isValid()) {
+            return false;
+        }
+        input = input ? createLocal(input).utcOffset() : 0;
+
+        return (this.utcOffset() - input) % 60 === 0;
+    }
+
+    function isDaylightSavingTime () {
+        return (
+            this.utcOffset() > this.clone().month(0).utcOffset() ||
+            this.utcOffset() > this.clone().month(5).utcOffset()
+        );
+    }
+
+    function isDaylightSavingTimeShifted () {
+        if (!isUndefined(this._isDSTShifted)) {
+            return this._isDSTShifted;
+        }
+
+        var c = {};
+
+        copyConfig(c, this);
+        c = prepareConfig(c);
+
+        if (c._a) {
+            var other = c._isUTC ? createUTC(c._a) : createLocal(c._a);
+            this._isDSTShifted = this.isValid() &&
+                compareArrays(c._a, other.toArray()) > 0;
+        } else {
+            this._isDSTShifted = false;
+        }
+
+        return this._isDSTShifted;
+    }
+
+    function isLocal () {
+        return this.isValid() ? !this._isUTC : false;
+    }
+
+    function isUtcOffset () {
+        return this.isValid() ? this._isUTC : false;
+    }
+
+    function isUtc () {
+        return this.isValid() ? this._isUTC && this._offset === 0 : false;
+    }
+
+    // ASP.NET json date format regex
+    var aspNetRegex = /^(\-|\+)?(?:(\d*)[. ])?(\d+)\:(\d+)(?:\:(\d+)(\.\d*)?)?$/;
+
+    // from http://docs.closure-library.googlecode.com/git/closure_goog_date_date.js.source.html
+    // somewhat more in line with 4.4.3.2 2004 spec, but allows decimal anywhere
+    // and further modified to allow for strings containing both week and day
+    var isoRegex = /^(-|\+)?P(?:([-+]?[0-9,.]*)Y)?(?:([-+]?[0-9,.]*)M)?(?:([-+]?[0-9,.]*)W)?(?:([-+]?[0-9,.]*)D)?(?:T(?:([-+]?[0-9,.]*)H)?(?:([-+]?[0-9,.]*)M)?(?:([-+]?[0-9,.]*)S)?)?$/;
+
+    function createDuration (input, key) {
+        var duration = input,
+            // matching against regexp is expensive, do it on demand
+            match = null,
+            sign,
+            ret,
+            diffRes;
+
+        if (isDuration(input)) {
+            duration = {
+                ms : input._milliseconds,
+                d  : input._days,
+                M  : input._months
+            };
+        } else if (isNumber(input)) {
+            duration = {};
+            if (key) {
+                duration[key] = input;
+            } else {
+                duration.milliseconds = input;
+            }
+        } else if (!!(match = aspNetRegex.exec(input))) {
+            sign = (match[1] === '-') ? -1 : 1;
+            duration = {
+                y  : 0,
+                d  : toInt(match[DATE])                         * sign,
+                h  : toInt(match[HOUR])                         * sign,
+                m  : toInt(match[MINUTE])                       * sign,
+                s  : toInt(match[SECOND])                       * sign,
+                ms : toInt(absRound(match[MILLISECOND] * 1000)) * sign // the millisecond decimal point is included in the match
+            };
+        } else if (!!(match = isoRegex.exec(input))) {
+            sign = (match[1] === '-') ? -1 : (match[1] === '+') ? 1 : 1;
+            duration = {
+                y : parseIso(match[2], sign),
+                M : parseIso(match[3], sign),
+                w : parseIso(match[4], sign),
+                d : parseIso(match[5], sign),
+                h : parseIso(match[6], sign),
+                m : parseIso(match[7], sign),
+                s : parseIso(match[8], sign)
+            };
+        } else if (duration == null) {// checks for null or undefined
+            duration = {};
+        } else if (typeof duration === 'object' && ('from' in duration || 'to' in duration)) {
+            diffRes = momentsDifference(createLocal(duration.from), createLocal(duration.to));
+
+            duration = {};
+            duration.ms = diffRes.milliseconds;
+            duration.M = diffRes.months;
+        }
+
+        ret = new Duration(duration);
+
+        if (isDuration(input) && hasOwnProp(input, '_locale')) {
+            ret._locale = input._locale;
+        }
+
+        return ret;
+    }
+
+    createDuration.fn = Duration.prototype;
+    createDuration.invalid = createInvalid$1;
+
+    function parseIso (inp, sign) {
+        // We'd normally use ~~inp for this, but unfortunately it also
+        // converts floats to ints.
+        // inp may be undefined, so careful calling replace on it.
+        var res = inp && parseFloat(inp.replace(',', '.'));
+        // apply sign while we're at it
+        return (isNaN(res) ? 0 : res) * sign;
+    }
+
+    function positiveMomentsDifference(base, other) {
+        var res = {milliseconds: 0, months: 0};
+
+        res.months = other.month() - base.month() +
+            (other.year() - base.year()) * 12;
+        if (base.clone().add(res.months, 'M').isAfter(other)) {
+            --res.months;
+        }
+
+        res.milliseconds = +other - +(base.clone().add(res.months, 'M'));
+
+        return res;
+    }
+
+    function momentsDifference(base, other) {
+        var res;
+        if (!(base.isValid() && other.isValid())) {
+            return {milliseconds: 0, months: 0};
+        }
+
+        other = cloneWithOffset(other, base);
+        if (base.isBefore(other)) {
+            res = positiveMomentsDifference(base, other);
+        } else {
+            res = positiveMomentsDifference(other, base);
+            res.milliseconds = -res.milliseconds;
+            res.months = -res.months;
+        }
+
+        return res;
+    }
+
+    // TODO: remove 'name' arg after deprecation is removed
+    function createAdder(direction, name) {
+        return function (val, period) {
+            var dur, tmp;
+            //invert the arguments, but complain about it
+            if (period !== null && !isNaN(+period)) {
+                deprecateSimple(name, 'moment().' + name  + '(period, number) is deprecated. Please use moment().' + name + '(number, period). ' +
+                'See http://momentjs.com/guides/#/warnings/add-inverted-param/ for more info.');
+                tmp = val; val = period; period = tmp;
+            }
+
+            val = typeof val === 'string' ? +val : val;
+            dur = createDuration(val, period);
+            addSubtract(this, dur, direction);
+            return this;
+        };
+    }
+
+    function addSubtract (mom, duration, isAdding, updateOffset) {
+        var milliseconds = duration._milliseconds,
+            days = absRound(duration._days),
+            months = absRound(duration._months);
+
+        if (!mom.isValid()) {
+            // No op
+            return;
+        }
+
+        updateOffset = updateOffset == null ? true : updateOffset;
+
+        if (months) {
+            setMonth(mom, get(mom, 'Month') + months * isAdding);
+        }
+        if (days) {
+            set$1(mom, 'Date', get(mom, 'Date') + days * isAdding);
+        }
+        if (milliseconds) {
+            mom._d.setTime(mom._d.valueOf() + milliseconds * isAdding);
+        }
+        if (updateOffset) {
+            hooks.updateOffset(mom, days || months);
+        }
+    }
+
+    var add      = createAdder(1, 'add');
+    var subtract = createAdder(-1, 'subtract');
+
+    function getCalendarFormat(myMoment, now) {
+        var diff = myMoment.diff(now, 'days', true);
+        return diff < -6 ? 'sameElse' :
+                diff < -1 ? 'lastWeek' :
+                diff < 0 ? 'lastDay' :
+                diff < 1 ? 'sameDay' :
+                diff < 2 ? 'nextDay' :
+                diff < 7 ? 'nextWeek' : 'sameElse';
+    }
+
+    function calendar$1 (time, formats) {
+        // We want to compare the start of today, vs this.
+        // Getting start-of-today depends on whether we're local/utc/offset or not.
+        var now = time || createLocal(),
+            sod = cloneWithOffset(now, this).startOf('day'),
+            format = hooks.calendarFormat(this, sod) || 'sameElse';
+
+        var output = formats && (isFunction(formats[format]) ? formats[format].call(this, now) : formats[format]);
+
+        return this.format(output || this.localeData().calendar(format, this, createLocal(now)));
+    }
+
+    function clone () {
+        return new Moment(this);
+    }
+
+    function isAfter (input, units) {
+        var localInput = isMoment(input) ? input : createLocal(input);
+        if (!(this.isValid() && localInput.isValid())) {
+            return false;
+        }
+        units = normalizeUnits(!isUndefined(units) ? units : 'millisecond');
+        if (units === 'millisecond') {
+            return this.valueOf() > localInput.valueOf();
+        } else {
+            return localInput.valueOf() < this.clone().startOf(units).valueOf();
+        }
+    }
+
+    function isBefore (input, units) {
+        var localInput = isMoment(input) ? input : createLocal(input);
+        if (!(this.isValid() && localInput.isValid())) {
+            return false;
+        }
+        units = normalizeUnits(!isUndefined(units) ? units : 'millisecond');
+        if (units === 'millisecond') {
+            return this.valueOf() < localInput.valueOf();
+        } else {
+            return this.clone().endOf(units).valueOf() < localInput.valueOf();
+        }
+    }
+
+    function isBetween (from, to, units, inclusivity) {
+        inclusivity = inclusivity || '()';
+        return (inclusivity[0] === '(' ? this.isAfter(from, units) : !this.isBefore(from, units)) &&
+            (inclusivity[1] === ')' ? this.isBefore(to, units) : !this.isAfter(to, units));
+    }
+
+    function isSame (input, units) {
+        var localInput = isMoment(input) ? input : createLocal(input),
+            inputMs;
+        if (!(this.isValid() && localInput.isValid())) {
+            return false;
+        }
+        units = normalizeUnits(units || 'millisecond');
+        if (units === 'millisecond') {
+            return this.valueOf() === localInput.valueOf();
+        } else {
+            inputMs = localInput.valueOf();
+            return this.clone().startOf(units).valueOf() <= inputMs && inputMs <= this.clone().endOf(units).valueOf();
+        }
+    }
+
+    function isSameOrAfter (input, units) {
+        return this.isSame(input, units) || this.isAfter(input,units);
+    }
+
+    function isSameOrBefore (input, units) {
+        return this.isSame(input, units) || this.isBefore(input,units);
+    }
+
+    function diff (input, units, asFloat) {
+        var that,
+            zoneDelta,
+            output;
+
+        if (!this.isValid()) {
+            return NaN;
+        }
+
+        that = cloneWithOffset(input, this);
+
+        if (!that.isValid()) {
+            return NaN;
+        }
+
+        zoneDelta = (that.utcOffset() - this.utcOffset()) * 6e4;
+
+        units = normalizeUnits(units);
+
+        switch (units) {
+            case 'year': output = monthDiff(this, that) / 12; break;
+            case 'month': output = monthDiff(this, that); break;
+            case 'quarter': output = monthDiff(this, that) / 3; break;
+            case 'second': output = (this - that) / 1e3; break; // 1000
+            case 'minute': output = (this - that) / 6e4; break; // 1000 * 60
+            case 'hour': output = (this - that) / 36e5; break; // 1000 * 60 * 60
+            case 'day': output = (this - that - zoneDelta) / 864e5; break; // 1000 * 60 * 60 * 24, negate dst
+            case 'week': output = (this - that - zoneDelta) / 6048e5; break; // 1000 * 60 * 60 * 24 * 7, negate dst
+            default: output = this - that;
+        }
+
+        return asFloat ? output : absFloor(output);
+    }
+
+    function monthDiff (a, b) {
+        // difference in months
+        var wholeMonthDiff = ((b.year() - a.year()) * 12) + (b.month() - a.month()),
+            // b is in (anchor - 1 month, anchor + 1 month)
+            anchor = a.clone().add(wholeMonthDiff, 'months'),
+            anchor2, adjust;
+
+        if (b - anchor < 0) {
+            anchor2 = a.clone().add(wholeMonthDiff - 1, 'months');
+            // linear across the month
+            adjust = (b - anchor) / (anchor - anchor2);
+        } else {
+            anchor2 = a.clone().add(wholeMonthDiff + 1, 'months');
+            // linear across the month
+            adjust = (b - anchor) / (anchor2 - anchor);
+        }
+
+        //check for negative zero, return zero if negative zero
+        return -(wholeMonthDiff + adjust) || 0;
+    }
+
+    hooks.defaultFormat = 'YYYY-MM-DDTHH:mm:ssZ';
+    hooks.defaultFormatUtc = 'YYYY-MM-DDTHH:mm:ss[Z]';
+
+    function toString () {
+        return this.clone().locale('en').format('ddd MMM DD YYYY HH:mm:ss [GMT]ZZ');
+    }
+
+    function toISOString(keepOffset) {
+        if (!this.isValid()) {
+            return null;
+        }
+        var utc = keepOffset !== true;
+        var m = utc ? this.clone().utc() : this;
+        if (m.year() < 0 || m.year() > 9999) {
+            return formatMoment(m, utc ? 'YYYYYY-MM-DD[T]HH:mm:ss.SSS[Z]' : 'YYYYYY-MM-DD[T]HH:mm:ss.SSSZ');
+        }
+        if (isFunction(Date.prototype.toISOString)) {
+            // native implementation is ~50x faster, use it when we can
+            if (utc) {
+                return this.toDate().toISOString();
+            } else {
+                return new Date(this.valueOf() + this.utcOffset() * 60 * 1000).toISOString().replace('Z', formatMoment(m, 'Z'));
+            }
+        }
+        return formatMoment(m, utc ? 'YYYY-MM-DD[T]HH:mm:ss.SSS[Z]' : 'YYYY-MM-DD[T]HH:mm:ss.SSSZ');
+    }
+
+    /**
+     * Return a human readable representation of a moment that can
+     * also be evaluated to get a new moment which is the same
+     *
+     * @link https://nodejs.org/dist/latest/docs/api/util.html#util_custom_inspect_function_on_objects
+     */
+    function inspect () {
+        if (!this.isValid()) {
+            return 'moment.invalid(/* ' + this._i + ' */)';
+        }
+        var func = 'moment';
+        var zone = '';
+        if (!this.isLocal()) {
+            func = this.utcOffset() === 0 ? 'moment.utc' : 'moment.parseZone';
+            zone = 'Z';
+        }
+        var prefix = '[' + func + '("]';
+        var year = (0 <= this.year() && this.year() <= 9999) ? 'YYYY' : 'YYYYYY';
+        var datetime = '-MM-DD[T]HH:mm:ss.SSS';
+        var suffix = zone + '[")]';
+
+        return this.format(prefix + year + datetime + suffix);
+    }
+
+    function format (inputString) {
+        if (!inputString) {
+            inputString = this.isUtc() ? hooks.defaultFormatUtc : hooks.defaultFormat;
+        }
+        var output = formatMoment(this, inputString);
+        return this.localeData().postformat(output);
+    }
+
+    function from (time, withoutSuffix) {
+        if (this.isValid() &&
+                ((isMoment(time) && time.isValid()) ||
+                 createLocal(time).isValid())) {
+            return createDuration({to: this, from: time}).locale(this.locale()).humanize(!withoutSuffix);
+        } else {
+            return this.localeData().invalidDate();
+        }
+    }
+
+    function fromNow (withoutSuffix) {
+        return this.from(createLocal(), withoutSuffix);
+    }
+
+    function to (time, withoutSuffix) {
+        if (this.isValid() &&
+                ((isMoment(time) && time.isValid()) ||
+                 createLocal(time).isValid())) {
+            return createDuration({from: this, to: time}).locale(this.locale()).humanize(!withoutSuffix);
+        } else {
+            return this.localeData().invalidDate();
+        }
+    }
+
+    function toNow (withoutSuffix) {
+        return this.to(createLocal(), withoutSuffix);
+    }
+
+    // If passed a locale key, it will set the locale for this
+    // instance.  Otherwise, it will return the locale configuration
+    // variables for this instance.
+    function locale (key) {
+        var newLocaleData;
+
+        if (key === undefined) {
+            return this._locale._abbr;
+        } else {
+            newLocaleData = getLocale(key);
+            if (newLocaleData != null) {
+                this._locale = newLocaleData;
+            }
+            return this;
+        }
+    }
+
+    var lang = deprecate(
+        'moment().lang() is deprecated. Instead, use moment().localeData() to get the language configuration. Use moment().locale() to change languages.',
+        function (key) {
+            if (key === undefined) {
+                return this.localeData();
+            } else {
+                return this.locale(key);
+            }
+        }
+    );
+
+    function localeData () {
+        return this._locale;
+    }
+
+    function startOf (units) {
+        units = normalizeUnits(units);
+        // the following switch intentionally omits break keywords
+        // to utilize falling through the cases.
+        switch (units) {
+            case 'year':
+                this.month(0);
+                /* falls through */
+            case 'quarter':
+            case 'month':
+                this.date(1);
+                /* falls through */
+            case 'week':
+            case 'isoWeek':
+            case 'day':
+            case 'date':
+                this.hours(0);
+                /* falls through */
+            case 'hour':
+                this.minutes(0);
+                /* falls through */
+            case 'minute':
+                this.seconds(0);
+                /* falls through */
+            case 'second':
+                this.milliseconds(0);
+        }
+
+        // weeks are a special case
+        if (units === 'week') {
+            this.weekday(0);
+        }
+        if (units === 'isoWeek') {
+            this.isoWeekday(1);
+        }
+
+        // quarters are also special
+        if (units === 'quarter') {
+            this.month(Math.floor(this.month() / 3) * 3);
+        }
+
+        return this;
+    }
+
+    function endOf (units) {
+        units = normalizeUnits(units);
+        if (units === undefined || units === 'millisecond') {
+            return this;
+        }
+
+        // 'date' is an alias for 'day', so it should be considered as such.
+        if (units === 'date') {
+            units = 'day';
+        }
+
+        return this.startOf(units).add(1, (units === 'isoWeek' ? 'week' : units)).subtract(1, 'ms');
+    }
+
+    function valueOf () {
+        return this._d.valueOf() - ((this._offset || 0) * 60000);
+    }
+
+    function unix () {
+        return Math.floor(this.valueOf() / 1000);
+    }
+
+    function toDate () {
+        return new Date(this.valueOf());
+    }
+
+    function toArray () {
+        var m = this;
+        return [m.year(), m.month(), m.date(), m.hour(), m.minute(), m.second(), m.millisecond()];
+    }
+
+    function toObject () {
+        var m = this;
+        return {
+            years: m.year(),
+            months: m.month(),
+            date: m.date(),
+            hours: m.hours(),
+            minutes: m.minutes(),
+            seconds: m.seconds(),
+            milliseconds: m.milliseconds()
+        };
+    }
+
+    function toJSON () {
+        // new Date(NaN).toJSON() === null
+        return this.isValid() ? this.toISOString() : null;
+    }
+
+    function isValid$2 () {
+        return isValid(this);
+    }
+
+    function parsingFlags () {
+        return extend({}, getParsingFlags(this));
+    }
+
+    function invalidAt () {
+        return getParsingFlags(this).overflow;
+    }
+
+    function creationData() {
+        return {
+            input: this._i,
+            format: this._f,
+            locale: this._locale,
+            isUTC: this._isUTC,
+            strict: this._strict
+        };
+    }
+
+    // FORMATTING
+
+    addFormatToken(0, ['gg', 2], 0, function () {
+        return this.weekYear() % 100;
+    });
+
+    addFormatToken(0, ['GG', 2], 0, function () {
+        return this.isoWeekYear() % 100;
+    });
+
+    function addWeekYearFormatToken (token, getter) {
+        addFormatToken(0, [token, token.length], 0, getter);
+    }
+
+    addWeekYearFormatToken('gggg',     'weekYear');
+    addWeekYearFormatToken('ggggg',    'weekYear');
+    addWeekYearFormatToken('GGGG',  'isoWeekYear');
+    addWeekYearFormatToken('GGGGG', 'isoWeekYear');
+
+    // ALIASES
+
+    addUnitAlias('weekYear', 'gg');
+    addUnitAlias('isoWeekYear', 'GG');
+
+    // PRIORITY
+
+    addUnitPriority('weekYear', 1);
+    addUnitPriority('isoWeekYear', 1);
+
+
+    // PARSING
+
+    addRegexToken('G',      matchSigned);
+    addRegexToken('g',      matchSigned);
+    addRegexToken('GG',     match1to2, match2);
+    addRegexToken('gg',     match1to2, match2);
+    addRegexToken('GGGG',   match1to4, match4);
+    addRegexToken('gggg',   match1to4, match4);
+    addRegexToken('GGGGG',  match1to6, match6);
+    addRegexToken('ggggg',  match1to6, match6);
+
+    addWeekParseToken(['gggg', 'ggggg', 'GGGG', 'GGGGG'], function (input, week, config, token) {
+        week[token.substr(0, 2)] = toInt(input);
+    });
+
+    addWeekParseToken(['gg', 'GG'], function (input, week, config, token) {
+        week[token] = hooks.parseTwoDigitYear(input);
+    });
+
+    // MOMENTS
+
+    function getSetWeekYear (input) {
+        return getSetWeekYearHelper.call(this,
+                input,
+                this.week(),
+                this.weekday(),
+                this.localeData()._week.dow,
+                this.localeData()._week.doy);
+    }
+
+    function getSetISOWeekYear (input) {
+        return getSetWeekYearHelper.call(this,
+                input, this.isoWeek(), this.isoWeekday(), 1, 4);
+    }
+
+    function getISOWeeksInYear () {
+        return weeksInYear(this.year(), 1, 4);
+    }
+
+    function getWeeksInYear () {
+        var weekInfo = this.localeData()._week;
+        return weeksInYear(this.year(), weekInfo.dow, weekInfo.doy);
+    }
+
+    function getSetWeekYearHelper(input, week, weekday, dow, doy) {
+        var weeksTarget;
+        if (input == null) {
+            return weekOfYear(this, dow, doy).year;
+        } else {
+            weeksTarget = weeksInYear(input, dow, doy);
+            if (week > weeksTarget) {
+                week = weeksTarget;
+            }
+            return setWeekAll.call(this, input, week, weekday, dow, doy);
+        }
+    }
+
+    function setWeekAll(weekYear, week, weekday, dow, doy) {
+        var dayOfYearData = dayOfYearFromWeeks(weekYear, week, weekday, dow, doy),
+            date = createUTCDate(dayOfYearData.year, 0, dayOfYearData.dayOfYear);
+
+        this.year(date.getUTCFullYear());
+        this.month(date.getUTCMonth());
+        this.date(date.getUTCDate());
+        return this;
+    }
+
+    // FORMATTING
+
+    addFormatToken('Q', 0, 'Qo', 'quarter');
+
+    // ALIASES
+
+    addUnitAlias('quarter', 'Q');
+
+    // PRIORITY
+
+    addUnitPriority('quarter', 7);
+
+    // PARSING
+
+    addRegexToken('Q', match1);
+    addParseToken('Q', function (input, array) {
+        array[MONTH] = (toInt(input) - 1) * 3;
+    });
+
+    // MOMENTS
+
+    function getSetQuarter (input) {
+        return input == null ? Math.ceil((this.month() + 1) / 3) : this.month((input - 1) * 3 + this.month() % 3);
+    }
+
+    // FORMATTING
+
+    addFormatToken('D', ['DD', 2], 'Do', 'date');
+
+    // ALIASES
+
+    addUnitAlias('date', 'D');
+
+    // PRIORITY
+    addUnitPriority('date', 9);
+
+    // PARSING
+
+    addRegexToken('D',  match1to2);
+    addRegexToken('DD', match1to2, match2);
+    addRegexToken('Do', function (isStrict, locale) {
+        // TODO: Remove "ordinalParse" fallback in next major release.
+        return isStrict ?
+          (locale._dayOfMonthOrdinalParse || locale._ordinalParse) :
+          locale._dayOfMonthOrdinalParseLenient;
+    });
+
+    addParseToken(['D', 'DD'], DATE);
+    addParseToken('Do', function (input, array) {
+        array[DATE] = toInt(input.match(match1to2)[0]);
+    });
+
+    // MOMENTS
+
+    var getSetDayOfMonth = makeGetSet('Date', true);
+
+    // FORMATTING
+
+    addFormatToken('DDD', ['DDDD', 3], 'DDDo', 'dayOfYear');
+
+    // ALIASES
+
+    addUnitAlias('dayOfYear', 'DDD');
+
+    // PRIORITY
+    addUnitPriority('dayOfYear', 4);
+
+    // PARSING
+
+    addRegexToken('DDD',  match1to3);
+    addRegexToken('DDDD', match3);
+    addParseToken(['DDD', 'DDDD'], function (input, array, config) {
+        config._dayOfYear = toInt(input);
+    });
+
+    // HELPERS
+
+    // MOMENTS
+
+    function getSetDayOfYear (input) {
+        var dayOfYear = Math.round((this.clone().startOf('day') - this.clone().startOf('year')) / 864e5) + 1;
+        return input == null ? dayOfYear : this.add((input - dayOfYear), 'd');
+    }
+
+    // FORMATTING
+
+    addFormatToken('m', ['mm', 2], 0, 'minute');
+
+    // ALIASES
+
+    addUnitAlias('minute', 'm');
+
+    // PRIORITY
+
+    addUnitPriority('minute', 14);
+
+    // PARSING
+
+    addRegexToken('m',  match1to2);
+    addRegexToken('mm', match1to2, match2);
+    addParseToken(['m', 'mm'], MINUTE);
+
+    // MOMENTS
+
+    var getSetMinute = makeGetSet('Minutes', false);
+
+    // FORMATTING
+
+    addFormatToken('s', ['ss', 2], 0, 'second');
+
+    // ALIASES
+
+    addUnitAlias('second', 's');
+
+    // PRIORITY
+
+    addUnitPriority('second', 15);
+
+    // PARSING
+
+    addRegexToken('s',  match1to2);
+    addRegexToken('ss', match1to2, match2);
+    addParseToken(['s', 'ss'], SECOND);
+
+    // MOMENTS
+
+    var getSetSecond = makeGetSet('Seconds', false);
+
+    // FORMATTING
+
+    addFormatToken('S', 0, 0, function () {
+        return ~~(this.millisecond() / 100);
+    });
+
+    addFormatToken(0, ['SS', 2], 0, function () {
+        return ~~(this.millisecond() / 10);
+    });
+
+    addFormatToken(0, ['SSS', 3], 0, 'millisecond');
+    addFormatToken(0, ['SSSS', 4], 0, function () {
+        return this.millisecond() * 10;
+    });
+    addFormatToken(0, ['SSSSS', 5], 0, function () {
+        return this.millisecond() * 100;
+    });
+    addFormatToken(0, ['SSSSSS', 6], 0, function () {
+        return this.millisecond() * 1000;
+    });
+    addFormatToken(0, ['SSSSSSS', 7], 0, function () {
+        return this.millisecond() * 10000;
+    });
+    addFormatToken(0, ['SSSSSSSS', 8], 0, function () {
+        return this.millisecond() * 100000;
+    });
+    addFormatToken(0, ['SSSSSSSSS', 9], 0, function () {
+        return this.millisecond() * 1000000;
+    });
+
+
+    // ALIASES
+
+    addUnitAlias('millisecond', 'ms');
+
+    // PRIORITY
+
+    addUnitPriority('millisecond', 16);
+
+    // PARSING
+
+    addRegexToken('S',    match1to3, match1);
+    addRegexToken('SS',   match1to3, match2);
+    addRegexToken('SSS',  match1to3, match3);
+
+    var token;
+    for (token = 'SSSS'; token.length <= 9; token += 'S') {
+        addRegexToken(token, matchUnsigned);
+    }
+
+    function parseMs(input, array) {
+        array[MILLISECOND] = toInt(('0.' + input) * 1000);
+    }
+
+    for (token = 'S'; token.length <= 9; token += 'S') {
+        addParseToken(token, parseMs);
+    }
+    // MOMENTS
+
+    var getSetMillisecond = makeGetSet('Milliseconds', false);
+
+    // FORMATTING
+
+    addFormatToken('z',  0, 0, 'zoneAbbr');
+    addFormatToken('zz', 0, 0, 'zoneName');
+
+    // MOMENTS
+
+    function getZoneAbbr () {
+        return this._isUTC ? 'UTC' : '';
+    }
+
+    function getZoneName () {
+        return this._isUTC ? 'Coordinated Universal Time' : '';
+    }
+
+    var proto = Moment.prototype;
+
+    proto.add               = add;
+    proto.calendar          = calendar$1;
+    proto.clone             = clone;
+    proto.diff              = diff;
+    proto.endOf             = endOf;
+    proto.format            = format;
+    proto.from              = from;
+    proto.fromNow           = fromNow;
+    proto.to                = to;
+    proto.toNow             = toNow;
+    proto.get               = stringGet;
+    proto.invalidAt         = invalidAt;
+    proto.isAfter           = isAfter;
+    proto.isBefore          = isBefore;
+    proto.isBetween         = isBetween;
+    proto.isSame            = isSame;
+    proto.isSameOrAfter     = isSameOrAfter;
+    proto.isSameOrBefore    = isSameOrBefore;
+    proto.isValid           = isValid$2;
+    proto.lang              = lang;
+    proto.locale            = locale;
+    proto.localeData        = localeData;
+    proto.max               = prototypeMax;
+    proto.min               = prototypeMin;
+    proto.parsingFlags      = parsingFlags;
+    proto.set               = stringSet;
+    proto.startOf           = startOf;
+    proto.subtract          = subtract;
+    proto.toArray           = toArray;
+    proto.toObject          = toObject;
+    proto.toDate            = toDate;
+    proto.toISOString       = toISOString;
+    proto.inspect           = inspect;
+    proto.toJSON            = toJSON;
+    proto.toString          = toString;
+    proto.unix              = unix;
+    proto.valueOf           = valueOf;
+    proto.creationData      = creationData;
+    proto.year       = getSetYear;
+    proto.isLeapYear = getIsLeapYear;
+    proto.weekYear    = getSetWeekYear;
+    proto.isoWeekYear = getSetISOWeekYear;
+    proto.quarter = proto.quarters = getSetQuarter;
+    proto.month       = getSetMonth;
+    proto.daysInMonth = getDaysInMonth;
+    proto.week           = proto.weeks        = getSetWeek;
+    proto.isoWeek        = proto.isoWeeks     = getSetISOWeek;
+    proto.weeksInYear    = getWeeksInYear;
+    proto.isoWeeksInYear = getISOWeeksInYear;
+    proto.date       = getSetDayOfMonth;
+    proto.day        = proto.days             = getSetDayOfWeek;
+    proto.weekday    = getSetLocaleDayOfWeek;
+    proto.isoWeekday = getSetISODayOfWeek;
+    proto.dayOfYear  = getSetDayOfYear;
+    proto.hour = proto.hours = getSetHour;
+    proto.minute = proto.minutes = getSetMinute;
+    proto.second = proto.seconds = getSetSecond;
+    proto.millisecond = proto.milliseconds = getSetMillisecond;
+    proto.utcOffset            = getSetOffset;
+    proto.utc                  = setOffsetToUTC;
+    proto.local                = setOffsetToLocal;
+    proto.parseZone            = setOffsetToParsedOffset;
+    proto.hasAlignedHourOffset = hasAlignedHourOffset;
+    proto.isDST                = isDaylightSavingTime;
+    proto.isLocal              = isLocal;
+    proto.isUtcOffset          = isUtcOffset;
+    proto.isUtc                = isUtc;
+    proto.isUTC                = isUtc;
+    proto.zoneAbbr = getZoneAbbr;
+    proto.zoneName = getZoneName;
+    proto.dates  = deprecate('dates accessor is deprecated. Use date instead.', getSetDayOfMonth);
+    proto.months = deprecate('months accessor is deprecated. Use month instead', getSetMonth);
+    proto.years  = deprecate('years accessor is deprecated. Use year instead', getSetYear);
+    proto.zone   = deprecate('moment().zone is deprecated, use moment().utcOffset instead. http://momentjs.com/guides/#/warnings/zone/', getSetZone);
+    proto.isDSTShifted = deprecate('isDSTShifted is deprecated. See http://momentjs.com/guides/#/warnings/dst-shifted/ for more information', isDaylightSavingTimeShifted);
+
+    function createUnix (input) {
+        return createLocal(input * 1000);
+    }
+
+    function createInZone () {
+        return createLocal.apply(null, arguments).parseZone();
+    }
+
+    function preParsePostFormat (string) {
+        return string;
+    }
+
+    var proto$1 = Locale.prototype;
+
+    proto$1.calendar        = calendar;
+    proto$1.longDateFormat  = longDateFormat;
+    proto$1.invalidDate     = invalidDate;
+    proto$1.ordinal         = ordinal;
+    proto$1.preparse        = preParsePostFormat;
+    proto$1.postformat      = preParsePostFormat;
+    proto$1.relativeTime    = relativeTime;
+    proto$1.pastFuture      = pastFuture;
+    proto$1.set             = set;
+
+    proto$1.months            =        localeMonths;
+    proto$1.monthsShort       =        localeMonthsShort;
+    proto$1.monthsParse       =        localeMonthsParse;
+    proto$1.monthsRegex       = monthsRegex;
+    proto$1.monthsShortRegex  = monthsShortRegex;
+    proto$1.week = localeWeek;
+    proto$1.firstDayOfYear = localeFirstDayOfYear;
+    proto$1.firstDayOfWeek = localeFirstDayOfWeek;
+
+    proto$1.weekdays       =        localeWeekdays;
+    proto$1.weekdaysMin    =        localeWeekdaysMin;
+    proto$1.weekdaysShort  =        localeWeekdaysShort;
+    proto$1.weekdaysParse  =        localeWeekdaysParse;
+
+    proto$1.weekdaysRegex       =        weekdaysRegex;
+    proto$1.weekdaysShortRegex  =        weekdaysShortRegex;
+    proto$1.weekdaysMinRegex    =        weekdaysMinRegex;
+
+    proto$1.isPM = localeIsPM;
+    proto$1.meridiem = localeMeridiem;
+
+    function get$1 (format, index, field, setter) {
+        var locale = getLocale();
+        var utc = createUTC().set(setter, index);
+        return locale[field](utc, format);
+    }
+
+    function listMonthsImpl (format, index, field) {
+        if (isNumber(format)) {
+            index = format;
+            format = undefined;
+        }
+
+        format = format || '';
+
+        if (index != null) {
+            return get$1(format, index, field, 'month');
+        }
+
+        var i;
+        var out = [];
+        for (i = 0; i < 12; i++) {
+            out[i] = get$1(format, i, field, 'month');
+        }
+        return out;
+    }
+
+    // ()
+    // (5)
+    // (fmt, 5)
+    // (fmt)
+    // (true)
+    // (true, 5)
+    // (true, fmt, 5)
+    // (true, fmt)
+    function listWeekdaysImpl (localeSorted, format, index, field) {
+        if (typeof localeSorted === 'boolean') {
+            if (isNumber(format)) {
+                index = format;
+                format = undefined;
+            }
+
+            format = format || '';
+        } else {
+            format = localeSorted;
+            index = format;
+            localeSorted = false;
+
+            if (isNumber(format)) {
+                index = format;
+                format = undefined;
+            }
+
+            format = format || '';
+        }
+
+        var locale = getLocale(),
+            shift = localeSorted ? locale._week.dow : 0;
+
+        if (index != null) {
+            return get$1(format, (index + shift) % 7, field, 'day');
+        }
+
+        var i;
+        var out = [];
+        for (i = 0; i < 7; i++) {
+            out[i] = get$1(format, (i + shift) % 7, field, 'day');
+        }
+        return out;
+    }
+
+    function listMonths (format, index) {
+        return listMonthsImpl(format, index, 'months');
+    }
+
+    function listMonthsShort (format, index) {
+        return listMonthsImpl(format, index, 'monthsShort');
+    }
+
+    function listWeekdays (localeSorted, format, index) {
+        return listWeekdaysImpl(localeSorted, format, index, 'weekdays');
+    }
+
+    function listWeekdaysShort (localeSorted, format, index) {
+        return listWeekdaysImpl(localeSorted, format, index, 'weekdaysShort');
+    }
+
+    function listWeekdaysMin (localeSorted, format, index) {
+        return listWeekdaysImpl(localeSorted, format, index, 'weekdaysMin');
+    }
+
+    getSetGlobalLocale('en', {
+        dayOfMonthOrdinalParse: /\d{1,2}(th|st|nd|rd)/,
+        ordinal : function (number) {
+            var b = number % 10,
+                output = (toInt(number % 100 / 10) === 1) ? 'th' :
+                (b === 1) ? 'st' :
+                (b === 2) ? 'nd' :
+                (b === 3) ? 'rd' : 'th';
+            return number + output;
+        }
+    });
+
+    // Side effect imports
+
+    hooks.lang = deprecate('moment.lang is deprecated. Use moment.locale instead.', getSetGlobalLocale);
+    hooks.langData = deprecate('moment.langData is deprecated. Use moment.localeData instead.', getLocale);
+
+    var mathAbs = Math.abs;
+
+    function abs () {
+        var data           = this._data;
+
+        this._milliseconds = mathAbs(this._milliseconds);
+        this._days         = mathAbs(this._days);
+        this._months       = mathAbs(this._months);
+
+        data.milliseconds  = mathAbs(data.milliseconds);
+        data.seconds       = mathAbs(data.seconds);
+        data.minutes       = mathAbs(data.minutes);
+        data.hours         = mathAbs(data.hours);
+        data.months        = mathAbs(data.months);
+        data.years         = mathAbs(data.years);
+
+        return this;
+    }
+
+    function addSubtract$1 (duration, input, value, direction) {
+        var other = createDuration(input, value);
+
+        duration._milliseconds += direction * other._milliseconds;
+        duration._days         += direction * other._days;
+        duration._months       += direction * other._months;
+
+        return duration._bubble();
+    }
+
+    // supports only 2.0-style add(1, 's') or add(duration)
+    function add$1 (input, value) {
+        return addSubtract$1(this, input, value, 1);
+    }
+
+    // supports only 2.0-style subtract(1, 's') or subtract(duration)
+    function subtract$1 (input, value) {
+        return addSubtract$1(this, input, value, -1);
+    }
+
+    function absCeil (number) {
+        if (number < 0) {
+            return Math.floor(number);
+        } else {
+            return Math.ceil(number);
+        }
+    }
+
+    function bubble () {
+        var milliseconds = this._milliseconds;
+        var days         = this._days;
+        var months       = this._months;
+        var data         = this._data;
+        var seconds, minutes, hours, years, monthsFromDays;
+
+        // if we have a mix of positive and negative values, bubble down first
+        // check: https://github.com/moment/moment/issues/2166
+        if (!((milliseconds >= 0 && days >= 0 && months >= 0) ||
+                (milliseconds <= 0 && days <= 0 && months <= 0))) {
+            milliseconds += absCeil(monthsToDays(months) + days) * 864e5;
+            days = 0;
+            months = 0;
+        }
+
+        // The following code bubbles up values, see the tests for
+        // examples of what that means.
+        data.milliseconds = milliseconds % 1000;
+
+        seconds           = absFloor(milliseconds / 1000);
+        data.seconds      = seconds % 60;
+
+        minutes           = absFloor(seconds / 60);
+        data.minutes      = minutes % 60;
+
+        hours             = absFloor(minutes / 60);
+        data.hours        = hours % 24;
+
+        days += absFloor(hours / 24);
+
+        // convert days to months
+        monthsFromDays = absFloor(daysToMonths(days));
+        months += monthsFromDays;
+        days -= absCeil(monthsToDays(monthsFromDays));
+
+        // 12 months -> 1 year
+        years = absFloor(months / 12);
+        months %= 12;
+
+        data.days   = days;
+        data.months = months;
+        data.years  = years;
+
+        return this;
+    }
+
+    function daysToMonths (days) {
+        // 400 years have 146097 days (taking into account leap year rules)
+        // 400 years have 12 months === 4800
+        return days * 4800 / 146097;
+    }
+
+    function monthsToDays (months) {
+        // the reverse of daysToMonths
+        return months * 146097 / 4800;
+    }
+
+    function as (units) {
+        if (!this.isValid()) {
+            return NaN;
+        }
+        var days;
+        var months;
+        var milliseconds = this._milliseconds;
+
+        units = normalizeUnits(units);
+
+        if (units === 'month' || units === 'year') {
+            days   = this._days   + milliseconds / 864e5;
+            months = this._months + daysToMonths(days);
+            return units === 'month' ? months : months / 12;
+        } else {
+            // handle milliseconds separately because of floating point math errors (issue #1867)
+            days = this._days + Math.round(monthsToDays(this._months));
+            switch (units) {
+                case 'week'   : return days / 7     + milliseconds / 6048e5;
+                case 'day'    : return days         + milliseconds / 864e5;
+                case 'hour'   : return days * 24    + milliseconds / 36e5;
+                case 'minute' : return days * 1440  + milliseconds / 6e4;
+                case 'second' : return days * 86400 + milliseconds / 1000;
+                // Math.floor prevents floating point math errors here
+                case 'millisecond': return Math.floor(days * 864e5) + milliseconds;
+                default: throw new Error('Unknown unit ' + units);
+            }
+        }
+    }
+
+    // TODO: Use this.as('ms')?
+    function valueOf$1 () {
+        if (!this.isValid()) {
+            return NaN;
+        }
+        return (
+            this._milliseconds +
+            this._days * 864e5 +
+            (this._months % 12) * 2592e6 +
+            toInt(this._months / 12) * 31536e6
+        );
+    }
+
+    function makeAs (alias) {
+        return function () {
+            return this.as(alias);
+        };
+    }
+
+    var asMilliseconds = makeAs('ms');
+    var asSeconds      = makeAs('s');
+    var asMinutes      = makeAs('m');
+    var asHours        = makeAs('h');
+    var asDays         = makeAs('d');
+    var asWeeks        = makeAs('w');
+    var asMonths       = makeAs('M');
+    var asYears        = makeAs('y');
+
+    function clone$1 () {
+        return createDuration(this);
+    }
+
+    function get$2 (units) {
+        units = normalizeUnits(units);
+        return this.isValid() ? this[units + 's']() : NaN;
+    }
+
+    function makeGetter(name) {
+        return function () {
+            return this.isValid() ? this._data[name] : NaN;
+        };
+    }
+
+    var milliseconds = makeGetter('milliseconds');
+    var seconds      = makeGetter('seconds');
+    var minutes      = makeGetter('minutes');
+    var hours        = makeGetter('hours');
+    var days         = makeGetter('days');
+    var months       = makeGetter('months');
+    var years        = makeGetter('years');
+
+    function weeks () {
+        return absFloor(this.days() / 7);
+    }
+
+    var round = Math.round;
+    var thresholds = {
+        ss: 44,         // a few seconds to seconds
+        s : 45,         // seconds to minute
+        m : 45,         // minutes to hour
+        h : 22,         // hours to day
+        d : 26,         // days to month
+        M : 11          // months to year
+    };
+
+    // helper function for moment.fn.from, moment.fn.fromNow, and moment.duration.fn.humanize
+    function substituteTimeAgo(string, number, withoutSuffix, isFuture, locale) {
+        return locale.relativeTime(number || 1, !!withoutSuffix, string, isFuture);
+    }
+
+    function relativeTime$1 (posNegDuration, withoutSuffix, locale) {
+        var duration = createDuration(posNegDuration).abs();
+        var seconds  = round(duration.as('s'));
+        var minutes  = round(duration.as('m'));
+        var hours    = round(duration.as('h'));
+        var days     = round(duration.as('d'));
+        var months   = round(duration.as('M'));
+        var years    = round(duration.as('y'));
+
+        var a = seconds <= thresholds.ss && ['s', seconds]  ||
+                seconds < thresholds.s   && ['ss', seconds] ||
+                minutes <= 1             && ['m']           ||
+                minutes < thresholds.m   && ['mm', minutes] ||
+                hours   <= 1             && ['h']           ||
+                hours   < thresholds.h   && ['hh', hours]   ||
+                days    <= 1             && ['d']           ||
+                days    < thresholds.d   && ['dd', days]    ||
+                months  <= 1             && ['M']           ||
+                months  < thresholds.M   && ['MM', months]  ||
+                years   <= 1             && ['y']           || ['yy', years];
+
+        a[2] = withoutSuffix;
+        a[3] = +posNegDuration > 0;
+        a[4] = locale;
+        return substituteTimeAgo.apply(null, a);
+    }
+
+    // This function allows you to set the rounding function for relative time strings
+    function getSetRelativeTimeRounding (roundingFunction) {
+        if (roundingFunction === undefined) {
+            return round;
+        }
+        if (typeof(roundingFunction) === 'function') {
+            round = roundingFunction;
+            return true;
+        }
+        return false;
+    }
+
+    // This function allows you to set a threshold for relative time strings
+    function getSetRelativeTimeThreshold (threshold, limit) {
+        if (thresholds[threshold] === undefined) {
+            return false;
+        }
+        if (limit === undefined) {
+            return thresholds[threshold];
+        }
+        thresholds[threshold] = limit;
+        if (threshold === 's') {
+            thresholds.ss = limit - 1;
+        }
+        return true;
+    }
+
+    function humanize (withSuffix) {
+        if (!this.isValid()) {
+            return this.localeData().invalidDate();
+        }
+
+        var locale = this.localeData();
+        var output = relativeTime$1(this, !withSuffix, locale);
+
+        if (withSuffix) {
+            output = locale.pastFuture(+this, output);
+        }
+
+        return locale.postformat(output);
+    }
+
+    var abs$1 = Math.abs;
+
+    function sign(x) {
+        return ((x > 0) - (x < 0)) || +x;
+    }
+
+    function toISOString$1() {
+        // for ISO strings we do not use the normal bubbling rules:
+        //  * milliseconds bubble up until they become hours
+        //  * days do not bubble at all
+        //  * months bubble up until they become years
+        // This is because there is no context-free conversion between hours and days
+        // (think of clock changes)
+        // and also not between days and months (28-31 days per month)
+        if (!this.isValid()) {
+            return this.localeData().invalidDate();
+        }
+
+        var seconds = abs$1(this._milliseconds) / 1000;
+        var days         = abs$1(this._days);
+        var months       = abs$1(this._months);
+        var minutes, hours, years;
+
+        // 3600 seconds -> 60 minutes -> 1 hour
+        minutes           = absFloor(seconds / 60);
+        hours             = absFloor(minutes / 60);
+        seconds %= 60;
+        minutes %= 60;
+
+        // 12 months -> 1 year
+        years  = absFloor(months / 12);
+        months %= 12;
+
+
+        // inspired by https://github.com/dordille/moment-isoduration/blob/master/moment.isoduration.js
+        var Y = years;
+        var M = months;
+        var D = days;
+        var h = hours;
+        var m = minutes;
+        var s = seconds ? seconds.toFixed(3).replace(/\.?0+$/, '') : '';
+        var total = this.asSeconds();
+
+        if (!total) {
+            // this is the same as C#'s (Noda) and python (isodate)...
+            // but not other JS (goog.date)
+            return 'P0D';
+        }
+
+        var totalSign = total < 0 ? '-' : '';
+        var ymSign = sign(this._months) !== sign(total) ? '-' : '';
+        var daysSign = sign(this._days) !== sign(total) ? '-' : '';
+        var hmsSign = sign(this._milliseconds) !== sign(total) ? '-' : '';
+
+        return totalSign + 'P' +
+            (Y ? ymSign + Y + 'Y' : '') +
+            (M ? ymSign + M + 'M' : '') +
+            (D ? daysSign + D + 'D' : '') +
+            ((h || m || s) ? 'T' : '') +
+            (h ? hmsSign + h + 'H' : '') +
+            (m ? hmsSign + m + 'M' : '') +
+            (s ? hmsSign + s + 'S' : '');
+    }
+
+    var proto$2 = Duration.prototype;
+
+    proto$2.isValid        = isValid$1;
+    proto$2.abs            = abs;
+    proto$2.add            = add$1;
+    proto$2.subtract       = subtract$1;
+    proto$2.as             = as;
+    proto$2.asMilliseconds = asMilliseconds;
+    proto$2.asSeconds      = asSeconds;
+    proto$2.asMinutes      = asMinutes;
+    proto$2.asHours        = asHours;
+    proto$2.asDays         = asDays;
+    proto$2.asWeeks        = asWeeks;
+    proto$2.asMonths       = asMonths;
+    proto$2.asYears        = asYears;
+    proto$2.valueOf        = valueOf$1;
+    proto$2._bubble        = bubble;
+    proto$2.clone          = clone$1;
+    proto$2.get            = get$2;
+    proto$2.milliseconds   = milliseconds;
+    proto$2.seconds        = seconds;
+    proto$2.minutes        = minutes;
+    proto$2.hours          = hours;
+    proto$2.days           = days;
+    proto$2.weeks          = weeks;
+    proto$2.months         = months;
+    proto$2.years          = years;
+    proto$2.humanize       = humanize;
+    proto$2.toISOString    = toISOString$1;
+    proto$2.toString       = toISOString$1;
+    proto$2.toJSON         = toISOString$1;
+    proto$2.locale         = locale;
+    proto$2.localeData     = localeData;
+
+    proto$2.toIsoString = deprecate('toIsoString() is deprecated. Please use toISOString() instead (notice the capitals)', toISOString$1);
+    proto$2.lang = lang;
+
+    // Side effect imports
+
+    // FORMATTING
+
+    addFormatToken('X', 0, 0, 'unix');
+    addFormatToken('x', 0, 0, 'valueOf');
+
+    // PARSING
+
+    addRegexToken('x', matchSigned);
+    addRegexToken('X', matchTimestamp);
+    addParseToken('X', function (input, array, config) {
+        config._d = new Date(parseFloat(input, 10) * 1000);
+    });
+    addParseToken('x', function (input, array, config) {
+        config._d = new Date(toInt(input));
+    });
+
+    // Side effect imports
+
+
+    hooks.version = '2.22.2';
+
+    setHookCallback(createLocal);
+
+    hooks.fn                    = proto;
+    hooks.min                   = min;
+    hooks.max                   = max;
+    hooks.now                   = now;
+    hooks.utc                   = createUTC;
+    hooks.unix                  = createUnix;
+    hooks.months                = listMonths;
+    hooks.isDate                = isDate;
+    hooks.locale                = getSetGlobalLocale;
+    hooks.invalid               = createInvalid;
+    hooks.duration              = createDuration;
+    hooks.isMoment              = isMoment;
+    hooks.weekdays              = listWeekdays;
+    hooks.parseZone             = createInZone;
+    hooks.localeData            = getLocale;
+    hooks.isDuration            = isDuration;
+    hooks.monthsShort           = listMonthsShort;
+    hooks.weekdaysMin           = listWeekdaysMin;
+    hooks.defineLocale          = defineLocale;
+    hooks.updateLocale          = updateLocale;
+    hooks.locales               = listLocales;
+    hooks.weekdaysShort         = listWeekdaysShort;
+    hooks.normalizeUnits        = normalizeUnits;
+    hooks.relativeTimeRounding  = getSetRelativeTimeRounding;
+    hooks.relativeTimeThreshold = getSetRelativeTimeThreshold;
+    hooks.calendarFormat        = getCalendarFormat;
+    hooks.prototype             = proto;
+
+    // currently HTML5 input type only supports 24-hour formats
+    hooks.HTML5_FMT = {
+        DATETIME_LOCAL: 'YYYY-MM-DDTHH:mm',             // <input type="datetime-local" />
+        DATETIME_LOCAL_SECONDS: 'YYYY-MM-DDTHH:mm:ss',  // <input type="datetime-local" step="1" />
+        DATETIME_LOCAL_MS: 'YYYY-MM-DDTHH:mm:ss.SSS',   // <input type="datetime-local" step="0.001" />
+        DATE: 'YYYY-MM-DD',                             // <input type="date" />
+        TIME: 'HH:mm',                                  // <input type="time" />
+        TIME_SECONDS: 'HH:mm:ss',                       // <input type="time" step="1" />
+        TIME_MS: 'HH:mm:ss.SSS',                        // <input type="time" step="0.001" />
+        WEEK: 'YYYY-[W]WW',                             // <input type="week" />
+        MONTH: 'YYYY-MM'                                // <input type="month" />
+    };
+
+    return hooks;
+
+})));
+
+},{}],59:[function(require,module,exports){
+'use strict';
+
+var _moment = require('moment');
+
+var _moment2 = _interopRequireDefault(_moment);
+
+var _vendor = require('./vendor');
+
+var _vendor2 = _interopRequireDefault(_vendor);
+
+var _plot = require('./plot');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var repo = '/CurrencyConverter';
+
+if (navigator.serviceWorker) {
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register(repo + '/sw.js', {
+      scope: repo + '/'
+    }).then(function (registration) {
+      if (!navigator.serviceWorker.controller) {
+        return;
+      }
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function (error) {
+      console.log('ServiceWorker registration fail', error);
+    });
+
+    var refreshing = void 0;
+    navigator.serviceWorker.addEventListener('controllerchange', function () {
+      if (refreshing) return;
+      window.location.reload();
+      refreshing = true;
+    });
+  });
+}
+
+(function () {
+  var handleRequest = new _vendor2.default();
+  var fromTo = document.getElementById('fromTo');
+  var toFrom = document.getElementById('toFrom');
+  var fromInput = document.getElementById('fromInput');
+  var toInput = document.getElementById('toInput');
+  var fromBtn = document.getElementById('fromBtn');
+  var toBtn = document.getElementById('toBtn');
+  var rateFrom = document.getElementById('rateFrom');
+  var rateTo = document.getElementById('rateTo');
+  var currencies = void 0;
+  var fromToHtml = [];
+  var toFromHtml = [];
+  var fromCurrency = [{ id: 'AFN' }];
+  var toCurrency = [{ id: 'AFN' }];
+  var fromCurrencyValue = void 0;
+  var toCurrencyValue = void 0;
+  var apiUrl = 'https://free.currencyconverterapi.com/api/v5';
+
+  /**
+   * Calculates number of days backward
+   * @function calcDay
+   * @param { number } step -duration
+   */
+  var calcDay = function calcDay(step) {
+    return (0, _moment2.default)().subtract(step, 'days').format('YYYY-MM-DD');
+  };
+
+  /**
+   * Validates user entries
+   * @function validate
+   * @param { string } input -user input to be converted
+   */
+  var validate = function validate(input) {
+    var re = /^\d*(\.)?\d*$/g;
+    var isValid = re.test(input);
+    return { isValid: isValid };
+  };
+
+  /**
+   * @method Window load event
+   * @param { object } event - window event
+   */
+  window.addEventListener('load', function (event) {
+    event.preventDefault();
+    fetch(apiUrl + '/currencies').then(function (response) {
+      response.json().then(function (data) {
+        var _AFN_AFN;
+
+        currencies = data.results ? Object.values(data.results) : data;
+        loadCurrency(currencies);
+        (0, _plot.showTrends)(_defineProperty({}, 'AFN_AFN', (_AFN_AFN = {}, _defineProperty(_AFN_AFN, '' + calcDay(0), 1), _defineProperty(_AFN_AFN, '' + calcDay(1), 1), _defineProperty(_AFN_AFN, '' + calcDay(2), 1), _defineProperty(_AFN_AFN, '' + calcDay(3), 1), _AFN_AFN)));
+      });
+    });
+  });
+
+  /**
+   * Loads Currency from network or idb
+   * @function loadCurrency
+   * @param { array } currencies 
+   */
+  var loadCurrency = function loadCurrency(currencies) {
+    var arr = currencies.sort(function (prev, next) {
+      return prev['currencyName'].localeCompare(next['currencyName']);
+    });
+    for (var i = 0; i < arr.length; i++) {
+      fromToHtml.push('<option value=' + arr[i]['id'] + ' >' + arr[i]['currencyName'] + '</option>');
+      toFromHtml.push('<option value=' + arr[i]['id'] + '>' + arr[i]['currencyName'] + '</option>');
+    }
+    fromBtn.innerText = arr[0].currencySymbol;
+    toBtn.innerText = arr[0].currencySymbol;
+    fromTo.innerHTML = fromToHtml.join('');
+    toFrom.innerHTML = toFromHtml.join('');
+  };
+
+  /**
+   * @method Window change event
+   * @param { object } event - window event
+   */
+  fromTo.addEventListener('change', function (event) {
+    event.preventDefault();
+    changeFromCurrency(event.target.value);
+    var previous = (0, _moment2.default)().subtract(6, 'days').format('YYYY-MM-DD');
+    var today = (0, _moment2.default)().format('YYYY-MM-DD');
+    handleRequest.fetchHistoricalData(fromCurrency[0].id, toCurrency[0].id, previous, today).then(function (response) {
+      var key = fromCurrency[0].id + '_' + toCurrency[0].id;
+      if (!response) return;
+      response.json().then(function (data) {
+        var result = Object.keys(data)[0] === key ? data['' + key] : data;
+        (0, _plot.showTrends)(_defineProperty({}, '' + key, result));
+      });
+    });
+  });
+
+  /**
+   * Append relevant currency detail to initiating html element
+   * @function changeFromCurrency
+   * @param { object } event - window event
+   */
+  var changeFromCurrency = function changeFromCurrency(id) {
+    fromCurrency = currencies.filter(function (el) {
+      return el.id === id;
+    });
+    var fromCurrencySymbol = fromCurrency[0].currencySymbol ? fromCurrency[0].currencySymbol : fromCurrency[0].id;
+    var fromCurrencyId = fromCurrency[0].id;
+    fromBtn.innerText = fromCurrencySymbol;
+    //rateFrom.innerText = `1 ${fromCurrencyId} = ${toCurrency[0].id}`;
+    //rateTo.innerText = `1 ${toCurrency[0].id}  = ${fromCurrencyId}`;
+  };
+
+  toFrom.addEventListener('change', function (event) {
+    event.preventDefault();
+    changeToCurrency(event.target.value);
+    var previous = (0, _moment2.default)().subtract(6, 'days').format('YYYY-MM-DD');
+    var today = (0, _moment2.default)().format('YYYY-MM-DD');
+    handleRequest.fetchHistoricalData(fromCurrency[0].id, toCurrency[0].id, previous, today).then(function (response) {
+      var key = fromCurrency[0].id + '_' + toCurrency[0].id;
+      if (!response) return;
+      response.json().then(function (data) {
+        var result = Object.keys(data)[0] === key ? data['' + key] : data;
+        (0, _plot.showTrends)(_defineProperty({}, '' + key, result));
+      });
+    });
+  });
+
+  /**
+   * Append relevant currency detail to recieving html element
+   * @function changeFromCurrency
+   * @param { object } event - window event
+   */
+  var changeToCurrency = function changeToCurrency(id) {
+    toCurrency = currencies.filter(function (el) {
+      return el.id === id;
+    });
+    var toCurrencySymbol = toCurrency[0].currencySymbol ? toCurrency[0].currencySymbol : toCurrency[0].id;
+    var toCurrencyId = toCurrency[0].id;
+    toBtn.innerText = toCurrencySymbol;
+    //rateFrom.innerText = `1 ${fromCurrency[0].id} = ${toCurrencyId}`;
+    //rateTo.innerText = `1 ${toCurrencyId}  = ${fromCurrency[0].id}`;
+  };
+
+  /**
+   * Listens to input from user
+   * @method Window change event
+   * @param { object } event - window event
+   */
+  fromInput.addEventListener('input', function (event) {
+    event.preventDefault();
+
+    var _validate = validate(event.target.value),
+        isValid = _validate.isValid;
+
+    if (!isValid) {
+      alert('Please enter a valid number');
+      fromInput.value = fromInput.value.slice(0, -1);
+      return;
+    }
+    var query = fromCurrency[0].id + '_' + toCurrency[0].id + ',' + toCurrency[0].id + '_' + fromCurrency[0].id;
+    var url = apiUrl + '/convert?q=' + query + '&compact=ultra';
+    var key = fromCurrency[0].id + '_' + toCurrency[0].id;
+    var fetchRate = fetch(url);
+    fetchRate.then(function (response) {
+      response.json().then(function (data) {
+        var rate = Object.keys(data)[0] === key ? data[key] : Object.values(data)[0];
+        toInput.value = (event.target.value * parseFloat(rate)).toFixed(3);
+      });
+    });
+  });
+
+  /**
+   * Listens to input from user
+   * @method Window change event
+   * @param { object } event - window event
+   */
+  toInput.addEventListener('input', function (event) {
+    event.preventDefault();
+
+    var _validate2 = validate(event.target.value),
+        isValid = _validate2.isValid;
+
+    if (!isValid) {
+      alert('Please enter a valid number');
+      toInput.value = toInput.value.slice(0, -1);
+      return;
+    }
+    var query = toCurrency[0].id + '_' + fromCurrency[0].id + ',' + fromCurrency[0].id + '_' + toCurrency[0].id;
+    var url = apiUrl + '/convert?q=' + query + '&compact=ultra';
+    var key = toCurrency[0].id + '_' + fromCurrency[0].id;
+    var fetchRate = fetch(url);
+    fetchRate.then(function (response) {
+      response.json().then(function (data) {
+        var rate = Object.keys(data)[0] === key ? data[key] : Object.values(data)[0];
+        fromInput.value = (event.target.value * parseFloat(rate)).toFixed(3);
+      });
+    });
+  });
+})();
+
+},{"./plot":60,"./vendor":61,"moment":58}],60:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.showTrends = undefined;
+
+var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
+var _chart = require('chart.js');
+
+var _chart2 = _interopRequireDefault(_chart);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * Plots currency flunctuations 
+ * @function showTrends
+ * @param { object } historyData 
+ */
+var showTrends = exports.showTrends = function showTrends(historyData) {
+  var ctx = document.getElementById('trendChart');
+  var fromTo = document.getElementById('fromTo');
+  var toFrom = document.getElementById('toFrom');
+  var fromLabel = fromTo.options[fromTo.selectedIndex].text;
+  var toLabel = toFrom.options[toFrom.selectedIndex].text;
+
+  var _Object$keys = Object.keys(historyData),
+      _Object$keys2 = _slicedToArray(_Object$keys, 1),
+      key = _Object$keys2[0];
+
+  var xLabel = Object.keys(historyData['' + key]);
+  var yData = Object.values(historyData['' + key]);
+
+  var _getLimits = getLimits(yData),
+      yMax = _getLimits.yMax,
+      yMin = _getLimits.yMin;
+
+  var data = {
+    labels: xLabel,
+    datasets: [{
+      label: toLabel + ' against ' + fromLabel,
+      fill: true,
+      pointBackgroundColor: 'rgba(225,99,192,0.8)',
+      borderColor: 'rgba(2,2,198,0.7)',
+      yAxesID: 'A',
+      data: yData
+    }]
+  };
+  var options = {
+    scales: {
+      xAxes: [{
+        type: 'time',
+        distribution: 'series',
+        time: {
+          unit: 'day'
+        }
+      }],
+      yAxes: [{
+        id: 'A',
+        type: 'linear',
+        position: 'left',
+        ticks: {
+          max: yMax,
+          min: yMin
+        },
+        scaleLabel: {
+          display: true,
+          labelString: toLabel + ' conversion rates'
+        }
+      }]
+    },
+    elements: {
+      line: {
+        tension: 0
+      }
+    }
+  };
+  var trendChart = new _chart2.default(ctx, {
+    type: 'line',
+    data: data,
+    options: options
+  });
+};
+
+/**
+ * Calculates upper and lower limit for plot
+ * @function getLimits
+ * @param { array } arr - Array of y-axis values
+ */
+var getLimits = function getLimits(arr) {
+  var maxVal = arr.reduce(function (prev, next) {
+    return Math.max(prev, next);
+  });
+  var minVal = arr.reduce(function (prev, next) {
+    return Math.min(prev, next);
+  });
+  var offset = (maxVal - minVal) / arr.length;
+  var yMax = maxVal + offset;
+  var yMin = minVal - offset;
+  return {
+    yMax: yMax,
+    yMin: yMin
+  };
+};
+
+exports.default = {};
+
+},{"chart.js":1}],61:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+/**
+ * @class HandleRequest
+ * @description Handle third party based api
+ * @returns { null }
+ */
+var HandleRequest = function () {
+  function HandleRequest() {
+    _classCallCheck(this, HandleRequest);
+
+    this.baseUrl = 'https://free.currencyconverterapi.com/api/v5';
+  }
+
+  /**
+   * @method fetchCurrencies
+   * @description fetch currency from newtork
+   * @memberof HandleRequest
+   * @param { null }
+   * @returns { promise } response - network response
+   */
+
+
+  _createClass(HandleRequest, [{
+    key: 'fetchCurrencies',
+    value: function fetchCurrencies() {
+      return fetch(this.baseUrl + '/currencies').then(function (response) {
+        return response;
+      }).catch(function (error) {
+        return console.log(error);
+      });
+    }
+
+    /**
+     * @method fetchHistoricalData
+     * @description fetch currency history from newtork
+     * @memberof HandleRequest
+     * @param { string } fromCurrency - initiator
+     * @param { string } toCurrency - receiver
+     * @param { string } startDate
+     * @param { string } endDate
+     * @returns { promise } response - network response
+     */
+
+  }, {
+    key: 'fetchHistoricalData',
+    value: function fetchHistoricalData(fromCurrency, toCurrency, startDate, endDate) {
+      var query = fromCurrency + '_' + toCurrency + ',' + toCurrency + '_' + fromCurrency;
+      var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra&date=' + startDate + '&endDate=' + endDate;
+      return fetch(url).then(function (response) {
+        if (!response) return;
+        return response;
+      }).catch(function (error) {
+        return console.log(error);
+      });
+    }
+  }]);
+
+  return HandleRequest;
+}();
+
+exports.default = HandleRequest;
+
+},{}]},{},[59])
 
 //# sourceMappingURL=main.js.map
