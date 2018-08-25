@@ -32,12 +32,29 @@ Ensure the underlisted are installed on your PC before running this application
 ```
 npm install 
 ```
-3. Build JS files and transpile to es5
-
+3. Run locally on pc (on master branch)
+This will make available to you the transpiled js files, css and html in the build directory
 ```
+git checkout master(if branch is not currently on master)
 npm run build
 ```
 
+4. Deploy to gh-page
+
+> To run on gh-pages, files must be in the root directory of gh-pages branch, ensure you navigate to __gh-pages__ branch.
+
+```
+git checkout gh-pages(if branch is not currently on master)
+```
+
+> To restore folder to initial state without adapting it to gh-pages use:
+```
+npm run reverse
+```
+> To adapt folder structure and transpiled js-files with gh-pages from original folder structure:
+```
+npm run deploy-ghpage
+```
 ## Service Worker
 
 This app makes use of a service worker that enables the app to download currencies, rates etc. and save to the browsers db. It also intercept requests to ensure user has an exciting experience when working offline.
