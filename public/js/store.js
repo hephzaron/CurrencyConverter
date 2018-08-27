@@ -407,8 +407,7 @@ var saveCurrencyHistory = exports.saveCurrencyHistory = function saveCurrencyHis
  * @returns { promise } idb object
  */
 var saveCurrencyRates = exports.saveCurrencyRates = function saveCurrencyRates(options) {
-  var amount = options.amount,
-      fromCurrency = options.fromCurrency,
+  var fromCurrency = options.fromCurrency,
       toCurrency = options.toCurrency;
 
   var dbPromise = _idb2.default.open('currencies-rates-db', 1, function (upgradeDb) {
@@ -549,6 +548,28 @@ var HandleRequest = function () {
       return fetch(url).then(function (response) {
         if (!response) return;
         return response;
+      }).catch(function (error) {
+        return console.log(error);
+      });
+    }
+
+    /**
+     * @method fetchConversionRates
+     * @description fetch conversion rates from newtork
+     * @memberof HandleRequest
+     * @param { string } fromCurrency - initiator
+     * @param { string } toCurrency - receiver
+     * @returns { promise } response - network response
+     */
+
+  }, {
+    key: 'fetchConversionRates',
+    value: function fetchConversionRates(fromCurrency, toCurrency) {
+      var query = fromCurrency + '_' + toCurrency + ',' + toCurrency + '_' + fromCurrency;
+      var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra';
+      return fetch(url).then(function (response) {
+        if (!response) return;
+        return response.json();
       }).catch(function (error) {
         return console.log(error);
       });

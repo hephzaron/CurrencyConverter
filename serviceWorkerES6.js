@@ -57,7 +57,6 @@ self.addEventListener('activate', (event) => {
     })
     .then(() => saveCurrencies()
       .then(() => saveCurrencyRates({
-          amount: 1,
           fromCurrency: 'AFN',
           toCurrency: 'AFN'
         })

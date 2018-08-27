@@ -69,7 +69,7 @@ export const saveCurrencyHistory = (data) => {
  * @returns { promise } idb object
  */
 export const saveCurrencyRates = (options) => {
-  const { amount, fromCurrency, toCurrency } = options;
+  const { fromCurrency, toCurrency } = options;
   const dbPromise = idb.open('currencies-rates-db', 1, (upgradeDb) => {
     if (!upgradeDb.objectStoreNames.contains('currency-rates')) {
       return upgradeDb.createObjectStore('currency-rates');

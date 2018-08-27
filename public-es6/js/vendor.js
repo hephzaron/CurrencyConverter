@@ -41,6 +41,25 @@ class HandleRequest {
       })
       .catch(error => console.log(error))
   }
+
+  /**
+   * @method fetchConversionRates
+   * @description fetch conversion rates from newtork
+   * @memberof HandleRequest
+   * @param { string } fromCurrency - initiator
+   * @param { string } toCurrency - receiver
+   * @returns { promise } response - network response
+   */
+  fetchConversionRates(fromCurrency, toCurrency) {
+    const query = `${fromCurrency}_${toCurrency},${toCurrency}_${fromCurrency}`;
+    const url = `${this.baseUrl}/convert?q=${query}&compact=ultra`;
+    return fetch(url)
+      .then((response) => {
+        if (!response) return;
+        return response.json()
+      })
+      .catch(error => console.log(error))
+  }
 }
 
 export default HandleRequest;
