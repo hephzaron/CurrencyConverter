@@ -8,6 +8,7 @@ var buffer = require('vinyl-buffer');
 var minifyjs = require('gulp-js-minify');
 var mergeStream = require('merge-stream');
 var del = require('del');
+var fs = require('fs');
 var plugins = require('gulp-load-plugins')({ lazy: false });
 var _ = require('lodash');
 
@@ -21,7 +22,8 @@ gulp.task('copy', function() {
   return mergeStream(
     gulp.src('public/css/**/*').pipe(gulp.dest('build/public/css/')),
     gulp.src('public/imgs/**/*').pipe(gulp.dest('build/public/imgs/')),
-    gulp.src('public/js/utils/*').pipe(gulp.dest('build/public/js/utils/'))
+    gulp.src('public/js/utils/*').pipe(gulp.dest('build/public/js/utils/')),
+    gulp.src('index.html').pipe(gulp.dest('build/'))
   );
 });
 
@@ -66,7 +68,7 @@ var jsBundles = {
   'build/public/js/vendor.js': createBundle('./public/js/vendor.js'),
   'build/public/js/store.js': createBundle('./public/js/store.js'),
   'build/public/js/plot.js': createBundle('./public/js/plot.js'),
-  'sw.js': createBundle('serviceWorker.js')
+  'build/sw.js': createBundle('serviceWorker.js')
 }
 
 
@@ -80,7 +82,7 @@ gulp.task('js:browser', function() {
 
 gulp.task('watch', function() {
   gulp.watch(['*.js'], ['js:browser']);
-  gulp.watch(['public/imgs/**/*', 'public/css/**/*', 'public/js/utils/*'], ['copy']);
+  gulp.watch(['public/imgs/**/*', 'public/css/**/*', 'public/js/utils/*', 'index.html'], ['copy']);
 
   Object.keys(jsBundles).forEach(function(key) {
     var b = jsBundles[key];
@@ -91,5 +93,56 @@ gulp.task('watch', function() {
 });
 
 gulp.task('build', function(callback) {
-  runSequence('clean', ['js:browser', 'copy'], 'watch', callback);
+  runSequence(['js:browser', 'copy'], 'watch', callback);
+});
+
+/**Copy built file to root directory */
+gulp.task('post-clean', function() {
+  del(['public', './sw.js', './sw.js.map'])
+});
+
+gulp.task('rename', function(done) {
+  fs.rename('public', 'public-es6', function(err) {
+    if (err) {
+      throw err;
+    }
+    fs.rename('serviceWorker.js', 'serviceWorkerES6.js', function(err) {
+      if (err) {
+        throw err;
+      }
+      done();
+    });
+  });
+});
+
+gulp.task('rename-reverse', function(done) {
+  fs.rename('public-es6', 'public', function(err) {
+    if (err) {
+      throw err;
+    }
+    fs.rename('serviceWorkerES6.js', 'serviceWorker.js', function(err) {
+      if (err) {
+        throw err;
+      }
+      done();
+    });
+  });
+});
+
+gulp.task('dist', function() {
+  return mergeStream(
+    gulp.src('build/public/css/**/*').pipe(gulp.dest('public/css/')),
+    gulp.src('build/public/imgs/**/*').pipe(gulp.dest('public/imgs/')),
+    gulp.src('build/public/js/*').pipe(gulp.dest('public/js/')),
+    gulp.src('build/public/js/utils/*').pipe(gulp.dest('public/js/utils/')),
+    gulp.src('build/sw.js').pipe(gulp.dest('./'))
+  );
+});
+
+gulp.task('deploy-ghpage', function(callback) {
+  runSequence('rename', 'dist', 'clean', callback);
+});
+
+gulp.task('reverse', function(callback) {
+  runSequence('rename-reverse', ['js:browser', 'copy'], callback);
 });

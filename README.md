@@ -1,6 +1,6 @@
 # Currency Converter
 
-![Currency Converter Image](build/public/imgs/web-page.JPG)
+![Currency Converter Image](public/imgs/web-page.JPG)
 
 Currency converter is a mini app that can convert from  one currency to the other and can also display the trend of selected currency over a period of 6days.
 It also made use of service worker api, indexedDb and cache api for offline capabilities
@@ -32,12 +32,36 @@ Ensure the underlisted are installed on your PC before running this application
 ```
 npm install 
 ```
-3. Build JS files and transpile to es5
-
+3. Run locally on pc (on master branch)
+This will make available to you the transpiled js files, css and html in the build directory
 ```
+git checkout master(if branch is not currently on master)
 npm run build
 ```
 
+4. Deploy to gh-page
+
+> To run on gh-pages, files must be in the root directory of gh-pages branch, ensure you navigate to __gh-pages__ branch.
+
+```
+git checkout gh-pages(if branch is not currently on master)
+```
+
+> To restore folder to initial state without adapting it to gh-pages use:
+
+```
+npm run reverse
+```
+
+> To adapt folder structure and transpiled js-files with gh-pages from original folder structure:
+
+```
+npm run deploy-ghpage
+```
+> To edit original files and watch for changes while transpiling , ensure you working with the original folder structure then run:
+```
+npm run build
+```
 ## Service Worker
 
 This app makes use of a service worker that enables the app to download currencies, rates etc. and save to the browsers db. It also intercept requests to ensure user has an exciting experience when working offline.

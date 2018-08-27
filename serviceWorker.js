@@ -20,15 +20,15 @@ const repo = '/CurrencyConverter';
 
 const pageSkeleton = [
   `${repo}/`,
-  `${repo}/build/public/js/main.js`,
-  `${repo}/build/public/js/plot.js`,
-  `${repo}/build/public/css/bootstrap.min.css`,
-  `${repo}/build/public/css/style.css`,
-  `${repo}/build/public/imgs/forex-online.jpg`,
-  `${repo}/build/public/js/utils/jquery-3.2.1.min.js`,
-  `${repo}/build/public/js/utils/bootstrap.min.js`,
-  `${repo}/build/public/js/utils/ie-emulation-modes-warning.js`,
-  `${repo}/build/public/js/utils/ie10-viewport-bug-workaround.js`,
+  `${repo}/public/js/main.js`,
+  `${repo}/public/js/plot.js`,
+  `${repo}/public/css/bootstrap.min.css`,
+  `${repo}/public/css/style.css`,
+  `${repo}/public/imgs/forex-online.jpg`,
+  `${repo}/public/js/utils/jquery-3.2.1.min.js`,
+  `${repo}/public/js/utils/bootstrap.min.js`,
+  `${repo}/public/js/utils/ie-emulation-modes-warning.js`,
+  `${repo}/public/js/utils/ie10-viewport-bug-workaround.js`,
   `${repo}/index.html`
 ]
 
@@ -57,7 +57,6 @@ self.addEventListener('activate', (event) => {
     })
     .then(() => saveCurrencies()
       .then(() => saveCurrencyRates({
-          amount: 1,
           fromCurrency: 'AFN',
           toCurrency: 'AFN'
         })
@@ -101,7 +100,12 @@ self.addEventListener('fetch', (event) => {
   )
 });
 
-
+/**
+ * Intercepts and responds to currencies fetch request
+ * @function serveCurrencies
+ * @param { object } request
+ * @returns { object } response 
+ */
 const serveCurrencies = (request) => {
   const networkFetch = fetch(request)
     .then(async(networkResponse) => {
@@ -132,6 +136,12 @@ const serveCurrencies = (request) => {
   return networkFetch;
 };
 
+/**
+ * Intercepts and responds to currency history fetch request
+ * @function plotCurrencyHistory
+ * @param { object } request
+ * @returns { object } response 
+ */
 const plotCurrencyHistory = (request) => {
   const url = new URL(request.url);
   const params = url.searchParams.get('q').split(',');
@@ -170,6 +180,12 @@ const plotCurrencyHistory = (request) => {
   return networkFetch;
 }
 
+/**
+ * Intercepts and responds to currency conversion fetch request
+ * @function convertCurrency
+ * @param { object } request
+ * @returns { object } response 
+ */
 const convertCurrency = (request) => {
   const url = new URL(request.url);
   const params = url.searchParams.get('q').split(',');

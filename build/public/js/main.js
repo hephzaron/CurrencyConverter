@@ -19082,7 +19082,7 @@ if (navigator.serviceWorker) {
     fetchRate.then(function (response) {
       response.json().then(function (data) {
         var rate = Object.keys(data)[0] === key ? data[key] : Object.values(data)[0];
-        toInput.value = (event.target.value * parseFloat(rate)).toFixed(2);
+        toInput.value = (event.target.value * parseFloat(rate)).toFixed(3);
       });
     });
   });
@@ -19103,14 +19103,14 @@ if (navigator.serviceWorker) {
       toInput.value = toInput.value.slice(0, -1);
       return;
     }
-    var query = fromCurrency[0].id + '_' + toCurrency[0].id + ',' + toCurrency[0].id + '_' + fromCurrency[0].id;
+    var query = toCurrency[0].id + '_' + fromCurrency[0].id + ',' + fromCurrency[0].id + '_' + toCurrency[0].id;
     var url = apiUrl + '/convert?q=' + query + '&compact=ultra';
     var key = toCurrency[0].id + '_' + fromCurrency[0].id;
     var fetchRate = fetch(url);
     fetchRate.then(function (response) {
       response.json().then(function (data) {
         var rate = Object.keys(data)[0] === key ? data[key] : Object.values(data)[0];
-        fromInput.value = (event.target.value * parseFloat(rate)).toFixed(2);
+        fromInput.value = (event.target.value * parseFloat(rate)).toFixed(3);
       });
     });
   });
@@ -19261,7 +19261,7 @@ var HandleRequest = function () {
     key: 'fetchCurrencies',
     value: function fetchCurrencies() {
       return fetch(this.baseUrl + '/currencies').then(function (response) {
-        return response;
+        return response.json();
       }).catch(function (error) {
         return console.log(error);
       });
@@ -19286,6 +19286,28 @@ var HandleRequest = function () {
       return fetch(url).then(function (response) {
         if (!response) return;
         return response;
+      }).catch(function (error) {
+        return console.log(error);
+      });
+    }
+
+    /**
+     * @method fetchConversionRates
+     * @description fetch conversion rates from newtork
+     * @memberof HandleRequest
+     * @param { string } fromCurrency - initiator
+     * @param { string } toCurrency - receiver
+     * @returns { promise } response - network response
+     */
+
+  }, {
+    key: 'fetchConversionRates',
+    value: function fetchConversionRates(fromCurrency, toCurrency) {
+      var query = fromCurrency + '_' + toCurrency + ',' + toCurrency + '_' + fromCurrency;
+      var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra';
+      return fetch(url).then(function (response) {
+        if (!response) return;
+        return response.json();
       }).catch(function (error) {
         return console.log(error);
       });

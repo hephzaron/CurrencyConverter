@@ -4861,7 +4861,7 @@ var saveCurrencies = exports.saveCurrencies = function saveCurrencies() {
 
   return dbPromise.then(function (db) {
     var fetchedResponse = handleRequest.fetchCurrencies();
-    return fetchedResponse.json().then(function (currencies) {
+    return fetchedResponse.then(function (currencies) {
       if (!currencies.results) {
         return Promise.reject('Currencies cannot be fetched from network');
       }
@@ -4915,8 +4915,7 @@ var saveCurrencyHistory = exports.saveCurrencyHistory = function saveCurrencyHis
  * @returns { promise } idb object
  */
 var saveCurrencyRates = exports.saveCurrencyRates = function saveCurrencyRates(options) {
-  var amount = options.amount,
-      fromCurrency = options.fromCurrency,
+  var fromCurrency = options.fromCurrency,
       toCurrency = options.toCurrency;
 
   var dbPromise = _idb2.default.open('currencies-rates-db', 1, function (upgradeDb) {
@@ -5032,7 +5031,7 @@ var HandleRequest = function () {
     key: 'fetchCurrencies',
     value: function fetchCurrencies() {
       return fetch(this.baseUrl + '/currencies').then(function (response) {
-        return response;
+        return response.json();
       }).catch(function (error) {
         return console.log(error);
       });
@@ -5057,6 +5056,28 @@ var HandleRequest = function () {
       return fetch(url).then(function (response) {
         if (!response) return;
         return response;
+      }).catch(function (error) {
+        return console.log(error);
+      });
+    }
+
+    /**
+     * @method fetchConversionRates
+     * @description fetch conversion rates from newtork
+     * @memberof HandleRequest
+     * @param { string } fromCurrency - initiator
+     * @param { string } toCurrency - receiver
+     * @returns { promise } response - network response
+     */
+
+  }, {
+    key: 'fetchConversionRates',
+    value: function fetchConversionRates(fromCurrency, toCurrency) {
+      var query = fromCurrency + '_' + toCurrency + ',' + toCurrency + '_' + fromCurrency;
+      var url = this.baseUrl + '/convert?q=' + query + '&compact=ultra';
+      return fetch(url).then(function (response) {
+        if (!response) return;
+        return response.json();
       }).catch(function (error) {
         return console.log(error);
       });
@@ -5089,7 +5110,11 @@ var appCahe = cacheBasename + '-' + cacheVersion;
 
 var repo = '/CurrencyConverter';
 
+<<<<<<< HEAD:sw.js
 var pageSkeleton = [repo + '/', repo + '/build/public/js/main.js', repo + '/build/public/js/plot.js', repo + '/build/public/css/bootstrap.min.css', repo + '/build/public/css/style.css', repo + '/build/public/imgs/forex-online.jpg', repo + '/build/public/js/utils/jquery-3.2.1.min.js', repo + '/build/public/js/utils/bootstrap.min.js', repo + '/build/public/js/utils/ie-emulation-modes-warning.js', repo + '/build/public/js/utils/ie10-viewport-bug-workaround.js', repo + '/index.html'];
+=======
+var pageSkeleton = [repo + '/', repo + '/public/js/main.js', repo + '/public/js/plot.js', repo + '/public/css/bootstrap.min.css', repo + '/public/css/style.css', repo + '/public/imgs/forex-online.jpg', repo + '/public/js/utils/jquery-3.2.1.min.js', repo + '/public/js/utils/bootstrap.min.js', repo + '/public/js/utils/ie-emulation-modes-warning.js', repo + '/public/js/utils/ie10-viewport-bug-workaround.js', repo + '/index.html'];
+>>>>>>> gh-pages:build/sw.js
 
 self.addEventListener('install', function (event) {
   event.waitUntil(caches.open(appCahe).then(function (cache) {
@@ -5113,7 +5138,6 @@ self.addEventListener('activate', function (event) {
   }).then(function () {
     return (0, _store.saveCurrencies)().then(function () {
       return (0, _store.saveCurrencyRates)({
-        amount: 1,
         fromCurrency: 'AFN',
         toCurrency: 'AFN'
       }).then(function () {
@@ -5156,6 +5180,12 @@ self.addEventListener('fetch', function (event) {
   }));
 });
 
+/**
+ * Intercepts and responds to currencies fetch request
+ * @function serveCurrencies
+ * @param { object } request
+ * @returns { object } response 
+ */
 var serveCurrencies = function serveCurrencies(request) {
   var networkFetch = fetch(request).then(async function (networkResponse) {
     var dbPromise = _idb2.default.open('currencies-db', 1);
@@ -5183,6 +5213,12 @@ var serveCurrencies = function serveCurrencies(request) {
   return networkFetch;
 };
 
+/**
+ * Intercepts and responds to currency history fetch request
+ * @function plotCurrencyHistory
+ * @param { object } request
+ * @returns { object } response 
+ */
 var plotCurrencyHistory = function plotCurrencyHistory(request) {
   var url = new URL(request.url);
   var params = url.searchParams.get('q').split(',');
@@ -5218,6 +5254,12 @@ var plotCurrencyHistory = function plotCurrencyHistory(request) {
   return networkFetch;
 };
 
+/**
+ * Intercepts and responds to currency conversion fetch request
+ * @function convertCurrency
+ * @param { object } request
+ * @returns { object } response 
+ */
 var convertCurrency = function convertCurrency(request) {
   var url = new URL(request.url);
   var params = url.searchParams.get('q').split(',');

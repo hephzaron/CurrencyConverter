@@ -197,7 +197,7 @@ if (navigator.serviceWorker) {
     fetchRate.then((response) => {
       response.json().then((data) => {
         const rate = Object.keys(data)[0] === key ? data[key] : Object.values(data)[0]
-        toInput.value = ((event.target.value) * parseFloat(rate)).toFixed(2);
+        toInput.value = ((event.target.value) * parseFloat(rate)).toFixed(3);
       });
     });
   });
@@ -215,14 +215,14 @@ if (navigator.serviceWorker) {
       toInput.value = toInput.value.slice(0, -1);
       return;
     }
-    const query = `${fromCurrency[0].id}_${toCurrency[0].id},${toCurrency[0].id}_${fromCurrency[0].id}`;
+    const query = `${toCurrency[0].id}_${fromCurrency[0].id},${fromCurrency[0].id}_${toCurrency[0].id}`;
     const url = `${apiUrl}/convert?q=${query}&compact=ultra`;
     const key = `${toCurrency[0].id}_${fromCurrency[0].id}`;
     const fetchRate = fetch(url);
     fetchRate.then((response) => {
       response.json().then((data) => {
         const rate = Object.keys(data)[0] === key ? data[key] : Object.values(data)[0];
-        fromInput.value = ((event.target.value) * parseFloat(rate)).toFixed(2);
+        fromInput.value = ((event.target.value) * parseFloat(rate)).toFixed(3);
       });
     });
   });
