@@ -17,7 +17,7 @@ class HandleRequest {
    */
   fetchCurrencies() {
     return fetch(`${this.baseUrl}/currencies`)
-      .then(response => response)
+      .then(response => response.json())
       .catch(error => console.log(error))
   }
 
