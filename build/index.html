@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewpoint" content="width=device-width,initial-scale=1">
+  <!--Stylesheet -->
+  <link rel="stylesheet" href="public/css/style.css">
+  <link rel="stylesheet" href="public/css/bootstrap.min.css">
+  <link rel="shorcut icon" href="#">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags-->
+  <title>Currency Converter</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <h3 class="text-center" style="color: rgb(253, 153, 23)">Currency Converter</h3>
+    </div>
+    <div class="row">
+      <form>
+        <div class="col-xs-6">
+          <select id="fromTo" class="form-control input-lg">
+          </select>
+          <div class="input-group input-group-lg">
+            <span class="input-group-btn">
+              <button type="button" id="fromBtn" class="btn"></button>
+            </span>
+            <input type="text" id="fromInput" class="form-control">
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <select id="toFrom" class="form-control input-lg">
+          </select>
+          <div class="input-group input-group-lg">
+            <span class="input-group-btn">
+                <button type="button" id="toBtn" class="btn"></button>
+              </span>
+            <input type="text" id="toInput" class="form-control">
+          </div>
+        </div>
+      </form>
+    </div>
+    <div id="chartContainer">
+      <canvas id="trendChart"></canvas>
+    </div>
+  </div>
+  <script src="public/js/main.js" type="text/javascript"></script>
+  <script src="public/js/vendor.js" type="text/javascript"></script>
+  <script src="public/js/utils/jquery-3.2.1.min.js" type="text/javascript"></script>
+  <script src="public/js/utils/bootstrap.min.js" type="text/javascript"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="public/js/utils/ie10-viewport-bug-workaround.js" type="text/javascript"></script>
+</body>
+
+</html>
