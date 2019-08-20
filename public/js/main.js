@@ -44,6 +44,7 @@ if (navigator.serviceWorker) {
   let fromCurrencyValue;
   let toCurrencyValue;
   let apiUrl = 'https://free.currconv.com/api/v7'
+  let apiKey = 'eacfcc964bbe66064e80'
 
   /**
    * Calculates number of days backward
@@ -71,7 +72,7 @@ if (navigator.serviceWorker) {
    */
   window.addEventListener('load', (event) => {
     event.preventDefault();
-    fetch(`${apiUrl}/currencies`).then((response) => {
+    fetch(`${apiUrl}/currencies?apiKey=${apiKey}`).then((response) => {
       response.json()
         .then((data) => {
           currencies = data.results ? Object.values(data.results) : data;
@@ -191,7 +192,7 @@ if (navigator.serviceWorker) {
       return;
     }
     const query = `${fromCurrency[0].id}_${toCurrency[0].id},${toCurrency[0].id}_${fromCurrency[0].id}`;
-    const url = `${apiUrl}/convert?q=${query}&compact=ultra`;
+    const url = `${apiUrl}/convert?q=${query}&compact=ultra?apiKey=${apiKey}`;
     const key = `${fromCurrency[0].id}_${toCurrency[0].id}`;
     const fetchRate = fetch(url);
     fetchRate.then((response) => {
@@ -216,7 +217,7 @@ if (navigator.serviceWorker) {
       return;
     }
     const query = `${toCurrency[0].id}_${fromCurrency[0].id},${fromCurrency[0].id}_${toCurrency[0].id}`;
-    const url = `${apiUrl}/convert?q=${query}&compact=ultra`;
+    const url = `${apiUrl}/convert?q=${query}&compact=ultra?apiKey=${apiKey}`;
     const key = `${toCurrency[0].id}_${fromCurrency[0].id}`;
     const fetchRate = fetch(url);
     fetchRate.then((response) => {
