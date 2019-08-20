@@ -6,6 +6,7 @@
 class HandleRequest {
   constructor() {
     this.baseUrl = 'https://free.currconv.com/api/v7';
+    this.apiKey = 'eacfcc964bbe66064e80'
   }
 
   /**
@@ -16,7 +17,7 @@ class HandleRequest {
    * @returns { promise } response - network response
    */
   fetchCurrencies() {
-    return fetch(`${this.baseUrl}/currencies`)
+    return fetch(`${this.baseUrl}/currencies?apiKey=${this.apiKey}`)
       .then(response => response.json())
       .catch(error => console.log(error))
   }
@@ -33,7 +34,7 @@ class HandleRequest {
    */
   fetchHistoricalData(fromCurrency, toCurrency, startDate, endDate) {
     const query = `${fromCurrency}_${toCurrency},${toCurrency}_${fromCurrency}`;
-    const url = `${this.baseUrl}/convert?q=${query}&compact=ultra&date=${startDate}&endDate=${endDate}`
+    const url = `${this.baseUrl}/convert?q=${query}&compact=ultra&date=${startDate}&endDate=${endDate}?apiKey=${this.apiKey}`
     return fetch(url)
       .then((response) => {
         if (!response) return;
@@ -52,7 +53,7 @@ class HandleRequest {
    */
   fetchConversionRates(fromCurrency, toCurrency) {
     const query = `${fromCurrency}_${toCurrency},${toCurrency}_${fromCurrency}`;
-    const url = `${this.baseUrl}/convert?q=${query}&compact=ultra`;
+    const url = `${this.baseUrl}/convert?q=${query}&compact=ultra?apiKey=${this.apiKey}`;
     return fetch(url)
       .then((response) => {
         if (!response) return;
