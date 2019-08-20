@@ -5,7 +5,7 @@
  */
 class HandleRequest {
   constructor() {
-    this.baseUrl = 'https://free.currencyconverterapi.com/api/v5';
+    this.baseUrl = 'https://free.currconv.com/api/v7';
   }
 
   /**
