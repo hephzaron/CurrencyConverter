@@ -43,7 +43,7 @@ if (navigator.serviceWorker) {
   let toCurrency = [{ id: 'AFN' }];
   let fromCurrencyValue;
   let toCurrencyValue;
-  let apiUrl = 'https://free.currencyconverterapi.com/api/v5'
+  let apiUrl = 'https://free.currconv.com/api/v7'
 
   /**
    * Calculates number of days backward
